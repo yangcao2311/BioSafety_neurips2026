@@ -1,0 +1,3 @@
+[submodule "CrisprGPT/T_CRISPR/crispr-gpt-pub"]
+	path = CrisprGPT/T_CRISPR/crispr-gpt-pub
+	url = https://github.com/cong-lab/crispr-gpt-pub.git
