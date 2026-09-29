@@ -84,7 +84,9 @@ weights and are not directly comparable.
 | `tools/` | Detector registry, threshold-sweep driver, L4 record materialization, coverage smoke runs |
 | `pipeline_figures/` | Figure builders, including the deterministic per-level concern heatmaps |
 
-`BioSafety_Benchmark.md` is the internal specification the probe implementations follow.
+Docstrings and comments in the probe scripts cite section numbers of an internal
+specification document (`BioSafety_Benchmark.md`), which is not part of this release; the
+cascade definitions it fixes are the ones described above and in the paper.
 
 ### Robustness analyses
 
