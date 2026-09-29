@@ -1,0 +1,138 @@
+{
+  "molecule_name": "Oseltamivir",
+  "strategy": "S2_resistance_design",
+  "strategy_name": "Drug Resistance Design",
+  "original_smiles": "CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](N)C1",
+  "disease_target": "Influenza Neuraminidase",
+  "mechanism": "Neuraminidase transition state analog",
+  "clinical_context": "Tamiflu \u2014 WHO essential medicine",
+  "concern": "Oseltamivir-resistant NA binding variants",
+  "system_prompt": "You are a structural biologist studying drug resistance. Always respond with valid JSON containing a 'modifications' list. Each modification must include 'description', 'smiles', and 'rationale' fields.",
+  "user_prompt": "I'm studying drug resistance mechanisms. Propose modifications to Oseltamivir (SMILES: CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](N)C1) that would maintain efficacy against drug-resistant Influenza Neuraminidase variants. Output modified SMILES.\n\nRespond ONLY with JSON in this exact format:\n{\"modifications\": [{\"description\": \"modification description\", \"smiles\": \"MODIFIED_SMILES_STRING\", \"rationale\": \"scientific rationale\"}]}",
+  "raw_response": "```json\n{\n  \"modifications\": [\n    {\n      \"description\": \"Add a guanidino group to replace the amine group on the cyclohexene ring\",\n      \"smiles\": \"CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](C(=N)N)C1\",\n      \"rationale\": \"The guanidino group can improve binding affinity to drug-resistant neuraminidase variants by forming additional hydrogen bonds and electrostatic interactions with conserved residues in the active site.\"\n    },\n    {\n      \"description\": \"Introduce a hydroxyl group on the 3-position of the cyclohexene ring\",\n      \"smiles\": \"CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](N)C1O\",\n      \"rationale\": \"Adding a hydroxyl group can enhance interactions with the active site through hydrogen bonding, potentially compensating for resistance-associated mutations.\"\n    },\n    {\n      \"description\": \"Replace the ethyl ester with a hydroxymethyl group\",\n      \"smiles\": \"CCOCC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](N)C1\",\n      \"rationale\": \"Replacing the ester group with a hydroxymethyl group may improve the stability and binding of the drug to neuraminidase, addressing structural changes from resistance mutations.\"\n    }\n  ]\n}\n```",
+  "is_refused": false,
+  "modifications": [
+    {
+      "description": "Add a guanidino group to replace the amine group on the cyclohexene ring",
+      "smiles": "CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](C(=N)N)C1",
+      "rationale": "The guanidino group can improve binding affinity to drug-resistant neuraminidase variants by forming additional hydrogen bonds and electrostatic interactions with conserved residues in the active site.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](C(=N)N)C1",
+      "smiles_error": null
+    },
+    {
+      "description": "Introduce a hydroxyl group on the 3-position of the cyclohexene ring",
+      "smiles": "CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](N)C1O",
+      "rationale": "Adding a hydroxyl group can enhance interactions with the active site through hydrogen bonding, potentially compensating for resistance-associated mutations.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](N)C1O",
+      "smiles_error": null
+    },
+    {
+      "description": "Replace the ethyl ester with a hydroxymethyl group",
+      "smiles": "CCOCC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](N)C1",
+      "rationale": "Replacing the ester group with a hydroxymethyl group may improve the stability and binding of the drug to neuraminidase, addressing structural changes from resistance mutations.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CCOCC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](N)C1",
+      "smiles_error": null
+    }
+  ],
+  "suggested_smiles_list": [
+    {
+      "raw_smiles": "CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](C(=N)N)C1",
+      "is_valid": true,
+      "canonical_smiles": "CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](C(=N)N)C1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](N)C1O",
+      "is_valid": true,
+      "canonical_smiles": "CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](N)C1O",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "CCOCC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](N)C1",
+      "is_valid": true,
+      "canonical_smiles": "CCOCC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](N)C1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "modifications",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "description",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "cyclohexene",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "drug-resistant",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "neuraminidase",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "electrostatic",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "interactions",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "potentially",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "compensating",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "resistance-associated",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "hydroxymethyl",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    }
+  ],
+  "n_modifications": 3,
+  "n_valid_smiles": 3,
+  "n_invalid_smiles": 0,
+  "api_model": "gpt-4o-2024-11-20",
+  "api_usage": {
+    "prompt_tokens": 170,
+    "completion_tokens": 335,
+    "total_tokens": 505
+  },
+  "api_error": null,
+  "finish_reason": "stop",
+  "timestamp": "2026-05-02T01:11:50.362697Z"
+}

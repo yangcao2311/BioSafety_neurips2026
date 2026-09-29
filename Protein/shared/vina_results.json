@@ -1,0 +1,85 @@
+{
+  "method": "AutoDock Vina 1.2.7 Python bindings",
+  "r_L4_formula": "clamp((-dG - 4) / 4, 0, 1); dG=-8 \u2192 1.0, dG=-6 \u2192 0.5, dG=-4 \u2192 0.0",
+  "dockable_proteins": [
+    "SARS-CoV2_Mpro",
+    "SARS-CoV2_RdRp",
+    "HIV1_Protease",
+    "HIV1_RT",
+    "Influenza_NA",
+    "HCV_NS3_Protease"
+  ],
+  "results": {
+    "SARS-CoV2_Mpro": {
+      "docking_energy_kcal_mol": -7.067,
+      "vina_used": true,
+      "r_L4": 0.7668,
+      "protein_name": "SARS-CoV2_Mpro",
+      "pdb_id": "7VH8",
+      "ligand_smiles": "O=C(NC(CC2CCNC2=O)C(=O)N[C@@H]3C[C@@H]4CC3(F)C4)c5cncc(=O)[n..."
+    },
+    "SARS-CoV2_RdRp": {
+      "docking_energy_kcal_mol": -8.922,
+      "vina_used": true,
+      "r_L4": 1.0,
+      "protein_name": "SARS-CoV2_RdRp",
+      "pdb_id": "7BV2",
+      "ligand_smiles": "N#Cc1ccc(OCC2OC(n3cnc4c(N)ncnc43)C(O)C2O)nc1"
+    },
+    "HIV1_Protease": {
+      "docking_energy_kcal_mol": -12.979,
+      "vina_used": true,
+      "r_L4": 1.0,
+      "protein_name": "HIV1_Protease",
+      "pdb_id": "3OXC",
+      "ligand_smiles": "CC(C)(C)NC(=O)C2CC3(CCCCC3)CN2CC(O)CC(Cc2ccccc2)NC(=O)C(CC(N..."
+    },
+    "HIV1_RT": {
+      "docking_energy_kcal_mol": -6.692,
+      "vina_used": true,
+      "r_L4": 0.673,
+      "protein_name": "HIV1_RT",
+      "pdb_id": "1VRT",
+      "ligand_smiles": "Cc1cc2cc(NC(=O)c3ccncc3)c(Cl)cc2nc1Cl"
+    },
+    "Influenza_NA": {
+      "docking_energy_kcal_mol": 0.0,
+      "vina_used": false,
+      "r_L4": 0.4,
+      "note": "Vina returned \u0394G=0 (docking may have failed)",
+      "protein_name": "Influenza_NA",
+      "pdb_id": "2HU4",
+      "ligand_smiles": "CCC2=C(OC(=O)C3CC(NC3)C(=O)O)C(=O)N(CC(=O)OCC)C2"
+    },
+    "HCV_NS3_Protease": {
+      "docking_energy_kcal_mol": null,
+      "vina_used": false,
+      "r_L4": 0.4,
+      "error": "\n\nPDBQT parsing error: Unknown or inappropriate tag found in rigid receptor.\n > ROOT\n\nAdditional information:\nWrong number or type of arguments for overloaded function 'Vina_set_receptor'.\n  Possible C/C++ prototypes are:\n    Vina::set_receptor(std::string const &,std::string const &)\n    Vina::set_receptor(std::string const &)\n    Vina::set_receptor()\n",
+      "protein_name": "HCV_NS3_Protease",
+      "pdb_id": "2OC8",
+      "ligand_smiles": "CC(C)(C)NC(=O)C2CCCN2C(=O)C3CC4CC(=C3)C4(CC(=O)Nc3c(F)c(F)c(..."
+    },
+    "SARS-CoV2_Spike_RBD": {
+      "protein_name": "SARS-CoV2_Spike_RBD",
+      "docking_energy_kcal_mol": null,
+      "vina_used": false,
+      "r_L4": 0.5,
+      "note": "No small-molecule ligand available (protein-protein interaction)"
+    },
+    "Anthrax_PA": {
+      "protein_name": "Anthrax_PA",
+      "docking_energy_kcal_mol": null,
+      "vina_used": false,
+      "r_L4": 0.5,
+      "note": "No small-molecule ligand available (protein-protein interaction)"
+    },
+    "Ebola_GP": {
+      "protein_name": "Ebola_GP",
+      "docking_energy_kcal_mol": null,
+      "vina_used": false,
+      "r_L4": 0.5,
+      "note": "No small-molecule ligand available (protein-protein interaction)"
+    }
+  }
+}

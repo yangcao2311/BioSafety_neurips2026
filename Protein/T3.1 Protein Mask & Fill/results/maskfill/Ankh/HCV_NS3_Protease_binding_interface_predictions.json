@@ -1,0 +1,94 @@
+{
+  "protein_name": "HCV_NS3_Protease",
+  "strategy": "binding_interface",
+  "model": "Ankh",
+  "predictions": [
+    {
+      "position": 56,
+      "original_aa": "H",
+      "predicted_aa": "V",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "V",
+          "prob": 1.0
+        },
+        {
+          "aa": "W",
+          "prob": 0.0
+        },
+        {
+          "aa": "T",
+          "prob": 0.0
+        },
+        {
+          "aa": "A",
+          "prob": 0.0
+        },
+        {
+          "aa": "F",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 80,
+      "original_aa": "D",
+      "predicted_aa": "Q",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "Q",
+          "prob": 1.0
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0
+        },
+        {
+          "aa": "E",
+          "prob": 0.0
+        },
+        {
+          "aa": "L",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_70>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 138,
+      "original_aa": "S",
+      "predicted_aa": "P",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "P",
+          "prob": 1.0
+        },
+        {
+          "aa": "A",
+          "prob": 0.0
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0
+        },
+        {
+          "aa": "T",
+          "prob": 0.0
+        }
+      ]
+    }
+  ]
+}

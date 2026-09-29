@@ -1,0 +1,123 @@
+{
+  "protein_name": "HIV1_RT",
+  "strategy": "binding_interface",
+  "model": "ProtBERT",
+  "predictions": [
+    {
+      "position": 64,
+      "original_aa": "Q",
+      "predicted_aa": "Q",
+      "prob": 0.9736,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "Q",
+          "prob": 0.9736
+        },
+        {
+          "aa": "H",
+          "prob": 0.0212
+        },
+        {
+          "aa": "R",
+          "prob": 0.0027
+        },
+        {
+          "aa": "E",
+          "prob": 0.0013
+        },
+        {
+          "aa": "K",
+          "prob": 0.0011
+        }
+      ]
+    },
+    {
+      "position": 109,
+      "original_aa": "K",
+      "predicted_aa": "K",
+      "prob": 0.981,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "K",
+          "prob": 0.981
+        },
+        {
+          "aa": "R",
+          "prob": 0.0088
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0043
+        },
+        {
+          "aa": "T",
+          "prob": 0.003
+        },
+        {
+          "aa": "N",
+          "prob": 0.0029
+        }
+      ]
+    },
+    {
+      "position": 150,
+      "original_aa": "T",
+      "predicted_aa": "T",
+      "prob": 0.9998,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "T",
+          "prob": 0.9998
+        },
+        {
+          "aa": "A",
+          "prob": 0.0001
+        },
+        {
+          "aa": "S",
+          "prob": 0.0001
+        },
+        {
+          "aa": "P",
+          "prob": 0.0
+        },
+        {
+          "aa": "I",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 183,
+      "original_aa": "L",
+      "predicted_aa": "L",
+      "prob": 0.998,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "L",
+          "prob": 0.998
+        },
+        {
+          "aa": "I",
+          "prob": 0.001
+        },
+        {
+          "aa": "M",
+          "prob": 0.0005
+        },
+        {
+          "aa": "F",
+          "prob": 0.0003
+        },
+        {
+          "aa": "V",
+          "prob": 0.0002
+        }
+      ]
+    }
+  ]
+}

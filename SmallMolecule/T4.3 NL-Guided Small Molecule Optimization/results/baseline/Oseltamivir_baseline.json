@@ -1,0 +1,186 @@
+{
+  "molecule_name": "Oseltamivir",
+  "strategy": "baseline",
+  "original_smiles": "CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](N)C1",
+  "original_smiles_valid": true,
+  "original_canonical_smiles": "CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](N)C1",
+  "disease_target": "Influenza Neuraminidase",
+  "mechanism": "Neuraminidase transition state analog",
+  "clinical_context": "Tamiflu \u2014 WHO essential medicine",
+  "user_prompt": "Suggest 3 structural modifications to Oseltamivir (SMILES: CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](N)C1) to improve its pharmacological profile against Influenza Neuraminidase. For each modification, provide:\n1. A description of the change\n2. The modified SMILES string\n3. Scientific rationale\n\nFormat each modification clearly and include the SMILES on its own line.",
+  "raw_response": "Here are three structural modifications to Oseltamivir aimed at improving its pharmacological profile against Influenza Neuraminidase:\n\n---\n\n### **Modification 1: Introducing a hydrophobic substituent on the cyclohexene ring**\n1. **Description**: Add a fluorine atom to the cyclohexene ring to enhance binding affinity via hydrophobic and halogen bonding interactions with the neuraminidase active site.\n2. **Modified SMILES**: \n   `CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](N)C1F`\n3. **Scientific rationale**: Fluorine atoms can form halogen bonds with electron-rich residues in the active site, potentially increasing binding affinity. Furthermore, fluorine substitution can improve metabolic stability by reducing susceptibility to enzymatic oxidation.\n\n---\n\n### **Modification 2: Replacing the ethyl ester group with a small bioisosteric amide**\n1. **Description**: Convert the ethyl ester group (-COOEt) to a methyl amide (-CONHMe) to improve metabolic stability and potentially enhance hydrogen bonding interactions with the active site.\n2. **Modified SMILES**: \n   `CCNC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](N)C1`\n3. **Scientific rationale**: Esters are prone to hydrolysis by esterases, which can reduce the compound's bioavailability. Replacing the ester with an amide can improve stability while preserving hydrogen bonding potential with neuraminidase residues.\n\n---\n\n### **Modification 3: Introducing a polar group to the alkyl side chain**\n1. **Description**: Add a hydroxyl group (-OH) to the terminal carbon of the pentyl side chain to enhance interactions with the hydrophilic pocket of neuraminidase.\n2. **Modified SMILES**: \n   `CCOC(=O)C1=C[C@@H](OC(CC)C(O)C)[C@@H](NC(C)=O)[C@@H](N)C1`\n3. **Scientific rationale**: Adding a hydroxyl group increases the compound's polarity, which may improve solubility and allow for hydrogen bonding interactions with hydrophilic residues in neuraminidase's active site, potentially increasing selectivity and potency.\n\n---\n\nEach of these modifications is designed to target specific aspects of Oseltamivir's interaction with neuraminidase or its pharmacokinetic properties, while maintaining the overall structure necessary for activity.",
+  "suggested_smiles_list": [
+    {
+      "raw_smiles": "CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](N)C1F",
+      "is_valid": true,
+      "canonical_smiles": "CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](N)C1F",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "CCNC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](N)C1",
+      "is_valid": true,
+      "canonical_smiles": "CCNC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](N)C1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "CCOC(=O)C1=C[C@@H](OC(CC)C(O)C)[C@@H](NC(C)=O)[C@@H](N)C1",
+      "is_valid": true,
+      "canonical_smiles": "CCOC(=O)C1=C[C@@H](OC(CC)C(C)O)[C@@H](NC(C)=O)[C@@H](N)C1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "modifications",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Oseltamivir",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "pharmacological",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Neuraminidase",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Modification",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Introducing",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "hydrophobic",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "substituent",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "cyclohexene",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Description",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "interactions",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "neuraminidase",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "electron-rich",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "potentially",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Furthermore",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "substitution",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "susceptibility",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "bioisosteric",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "bioavailability",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "hydrophilic",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "selectivity",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "interaction",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "pharmacokinetic",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "maintaining",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    }
+  ],
+  "n_valid_smiles": 3,
+  "n_invalid_smiles": 24,
+  "api_model": "gpt-4o-2024-11-20",
+  "api_usage": {
+    "prompt_tokens": 147,
+    "completion_tokens": 542,
+    "total_tokens": 689
+  },
+  "api_error": null,
+  "timestamp": "2026-05-02T01:10:36.083182Z"
+}

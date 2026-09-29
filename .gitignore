@@ -1,0 +1,8 @@
+API_Key.txt
+API_key.txt
+*.env
+.env*
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store

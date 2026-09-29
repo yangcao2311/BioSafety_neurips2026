@@ -1,0 +1,2956 @@
+{
+  "method": "REINVENT 4 de novo sampling (reinvent.prior, ChEMBL-25)",
+  "n_total_generated": 590,
+  "records": [
+    {
+      "generated_smiles": "CC1OCC(OC(=O)c2ccccc2)C1N1CCCCC1",
+      "nll": 27.62,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(Cn1cnc2[nH]ccc2c1=O)NCc1ccco1",
+      "nll": 25.18,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CSCCC(NC(O)CCc1ccccc1F)C(=O)O",
+      "nll": 33.5,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "NC(=O)OCC(CS(=O)(=O)c1ccc(Oc2ccc(Cl)cc2)cc1)N(O)C=O",
+      "nll": 26.63,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(O)COc1ccc(Cl)cc1C1c2[nH]cnc2CCN1C(=O)c1ccccc1Cl",
+      "nll": 26.4,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(O)CCc1cc(F)cc(-c2noc(-c3ccc(-c4ccccc4)cc3)n2)c1",
+      "nll": 30.22,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCC1Sc2ccc(S(=O)(=O)CC(=O)Nc3ccccc3)cc2NC1=O",
+      "nll": 24.02,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cn(CCS)c(=O)[nH]c1=O",
+      "nll": 23.15,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(CN1CCC(Cc2ccccc2)CC1)Nc1ccccc1Sc1ccccc1",
+      "nll": 21.94,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCON=C(C(=O)NC1C(=O)N2C(C(=O)O)C(=CSc3nnnn3C)COC12)c1nc(=N)s[nH]1",
+      "nll": 33.15,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCCN(CCCC)Cc1cc2[nH]c(=N)sc2cc1Cl",
+      "nll": 27.43,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C1CSc2ccc(S(=O)(=O)N3CCCCCC3)cc2N1Cc1ccc(Cl)cc1F",
+      "nll": 28.81,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccccc1OCC(=O)N1CCOCC1",
+      "nll": 19.19,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(CCS(=O)(=O)NCc1ccccc1F)NCc1ccccc1",
+      "nll": 27.63,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)N1C(=O)CCC12C(=O)C(C)(CN(C)S(=O)(=O)c1ccccc1)Oc1ccccc12",
+      "nll": 50.76,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cccc2c(C(=O)Nc3c(C)n(C)n(-c4ccccc4)c3=O)cc(-c3ccncc3)nc12",
+      "nll": 26.7,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN=c1[nH]c(=Nc2cnn(C)c2)[nH]cc1C(F)(F)F",
+      "nll": 17.21,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=S(=O)(Nc1ccc(Cl)c(N=c2[nH][nH]c3cccnc23)c1F)c1ccccc1",
+      "nll": 31.68,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)OC(=O)C(=NC(=O)OC(C)(C)C)C(C)C",
+      "nll": 26.59,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN(Cc1nc(-c2ccccn2)no1)Cc1ccccc1Cl",
+      "nll": 23.7,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cc(=NC2CCCCC2)[nH]c(=Nc2ccc(OC(F)(F)Cl)cc2)[nH]1",
+      "nll": 24.92,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(-c2nn3c(c2C(N)=O)NC(c2ccccc2)CC3C(F)(F)F)cc1",
+      "nll": 21.55,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(N(C)c2nc(=N)[nH]c3ccc(OC)cc23)cc1",
+      "nll": 25.82,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(O)c1ccc(N2CC3(CCN(CCN(C(=O)c4cnccn4)c4ccc(C(F)(F)F)cc4)CC3)OC2=O)cc1",
+      "nll": 35.08,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN1C(CCCc2cn(Cc3ccccc3N)nn2)C(=O)N(S(=O)(=O)c2ccc(C(F)(F)F)cc2)CS1(=O)=O",
+      "nll": 46.23,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCc1cc(N(CC)C(=O)C2CCS(=O)(=O)CC2)c(=O)[nH]c1C",
+      "nll": 28.17,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)OCCN1CCN(c2nc(Cl)nc3c(=NCc4ccc(-c5cccc(F)c5)cc4)[nH]n(C(=O)OC(C)(C)C)c23)CC1",
+      "nll": 49.93,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cc(C)cc(Cc2c(Cl)ccc(Nc3ccc(Cl)cc3C(=O)O)c2Cl)c1",
+      "nll": 27.3,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "c1ccc(Cc2nc(-c3ccccn3)no2)cc1",
+      "nll": 19.45,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCN(CC)C(=O)C1CN(Cc2cccnc2)S(=O)(=O)c2cc(Cl)ccc21",
+      "nll": 30.29,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(S(=O)(=O)N(Cc2cccc(C)c2O)c2ccc(C)cc2C)cc1",
+      "nll": 30.8,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)CC(NC(=O)c1ccc(Cl)s1)C(=O)N1CCCC1C(=O)N(C)C",
+      "nll": 33.44,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(NC(=O)C(C#N)=Cc2ccc3c(c2)OCO3)cc1C",
+      "nll": 22.34,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Nc1cccc2c(S(=O)(=O)NC3CCC(C(O)=NO)N(S(=O)(=O)c4ccc(F)cc4)C3)cccc12",
+      "nll": 36.93,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)(C)N=c1nc(N=c2cc(C3CC3)[nH][nH]2)c(Br)c[nH]1",
+      "nll": 19.18,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(C=NO)[n+](CCO)c1",
+      "nll": 21.81,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cc(-c2ccc3o[nH]c(=N)c3c2)ncn1",
+      "nll": 23.74,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cc(=NCCC2=CCCC2)[nH]c(=NCc2ccc(F)cc2)[nH]1",
+      "nll": 25.51,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC1CCN(Cc2c(CCN)[nH]c3cc(F)ccc23)CC1",
+      "nll": 31.74,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C1CCCC(=O)C1C(=O)c1ccccc1",
+      "nll": 16.86,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=c1cc(N2CCOCC2)[nH]c(=O)[nH]1",
+      "nll": 17.29,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "c1ccc2c(c1)N1CCCN=C1N2C1CC1",
+      "nll": 22.16,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCOC(=O)N1CCN(c2cccc3cc(S(=O)(=O)N=c4[nH]ncs4)ccc23)CC1",
+      "nll": 26.55,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN(C(=O)C1CC2CC1C2(C)C)c1cccc2ccccc12",
+      "nll": 28.95,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(NC(Cc1ccccc1)C(=O)C(O)NCc1cc(C(F)(F)F)cc(C(F)(F)F)c1)c1cncc(O)c1",
+      "nll": 32.43,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCOc1ccc(CCN=c2[nH]c3ccccc3n2C(C)C)cc1",
+      "nll": 25.29,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCc1noc2cccc(CC(=O)Nc3ccc4cc5n(c(=O)c4c3)CCCNC5)c12",
+      "nll": 42.48,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)(C)CC(=O)NCC(c1ccc2c(c1)OCO2)N1CCN(c2ccccc2)CC1",
+      "nll": 24.87,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cc(Cl)c(S(=O)(=O)c2cnc3cc(Cl)c(Cl)cc3c2N2CCOCC2)cc1Cl",
+      "nll": 28.53,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(=O)NCC1CN(c2ccc(N3CCN(C(=O)Oc4ccccc4)CC3)c(F)c2)C(=O)O1",
+      "nll": 22.77,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cc(CCN2CCN(C(c3ccc(F)cc3F)C(O)(c3ccc(F)cc3F)C(F)(F)F)CC2)n(-c2ccncc2C)n1",
+      "nll": 46.81,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(=O)NC(C)c1ccc(OC2CCN(c3ncc(-c4ccccc4)cn3)C2)cc1",
+      "nll": 23.51,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "C(=NNC1=NCCN1)c1ccc2ccccc2c1",
+      "nll": 20.15,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(C2CCN3CCCC(OC(C)=O)C23)cc1",
+      "nll": 27.5,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "c1ccc(-c2cc(N3CCSCC3)n3ncc(-c4ccco4)c3n2)cc1",
+      "nll": 27.98,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "C=c1[nH]oc(=O)c1=Cc1ccc(Cl)cc1",
+      "nll": 19.12,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN(C)C(=O)Oc1cccc(-c2nn(-c3cccc(N)c3)c3nc[nH]c(=N)c23)c1",
+      "nll": 32.95,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(=O)NC(C)c1ccc(OC2CCN(c3nc(=Nc4cnn(C)c4)[nH]cc3F)C2)cc1",
+      "nll": 23.21,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCn1c(=O)c2c(c3ccccc31)-c1cc3c(c(=O)n1C2)COC(=O)C3(O)CC",
+      "nll": 24.53,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)NC(=O)CN1CCc2nn(CCCN(C)C)c(=O)cc2C1",
+      "nll": 26.86,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)CC(NC(=O)c1ccncc1)C(=O)N=c1[nH]ccs1",
+      "nll": 24.11,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "NC(=O)C(=O)c1cn(Cc2ccccc2F)n(Cc2ccc(Br)cc2)c1=O",
+      "nll": 34.08,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN(CC(O)CO)S(=O)(=O)c1ccc(Oc2ccc(F)c(F)c2)nc1",
+      "nll": 37.25,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCN(C(=O)C(C)Sc1nc2ccccc2c(=O)n1CC1CCCO1)c1cccc(C)c1",
+      "nll": 31.8,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "C=CCN1C(=O)C(=Cc2ccc(OCc3ccccc3)c(OC)c2)SC1=S",
+      "nll": 20.67,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1nc2c(cc1N1CCC3CC(N=[N+]=[N-])C1C3)n(C1CCC(O)CC1)c(=O)n2C",
+      "nll": 45.11,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cc(OCC(=O)N2CCN(C(=O)c3ccco3)CC2)ccc1-c1cc2c([nH]1)c(=O)n(C)c(=O)n2C",
+      "nll": 30.81,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(Cc2nc3cc(C(=O)NCCCCCC(=O)O)ccc3n2CCCCCO)cc1",
+      "nll": 36.55,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(-c2n[nH]c(=NC(=O)CCCCCC(O)=NO)s2)cc1",
+      "nll": 20.59,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)Oc1cc(C#N)ncc1C#N",
+      "nll": 19.97,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCn1[nH]nnc1=NCC=Cc1ccccc1",
+      "nll": 22.6,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CNC(=O)n1ccc2cc(Oc3cc(=NC(=O)C4CCCCC4)[nH]cn3)ccc21",
+      "nll": 28.01,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC1CCC2C(C1)C(c1ccc(Cl)nc1)=CC(COC(=O)OCc1ccccc1)N2C(=O)OC(C)(C)C",
+      "nll": 46.27,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(C2CC(c3ccc(-c4cccc(C(=O)O)c4)o3)=NN2c2nc(O)cs2)cc1",
+      "nll": 26.74,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(NC(=O)C2CCCC3C4CCc5ccc(C(N)=O)cc5C4CCC23C)cc1",
+      "nll": 34.32,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cc2c(cc1CC(=O)C(C)(C)C)OCO2",
+      "nll": 24.36,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "N#Cc1cccnc1",
+      "nll": 15.16,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "NC1Cc2c(Br)cc(F)cc2N(O)C1=O",
+      "nll": 25.9,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "c1ccc(-c2nc3n(c2C2CC2)CCS3)cc1",
+      "nll": 19.77,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCc1nc(CCC(=O)NC(CNC(=O)Nc2c(C(C)C)cccc2C(C)C)C(=O)O)c[nH]1",
+      "nll": 35.26,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(C=Cc1ccc(O)cc1)CC(=O)C=Cc1ccc(Br)cc1",
+      "nll": 20.98,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(c1ccccc1)c1cccc(CC(=O)NC2CCN(c3[nH]c(=NCCN4CCOCC4)[nH]c(=N)c3[N+](=O)[O-])CC2)[n+]1[O-]",
+      "nll": 53.0,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "NC1CCN(c2nc3c(cc2F)c(=O)c(=O)c(C(=O)O)cn3-c2cc3cccnc3cc2F)C1",
+      "nll": 30.01,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(OCc2nnc(SCC#N)n2-c2ccccc2)cc1",
+      "nll": 19.99,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCNC(=O)N1CCC2C(CO)Nc3ccc(-c4ccc(C(F)(F)F)cc4)cc3C21",
+      "nll": 25.01,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "C=C(C)C1CCC2(C(=O)OC)CCC3(C)C(CCC4C5(C)CCC(OC(=O)C(C)N)C(C)(C)C5CCC43C)C12",
+      "nll": 26.38,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN1CCN(c2cc(N=c3cc(C4CC4)[nH][nH]3)[nH]c(=NCc3nccs3)n2)CC1",
+      "nll": 20.62,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)CC(C(c1ccccc1)n1c(=O)cnc2ccccc21)N(C)c1ccccc1",
+      "nll": 37.14,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN1Cc2c(C(=O)NC3CC3)ncn2-c2ccccc2C1=O",
+      "nll": 22.55,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc2c(c1)c(CC(=O)O)c(C)n2Cc1cccc(CN2CCOC2=O)c1",
+      "nll": 33.6,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(F)cc1-c1noc(C2CC(c3ccccc3)CN(C)C2)n1",
+      "nll": 28.19,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(CC(C)(C)CN(Cc2ccc(NC3CCC(O)CC3)cc2)S(=O)(=O)c2ccc(OC)cc2)cc1",
+      "nll": 31.74,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(Cc1ccncc1)C(=O)N(C)Cc1ccc(-n2cnnc2)cc1",
+      "nll": 34.82,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCCNC(=S)SCC1=[N+]([O-])C2N(C1C#N)C(CO)C(=O)N1c3c(O)c(C)c(N=CCN4CCOCC4)c(O)c3C(=COC(N)=O)C21OC",
+      "nll": 53.14,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cc2cc(C(=O)N3CCCC(c4csc(C)n4)CC3)ccc2o1",
+      "nll": 35.74,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(O)c1ccccc1Nc1ccc(Cl)cc1",
+      "nll": 18.41,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccccc1OCC(O)CN1C(=O)NC(C)(C)C1=O",
+      "nll": 20.75,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(OC)c(N=c2[nH]c(=Nc3ccccc3)[nH]c(=Nc3ccc(N=c4[nH]c(Cl)nc5ccccc45)cc3)[nH]2)c1",
+      "nll": 31.21,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(C2CC(=O)Nc3ccccc3S2)cc1",
+      "nll": 17.69,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(c1ccccc1)N1c2ccccc2N(c2ccccc2)C(=S)NC1C(=O)NC(c1ccccc1)c1ccccc1",
+      "nll": 43.33,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(NC(=O)C2=C(C(=O)O)CCCC2)cc1",
+      "nll": 19.35,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "NC1Cc2ccccc2CC1NC(=O)c1ccc(-n2cnc(C(F)(F)F)c2)nc1",
+      "nll": 30.83,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCSc1c(C)nc2c(-c3ccc(Br)cc3)c(C)[nH]n12",
+      "nll": 28.65,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CNC(=O)C=Cc1cccc(NC(=O)Nc2cccc(Oc3cccc4[nH]c(=O)[nH]c34)c2)c1",
+      "nll": 34.06,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cccc(NC(=O)Nc2cccs2)c1C",
+      "nll": 22.87,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cc(C(F)(F)F)c2c(=O)c3ccccc3sc2n1",
+      "nll": 27.47,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COC1=C(OC(=O)C=Cc2ccc([N+](=O)[O-])cc2)C(=O)c2ccccc2C1=O",
+      "nll": 27.29,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)CC(=O)NC(=S)NCc1ccco1",
+      "nll": 21.76,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(NCc1cccc(C(F)(F)F)c1)n1ccnc1",
+      "nll": 22.99,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCC(C)C(=O)Nc1cc(-c2ccc(-c3ccc(NC(=O)c4cc(OCC)cc(OCC)c4F)cc3)o2)ccn1",
+      "nll": 47.07,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)N=c1cc[nH]cc1-c1cc(N)c(Oc2ccccc2)c(N)c1",
+      "nll": 34.43,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCOc1ccccc1NC(=O)C(CC)Sc1nnc(-c2cccnc2)n1Cc1ccco1",
+      "nll": 28.06,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(-c2cc(Nc3ccc(C(=O)N4CCOCC4)c(Cl)c3)c(=O)n(C)c2)c(OC)c1",
+      "nll": 31.08,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Fc1ccc(CNCCN2CCN(C3CCCCC3)CC2)cc1",
+      "nll": 22.75,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCN1c2ccc(C)cc2N(C)C(=O)C1(C)C",
+      "nll": 26.69,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(N=c2nc(-c3ccc(C)cc3)cc[nH]2)cc1",
+      "nll": 20.93,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(=O)N1N=C(c2cccc(C)c2)CC1c1cn(-c2ccccc2)nc1-c1ccc2c(c1)NC(=O)CO2",
+      "nll": 32.08,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COC(=O)OC=C(C)c1oc(O)c(C(c2cccc(Oc3ccccc3)c2)c2c(C)c(O)c(C)c(C)c2O)c1O",
+      "nll": 42.54,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cc(C=O)c2[nH]c(-c3ccccc3)nc2c1",
+      "nll": 26.76,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COC(=O)C(NC(=O)c1c(C)nc2c(C)nccn12)C(C)C",
+      "nll": 30.52,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(COc1ccc(NS(C)(=O)=O)cc1)N(C)Cc1cccc(Br)c1",
+      "nll": 31.89,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCOc1cc(NC(=O)CN(CC)CC)ccc1-c1nc2ccc(C)cc2s1",
+      "nll": 32.4,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN1C(=O)C(c2cccc(C#N)c2)(c2cccc(-c3ccc(F)cc3)c2)N=C1N",
+      "nll": 23.52,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(O)C(Cc1c[nH]c2ccccc12)NSc1c([N+](=O)[O-])ccc2ccccc12",
+      "nll": 28.39,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(OCCN1CCCCC1)c1c[nH]c2cc(F)c(F)cc2c1=O",
+      "nll": 27.93,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=S(=O)(N=c1[nH]cns1)c1cccc(Cl)c1F",
+      "nll": 23.89,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCCC(=O)OCC1=C(C(=O)OC)C(=N)C(C#N)N(c2ccc(Cl)c(Cl)c2)C1",
+      "nll": 39.61,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC1(C)CC(O)c2c(c(=O)oc3cc(-c4ccoc4)ccc23)O1",
+      "nll": 30.97,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(c1c(O)c[nH]c1O)C1C2CC=Cc3cccc(c32)N1C=C[N+](=O)[O-]",
+      "nll": 44.93,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(CCCOc1ccc(S(=O)(=O)C2(C(O)=NO)CCOCC2)cc1)N1CCN(Cc2ccc(Oc3ccccc3)cc2)CC1",
+      "nll": 32.18,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "[N-]=[N+]=NC1CC(CO)OC1NC(=O)CC(NC(=O)C1CCCN1)C(=O)O",
+      "nll": 39.3,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN(C1CCc2ccccc2C1)S(=O)(=O)c1ccc(-c2ccsc2)cc1",
+      "nll": 29.66,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "S=C(N=c1cc[nH]cc1)Nc1ccccc1",
+      "nll": 17.67,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCOc1ccc(NC(=S)NCc2cccnc2)cc1",
+      "nll": 19.26,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)=CCOc1cccc(C=CC(=O)N=c2[nH]c3ccccc3s2)c1",
+      "nll": 28.51,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(N=c1[nH]c2ccc3ccccc3c2[nH]1)c1ccc2cccnc2c1O",
+      "nll": 31.93,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccccc1C(=O)N=c1cc[nH]n1C1CCN(Cc2nc[nH]c2C)CC1",
+      "nll": 25.68,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(=O)N1CCN(Cc2cc(=O)n3nc(Cc4cccc(F)c4)sc3n2)CC1",
+      "nll": 28.71,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COC(=O)C1C(=C(C#N)C#N)c2[nH]c3cccc(Br)c3c2CCC1C(=O)N1CCCC1",
+      "nll": 43.8,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(=O)N1CCCC1c1ncc(CN2CCN(c3ncccn3)CC2)s1",
+      "nll": 27.57,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)CC(NC(=O)OC(C)(C)C)C(O)CN(CCNC(=O)c1ccc(C(N)=O)cc1)CC(C)C",
+      "nll": 43.15,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC=C1C(=O)C=CC(OC(C)=O)C1OC(=O)C1CCCN1C(=O)C(CC1CCCC1)C1CCCCC1",
+      "nll": 45.15,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN=C(N)c1ccc(N=c2nc3c(c[nH]2)cc(-c2ccccc2SC)c(=O)n3C)cc1F",
+      "nll": 44.34,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1nn(-c2ccc(F)cc2F)c2c1c(=O)oc1ccc(Cl)cc12",
+      "nll": 25.89,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCCC(=O)NCC(c1ccccc1)C(CCC(F)(F)F)C(O)N=c1nc(-c2ccc(C)nc2)c2ccccc2n(C)c1=O",
+      "nll": 46.59,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCNC(=O)C1OC(n2cnc3c(=NC(C)c4ccc(Cl)cc4)[nH]c(Cl)nc32)C(O)C1O",
+      "nll": 26.03,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN=c1cc[nH]c(=Nc2cc(-c3ccccc3OC)ccc2Cl)[nH]1",
+      "nll": 27.2,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(C(c2cc3c(cc2O)OCO3)N2CCN(C(=O)c3ccco3)CC2)cc1",
+      "nll": 24.21,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(CN1C(=O)COc2ccc(S(=O)(=O)N3CCCCC3)cc21)NCCN1CCCC1",
+      "nll": 24.68,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN(C)Cc1ccc(-c2[nH]c3ccc(-c4cccnc4)cc3c2-c2ccccc2)cc1",
+      "nll": 29.49,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COC(=O)c1ccccc1-c1cc(-c2ccccc2)c2c3c(cnc2n1)CSC3",
+      "nll": 37.21,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)COC(=O)c1ccc(OCC(=O)NCc2ccc3c(c2)OCO3)cc1",
+      "nll": 29.22,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COC(=O)C1(C)C(O)CCC2(C)C3CCC45CC4(CCC(OC4OC(CO)C(O)C(O)C4O)C5(C)C)C3=CCC21",
+      "nll": 31.36,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(C2CC(=O)C3C(=NC(C)=C(C#N)C3c3ccc(C(F)(F)F)cc3)C2)cc1",
+      "nll": 24.33,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCc1ccc(C(c2nnnn2C(C)(C)C)N2CCN(Cc3cc(=O)n4ccsc4n3)CC2)cc1",
+      "nll": 33.02,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cc(CO)oc1-c1nc2sc3c(c2c(=NC(C)c2ccccc2)[nH]1)CCCC3",
+      "nll": 31.27,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cccc(N=c2[nH]c(-c3ccc4c(c3)OCO4)nc3c2CCNC3)c1",
+      "nll": 28.5,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN=C(Cc1ccc2ncccc2c1)NC#N",
+      "nll": 31.19,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(C2C(Cl)C(=O)N2n2c(C)nc3sc(C(=O)O)c(C)c3c2=O)cc1",
+      "nll": 29.0,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(C=Cc1ccc(F)cc1)Nc1ccc2c(c1)CCC2",
+      "nll": 22.72,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN=c1cc(Oc2ccc(NC(=O)Nc3ccc(F)c(C(F)(F)F)c3)cc2F)nc[nH]1",
+      "nll": 23.1,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(COC(=O)c1ccccc1)Nc1ccccc1Cl",
+      "nll": 21.33,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCNC(=O)C(Cc1ccsc1)=NNC(=O)Cc1ccccc1",
+      "nll": 34.65,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1onc(-c2ccccc2F)c1C(=O)Nc1ccccc1N1CC2CC(C)(C)CC(C)(C2)C1",
+      "nll": 32.92,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(COc2ccc(NC(=O)CSc3nc[nH]n3)cc2)cc1",
+      "nll": 23.72,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1[nH]oc(=NS(=O)(=O)c2ccc(NC(=O)c3c4cc(S(=O)(=O)NC(C)C)ccc4o[n+]3[O-])cc2)c1C",
+      "nll": 36.86,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COC(=O)C12CCC3C(C)(C)C(=O)CCC3(C)C1CCC1CCC2(C)C2CC(O)CCC12C",
+      "nll": 38.24,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(NC(Cc2cc[nH]c2)C(=O)N2CCc3cc(S(C)(=O)=O)ccc3C2)cc1",
+      "nll": 34.79,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCS(=O)(=O)N1CCOC2(CCCN(c3cncnc3)C2)C1",
+      "nll": 26.03,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cc(C(=O)Oc2coc(CSc3ncc[nH]3)cc2=O)cc(OC)c1OC",
+      "nll": 23.33,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(OCc1ccccc1)c1nc2ccccc2n1C(=O)c1ccccc1",
+      "nll": 26.25,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1nccc(-c2c(C)nc3c(N4CCOCC4)nccn23)n1",
+      "nll": 26.94,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN(C)C(=O)Cn1cc(C(=O)C(=O)N2CCN(c3ncccc3C#N)CC2)c2ccccc21",
+      "nll": 28.43,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCn1c(C)c(C(=O)N(C)C)c2c3cccnc3c(O)cc21",
+      "nll": 29.38,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(C)c(CSCCC(=O)NC2CCOc3ccccc32)c1",
+      "nll": 30.82,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(CC(c1ccc(Cl)cc1)c1c[nH]c2ccc(Br)cc12)c1ccccc1",
+      "nll": 28.89,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=S(=O)(c1c(O)ccc2ccccc12)C12CC3CC(CC(C3)C1)C2",
+      "nll": 29.55,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "ON=C(NC1CC1)c1c(Cl)cccc1Br",
+      "nll": 26.38,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCC(O)(CCC(=O)O)C(=O)O",
+      "nll": 23.75,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(NCCc1ccc(Cl)c(Cl)c1)C1CCCN1C(=O)C(c1ccc(Cl)cc1)C1CCCCC1",
+      "nll": 30.52,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCOC(=O)c1ccc(NC(=O)c2nc(-c3ccc(N(C)C)cc3F)sc2N)c(C)c1",
+      "nll": 35.18,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCOc1ccc(-n2c(O)cc(NC3CCCCC3)c2O)cn1",
+      "nll": 26.97,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cn1ccc2cc(N=c3c(C#N)c[nH]cc3C=Cc3ccccc3)ccc21",
+      "nll": 25.74,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COC(=O)NCCc1c[nH]c2ccc(OC)cc12",
+      "nll": 20.32,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1c(CNc2ccccc2)c(C(=O)O)c(C)n1Cc1ccc(C(=O)NN=CC(C)c2ccccc2)cc1",
+      "nll": 36.29,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN(CC(=O)N1CCCC1)C(C(=O)Nc1ccccc1OC(F)F)c1ccccc1",
+      "nll": 31.28,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCC(C)(C)C(=O)N=c1ccc(NC(=O)C2CCC2)c[nH]1",
+      "nll": 29.61,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(Oc1ccc(Oc2nn(C)cc2C#N)cc1)C(=O)ON",
+      "nll": 31.04,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCn1c2ccccc2c2cc(NC(=O)COc3ccc(OC(F)(F)F)c(C(=O)N(C)C)c3)ccc21",
+      "nll": 39.31,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(NCc1ccc2c(c1)OCO2)c1ccc([N+](=O)[O-])cc1",
+      "nll": 20.33,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "OCc1cc(-c2[nH]nc3cc(-c4cccs4)cnc23)nc2ccccc12",
+      "nll": 34.27,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "NC(=O)c1cc(Br)c(Br)[nH]1",
+      "nll": 18.53,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cccc(Cc2cc(C)c3ncc4nnc(C(F)(F)F)n4c3c2)c1",
+      "nll": 35.29,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COCCOc1ccc2nc(-c3cc(N4CCN(C)CC4)nc(C)n3)nc(N3CC4CCC(C3)O4)c2c1",
+      "nll": 39.21,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "NC(=O)C1CCCN1C(=O)C(CCC(=O)O)NC(=O)c1ccc(O)[nH]1",
+      "nll": 27.08,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "OCCc1sc2cccnc2c1NCC1CCC2(CC1)OOC1(O2)C2CC3CC(C2)CC1C3",
+      "nll": 36.98,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cccc(C(c2nn[nH]n2)c2c(C)n(C)n(-c3ccccc3)c2=O)c1",
+      "nll": 29.21,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cc(N=c2c3ccccc3[nH]c3cc(O)ccc23)ccc1NC(=O)c1ccc(N)cc1",
+      "nll": 30.23,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)C(NC(=O)c1cnc(OCC2CCCCC2)c(-c2cccc(Cl)c2)n1)C(=O)N=c1[nH]cc(F)s1",
+      "nll": 40.41,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN(C)c1ccc(C=C2SC(=NCc3cccs3)NC2=O)cc1",
+      "nll": 24.42,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(=O)OCC1OC(n2cc(O)[nH]c2=O)C(F)C1OC(C)=O",
+      "nll": 24.86,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCOc1ccc(-c2ccc3c(C)c(C(=O)Nc4ccccc4C(=O)O)oc3c2)cc1",
+      "nll": 29.96,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cc(-c2nc(C3CCOCC3)c[nH]c2=N)ccc1C(=O)N1CCCC(c2ccccc2)C1",
+      "nll": 28.03,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cc2c(Oc3ccc(NC(=O)NN=Cc4cccc(Cl)c4)cc3F)ccnc2cc1OCCCN1CCC(C)CC1",
+      "nll": 23.48,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(C1CCCN(Cc2ccc(F)cc2Cl)C1)N1CCCC1",
+      "nll": 22.86,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccccc1N1CCN(CCCSc2nc3cc(Br)ccc3o2)CC1",
+      "nll": 26.1,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(O)CCc1ccc(C#Cc2ccc(CCC(=O)O)cc2)cc1",
+      "nll": 17.17,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN(C)CCOc1ccc(Cl)cc1C(c1cc(Cl)ccc1Cl)n1cncn1",
+      "nll": 32.88,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCN(CC(=O)c1ccccc1)C(=O)c1snc(C(N)=O)c1N",
+      "nll": 26.52,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(OC(=O)c1cccc(S(=O)(=O)N2CCOCC2)c1)C(=O)NC1CCCCC1C",
+      "nll": 23.92,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(N=c1[nH]ccs1)c1cc(F)cc(Oc2cccnc2)c1",
+      "nll": 23.54,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(CN(c1ccccc1)S(=O)(=O)c1cccc(C(=O)O)c1)Nc1ccc(F)c(Cl)c1",
+      "nll": 30.04,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1nc2cc(NCC(O)CNCC3CN(c4cccc(F)c4)C(=O)O3)ccc2n1C",
+      "nll": 36.86,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN(C)C(=O)C1(c2ccccc2)CCN(CCC2(c3ccc(Cl)c(Cl)c3)CN(C(=O)c3ccnn3C)CO2)CC1",
+      "nll": 31.59,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "NS(=O)(=O)c1ccccc1-c1cc(F)c(Cc2c[nH]c(=O)c3cc(Cl)c(Cl)n23)c(F)c1",
+      "nll": 29.66,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(NCc1ccc(N2CCCCC2)cc1)c1ccc([N+](=O)[O-])o1",
+      "nll": 19.94,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(OC)c(CNCCCNC(CC(=O)NC2CCCCC2)C(=O)O)c1",
+      "nll": 35.58,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cn1nccc1-c1cn(-c2ccc(Oc3ccc(F)cc3)nc2)c(=O)[nH]c1=O",
+      "nll": 32.39,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(=O)c1ccc(NC(=O)Nc2ccc(Oc3ccnc(C(=O)NCc4cccs4)c3)cc2)cc1",
+      "nll": 32.22,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cc(C)c2scc(C(=O)N=c3[nH]c4ccc(F)cc4s3)c2c1",
+      "nll": 35.56,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cc(=O)n2[nH]c(=NC(=O)c3ccc(C(=O)NCC(O)CO)cc3)[nH]c2n1",
+      "nll": 36.54,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCSc1n[nH]c(=NC(=O)Cc2ccccc2OC)s1",
+      "nll": 20.82,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN1C2CCC1CC(OC(=O)c1c[nH]c3c(F)cccc13)C2",
+      "nll": 24.97,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC1(c2ccc(N3C(=O)CSC3c3ccco3)cc2)N=C(N)N(Cc2cccnc2)C(=O)N1",
+      "nll": 40.56,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "c1ccc(C2CCCN3CCCCC23)cc1",
+      "nll": 17.62,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "c1cc2c3c[nH]c(=Nc4ccc(N5CCCNCC5)nc4)nc3n(C3CCOCC3)c2cn1",
+      "nll": 27.28,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1sc2ncn(CC(=O)Nc3ccccc3Cl)c(=O)c2c1C",
+      "nll": 22.96,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=Cc1ccccc1[N+](=O)[O-]",
+      "nll": 17.03,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cccc(-n2cc(C(O)NCc3ccc(S(N)(=O)=O)cc3)cc2O)c1",
+      "nll": 26.56,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "C=C1C(=O)N=C(N(C)C)N1c1ccccc1OC",
+      "nll": 27.55,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCOc1ccc(NC(=O)CCNC(=O)c2ccc3c(c2)OCO3)cc1",
+      "nll": 22.87,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1csc(SCC(=O)N=c2[nH]cccc2C)n1",
+      "nll": 22.01,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCNC(=O)NC(=O)COC(=O)Cc1c(Cl)cccc1Cl",
+      "nll": 23.95,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Fc1ccc(N=c2nc[nH]c3c2NCc2ccc(N4CCOCC4)cc2O3)cc1",
+      "nll": 27.74,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(-c2nc(N3CC(C(=O)NCC4(O)CCC4)C3)c[nH]c2=N)cc1C(=O)Nc1c(C)nn(C)c1C",
+      "nll": 48.31,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(N=c1[nH]c2ccccc2[nH]1)c1n(Cc2ccccc2)c2ccccc2[n+]1[O-]",
+      "nll": 29.98,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCN(CC=Cc1ccccc1Oc1ccc(Cl)cc1)Cc1ccc(-c2ccc(Cl)cc2)cc1F",
+      "nll": 41.83,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "NC(=O)NC1(C(F)(F)F)N=C(c2ccccc2)NC1=O",
+      "nll": 21.85,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCN(CC)CCCNC(=O)c1ccc(Cl)c2sc3cc(S(N)(=O)=O)ccc3c(=O)c12",
+      "nll": 38.36,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccccc1N1C(=O)C(N2C(=O)c3ccccc3C2=O)C(=O)N1C(=O)CC(C)(C)C",
+      "nll": 34.5,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ncc(N2CCC3(CCCN(Cc4cc(C)c(C)o4)C3)CC2)cn1",
+      "nll": 33.75,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cc(C=NNC(=S)NC2CCCCC2)cc(OC)c1",
+      "nll": 21.11,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cc(-c2nncc3c2ccn3C2CCN(CCC#N)CC2)ccc1C(F)(F)F",
+      "nll": 32.77,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cccc(CN2CCC3(CC2)CN(C(=O)c2ccncn2)C3)n1",
+      "nll": 27.17,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN=c1[nH]c(=Nc2ccc3[nH]ncc3c2)[nH]cc1C(F)(F)F",
+      "nll": 21.4,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(-c2cc(C(=O)NC34CC5CC(CC(C5)C3)C4)no2)cc1",
+      "nll": 22.77,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCN(CC)C[n+]1ccc2c3ccccc3n(CC)c2c1C",
+      "nll": 31.62,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cccc2oc(-c3cc(C(=O)Nc4ccc(OC(C)C)cc4)cn3CC(=O)N3CCC(N4CCCC4=O)CC3)cc12",
+      "nll": 42.74,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(C(=O)CC(N)C(O)=NO)cc1",
+      "nll": 23.6,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cc(C=CC(=O)N2CCN(CCN3C(=O)c4cccc5cccc(c45)C3=O)CC2)cc(OC)c1OC",
+      "nll": 24.22,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cc(OC)c(OC)cc1C=CC(=O)C=Cc1ccc(C)cc1O",
+      "nll": 26.26,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "NC1CC2CC(O)CC2CC1N1CCCCC1",
+      "nll": 26.31,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "OCC(O)(CO)CCCCCCCc1ccccc1",
+      "nll": 24.9,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=Nc1c(-c2c(O)[nH]c3cc(Cl)cc(Cl)c23)[nH]c2cc(O)c(F)cc12",
+      "nll": 30.67,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCOc1ccc(Br)cc1S(=O)(=O)NCc1c(C)c2cc(C)ccc2oc1=O",
+      "nll": 30.67,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "N=c1[nH]c(=N)c2nc(Sc3ccc(Cl)cc3N)[nH]c2[nH]1",
+      "nll": 26.56,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(=O)C1CCC2C3CCC4CC5(CCC4(C)C3CCC12C)OOC1(CCC(C)CC1)OO5",
+      "nll": 24.86,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(C=Cc1ccc2c(c1)OCO2)c1ccco1",
+      "nll": 18.91,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(S(=O)(=O)NCCC(=O)N2CCC3(CC2)OCCO3)cc1",
+      "nll": 22.22,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCN1CCN(Cc2ccccc2)CC1",
+      "nll": 18.1,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cc(=NC(=O)CN2C(=O)NC3(CCC(=O)CC3)C2=O)[nH]o1",
+      "nll": 25.2,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCCCCCCCCCCCCc1s[n+](C)c(N)c1C(=O)O",
+      "nll": 27.26,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCCCCc1c(-c2ccccc2)nc2n(CCCCC)ccc(=O)n12",
+      "nll": 34.49,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN(C)C(=S)OCC1OC(n2c(F)cc(=N)[nH]c2=O)OC1CO",
+      "nll": 36.14,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCCNC(=O)N1OC(CO)C2CC3CCC(C21)N3C",
+      "nll": 37.64,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(N=c2cc(C)[nH]c3ccc(NC(=O)Nc4ccc(Cl)cc4)cc23)cc1",
+      "nll": 22.91,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc2c(c1)C(C)N(Cc1c(C)noc1C)CC2",
+      "nll": 26.31,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCOc1cc(C(=O)Nc2ccc3oc(=O)ccc3c2)cc(OCC)c1OCC",
+      "nll": 23.81,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN(C)C(=O)N1CCCC(n2nc(-c3ccc4[nH]ccc4c3)c3c(=N)nc[nH]c32)C1",
+      "nll": 32.01,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCN(Cc1ccc(Cl)cc1)C(=O)c1ccc(S(=O)(=O)N(C)c2cc(C)cc(C)c2)cc1",
+      "nll": 30.79,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cccc(CCOc2ccccc2C=CC=C2SC(=O)NC2=O)c1",
+      "nll": 28.43,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COC(=O)c1sc(NC(=O)c2ccccc2)c(C#N)c1C",
+      "nll": 20.41,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(OCc2nnc(SCc3cccc(C(F)(F)F)c3)o2)cc1",
+      "nll": 22.81,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1onc(-c2ccccc2)c1C(=O)N1CCN(c2ncccc2C(F)(F)F)CC1",
+      "nll": 21.29,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCCCCC(NC(=O)Oc1oc2c(O)c(OC)cc(OC)c2c(=O)c1-c1ccccc1Cl)C(=O)O",
+      "nll": 46.72,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCOC(=O)c1nonc1CN(CCCn1ncc(-c2ccccc2)n1)C(=O)C1CCN(C)CC1",
+      "nll": 43.71,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cccc(C)c1OCC(O)CN1CCN(c2ccc(F)cc2)CC1",
+      "nll": 20.19,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ncccc1N=c1ncc(C(O)=NO)c[nH]1",
+      "nll": 21.88,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(-c2cc(C(=O)NNC(=O)C(C)(C)C)c3ccccc3n2)cc1",
+      "nll": 23.86,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=c1[nH]c2ccc(S(=O)(=O)N3CCOCC3)cc2o1",
+      "nll": 20.36,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "C#CCN(C)CCC(COC(=O)NN(C)C(=O)N(CCCl)N=O)N(CC)CC",
+      "nll": 44.47,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Fc1ccc(CN2CCc3c4c(nc(-c5ccccc5)c3C2)NCCC4)cc1",
+      "nll": 31.33,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cccc(N(CC(=O)Nc2ccccc2N2CCOCC2)S(C)(=O)=O)c1",
+      "nll": 25.2,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=S(=O)(c1ccccc1)c1ccc(Br)cc1",
+      "nll": 18.97,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(-c2nc3ccsc3c(=O)n2-c2ccccc2)cc1",
+      "nll": 25.11,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(Nc1ccc(-c2n[nH]c(=S)o2)cc1)c1cccs1",
+      "nll": 20.66,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCCNC(=O)C(Cc1ccc(OCC(=O)OCC)cc1)NC(=O)C(C)c1ccccc1",
+      "nll": 32.48,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCOc1ccc2[nH]c(=O)c(CN(Cc3cccs3)C(=O)CC)cc2c1",
+      "nll": 25.97,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "C=CCOC(C(=O)C(O)C(=O)NC(O)CSc1nnc(C(C)(C)C)o1)N1CCCC1c1ccccn1",
+      "nll": 40.33,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCC1C2CN3CCCC2CCC13",
+      "nll": 28.32,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "C[N+]1(Cc2ccc(-c3ccccc3)cc2)CC2Cc3ccc(S(=O)(=O)C(F)F)cc3C2C1",
+      "nll": 38.69,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCN(CC)CCC#Cc1c(C)cccc1C=NO",
+      "nll": 30.77,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COCCn1c(=O)c(-c2cc(OC)ccc2Cl)cc2c[nH]c(=NCC(C)O)cc21",
+      "nll": 30.48,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCn1c(=O)c(C2CCCN2C)c(O)c2ccc(Cl)cc21",
+      "nll": 29.06,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(COc1cccc(C(F)(F)F)c1)Nc1ccc(-c2nc3cc(Cl)ccc3o2)cc1",
+      "nll": 23.73,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "N#Cc1cc(Br)cc(CCN)c1O",
+      "nll": 23.36,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Clc1ccc(C2=CC(=CC#Cc3ccccc3)OC2)cc1",
+      "nll": 25.68,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(S(=O)(=O)NCCCNCc2cn(-c3ccc(C)cn3)nn2)cc1",
+      "nll": 37.5,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN1c2ccccc2C2C(O)c3ccccc3C21",
+      "nll": 23.7,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CNCCC(Oc1nccc(-n2ccnc2)n1)c1ccccc1",
+      "nll": 33.25,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(CN2CCN(S(=O)(=O)C=Cc3cccs3)CC2)cc1",
+      "nll": 26.66,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "FC(F)(F)Oc1cccc(N=c2[nH]c3c(Cl)ncnc3s2)c1",
+      "nll": 29.0,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(CCNC(=O)CN(C)S(=O)(=O)c2ccc(Cl)cc2)cc1OC",
+      "nll": 21.07,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cc(CC2CC3=CC(C)(C)Oc4ccc(OC)c(c43)C2=O)cc(OC)c1OCCNCCc1ccccc1",
+      "nll": 43.26,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(CN(C)C(=O)NCCn2c(=O)ccc3cnccc32)cc1",
+      "nll": 36.41,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cc(-c2cccc(NC(=O)c3ccccc3)c2F)[nH]c(=Nc2cccc(-n3cccn3)c2)c1",
+      "nll": 35.79,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(NC1CC1)c1ccc2n[nH]c(Cc3ccc(Cn4cccn4)cc3)c2c1",
+      "nll": 33.78,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Clc1ccc(-c2cc(-c3ccccc3)c3c(n2)-c2ccccc2C3)cc1",
+      "nll": 19.58,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C1NCCN(CC2CCCCC2C(=O)O)C1=O",
+      "nll": 28.23,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COC(CN(C)C(=O)c1cc2ccccc2o1)OC",
+      "nll": 26.2,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "NS(=O)(=O)c1ccc(NC(=O)NCC(=O)NC(Cc2ccccc2)C(=O)NC(CC(=O)O)C(=O)O)cc1",
+      "nll": 33.37,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(=NOCC(O)(Cn1cncn1)C1CC=C(CC(C)C)CC1)c1nc2ccccc2o1",
+      "nll": 42.49,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "C=CS(=O)(=O)c1cc(C(=O)NNC(=O)C2CC2)ccc1OC",
+      "nll": 35.05,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(C=CC(=O)c2ccc(C)cc2O)cc1",
+      "nll": 21.73,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "NS(=O)(=O)c1ccc(CCNC(=O)c2cc(-c3ccc(Cl)cc3)n[nH]2)cc1",
+      "nll": 23.42,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC1=CC(C)(C)Nc2ccc(-c3c[nH]c4c(-c5ccsc5)cnn4c3=N)cc21",
+      "nll": 30.28,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(OCC2CN(C)S(=O)(=O)c3c(Cl)cc(Cl)cc3O2)cc1C",
+      "nll": 31.17,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCN(C(=O)Nc1cccc(C(F)(F)F)c1)C1CCC(NC(=O)NC(C#N)C(C)(C)C)CC1",
+      "nll": 42.58,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(CN1CCN(c2ccc(F)cc2)CC1)Nc1cc(-c2n[nH]c(=O)o2)ccc1Cl",
+      "nll": 30.22,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1[nH]c(-c2ccc3c(c2)OCO3)nc(=NCCCNC(=O)c2ccc(C3CCCCC3)cc2)c1Cl",
+      "nll": 33.43,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1nc([N+](=O)[O-])c(Br)n1Cc1cncc(OCC2CCCN2C)c1",
+      "nll": 34.18,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(N=C(Cc1c(-c2ccccc2)[nH]c2ccccc12)Cn1c(O)ccc1O)C1CCNCC1",
+      "nll": 37.54,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN1CCN(c2ccc3c(=O)c(C(=O)O)cn(CCO)c3c2)CC1",
+      "nll": 22.57,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(NC(CC1CCCCC1)C(=O)N1CCC2(C1)OCCO2)NC(CN1CCCOCC1)C1CCCCC1",
+      "nll": 40.64,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CNC(=O)N1CCN(S(=O)(=O)c2cccc(Cl)c2Cl)CC1",
+      "nll": 25.03,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(Nc1cnccc1C(=O)NC1CCCCC1O)c1ccccc1Br",
+      "nll": 31.82,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COC1CCCC2CCN(CCN(C)CCc3ccc4c(c3)CCCC4=O)CC21",
+      "nll": 46.25,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(c1nn(-c2cccs2)c2c1CS(=O)(=O)c1ccccc1-2)N1CCOCC1",
+      "nll": 22.78,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C1CCN(Cc2cc3c(=O)n(Cc4ccccc4)ncc3o2)Cc2ccccc21",
+      "nll": 38.71,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCOc1ccccc1-n1c(CN)nc2c(F)cccc2c1=O",
+      "nll": 29.36,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cn1c(C=CC(=O)C=Cc2cccc[n+]2[O-])nc2c(N3CCOCC3)nccc21",
+      "nll": 39.63,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "c1ccc2c(c1)sc1c(-c3cc[nH]c(=Nc4ccc(N5CCOCC5)cc4)n3)ccnc12",
+      "nll": 31.33,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc2[nH]c3c(c2c1)CCc1nc2sc4c(c2c(=O)n1-3)CCCC4",
+      "nll": 27.22,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "N#Cc1c(-c2ccc(Br)c(F)c2)nc2[nH]c(=N)[nH]c(=N)c2c1N1CCOCC1",
+      "nll": 39.41,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCCCCCCCCCCCC(O)CC(O)C(C)N",
+      "nll": 22.59,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cc(C)c2sn3nc(N4CCCCC4)c(C#N)c3c2c1C",
+      "nll": 32.32,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCOC(=O)c1c(C(N)=O)nn(-c2ccccc2)c1NC",
+      "nll": 27.2,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(CN2CCC(N(C)Cc3ncc(C)o3)C2)cn1",
+      "nll": 24.87,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CNC1CCN(c2ccc3c(C)nn(CC(=N)C(C)C(C)C(=O)N4CCC(F)C4)c3c2Cl)C1",
+      "nll": 60.06,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1nc2c(c(=O)n1C)CCN(c1nc(C3CCC3)c3cc(F)cc(F)c3n1)C2",
+      "nll": 38.22,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cc(C)n2ncc(C(=O)Nc3ccccc3C)c2n1",
+      "nll": 23.01,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "N#CC1(C(=O)N2CCN(S(=O)(=O)c3ccccc3)CC2)CCC(NC(=O)N2CCOCC2)CC1",
+      "nll": 35.95,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cc(Cn2c(=N)[nH]c3ccc(F)cc3c2=O)ccc1OCc1c(Cl)cccc1Cl",
+      "nll": 31.59,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCC(=O)c1ccc2ccc(N(CCCN=c3cc[nH]c4cc(Cl)ccc34)c3ccccc3)nc2c1",
+      "nll": 39.29,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCC(=NNc1ccccc1)C1CC(=O)C(=O)C(c2nccc3c2[nH]c2ccccc23)C1=O",
+      "nll": 36.81,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(NC(COC1CCCCC1)C(O)=NO)c1nn(-c2ccccc2)cc1CO",
+      "nll": 38.06,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "NC(=O)c1[nH]c(=O)nc2c1ncn2C1CC(O)C(CO)O1",
+      "nll": 29.43,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)(C)NC(=O)CN1CCC(CCc2cc(C(F)(F)F)cc(C(F)(F)F)c2)NC(CNC(=O)c2ncc(Cl)cc2Cl)C1=O",
+      "nll": 42.92,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(c1cc(COc2cccc(C(F)(F)F)c2)on1)N1CCC1c1nc(-c2cccnc2)no1",
+      "nll": 29.82,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(Nc1ccccc1)c1ccc(NC(=O)C(Cl)Cl)c(-c2cc(Cl)ccc2CO)c1",
+      "nll": 31.23,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC1CCC2(C(=O)OCc3cccc(Cl)c3)CCC(C)(C)CC2C1=O",
+      "nll": 27.55,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cccc(NC2=NC(=O)C(=Cc3ccc(F)cc3)N2C)c1",
+      "nll": 28.2,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC1(C)CC(=Nc2cccc(Cl)c2)c2ccc(-c3cccc(C=CC(O)=NO)c3)cc21",
+      "nll": 34.66,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(=O)Nc1ccc2c(c1Cl)Cc1cccnc1-2",
+      "nll": 27.33,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(c1cnn2c1sc1ccccc12)N1CCCCC1",
+      "nll": 22.86,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC1(C)Cc2c([nH]c3c(c2=N)C(c2ccc(Cl)cc2)c2c(-c4ccccc4)noc2O3)CO1",
+      "nll": 28.5,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(O)c1ccc(C=C[S+]([O-])c2cccc(OC(F)(F)F)c2)cc1",
+      "nll": 29.06,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cccc2sc(=NC(=O)C3CCC(CNc4ccc5c(c4)OCCO5)CC3)[nH]c12",
+      "nll": 31.59,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN(C)CCCNCc1cn(-c2ccccc2C(F)(F)F)nc1-c1ccc(Oc2ccccc2)cc1",
+      "nll": 28.98,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(-c2cn3c(CN4CCOC4=O)cnc3cn2)c(OC)c1",
+      "nll": 32.72,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(O)CNCCNC(=O)c1ccc2ccccc2c1",
+      "nll": 21.94,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cc(=NC(=O)CSc2nnc(C3CCCCC3)o2)[nH]o1",
+      "nll": 21.66,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(=O)Nc1ccc2[nH]cc(Cc3cc4ccccc4cn3)c2c1",
+      "nll": 27.52,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(=O)N1C(c2ccccc2F)CC(NC(=O)C(F)(F)F)C1(Cc1ccccc1)C(=O)Nc1ccc(Br)cc1",
+      "nll": 46.34,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(N=c1[nH]cnc2c1ncn2C1OC(CO)C(O)C1O)NCCCCCCOc1cccc(Cl)c1",
+      "nll": 29.94,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCc1ccc2c(c1)CCC13OC4(CCC(C)(C)CC1=C2)CCC1(OCC(C(=O)O)NC1O)C3CO4",
+      "nll": 74.77,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)CN(CC(CC=O)C(=O)NCc1ccc(C(=O)N2CCCC2)cc1)S(=O)(=O)c1ccc(N)cc1",
+      "nll": 37.99,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cccc(C=NNC(=O)c2nc3ccccc3[nH]2)c1",
+      "nll": 22.52,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC1=C(C(=O)Nc2cc3cccc(Cl)c3cc2C(=O)N2CCN(C(=O)c3ccc(Cl)cc3)CC2)SCCO1",
+      "nll": 38.86,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(NS(=O)(=O)c1ccc(-n2cc(C(=O)O)c(=O)c3cc(F)c(N4CCC(CO)C4)cc32)nc1)C(F)(F)F",
+      "nll": 39.89,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cc2c(C(C)(C)C)[nH]c(CNC(CO)C(C)C)c2cc1O",
+      "nll": 38.86,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "OC1CCc2cc3ccccc3nc21",
+      "nll": 22.15,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(CN=c2cc(-c3nnc(C)o3)nc(C)[nH]2)cc1",
+      "nll": 26.68,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(S(=O)(=O)N2CC(O)C(O)C2)cc1",
+      "nll": 20.55,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "NCc1ccc(Cl)cc1CNC(=O)C1CCCN1c1ncnc2[nH]ccc12",
+      "nll": 24.77,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COC1CN(C(=O)CCc2ccccn2)CC1Oc1cccc(Cl)c1",
+      "nll": 29.52,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(C(C)N(C(=O)c2ccc3c(c2)OCO3)C2CC(=O)N2c2ccccc2)cc1",
+      "nll": 36.19,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCOC(=O)c1ccc(NC(=S)NCc2cccc(Cl)c2)cc1",
+      "nll": 23.06,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "[O-][n+]1c(CNCCO)ccc2ccc3ccccc3c21",
+      "nll": 25.25,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CNCC1(Cn2cccnc2=O)CCCCC1",
+      "nll": 27.58,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "c1cn(-c2nc(N3CCOCC3)nc(N3CCOCC3)n2)cn1",
+      "nll": 19.01,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC1(O)CCN(c2nc(=O)c(-c3nc4ccccc4s3)c(NC3CCCNC3)[nH]2)C1",
+      "nll": 26.19,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN1C(C(=O)N=c2cccc[nH]2)C(=O)c2cc(Cl)ccc2S1(=O)=O",
+      "nll": 20.42,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc2cc3c4c(OC)cc(O)c(O)c4c(=O)cc-3oc2c1",
+      "nll": 30.35,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=S(=O)(c1ccc(CNc2ccc(F)c(Br)c2)s1)N1CCOCC1",
+      "nll": 32.31,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCCOc1ncccc1-c1csc(=Nc2ccncc2C#N)[nH]1",
+      "nll": 35.19,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(O)c1cccc(Cc2c(O)ccn(CCc3cccc4cccnc34)c2=O)c1",
+      "nll": 31.55,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "NC(=O)Nc1sc(-c2ccc(CN3CCC(C(N)=O)CC3)cc2)cc1C(N)=O",
+      "nll": 25.78,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(-c2nnc(S(=O)(=O)c3ccc(C)cc3)o2)cc1",
+      "nll": 22.16,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1n[nH]c2c1cc1c(=O)n(C)c(=O)nc-1n2-c1ccccc1",
+      "nll": 23.61,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cc(CCCCCCCC(C)c2ccc(O)c(OC)c2)ccc1O",
+      "nll": 31.55,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCCCCSc1nc(-c2ccccc2)c(-c2ccccc2)[nH]1",
+      "nll": 18.24,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc2ccc(S(=O)(=O)Cc3ccc(C(=O)NCCCN4CCOCC4)o3)cc2c1",
+      "nll": 33.0,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)C1C(=O)Nc2ccc(Cl)cc2N1Cc1ccc(-c2ccccc2C(=O)O)cc1",
+      "nll": 26.68,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "C=CCC1=COc2ccc(F)cc2N(Cc2ccc(-c3ccccc3-c3nc(=O)o[nH]3)cc2)C1=O",
+      "nll": 33.88,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCNCC1CCN(c2c(F)cc3c(=O)c(C(=O)O)cn(C4CC4)c3c2F)C1",
+      "nll": 18.23,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCCC(C)=NNC(=S)Nc1cccc(F)c1",
+      "nll": 25.61,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COC12CCCC(c3ccc(F)cc3)(OO1)OC2COS(=O)(=O)N(C)C",
+      "nll": 38.14,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)OCCN(Cc1ccccc1Cl)C(=O)C1(C#N)CC1",
+      "nll": 32.54,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(S(=O)(=O)NCCC(=O)N2CCN(c3ncccn3)CC2)cc1Cl",
+      "nll": 24.71,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "NCc1cc2cccnc2n1-c1nc(=NCc2ccc(Cl)c(Cl)c2)cc[nH]1",
+      "nll": 29.13,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCNC(=O)C1OC(n2cnc3c(=NCCO)[nH]c(SCc4ccccc4)nc32)C(O)C1O",
+      "nll": 26.36,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc2c(c1)C(OCCCc1ccccc1)CC(C1CC1)C2",
+      "nll": 35.79,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(O)C1CC(SCC2OC(O)C(n3cnc4c(=NC5CC5)[nH]cnc43)O2)CN1C(=O)c1ccccc1",
+      "nll": 42.03,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(CCS(=O)(=O)c1ccccc1)N=c1[nH]nc(-c2cccs2)o1",
+      "nll": 23.72,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cccc(Cc2nc3c(OC)ncnc3n(Cc3ccc(Cl)cc3)c2=O)c1",
+      "nll": 34.82,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CNCC(O)c1cccc2ccccc12",
+      "nll": 21.29,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)c1ccc(OC(C)(C)C(=O)NCc2ccccc2)cc1",
+      "nll": 22.81,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(COC(=O)c2cccc(NC(=O)Cc3cccnc3)c2)cc1F",
+      "nll": 31.05,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(CCN1CCN(CCO)CC1)Nc1ccccc1",
+      "nll": 18.13,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)CN(CC(C)C)C(=O)CSc1ncnc2c1nc1n2C(c2ccco2)C(=N)N1",
+      "nll": 44.29,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCCc1nn2c(=O)cc(COc3ccc(OCc4cc(C)nc5ccccc45)cc3)nc2s1",
+      "nll": 30.97,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN(C)CCCN(CCCN1CCCC1)C1CCCC2(c3ccc(NC(=O)c4ccc(Br)cn4)c(C(F)(F)F)c3)CC12",
+      "nll": 42.04,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccccc1Oc1coc(C(NC(C)=O)c2ccccc2)nc1=O",
+      "nll": 30.83,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "OCc1nc(C2CCCN2CCc2ccccn2)no1",
+      "nll": 26.25,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cc(-c2csc(C(=O)NN)n2)cc(OC)c1OC",
+      "nll": 22.42,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cc(C)c2nc(CS(=O)(=O)c3ccc([N+](=O)[O-])cc3)c(C(=O)c3ccc(Br)cc3)n2n1",
+      "nll": 37.67,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COC(=O)c1ccc(Oc2cccc(OC)c2)cc1",
+      "nll": 21.53,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCOc1ccccc1NC(=S)N=Nc1c(O)n(CC(=O)c2ccc3ccccc3c2)c2ccccc12",
+      "nll": 34.63,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCc1nc(N=c2cc(C)o[nH]2)nn1CCO",
+      "nll": 30.7,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CSc1nc(=Nc2ccc(C#N)cc2)[nH]c(=Nc2ccccc2C)[nH]1",
+      "nll": 24.63,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(=CC=CC(C)(C)O)CCC(=O)c1oc(O)c(Cc2cc(C(=O)O)cc(C)c2O)c1O",
+      "nll": 46.36,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCOc1cc(C)[nH]c(=NC(=O)CN2CCC(Cc3ccccc3)CC2)n1",
+      "nll": 28.67,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cccc2c1CC(=Cc1cc3ccc(C(F)(F)F)cc3nc1Cl)C2=O",
+      "nll": 29.81,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1csc(CCNS(=O)(=O)c2cc(Cl)ccc2F)n1",
+      "nll": 28.16,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(Oc2cc(F)c(S(=O)(=O)NC(C)C)cc2Cl)c(-c2cncnc2)n1",
+      "nll": 29.67,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cn1c(-c2ccc(OCCF)cc2)nnc1C1(c2ccc(Cl)cc2)CCC1",
+      "nll": 22.17,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)(CO)N=c1c(C(N)=O)c[nH]c2ccc(-c3ccc(C(F)(F)F)cc3)cc12",
+      "nll": 29.89,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccccc1OCCNC(CNC(=O)c1cccc(Cl)c1)c1ccccc1",
+      "nll": 30.53,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(=O)c1ccc(-c2ccc(CCCC(CC(=O)NC(C)C(C)(C)N)C(=O)O)s2)cc1",
+      "nll": 53.13,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(NC1CC2CN(c3ncccn3)CC(C1)O2)c1ccc2nnnn2c1",
+      "nll": 33.84,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cccc(CNC(=O)c2cc3c(=O)ccn(CCc4c[nH]cn4)c3s2)c1",
+      "nll": 38.49,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "S=c1[nH]nc(-c2cc3ccccc3o2)s1",
+      "nll": 23.61,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCN1c2ccccc2C(=O)N(C)c2c(-c3cccs3)ccnc21",
+      "nll": 28.1,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(NN=Cc1cccc(O)c1)c1cn(-c2ccccc2)nc1-c1ccccc1",
+      "nll": 23.69,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "c1ccc(-c2nc3ccccc3[nH]2)nc1",
+      "nll": 17.09,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(N(CC(=O)Nc2cccc(C(C)=O)c2)S(C)(=O)=O)cc1",
+      "nll": 23.37,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCOC(=O)C=Cc1ccc(NC(=O)C2(NC(=O)c3ccc4c(C5CCCC5)c(-c5ccncc5)n(C)c4c3)CCC2)cc1OCC",
+      "nll": 26.74,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(CCNC(=O)Oc1ccccc1)NC(CCCCNC(=O)OCc1ccccc1)C(=O)O",
+      "nll": 29.39,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cn1c(-c2ccccn2)nnc1C1(C(F)(F)F)CCC1",
+      "nll": 25.94,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCN1C(=O)C(=O)N(C)C1=S",
+      "nll": 19.85,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(CC(=O)Nc2cc3ccccc3cc2Oc2ccc(C(=O)O)c(C(=O)O)c2)cc1",
+      "nll": 29.11,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "C=C1CC(F)C(n2cnc3c(=NN)[nH]c(=N)[nH]c32)O1",
+      "nll": 29.51,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(CN=c2cc(C)[nH]c3c(C(N)=O)cccc23)cc1Cl",
+      "nll": 21.08,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(NC1CCN(c2ccc(C(F)(F)F)cn2)CC1)Oc1ccc(F)cc1",
+      "nll": 27.03,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "NC(CC(=O)N1CCCC1C(=O)N1CCCC1C(=O)O)Cc1cc(F)c(F)cc1F",
+      "nll": 23.66,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(=O)C1C(c2cccs2)=NC(=O)NC1c1cccc([N+](=O)[O-])c1",
+      "nll": 26.06,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(O)(Cn1cncn1)c1ccc(-c2ccc(C(=O)O)cc2)cc1",
+      "nll": 28.36,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccccc1Cn1c(O)c(Nc2ccc(O)cc2)sc1=O",
+      "nll": 27.98,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "NS(=O)(=O)c1ccc(CCN=C2CC(=O)c3cccnc3C2=O)cc1",
+      "nll": 22.57,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(C2C(=O)c3ccccc3C(=O)C2Br)cc1",
+      "nll": 22.16,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(C2CC(Cc3ccccc3)Oc3c2c(=O)oc2ccccc32)cc1",
+      "nll": 32.97,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(NCC1(c2ccc(-c3cccnc3)cc2)CCNCC1)Nc1ccc(Cl)cc1",
+      "nll": 24.14,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(Cn2c(SCc3c(F)cccc3Cl)nc3c2c(=O)[nH]c(=O)n3C)cc1",
+      "nll": 24.69,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(=O)Nc1ccc(C(=O)C=Cc2ccc(O)c(O)c2)cc1",
+      "nll": 21.4,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1c(-c2ccoc2)[nH]c(=N)[nH]c1=O",
+      "nll": 24.75,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(C2CC(c3ccc([N+](=O)[O-])cc3)=NN2)c(OC)c1",
+      "nll": 23.42,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(NCCCCCNC(=O)c1ccc([N+](=O)[O-])o1)c1ccc(C(=O)Oc2ccc(N3CCOCC3)cc2)cc1",
+      "nll": 39.88,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=S(=O)(NCc1ccco1)c1cccc(-c2ccc3c(c2)CCNC3C2CCN(C3CCCC3)CC2)c1",
+      "nll": 39.3,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cc(NC(C)=O)c(NC(=O)C=Cc2cnc(Cl)cn2)cc1N=c1nc(N=c2cc(C3CC3)[nH][nH]2)cc[nH]1",
+      "nll": 43.06,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1nc(C)c(C)c(-c2ccc(OCCN(C)c3ccccn3)cc2)n1",
+      "nll": 30.49,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCOc1c(OC)cc(C(C)=O)cc1OCc1ccc2c(c1)OC(c1ccccc1)(c1ccccc1)O2",
+      "nll": 38.24,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cccc(N2CCN(C(=O)CCCCC(O)=NO)CC2)c1",
+      "nll": 27.37,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(NNC(=S)Nc1ccc([N+](=O)[O-])cc1F)C1CCCN(Cc2ccccc2)C1=O",
+      "nll": 36.79,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(O)c1n[nH]c2c1CCCC2",
+      "nll": 19.09,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN1C(=O)c2ccccc2C(C(=O)NC2Cc3ccccc3C2)C1c1ccco1",
+      "nll": 31.54,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "NC(=NC(=O)c1ccco1)N=c1[nH]c2ccc([N+](=O)[O-])cc2s1",
+      "nll": 27.51,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc2c(c1)C(=O)C(C(=O)c1c(O)cc(OCc3ccc(Cl)cc3)cc1O)CO2",
+      "nll": 34.0,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(NC1(Cc2ccccc2)CC2Cc3[nH]c4c(Cl)cccc4c3C3CCCC2N3C1=O)c1ccccc1",
+      "nll": 43.5,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCCn1ccc2cc(-c3ccc(C(=O)O)cc3)ccc21",
+      "nll": 26.52,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(S(=O)(=O)NCCNc2sc3c(c2C#N)CCC(C)C3)cc1",
+      "nll": 31.93,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(=O)n1c(=N)sc2ccc(C)cc21",
+      "nll": 24.73,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCn1nnc(=NC(=O)COc2ccc(Cl)cc2C)[nH]1",
+      "nll": 24.89,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cc(CN2CCN(CCc3ccc(Cl)s3)CC2)c2[nH]ccc2c1",
+      "nll": 35.99,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(Cn1cnc2cc(Br)ccc2c1=O)C1CC1",
+      "nll": 29.46,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(=O)CC(Sc1ccc(C)cc1)c1ccc(Br)cc1",
+      "nll": 25.82,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cc(Br)c(NCC(C)(C)NCCC2CCCN2C)c2ncccc12",
+      "nll": 43.78,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=c1ccn(C2OC(CNCc3ccccc3-c3ccccc3)C(O)C2O)c(=O)[nH]1",
+      "nll": 21.06,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cc(=Nc2ccc(C(=O)N3CCN(C(=S)Nc4cccc(Cl)c4)CC3)cc2)c2nnc(-c3ccccc3)n2[nH]1",
+      "nll": 45.79,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)(C)C1CCN(CCCOc2ccc3c(c2)Cc2c-3n[nH]c2-c2ccoc2)CC1",
+      "nll": 31.05,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1sc2cc(SC(C)C)ccc2c1C(=O)NCCC12C=CC=CC1Cc1ccccc12",
+      "nll": 56.72,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CNC(=O)c1nc2ccccc2c(C)c1CN1CCC(CCc2ccccc2F)CC1",
+      "nll": 41.44,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCNC(=O)N1CC(C)[S+]([O-])c2ccc(Cl)cc21",
+      "nll": 30.76,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(O)c1ccc(C=Cc2ccccc2F)cc1",
+      "nll": 20.27,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(=O)Nc1ccc(N=c2nc(N3CC(Oc4ccc(Cl)cc4)C3)cc[nH]2)cc1",
+      "nll": 23.28,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(C(C)C)cc1-c1n[nH]cc1CN(C)C",
+      "nll": 23.99,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=c1c2cnc3ccccc3c2ncn1CCCN1CCN(c2ccccc2F)CC1",
+      "nll": 25.21,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "NC(=O)c1cc(-c2ccc(C(F)(F)F)cc2)sc1NC(=O)c1ccccc1",
+      "nll": 22.7,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(Nc1ccc(=O)[nH]c1)c1ccc2ccc(Nc3cccc(N4CCOCC4)c3)cc2c1",
+      "nll": 40.0,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cc(C)cc(Oc2c(C)cnn2OS(=O)(=O)c2ccc(Cl)cc2)c1",
+      "nll": 30.6,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)n1ncnc1-c1cn2c(n1)-c1cc(C(C)(O)CO)c(F)cc1OCC2",
+      "nll": 26.65,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCCN1CCC(CCn2ncc3[nH]c(=Nc4ccc(OC)cc4OC)c(=NC4CCC(O)CC4)[nH]c32)CC1",
+      "nll": 41.7,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "N#Cc1cc(-c2cc[nH]c(=Nc3cccc(N4CCOCC4)c3)n2)cnc1N1CCC(F)C1",
+      "nll": 22.98,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(NC1CCCCC1)NC(CC1CCCCC1)C(=O)N1CCC2(CC1)CC(=O)c1ccccc12",
+      "nll": 34.16,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCOc1cccc(C=NNC(=O)c2cncc(Br)c2)c1",
+      "nll": 23.71,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCCOc1cc(CNCc2ccccc2)cc(OCCC)c1O",
+      "nll": 26.41,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CS(=O)(=O)CCN(C1CCCCC1)S(=O)(=O)c1cc2c3c(c1)CCN3C(=O)CC2",
+      "nll": 31.15,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN1CCC(OCc2ccc(-c3ccc4[nH]cnc4c3)cc2)CC1",
+      "nll": 29.48,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cc(Br)c(N=c2[nH]c(=Nc3ccccc3)[nH]c(=Nc3cccc(C(F)(F)F)c3)[nH]2)c(Br)c1",
+      "nll": 26.14,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCc1c(C)[nH]c(N2CCN(c3ccc(Cl)cc3)CC2)nc1=O",
+      "nll": 19.78,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(=O)N=c1[nH]cc(F)c(=NC(Cc2ccc(NC(=O)c3c(Cl)cncc3Cl)cc2)C(=O)O)[nH]1",
+      "nll": 23.25,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCCCOC1COC2C(n3ccc(=O)[nH]c3=O)OC(CO)C12COS(N)(=O)=O",
+      "nll": 34.44,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(CCC(=O)N(C)C)C1CCC2C3CCC4CC(O)CCC4(C)C3CCC12C",
+      "nll": 22.29,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(O)c(NCc2cnc3[nH]c(=N)[nH]c(=N)c3c2C)c1",
+      "nll": 25.03,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCOc1cc(C=NNC(=O)CCc2ccccc2)ccc1OS(=O)(=O)c1ccc(OC)cc1C",
+      "nll": 36.89,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "NS(=O)(=O)c1ccc(CN=Cc2c(Cl)cccc2Cl)cc1",
+      "nll": 21.4,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)(C)CC(=O)Nc1ccc2ccccc2c1",
+      "nll": 21.37,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)S(=O)(=O)N1CCC(c2ncc3c(n2)CCN(Cc2cccs2)C3)CC1",
+      "nll": 30.28,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cccc(C)c1NC(=O)C(CC(C)C)NS(=O)(=O)c1ccc(Cl)cc1",
+      "nll": 26.21,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCCCCCCCCCCCCC(=O)NN=Cc1ncc[nH]1",
+      "nll": 27.2,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)(c1ccccc1)C(CO)NC(=O)c1cn(CCC2CNCCO2)c(=O)[nH]c1=O",
+      "nll": 38.1,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "NC(Cc1ccccc1)C(=O)NC(C(=O)O)c1ccccc1",
+      "nll": 22.37,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(CC2c3cc(OCCNS(=O)(=O)c4ccc5c(c4)OCO5)ccc3CCC2N)cc1OC",
+      "nll": 25.79,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(C(=O)C(C#N)=Cc2ccc([N+](=O)[O-])s2)cc1",
+      "nll": 25.58,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(NC(=O)Cn2c(=O)[nH]c3c(=O)oc4ccccc4c32)cc1",
+      "nll": 25.43,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCn1c(C)nc2cc(S(=O)(=O)NC3CC3)ccc21",
+      "nll": 24.61,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(-c2csc(=NCc3cc(OC)c(OC)c(OC)c3)[nH]2)cc1",
+      "nll": 22.37,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(C(=O)Nc2cccc(F)c2)cc1N=c1[nH]cnc2c(=N)[nH]c(N3CCN(CC4CCN(C)CC4)CC3)nc12",
+      "nll": 25.23,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(Oc1cccc2ccccc12)N1CCCCC1",
+      "nll": 21.33,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cccc(-c2cn(CC(=O)Nc3cncc(C(=O)O)c3)nn2)n1",
+      "nll": 33.24,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(=O)NC(C)C(=O)NCc1ccccc1Cl",
+      "nll": 23.96,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cc(C)cc(S(=O)(=O)c2cccc3c2NC(C(=O)O)CC3C(=O)O)c1",
+      "nll": 29.29,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cccc(N=c2nc(N(C)C)[nH]cc2C(N)=O)c1",
+      "nll": 22.94,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COC(=O)CSc1nncn1C",
+      "nll": 19.47,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(COC(=O)Cc1cccs1)Nc1cc(S(=O)(=O)N2CCOCC2)ccc1Cl",
+      "nll": 24.97,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN1CCCCC1CNC(=O)CCCc1c[nH]c2ccccc12",
+      "nll": 27.73,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "C(=NN1CCCCCC1)c1cc2ccccc2o1",
+      "nll": 24.78,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(=O)NC1(c2ccccc2)CCN(c2cc(-c3ncc(F)cc3C)c(Cl)cn2)CC1",
+      "nll": 27.36,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COCCN(c1ccc(C)cc1)S(=O)(=O)c1ccc2ccccc2c1",
+      "nll": 28.76,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(CNCc2ccc(N(C)C)cc2)cc1NC(C)=O",
+      "nll": 27.17,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "C[S+]([O-])c1ccc(CSc2nc(-c3ccc(S(C)(=O)=O)cc3)c(-c3ccc(F)cc3)[nH]2)cc1",
+      "nll": 24.08,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCC(NC(=O)CCCN1CCOCC1)c1ccc(C)cc1",
+      "nll": 28.53,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C1CCCN1C(O)CO[N+](=O)[O-]",
+      "nll": 28.08,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1nc(Cl)c(CC(=O)N(C)C(CN2CCC(O)C2)c2ccccc2)c(-c2ccccc2)c1-c1ccccc1",
+      "nll": 38.21,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(N(C(=O)Cn2nnc(-c3ccc(C)o3)n2)C(C(=O)NC2CCCC2)c2ccncc2)cc1OC",
+      "nll": 28.33,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "N#Cc1cccc(COC(Cc2c(Cl)cccc2Cl)=C(Sc2ccccc2)C(=O)O)c1",
+      "nll": 40.35,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(=O)N1CCc2cc(Br)cc(S(=O)(=O)NCc3csc(C)n3)c21",
+      "nll": 27.23,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cc(C(N)=O)ccc1NC(=O)c1ccc(C)cc1",
+      "nll": 23.9,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cn1cnc2cc(NC(=O)c3ccc(C(C)(C)C)cc3)ccc21",
+      "nll": 21.7,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(CS(=O)(=O)N1CCCCCC1)N=c1[nH]c2cc3c(cc2s1)OCO3",
+      "nll": 28.76,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN1C(c2ccccc2)CC(c2ccccc2)=C(C(O)N=c2[nH]ccs2)C1c1ccc(Br)cc1",
+      "nll": 34.06,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "C1=C(c2c[nH]c3ccccc23)CCNC1",
+      "nll": 18.65,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C1c2ccccc2C2(c3ccccc3)C(=O)C3CC34CCCCC1C2C4",
+      "nll": 44.03,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN1CCC23c4c5ccc(O)c4OC2C(=O)C(=Cc2ccc(CNC(=O)C4CC4)cc2)CC3(O)C1C5",
+      "nll": 36.0,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCOC(=O)C1=C(C)N=C(C)C([N+](=O)[O-])C1c1ccccc1F",
+      "nll": 22.91,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1nn(C)cc1-c1c(C)nc2c(N3CCN(C(=O)OCC(C)(C)C)CC3C)nccn12",
+      "nll": 32.0,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCOC(=O)Nc1ccc(N=c2cc(N3CCC(NC(C)=O)CC3)[nH]cn2)cc1C",
+      "nll": 31.5,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1nc(SCC(=O)NCc2ccccc2)c2ccc(Cl)cc2n1",
+      "nll": 23.76,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cccc(Cn2c(N3CCCC(N)C3)nc3c2c(=O)n(Cc2ccccn2)c(=O)n3C)c1",
+      "nll": 26.0,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cccc2c1C=[N+](c1ccccc1Cl)CC2",
+      "nll": 19.14,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(-n2c(=O)c3c4c(sc3n3cnnc23)CC(C(C)(C)C)CC4)cc1Cl",
+      "nll": 29.5,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN1C(=O)C(c2ccncc2)(c2cccc(-c3cncnc3)c2)N=C1N",
+      "nll": 19.65,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCc1cc(=O)[nH]c(SCCCCCCSc2ccccc2)n1",
+      "nll": 25.45,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(Cl)cc1OC(c1ccccc1Cl)C1CCCNC1",
+      "nll": 31.37,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1c(S(=O)(=O)N2CCCC(C)C2)c(=O)n(-n2cccc2)c(=O)n1C",
+      "nll": 33.84,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC1(C)ON=C(c2ccc([N+](=O)[O-])cc2)C1(O)c1ccc([N+](=O)[O-])cc1",
+      "nll": 31.27,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(OC)c(CNCCCN2CCC(Cc3cccc(C#N)c3)CC2)c1",
+      "nll": 31.31,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(NCCc1ccc(Cl)cc1)C1CCCCC1C(=O)N1CCCC1",
+      "nll": 24.25,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC1(C)OC(=O)C(C(=O)NCc2ccccc2)C(=O)O1",
+      "nll": 19.79,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1csc(=NC(=O)C(CC(C)C)NC(=O)c2ccc(Oc3ccccc3)cc2)[nH]1",
+      "nll": 27.62,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)COc1c(Br)[nH]c(=N)c(Br)c1N=C(N)N",
+      "nll": 34.19,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COC(=O)c1ccc(Oc2ncnc3ccc(OC)cc23)c(C(=O)O)c1",
+      "nll": 32.27,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "C=C1Nc2ccc3c(=O)c(C(=O)OC)cc4c(=O)c(SCCCSC(=N)N)cc1c3c24",
+      "nll": 52.43,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cccc(OCCCCN2CCCCC2)c1C1CCCC(=O)N1C",
+      "nll": 34.15,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CN1CCCC1CCNC(=O)c1ccccc1NC(=O)c1cc(Cl)cc(Cl)c1",
+      "nll": 25.68,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CC(C)(C)N(CC(=O)O)N=Nc1ccc(Cl)c(Cl)c1Cl",
+      "nll": 27.03,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCC1CCCN(C(=O)CNCCn2cccn2)C1",
+      "nll": 25.04,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(C(=O)CC(=O)C(C(=O)O)n2nc(C)cc2C)c([N+](=O)[O-])c1",
+      "nll": 38.72,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "N=c1nc(N2CCN(Cc3ccccc3)CC2)[nH][nH]1",
+      "nll": 17.22,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(c1cc2c(cc1-c1nccc(N3CCOCC3)n1)OCO2)N1Cc2ccccc2CC1CN1CCOCC1",
+      "nll": 28.38,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Fc1ccccc1-c1nc(-c2ccccn2)n[nH]1",
+      "nll": 21.26,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COC1=CC(=O)c2nc(-c3nc(O)c(CC(C)C)s3)n(Cc3ccccc3F)c2C1=O",
+      "nll": 39.74,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=S(=O)(NCC1COc2ccccc2O1)c1cc(Cl)cc(Cl)c1",
+      "nll": 23.11,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "OCc1cccc(N=c2[nH]c3ccccc3n3ccnc23)c1",
+      "nll": 25.9,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(NC(=O)C2=C(c3ccc(C)cc3)OC3(C(=O)N(C)c4ccccc43)N(C)C2=O)cc1",
+      "nll": 30.18,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1c(F)ccc(Nc2c(-c3cccs3)nc3ncccn23)c1F",
+      "nll": 30.29,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1c(-c2ccc([N+](=O)[O-])cc2)c(C#N)c(O)n(-c2cccc(Cl)c2)c1=NC=C1CCCOC1=O",
+      "nll": 38.28,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CS(=O)(=O)c1ccc(OC2CN(C(CC#N)C(=O)C(O)CO)C2)cc1F",
+      "nll": 42.87,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "C=C1CCC2(C)CCCC(C2=C)C1n1cnc2ccccc21",
+      "nll": 35.51,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(NC(=O)c2ccc(NC(=O)c3ccco3)cc2)cc1",
+      "nll": 20.34,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COC1CCCC(OC(=O)c2[nH]nc3cc(C(=O)Nc4cc(-c5cccc(CN)c5)ccc4C(=O)NCCN4CCOCC4)ccc23)C1",
+      "nll": 54.71,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1cc(C)[nH]c(=NC(N)=NCCCCCCCCN=C(NCC(C)O)N(C)C)n1",
+      "nll": 36.75,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1cccc(F)c1-c1cn2ccnc2c(=NCCc2ccccc2)[nH]1",
+      "nll": 26.53,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "CCCCC(NCCc1ccc(S(=O)(=O)NC(=O)NC(C)C)cc1)C(=O)OCC",
+      "nll": 32.07,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(Oc2ccc(Cl)cc2[N+](=O)[O-])cc1",
+      "nll": 20.54,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "N=c1[nH]ccnc1C(=O)N(Cc1cncc(O)c1)c1ccccc1",
+      "nll": 32.18,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(COc1cccc(Cl)c1)NN=Cc1cc2c(cc1Br)OCO2",
+      "nll": 25.86,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "Cc1ccc(-n2nnnc2C(C#N)=NNc2ccc(F)cc2)cc1",
+      "nll": 23.61,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "O=C(Cn1c(=O)oc2cc(S(=O)(=O)N3CCCCCC3)ccc21)NCc1cccc(Cl)c1",
+      "nll": 26.26,
+      "model": "reinvent_denovo"
+    },
+    {
+      "generated_smiles": "COc1ccc(-n2c(C)nc3c(cc([N+](=O)[O-])c(C)[n+]3[O-])c2=O)cc1",
+      "nll": 28.66,
+      "model": "reinvent_denovo"
+    }
+  ]
+}

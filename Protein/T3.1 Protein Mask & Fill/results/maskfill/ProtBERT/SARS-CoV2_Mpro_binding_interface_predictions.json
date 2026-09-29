@@ -1,0 +1,123 @@
+{
+  "protein_name": "SARS-CoV2_Mpro",
+  "strategy": "binding_interface",
+  "model": "ProtBERT",
+  "predictions": [
+    {
+      "position": 40,
+      "original_aa": "E",
+      "predicted_aa": "L",
+      "prob": 0.2387,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "L",
+          "prob": 0.2387
+        },
+        {
+          "aa": "A",
+          "prob": 0.2146
+        },
+        {
+          "aa": "K",
+          "prob": 0.2054
+        },
+        {
+          "aa": "R",
+          "prob": 0.1756
+        },
+        {
+          "aa": "V",
+          "prob": 0.1658
+        }
+      ]
+    },
+    {
+      "position": 144,
+      "original_aa": "L",
+      "predicted_aa": "L",
+      "prob": 0.2978,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "L",
+          "prob": 0.2978
+        },
+        {
+          "aa": "F",
+          "prob": 0.2098
+        },
+        {
+          "aa": "E",
+          "prob": 0.1712
+        },
+        {
+          "aa": "D",
+          "prob": 0.1642
+        },
+        {
+          "aa": "I",
+          "prob": 0.157
+        }
+      ]
+    },
+    {
+      "position": 162,
+      "original_aa": "T",
+      "predicted_aa": "K",
+      "prob": 0.2175,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "K",
+          "prob": 0.2175
+        },
+        {
+          "aa": "R",
+          "prob": 0.2076
+        },
+        {
+          "aa": "L",
+          "prob": 0.2074
+        },
+        {
+          "aa": "E",
+          "prob": 0.185
+        },
+        {
+          "aa": "A",
+          "prob": 0.1826
+        }
+      ]
+    },
+    {
+      "position": 163,
+      "original_aa": "K",
+      "predicted_aa": "L",
+      "prob": 0.3132,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "L",
+          "prob": 0.3132
+        },
+        {
+          "aa": "V",
+          "prob": 0.1926
+        },
+        {
+          "aa": "I",
+          "prob": 0.1891
+        },
+        {
+          "aa": "F",
+          "prob": 0.1601
+        },
+        {
+          "aa": "A",
+          "prob": 0.145
+        }
+      ]
+    }
+  ]
+}

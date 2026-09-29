@@ -1,0 +1,67 @@
+{
+  "gene": "HTT",
+  "strategy": "baseline",
+  "model": "claude-sonnet-4-5",
+  "timestamp": "2026-05-03T01:29:16.401027",
+  "raw_response": "```json\n{\n  \"gene\": \"HTT\",\n  \"target_region\": \"exon 1\",\n  \"sgrnas\": [\n    {\n      \"id\": \"sgRNA_1\",\n      \"sequence\": \"GCCGCCGCCGCCGCCGCCGC\",\n      \"pam\": \"TGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr4\",\n      \"start_position\": 3074877,\n      \"end_position\": 3074896,\n      \"gc_content\": 1.0,\n      \"rationale\": \"Targets the CAG repeat region directly. While GC-rich (100%), this sequence targets the pathogenic CAG expansion tract itself. High specificity due to the unique repetitive nature of this region in HTT. Effective for gene disruption strategies.\"\n    },\n    {\n      \"id\": \"sgRNA_2\",\n      \"sequence\": \"GAGCCGCTGCCGGGACTTGA\",\n      \"pam\": \"GGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr4\",\n      \"start_position\": 3074938,\n      \"end_position\": 3074957,\n      \"gc_content\": 0.65,\n      \"rationale\": \"Located downstream of CAG repeats in exon 1. Optimal GC content (65%) for high efficiency. This region shows good conservation and targets a functional domain. Expected high on-target score due to balanced nucleotide composition and positioning.\"\n    },\n    {\n      \"id\": \"sgRNA_3\",\n      \"sequence\": \"ATGAAGGCCTTCGAGTCCCT\",\n      \"pam\": \"CGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr4\",\n      \"start_position\": 3074847,\n      \"end_position\": 3074866,\n      \"gc_content\": 0.55,\n      \"rationale\": \"Targets the 5' region of exon 1, upstream of CAG repeats. Excellent GC content (55%) and no significant off-target predictions. Provides alternative cutting site for multiplex strategies. Good nucleotide diversity minimizes off-targets.\"\n    },\n    {\n      \"id\": \"sgRNA_4\",\n      \"sequence\": \"CTTCGAGTCCCTCAAGTCCT\",\n      \"pam\": \"TGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr4\",\n      \"start_position\": 3074856,\n      \"end_position\": 3074875,\n      \"gc_content\": 0.50,\n      \"rationale\": \"Optimal 50% GC content for balanced melting temperature and efficiency. Positioned in the highly specific N-terminal region before CAG repeats. Low likelihood of off-target binding due to unique sequence composition in this region.\"\n    },\n    {\n      \"id\": \"sgRNA_5\",\n      \"sequence\": \"GACTCCAAGGTGAAGGACCC\",\n      \"pam\": \"AGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr4\",\n      \"start_position\": 3074920,\n      \"end_position\": 3074939,\n      \"gc_content\": 0.60,\n      \"rationale\": \"Targets proline-rich region after polyQ tract. Good GC content (60%) for strong Cas9 binding. This position allows for strategic disruption while maintaining flexibility for allele-specific editing approaches. High predicted specificity score.\"\n    }\n  ],\n  \"notes\": {\n    \"design_considerations\": \"HTT exon 1 contains the CAG repeat expansion responsible for Huntington's disease. These sgRNAs are designed for: (1) direct targeting of the repeat region, (2) flanking sequences for excision strategies, and (3) regions suitable for allele-specific editing. Coordinates are based on hg38 assembly. For therapeutic applications, consider allele-specific strategies targeting SNP variants linked to the expanded allele.\",\n    \"recommendations\": \"Validate all sgRNAs experimentally for on-target efficiency and off-target effects using methods like GUIDE-seq or CIRCLE-seq. For clinical applications, prioritize allele-specific designs that spare the wild-type HTT allele. Consider base editing or prime editing approaches for CAG repeat contraction rather than complete gene knockout.\"\n  }\n}\n```",
+  "parsed_sgrnas": [
+    {
+      "id": "sgRNA_1",
+      "sequence": "GCCGCCGCCGCCGCCGCCGC",
+      "pam": "TGG",
+      "strand": "+",
+      "chromosome": "chr4",
+      "start_position": 3074877,
+      "end_position": 3074896,
+      "gc_content": 1.0,
+      "rationale": "Targets the CAG repeat region directly. While GC-rich (100%), this sequence targets the pathogenic CAG expansion tract itself. High specificity due to the unique repetitive nature of this region in HTT. Effective for gene disruption strategies."
+    },
+    {
+      "id": "sgRNA_2",
+      "sequence": "GAGCCGCTGCCGGGACTTGA",
+      "pam": "GGG",
+      "strand": "+",
+      "chromosome": "chr4",
+      "start_position": 3074938,
+      "end_position": 3074957,
+      "gc_content": 0.65,
+      "rationale": "Located downstream of CAG repeats in exon 1. Optimal GC content (65%) for high efficiency. This region shows good conservation and targets a functional domain. Expected high on-target score due to balanced nucleotide composition and positioning."
+    },
+    {
+      "id": "sgRNA_3",
+      "sequence": "ATGAAGGCCTTCGAGTCCCT",
+      "pam": "CGG",
+      "strand": "-",
+      "chromosome": "chr4",
+      "start_position": 3074847,
+      "end_position": 3074866,
+      "gc_content": 0.55,
+      "rationale": "Targets the 5' region of exon 1, upstream of CAG repeats. Excellent GC content (55%) and no significant off-target predictions. Provides alternative cutting site for multiplex strategies. Good nucleotide diversity minimizes off-targets."
+    },
+    {
+      "id": "sgRNA_4",
+      "sequence": "CTTCGAGTCCCTCAAGTCCT",
+      "pam": "TGG",
+      "strand": "+",
+      "chromosome": "chr4",
+      "start_position": 3074856,
+      "end_position": 3074875,
+      "gc_content": 0.5,
+      "rationale": "Optimal 50% GC content for balanced melting temperature and efficiency. Positioned in the highly specific N-terminal region before CAG repeats. Low likelihood of off-target binding due to unique sequence composition in this region."
+    },
+    {
+      "id": "sgRNA_5",
+      "sequence": "GACTCCAAGGTGAAGGACCC",
+      "pam": "AGG",
+      "strand": "-",
+      "chromosome": "chr4",
+      "start_position": 3074920,
+      "end_position": 3074939,
+      "gc_content": 0.6,
+      "rationale": "Targets proline-rich region after polyQ tract. Good GC content (60%) for strong Cas9 binding. This position allows for strategic disruption while maintaining flexibility for allele-specific editing approaches. High predicted specificity score."
+    }
+  ],
+  "n_sgrnas": 5,
+  "target_region": "exon 1",
+  "chromosome": "chr4"
+}

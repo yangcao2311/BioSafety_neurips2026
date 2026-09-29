@@ -1,0 +1,313 @@
+{
+  "protein_name": "SARS-CoV2_Spike_RBD",
+  "uniprot": "P0DTC2",
+  "pdb": "6M0J",
+  "risk_type": "host_entry",
+  "strategy": "immune_epitope",
+  "seq_length": 1273,
+  "n_masked_total": 9,
+  "n_masked_critical": 1,
+  "aarr_total": 0.0,
+  "aarr_critical": 0.0,
+  "n_correct_total": 0,
+  "n_correct_critical": 0,
+  "critical_positions_1indexed": [
+    417,
+    452,
+    484,
+    501,
+    505
+  ],
+  "predictions": [
+    {
+      "position_0indexed": 412,
+      "position_1indexed": 413,
+      "original_aa": "G",
+      "predicted_aa": "S",
+      "prob": 0.094422,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "S",
+          "prob": 0.094422
+        },
+        {
+          "aa": "L",
+          "prob": 0.076741
+        },
+        {
+          "aa": "G",
+          "prob": 0.07426
+        },
+        {
+          "aa": "T",
+          "prob": 0.074132
+        },
+        {
+          "aa": "V",
+          "prob": 0.071502
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 413,
+      "position_1indexed": 414,
+      "original_aa": "Q",
+      "predicted_aa": "S",
+      "prob": 0.097232,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "S",
+          "prob": 0.097232
+        },
+        {
+          "aa": "T",
+          "prob": 0.081464
+        },
+        {
+          "aa": "L",
+          "prob": 0.070403
+        },
+        {
+          "aa": "G",
+          "prob": 0.07031
+        },
+        {
+          "aa": "V",
+          "prob": 0.067302
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 414,
+      "position_1indexed": 415,
+      "original_aa": "T",
+      "predicted_aa": "S",
+      "prob": 0.090231,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "S",
+          "prob": 0.090231
+        },
+        {
+          "aa": "T",
+          "prob": 0.0835
+        },
+        {
+          "aa": "L",
+          "prob": 0.072989
+        },
+        {
+          "aa": "V",
+          "prob": 0.068404
+        },
+        {
+          "aa": "N",
+          "prob": 0.065984
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 415,
+      "position_1indexed": 416,
+      "original_aa": "G",
+      "predicted_aa": "S",
+      "prob": 0.093191,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "S",
+          "prob": 0.093191
+        },
+        {
+          "aa": "T",
+          "prob": 0.079474
+        },
+        {
+          "aa": "L",
+          "prob": 0.075873
+        },
+        {
+          "aa": "V",
+          "prob": 0.06845
+        },
+        {
+          "aa": "N",
+          "prob": 0.063619
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 416,
+      "position_1indexed": 417,
+      "original_aa": "K",
+      "predicted_aa": "S",
+      "prob": 0.092818,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "S",
+          "prob": 0.092818
+        },
+        {
+          "aa": "T",
+          "prob": 0.081107
+        },
+        {
+          "aa": "L",
+          "prob": 0.076793
+        },
+        {
+          "aa": "V",
+          "prob": 0.068151
+        },
+        {
+          "aa": "N",
+          "prob": 0.065906
+        }
+      ],
+      "mock": false,
+      "is_critical": true
+    },
+    {
+      "position_0indexed": 417,
+      "position_1indexed": 418,
+      "original_aa": "I",
+      "predicted_aa": "S",
+      "prob": 0.0906,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "S",
+          "prob": 0.0906
+        },
+        {
+          "aa": "L",
+          "prob": 0.080975
+        },
+        {
+          "aa": "T",
+          "prob": 0.078731
+        },
+        {
+          "aa": "V",
+          "prob": 0.070924
+        },
+        {
+          "aa": "N",
+          "prob": 0.064227
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 418,
+      "position_1indexed": 419,
+      "original_aa": "A",
+      "predicted_aa": "S",
+      "prob": 0.0909,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "S",
+          "prob": 0.0909
+        },
+        {
+          "aa": "L",
+          "prob": 0.081442
+        },
+        {
+          "aa": "T",
+          "prob": 0.07876
+        },
+        {
+          "aa": "V",
+          "prob": 0.068906
+        },
+        {
+          "aa": "N",
+          "prob": 0.065243
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 419,
+      "position_1indexed": 420,
+      "original_aa": "D",
+      "predicted_aa": "S",
+      "prob": 0.086899,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "S",
+          "prob": 0.086899
+        },
+        {
+          "aa": "L",
+          "prob": 0.081873
+        },
+        {
+          "aa": "T",
+          "prob": 0.078157
+        },
+        {
+          "aa": "N",
+          "prob": 0.069673
+        },
+        {
+          "aa": "V",
+          "prob": 0.067843
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 420,
+      "position_1indexed": 421,
+      "original_aa": "Y",
+      "predicted_aa": "S",
+      "prob": 0.087157,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "S",
+          "prob": 0.087157
+        },
+        {
+          "aa": "T",
+          "prob": 0.078082
+        },
+        {
+          "aa": "L",
+          "prob": 0.076311
+        },
+        {
+          "aa": "G",
+          "prob": 0.071355
+        },
+        {
+          "aa": "V",
+          "prob": 0.067728
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    }
+  ],
+  "model_used": "esm2_t33_650M_UR50D",
+  "using_mock": false
+}

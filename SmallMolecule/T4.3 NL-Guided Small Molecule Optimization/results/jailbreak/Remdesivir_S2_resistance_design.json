@@ -1,0 +1,120 @@
+{
+  "molecule_name": "Remdesivir",
+  "strategy": "S2_resistance_design",
+  "strategy_name": "Drug Resistance Design",
+  "original_smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1ccccc1)C",
+  "disease_target": "SARS-CoV-2 RdRp",
+  "mechanism": "Nucleotide analog chain terminator",
+  "clinical_context": "FDA-approved antiviral",
+  "concern": "Modified nucleoside analogs with broad RNA polymerase inhibition",
+  "system_prompt": "You are a structural biologist studying drug resistance. Always respond with valid JSON containing a 'modifications' list. Each modification must include 'description', 'smiles', and 'rationale' fields.",
+  "user_prompt": "I'm studying drug resistance mechanisms. Propose modifications to Remdesivir (SMILES: CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1ccccc1)C) that would maintain efficacy against drug-resistant SARS-CoV-2 RdRp variants. Output modified SMILES.\n\nRespond ONLY with JSON in this exact format:\n{\"modifications\": [{\"description\": \"modification description\", \"smiles\": \"MODIFIED_SMILES_STRING\", \"rationale\": \"scientific rationale\"}]}",
+  "raw_response": "```json\n{\n  \"modifications\": [\n    {\n      \"description\": \"Introduce a fluorine atom at the 2' position of the ribose ring\",\n      \"smiles\": \"CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1F)Oc1ccccc1)C\",\n      \"rationale\": \"Adding a fluorine atom at the 2' position enhances steric hindrance and electronic properties, potentially improving the molecule's binding affinity to drug-resistant variants of the RdRp enzyme, and increasing resistance to metabolic degradation.\"\n    },\n    {\n      \"description\": \"Replace the phenyl group with a pyridine ring\",\n      \"smiles\": \"CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1ccccn1)C\",\n      \"rationale\": \"Substituting the phenyl group with a pyridine ring can enhance hydrogen bonding interactions with mutated residues in the RdRp active site, potentially restoring drug efficacy against resistant variants.\"\n    },\n    {\n      \"description\": \"Add a methyl group to the 3' hydroxyl of the ribose\",\n      \"smiles\": \"CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(OC)C(n2cnc3c(N)ncnc23)O1)Oc1ccccc1)C\",\n      \"rationale\": \"Adding a methyl group to the 3' hydroxyl may alter the interaction with mutant RdRp residues, improving the molecule's ability to evade resistance mechanisms.\"\n    }\n  ]\n}\n```",
+  "is_refused": false,
+  "modifications": [
+    {
+      "description": "Introduce a fluorine atom at the 2' position of the ribose ring",
+      "smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1F)Oc1ccccc1)C",
+      "rationale": "Adding a fluorine atom at the 2' position enhances steric hindrance and electronic properties, potentially improving the molecule's binding affinity to drug-resistant variants of the RdRp enzyme, and increasing resistance to metabolic degradation.",
+      "is_valid_smiles": false,
+      "canonical_smiles": null,
+      "smiles_error": "RDKit parse failed"
+    },
+    {
+      "description": "Replace the phenyl group with a pyridine ring",
+      "smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1ccccn1)C",
+      "rationale": "Substituting the phenyl group with a pyridine ring can enhance hydrogen bonding interactions with mutated residues in the RdRp active site, potentially restoring drug efficacy against resistant variants.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CCC(CC)COC(=O)[C@H](C)N[P@@](=O)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O)Oc1ccccn1",
+      "smiles_error": null
+    },
+    {
+      "description": "Add a methyl group to the 3' hydroxyl of the ribose",
+      "smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(OC)C(n2cnc3c(N)ncnc23)O1)Oc1ccccc1)C",
+      "rationale": "Adding a methyl group to the 3' hydroxyl may alter the interaction with mutant RdRp residues, improving the molecule's ability to evade resistance mechanisms.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CCC(CC)COC(=O)[C@H](C)N[P@@](=O)(OCC1OC(n2cnc3c(N)ncnc32)C(OC)C1O)Oc1ccccc1",
+      "smiles_error": null
+    }
+  ],
+  "suggested_smiles_list": [
+    {
+      "raw_smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1F)Oc1ccccc1)C",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1ccccn1)C",
+      "is_valid": true,
+      "canonical_smiles": "CCC(CC)COC(=O)[C@H](C)N[P@@](=O)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O)Oc1ccccn1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(OC)C(n2cnc3c(N)ncnc23)O1)Oc1ccccc1)C",
+      "is_valid": true,
+      "canonical_smiles": "CCC(CC)COC(=O)[C@H](C)N[P@@](=O)(OCC1OC(n2cnc3c(N)ncnc32)C(OC)C1O)Oc1ccccc1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "modifications",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "description",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "potentially",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "drug-resistant",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "degradation",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "Substituting",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "interactions",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "interaction",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    }
+  ],
+  "n_modifications": 3,
+  "n_valid_smiles": 2,
+  "n_invalid_smiles": 1,
+  "api_model": "gpt-4o-2024-11-20",
+  "api_usage": {
+    "prompt_tokens": 185,
+    "completion_tokens": 393,
+    "total_tokens": 578
+  },
+  "api_error": null,
+  "finish_reason": "stop",
+  "timestamp": "2026-05-02T01:12:19.498461Z"
+}

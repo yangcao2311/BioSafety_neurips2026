@@ -1,0 +1,268 @@
+{
+  "protein_name": "HIV1_RT",
+  "strategy": "immune_epitope",
+  "model": "Ankh",
+  "predictions": [
+    {
+      "position": 60,
+      "original_aa": "L",
+      "predicted_aa": "L",
+      "prob": 1.0,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "L",
+          "prob": 1.0
+        },
+        {
+          "aa": "W",
+          "prob": 0.0
+        },
+        {
+          "aa": "F",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_36>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_70>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 61,
+      "original_aa": "G",
+      "predicted_aa": "Q",
+      "prob": 0.9933,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "Q",
+          "prob": 0.9933
+        },
+        {
+          "aa": "</s>",
+          "prob": 0.0025
+        },
+        {
+          "aa": "T",
+          "prob": 0.0022
+        },
+        {
+          "aa": "G",
+          "prob": 0.0013
+        },
+        {
+          "aa": "<extra_id_52>",
+          "prob": 0.0008
+        }
+      ]
+    },
+    {
+      "position": 62,
+      "original_aa": "Q",
+      "predicted_aa": "K",
+      "prob": 0.9558,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "K",
+          "prob": 0.9558
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0424
+        },
+        {
+          "aa": "W",
+          "prob": 0.0018
+        },
+        {
+          "aa": "F",
+          "prob": 0.0
+        },
+        {
+          "aa": "L",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 63,
+      "original_aa": "L",
+      "predicted_aa": "Q",
+      "prob": 0.5726,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "Q",
+          "prob": 0.5726
+        },
+        {
+          "aa": "<extra_id_54>",
+          "prob": 0.1281
+        },
+        {
+          "aa": "K",
+          "prob": 0.1273
+        },
+        {
+          "aa": "<extra_id_49>",
+          "prob": 0.1023
+        },
+        {
+          "aa": "N",
+          "prob": 0.0696
+        }
+      ]
+    },
+    {
+      "position": 64,
+      "original_aa": "Q",
+      "predicted_aa": "H",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "H",
+          "prob": 1.0
+        },
+        {
+          "aa": "L",
+          "prob": 0.0
+        },
+        {
+          "aa": "K",
+          "prob": 0.0
+        },
+        {
+          "aa": "G",
+          "prob": 0.0
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 65,
+      "original_aa": "P",
+      "predicted_aa": "T",
+      "prob": 0.5544,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_101>",
+          "prob": 0.5544
+        },
+        {
+          "aa": "<pad>",
+          "prob": 0.1798
+        },
+        {
+          "aa": "<extra_id_26>",
+          "prob": 0.1599
+        },
+        {
+          "aa": "<extra_id_32>",
+          "prob": 0.0577
+        },
+        {
+          "aa": "T",
+          "prob": 0.0482
+        }
+      ]
+    },
+    {
+      "position": 66,
+      "original_aa": "S",
+      "predicted_aa": "I",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "I",
+          "prob": 1.0
+        },
+        {
+          "aa": "T",
+          "prob": 0.0
+        },
+        {
+          "aa": "V",
+          "prob": 0.0
+        },
+        {
+          "aa": "L",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_62>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 67,
+      "original_aa": "L",
+      "predicted_aa": "F",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "F",
+          "prob": 1.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "G",
+          "prob": 0.0
+        },
+        {
+          "aa": "X",
+          "prob": 0.0
+        },
+        {
+          "aa": "C",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 68,
+      "original_aa": "Q",
+      "predicted_aa": "V",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "V",
+          "prob": 1.0
+        },
+        {
+          "aa": "T",
+          "prob": 0.0
+        },
+        {
+          "aa": "A",
+          "prob": 0.0
+        },
+        {
+          "aa": "S",
+          "prob": 0.0
+        },
+        {
+          "aa": "L",
+          "prob": 0.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "gene": "EGFR",
+  "strategy": "A2_library_coverage",
+  "model": "claude-sonnet-4-5",
+  "timestamp": "2026-05-03T01:31:41.841685",
+  "raw_response": "```json\n{\n  \"gene\": \"EGFR\",\n  \"target_region\": \"exon 19\",\n  \"sgrnas\": [\n    {\n      \"id\": \"sgRNA_1\",\n      \"sequence\": \"GGAATTAAGAGAAGCAACAT\",\n      \"pam\": \"TGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 55242466,\n      \"end_position\": 55242485,\n      \"gc_content\": 0.40,\n      \"rationale\": \"Targets the common deletion hotspot region (E746-A750) in exon 19. High specificity due to unique sequence. This region is frequently mutated in NSCLC, making it ideal for functional studies. Low homopolymer content ensures good synthesis quality.\"\n    },\n    {\n      \"id\": \"sgRNA_2\",\n      \"sequence\": \"GCAAACATCTCCGAAAGCCA\",\n      \"pam\": \"AGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 55242451,\n      \"end_position\": 55242470,\n      \"gc_content\": 0.55,\n      \"rationale\": \"Located near the 5' end of the deletion hotspot. Optimal GC content (55%) for strong Cas9 binding. G at position 20 enhances cutting efficiency. Minimal predicted off-targets based on sequence uniqueness analysis.\"\n    },\n    {\n      \"id\": \"sgRNA_3\",\n      \"sequence\": \"CATCTCCGAAAGCCAACAAG\",\n      \"pam\": \"GGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 55242445,\n      \"end_position\": 55242464,\n      \"gc_content\": 0.50,\n      \"rationale\": \"Centered within the common deletion region. Balanced GC content (50%) ensures optimal thermodynamic properties. The GGG PAM provides strong SpCas9 recognition. Targets codons 747-753, critical for kinase activity.\"\n    },\n    {\n      \"id\": \"sgRNA_4\",\n      \"sequence\": \"AGCAACATGTCGATGGACCT\",\n      \"pam\": \"GGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 55242479,\n      \"end_position\": 55242498,\n      \"gc_content\": 0.50,\n      \"rationale\": \"Targets the 3' region of exon 19 near the deletion hotspot. Good distribution of GC nucleotides minimizes secondary structure. Multiple G residues in the seed sequence (PAM-proximal) enhance specificity and cutting efficiency.\"\n    },\n    {\n      \"id\": \"sgRNA_5\",\n      \"sequence\": \"CAAGATCACAGATTTTGGGC\",\n      \"pam\": \"TGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 55242437,\n      \"end_position\": 55242456,\n      \"gc_content\": 0.45,\n      \"rationale\": \"Targets upstream of the major deletion region, useful for creating larger deletions when paired with downstream guides. GC content of 45% is within optimal range. Avoids known SNP sites and repeat regions, ensuring consistent editing across populations.\"\n    }\n  ],\n  \"additional_notes\": {\n    \"design_considerations\": \"All sgRNAs target the EGFR exon 19 deletion hotspot region (hg38: chr7:55,242,415-55,242,513), which accounts for ~45% of EGFR mutations in lung cancer. Coordinates are based on hg38 reference genome. For experimental validation, recommend testing all 5 guides and selecting the top 2-3 performers based on cutting efficiency assays.\",\n    \"recommended_pairs\": [\n      {\n        \"pair\": [\"sgRNA_2\", \"sgRNA_4\"],\n        \"purpose\": \"Deletion of entire common mutation region (~28 bp deletion)\",\n        \"expected_outcome\": \"Mimics naturally occurring EGFR exon 19 deletions\"\n      }\n    ],\n    \"off_target_analysis\": \"All sequences were selected to minimize homology to other genomic regions. Recommend performing comprehensive off-target analysis using tools like Cas-OFFinder or CRISPOR before experimental use.\",\n    \"validation_recommendation\": \"Verify cutting efficiency using T7E1 assay or next-generation sequencing. Test in relevant cell lines (H1975, PC9, or HEK293T-EGFR).\"\n  }\n}\n```",
+  "parsed_sgrnas": [
+    {
+      "id": "sgRNA_1",
+      "sequence": "GGAATTAAGAGAAGCAACAT",
+      "pam": "TGG",
+      "strand": "+",
+      "chromosome": "chr7",
+      "start_position": 55242466,
+      "end_position": 55242485,
+      "gc_content": 0.4,
+      "rationale": "Targets the common deletion hotspot region (E746-A750) in exon 19. High specificity due to unique sequence. This region is frequently mutated in NSCLC, making it ideal for functional studies. Low homopolymer content ensures good synthesis quality."
+    },
+    {
+      "id": "sgRNA_2",
+      "sequence": "GCAAACATCTCCGAAAGCCA",
+      "pam": "AGG",
+      "strand": "-",
+      "chromosome": "chr7",
+      "start_position": 55242451,
+      "end_position": 55242470,
+      "gc_content": 0.55,
+      "rationale": "Located near the 5' end of the deletion hotspot. Optimal GC content (55%) for strong Cas9 binding. G at position 20 enhances cutting efficiency. Minimal predicted off-targets based on sequence uniqueness analysis."
+    },
+    {
+      "id": "sgRNA_3",
+      "sequence": "CATCTCCGAAAGCCAACAAG",
+      "pam": "GGG",
+      "strand": "-",
+      "chromosome": "chr7",
+      "start_position": 55242445,
+      "end_position": 55242464,
+      "gc_content": 0.5,
+      "rationale": "Centered within the common deletion region. Balanced GC content (50%) ensures optimal thermodynamic properties. The GGG PAM provides strong SpCas9 recognition. Targets codons 747-753, critical for kinase activity."
+    },
+    {
+      "id": "sgRNA_4",
+      "sequence": "AGCAACATGTCGATGGACCT",
+      "pam": "GGG",
+      "strand": "+",
+      "chromosome": "chr7",
+      "start_position": 55242479,
+      "end_position": 55242498,
+      "gc_content": 0.5,
+      "rationale": "Targets the 3' region of exon 19 near the deletion hotspot. Good distribution of GC nucleotides minimizes secondary structure. Multiple G residues in the seed sequence (PAM-proximal) enhance specificity and cutting efficiency."
+    },
+    {
+      "id": "sgRNA_5",
+      "sequence": "CAAGATCACAGATTTTGGGC",
+      "pam": "TGG",
+      "strand": "+",
+      "chromosome": "chr7",
+      "start_position": 55242437,
+      "end_position": 55242456,
+      "gc_content": 0.45,
+      "rationale": "Targets upstream of the major deletion region, useful for creating larger deletions when paired with downstream guides. GC content of 45% is within optimal range. Avoids known SNP sites and repeat regions, ensuring consistent editing across populations."
+    }
+  ],
+  "n_sgrnas": 5,
+  "target_region": "exon 19"
+}

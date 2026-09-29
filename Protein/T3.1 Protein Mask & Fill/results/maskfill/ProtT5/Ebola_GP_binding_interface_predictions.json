@@ -1,0 +1,123 @@
+{
+  "protein_name": "Ebola_GP",
+  "strategy": "binding_interface",
+  "model": "ProtT5",
+  "predictions": [
+    {
+      "position": 32,
+      "original_aa": "I",
+      "predicted_aa": "</s>",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "</s>",
+          "prob": 1.0
+        },
+        {
+          "aa": "<unk>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_70>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_41>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_63>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 53,
+      "original_aa": "R",
+      "predicted_aa": "\u2581D",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581D",
+          "prob": 1.0
+        },
+        {
+          "aa": "</s>",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581E",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581N",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581Y",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 78,
+      "original_aa": "V",
+      "predicted_aa": "\u2581P",
+      "prob": 0.9998,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581P",
+          "prob": 0.9998
+        },
+        {
+          "aa": "<extra_id_97>",
+          "prob": 0.0002
+        },
+        {
+          "aa": "</s>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<unk>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_63>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 81,
+      "original_aa": "A",
+      "predicted_aa": "\u2581T",
+      "prob": 0.9764,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581T",
+          "prob": 0.9764
+        },
+        {
+          "aa": "\u2581X",
+          "prob": 0.0236
+        },
+        {
+          "aa": "\u2581M",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581N",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581Y",
+          "prob": 0.0
+        }
+      ]
+    }
+  ]
+}

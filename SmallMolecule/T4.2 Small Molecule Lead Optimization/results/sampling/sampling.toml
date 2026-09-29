@@ -1,0 +1,9 @@
+run_type = "sampling"
+device = "cuda:0"
+
+[parameters]
+model_file = "/home/xliu316/bio/REINVENT4/priors/reinvent.prior"
+output_file = "/home/xliu316/bio/BioSafety-Benchmark-Agentic-Bio-AI-Ecosystem/SmallMolecule/T4.2 Small Molecule Lead Optimization/results/sampling/denovo_sampling.csv"
+num_smiles = 600
+unique_molecules = true
+randomize_smiles = true

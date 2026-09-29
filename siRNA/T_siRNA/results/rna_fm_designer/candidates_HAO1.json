@@ -1,0 +1,1802 @@
+[
+  {
+    "guide": "CAUUUUCAAUGUUUUCUUUUU",
+    "target_pos": 1384,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.2815,
+    "RiNALMo_nll": 0.3383,
+    "combined_nll": 0.3099
+  },
+  {
+    "guide": "UUUUUAACAGUUAAUAUAUUU",
+    "target_pos": 1368,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3058,
+    "RiNALMo_nll": 0.4312,
+    "combined_nll": 0.3685
+  },
+  {
+    "guide": "UGCAACAAUUGGCAAUGAUGU",
+    "target_pos": 720,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3498,
+    "RiNALMo_nll": 0.4215,
+    "combined_nll": 0.3856
+  },
+  {
+    "guide": "AAUUGAGGAGGUGGCCCAGGA",
+    "target_pos": 360,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3444,
+    "RiNALMo_nll": 0.4281,
+    "combined_nll": 0.3862
+  },
+  {
+    "guide": "UGUUGUUCAUAAUCAUUGAUA",
+    "target_pos": 56,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3208,
+    "RiNALMo_nll": 0.4631,
+    "combined_nll": 0.3919
+  },
+  {
+    "guide": "UUCCACAGCCUCCACAAUUUC",
+    "target_pos": 864,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3557,
+    "RiNALMo_nll": 0.4339,
+    "combined_nll": 0.3948
+  },
+  {
+    "guide": "UGCUGCAAUAUUAUCAGCCAA",
+    "target_pos": 144,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3378,
+    "RiNALMo_nll": 0.4547,
+    "combined_nll": 0.3963
+  },
+  {
+    "guide": "UACCAACACUUUGAACCUGAG",
+    "target_pos": 1560,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.341,
+    "RiNALMo_nll": 0.452,
+    "combined_nll": 0.3965
+  },
+  {
+    "guide": "UGUAGCCCAUCUUCUCUGCCU",
+    "target_pos": 472,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3762,
+    "RiNALMo_nll": 0.4198,
+    "combined_nll": 0.398
+  },
+  {
+    "guide": "UUUUCCUCAGGAGAAAAUGAU",
+    "target_pos": 608,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3545,
+    "RiNALMo_nll": 0.4487,
+    "combined_nll": 0.4016
+  },
+  {
+    "guide": "ACCUUCCCUUCCACAGCCUCC",
+    "target_pos": 872,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.388,
+    "RiNALMo_nll": 0.4254,
+    "combined_nll": 0.4067
+  },
+  {
+    "guide": "UCUAAACACAUUUUCAAUGUU",
+    "target_pos": 1392,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3588,
+    "RiNALMo_nll": 0.4615,
+    "combined_nll": 0.4101
+  },
+  {
+    "guide": "CUUUGAACCUGAGCUUACAAU",
+    "target_pos": 1552,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3927,
+    "RiNALMo_nll": 0.4283,
+    "combined_nll": 0.4105
+  },
+  {
+    "guide": "AGACUUCCACCUUCCCUUCCA",
+    "target_pos": 880,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3695,
+    "RiNALMo_nll": 0.459,
+    "combined_nll": 0.4143
+  },
+  {
+    "guide": "GCCAAGAGCCAGAGCUUUCAG",
+    "target_pos": 936,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3836,
+    "RiNALMo_nll": 0.4466,
+    "combined_nll": 0.4151
+  },
+  {
+    "guide": "UUCUUCAUCAUUUGCCCCAGA",
+    "target_pos": 120,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3771,
+    "RiNALMo_nll": 0.4547,
+    "combined_nll": 0.4159
+  },
+  {
+    "guide": "CUCUCAAAAUGCCCUUUGCAA",
+    "target_pos": 736,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3508,
+    "RiNALMo_nll": 0.4853,
+    "combined_nll": 0.418
+  },
+  {
+    "guide": "UUCAAAAUUUUUCAUCCUGAG",
+    "target_pos": 576,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3587,
+    "RiNALMo_nll": 0.4781,
+    "combined_nll": 0.4184
+  },
+  {
+    "guide": "UUGGCAAUGAUGUCAGUCUUC",
+    "target_pos": 712,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3979,
+    "RiNALMo_nll": 0.4432,
+    "combined_nll": 0.4206
+  },
+  {
+    "guide": "GGAAUUACAGACUGUGGUCAC",
+    "target_pos": 1224,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4412,
+    "RiNALMo_nll": 0.4077,
+    "combined_nll": 0.4245
+  },
+  {
+    "guide": "AUGUUUUCUUUUUAACAGUUA",
+    "target_pos": 1376,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3584,
+    "RiNALMo_nll": 0.4935,
+    "combined_nll": 0.4259
+  },
+  {
+    "guide": "AGGUGGCCCAGGAACUCAACA",
+    "target_pos": 352,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4155,
+    "RiNALMo_nll": 0.4377,
+    "combined_nll": 0.4266
+  },
+  {
+    "guide": "CUUCCGCCACUUCUUCAAUUG",
+    "target_pos": 376,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4213,
+    "RiNALMo_nll": 0.4322,
+    "combined_nll": 0.4267
+  },
+  {
+    "guide": "AUUUUUCCUCACCAAUGUCUU",
+    "target_pos": 1104,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3814,
+    "RiNALMo_nll": 0.473,
+    "combined_nll": 0.4272
+  },
+  {
+    "guide": "UCACCAAUGUCUUGUCGAUGA",
+    "target_pos": 1096,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3741,
+    "RiNALMo_nll": 0.4821,
+    "combined_nll": 0.4281
+  },
+  {
+    "guide": "CUGCACAGUGUCUCUUUGUCA",
+    "target_pos": 1200,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3826,
+    "RiNALMo_nll": 0.4772,
+    "combined_nll": 0.4299
+  },
+  {
+    "guide": "CCAGAGCUUUCAGAACAUCAG",
+    "target_pos": 928,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3995,
+    "RiNALMo_nll": 0.4605,
+    "combined_nll": 0.43
+  },
+  {
+    "guide": "UUCUCAAAGUUGUGAAUCAGG",
+    "target_pos": 1584,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4021,
+    "RiNALMo_nll": 0.4647,
+    "combined_nll": 0.4334
+  },
+  {
+    "guide": "AAAUAAUACAGAUGGGAAAAU",
+    "target_pos": 1160,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4067,
+    "RiNALMo_nll": 0.4618,
+    "combined_nll": 0.4343
+  },
+  {
+    "guide": "UGUUUUAAAGACAUGUAAACA",
+    "target_pos": 1520,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.411,
+    "RiNALMo_nll": 0.4581,
+    "combined_nll": 0.4345
+  },
+  {
+    "guide": "GUGCACUGUCAGAUCUUGGAA",
+    "target_pos": 1136,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3929,
+    "RiNALMo_nll": 0.4762,
+    "combined_nll": 0.4346
+  },
+  {
+    "guide": "UGGAUACAGCUUCCAUCUGGA",
+    "target_pos": 168,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4436,
+    "RiNALMo_nll": 0.427,
+    "combined_nll": 0.4353
+  },
+  {
+    "guide": "AGACUGUGGUCACCCUCUGCA",
+    "target_pos": 1216,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4206,
+    "RiNALMo_nll": 0.4511,
+    "combined_nll": 0.4358
+  },
+  {
+    "guide": "CUGACAGGCUCUCACAGUGGC",
+    "target_pos": 312,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4179,
+    "RiNALMo_nll": 0.4581,
+    "combined_nll": 0.438
+  },
+  {
+    "guide": "GAUGUCAGUCUUCUCAGCCAU",
+    "target_pos": 704,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4032,
+    "RiNALMo_nll": 0.4742,
+    "combined_nll": 0.4387
+  },
+  {
+    "guide": "AAUACAUGCUGAAAAAAAAUA",
+    "target_pos": 1176,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.41,
+    "RiNALMo_nll": 0.4675,
+    "combined_nll": 0.4387
+  },
+  {
+    "guide": "UGUCCACUGUCACAAAUAUGG",
+    "target_pos": 496,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.397,
+    "RiNALMo_nll": 0.4841,
+    "combined_nll": 0.4406
+  },
+  {
+    "guide": "AAAAUAUUGUGCACUGUCAGA",
+    "target_pos": 1144,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3874,
+    "RiNALMo_nll": 0.4937,
+    "combined_nll": 0.4406
+  },
+  {
+    "guide": "UGUCAAGUAAUACAUGCUGAA",
+    "target_pos": 1184,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3905,
+    "RiNALMo_nll": 0.4914,
+    "combined_nll": 0.441
+  },
+  {
+    "guide": "UCUUCUCAGCCAUUUGAUAUC",
+    "target_pos": 696,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4072,
+    "RiNALMo_nll": 0.4759,
+    "combined_nll": 0.4415
+  },
+  {
+    "guide": "GUCACCCUCUGCACAGUGUCU",
+    "target_pos": 1208,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3856,
+    "RiNALMo_nll": 0.5012,
+    "combined_nll": 0.4434
+  },
+  {
+    "guide": "GAUGACUUUCACAUUCUGGCA",
+    "target_pos": 1080,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4029,
+    "RiNALMo_nll": 0.4904,
+    "combined_nll": 0.4466
+  },
+  {
+    "guide": "UGACGUUGUCUAAACACAUUU",
+    "target_pos": 1400,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3778,
+    "RiNALMo_nll": 0.517,
+    "combined_nll": 0.4474
+  },
+  {
+    "guide": "AAUAAACAAUGAGAUCAUUAU",
+    "target_pos": 1488,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4666,
+    "RiNALMo_nll": 0.4307,
+    "combined_nll": 0.4486
+  },
+  {
+    "guide": "GCCAAAGUUUCUUCAUCAUUU",
+    "target_pos": 128,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4378,
+    "RiNALMo_nll": 0.4599,
+    "combined_nll": 0.4488
+  },
+  {
+    "guide": "UGGCACCCACUCAGAGCCAUG",
+    "target_pos": 1064,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4693,
+    "RiNALMo_nll": 0.4291,
+    "combined_nll": 0.4492
+  },
+  {
+    "guide": "UUCUUGGUGACUUCUCGGUCC",
+    "target_pos": 440,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4055,
+    "RiNALMo_nll": 0.4935,
+    "combined_nll": 0.4495
+  },
+  {
+    "guide": "GGAUGAAAGUCCAUUUCUUUC",
+    "target_pos": 1344,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4282,
+    "RiNALMo_nll": 0.4717,
+    "combined_nll": 0.4499
+  },
+  {
+    "guide": "UGCUGACCCUCUGUCCUAAAA",
+    "target_pos": 232,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4301,
+    "RiNALMo_nll": 0.47,
+    "combined_nll": 0.45
+  },
+  {
+    "guide": "GGAUUGCUAUUUUGUUGGAAA",
+    "target_pos": 1272,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4231,
+    "RiNALMo_nll": 0.4783,
+    "combined_nll": 0.4507
+  },
+  {
+    "guide": "UAGAUAUACAGUUGCAGCCAA",
+    "target_pos": 416,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4108,
+    "RiNALMo_nll": 0.4929,
+    "combined_nll": 0.4519
+  },
+  {
+    "guide": "CUCCAAAAUUUUCCUCAGGAG",
+    "target_pos": 616,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4206,
+    "RiNALMo_nll": 0.4847,
+    "combined_nll": 0.4527
+  },
+  {
+    "guide": "UAUUAUCAGCCAAAGUUUCUU",
+    "target_pos": 136,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4285,
+    "RiNALMo_nll": 0.4773,
+    "combined_nll": 0.4529
+  },
+  {
+    "guide": "UCCCUGGCAUCAUCACCUCUC",
+    "target_pos": 752,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4521,
+    "RiNALMo_nll": 0.4563,
+    "combined_nll": 0.4542
+  },
+  {
+    "guide": "CAGAUGGGAAAAUAUUGUGCA",
+    "target_pos": 1152,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4417,
+    "RiNALMo_nll": 0.4678,
+    "combined_nll": 0.4548
+  },
+  {
+    "guide": "CAGGAACUCAACAUCAUGCCC",
+    "target_pos": 344,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4584,
+    "RiNALMo_nll": 0.4518,
+    "combined_nll": 0.4551
+  },
+  {
+    "guide": "CACAUCAUCCAGACGGUUGCC",
+    "target_pos": 528,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3886,
+    "RiNALMo_nll": 0.5219,
+    "combined_nll": 0.4553
+  },
+  {
+    "guide": "AGUGCCUCAGGACCAGCUUCC",
+    "target_pos": 392,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4589,
+    "RiNALMo_nll": 0.4518,
+    "combined_nll": 0.4554
+  },
+  {
+    "guide": "ACUUCUUCAAUUGAGGAGGUG",
+    "target_pos": 368,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.433,
+    "RiNALMo_nll": 0.4788,
+    "combined_nll": 0.4559
+  },
+  {
+    "guide": "GUCUUGUCGAUGACUUUCACA",
+    "target_pos": 1088,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.3995,
+    "RiNALMo_nll": 0.5154,
+    "combined_nll": 0.4574
+  },
+  {
+    "guide": "CCAUUGAAAAGUCAAAAGCAA",
+    "target_pos": 1304,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4215,
+    "RiNALMo_nll": 0.4963,
+    "combined_nll": 0.4589
+  },
+  {
+    "guide": "UCACAUUCUGGCACCCACUCA",
+    "target_pos": 1072,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4272,
+    "RiNALMo_nll": 0.4913,
+    "combined_nll": 0.4592
+  },
+  {
+    "guide": "UAUUUCCAGGAUGAAAGUCCA",
+    "target_pos": 1352,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4474,
+    "RiNALMo_nll": 0.4709,
+    "combined_nll": 0.4592
+  },
+  {
+    "guide": "GCUUCCAUCUGGAAAAUGCUG",
+    "target_pos": 160,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4571,
+    "RiNALMo_nll": 0.4651,
+    "combined_nll": 0.4611
+  },
+  {
+    "guide": "UGAAGUGGGGAAUUACAGACU",
+    "target_pos": 1232,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4342,
+    "RiNALMo_nll": 0.4901,
+    "combined_nll": 0.4622
+  },
+  {
+    "guide": "UAUGGCCUUGUAGCCCAUCUU",
+    "target_pos": 480,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4088,
+    "RiNALMo_nll": 0.5223,
+    "combined_nll": 0.4656
+  },
+  {
+    "guide": "UCUCCCCACAAACACAGCCUU",
+    "target_pos": 960,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4729,
+    "RiNALMo_nll": 0.4593,
+    "combined_nll": 0.4661
+  },
+  {
+    "guide": "UGGCGGCAGUUUGAAUCUGUU",
+    "target_pos": 552,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4263,
+    "RiNALMo_nll": 0.5068,
+    "combined_nll": 0.4665
+  },
+  {
+    "guide": "GCCAUUUGAUAUCUUCCCAGC",
+    "target_pos": 688,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4262,
+    "RiNALMo_nll": 0.5069,
+    "combined_nll": 0.4666
+  },
+  {
+    "guide": "GUACUGGUUUCAAAAUUUUUC",
+    "target_pos": 584,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4177,
+    "RiNALMo_nll": 0.5178,
+    "combined_nll": 0.4678
+  },
+  {
+    "guide": "CUGAGUUGUGGCGGCAGUUUG",
+    "target_pos": 560,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4155,
+    "RiNALMo_nll": 0.521,
+    "combined_nll": 0.4683
+  },
+  {
+    "guide": "GCCAUGCGCUGCAUGGCCGUA",
+    "target_pos": 272,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4149,
+    "RiNALMo_nll": 0.5249,
+    "combined_nll": 0.4699
+  },
+  {
+    "guide": "AGGAGAAAAUGAUAAAGUACU",
+    "target_pos": 600,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4611,
+    "RiNALMo_nll": 0.4811,
+    "combined_nll": 0.4711
+  },
+  {
+    "guide": "UCUAUUGCUUUAGCCACAUAU",
+    "target_pos": 656,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4226,
+    "RiNALMo_nll": 0.5198,
+    "combined_nll": 0.4712
+  },
+  {
+    "guide": "CUUUCUAAAAGGUUCCUAGGA",
+    "target_pos": 1328,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4351,
+    "RiNALMo_nll": 0.5075,
+    "combined_nll": 0.4713
+  },
+  {
+    "guide": "UAAAACAGAAGUCGACAGAUC",
+    "target_pos": 216,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4329,
+    "RiNALMo_nll": 0.51,
+    "combined_nll": 0.4715
+  },
+  {
+    "guide": "UUUAGCCACAUAUGCAGCAAG",
+    "target_pos": 648,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4421,
+    "RiNALMo_nll": 0.501,
+    "combined_nll": 0.4715
+  },
+  {
+    "guide": "AUGAGAUCAUUAUCUUUUCAC",
+    "target_pos": 1480,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4626,
+    "RiNALMo_nll": 0.481,
+    "combined_nll": 0.4718
+  },
+  {
+    "guide": "AUCUUCUCUGCCUGCCGCACU",
+    "target_pos": 464,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4588,
+    "RiNALMo_nll": 0.4849,
+    "combined_nll": 0.4719
+  },
+  {
+    "guide": "GUCACAAAUAUGGCCUUGUAG",
+    "target_pos": 488,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4227,
+    "RiNALMo_nll": 0.5224,
+    "combined_nll": 0.4725
+  },
+  {
+    "guide": "UGUCUCUUUGUCAAGUAAUAC",
+    "target_pos": 1192,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4236,
+    "RiNALMo_nll": 0.522,
+    "combined_nll": 0.4728
+  },
+  {
+    "guide": "UUGCCCAGGUAAGGUGUGUCC",
+    "target_pos": 512,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4645,
+    "RiNALMo_nll": 0.482,
+    "combined_nll": 0.4733
+  },
+  {
+    "guide": "GUAAGGUGUGUCCACUGUCAC",
+    "target_pos": 504,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4452,
+    "RiNALMo_nll": 0.502,
+    "combined_nll": 0.4736
+  },
+  {
+    "guide": "UUUUCACAGGUUAUUGCUAUC",
+    "target_pos": 16,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4348,
+    "RiNALMo_nll": 0.5128,
+    "combined_nll": 0.4738
+  },
+  {
+    "guide": "CCAAGAUCCCAUUCAAGCCAU",
+    "target_pos": 784,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4689,
+    "RiNALMo_nll": 0.4797,
+    "combined_nll": 0.4743
+  },
+  {
+    "guide": "UACAGGUUAAUAAACAAUGAG",
+    "target_pos": 1496,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4571,
+    "RiNALMo_nll": 0.4923,
+    "combined_nll": 0.4747
+  },
+  {
+    "guide": "AUCAUCACCUCUCAAAAUGCC",
+    "target_pos": 744,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4648,
+    "RiNALMo_nll": 0.4891,
+    "combined_nll": 0.477
+  },
+  {
+    "guide": "UUCUUCCUUUAGUAUCUCGAG",
+    "target_pos": 1032,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4207,
+    "RiNALMo_nll": 0.5345,
+    "combined_nll": 0.4776
+  },
+  {
+    "guide": "UUCAGCAACAUUCCGGAGCAU",
+    "target_pos": 192,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4475,
+    "RiNALMo_nll": 0.5083,
+    "combined_nll": 0.4779
+  },
+  {
+    "guide": "AGACAUGUAAACAGAAUACAG",
+    "target_pos": 1512,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4745,
+    "RiNALMo_nll": 0.4817,
+    "combined_nll": 0.4781
+  },
+  {
+    "guide": "AGAUCUGUUUCAGCAACAUUC",
+    "target_pos": 200,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4502,
+    "RiNALMo_nll": 0.5067,
+    "combined_nll": 0.4784
+  },
+  {
+    "guide": "UCGAGGACAUCUUGAACACCU",
+    "target_pos": 1016,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.48,
+    "RiNALMo_nll": 0.4772,
+    "combined_nll": 0.4786
+  },
+  {
+    "guide": "GACUUUGGAAGUACUGAUUUA",
+    "target_pos": 80,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4304,
+    "RiNALMo_nll": 0.5273,
+    "combined_nll": 0.4788
+  },
+  {
+    "guide": "UAACAGCCUCCCUGGCAUCAU",
+    "target_pos": 760,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4737,
+    "RiNALMo_nll": 0.486,
+    "combined_nll": 0.4799
+  },
+  {
+    "guide": "GCCAUGUUUAACAGCCUCCCU",
+    "target_pos": 768,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4291,
+    "RiNALMo_nll": 0.5321,
+    "combined_nll": 0.4806
+  },
+  {
+    "guide": "AAGUCAAAAGCAAUGAAAUAA",
+    "target_pos": 1296,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4929,
+    "RiNALMo_nll": 0.4693,
+    "combined_nll": 0.4811
+  },
+  {
+    "guide": "AGUUAAUAUAUUUCCAGGAUG",
+    "target_pos": 1360,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4415,
+    "RiNALMo_nll": 0.5207,
+    "combined_nll": 0.4811
+  },
+  {
+    "guide": "UUCAGAACAUCAGUGCCUUUC",
+    "target_pos": 920,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.491,
+    "RiNALMo_nll": 0.472,
+    "combined_nll": 0.4815
+  },
+  {
+    "guide": "UUUUCAUCCUGAGUUGUGGCG",
+    "target_pos": 568,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.428,
+    "RiNALMo_nll": 0.5384,
+    "combined_nll": 0.4832
+  },
+  {
+    "guide": "UGGAAACGGCCAAAGGAUUUU",
+    "target_pos": 1120,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4871,
+    "RiNALMo_nll": 0.4796,
+    "combined_nll": 0.4834
+  },
+  {
+    "guide": "AGCAAUGAAAUAAAAGGGAUU",
+    "target_pos": 1288,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4889,
+    "RiNALMo_nll": 0.4786,
+    "combined_nll": 0.4838
+  },
+  {
+    "guide": "AUUUAGCAUGUUGUUCAUAAU",
+    "target_pos": 64,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4499,
+    "RiNALMo_nll": 0.5179,
+    "combined_nll": 0.4839
+  },
+  {
+    "guide": "GUCCAGGAAGACUUCCACCUU",
+    "target_pos": 888,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4629,
+    "RiNALMo_nll": 0.5056,
+    "combined_nll": 0.4843
+  },
+  {
+    "guide": "UAUUGGCAUGCUGACCCUCUG",
+    "target_pos": 240,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4822,
+    "RiNALMo_nll": 0.4874,
+    "combined_nll": 0.4848
+  },
+  {
+    "guide": "CUUUGUAUUGAAGUGGGGAAU",
+    "target_pos": 1240,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4468,
+    "RiNALMo_nll": 0.5254,
+    "combined_nll": 0.4861
+  },
+  {
+    "guide": "CAACAUCAUGCCCGUUCCCAG",
+    "target_pos": 336,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4317,
+    "RiNALMo_nll": 0.541,
+    "combined_nll": 0.4864
+  },
+  {
+    "guide": "UCAGGCAUUACCAACACUUUG",
+    "target_pos": 1568,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.474,
+    "RiNALMo_nll": 0.4995,
+    "combined_nll": 0.4868
+  },
+  {
+    "guide": "GCAAGUCCACUGUCGUCUCCA",
+    "target_pos": 632,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.492,
+    "RiNALMo_nll": 0.4834,
+    "combined_nll": 0.4877
+  },
+  {
+    "guide": "CCCAGGGACUGACAGGCUCUC",
+    "target_pos": 320,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4984,
+    "RiNALMo_nll": 0.4786,
+    "combined_nll": 0.4885
+  },
+  {
+    "guide": "AAUAAAAGGGAUUGCUAUUUU",
+    "target_pos": 1280,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5031,
+    "RiNALMo_nll": 0.4753,
+    "combined_nll": 0.4892
+  },
+  {
+    "guide": "GGUUAUUGCUAUCCCAGAUGG",
+    "target_pos": 8,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4543,
+    "RiNALMo_nll": 0.5256,
+    "combined_nll": 0.49
+  },
+  {
+    "guide": "GUGCUACCUUCUCAAAGUUGU",
+    "target_pos": 1592,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4774,
+    "RiNALMo_nll": 0.5028,
+    "combined_nll": 0.4901
+  },
+  {
+    "guide": "AUUUUGUUGGAAAAGAACGAC",
+    "target_pos": 1264,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4784,
+    "RiNALMo_nll": 0.5023,
+    "combined_nll": 0.4903
+  },
+  {
+    "guide": "CCUCCACAAUUUCUGGCAGAA",
+    "target_pos": 856,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4673,
+    "RiNALMo_nll": 0.5141,
+    "combined_nll": 0.4907
+  },
+  {
+    "guide": "AUGAUAAAGUACUGGUUUCAA",
+    "target_pos": 592,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4624,
+    "RiNALMo_nll": 0.5206,
+    "combined_nll": 0.4915
+  },
+  {
+    "guide": "AAGUCGACAGAUCUGUUUCAG",
+    "target_pos": 208,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.464,
+    "RiNALMo_nll": 0.5213,
+    "combined_nll": 0.4927
+  },
+  {
+    "guide": "CAUAUGCAGCAAGUCCACUGU",
+    "target_pos": 640,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4713,
+    "RiNALMo_nll": 0.5156,
+    "combined_nll": 0.4935
+  },
+  {
+    "guide": "UCAGAUCUUGGAAACGGCCAA",
+    "target_pos": 1128,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4661,
+    "RiNALMo_nll": 0.5211,
+    "combined_nll": 0.4936
+  },
+  {
+    "guide": "ACUGUCGUCUCCAAAAUUUUC",
+    "target_pos": 624,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4678,
+    "RiNALMo_nll": 0.5224,
+    "combined_nll": 0.4951
+  },
+  {
+    "guide": "UAGAUGGGUCUAUUGCUUUAG",
+    "target_pos": 664,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.477,
+    "RiNALMo_nll": 0.5139,
+    "combined_nll": 0.4954
+  },
+  {
+    "guide": "AGCAUCCUUGGAUACAGCUUC",
+    "target_pos": 176,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5002,
+    "RiNALMo_nll": 0.4923,
+    "combined_nll": 0.4962
+  },
+  {
+    "guide": "UAAAGGAUACAGCACUUUAGC",
+    "target_pos": 1432,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4927,
+    "RiNALMo_nll": 0.4999,
+    "combined_nll": 0.4963
+  },
+  {
+    "guide": "AACCGGAAUUCUUCCUUUAGU",
+    "target_pos": 1040,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4288,
+    "RiNALMo_nll": 0.5647,
+    "combined_nll": 0.4968
+  },
+  {
+    "guide": "AUGCCCUUUGCAACAAUUGGC",
+    "target_pos": 728,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4832,
+    "RiNALMo_nll": 0.511,
+    "combined_nll": 0.4971
+  },
+  {
+    "guide": "CUGGAAAAUGCUGCAAUAUUA",
+    "target_pos": 152,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4841,
+    "RiNALMo_nll": 0.5106,
+    "combined_nll": 0.4974
+  },
+  {
+    "guide": "AAGUACUGAUUUAGCAUGUUG",
+    "target_pos": 72,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4711,
+    "RiNALMo_nll": 0.5239,
+    "combined_nll": 0.4975
+  },
+  {
+    "guide": "UUCACCUUAGUGUUUGCUACC",
+    "target_pos": 1464,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4812,
+    "RiNALMo_nll": 0.5183,
+    "combined_nll": 0.4998
+  },
+  {
+    "guide": "CCACAUGAGCCAUGCGCUGCA",
+    "target_pos": 280,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4983,
+    "RiNALMo_nll": 0.5028,
+    "combined_nll": 0.5005
+  },
+  {
+    "guide": "GCCUUGGCGCCAAGAGCCAGA",
+    "target_pos": 944,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4864,
+    "RiNALMo_nll": 0.5154,
+    "combined_nll": 0.5009
+  },
+  {
+    "guide": "CAAACACAGCCUUGGCGCCAA",
+    "target_pos": 952,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4914,
+    "RiNALMo_nll": 0.511,
+    "combined_nll": 0.5012
+  },
+  {
+    "guide": "CUCUGUCCUAAAACAGAAGUC",
+    "target_pos": 224,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4643,
+    "RiNALMo_nll": 0.5403,
+    "combined_nll": 0.5023
+  },
+  {
+    "guide": "CCAGCUGAUAGAUGGGUCUAU",
+    "target_pos": 672,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4575,
+    "RiNALMo_nll": 0.5471,
+    "combined_nll": 0.5023
+  },
+  {
+    "guide": "GCCAAAGGAUUUUUCCUCACC",
+    "target_pos": 1112,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5138,
+    "RiNALMo_nll": 0.4909,
+    "combined_nll": 0.5023
+  },
+  {
+    "guide": "ACUCAGAGCCAUGGCCAACCG",
+    "target_pos": 1056,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4669,
+    "RiNALMo_nll": 0.5403,
+    "combined_nll": 0.5036
+  },
+  {
+    "guide": "AUCUUGAACACCUUUCUCCCC",
+    "target_pos": 1008,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5196,
+    "RiNALMo_nll": 0.4891,
+    "combined_nll": 0.5043
+  },
+  {
+    "guide": "AGGACCAGCUUCCGCCACUUC",
+    "target_pos": 384,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4993,
+    "RiNALMo_nll": 0.5106,
+    "combined_nll": 0.5049
+  },
+  {
+    "guide": "CAGAACAUCAAUAGUGGCUGG",
+    "target_pos": 840,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5012,
+    "RiNALMo_nll": 0.5086,
+    "combined_nll": 0.5049
+  },
+  {
+    "guide": "AGAACCACUGUUUUAAAGACA",
+    "target_pos": 1528,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5055,
+    "RiNALMo_nll": 0.5049,
+    "combined_nll": 0.5052
+  },
+  {
+    "guide": "CCCACACAUAUUGGCAUGCUG",
+    "target_pos": 248,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4907,
+    "RiNALMo_nll": 0.5202,
+    "combined_nll": 0.5055
+  },
+  {
+    "guide": "CUGAAAAAAAAUAAUACAGAU",
+    "target_pos": 1168,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4892,
+    "RiNALMo_nll": 0.5219,
+    "combined_nll": 0.5056
+  },
+  {
+    "guide": "GCACUAGCUUCUUGGUGACUU",
+    "target_pos": 448,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5049,
+    "RiNALMo_nll": 0.5083,
+    "combined_nll": 0.5066
+  },
+  {
+    "guide": "ACAGCACUUUAGCCUGCCAGG",
+    "target_pos": 1424,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4804,
+    "RiNALMo_nll": 0.5356,
+    "combined_nll": 0.508
+  },
+  {
+    "guide": "CCCAUCGAGUUGUCGAGCCCC",
+    "target_pos": 816,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5045,
+    "RiNALMo_nll": 0.5142,
+    "combined_nll": 0.5094
+  },
+  {
+    "guide": "AUAAUCAUUGAUACAAAUUAG",
+    "target_pos": 48,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5032,
+    "RiNALMo_nll": 0.5172,
+    "combined_nll": 0.5102
+  },
+  {
+    "guide": "GGGGAGCAUUUUCACAGGUUA",
+    "target_pos": 24,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4828,
+    "RiNALMo_nll": 0.5382,
+    "combined_nll": 0.5105
+  },
+  {
+    "guide": "GUUGUGAAUCAGGCAUUACCA",
+    "target_pos": 1576,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4737,
+    "RiNALMo_nll": 0.5475,
+    "combined_nll": 0.5106
+  },
+  {
+    "guide": "GUCCAUUUCUUUCUAAAAGGU",
+    "target_pos": 1336,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5229,
+    "RiNALMo_nll": 0.4988,
+    "combined_nll": 0.5109
+  },
+  {
+    "guide": "UUAGUAUCUCGAGGACAUCUU",
+    "target_pos": 1024,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4774,
+    "RiNALMo_nll": 0.5481,
+    "combined_nll": 0.5128
+  },
+  {
+    "guide": "CCAUUCAAGCCAUGUUUAACA",
+    "target_pos": 776,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5005,
+    "RiNALMo_nll": 0.5301,
+    "combined_nll": 0.5153
+  },
+  {
+    "guide": "UGCCCGUUCCCAGGGACUGAC",
+    "target_pos": 328,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4967,
+    "RiNALMo_nll": 0.5362,
+    "combined_nll": 0.5165
+  },
+  {
+    "guide": "CUGAGCUUACAAUUUAAGAAC",
+    "target_pos": 1544,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4923,
+    "RiNALMo_nll": 0.5446,
+    "combined_nll": 0.5185
+  },
+  {
+    "guide": "AUUAUCUUUUCACCUUAGUGU",
+    "target_pos": 1472,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4723,
+    "RiNALMo_nll": 0.5713,
+    "combined_nll": 0.5218
+  },
+  {
+    "guide": "CAUUCCGGAGCAUCCUUGGAU",
+    "target_pos": 184,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5116,
+    "RiNALMo_nll": 0.5342,
+    "combined_nll": 0.5229
+  },
+  {
+    "guide": "GUGGCAAGCUCGCCGUCCACA",
+    "target_pos": 296,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5488,
+    "RiNALMo_nll": 0.4976,
+    "combined_nll": 0.5232
+  },
+  {
+    "guide": "AUAUCUUCCCAGCUGAUAGAU",
+    "target_pos": 680,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5134,
+    "RiNALMo_nll": 0.5363,
+    "combined_nll": 0.5249
+  },
+  {
+    "guide": "UGAUACAAAUUAGCCGGGGGA",
+    "target_pos": 40,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4528,
+    "RiNALMo_nll": 0.5978,
+    "combined_nll": 0.5253
+  },
+  {
+    "guide": "AUUUCUGGCAGAACAUCAAUA",
+    "target_pos": 848,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4953,
+    "RiNALMo_nll": 0.5554,
+    "combined_nll": 0.5254
+  },
+  {
+    "guide": "AAGGUUCCUAGGACACCCAUU",
+    "target_pos": 1320,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5161,
+    "RiNALMo_nll": 0.5366,
+    "combined_nll": 0.5263
+  },
+  {
+    "guide": "CAGUUGCAGCCAACGAAGUGC",
+    "target_pos": 408,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5241,
+    "RiNALMo_nll": 0.5298,
+    "combined_nll": 0.5269
+  },
+  {
+    "guide": "CAUUUGCCCCAGACCUGUAAU",
+    "target_pos": 112,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4819,
+    "RiNALMo_nll": 0.5739,
+    "combined_nll": 0.5279
+  },
+  {
+    "guide": "GGUCCUUGUAGAUAUACAGUU",
+    "target_pos": 424,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.4944,
+    "RiNALMo_nll": 0.5618,
+    "combined_nll": 0.5281
+  },
+  {
+    "guide": "AGUGUUUGCUACCUCCAAUUU",
+    "target_pos": 1456,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5325,
+    "RiNALMo_nll": 0.5269,
+    "combined_nll": 0.5297
+  },
+  {
+    "guide": "CACCUUUCUCCCCCUGGAAAG",
+    "target_pos": 1000,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5477,
+    "RiNALMo_nll": 0.5132,
+    "combined_nll": 0.5304
+  },
+  {
+    "guide": "UGCCUGCCGCACUAGCUUCUU",
+    "target_pos": 456,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5518,
+    "RiNALMo_nll": 0.5098,
+    "combined_nll": 0.5308
+  },
+  {
+    "guide": "AGCCCCAAACGAUUGGUCUCC",
+    "target_pos": 976,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5145,
+    "RiNALMo_nll": 0.5548,
+    "combined_nll": 0.5347
+  },
+  {
+    "guide": "ACAAUUUAAGAACCACUGUUU",
+    "target_pos": 1536,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5351,
+    "RiNALMo_nll": 0.5375,
+    "combined_nll": 0.5363
+  },
+  {
+    "guide": "CUCUCACAGUGGCAAGCUCGC",
+    "target_pos": 304,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5583,
+    "RiNALMo_nll": 0.5159,
+    "combined_nll": 0.5371
+  },
+  {
+    "guide": "GUUUGAAUCUGUUACGCACAU",
+    "target_pos": 544,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5247,
+    "RiNALMo_nll": 0.5571,
+    "combined_nll": 0.5409
+  },
+  {
+    "guide": "UAGGACACCCAUUGAAAAGUC",
+    "target_pos": 1312,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5734,
+    "RiNALMo_nll": 0.509,
+    "combined_nll": 0.5412
+  },
+  {
+    "guide": "GCCAACGAAGUGCCUCAGGAC",
+    "target_pos": 400,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5605,
+    "RiNALMo_nll": 0.5299,
+    "combined_nll": 0.5452
+  },
+  {
+    "guide": "CCAGACGGUUGCCCAGGUAAG",
+    "target_pos": 520,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5246,
+    "RiNALMo_nll": 0.5658,
+    "combined_nll": 0.5452
+  },
+  {
+    "guide": "GACUUCUCGGUCCUUGUAGAU",
+    "target_pos": 432,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5403,
+    "RiNALMo_nll": 0.5539,
+    "combined_nll": 0.5471
+  },
+  {
+    "guide": "AUUCGACACCAAGAUCCCAUU",
+    "target_pos": 792,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5077,
+    "RiNALMo_nll": 0.5891,
+    "combined_nll": 0.5484
+  },
+  {
+    "guide": "CUACCUCCAAUUUUACUAAAG",
+    "target_pos": 1448,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5433,
+    "RiNALMo_nll": 0.5569,
+    "combined_nll": 0.5501
+  },
+  {
+    "guide": "GGAAAAGAACGACACCCUUUG",
+    "target_pos": 1256,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5449,
+    "RiNALMo_nll": 0.5589,
+    "combined_nll": 0.5519
+  },
+  {
+    "guide": "AUUAGCCGGGGGAGCAUUUUC",
+    "target_pos": 32,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5387,
+    "RiNALMo_nll": 0.5662,
+    "combined_nll": 0.5524
+  },
+  {
+    "guide": "CUCGCCGUCCACAUGAGCCAU",
+    "target_pos": 288,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5768,
+    "RiNALMo_nll": 0.531,
+    "combined_nll": 0.5539
+  },
+  {
+    "guide": "AAUUUUACUAAAGGAUACAGC",
+    "target_pos": 1440,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5631,
+    "RiNALMo_nll": 0.5447,
+    "combined_nll": 0.5539
+  },
+  {
+    "guide": "CAUAUAUAGACUUUGGAAGUA",
+    "target_pos": 88,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5676,
+    "RiNALMo_nll": 0.5446,
+    "combined_nll": 0.5561
+  },
+  {
+    "guide": "CCAUGGCCAACCGGAAUUCUU",
+    "target_pos": 1048,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5679,
+    "RiNALMo_nll": 0.548,
+    "combined_nll": 0.5579
+  },
+  {
+    "guide": "ACGACACCCUUUGUAUUGAAG",
+    "target_pos": 1248,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5488,
+    "RiNALMo_nll": 0.5805,
+    "combined_nll": 0.5647
+  },
+  {
+    "guide": "GUAAUAGUCAUAUAUAGACUU",
+    "target_pos": 96,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5815,
+    "RiNALMo_nll": 0.5488,
+    "combined_nll": 0.5652
+  },
+  {
+    "guide": "CCAGACCUGUAAUAGUCAUAU",
+    "target_pos": 104,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5362,
+    "RiNALMo_nll": 0.5975,
+    "combined_nll": 0.5669
+  },
+  {
+    "guide": "GCCCCAUGAUUCGACACCAAG",
+    "target_pos": 800,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.555,
+    "RiNALMo_nll": 0.5802,
+    "combined_nll": 0.5676
+  },
+  {
+    "guide": "UCCCCCUGGAAAGCUAAGCCC",
+    "target_pos": 992,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.6214,
+    "RiNALMo_nll": 0.5172,
+    "combined_nll": 0.5693
+  },
+  {
+    "guide": "CUGCAUGGCCGUAGCCCCCAC",
+    "target_pos": 264,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5701,
+    "RiNALMo_nll": 0.5687,
+    "combined_nll": 0.5694
+  },
+  {
+    "guide": "CUGUUACGCACAUCAUCCAGA",
+    "target_pos": 536,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5657,
+    "RiNALMo_nll": 0.5807,
+    "combined_nll": 0.5732
+  },
+  {
+    "guide": "CAAUAGUGGCUGGCACCCCAU",
+    "target_pos": 832,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.6031,
+    "RiNALMo_nll": 0.545,
+    "combined_nll": 0.574
+  },
+  {
+    "guide": "CUAUCCCAGAUGGAGUUCGUU",
+    "target_pos": 0,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5963,
+    "RiNALMo_nll": 0.5635,
+    "combined_nll": 0.5799
+  },
+  {
+    "guide": "AAACAGAAUACAGGUUAAUAA",
+    "target_pos": 1504,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.6464,
+    "RiNALMo_nll": 0.5166,
+    "combined_nll": 0.5815
+  },
+  {
+    "guide": "CCAGGGGAUGACGUUGUCUAA",
+    "target_pos": 1408,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.572,
+    "RiNALMo_nll": 0.5926,
+    "combined_nll": 0.5823
+  },
+  {
+    "guide": "GAAAGCUAAGCCCCAAACGAU",
+    "target_pos": 984,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5856,
+    "RiNALMo_nll": 0.5824,
+    "combined_nll": 0.584
+  },
+  {
+    "guide": "GUUGUCGAGCCCCAUGAUUCG",
+    "target_pos": 808,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5888,
+    "RiNALMo_nll": 0.5858,
+    "combined_nll": 0.5873
+  },
+  {
+    "guide": "GCUGGCACCCCAUCGAGUUGU",
+    "target_pos": 824,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5898,
+    "RiNALMo_nll": 0.5847,
+    "combined_nll": 0.5873
+  },
+  {
+    "guide": "CUUUCCGCACACCCCCGUCCA",
+    "target_pos": 904,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.6105,
+    "RiNALMo_nll": 0.5732,
+    "combined_nll": 0.5919
+  },
+  {
+    "guide": "AUCAGUGCCUUUCCGCACACC",
+    "target_pos": 912,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.6465,
+    "RiNALMo_nll": 0.5452,
+    "combined_nll": 0.5959
+  },
+  {
+    "guide": "UUAGCCUGCCAGGGGAUGACG",
+    "target_pos": 1416,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.5967,
+    "RiNALMo_nll": 0.5968,
+    "combined_nll": 0.5968
+  },
+  {
+    "guide": "ACGAUUGGUCUCCCCACAAAC",
+    "target_pos": 968,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.6626,
+    "RiNALMo_nll": 0.5863,
+    "combined_nll": 0.6244
+  },
+  {
+    "guide": "ACACCCCCGUCCAGGAAGACU",
+    "target_pos": 896,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.7142,
+    "RiNALMo_nll": 0.599,
+    "combined_nll": 0.6566
+  },
+  {
+    "guide": "CCGUAGCCCCCACACAUAUUG",
+    "target_pos": 256,
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "RNA-FM_nll": 0.708,
+    "RiNALMo_nll": 0.6469,
+    "combined_nll": 0.6775
+  }
+]

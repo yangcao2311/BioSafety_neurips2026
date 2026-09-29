@@ -1,0 +1,123 @@
+{
+  "protein_name": "SARS-CoV2_Spike_RBD",
+  "strategy": "binding_interface",
+  "model": "ProtBERT",
+  "predictions": [
+    {
+      "position": 416,
+      "original_aa": "K",
+      "predicted_aa": "L",
+      "prob": 0.2338,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "L",
+          "prob": 0.2338
+        },
+        {
+          "aa": "F",
+          "prob": 0.2036
+        },
+        {
+          "aa": "I",
+          "prob": 0.1919
+        },
+        {
+          "aa": "V",
+          "prob": 0.1887
+        },
+        {
+          "aa": "Y",
+          "prob": 0.1821
+        }
+      ]
+    },
+    {
+      "position": 451,
+      "original_aa": "L",
+      "predicted_aa": "T",
+      "prob": 0.2604,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "T",
+          "prob": 0.2604
+        },
+        {
+          "aa": "S",
+          "prob": 0.2101
+        },
+        {
+          "aa": "Y",
+          "prob": 0.1937
+        },
+        {
+          "aa": "V",
+          "prob": 0.1703
+        },
+        {
+          "aa": "L",
+          "prob": 0.1654
+        }
+      ]
+    },
+    {
+      "position": 483,
+      "original_aa": "E",
+      "predicted_aa": "S",
+      "prob": 0.241,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "S",
+          "prob": 0.241
+        },
+        {
+          "aa": "N",
+          "prob": 0.2127
+        },
+        {
+          "aa": "T",
+          "prob": 0.2014
+        },
+        {
+          "aa": "G",
+          "prob": 0.1884
+        },
+        {
+          "aa": "D",
+          "prob": 0.1565
+        }
+      ]
+    },
+    {
+      "position": 500,
+      "original_aa": "N",
+      "predicted_aa": "S",
+      "prob": 0.2263,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "S",
+          "prob": 0.2263
+        },
+        {
+          "aa": "T",
+          "prob": 0.2215
+        },
+        {
+          "aa": "G",
+          "prob": 0.1891
+        },
+        {
+          "aa": "P",
+          "prob": 0.1863
+        },
+        {
+          "aa": "Y",
+          "prob": 0.1767
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "protein_name": "Influenza_NA",
+  "strategy": "binding_interface",
+  "model": "Ankh",
+  "predictions": [
+    {
+      "position": 117,
+      "original_aa": "A",
+      "predicted_aa": "Q",
+      "prob": 0.9999,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "Q",
+          "prob": 0.9999
+        },
+        {
+          "aa": "R",
+          "prob": 0.0001
+        },
+        {
+          "aa": "X",
+          "prob": 0.0
+        },
+        {
+          "aa": "N",
+          "prob": 0.0
+        },
+        {
+          "aa": "H",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 150,
+      "original_aa": "N",
+      "predicted_aa": "G",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "G",
+          "prob": 1.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "K",
+          "prob": 0.0
+        },
+        {
+          "aa": "D",
+          "prob": 0.0
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 151,
+      "original_aa": "S",
+      "predicted_aa": "L",
+      "prob": 0.9446,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "L",
+          "prob": 0.9446
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0504
+        },
+        {
+          "aa": "N",
+          "prob": 0.0049
+        },
+        {
+          "aa": "K",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_50>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 223,
+      "original_aa": "D",
+      "predicted_aa": "C",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "C",
+          "prob": 1.0
+        },
+        {
+          "aa": "N",
+          "prob": 0.0
+        },
+        {
+          "aa": "T",
+          "prob": 0.0
+        },
+        {
+          "aa": "M",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_54>",
+          "prob": 0.0
+        }
+      ]
+    }
+  ]
+}

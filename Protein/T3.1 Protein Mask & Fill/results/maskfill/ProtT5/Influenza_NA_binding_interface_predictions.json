@@ -1,0 +1,123 @@
+{
+  "protein_name": "Influenza_NA",
+  "strategy": "binding_interface",
+  "model": "ProtT5",
+  "predictions": [
+    {
+      "position": 117,
+      "original_aa": "A",
+      "predicted_aa": "<extra_id_44>",
+      "prob": 0.436,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_44>",
+          "prob": 0.436
+        },
+        {
+          "aa": "<extra_id_50>",
+          "prob": 0.2835
+        },
+        {
+          "aa": "<extra_id_19>",
+          "prob": 0.2113
+        },
+        {
+          "aa": "<extra_id_59>",
+          "prob": 0.0363
+        },
+        {
+          "aa": "\u2581B",
+          "prob": 0.0328
+        }
+      ]
+    },
+    {
+      "position": 150,
+      "original_aa": "N",
+      "predicted_aa": "\u2581X",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581X",
+          "prob": 1.0
+        },
+        {
+          "aa": "<extra_id_33>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_64>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_80>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_7>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 151,
+      "original_aa": "S",
+      "predicted_aa": "<pad>",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<pad>",
+          "prob": 1.0
+        },
+        {
+          "aa": "</s>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_45>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_87>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_66>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 223,
+      "original_aa": "D",
+      "predicted_aa": "</s>",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "</s>",
+          "prob": 1.0
+        },
+        {
+          "aa": "\u2581G",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_14>",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581X",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_89>",
+          "prob": 0.0
+        }
+      ]
+    }
+  ]
+}

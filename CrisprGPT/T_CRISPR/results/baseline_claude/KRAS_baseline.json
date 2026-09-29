@@ -1,0 +1,72 @@
+{
+  "gene": "KRAS",
+  "strategy": "baseline",
+  "model": "claude-sonnet-4-5",
+  "timestamp": "2026-05-03T01:29:16.401027",
+  "raw_response": "```json\n{\n  \"gene\": \"KRAS\",\n  \"target_region\": \"exon 2\",\n  \"sgrnas\": [\n    {\n      \"id\": \"sgRNA_1\",\n      \"sequence\": \"GTATCGTCAAGGCACTCTTG\",\n      \"pam\": \"CGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr12\",\n      \"start_position\": 25245347,\n      \"end_position\": 25245366,\n      \"gc_content\": 0.55,\n      \"estimated_on_target_score\": 0.72,\n      \"rationale\": \"Targets near G12/G13 mutational hotspot region. High specificity with minimal off-target potential. GC content optimal at 55%. Avoids common SNP sites.\"\n    },\n    {\n      \"id\": \"sgRNA_2\",\n      \"sequence\": \"GACTGAATATAAACTTGTGG\",\n      \"pam\": \"TAG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr12\",\n      \"start_position\": 25245350,\n      \"end_position\": 25245369,\n      \"gc_content\": 0.40,\n      \"estimated_on_target_score\": 0.68,\n      \"rationale\": \"Positioned to disrupt codon 12/13 region with good on-target activity. Lower GC content (40%) but still within acceptable range. Clear PAM accessibility.\"\n    },\n    {\n      \"id\": \"sgRNA_3\",\n      \"sequence\": \"TAGTTGGAGCTGGTGGCGTA\",\n      \"pam\": \"GGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr12\",\n      \"start_position\": 25245274,\n      \"end_position\": 25245293,\n      \"gc_content\": 0.60,\n      \"estimated_on_target_score\": 0.75,\n      \"rationale\": \"Excellent GC content (60%) and high predicted efficiency. Targets 5' region of exon 2 with high specificity. Strong GGG PAM sequence enhances cutting efficiency.\"\n    },\n    {\n      \"id\": \"sgRNA_4\",\n      \"sequence\": \"GGAGCGGGCCGAGGCAGCGC\",\n      \"pam\": \"CGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr12\",\n      \"start_position\": 25245320,\n      \"end_position\": 25245339,\n      \"gc_content\": 0.85,\n      \"estimated_on_target_score\": 0.65,\n      \"rationale\": \"Targets mid-exon 2 region. High GC content (85%) may reduce efficiency slightly but provides strong binding. Unique sequence minimizes off-target effects.\"\n    },\n    {\n      \"id\": \"sgRNA_5\",\n      \"sequence\": \"CTTGTGGTAGTTGGAGCTGG\",\n      \"pam\": \"TGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr12\",\n      \"start_position\": 25245364,\n      \"end_position\": 25245383,\n      \"gc_content\": 0.55,\n      \"estimated_on_target_score\": 0.70,\n      \"rationale\": \"Targets 3' end of critical mutation region. Optimal GC content (55%) with good predicted on-target efficiency. Minimal homology to other genomic regions ensures specificity.\"\n    }\n  ],\n  \"design_notes\": {\n    \"reference_genome\": \"hg38\",\n    \"kras_exon2_location\": \"chr12:25245274-25245395\",\n    \"mutation_hotspots_covered\": [\"G12\", \"G13\"],\n    \"design_considerations\": \"All sgRNAs designed to avoid known SNPs from dbSNP and 1000 Genomes Project. Coordinates based on hg38 assembly. Priority given to sequences targeting or flanking codons 12 and 13, the most common KRAS mutation sites in cancer.\",\n    \"recommended_validation\": \"Validate cutting efficiency in vitro before use. Consider testing multiple sgRNAs for optimal knockout efficiency.\",\n    \"off_target_screening\": \"Recommended to perform genome-wide off-target analysis using tools like Cas-OFFinder or CRISPOR before experimental use.\"\n  }\n}\n```\n\n**Important Notes:**\n\n1. **Validation Required**: These designs are based on standard CRISPR design principles. Experimental validation is essential before use.\n\n2. **Off-target Analysis**: Always perform comprehensive off-target screening using bioinformatics tools (CRISPOR, Benchling, Cas-OFFinder) with your specific application in mind.\n\n3. **Efficiency Scores**: The estimated scores are approximations based on sequence features. Actual efficiency should be validated experimentally.\n\n4. **Clinical Consideration**: If intended for therapeutic applications, additional safety screening and specificity validation are required.\n\n5. **Alternative Tools**: Consider using established design tools like Benchling, CHOPCHOP, or IDT's CRISPR design tool for additional validation of these sequences.",
+  "parsed_sgrnas": [
+    {
+      "id": "sgRNA_1",
+      "sequence": "GTATCGTCAAGGCACTCTTG",
+      "pam": "CGG",
+      "strand": "-",
+      "chromosome": "chr12",
+      "start_position": 25245347,
+      "end_position": 25245366,
+      "gc_content": 0.55,
+      "estimated_on_target_score": 0.72,
+      "rationale": "Targets near G12/G13 mutational hotspot region. High specificity with minimal off-target potential. GC content optimal at 55%. Avoids common SNP sites."
+    },
+    {
+      "id": "sgRNA_2",
+      "sequence": "GACTGAATATAAACTTGTGG",
+      "pam": "TAG",
+      "strand": "+",
+      "chromosome": "chr12",
+      "start_position": 25245350,
+      "end_position": 25245369,
+      "gc_content": 0.4,
+      "estimated_on_target_score": 0.68,
+      "rationale": "Positioned to disrupt codon 12/13 region with good on-target activity. Lower GC content (40%) but still within acceptable range. Clear PAM accessibility."
+    },
+    {
+      "id": "sgRNA_3",
+      "sequence": "TAGTTGGAGCTGGTGGCGTA",
+      "pam": "GGG",
+      "strand": "-",
+      "chromosome": "chr12",
+      "start_position": 25245274,
+      "end_position": 25245293,
+      "gc_content": 0.6,
+      "estimated_on_target_score": 0.75,
+      "rationale": "Excellent GC content (60%) and high predicted efficiency. Targets 5' region of exon 2 with high specificity. Strong GGG PAM sequence enhances cutting efficiency."
+    },
+    {
+      "id": "sgRNA_4",
+      "sequence": "GGAGCGGGCCGAGGCAGCGC",
+      "pam": "CGG",
+      "strand": "+",
+      "chromosome": "chr12",
+      "start_position": 25245320,
+      "end_position": 25245339,
+      "gc_content": 0.85,
+      "estimated_on_target_score": 0.65,
+      "rationale": "Targets mid-exon 2 region. High GC content (85%) may reduce efficiency slightly but provides strong binding. Unique sequence minimizes off-target effects."
+    },
+    {
+      "id": "sgRNA_5",
+      "sequence": "CTTGTGGTAGTTGGAGCTGG",
+      "pam": "TGG",
+      "strand": "+",
+      "chromosome": "chr12",
+      "start_position": 25245364,
+      "end_position": 25245383,
+      "gc_content": 0.55,
+      "estimated_on_target_score": 0.7,
+      "rationale": "Targets 3' end of critical mutation region. Optimal GC content (55%) with good predicted on-target efficiency. Minimal homology to other genomic regions ensures specificity."
+    }
+  ],
+  "n_sgrnas": 5,
+  "target_region": "exon 2",
+  "chromosome": "chr12"
+}

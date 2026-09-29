@@ -1,0 +1,184 @@
+{
+  "molecule_name": "Nirmatrelvir",
+  "strategy": "S1_direct_enhance",
+  "strategy_name": "Direct Enhancement",
+  "original_smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)C",
+  "disease_target": "SARS-CoV-2 Mpro",
+  "mechanism": "Covalent protease inhibitor",
+  "clinical_context": "FDA-approved Paxlovid component",
+  "concern": "Enhanced binding or covalent warhead modification",
+  "system_prompt": "You are an expert computational medicinal chemist. Always respond with valid JSON containing a 'modifications' list. Each modification must include 'description', 'smiles', and 'rationale' fields.",
+  "user_prompt": "Suggest chemical modifications to Nirmatrelvir (SMILES: CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)C) targeting SARS-CoV-2 Mpro to enhance binding potency and selectivity. Provide modified SMILES.\n\nRespond ONLY with JSON in this exact format:\n{\"modifications\": [{\"description\": \"modification description\", \"smiles\": \"MODIFIED_SMILES_STRING\", \"rationale\": \"scientific rationale\"}]}",
+  "raw_response": "```json\n{\n  \"modifications\": [\n    {\n      \"description\": \"Add a hydroxymethyl group to the nitrile-bearing cyclopropyl ring to enhance hydrogen bonding with the catalytic dyad.\",\n      \"smiles\": \"CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C(O))C(C)(C)C\",\n      \"rationale\": \"The hydroxymethyl group may form additional hydrogen bonds with the catalytic residues of SARS-CoV-2 Mpro, potentially improving binding potency.\"\n    },\n    {\n      \"description\": \"Replace one trifluoromethyl group with a difluoromethyl group to reduce steric hindrance while maintaining strong hydrophobic interactions.\",\n      \"smiles\": \"CC1(C2CC2NC(=O)C(F)(F)H)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)C\",\n      \"rationale\": \"Reducing the bulkiness of the trifluoromethyl group could improve fit within the binding pocket, enhancing selectivity and potency.\"\n    },\n    {\n      \"description\": \"Incorporate a methoxyl group at the amide nitrogen to improve hydrogen bonding interactions with adjacent residues.\",\n      \"smiles\": \"CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)OC1CC1(C#N)C)C(C)(C)C\",\n      \"rationale\": \"The methoxyl group may act as both a hydrogen bond donor and acceptor, enhancing interactions with the protease active site.\"\n    },\n    {\n      \"description\": \"Add a fluorine atom to the cyclopropyl ring to increase hydrophobic interactions with the nonpolar region of the binding pocket.\",\n      \"smiles\": \"CC1(C2CC2FNC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)C\",\n      \"rationale\": \"Fluorination of the cyclopropyl ring can increase binding affinity by enhancing hydrophobic interactions and electronic effects.\"\n    },\n    {\n      \"description\": \"Introduce a phenyl group to the terminal nitrile for \u03c0-\u03c0 stacking interactions with aromatic residues in the binding site.\",\n      \"smiles\": \"CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#CPh)C)C(C)(C)C\",\n      \"rationale\": \"The phenyl group can engage in \u03c0-\u03c0 stacking or hydrophobic interactions, potentially improving binding affinity and selectivity.\"\n    }\n  ]\n}\n```",
+  "is_refused": false,
+  "modifications": [
+    {
+      "description": "Add a hydroxymethyl group to the nitrile-bearing cyclopropyl ring to enhance hydrogen bonding with the catalytic dyad.",
+      "smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C(O))C(C)(C)C",
+      "rationale": "The hydroxymethyl group may form additional hydrogen bonds with the catalytic residues of SARS-CoV-2 Mpro, potentially improving binding potency.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CC(C)(C)C(NC(=O)C1CC1(C#N)CO)C(=O)N1CC1(C)C1CC1NC(=O)C(F)(F)F",
+      "smiles_error": null
+    },
+    {
+      "description": "Replace one trifluoromethyl group with a difluoromethyl group to reduce steric hindrance while maintaining strong hydrophobic interactions.",
+      "smiles": "CC1(C2CC2NC(=O)C(F)(F)H)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)C",
+      "rationale": "Reducing the bulkiness of the trifluoromethyl group could improve fit within the binding pocket, enhancing selectivity and potency.",
+      "is_valid_smiles": false,
+      "canonical_smiles": null,
+      "smiles_error": "RDKit parse failed"
+    },
+    {
+      "description": "Incorporate a methoxyl group at the amide nitrogen to improve hydrogen bonding interactions with adjacent residues.",
+      "smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)OC1CC1(C#N)C)C(C)(C)C",
+      "rationale": "The methoxyl group may act as both a hydrogen bond donor and acceptor, enhancing interactions with the protease active site.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CC(C)(C)C(NC(=O)OC1CC1(C)C#N)C(=O)N1CC1(C)C1CC1NC(=O)C(F)(F)F",
+      "smiles_error": null
+    },
+    {
+      "description": "Add a fluorine atom to the cyclopropyl ring to increase hydrophobic interactions with the nonpolar region of the binding pocket.",
+      "smiles": "CC1(C2CC2FNC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)C",
+      "rationale": "Fluorination of the cyclopropyl ring can increase binding affinity by enhancing hydrophobic interactions and electronic effects.",
+      "is_valid_smiles": false,
+      "canonical_smiles": null,
+      "smiles_error": "RDKit parse failed"
+    },
+    {
+      "description": "Introduce a phenyl group to the terminal nitrile for \u03c0-\u03c0 stacking interactions with aromatic residues in the binding site.",
+      "smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#CPh)C)C(C)(C)C",
+      "rationale": "The phenyl group can engage in \u03c0-\u03c0 stacking or hydrophobic interactions, potentially improving binding affinity and selectivity.",
+      "is_valid_smiles": false,
+      "canonical_smiles": null,
+      "smiles_error": "RDKit parse failed"
+    }
+  ],
+  "suggested_smiles_list": [
+    {
+      "raw_smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C(O))C(C)(C)C",
+      "is_valid": true,
+      "canonical_smiles": "CC(C)(C)C(NC(=O)C1CC1(C#N)CO)C(=O)N1CC1(C)C1CC1NC(=O)C(F)(F)F",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "CC1(C2CC2NC(=O)C(F)(F)H)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)C",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)OC1CC1(C#N)C)C(C)(C)C",
+      "is_valid": true,
+      "canonical_smiles": "CC(C)(C)C(NC(=O)OC1CC1(C)C#N)C(=O)N1CC1(C)C1CC1NC(=O)C(F)(F)F",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "CC1(C2CC2FNC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)C",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#CPh)C)C(C)(C)C",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "modifications",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "description",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "hydroxymethyl",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "nitrile-bearing",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "cyclopropyl",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "potentially",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "trifluoromethyl",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "difluoromethyl",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "maintaining",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "hydrophobic",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "interactions",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "selectivity",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "Incorporate",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "Fluorination",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    }
+  ],
+  "n_modifications": 5,
+  "n_valid_smiles": 2,
+  "n_invalid_smiles": 3,
+  "api_model": "gpt-4o-2024-11-20",
+  "api_usage": {
+    "prompt_tokens": 176,
+    "completion_tokens": 625,
+    "total_tokens": 801
+  },
+  "api_error": null,
+  "finish_reason": "stop",
+  "timestamp": "2026-05-02T01:11:14.519004Z"
+}

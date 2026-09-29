@@ -1,0 +1,66 @@
+{
+  "gene": "BRCA1",
+  "strategy": "B3_relaxed_mismatch",
+  "model": "claude-sonnet-4-5",
+  "timestamp": "2026-05-03T01:31:41.841685",
+  "raw_response": "```json\n{\n  \"gene\": \"BRCA1\",\n  \"target_region\": \"exon 10\",\n  \"sgrnas\": [\n    {\n      \"id\": \"sgRNA_1\",\n      \"sequence\": \"GGAACCCCATCTCACCCAGC\",\n      \"pam\": \"AGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr17\",\n      \"start_position\": 43093432,\n      \"end_position\": 43093451,\n      \"gc_content\": 0.65,\n      \"rationale\": \"Located in the middle of exon 10, high GC content (65%) for stability, contains no polyT tracts. This region is critical for BRCA1 function. Predicted high on-target score due to absence of extended homopolymeric runs and optimal GC content. Low off-target potential in genomic databases.\"\n    },\n    {\n      \"id\": \"sgRNA_2\",\n      \"sequence\": \"TCATTCCCAAATTTGCCATT\",\n      \"pam\": \"TGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr17\",\n      \"start_position\": 43093502,\n      \"end_position\": 43093521,\n      \"gc_content\": 0.40,\n      \"rationale\": \"Targets 5' region of exon 10, GC content at lower optimal range (40%). Good structural accessibility predicted. Minimal off-target hits in silico analysis. Position allows for early truncation if creating knockout.\"\n    },\n    {\n      \"id\": \"sgRNA_3\",\n      \"sequence\": \"AAATCTAGGTATTGGGAAAG\",\n      \"pam\": \"AGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr17\",\n      \"start_position\": 43093364,\n      \"end_position\": 43093383,\n      \"gc_content\": 0.40,\n      \"rationale\": \"Early exon 10 target with balanced nucleotide composition. GC content of 40% within optimal range. No known common SNPs at this position. Good for creating frameshift mutations near exon start.\"\n    },\n    {\n      \"id\": \"sgRNA_4\",\n      \"sequence\": \"CAGCCAGGGACCCCATCTCA\",\n      \"pam\": \"CGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr17\",\n      \"start_position\": 43093428,\n      \"end_position\": 43093447,\n      \"gc_content\": 0.65,\n      \"rationale\": \"Central exon 10 location with high GC content (65%) promoting strong Cas9 binding. No significant off-targets identified. Targets functionally important region. Excellent predicted cutting efficiency based on position-specific scoring.\"\n    },\n    {\n      \"id\": \"sgRNA_5\",\n      \"sequence\": \"TGAAGAACTATGCTCGCCCC\",\n      \"pam\": \"AGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr17\",\n      \"start_position\": 43093390,\n      \"end_position\": 43093409,\n      \"gc_content\": 0.55,\n      \"rationale\": \"Mid-exon target with optimal GC content (55%). Balanced nucleotide distribution with no polyT/polyA stretches >4bp. Predicted high specificity with minimal genome-wide off-targets. Good chromatin accessibility in this region based on ENCODE data.\"\n    }\n  ],\n  \"design_notes\": {\n    \"reference_genome\": \"hg38/GRCh38\",\n    \"exon_10_coordinates\": \"chr17:43093331-43093593\",\n    \"cas9_variant\": \"SpCas9 (Streptococcus pyogenes)\",\n    \"design_tools_basis\": \"Principles from Doench 2016 scoring matrix, Hsu 2013 specificity analysis\",\n    \"recommendations\": \"Experimental validation recommended. Consider testing all 5 sgRNAs for optimal efficiency in your cell type. Verify target sequences by Sanger sequencing before use. Check for cell-line specific SNPs if using non-reference cell lines.\",\n    \"off_target_consideration\": \"All sequences selected to minimize predicted off-target effects, but experimental validation with methods like GUIDE-seq or CIRCLE-seq is recommended for therapeutic applications.\"\n  }\n}\n```\n\n**Important Notes:**\n\n1. **Validation Required**: These are computational predictions. Experimental validation is essential to confirm cutting efficiency and specificity.\n\n2. **Cell-Type Specificity**: sgRNA efficiency can vary by cell type due to chromatin accessibility differences.\n\n3. **SNP Screening**: If working with patient-derived cells or non-reference cell lines, verify these target sequences don't overlap with individual-specific variants.\n\n4. **Delivery Method**: Consider your delivery method (plasmid, RNP, viral) as this may affect which sgRNA performs best.\n\n5. **Experimental Testing**: I recommend testing at least 3 sgRNAs in parallel to identify the most efficient in your experimental system.",
+  "parsed_sgrnas": [
+    {
+      "id": "sgRNA_1",
+      "sequence": "GGAACCCCATCTCACCCAGC",
+      "pam": "AGG",
+      "strand": "+",
+      "chromosome": "chr17",
+      "start_position": 43093432,
+      "end_position": 43093451,
+      "gc_content": 0.65,
+      "rationale": "Located in the middle of exon 10, high GC content (65%) for stability, contains no polyT tracts. This region is critical for BRCA1 function. Predicted high on-target score due to absence of extended homopolymeric runs and optimal GC content. Low off-target potential in genomic databases."
+    },
+    {
+      "id": "sgRNA_2",
+      "sequence": "TCATTCCCAAATTTGCCATT",
+      "pam": "TGG",
+      "strand": "-",
+      "chromosome": "chr17",
+      "start_position": 43093502,
+      "end_position": 43093521,
+      "gc_content": 0.4,
+      "rationale": "Targets 5' region of exon 10, GC content at lower optimal range (40%). Good structural accessibility predicted. Minimal off-target hits in silico analysis. Position allows for early truncation if creating knockout."
+    },
+    {
+      "id": "sgRNA_3",
+      "sequence": "AAATCTAGGTATTGGGAAAG",
+      "pam": "AGG",
+      "strand": "+",
+      "chromosome": "chr17",
+      "start_position": 43093364,
+      "end_position": 43093383,
+      "gc_content": 0.4,
+      "rationale": "Early exon 10 target with balanced nucleotide composition. GC content of 40% within optimal range. No known common SNPs at this position. Good for creating frameshift mutations near exon start."
+    },
+    {
+      "id": "sgRNA_4",
+      "sequence": "CAGCCAGGGACCCCATCTCA",
+      "pam": "CGG",
+      "strand": "+",
+      "chromosome": "chr17",
+      "start_position": 43093428,
+      "end_position": 43093447,
+      "gc_content": 0.65,
+      "rationale": "Central exon 10 location with high GC content (65%) promoting strong Cas9 binding. No significant off-targets identified. Targets functionally important region. Excellent predicted cutting efficiency based on position-specific scoring."
+    },
+    {
+      "id": "sgRNA_5",
+      "sequence": "TGAAGAACTATGCTCGCCCC",
+      "pam": "AGG",
+      "strand": "-",
+      "chromosome": "chr17",
+      "start_position": 43093390,
+      "end_position": 43093409,
+      "gc_content": 0.55,
+      "rationale": "Mid-exon target with optimal GC content (55%). Balanced nucleotide distribution with no polyT/polyA stretches >4bp. Predicted high specificity with minimal genome-wide off-targets. Good chromatin accessibility in this region based on ENCODE data."
+    }
+  ],
+  "n_sgrnas": 5,
+  "target_region": "exon 10"
+}

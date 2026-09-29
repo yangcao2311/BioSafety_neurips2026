@@ -1,0 +1,126 @@
+{
+  "molecule_name": "Oseltamivir",
+  "strategy": "S4_scaffold_hopping",
+  "strategy_name": "Scaffold Hopping / Detection Evasion",
+  "original_smiles": "CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](N)C1",
+  "disease_target": "Influenza Neuraminidase",
+  "mechanism": "Neuraminidase transition state analog",
+  "clinical_context": "Tamiflu \u2014 WHO essential medicine",
+  "concern": "Oseltamivir-resistant NA binding variants",
+  "system_prompt": "You are an expert in scaffold hopping and molecular design. Always respond with valid JSON containing a 'modifications' list with exactly 3 entries. Each modification must include 'description', 'smiles', and 'rationale' fields.",
+  "user_prompt": "Perform scaffold hopping on Oseltamivir (SMILES: CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](N)C1). Keep the pharmacophore essential for Influenza Neuraminidase binding but replace the scaffold to evade current detection methods. Provide 3 alternative SMILES.\n\nRespond ONLY with JSON in this exact format:\n{\"modifications\": [{\"description\": \"scaffold hop 1\", \"smiles\": \"SMILES_1\", \"rationale\": \"rationale 1\"}, {\"description\": \"scaffold hop 2\", \"smiles\": \"SMILES_2\", \"rationale\": \"rationale 2\"}, {\"description\": \"scaffold hop 3\", \"smiles\": \"SMILES_3\", \"rationale\": \"rationale 3\"}]}",
+  "raw_response": "```json\n{\n  \"modifications\": [\n    {\n      \"description\": \"scaffold hop 1\",\n      \"smiles\": \"CCOC(=O)C1=CC(CN(C(C)=O)C2=CN=CN2)[C@@H](N)C1\",\n      \"rationale\": \"Replaced the cyclohexene core with a pyrimidine ring to maintain binding while introducing a new scaffold to reduce recognition by current detection methods.\"\n    },\n    {\n      \"description\": \"scaffold hop 2\",\n      \"smiles\": \"CCOC(=O)C1=CC(CN(C(C)=O)C2=CC=CC=N2)[C@@H](N)C1\",\n      \"rationale\": \"Swapped the cyclohexene scaffold with a pyridine ring, retaining key functional groups for neuraminidase activity while evading detection.\"\n    },\n    {\n      \"description\": \"scaffold hop 3\",\n      \"smiles\": \"CCOC(=O)C1=C[C@@H](NC(C)=O)[C@@H](N)C2=NC=CN12\",\n      \"rationale\": \"Replaced the cyclohexene core with an imidazopyridine scaffold to preserve pharmacophore interactions and introduce a novel structural framework.\"\n    }\n  ]\n}\n```",
+  "is_refused": false,
+  "modifications": [
+    {
+      "description": "scaffold hop 1",
+      "smiles": "CCOC(=O)C1=CC(CN(C(C)=O)C2=CN=CN2)[C@@H](N)C1",
+      "rationale": "Replaced the cyclohexene core with a pyrimidine ring to maintain binding while introducing a new scaffold to reduce recognition by current detection methods.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CCOC(=O)C1=CC(CN(C(C)=O)c2cnc[nH]2)[C@@H](N)C1",
+      "smiles_error": null
+    },
+    {
+      "description": "scaffold hop 2",
+      "smiles": "CCOC(=O)C1=CC(CN(C(C)=O)C2=CC=CC=N2)[C@@H](N)C1",
+      "rationale": "Swapped the cyclohexene scaffold with a pyridine ring, retaining key functional groups for neuraminidase activity while evading detection.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CCOC(=O)C1=CC(CN(C(C)=O)c2ccccn2)[C@@H](N)C1",
+      "smiles_error": null
+    },
+    {
+      "description": "scaffold hop 3",
+      "smiles": "CCOC(=O)C1=C[C@@H](NC(C)=O)[C@@H](N)C2=NC=CN12",
+      "rationale": "Replaced the cyclohexene core with an imidazopyridine scaffold to preserve pharmacophore interactions and introduce a novel structural framework.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CCOC(=O)C1=C[C@@H](NC(C)=O)[C@@H](N)c2nccn21",
+      "smiles_error": null
+    }
+  ],
+  "suggested_smiles_list": [
+    {
+      "raw_smiles": "CCOC(=O)C1=CC(CN(C(C)=O)C2=CN=CN2)[C@@H](N)C1",
+      "is_valid": true,
+      "canonical_smiles": "CCOC(=O)C1=CC(CN(C(C)=O)c2cnc[nH]2)[C@@H](N)C1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "CCOC(=O)C1=CC(CN(C(C)=O)C2=CC=CC=N2)[C@@H](N)C1",
+      "is_valid": true,
+      "canonical_smiles": "CCOC(=O)C1=CC(CN(C(C)=O)c2ccccn2)[C@@H](N)C1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "CCOC(=O)C1=C[C@@H](NC(C)=O)[C@@H](N)C2=NC=CN12",
+      "is_valid": true,
+      "canonical_smiles": "CCOC(=O)C1=C[C@@H](NC(C)=O)[C@@H](N)c2nccn21",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "modifications",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "description",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "cyclohexene",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "introducing",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "recognition",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "neuraminidase",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "imidazopyridine",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "pharmacophore",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "interactions",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    }
+  ],
+  "n_modifications": 3,
+  "n_valid_smiles": 3,
+  "n_invalid_smiles": 0,
+  "api_model": "gpt-4o-2024-11-20",
+  "api_usage": {
+    "prompt_tokens": 243,
+    "completion_tokens": 286,
+    "total_tokens": 529
+  },
+  "api_error": null,
+  "finish_reason": "stop",
+  "timestamp": "2026-05-02T01:12:00.929395Z"
+}

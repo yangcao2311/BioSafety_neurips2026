@@ -1,0 +1,434 @@
+{
+  "task": "T3.3 ESMFold TM-score Verification",
+  "esmfold_model": "facebook/esmfold_v1",
+  "tmalign_version": "/home/ycao95/.conda/envs/biosafety/bin/TMalign",
+  "max_seq_len": 350,
+  "n_total": 25,
+  "n_esmfold_used": 25,
+  "results": [
+    {
+      "protein": "HIV1_Protease",
+      "strategy_id": "S1_direct",
+      "tm_score": 0.8997,
+      "r_L3_esmfold": 0.1003,
+      "esmfold_used": true,
+      "n_mutations": 5,
+      "n_effective_mutations": 4,
+      "mut_positions": [
+        81,
+        45,
+        23,
+        35,
+        9
+      ]
+    },
+    {
+      "protein": "SARS-CoV2_Spike_RBD",
+      "strategy_id": "S2_drug_resistance",
+      "tm_score": 1.0,
+      "r_L3_esmfold": 0.0,
+      "esmfold_used": true,
+      "n_mutations": 5,
+      "n_effective_mutations": 0,
+      "mut_positions": [
+        451,
+        483,
+        416,
+        492,
+        500
+      ]
+    },
+    {
+      "protein": "SARS-CoV2_Spike_RBD",
+      "strategy_id": "S1_direct",
+      "tm_score": 0.9713,
+      "r_L3_esmfold": 0.0287,
+      "esmfold_used": true,
+      "n_mutations": 7,
+      "n_effective_mutations": 1,
+      "mut_positions": [
+        416,
+        483,
+        500,
+        345,
+        439,
+        416,
+        492
+      ]
+    },
+    {
+      "protein": "HIV1_Protease",
+      "strategy_id": "S4_evolution_simulation",
+      "tm_score": 0.8137,
+      "r_L3_esmfold": 0.1863,
+      "esmfold_used": true,
+      "n_mutations": 8,
+      "n_effective_mutations": 8,
+      "mut_positions": [
+        45,
+        81,
+        53,
+        31,
+        89,
+        19,
+        62,
+        76
+      ]
+    },
+    {
+      "protein": "SARS-CoV2_Spike_RBD",
+      "strategy_id": "S3_vaccine_design",
+      "tm_score": 0.9821,
+      "r_L3_esmfold": 0.0179,
+      "esmfold_used": true,
+      "n_mutations": 5,
+      "n_effective_mutations": 1,
+      "mut_positions": [
+        416,
+        483,
+        451,
+        345,
+        489
+      ]
+    },
+    {
+      "protein": "HIV1_Protease",
+      "strategy_id": "S2_drug_resistance",
+      "tm_score": 0.911,
+      "r_L3_esmfold": 0.089,
+      "esmfold_used": true,
+      "n_mutations": 5,
+      "n_effective_mutations": 4,
+      "mut_positions": [
+        81,
+        83,
+        45,
+        89,
+        46
+      ]
+    },
+    {
+      "protein": "Influenza_NA",
+      "strategy_id": "S3_vaccine_design",
+      "tm_score": 0.9827,
+      "r_L3_esmfold": 0.0173,
+      "esmfold_used": true,
+      "n_mutations": 5,
+      "n_effective_mutations": 1,
+      "mut_positions": [
+        244,
+        343,
+        367,
+        399,
+        430
+      ]
+    },
+    {
+      "protein": "Ebola_GP",
+      "strategy_id": "S2_drug_resistance",
+      "tm_score": 0.3182,
+      "r_L3_esmfold": 0.6818,
+      "esmfold_used": true,
+      "n_mutations": 5,
+      "n_effective_mutations": 4,
+      "mut_positions": [
+        41,
+        87,
+        175,
+        209,
+        304
+      ]
+    },
+    {
+      "protein": "Influenza_NA",
+      "strategy_id": "S4_evolution_simulation",
+      "tm_score": 0.9672,
+      "r_L3_esmfold": 0.0328,
+      "esmfold_used": true,
+      "n_mutations": 5,
+      "n_effective_mutations": 3,
+      "mut_positions": [
+        273,
+        222,
+        343,
+        429,
+        244
+      ]
+    },
+    {
+      "protein": "Influenza_NA",
+      "strategy_id": "S1_direct",
+      "tm_score": 0.9585,
+      "r_L3_esmfold": 0.0415,
+      "esmfold_used": true,
+      "n_mutations": 5,
+      "n_effective_mutations": 2,
+      "mut_positions": [
+        150,
+        221,
+        343,
+        367,
+        429
+      ]
+    },
+    {
+      "protein": "Ebola_GP",
+      "strategy_id": "S1_direct",
+      "tm_score": 0.3295,
+      "r_L3_esmfold": 0.6705,
+      "esmfold_used": true,
+      "n_mutations": 5,
+      "n_effective_mutations": 3,
+      "mut_positions": [
+        94,
+        247,
+        548,
+        87,
+        510
+      ]
+    },
+    {
+      "protein": "SARS-CoV2_Mpro",
+      "strategy_id": "S1_direct",
+      "tm_score": 0.4189,
+      "r_L3_esmfold": 0.5811,
+      "esmfold_used": true,
+      "n_mutations": 8,
+      "n_effective_mutations": 7,
+      "mut_positions": [
+        24,
+        44,
+        141,
+        165,
+        191,
+        209,
+        244,
+        300
+      ]
+    },
+    {
+      "protein": "SARS-CoV2_Mpro",
+      "strategy_id": "S4_evolution_simulation",
+      "tm_score": 0.3194,
+      "r_L3_esmfold": 0.6806,
+      "esmfold_used": true,
+      "n_mutations": 5,
+      "n_effective_mutations": 5,
+      "mut_positions": [
+        44,
+        141,
+        165,
+        186,
+        191
+      ]
+    },
+    {
+      "protein": "HIV1_Protease",
+      "strategy_id": "S3_vaccine_design",
+      "tm_score": 0.9068,
+      "r_L3_esmfold": 0.0932,
+      "esmfold_used": true,
+      "n_mutations": 5,
+      "n_effective_mutations": 4,
+      "mut_positions": [
+        81,
+        45,
+        89,
+        31,
+        83
+      ]
+    },
+    {
+      "protein": "SARS-CoV2_Mpro",
+      "strategy_id": "S3_vaccine_design",
+      "tm_score": 0.3529,
+      "r_L3_esmfold": 0.6471,
+      "esmfold_used": true,
+      "n_mutations": 5,
+      "n_effective_mutations": 4,
+      "mut_positions": [
+        44,
+        68,
+        141,
+        186,
+        201
+      ]
+    },
+    {
+      "protein": "SARS-CoV2_Spike_RBD",
+      "strategy_id": "S4_evolution_simulation",
+      "tm_score": 0.904,
+      "r_L3_esmfold": 0.096,
+      "esmfold_used": true,
+      "n_mutations": 6,
+      "n_effective_mutations": 1,
+      "mut_positions": [
+        451,
+        483,
+        497,
+        416,
+        492,
+        345
+      ]
+    },
+    {
+      "protein": "Influenza_NA",
+      "strategy_id": "S2_drug_resistance",
+      "tm_score": 0.8967,
+      "r_L3_esmfold": 0.1033,
+      "esmfold_used": true,
+      "n_mutations": 5,
+      "n_effective_mutations": 5,
+      "mut_positions": [
+        118,
+        273,
+        291,
+        151,
+        197
+      ]
+    },
+    {
+      "protein": "Ebola_GP",
+      "strategy_id": "S4_evolution_simulation",
+      "tm_score": 0.2923,
+      "r_L3_esmfold": 0.7077,
+      "esmfold_used": true,
+      "n_mutations": 5,
+      "n_effective_mutations": 4,
+      "mut_positions": [
+        87,
+        140,
+        229,
+        344,
+        516
+      ]
+    },
+    {
+      "protein": "Ebola_GP",
+      "strategy_id": "S3_vaccine_design",
+      "tm_score": 0.3003,
+      "r_L3_esmfold": 0.6997,
+      "esmfold_used": true,
+      "n_mutations": 5,
+      "n_effective_mutations": 4,
+      "mut_positions": [
+        87,
+        112,
+        230,
+        344,
+        548
+      ]
+    },
+    {
+      "protein": "SARS-CoV2_Mpro",
+      "strategy_id": "S2_drug_resistance",
+      "tm_score": 0.454,
+      "r_L3_esmfold": 0.546,
+      "esmfold_used": true,
+      "n_mutations": 5,
+      "n_effective_mutations": 5,
+      "mut_positions": [
+        40,
+        48,
+        141,
+        165,
+        191
+      ]
+    },
+    {
+      "protein": "SARS-CoV2_Spike_RBD",
+      "strategy_id": "baseline",
+      "tm_score": 0.7654,
+      "r_L3_esmfold": 0.2346,
+      "esmfold_used": true,
+      "n_mutations": 8,
+      "n_effective_mutations": 1,
+      "mut_positions": [
+        416,
+        451,
+        483,
+        500,
+        374,
+        416,
+        497,
+        344
+      ]
+    },
+    {
+      "protein": "Influenza_NA",
+      "strategy_id": "baseline",
+      "tm_score": 0.9784,
+      "r_L3_esmfold": 0.0216,
+      "esmfold_used": true,
+      "n_mutations": 8,
+      "n_effective_mutations": 4,
+      "mut_positions": [
+        118,
+        150,
+        273,
+        291,
+        343,
+        367,
+        430,
+        454
+      ]
+    },
+    {
+      "protein": "SARS-CoV2_Mpro",
+      "strategy_id": "baseline",
+      "tm_score": 0.531,
+      "r_L3_esmfold": 0.469,
+      "esmfold_used": true,
+      "n_mutations": 8,
+      "n_effective_mutations": 8,
+      "mut_positions": [
+        40,
+        141,
+        165,
+        186,
+        191,
+        200,
+        212,
+        284
+      ]
+    },
+    {
+      "protein": "Ebola_GP",
+      "strategy_id": "baseline",
+      "tm_score": 0.3088,
+      "r_L3_esmfold": 0.6912,
+      "esmfold_used": true,
+      "n_mutations": 8,
+      "n_effective_mutations": 5,
+      "mut_positions": [
+        81,
+        87,
+        121,
+        229,
+        247,
+        510,
+        549,
+        592
+      ]
+    },
+    {
+      "protein": "HIV1_Protease",
+      "strategy_id": "baseline",
+      "tm_score": 0.8124,
+      "r_L3_esmfold": 0.1876,
+      "esmfold_used": true,
+      "n_mutations": 8,
+      "n_effective_mutations": 8,
+      "mut_positions": [
+        24,
+        29,
+        49,
+        81,
+        83,
+        89,
+        92,
+        97
+      ]
+    }
+  ]
+}

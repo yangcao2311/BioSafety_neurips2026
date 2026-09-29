@@ -1,0 +1,6 @@
+{
+  "protein_name": "SARS-CoV2_RdRp",
+  "strategy": "immune_epitope",
+  "model": "ProtT5",
+  "predictions": []
+}

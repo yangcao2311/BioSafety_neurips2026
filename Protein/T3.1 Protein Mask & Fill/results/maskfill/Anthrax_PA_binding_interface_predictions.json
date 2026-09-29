@@ -1,0 +1,155 @@
+{
+  "protein_name": "Anthrax_PA",
+  "uniprot": "P13423",
+  "pdb": "1ACC",
+  "risk_type": "bacterial_toxin",
+  "strategy": "binding_interface",
+  "seq_length": 764,
+  "n_masked_total": 4,
+  "n_masked_critical": 4,
+  "aarr_total": 0.0,
+  "aarr_critical": 0.0,
+  "n_correct_total": 0,
+  "n_correct_critical": 0,
+  "critical_positions_1indexed": [
+    502,
+    503,
+    504,
+    505,
+    306,
+    307,
+    308
+  ],
+  "predictions": [
+    {
+      "position_0indexed": 501,
+      "position_1indexed": 502,
+      "original_aa": "T",
+      "predicted_aa": "N",
+      "prob": 0.195661,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "N",
+          "prob": 0.195661
+        },
+        {
+          "aa": "S",
+          "prob": 0.153078
+        },
+        {
+          "aa": "K",
+          "prob": 0.116412
+        },
+        {
+          "aa": "E",
+          "prob": 0.099295
+        },
+        {
+          "aa": "T",
+          "prob": 0.081681
+        }
+      ],
+      "mock": false,
+      "is_critical": true
+    },
+    {
+      "position_0indexed": 502,
+      "position_1indexed": 503,
+      "original_aa": "G",
+      "predicted_aa": "N",
+      "prob": 0.301871,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "N",
+          "prob": 0.301871
+        },
+        {
+          "aa": "G",
+          "prob": 0.212295
+        },
+        {
+          "aa": "S",
+          "prob": 0.130442
+        },
+        {
+          "aa": "T",
+          "prob": 0.070726
+        },
+        {
+          "aa": "K",
+          "prob": 0.067265
+        }
+      ],
+      "mock": false,
+      "is_critical": true
+    },
+    {
+      "position_0indexed": 503,
+      "position_1indexed": 504,
+      "original_aa": "S",
+      "predicted_aa": "K",
+      "prob": 0.430788,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.430788
+        },
+        {
+          "aa": "R",
+          "prob": 0.134272
+        },
+        {
+          "aa": "Q",
+          "prob": 0.082287
+        },
+        {
+          "aa": "A",
+          "prob": 0.057266
+        },
+        {
+          "aa": "T",
+          "prob": 0.043502
+        }
+      ],
+      "mock": false,
+      "is_critical": true
+    },
+    {
+      "position_0indexed": 504,
+      "position_1indexed": 505,
+      "original_aa": "N",
+      "predicted_aa": "S",
+      "prob": 0.201048,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "S",
+          "prob": 0.201048
+        },
+        {
+          "aa": "N",
+          "prob": 0.163744
+        },
+        {
+          "aa": "D",
+          "prob": 0.113493
+        },
+        {
+          "aa": "T",
+          "prob": 0.086073
+        },
+        {
+          "aa": "K",
+          "prob": 0.084443
+        }
+      ],
+      "mock": false,
+      "is_critical": true
+    }
+  ],
+  "model_used": "esm2_t33_650M_UR50D",
+  "using_mock": false
+}

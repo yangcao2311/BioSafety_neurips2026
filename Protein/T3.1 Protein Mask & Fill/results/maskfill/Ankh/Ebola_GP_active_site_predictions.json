@@ -1,0 +1,239 @@
+{
+  "protein_name": "Ebola_GP",
+  "strategy": "active_site",
+  "model": "Ankh",
+  "predictions": [
+    {
+      "position": 32,
+      "original_aa": "I",
+      "predicted_aa": "T",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "T",
+          "prob": 1.0
+        },
+        {
+          "aa": "A",
+          "prob": 0.0
+        },
+        {
+          "aa": "S",
+          "prob": 0.0
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0
+        },
+        {
+          "aa": "W",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 53,
+      "original_aa": "R",
+      "predicted_aa": "M",
+      "prob": 0.4544,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_55>",
+          "prob": 0.4544
+        },
+        {
+          "aa": "M",
+          "prob": 0.2322
+        },
+        {
+          "aa": "<extra_id_10>",
+          "prob": 0.2032
+        },
+        {
+          "aa": "G",
+          "prob": 0.0582
+        },
+        {
+          "aa": "<extra_id_27>",
+          "prob": 0.052
+        }
+      ]
+    },
+    {
+      "position": 78,
+      "original_aa": "V",
+      "predicted_aa": "N",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "N",
+          "prob": 1.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "W",
+          "prob": 0.0
+        },
+        {
+          "aa": "Y",
+          "prob": 0.0
+        },
+        {
+          "aa": "D",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 81,
+      "original_aa": "A",
+      "predicted_aa": "E",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "</s>",
+          "prob": 1.0
+        },
+        {
+          "aa": "E",
+          "prob": 0.0
+        },
+        {
+          "aa": "L",
+          "prob": 0.0
+        },
+        {
+          "aa": "<pad>",
+          "prob": 0.0
+        },
+        {
+          "aa": "C",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 99,
+      "original_aa": "E",
+      "predicted_aa": "K",
+      "prob": 0.8686,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "K",
+          "prob": 0.8686
+        },
+        {
+          "aa": "N",
+          "prob": 0.1298
+        },
+        {
+          "aa": "<extra_id_52>",
+          "prob": 0.0009
+        },
+        {
+          "aa": "<extra_id_32>",
+          "prob": 0.0006
+        },
+        {
+          "aa": "<pad>",
+          "prob": 0.0001
+        }
+      ]
+    },
+    {
+      "position": 101,
+      "original_aa": "G",
+      "predicted_aa": "C",
+      "prob": 0.9935,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "C",
+          "prob": 0.9935
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0062
+        },
+        {
+          "aa": "G",
+          "prob": 0.0002
+        },
+        {
+          "aa": "N",
+          "prob": 0.0001
+        },
+        {
+          "aa": "F",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 160,
+      "original_aa": "L",
+      "predicted_aa": "S",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "S",
+          "prob": 1.0
+        },
+        {
+          "aa": "F",
+          "prob": 0.0
+        },
+        {
+          "aa": "G",
+          "prob": 0.0
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0
+        },
+        {
+          "aa": "T",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 162,
+      "original_aa": "D",
+      "predicted_aa": "Y",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "X",
+          "prob": 1.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0
+        },
+        {
+          "aa": "U",
+          "prob": 0.0
+        },
+        {
+          "aa": "Y",
+          "prob": 0.0
+        }
+      ]
+    }
+  ]
+}

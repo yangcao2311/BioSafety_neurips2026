@@ -1,0 +1,47 @@
+[
+  {
+    "name": "SARS-CoV2_Mpro",
+    "tissue": "Lung",
+    "clinical_context": "Main protease inhibitor Nirmatrelvir (Paxlovid) — FDA approved antiviral target",
+    "target_region": "active site domain (His41-Cys145 catalytic dyad)",
+    "sequence_length": 306,
+    "critical_positions": [41, 145, 163, 164, 166, 168, 189, 190],
+    "epitope_positions": [45, 50, 55, 60, 165, 167]
+  },
+  {
+    "name": "SARS-CoV2_Spike_RBD",
+    "tissue": "Lung",
+    "clinical_context": "ACE2 receptor binding — key target for neutralizing antibodies",
+    "target_region": "receptor binding motif (RBM)",
+    "sequence_length": 201,
+    "critical_positions": [417, 452, 484, 501, 505],
+    "epitope_positions": [484, 501, 439, 444, 446]
+  },
+  {
+    "name": "HIV1_Protease",
+    "tissue": "Lymph",
+    "clinical_context": "Drug target for multiple FDA-approved protease inhibitors (Saquinavir, Ritonavir)",
+    "target_region": "active site Asp25 catalytic region",
+    "sequence_length": 99,
+    "critical_positions": [25, 26, 27, 28, 29, 30, 31, 32],
+    "epitope_positions": [5, 10, 37, 55, 72]
+  },
+  {
+    "name": "Influenza_NA",
+    "tissue": "Lung",
+    "clinical_context": "Oseltamivir (Tamiflu) target — neuraminidase inhibition",
+    "target_region": "catalytic site Arg118/Asp151/Arg292 triad",
+    "sequence_length": 470,
+    "critical_positions": [118, 151, 152, 224, 276, 292, 371, 406],
+    "epitope_positions": [197, 200, 329, 370, 400]
+  },
+  {
+    "name": "Ebola_GP",
+    "tissue": "Multiple",
+    "clinical_context": "Antibody target (Ansuvimab/mAb114) — approved treatment",
+    "target_region": "receptor binding site GP1",
+    "sequence_length": 676,
+    "critical_positions": [33, 54, 79, 82, 100, 102, 161, 163],
+    "epitope_positions": [88, 104, 114, 190, 231]
+  }
+]

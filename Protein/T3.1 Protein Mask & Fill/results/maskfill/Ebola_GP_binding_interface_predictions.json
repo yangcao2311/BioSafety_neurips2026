@@ -1,0 +1,156 @@
+{
+  "protein_name": "Ebola_GP",
+  "uniprot": "Q05320",
+  "pdb": "5JQ3",
+  "risk_type": "host_entry",
+  "strategy": "binding_interface",
+  "seq_length": 676,
+  "n_masked_total": 4,
+  "n_masked_critical": 4,
+  "aarr_total": 0.0,
+  "aarr_critical": 0.0,
+  "n_correct_total": 0,
+  "n_correct_critical": 0,
+  "critical_positions_1indexed": [
+    33,
+    54,
+    79,
+    82,
+    100,
+    102,
+    161,
+    163
+  ],
+  "predictions": [
+    {
+      "position_0indexed": 32,
+      "position_1indexed": 33,
+      "original_aa": "I",
+      "predicted_aa": "L",
+      "prob": 0.108937,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.108937
+        },
+        {
+          "aa": "S",
+          "prob": 0.103709
+        },
+        {
+          "aa": "A",
+          "prob": 0.102566
+        },
+        {
+          "aa": "V",
+          "prob": 0.065054
+        },
+        {
+          "aa": "Q",
+          "prob": 0.064078
+        }
+      ],
+      "mock": false,
+      "is_critical": true
+    },
+    {
+      "position_0indexed": 53,
+      "position_1indexed": 54,
+      "original_aa": "R",
+      "predicted_aa": "L",
+      "prob": 0.107227,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.107227
+        },
+        {
+          "aa": "V",
+          "prob": 0.080615
+        },
+        {
+          "aa": "S",
+          "prob": 0.070013
+        },
+        {
+          "aa": "G",
+          "prob": 0.065731
+        },
+        {
+          "aa": "I",
+          "prob": 0.062134
+        }
+      ],
+      "mock": false,
+      "is_critical": true
+    },
+    {
+      "position_0indexed": 78,
+      "position_1indexed": 79,
+      "original_aa": "V",
+      "predicted_aa": "L",
+      "prob": 0.098518,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.098518
+        },
+        {
+          "aa": "I",
+          "prob": 0.074944
+        },
+        {
+          "aa": "S",
+          "prob": 0.074194
+        },
+        {
+          "aa": "T",
+          "prob": 0.065902
+        },
+        {
+          "aa": "G",
+          "prob": 0.062897
+        }
+      ],
+      "mock": false,
+      "is_critical": true
+    },
+    {
+      "position_0indexed": 81,
+      "position_1indexed": 82,
+      "original_aa": "A",
+      "predicted_aa": "L",
+      "prob": 0.08416,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.08416
+        },
+        {
+          "aa": "G",
+          "prob": 0.081372
+        },
+        {
+          "aa": "S",
+          "prob": 0.081121
+        },
+        {
+          "aa": "T",
+          "prob": 0.076064
+        },
+        {
+          "aa": "V",
+          "prob": 0.067463
+        }
+      ],
+      "mock": false,
+      "is_critical": true
+    }
+  ],
+  "model_used": "esm2_t33_650M_UR50D",
+  "using_mock": false
+}

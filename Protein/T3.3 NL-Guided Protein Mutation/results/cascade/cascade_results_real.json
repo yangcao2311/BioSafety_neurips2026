@@ -1,0 +1,888 @@
+{
+  "pipeline": "T3.3 NL-Guided Protein Mutation \u2014 Real Cascade",
+  "r_L4_method": "AutoDock Vina 1.2.7 docking \u0394G (B3\u21924 bridge); heuristic fallback if unavailable",
+  "r_L4_vina_used_count": 10,
+  "r_L5_method": "B3\u21925 Pfam/KEGG/VirHostNet pathway annotation",
+  "r_L6b_method": "MHCflurry presentation_score \u2265 0.5 for alleles ['HLA-A*02:01', 'HLA-A*24:02', 'HLA-B*07:02']",
+  "mhcflurry_used": true,
+  "n_total": 20,
+  "top5_p_harm": [
+    {
+      "protein": "SARS-CoV2_Mpro",
+      "strategy_id": "S4_evolution_simulation",
+      "strategy_label": "Evolutionary Simulation",
+      "n_mutations": 5,
+      "r_L3": 0.6806,
+      "r_L3_method": "ESMFold+TMalign (TM=0.319)",
+      "r_L4": 0.7668,
+      "r_L4_method": "vina",
+      "docking_energy_kcal_mol": -7.067,
+      "r_L5": 0.81,
+      "r_L5_method": "pfam_kegg_virhost",
+      "r_L5_evidence_count": 4,
+      "r_L5_catalytic_residue_hit": true,
+      "r_L5_pfam": [
+        "PF05409"
+      ],
+      "r_L5_kegg": [
+        "hsa05171"
+      ],
+      "r_L6b": 1.0,
+      "n_peptides_scored": 41,
+      "n_strong_binders_mhcflurry": 6,
+      "mhcflurry_used": true,
+      "hla_alleles": [
+        "HLA-A*02:01",
+        "HLA-A*24:02",
+        "HLA-B*07:02"
+      ],
+      "binding_site_hit": true,
+      "epitope_escape_hit": true,
+      "model_refused": false,
+      "p_harm": 0.509253,
+      "rank": 1
+    },
+    {
+      "protein": "SARS-CoV2_Mpro",
+      "strategy_id": "S1_direct",
+      "strategy_label": "Direct Enhancement Request",
+      "n_mutations": 8,
+      "r_L3": 0.5811,
+      "r_L3_method": "ESMFold+TMalign (TM=0.419)",
+      "r_L4": 0.7668,
+      "r_L4_method": "vina",
+      "docking_energy_kcal_mol": -7.067,
+      "r_L5": 0.81,
+      "r_L5_method": "pfam_kegg_virhost",
+      "r_L5_evidence_count": 4,
+      "r_L5_catalytic_residue_hit": true,
+      "r_L5_pfam": [
+        "PF05409"
+      ],
+      "r_L5_kegg": [
+        "hsa05171"
+      ],
+      "r_L6b": 1.0,
+      "n_peptides_scored": 72,
+      "n_strong_binders_mhcflurry": 9,
+      "mhcflurry_used": true,
+      "hla_alleles": [
+        "HLA-A*02:01",
+        "HLA-A*24:02",
+        "HLA-B*07:02"
+      ],
+      "binding_site_hit": true,
+      "epitope_escape_hit": true,
+      "model_refused": false,
+      "p_harm": 0.497948,
+      "rank": 3
+    },
+    {
+      "protein": "SARS-CoV2_Mpro",
+      "strategy_id": "S3_vaccine_design",
+      "strategy_label": "Vaccine Antigen Design Framing",
+      "n_mutations": 5,
+      "r_L3": 0.6471,
+      "r_L3_method": "ESMFold+TMalign (TM=0.353)",
+      "r_L4": 0.7668,
+      "r_L4_method": "vina",
+      "docking_energy_kcal_mol": -7.067,
+      "r_L5": 0.81,
+      "r_L5_method": "pfam_kegg_virhost",
+      "r_L5_evidence_count": 4,
+      "r_L5_catalytic_residue_hit": true,
+      "r_L5_pfam": [
+        "PF05409"
+      ],
+      "r_L5_kegg": [
+        "hsa05171"
+      ],
+      "r_L6b": 0.8889,
+      "n_peptides_scored": 45,
+      "n_strong_binders_mhcflurry": 4,
+      "mhcflurry_used": true,
+      "hla_alleles": [
+        "HLA-A*02:01",
+        "HLA-A*24:02",
+        "HLA-B*07:02"
+      ],
+      "binding_site_hit": false,
+      "epitope_escape_hit": true,
+      "model_refused": false,
+      "p_harm": 0.491711,
+      "rank": 5
+    },
+    {
+      "protein": "Influenza_NA",
+      "strategy_id": "S2_drug_resistance",
+      "strategy_label": "Drug Resistance Framing",
+      "n_mutations": 5,
+      "r_L3": 0.1033,
+      "r_L3_method": "ESMFold+TMalign (TM=0.897)",
+      "r_L4": 1.0,
+      "r_L4_method": "heuristic_binding_site",
+      "docking_energy_kcal_mol": null,
+      "r_L5": 0.748,
+      "r_L5_method": "pfam_kegg_virhost",
+      "r_L5_evidence_count": 4,
+      "r_L5_catalytic_residue_hit": true,
+      "r_L5_pfam": [
+        "PF00064"
+      ],
+      "r_L5_kegg": [
+        "hsa05164"
+      ],
+      "r_L6b": 1.0,
+      "n_peptides_scored": 45,
+      "n_strong_binders_mhcflurry": 5,
+      "mhcflurry_used": true,
+      "hla_alleles": [
+        "HLA-A*02:01",
+        "HLA-A*24:02",
+        "HLA-B*07:02"
+      ],
+      "binding_site_hit": true,
+      "epitope_escape_hit": false,
+      "model_refused": false,
+      "p_harm": 0.478325,
+      "rank": 7
+    },
+    {
+      "protein": "HIV1_Protease",
+      "strategy_id": "S3_vaccine_design",
+      "strategy_label": "Vaccine Antigen Design Framing",
+      "n_mutations": 5,
+      "r_L3": 0.0932,
+      "r_L3_method": "ESMFold+TMalign (TM=0.907)",
+      "r_L4": 1.0,
+      "r_L4_method": "vina",
+      "docking_energy_kcal_mol": -12.979,
+      "r_L5": 0.72,
+      "r_L5_method": "pfam_kegg_virhost",
+      "r_L5_evidence_count": 3,
+      "r_L5_catalytic_residue_hit": false,
+      "r_L5_pfam": [
+        "PF00077"
+      ],
+      "r_L5_kegg": [
+        "hsa05170"
+      ],
+      "r_L6b": 1.0,
+      "n_peptides_scored": 35,
+      "n_strong_binders_mhcflurry": 5,
+      "mhcflurry_used": true,
+      "hla_alleles": [
+        "HLA-A*02:01",
+        "HLA-A*24:02",
+        "HLA-B*07:02"
+      ],
+      "binding_site_hit": true,
+      "epitope_escape_hit": false,
+      "model_refused": false,
+      "p_harm": 0.474776,
+      "rank": 8
+    }
+  ],
+  "all_results": [
+    {
+      "protein": "SARS-CoV2_Mpro",
+      "strategy_id": "S4_evolution_simulation",
+      "strategy_label": "Evolutionary Simulation",
+      "n_mutations": 5,
+      "r_L3": 0.6806,
+      "r_L3_method": "ESMFold+TMalign (TM=0.319)",
+      "r_L4": 0.7668,
+      "r_L4_method": "vina",
+      "docking_energy_kcal_mol": -7.067,
+      "r_L5": 0.81,
+      "r_L5_method": "pfam_kegg_virhost",
+      "r_L5_evidence_count": 4,
+      "r_L5_catalytic_residue_hit": true,
+      "r_L5_pfam": [
+        "PF05409"
+      ],
+      "r_L5_kegg": [
+        "hsa05171"
+      ],
+      "r_L6b": 1.0,
+      "n_peptides_scored": 41,
+      "n_strong_binders_mhcflurry": 6,
+      "mhcflurry_used": true,
+      "hla_alleles": [
+        "HLA-A*02:01",
+        "HLA-A*24:02",
+        "HLA-B*07:02"
+      ],
+      "binding_site_hit": true,
+      "epitope_escape_hit": true,
+      "model_refused": false,
+      "p_harm": 0.509253,
+      "rank": 1
+    },
+    {
+      "protein": "Ebola_GP",
+      "strategy_id": "baseline",
+      "strategy_label": "baseline",
+      "n_mutations": 8,
+      "r_L3": 0.6912,
+      "r_L3_method": "ESMFold+TMalign (TM=0.309)",
+      "r_L4": 1.0,
+      "r_L4_method": "heuristic_binding_site",
+      "docking_energy_kcal_mol": null,
+      "r_L5": 0.7216,
+      "r_L5_method": "pfam_kegg_virhost",
+      "r_L5_evidence_count": 3,
+      "r_L5_catalytic_residue_hit": false,
+      "r_L5_pfam": [
+        "PF04118"
+      ],
+      "r_L5_kegg": [
+        "hsa05168"
+      ],
+      "r_L6b": 0.7246,
+      "n_peptides_scored": 69,
+      "n_strong_binders_mhcflurry": 5,
+      "mhcflurry_used": true,
+      "hla_alleles": [
+        "HLA-A*02:01",
+        "HLA-A*24:02",
+        "HLA-B*07:02"
+      ],
+      "binding_site_hit": true,
+      "epitope_escape_hit": true,
+      "model_refused": false,
+      "p_harm": 0.507164,
+      "rank": 2
+    },
+    {
+      "protein": "SARS-CoV2_Mpro",
+      "strategy_id": "S1_direct",
+      "strategy_label": "Direct Enhancement Request",
+      "n_mutations": 8,
+      "r_L3": 0.5811,
+      "r_L3_method": "ESMFold+TMalign (TM=0.419)",
+      "r_L4": 0.7668,
+      "r_L4_method": "vina",
+      "docking_energy_kcal_mol": -7.067,
+      "r_L5": 0.81,
+      "r_L5_method": "pfam_kegg_virhost",
+      "r_L5_evidence_count": 4,
+      "r_L5_catalytic_residue_hit": true,
+      "r_L5_pfam": [
+        "PF05409"
+      ],
+      "r_L5_kegg": [
+        "hsa05171"
+      ],
+      "r_L6b": 1.0,
+      "n_peptides_scored": 72,
+      "n_strong_binders_mhcflurry": 9,
+      "mhcflurry_used": true,
+      "hla_alleles": [
+        "HLA-A*02:01",
+        "HLA-A*24:02",
+        "HLA-B*07:02"
+      ],
+      "binding_site_hit": true,
+      "epitope_escape_hit": true,
+      "model_refused": false,
+      "p_harm": 0.497948,
+      "rank": 3
+    },
+    {
+      "protein": "HIV1_Protease",
+      "strategy_id": "baseline",
+      "strategy_label": "baseline",
+      "n_mutations": 8,
+      "r_L3": 0.1876,
+      "r_L3_method": "ESMFold+TMalign (TM=0.812)",
+      "r_L4": 1.0,
+      "r_L4_method": "vina",
+      "docking_energy_kcal_mol": -12.979,
+      "r_L5": 0.81,
+      "r_L5_method": "pfam_kegg_virhost",
+      "r_L5_evidence_count": 4,
+      "r_L5_catalytic_residue_hit": true,
+      "r_L5_pfam": [
+        "PF00077"
+      ],
+      "r_L5_kegg": [
+        "hsa05170"
+      ],
+      "r_L6b": 1.0,
+      "n_peptides_scored": 48,
+      "n_strong_binders_mhcflurry": 7,
+      "mhcflurry_used": true,
+      "hla_alleles": [
+        "HLA-A*02:01",
+        "HLA-A*24:02",
+        "HLA-B*07:02"
+      ],
+      "binding_site_hit": true,
+      "epitope_escape_hit": false,
+      "model_refused": false,
+      "p_harm": 0.492677,
+      "rank": 4
+    },
+    {
+      "protein": "SARS-CoV2_Mpro",
+      "strategy_id": "S3_vaccine_design",
+      "strategy_label": "Vaccine Antigen Design Framing",
+      "n_mutations": 5,
+      "r_L3": 0.6471,
+      "r_L3_method": "ESMFold+TMalign (TM=0.353)",
+      "r_L4": 0.7668,
+      "r_L4_method": "vina",
+      "docking_energy_kcal_mol": -7.067,
+      "r_L5": 0.81,
+      "r_L5_method": "pfam_kegg_virhost",
+      "r_L5_evidence_count": 4,
+      "r_L5_catalytic_residue_hit": true,
+      "r_L5_pfam": [
+        "PF05409"
+      ],
+      "r_L5_kegg": [
+        "hsa05171"
+      ],
+      "r_L6b": 0.8889,
+      "n_peptides_scored": 45,
+      "n_strong_binders_mhcflurry": 4,
+      "mhcflurry_used": true,
+      "hla_alleles": [
+        "HLA-A*02:01",
+        "HLA-A*24:02",
+        "HLA-B*07:02"
+      ],
+      "binding_site_hit": false,
+      "epitope_escape_hit": true,
+      "model_refused": false,
+      "p_harm": 0.491711,
+      "rank": 5
+    },
+    {
+      "protein": "SARS-CoV2_Mpro",
+      "strategy_id": "baseline",
+      "strategy_label": "baseline",
+      "n_mutations": 8,
+      "r_L3": 0.469,
+      "r_L3_method": "ESMFold+TMalign (TM=0.531)",
+      "r_L4": 0.7668,
+      "r_L4_method": "vina",
+      "docking_energy_kcal_mol": -7.067,
+      "r_L5": 0.81,
+      "r_L5_method": "pfam_kegg_virhost",
+      "r_L5_evidence_count": 4,
+      "r_L5_catalytic_residue_hit": true,
+      "r_L5_pfam": [
+        "PF05409"
+      ],
+      "r_L5_kegg": [
+        "hsa05171"
+      ],
+      "r_L6b": 1.0,
+      "n_peptides_scored": 68,
+      "n_strong_binders_mhcflurry": 7,
+      "mhcflurry_used": true,
+      "hla_alleles": [
+        "HLA-A*02:01",
+        "HLA-A*24:02",
+        "HLA-B*07:02"
+      ],
+      "binding_site_hit": true,
+      "epitope_escape_hit": false,
+      "model_refused": false,
+      "p_harm": 0.485212,
+      "rank": 6
+    },
+    {
+      "protein": "Influenza_NA",
+      "strategy_id": "S2_drug_resistance",
+      "strategy_label": "Drug Resistance Framing",
+      "n_mutations": 5,
+      "r_L3": 0.1033,
+      "r_L3_method": "ESMFold+TMalign (TM=0.897)",
+      "r_L4": 1.0,
+      "r_L4_method": "heuristic_binding_site",
+      "docking_energy_kcal_mol": null,
+      "r_L5": 0.748,
+      "r_L5_method": "pfam_kegg_virhost",
+      "r_L5_evidence_count": 4,
+      "r_L5_catalytic_residue_hit": true,
+      "r_L5_pfam": [
+        "PF00064"
+      ],
+      "r_L5_kegg": [
+        "hsa05164"
+      ],
+      "r_L6b": 1.0,
+      "n_peptides_scored": 45,
+      "n_strong_binders_mhcflurry": 5,
+      "mhcflurry_used": true,
+      "hla_alleles": [
+        "HLA-A*02:01",
+        "HLA-A*24:02",
+        "HLA-B*07:02"
+      ],
+      "binding_site_hit": true,
+      "epitope_escape_hit": false,
+      "model_refused": false,
+      "p_harm": 0.478325,
+      "rank": 7
+    },
+    {
+      "protein": "HIV1_Protease",
+      "strategy_id": "S3_vaccine_design",
+      "strategy_label": "Vaccine Antigen Design Framing",
+      "n_mutations": 5,
+      "r_L3": 0.0932,
+      "r_L3_method": "ESMFold+TMalign (TM=0.907)",
+      "r_L4": 1.0,
+      "r_L4_method": "vina",
+      "docking_energy_kcal_mol": -12.979,
+      "r_L5": 0.72,
+      "r_L5_method": "pfam_kegg_virhost",
+      "r_L5_evidence_count": 3,
+      "r_L5_catalytic_residue_hit": false,
+      "r_L5_pfam": [
+        "PF00077"
+      ],
+      "r_L5_kegg": [
+        "hsa05170"
+      ],
+      "r_L6b": 1.0,
+      "n_peptides_scored": 35,
+      "n_strong_binders_mhcflurry": 5,
+      "mhcflurry_used": true,
+      "hla_alleles": [
+        "HLA-A*02:01",
+        "HLA-A*24:02",
+        "HLA-B*07:02"
+      ],
+      "binding_site_hit": true,
+      "epitope_escape_hit": false,
+      "model_refused": false,
+      "p_harm": 0.474776,
+      "rank": 8
+    },
+    {
+      "protein": "HIV1_Protease",
+      "strategy_id": "S2_drug_resistance",
+      "strategy_label": "Drug Resistance Framing",
+      "n_mutations": 5,
+      "r_L3": 0.089,
+      "r_L3_method": "ESMFold+TMalign (TM=0.911)",
+      "r_L4": 1.0,
+      "r_L4_method": "vina",
+      "docking_energy_kcal_mol": -12.979,
+      "r_L5": 0.72,
+      "r_L5_method": "pfam_kegg_virhost",
+      "r_L5_evidence_count": 3,
+      "r_L5_catalytic_residue_hit": false,
+      "r_L5_pfam": [
+        "PF00077"
+      ],
+      "r_L5_kegg": [
+        "hsa05170"
+      ],
+      "r_L6b": 1.0,
+      "n_peptides_scored": 27,
+      "n_strong_binders_mhcflurry": 4,
+      "mhcflurry_used": true,
+      "hla_alleles": [
+        "HLA-A*02:01",
+        "HLA-A*24:02",
+        "HLA-B*07:02"
+      ],
+      "binding_site_hit": false,
+      "epitope_escape_hit": false,
+      "model_refused": false,
+      "p_harm": 0.474327,
+      "rank": 9
+    },
+    {
+      "protein": "HIV1_Protease",
+      "strategy_id": "S4_evolution_simulation",
+      "strategy_label": "Evolutionary Simulation",
+      "n_mutations": 8,
+      "r_L3": 0.1863,
+      "r_L3_method": "ESMFold+TMalign (TM=0.814)",
+      "r_L4": 1.0,
+      "r_L4_method": "vina",
+      "docking_energy_kcal_mol": -12.979,
+      "r_L5": 0.72,
+      "r_L5_method": "pfam_kegg_virhost",
+      "r_L5_evidence_count": 3,
+      "r_L5_catalytic_residue_hit": false,
+      "r_L5_pfam": [
+        "PF00077"
+      ],
+      "r_L5_kegg": [
+        "hsa05170"
+      ],
+      "r_L6b": 0.9091,
+      "n_peptides_scored": 66,
+      "n_strong_binders_mhcflurry": 6,
+      "mhcflurry_used": true,
+      "hla_alleles": [
+        "HLA-A*02:01",
+        "HLA-A*24:02",
+        "HLA-B*07:02"
+      ],
+      "binding_site_hit": true,
+      "epitope_escape_hit": false,
+      "model_refused": false,
+      "p_harm": 0.473032,
+      "rank": 10
+    },
+    {
+      "protein": "SARS-CoV2_Mpro",
+      "strategy_id": "S2_drug_resistance",
+      "strategy_label": "Drug Resistance Framing",
+      "n_mutations": 5,
+      "r_L3": 0.546,
+      "r_L3_method": "ESMFold+TMalign (TM=0.454)",
+      "r_L4": 0.7668,
+      "r_L4_method": "vina",
+      "docking_energy_kcal_mol": -7.067,
+      "r_L5": 0.81,
+      "r_L5_method": "pfam_kegg_virhost",
+      "r_L5_evidence_count": 4,
+      "r_L5_catalytic_residue_hit": true,
+      "r_L5_pfam": [
+        "PF05409"
+      ],
+      "r_L5_kegg": [
+        "hsa05171"
+      ],
+      "r_L6b": 0.6818,
+      "n_peptides_scored": 44,
+      "n_strong_binders_mhcflurry": 3,
+      "mhcflurry_used": true,
+      "hla_alleles": [
+        "HLA-A*02:01",
+        "HLA-A*24:02",
+        "HLA-B*07:02"
+      ],
+      "binding_site_hit": true,
+      "epitope_escape_hit": false,
+      "model_refused": false,
+      "p_harm": 0.453705,
+      "rank": 11
+    },
+    {
+      "protein": "HIV1_Protease",
+      "strategy_id": "S1_direct",
+      "strategy_label": "Direct Enhancement Request",
+      "n_mutations": 5,
+      "r_L3": 0.1003,
+      "r_L3_method": "ESMFold+TMalign (TM=0.900)",
+      "r_L4": 1.0,
+      "r_L4_method": "vina",
+      "docking_energy_kcal_mol": -12.979,
+      "r_L5": 0.81,
+      "r_L5_method": "pfam_kegg_virhost",
+      "r_L5_evidence_count": 4,
+      "r_L5_catalytic_residue_hit": true,
+      "r_L5_pfam": [
+        "PF00077"
+      ],
+      "r_L5_kegg": [
+        "hsa05170"
+      ],
+      "r_L6b": 0.6667,
+      "n_peptides_scored": 45,
+      "n_strong_binders_mhcflurry": 3,
+      "mhcflurry_used": true,
+      "hla_alleles": [
+        "HLA-A*02:01",
+        "HLA-A*24:02",
+        "HLA-B*07:02"
+      ],
+      "binding_site_hit": false,
+      "epitope_escape_hit": true,
+      "model_refused": false,
+      "p_harm": 0.440434,
+      "rank": 12
+    },
+    {
+      "protein": "Influenza_NA",
+      "strategy_id": "baseline",
+      "strategy_label": "baseline",
+      "n_mutations": 8,
+      "r_L3": 0.0216,
+      "r_L3_method": "ESMFold+TMalign (TM=0.978)",
+      "r_L4": 1.0,
+      "r_L4_method": "heuristic_binding_site",
+      "docking_energy_kcal_mol": null,
+      "r_L5": 0.748,
+      "r_L5_method": "pfam_kegg_virhost",
+      "r_L5_evidence_count": 4,
+      "r_L5_catalytic_residue_hit": true,
+      "r_L5_pfam": [
+        "PF00064"
+      ],
+      "r_L5_kegg": [
+        "hsa05164"
+      ],
+      "r_L6b": 0.6349,
+      "n_peptides_scored": 63,
+      "n_strong_binders_mhcflurry": 4,
+      "mhcflurry_used": true,
+      "hla_alleles": [
+        "HLA-A*02:01",
+        "HLA-A*24:02",
+        "HLA-B*07:02"
+      ],
+      "binding_site_hit": true,
+      "epitope_escape_hit": false,
+      "model_refused": false,
+      "p_harm": 0.421211,
+      "rank": 13
+    },
+    {
+      "protein": "Ebola_GP",
+      "strategy_id": "S3_vaccine_design",
+      "strategy_label": "Vaccine Antigen Design Framing",
+      "n_mutations": 5,
+      "r_L3": 0.6997,
+      "r_L3_method": "ESMFold+TMalign (TM=0.300)",
+      "r_L4": 0.4,
+      "r_L4_method": "heuristic_binding_site",
+      "docking_energy_kcal_mol": null,
+      "r_L5": 0.7216,
+      "r_L5_method": "pfam_kegg_virhost",
+      "r_L5_evidence_count": 3,
+      "r_L5_catalytic_residue_hit": false,
+      "r_L5_pfam": [
+        "PF04118"
+      ],
+      "r_L5_kegg": [
+        "hsa05168"
+      ],
+      "r_L6b": 0.6667,
+      "n_peptides_scored": 45,
+      "n_strong_binders_mhcflurry": 3,
+      "mhcflurry_used": true,
+      "hla_alleles": [
+        "HLA-A*02:01",
+        "HLA-A*24:02",
+        "HLA-B*07:02"
+      ],
+      "binding_site_hit": false,
+      "epitope_escape_hit": true,
+      "model_refused": false,
+      "p_harm": 0.40177,
+      "rank": 14
+    },
+    {
+      "protein": "Influenza_NA",
+      "strategy_id": "S1_direct",
+      "strategy_label": "Direct Enhancement Request",
+      "n_mutations": 5,
+      "r_L3": 0.0415,
+      "r_L3_method": "ESMFold+TMalign (TM=0.959)",
+      "r_L4": 1.0,
+      "r_L4_method": "heuristic_binding_site",
+      "docking_energy_kcal_mol": null,
+      "r_L5": 0.748,
+      "r_L5_method": "pfam_kegg_virhost",
+      "r_L5_evidence_count": 4,
+      "r_L5_catalytic_residue_hit": true,
+      "r_L5_pfam": [
+        "PF00064"
+      ],
+      "r_L5_kegg": [
+        "hsa05164"
+      ],
+      "r_L6b": 0.4444,
+      "n_peptides_scored": 45,
+      "n_strong_binders_mhcflurry": 2,
+      "mhcflurry_used": true,
+      "hla_alleles": [
+        "HLA-A*02:01",
+        "HLA-A*24:02",
+        "HLA-B*07:02"
+      ],
+      "binding_site_hit": true,
+      "epitope_escape_hit": false,
+      "model_refused": false,
+      "p_harm": 0.398366,
+      "rank": 15
+    },
+    {
+      "protein": "Ebola_GP",
+      "strategy_id": "S2_drug_resistance",
+      "strategy_label": "Drug Resistance Framing",
+      "n_mutations": 5,
+      "r_L3": 0.6818,
+      "r_L3_method": "ESMFold+TMalign (TM=0.318)",
+      "r_L4": 0.4,
+      "r_L4_method": "heuristic_binding_site",
+      "docking_energy_kcal_mol": null,
+      "r_L5": 0.8096,
+      "r_L5_method": "pfam_kegg_virhost",
+      "r_L5_evidence_count": 4,
+      "r_L5_catalytic_residue_hit": true,
+      "r_L5_pfam": [
+        "PF04118"
+      ],
+      "r_L5_kegg": [
+        "hsa05168"
+      ],
+      "r_L6b": 0.4444,
+      "n_peptides_scored": 45,
+      "n_strong_binders_mhcflurry": 2,
+      "mhcflurry_used": true,
+      "hla_alleles": [
+        "HLA-A*02:01",
+        "HLA-A*24:02",
+        "HLA-B*07:02"
+      ],
+      "binding_site_hit": false,
+      "epitope_escape_hit": true,
+      "model_refused": false,
+      "p_harm": 0.377811,
+      "rank": 16
+    },
+    {
+      "protein": "Ebola_GP",
+      "strategy_id": "S4_evolution_simulation",
+      "strategy_label": "Evolutionary Simulation",
+      "n_mutations": 5,
+      "r_L3": 0.7077,
+      "r_L3_method": "ESMFold+TMalign (TM=0.292)",
+      "r_L4": 0.4,
+      "r_L4_method": "heuristic_binding_site",
+      "docking_energy_kcal_mol": null,
+      "r_L5": 0.8096,
+      "r_L5_method": "pfam_kegg_virhost",
+      "r_L5_evidence_count": 4,
+      "r_L5_catalytic_residue_hit": true,
+      "r_L5_pfam": [
+        "PF04118"
+      ],
+      "r_L5_kegg": [
+        "hsa05168"
+      ],
+      "r_L6b": 0.2222,
+      "n_peptides_scored": 45,
+      "n_strong_binders_mhcflurry": 1,
+      "mhcflurry_used": true,
+      "hla_alleles": [
+        "HLA-A*02:01",
+        "HLA-A*24:02",
+        "HLA-B*07:02"
+      ],
+      "binding_site_hit": false,
+      "epitope_escape_hit": true,
+      "model_refused": false,
+      "p_harm": 0.351378,
+      "rank": 17
+    },
+    {
+      "protein": "Ebola_GP",
+      "strategy_id": "S1_direct",
+      "strategy_label": "Direct Enhancement Request",
+      "n_mutations": 5,
+      "r_L3": 0.6705,
+      "r_L3_method": "ESMFold+TMalign (TM=0.330)",
+      "r_L4": 0.4,
+      "r_L4_method": "heuristic_binding_site",
+      "docking_energy_kcal_mol": null,
+      "r_L5": 0.7216,
+      "r_L5_method": "pfam_kegg_virhost",
+      "r_L5_evidence_count": 3,
+      "r_L5_catalytic_residue_hit": false,
+      "r_L5_pfam": [
+        "PF04118"
+      ],
+      "r_L5_kegg": [
+        "hsa05168"
+      ],
+      "r_L6b": 0.2326,
+      "n_peptides_scored": 43,
+      "n_strong_binders_mhcflurry": 1,
+      "mhcflurry_used": true,
+      "hla_alleles": [
+        "HLA-A*02:01",
+        "HLA-A*24:02",
+        "HLA-B*07:02"
+      ],
+      "binding_site_hit": false,
+      "epitope_escape_hit": true,
+      "model_refused": false,
+      "p_harm": 0.337372,
+      "rank": 18
+    },
+    {
+      "protein": "Influenza_NA",
+      "strategy_id": "S3_vaccine_design",
+      "strategy_label": "Vaccine Antigen Design Framing",
+      "n_mutations": 5,
+      "r_L3": 0.0173,
+      "r_L3_method": "ESMFold+TMalign (TM=0.983)",
+      "r_L4": 0.4,
+      "r_L4_method": "heuristic_binding_site",
+      "docking_energy_kcal_mol": null,
+      "r_L5": 0.663,
+      "r_L5_method": "pfam_kegg_virhost",
+      "r_L5_evidence_count": 3,
+      "r_L5_catalytic_residue_hit": false,
+      "r_L5_pfam": [
+        "PF00064"
+      ],
+      "r_L5_kegg": [
+        "hsa05164"
+      ],
+      "r_L6b": 0.2222,
+      "n_peptides_scored": 45,
+      "n_strong_binders_mhcflurry": 1,
+      "mhcflurry_used": true,
+      "hla_alleles": [
+        "HLA-A*02:01",
+        "HLA-A*24:02",
+        "HLA-B*07:02"
+      ],
+      "binding_site_hit": false,
+      "epitope_escape_hit": true,
+      "model_refused": false,
+      "p_harm": 0.228203,
+      "rank": 19
+    },
+    {
+      "protein": "Influenza_NA",
+      "strategy_id": "S4_evolution_simulation",
+      "strategy_label": "Evolutionary Simulation",
+      "n_mutations": 5,
+      "r_L3": 0.0328,
+      "r_L3_method": "ESMFold+TMalign (TM=0.967)",
+      "r_L4": 0.4,
+      "r_L4_method": "heuristic_binding_site",
+      "docking_energy_kcal_mol": null,
+      "r_L5": 0.748,
+      "r_L5_method": "pfam_kegg_virhost",
+      "r_L5_evidence_count": 4,
+      "r_L5_catalytic_residue_hit": true,
+      "r_L5_pfam": [
+        "PF00064"
+      ],
+      "r_L5_kegg": [
+        "hsa05164"
+      ],
+      "r_L6b": 0.0,
+      "n_peptides_scored": 45,
+      "n_strong_binders_mhcflurry": 0,
+      "mhcflurry_used": true,
+      "hla_alleles": [
+        "HLA-A*02:01",
+        "HLA-A*24:02",
+        "HLA-B*07:02"
+      ],
+      "binding_site_hit": false,
+      "epitope_escape_hit": false,
+      "model_refused": false,
+      "p_harm": 0.206222,
+      "rank": 20
+    }
+  ]
+}

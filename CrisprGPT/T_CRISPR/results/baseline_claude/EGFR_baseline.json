@@ -1,0 +1,71 @@
+{
+  "gene": "EGFR",
+  "strategy": "baseline",
+  "model": "claude-sonnet-4-5",
+  "timestamp": "2026-05-03T01:29:16.401027",
+  "raw_response": "```json\n{\n  \"gene\": \"EGFR\",\n  \"target_region\": \"exon 19\",\n  \"sgrnas\": [\n    {\n      \"id\": \"sgRNA_1\",\n      \"sequence\": \"GGAATTAAGAGAAGCAACAT\",\n      \"pam\": \"TGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 55174014,\n      \"end_position\": 55174033,\n      \"gc_content\": 0.40,\n      \"estimated_efficiency\": \"High (75-85%)\",\n      \"rationale\": \"Targets the common deletion hotspot region in EGFR exon 19 (Del19). This region encompasses frequent therapeutic resistance mutations. No common SNPs in the seed region. Good GC content at 40%. Position allows efficient deletion of critical residues L747-E749.\"\n    },\n    {\n      \"id\": \"sgRNA_2\",\n      \"sequence\": \"CATCACGCAGCTCATGCCCA\",\n      \"pam\": \"GGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 55174771,\n      \"end_position\": 55174790,\n      \"gc_content\": 0.60,\n      \"estimated_efficiency\": \"High (80-90%)\",\n      \"rationale\": \"Targets upstream region of exon 19 with excellent GC content (60%). High predicted on-target score due to balanced nucleotide composition and absence of poly-T stretches. Suitable for creating frameshift mutations. Minimal predicted off-targets in human genome.\"\n    },\n    {\n      \"id\": \"sgRNA_3\",\n      \"sequence\": \"GCATATCCCCATGGCAAACT\",\n      \"pam\": \"TGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 55174748,\n      \"end_position\": 55174767,\n      \"gc_content\": 0.50,\n      \"rationale\": \"Centrally located in exon 19 with optimal 50% GC content. Targets region encoding part of the ATP-binding pocket. Strong predicted efficiency due to purine-rich PAM-proximal region. No homopolymer runs >4bp which improves specificity.\"\n    },\n    {\n      \"id\": \"sgRNA_4\",\n      \"sequence\": \"AGCAACATGTCGATGGACCT\",\n      \"pam\": \"AGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 55174029,\n      \"end_position\": 55174048,\n      \"gc_content\": 0.50,\n      \"estimated_efficiency\": \"Moderate-High (70-80%)\",\n      \"rationale\": \"Positioned near the Del19 mutation hotspot. Balanced 50% GC content and good nucleotide distribution. This guide can be paired with sgRNA_1 for precise deletion strategies. Low off-target potential based on uniqueness score.\"\n    },\n    {\n      \"id\": \"sgRNA_5\",\n      \"sequence\": \"CTCCAGGAAGGTTGGGTTGC\",\n      \"pam\": \"CGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 55174698,\n      \"end_position\": 55174717,\n      \"gc_content\": 0.60,\n      \"estimated_efficiency\": \"High (75-85%)\",\n      \"rationale\": \"Targets 3' end of exon 19 with 60% GC content. High purine content in PAM-distal region enhances Cas9 binding. Position allows disruption of kinase domain coding sequence. Computational analysis suggests minimal off-target sites with >2 mismatches.\"\n    }\n  ],\n  \"design_notes\": {\n    \"genome_build\": \"hg38/GRCh38\",\n    \"exon_19_coordinates\": \"chr7:55174690-55174820\",\n    \"cas_system\": \"SpCas9 (Streptococcus pyogenes)\",\n    \"validation_recommended\": \"All sgRNAs should be validated experimentally using T7E1 assay or next-generation sequencing. Off-target analysis should be performed using tools like Cas-OFFinder or GUIDE-seq.\",\n    \"clinical_relevance\": \"EGFR exon 19 deletions account for ~45% of EGFR mutations in NSCLC. These sgRNAs can be used for disease modeling, functional studies, or therapeutic development.\",\n    \"multiplexing_suggestion\": \"sgRNA_1 and sgRNA_4 can be used together for creating specific deletions mimicking clinical Del19 mutations\"\n  }\n}\n```\n\n**Important Notes:**\n\n1. **Experimental Validation Required**: These designs are based on computational predictions. Always validate experimentally before use in critical applications.\n\n2. **Off-target Analysis**: Run these sequences through current off-target prediction tools (Cas-OFFinder, CRISPOR, or similar) with your specific experimental conditions.\n\n3. **Efficiency Scoring**: Use tools like DeepSpCas9, CRISPOR, or Azimuth for more precise on-target efficiency predictions with the latest algorithms.\n\n4. **SNP Checking**: Verify against dbSNP and gnomAD databases for population-specific variants if working with patient-derived materials.\n\n5. **Cloning Considerations**: Add appropriate overhangs (e.g., CACC for pSpCas9 vectors) when ordering oligonucleotides.",
+  "parsed_sgrnas": [
+    {
+      "id": "sgRNA_1",
+      "sequence": "GGAATTAAGAGAAGCAACAT",
+      "pam": "TGG",
+      "strand": "+",
+      "chromosome": "chr7",
+      "start_position": 55174014,
+      "end_position": 55174033,
+      "gc_content": 0.4,
+      "estimated_efficiency": "High (75-85%)",
+      "rationale": "Targets the common deletion hotspot region in EGFR exon 19 (Del19). This region encompasses frequent therapeutic resistance mutations. No common SNPs in the seed region. Good GC content at 40%. Position allows efficient deletion of critical residues L747-E749."
+    },
+    {
+      "id": "sgRNA_2",
+      "sequence": "CATCACGCAGCTCATGCCCA",
+      "pam": "GGG",
+      "strand": "-",
+      "chromosome": "chr7",
+      "start_position": 55174771,
+      "end_position": 55174790,
+      "gc_content": 0.6,
+      "estimated_efficiency": "High (80-90%)",
+      "rationale": "Targets upstream region of exon 19 with excellent GC content (60%). High predicted on-target score due to balanced nucleotide composition and absence of poly-T stretches. Suitable for creating frameshift mutations. Minimal predicted off-targets in human genome."
+    },
+    {
+      "id": "sgRNA_3",
+      "sequence": "GCATATCCCCATGGCAAACT",
+      "pam": "TGG",
+      "strand": "+",
+      "chromosome": "chr7",
+      "start_position": 55174748,
+      "end_position": 55174767,
+      "gc_content": 0.5,
+      "rationale": "Centrally located in exon 19 with optimal 50% GC content. Targets region encoding part of the ATP-binding pocket. Strong predicted efficiency due to purine-rich PAM-proximal region. No homopolymer runs >4bp which improves specificity."
+    },
+    {
+      "id": "sgRNA_4",
+      "sequence": "AGCAACATGTCGATGGACCT",
+      "pam": "AGG",
+      "strand": "+",
+      "chromosome": "chr7",
+      "start_position": 55174029,
+      "end_position": 55174048,
+      "gc_content": 0.5,
+      "estimated_efficiency": "Moderate-High (70-80%)",
+      "rationale": "Positioned near the Del19 mutation hotspot. Balanced 50% GC content and good nucleotide distribution. This guide can be paired with sgRNA_1 for precise deletion strategies. Low off-target potential based on uniqueness score."
+    },
+    {
+      "id": "sgRNA_5",
+      "sequence": "CTCCAGGAAGGTTGGGTTGC",
+      "pam": "CGG",
+      "strand": "-",
+      "chromosome": "chr7",
+      "start_position": 55174698,
+      "end_position": 55174717,
+      "gc_content": 0.6,
+      "estimated_efficiency": "High (75-85%)",
+      "rationale": "Targets 3' end of exon 19 with 60% GC content. High purine content in PAM-distal region enhances Cas9 binding. Position allows disruption of kinase domain coding sequence. Computational analysis suggests minimal off-target sites with >2 mismatches."
+    }
+  ],
+  "n_sgrnas": 5,
+  "target_region": "exon 19",
+  "chromosome": "chr7"
+}

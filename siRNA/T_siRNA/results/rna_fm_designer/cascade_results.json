@@ -1,0 +1,3542 @@
+[
+  {
+    "guide": "UGUGUGUCUGUCUGUGUGUGU",
+    "seed_7mer": "GUGUGUC",
+    "naturalness_nll": 0.106,
+    "r_L1L2": 0.8416,
+    "r_L3": 0.311,
+    "r_L5": 0.3357,
+    "r_L6b": 1.0,
+    "P_harm": 0.608,
+    "L3_details": {
+      "total_seed_risk": 207.9,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.85,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 7.4
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.85,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 8.25,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "BCL2",
+    "accession": "NM_000633.3",
+    "target_pos": 1734,
+    "RNA-FM_nll": 0.106,
+    "RiNALMo_nll": 0.2692
+  },
+  {
+    "guide": "UUAUUUUUAUAUAUAUAUAAU",
+    "seed_7mer": "UAUUUUU",
+    "naturalness_nll": 0.2455,
+    "r_L1L2": 0.6005,
+    "r_L3": 0.311,
+    "r_L5": 0.3357,
+    "r_L6b": 1.0,
+    "P_harm": 0.57,
+    "L3_details": {
+      "total_seed_risk": 207.9,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.85,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 7.1
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.85,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 8.25,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "VEGFA",
+    "accession": "NM_001025366.3",
+    "target_pos": 2106,
+    "RNA-FM_nll": 0.2524,
+    "RiNALMo_nll": 0.2455
+  },
+  {
+    "guide": "CCUGUAAUCCCAGCUACUCAG",
+    "seed_7mer": "CUGUAAU",
+    "naturalness_nll": 0.0402,
+    "r_L1L2": 0.9321,
+    "r_L3": 0.311,
+    "r_L5": 0.3357,
+    "r_L6b": 0.55,
+    "P_harm": 0.5656,
+    "L3_details": {
+      "total_seed_risk": 207.9,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.85,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 3.3
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.85,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 8.25,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "target_pos": 3267,
+    "RNA-FM_nll": 0.0522,
+    "RiNALMo_nll": 0.0402
+  },
+  {
+    "guide": "UGUGUGUCUGUCUGUGUGUGU",
+    "seed_7mer": "GUGUGUC",
+    "naturalness_nll": 0.2692,
+    "r_L1L2": 0.5618,
+    "r_L3": 0.311,
+    "r_L5": 0.3357,
+    "r_L6b": 1.0,
+    "P_harm": 0.564,
+    "L3_details": {
+      "total_seed_risk": 207.9,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.85,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 7.4
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.85,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 8.25,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "BCL2",
+    "accession": "NM_000633.3",
+    "target_pos": 1734,
+    "RNA-FM_nll": 0.106,
+    "RiNALMo_nll": 0.2692
+  },
+  {
+    "guide": "CCUGUAAUCCCAGCUACUCAG",
+    "seed_7mer": "CUGUAAU",
+    "naturalness_nll": 0.0522,
+    "r_L1L2": 0.9227,
+    "r_L3": 0.311,
+    "r_L5": 0.3357,
+    "r_L6b": 0.55,
+    "P_harm": 0.5639,
+    "L3_details": {
+      "total_seed_risk": 207.9,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.85,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 3.3
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.85,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 8.25,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "target_pos": 3267,
+    "RNA-FM_nll": 0.0522,
+    "RiNALMo_nll": 0.0402
+  },
+  {
+    "guide": "UUUUUCCAUUUUUUUCUUUUU",
+    "seed_7mer": "UUUUCCA",
+    "naturalness_nll": 0.1949,
+    "r_L1L2": 0.7113,
+    "r_L3": 0.311,
+    "r_L5": 0.3357,
+    "r_L6b": 0.7333,
+    "P_harm": 0.5508,
+    "L3_details": {
+      "total_seed_risk": 207.9,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.85,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 4.4
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.85,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 8.25,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "target_pos": 1485,
+    "RNA-FM_nll": 0.1949,
+    "RiNALMo_nll": 0.2275
+  },
+  {
+    "guide": "CAUUUUCAAUGUUUUCUUUUU",
+    "seed_7mer": "AUUUUCA",
+    "naturalness_nll": 0.2815,
+    "r_L1L2": 0.6059,
+    "r_L3": 0.311,
+    "r_L5": 0.3357,
+    "r_L6b": 0.75,
+    "P_harm": 0.5351,
+    "L3_details": {
+      "total_seed_risk": 207.9,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.85,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 4.5
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.85,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 8.25,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "target_pos": 1384,
+    "RNA-FM_nll": 0.2815,
+    "RiNALMo_nll": 0.3383
+  },
+  {
+    "guide": "UUUAUAAAAUUUUUUUCUGUA",
+    "seed_7mer": "UUAUAAA",
+    "naturalness_nll": 0.2942,
+    "r_L1L2": 0.5603,
+    "r_L3": 0.311,
+    "r_L5": 0.3357,
+    "r_L6b": 0.6833,
+    "P_harm": 0.5177,
+    "L3_details": {
+      "total_seed_risk": 207.9,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.85,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 4.1
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.85,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 8.25,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "BCL2",
+    "accession": "NM_000633.3",
+    "target_pos": 5984,
+    "RNA-FM_nll": 0.2942,
+    "RiNALMo_nll": 0.3984
+  },
+  {
+    "guide": "CAUUUUCAAUGUUUUCUUUUU",
+    "seed_7mer": "AUUUUCA",
+    "naturalness_nll": 0.3383,
+    "r_L1L2": 0.477,
+    "r_L3": 0.311,
+    "r_L5": 0.3357,
+    "r_L6b": 0.75,
+    "P_harm": 0.5132,
+    "L3_details": {
+      "total_seed_risk": 207.9,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.85,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 4.5
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.85,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 8.25,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "target_pos": 1384,
+    "RNA-FM_nll": 0.2815,
+    "RiNALMo_nll": 0.3383
+  },
+  {
+    "guide": "UGUUGUUCAUAAUCAUUGAUA",
+    "seed_7mer": "GUUGUUC",
+    "naturalness_nll": 0.3208,
+    "r_L1L2": 0.5508,
+    "r_L3": 0.2805,
+    "r_L5": 0.3372,
+    "r_L6b": 0.7,
+    "P_harm": 0.5123,
+    "L3_details": {
+      "total_seed_risk": 159.5,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 11.88,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 4.2
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 11.88,
+        "essential": true
+      },
+      {
+        "gene": "RB1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "CDH1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "RAF1",
+        "risk": 6.6,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "target_pos": 56,
+    "RNA-FM_nll": 0.3208,
+    "RiNALMo_nll": 0.4631
+  },
+  {
+    "guide": "UUGACUUCUUUUUCUUCUUUU",
+    "seed_7mer": "UGACUUC",
+    "naturalness_nll": 0.2272,
+    "r_L1L2": 0.6163,
+    "r_L3": 0.2941,
+    "r_L5": 0.3392,
+    "r_L6b": 0.5667,
+    "P_harm": 0.5083,
+    "L3_details": {
+      "total_seed_risk": 181.06,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.19,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 3.4
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.19,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "BRCA1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "SMAD4",
+        "risk": 7.7,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "target_pos": 837,
+    "RNA-FM_nll": 0.2266,
+    "RiNALMo_nll": 0.2272
+  },
+  {
+    "guide": "UUUUUAACAGUUAAUAUAUUU",
+    "seed_7mer": "UUUUAAC",
+    "naturalness_nll": 0.3058,
+    "r_L1L2": 0.5718,
+    "r_L3": 0.311,
+    "r_L5": 0.3357,
+    "r_L6b": 0.6,
+    "P_harm": 0.5076,
+    "L3_details": {
+      "total_seed_risk": 207.9,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.85,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 3.6
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.85,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 8.25,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "target_pos": 1368,
+    "RNA-FM_nll": 0.3058,
+    "RiNALMo_nll": 0.4312
+  },
+  {
+    "guide": "CUGGCUCAGUUCCUGCUGUGU",
+    "seed_7mer": "UGGCUCA",
+    "naturalness_nll": 0.3105,
+    "r_L1L2": 0.5654,
+    "r_L3": 0.311,
+    "r_L5": 0.3357,
+    "r_L6b": 0.6,
+    "P_harm": 0.5065,
+    "L3_details": {
+      "total_seed_risk": 207.9,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.85,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 3.6
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.85,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 8.25,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "PCSK9",
+    "accession": "NM_174936.4",
+    "target_pos": 3186,
+    "RNA-FM_nll": 0.3105,
+    "RiNALMo_nll": 0.3851
+  },
+  {
+    "guide": "AGUUCGAGACCAGCCUGGCCA",
+    "seed_7mer": "GUUCGAG",
+    "naturalness_nll": 0.0797,
+    "r_L1L2": 0.8819,
+    "r_L3": 0.2914,
+    "r_L5": 0.3401,
+    "r_L6b": 0.05,
+    "P_harm": 0.4893,
+    "L3_details": {
+      "total_seed_risk": 176.88,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.19,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.3
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.19,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "BRCA1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "SMAD4",
+        "risk": 7.7,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "target_pos": 3348,
+    "RNA-FM_nll": 0.0797,
+    "RiNALMo_nll": 0.1615
+  },
+  {
+    "guide": "AGAUGGAGGUUGCAGUGAGCU",
+    "seed_7mer": "GAUGGAG",
+    "naturalness_nll": 0.0846,
+    "r_L1L2": 0.8747,
+    "r_L3": 0.2498,
+    "r_L5": 0.3402,
+    "r_L6b": 0.1333,
+    "P_harm": 0.4892,
+    "L3_details": {
+      "total_seed_risk": 110.77,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 8.91,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.8
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 8.91,
+        "essential": true
+      },
+      {
+        "gene": "RB1",
+        "risk": 4.95,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 4.95,
+        "essential": false
+      },
+      {
+        "gene": "ESR1",
+        "risk": 4.95,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 4.95,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "target_pos": 3213,
+    "RNA-FM_nll": 0.0846,
+    "RiNALMo_nll": 0.4464
+  },
+  {
+    "guide": "AUAUAUAUAUAUAUAUACACA",
+    "seed_7mer": "UAUAUAU",
+    "naturalness_nll": 0.0763,
+    "r_L1L2": 0.8758,
+    "r_L3": 0.311,
+    "r_L5": 0.3357,
+    "r_L6b": 0.0,
+    "P_harm": 0.4845,
+    "L3_details": {
+      "total_seed_risk": 207.9,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.85,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.0
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.85,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 8.25,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "VEGFA",
+    "accession": "NM_001025366.3",
+    "target_pos": 3312,
+    "RNA-FM_nll": 0.0889,
+    "RiNALMo_nll": 0.0763
+  },
+  {
+    "guide": "UGUAUGUAUGUGGGUGGGUGU",
+    "seed_7mer": "GUAUGUA",
+    "naturalness_nll": 0.216,
+    "r_L1L2": 0.6609,
+    "r_L3": 0.311,
+    "r_L5": 0.3357,
+    "r_L6b": 0.3,
+    "P_harm": 0.4814,
+    "L3_details": {
+      "total_seed_risk": 207.9,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.85,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 1.8
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.85,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 8.25,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "VEGFA",
+    "accession": "NM_001025366.3",
+    "target_pos": 2070,
+    "RNA-FM_nll": 0.216,
+    "RiNALMo_nll": 0.3325
+  },
+  {
+    "guide": "AUAUAUAUAUAUAUAUACACA",
+    "seed_7mer": "UAUAUAU",
+    "naturalness_nll": 0.0889,
+    "r_L1L2": 0.8604,
+    "r_L3": 0.311,
+    "r_L5": 0.3357,
+    "r_L6b": 0.0,
+    "P_harm": 0.4813,
+    "L3_details": {
+      "total_seed_risk": 207.9,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.85,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.0
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.85,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 8.25,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "VEGFA",
+    "accession": "NM_001025366.3",
+    "target_pos": 3312,
+    "RNA-FM_nll": 0.0889,
+    "RiNALMo_nll": 0.0763
+  },
+  {
+    "guide": "UCCAAGGUCAUGGUUGUCCAA",
+    "seed_7mer": "CCAAGGU",
+    "naturalness_nll": 0.3187,
+    "r_L1L2": 0.5237,
+    "r_L3": 0.2941,
+    "r_L5": 0.3392,
+    "r_L6b": 0.4333,
+    "P_harm": 0.4718,
+    "L3_details": {
+      "total_seed_risk": 181.06,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.19,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 2.6
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.19,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "BRCA1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "SMAD4",
+        "risk": 7.7,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "BCL2",
+    "accession": "NM_000633.3",
+    "target_pos": 6086,
+    "RNA-FM_nll": 0.3187,
+    "RiNALMo_nll": 0.4463
+  },
+  {
+    "guide": "UGUCGAUGGUGAUGGUGUGGU",
+    "seed_7mer": "GUCGAUG",
+    "naturalness_nll": 0.2254,
+    "r_L1L2": 0.6462,
+    "r_L3": 0.2551,
+    "r_L5": 0.3374,
+    "r_L6b": 0.25,
+    "P_harm": 0.4587,
+    "L3_details": {
+      "total_seed_risk": 119.24,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 8.91,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 1.5
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 8.91,
+        "essential": true
+      },
+      {
+        "gene": "RB1",
+        "risk": 4.95,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 4.95,
+        "essential": false
+      },
+      {
+        "gene": "CDH1",
+        "risk": 4.95,
+        "essential": false
+      },
+      {
+        "gene": "RAF1",
+        "risk": 4.95,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "VEGFA",
+    "accession": "NM_001025366.3",
+    "target_pos": 1836,
+    "RNA-FM_nll": 0.2254,
+    "RiNALMo_nll": 0.3349
+  },
+  {
+    "guide": "AGUUCGAGACCAGCCUGGCCA",
+    "seed_7mer": "GUUCGAG",
+    "naturalness_nll": 0.1615,
+    "r_L1L2": 0.7272,
+    "r_L3": 0.2914,
+    "r_L5": 0.3401,
+    "r_L6b": 0.05,
+    "P_harm": 0.4571,
+    "L3_details": {
+      "total_seed_risk": 176.88,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.19,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.3
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.19,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "BRCA1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "SMAD4",
+        "risk": 7.7,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "target_pos": 3348,
+    "RNA-FM_nll": 0.0797,
+    "RiNALMo_nll": 0.1615
+  },
+  {
+    "guide": "UGCUGCAAUAUUAUCAGCCAA",
+    "seed_7mer": "GCUGCAA",
+    "naturalness_nll": 0.3378,
+    "r_L1L2": 0.527,
+    "r_L3": 0.2629,
+    "r_L5": 0.3426,
+    "r_L6b": 0.3667,
+    "P_harm": 0.4564,
+    "L3_details": {
+      "total_seed_risk": 131.56,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 11.22,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 2.2
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 11.22,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 6.05,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 6.05,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 5.5,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 5.5,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "target_pos": 144,
+    "RNA-FM_nll": 0.3378,
+    "RiNALMo_nll": 0.4547
+  },
+  {
+    "guide": "GCAGCAGCAGCAGUGGCAGCG",
+    "seed_7mer": "CAGCAGC",
+    "naturalness_nll": 0.1916,
+    "r_L1L2": 0.7318,
+    "r_L3": 0.2969,
+    "r_L5": 0.3382,
+    "r_L6b": 0.03,
+    "P_harm": 0.4559,
+    "L3_details": {
+      "total_seed_risk": 185.57,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.19,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.18
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.19,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "BRCA1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "SMAD4",
+        "risk": 7.7,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "PCSK9",
+    "accession": "NM_174936.4",
+    "target_pos": 324,
+    "RNA-FM_nll": 0.1916,
+    "RiNALMo_nll": 0.1785
+  },
+  {
+    "guide": "GCAGCAGCAGCAGUGGCAGCG",
+    "seed_7mer": "CAGCAGC",
+    "naturalness_nll": 0.1785,
+    "r_L1L2": 0.7124,
+    "r_L3": 0.2969,
+    "r_L5": 0.3382,
+    "r_L6b": 0.03,
+    "P_harm": 0.4518,
+    "L3_details": {
+      "total_seed_risk": 185.57,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.19,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.18
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.19,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "BRCA1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "SMAD4",
+        "risk": 7.7,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "PCSK9",
+    "accession": "NM_174936.4",
+    "target_pos": 324,
+    "RNA-FM_nll": 0.1916,
+    "RiNALMo_nll": 0.1785
+  },
+  {
+    "guide": "GCGCCACUGCAUUCCAGCCUG",
+    "seed_7mer": "CGCCACU",
+    "naturalness_nll": 0.1643,
+    "r_L1L2": 0.7225,
+    "r_L3": 0.2863,
+    "r_L5": 0.3352,
+    "r_L6b": 0.02,
+    "P_harm": 0.4487,
+    "L3_details": {
+      "total_seed_risk": 168.74,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 11.88,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.12
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 11.88,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 7.15,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "CDH1",
+        "risk": 6.6,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "target_pos": 3186,
+    "RNA-FM_nll": 0.2177,
+    "RiNALMo_nll": 0.1643
+  },
+  {
+    "guide": "GCCACUGCCGCCGCCGCUGCU",
+    "seed_7mer": "CCACUGC",
+    "naturalness_nll": 0.1717,
+    "r_L1L2": 0.71,
+    "r_L3": 0.2662,
+    "r_L5": 0.341,
+    "r_L6b": 0.0,
+    "P_harm": 0.4407,
+    "L3_details": {
+      "total_seed_risk": 136.84,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 11.22,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.0
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 11.22,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 6.05,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 6.05,
+        "essential": false
+      },
+      {
+        "gene": "BRCA1",
+        "risk": 6.05,
+        "essential": false
+      },
+      {
+        "gene": "SMAD4",
+        "risk": 6.05,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "target_pos": 27,
+    "RNA-FM_nll": 0.2038,
+    "RiNALMo_nll": 0.1717
+  },
+  {
+    "guide": "GAGCUGAGGCUGGGGAGUAGA",
+    "seed_7mer": "AGCUGAG",
+    "naturalness_nll": 0.3205,
+    "r_L1L2": 0.5514,
+    "r_L3": 0.2969,
+    "r_L5": 0.3382,
+    "r_L6b": 0.18,
+    "P_harm": 0.4402,
+    "L3_details": {
+      "total_seed_risk": 185.57,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.19,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 1.08
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.19,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "BRCA1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "SMAD4",
+        "risk": 7.7,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "PCSK9",
+    "accession": "NM_174936.4",
+    "target_pos": 1260,
+    "RNA-FM_nll": 0.3205,
+    "RiNALMo_nll": 0.436
+  },
+  {
+    "guide": "GCCACUGCCGCCGCCGCUGCU",
+    "seed_7mer": "CCACUGC",
+    "naturalness_nll": 0.2038,
+    "r_L1L2": 0.6981,
+    "r_L3": 0.2662,
+    "r_L5": 0.341,
+    "r_L6b": 0.0,
+    "P_harm": 0.4381,
+    "L3_details": {
+      "total_seed_risk": 136.84,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 11.22,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.0
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 11.22,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 6.05,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 6.05,
+        "essential": false
+      },
+      {
+        "gene": "BRCA1",
+        "risk": 6.05,
+        "essential": false
+      },
+      {
+        "gene": "SMAD4",
+        "risk": 6.05,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "target_pos": 27,
+    "RNA-FM_nll": 0.2038,
+    "RiNALMo_nll": 0.1717
+  },
+  {
+    "guide": "UCUUCUUCCUCCUCCCCCUCC",
+    "seed_7mer": "CUUCUUC",
+    "naturalness_nll": 0.2271,
+    "r_L1L2": 0.6304,
+    "r_L3": 0.2952,
+    "r_L5": 0.3388,
+    "r_L6b": 0.04,
+    "P_harm": 0.4359,
+    "L3_details": {
+      "total_seed_risk": 182.93,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.19,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.24
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.19,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "BRCA1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "SMAD4",
+        "risk": 7.7,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "VEGFA",
+    "accession": "NM_001025366.3",
+    "target_pos": 774,
+    "RNA-FM_nll": 0.267,
+    "RiNALMo_nll": 0.2271
+  },
+  {
+    "guide": "CCACUCACACACACACAACCA",
+    "seed_7mer": "CACUCAC",
+    "naturalness_nll": 0.2262,
+    "r_L1L2": 0.6449,
+    "r_L3": 0.2941,
+    "r_L5": 0.3392,
+    "r_L6b": 0.0,
+    "P_harm": 0.4332,
+    "L3_details": {
+      "total_seed_risk": 181.06,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.19,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.0
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.19,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "BRCA1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "SMAD4",
+        "risk": 7.7,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "VEGFA",
+    "accession": "NM_001025366.3",
+    "target_pos": 2826,
+    "RNA-FM_nll": 0.2262,
+    "RiNALMo_nll": 0.3623
+  },
+  {
+    "guide": "CAACAACAAAAGACAAAACAG",
+    "seed_7mer": "AACAACA",
+    "naturalness_nll": 0.2531,
+    "r_L1L2": 0.6217,
+    "r_L3": 0.311,
+    "r_L5": 0.3357,
+    "r_L6b": 0.0,
+    "P_harm": 0.4312,
+    "L3_details": {
+      "total_seed_risk": 207.9,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.85,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.0
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.85,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 8.25,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "BCL2",
+    "accession": "NM_000633.3",
+    "target_pos": 4250,
+    "RNA-FM_nll": 0.2531,
+    "RiNALMo_nll": 0.3737
+  },
+  {
+    "guide": "GGGGCGGUGUCUGUCUGUCUG",
+    "seed_7mer": "GGGCGGU",
+    "naturalness_nll": 0.2409,
+    "r_L1L2": 0.6218,
+    "r_L3": 0.2216,
+    "r_L5": 0.3399,
+    "r_L6b": 0.12,
+    "P_harm": 0.4275,
+    "L3_details": {
+      "total_seed_risk": 66.11,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 5.28,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.72
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 5.28,
+        "essential": true
+      },
+      {
+        "gene": "RB1",
+        "risk": 3.3,
+        "essential": false
+      },
+      {
+        "gene": "ESR1",
+        "risk": 3.3,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 2.75,
+        "essential": false
+      },
+      {
+        "gene": "BRCA1",
+        "risk": 2.75,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "VEGFA",
+    "accession": "NM_001025366.3",
+    "target_pos": 504,
+    "RNA-FM_nll": 0.2409,
+    "RiNALMo_nll": 0.2786
+  },
+  {
+    "guide": "CGGCGGUAGCGGCGGGAGAAG",
+    "seed_7mer": "GGCGGUA",
+    "naturalness_nll": 0.3037,
+    "r_L1L2": 0.5057,
+    "r_L3": 0.2846,
+    "r_L5": 0.3358,
+    "r_L6b": 0.18,
+    "P_harm": 0.4267,
+    "L3_details": {
+      "total_seed_risk": 166.1,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 11.88,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 1.08
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 11.88,
+        "essential": true
+      },
+      {
+        "gene": "RB1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "CDH1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "RAF1",
+        "risk": 6.6,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "BCL2",
+    "accession": "NM_000633.3",
+    "target_pos": 1190,
+    "RNA-FM_nll": 0.3434,
+    "RiNALMo_nll": 0.3037
+  },
+  {
+    "guide": "CGCCGUCCUCGUCCUCCUGCG",
+    "seed_7mer": "GCCGUCC",
+    "naturalness_nll": 0.2525,
+    "r_L1L2": 0.6466,
+    "r_L3": 0.2289,
+    "r_L5": 0.3382,
+    "r_L6b": 0.06,
+    "P_harm": 0.4251,
+    "L3_details": {
+      "total_seed_risk": 77.66,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 5.94,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.36
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 5.94,
+        "essential": true
+      },
+      {
+        "gene": "RB1",
+        "risk": 3.3,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 3.3,
+        "essential": false
+      },
+      {
+        "gene": "CDH1",
+        "risk": 3.3,
+        "essential": false
+      },
+      {
+        "gene": "RAF1",
+        "risk": 3.3,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "PCSK9",
+    "accession": "NM_174936.4",
+    "target_pos": 378,
+    "RNA-FM_nll": 0.2525,
+    "RiNALMo_nll": 0.3525
+  },
+  {
+    "guide": "GCCGGGGUCUGCAGCGGCGAG",
+    "seed_7mer": "CCGGGGU",
+    "naturalness_nll": 0.249,
+    "r_L1L2": 0.5947,
+    "r_L3": 0.281,
+    "r_L5": 0.3371,
+    "r_L6b": 0.03,
+    "P_harm": 0.4226,
+    "L3_details": {
+      "total_seed_risk": 160.27,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 11.88,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.18
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 11.88,
+        "essential": true
+      },
+      {
+        "gene": "RB1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "CDH1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "RAF1",
+        "risk": 6.6,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "BCL2",
+    "accession": "NM_000633.3",
+    "target_pos": 1088,
+    "RNA-FM_nll": 0.4074,
+    "RiNALMo_nll": 0.249
+  },
+  {
+    "guide": "UGUAGCCCAUCUUCUCUGCCU",
+    "seed_7mer": "GUAGCCC",
+    "naturalness_nll": 0.4198,
+    "r_L1L2": 0.3511,
+    "r_L3": 0.2815,
+    "r_L5": 0.3369,
+    "r_L6b": 0.3333,
+    "P_harm": 0.4193,
+    "L3_details": {
+      "total_seed_risk": 161.04,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 11.88,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 2.0
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 11.88,
+        "essential": true
+      },
+      {
+        "gene": "RB1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "CDH1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "RAF1",
+        "risk": 6.6,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "target_pos": 472,
+    "RNA-FM_nll": 0.3762,
+    "RiNALMo_nll": 0.4198
+  },
+  {
+    "guide": "AGAAGAGGAGAAAAAAAUGAC",
+    "seed_7mer": "GAAGAGG",
+    "naturalness_nll": 0.296,
+    "r_L1L2": 0.5576,
+    "r_L3": 0.311,
+    "r_L5": 0.3357,
+    "r_L6b": 0.0,
+    "P_harm": 0.4177,
+    "L3_details": {
+      "total_seed_risk": 207.9,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.85,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.0
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.85,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 8.25,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "BCL2",
+    "accession": "NM_000633.3",
+    "target_pos": 4522,
+    "RNA-FM_nll": 0.296,
+    "RiNALMo_nll": 0.3652
+  },
+  {
+    "guide": "UACCAACACUUUGAACCUGAG",
+    "seed_7mer": "ACCAACA",
+    "naturalness_nll": 0.341,
+    "r_L1L2": 0.5225,
+    "r_L3": 0.2981,
+    "r_L5": 0.3379,
+    "r_L6b": 0.0333,
+    "P_harm": 0.4128,
+    "L3_details": {
+      "total_seed_risk": 187.44,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.19,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.2
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.19,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "BRCA1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "SMAD4",
+        "risk": 7.7,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "target_pos": 1560,
+    "RNA-FM_nll": 0.341,
+    "RiNALMo_nll": 0.452
+  },
+  {
+    "guide": "AAUCCUGGCUGGGAGCUGGGA",
+    "seed_7mer": "AUCCUGG",
+    "naturalness_nll": 0.3222,
+    "r_L1L2": 0.549,
+    "r_L3": 0.2886,
+    "r_L5": 0.3412,
+    "r_L6b": 0.0,
+    "P_harm": 0.4124,
+    "L3_details": {
+      "total_seed_risk": 172.37,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.19,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.0
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.19,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 7.15,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 6.6,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "PCSK9",
+    "accession": "NM_174936.4",
+    "target_pos": 126,
+    "RNA-FM_nll": 0.3222,
+    "RiNALMo_nll": 0.3903
+  },
+  {
+    "guide": "CAAGAAUGAGUGGACUUCUGU",
+    "seed_7mer": "AAGAAUG",
+    "naturalness_nll": 0.3564,
+    "r_L1L2": 0.4136,
+    "r_L3": 0.311,
+    "r_L5": 0.3357,
+    "r_L6b": 0.1333,
+    "P_harm": 0.4079,
+    "L3_details": {
+      "total_seed_risk": 207.9,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.85,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.8
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.85,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 8.25,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "TTR",
+    "accession": "NM_000371.4",
+    "target_pos": 0,
+    "RNA-FM_nll": 0.3564,
+    "RiNALMo_nll": 0.4709
+  },
+  {
+    "guide": "CGCCGCCGGCCGGGGAGGAGG",
+    "seed_7mer": "GCCGCCG",
+    "naturalness_nll": 0.2674,
+    "r_L1L2": 0.5648,
+    "r_L3": 0.2429,
+    "r_L5": 0.3413,
+    "r_L6b": 0.0,
+    "P_harm": 0.4037,
+    "L3_details": {
+      "total_seed_risk": 99.77,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 8.25,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.0
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 8.25,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 4.4,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 4.4,
+        "essential": false
+      },
+      {
+        "gene": "BRCA1",
+        "risk": 4.4,
+        "essential": false
+      },
+      {
+        "gene": "SMAD4",
+        "risk": 4.4,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "VEGFA",
+    "accession": "NM_001025366.3",
+    "target_pos": 540,
+    "RNA-FM_nll": 0.3711,
+    "RiNALMo_nll": 0.2674
+  },
+  {
+    "guide": "GACCCAGGAGCAGCAGCAGCA",
+    "seed_7mer": "ACCCAGG",
+    "naturalness_nll": 0.2753,
+    "r_L1L2": 0.5565,
+    "r_L3": 0.2407,
+    "r_L5": 0.3428,
+    "r_L6b": 0.0,
+    "P_harm": 0.402,
+    "L3_details": {
+      "total_seed_risk": 96.36,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 8.25,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.0
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 8.25,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 4.4,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 4.4,
+        "essential": false
+      },
+      {
+        "gene": "BRCA1",
+        "risk": 4.4,
+        "essential": false
+      },
+      {
+        "gene": "SMAD4",
+        "risk": 4.4,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "PCSK9",
+    "accession": "NM_174936.4",
+    "target_pos": 342,
+    "RNA-FM_nll": 0.3892,
+    "RiNALMo_nll": 0.2753
+  },
+  {
+    "guide": "GGAGCGCGCGCGGCUGGAGCA",
+    "seed_7mer": "GAGCGCG",
+    "naturalness_nll": 0.2612,
+    "r_L1L2": 0.5749,
+    "r_L3": 0.2248,
+    "r_L5": 0.3418,
+    "r_L6b": 0.0,
+    "P_harm": 0.4013,
+    "L3_details": {
+      "total_seed_risk": 71.06,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 5.94,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.0
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 5.94,
+        "essential": true
+      },
+      {
+        "gene": "RB1",
+        "risk": 3.3,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 3.3,
+        "essential": false
+      },
+      {
+        "gene": "CDH1",
+        "risk": 3.3,
+        "essential": false
+      },
+      {
+        "gene": "ESR1",
+        "risk": 3.3,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "VEGFA",
+    "accession": "NM_001025366.3",
+    "target_pos": 882,
+    "RNA-FM_nll": 0.4284,
+    "RiNALMo_nll": 0.2612
+  },
+  {
+    "guide": "GGAAUUACAGACUGUGGUCAC",
+    "seed_7mer": "GAAUUAC",
+    "naturalness_nll": 0.4077,
+    "r_L1L2": 0.3698,
+    "r_L3": 0.311,
+    "r_L5": 0.3357,
+    "r_L6b": 0.1333,
+    "P_harm": 0.3991,
+    "L3_details": {
+      "total_seed_risk": 207.9,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.85,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.8
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.85,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 8.25,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "target_pos": 1224,
+    "RNA-FM_nll": 0.4412,
+    "RiNALMo_nll": 0.4077
+  },
+  {
+    "guide": "GAAUGGGGAGAUGCCAAGUGC",
+    "seed_7mer": "AAUGGGG",
+    "naturalness_nll": 0.3478,
+    "r_L1L2": 0.4278,
+    "r_L3": 0.2914,
+    "r_L5": 0.3401,
+    "r_L6b": 0.05,
+    "P_harm": 0.3947,
+    "L3_details": {
+      "total_seed_risk": 176.88,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.19,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.3
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.19,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "BRCA1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "SMAD4",
+        "risk": 7.7,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "TTR",
+    "accession": "NM_000371.4",
+    "target_pos": 326,
+    "RNA-FM_nll": 0.3478,
+    "RiNALMo_nll": 0.4731
+  },
+  {
+    "guide": "UCCAGCAAGGCAGAGGAGGAG",
+    "seed_7mer": "CCAGCAA",
+    "naturalness_nll": 0.3201,
+    "r_L1L2": 0.4807,
+    "r_L3": 0.2855,
+    "r_L5": 0.3355,
+    "r_L6b": 0.0,
+    "P_harm": 0.3945,
+    "L3_details": {
+      "total_seed_risk": 167.42,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 11.88,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.0
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 11.88,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "CDH1",
+        "risk": 6.6,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "TTR",
+    "accession": "NM_000371.4",
+    "target_pos": 44,
+    "RNA-FM_nll": 0.407,
+    "RiNALMo_nll": 0.3201
+  },
+  {
+    "guide": "GGCUGUGAAUACCACCUCUGC",
+    "seed_7mer": "GCUGUGA",
+    "naturalness_nll": 0.3605,
+    "r_L1L2": 0.4069,
+    "r_L3": 0.3042,
+    "r_L5": 0.3377,
+    "r_L6b": 0.05,
+    "P_harm": 0.3928,
+    "L3_details": {
+      "total_seed_risk": 197.12,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.85,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.3
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.85,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 8.25,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "TTR",
+    "accession": "NM_000371.4",
+    "target_pos": 356,
+    "RNA-FM_nll": 0.3605,
+    "RiNALMo_nll": 0.4975
+  },
+  {
+    "guide": "GGGGCAGCAGCACCACCAGUG",
+    "seed_7mer": "GGGCAGC",
+    "naturalness_nll": 0.3388,
+    "r_L1L2": 0.4542,
+    "r_L3": 0.2755,
+    "r_L5": 0.3392,
+    "r_L6b": 0.03,
+    "P_harm": 0.3925,
+    "L3_details": {
+      "total_seed_risk": 151.58,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 11.88,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.18
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 11.88,
+        "essential": true
+      },
+      {
+        "gene": "RB1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "ESR1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 6.6,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "PCSK9",
+    "accession": "NM_174936.4",
+    "target_pos": 1134,
+    "RNA-FM_nll": 0.5653,
+    "RiNALMo_nll": 0.3388
+  },
+  {
+    "guide": "GCAAUUUACACGCGCGCACAC",
+    "seed_7mer": "CAAUUUA",
+    "naturalness_nll": 0.3612,
+    "r_L1L2": 0.4121,
+    "r_L3": 0.311,
+    "r_L5": 0.3357,
+    "r_L6b": 0.0333,
+    "P_harm": 0.3923,
+    "L3_details": {
+      "total_seed_risk": 207.9,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.85,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.2
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.85,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 8.25,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "BCL2",
+    "accession": "NM_000633.3",
+    "target_pos": 238,
+    "RNA-FM_nll": 0.5073,
+    "RiNALMo_nll": 0.3612
+  },
+  {
+    "guide": "GAGCAGACGAUGAGAAGCCAU",
+    "seed_7mer": "AGCAGAC",
+    "naturalness_nll": 0.3549,
+    "r_L1L2": 0.4161,
+    "r_L3": 0.306,
+    "r_L5": 0.3371,
+    "r_L6b": 0.0,
+    "P_harm": 0.3873,
+    "L3_details": {
+      "total_seed_risk": 199.98,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.85,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.0
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.85,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 8.25,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "TTR",
+    "accession": "NM_000371.4",
+    "target_pos": 26,
+    "RNA-FM_nll": 0.3549,
+    "RiNALMo_nll": 0.4537
+  },
+  {
+    "guide": "UGCAACAAUUGGCAAUGAUGU",
+    "seed_7mer": "GCAACAA",
+    "naturalness_nll": 0.4215,
+    "r_L1L2": 0.3484,
+    "r_L3": 0.3108,
+    "r_L5": 0.3358,
+    "r_L6b": 0.0833,
+    "P_harm": 0.3869,
+    "L3_details": {
+      "total_seed_risk": 207.68,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.85,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.5
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.85,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 8.25,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "target_pos": 720,
+    "RNA-FM_nll": 0.3498,
+    "RiNALMo_nll": 0.4215
+  },
+  {
+    "guide": "AGACGAUGAGAAGCCAUCCUG",
+    "seed_7mer": "GACGAUG",
+    "naturalness_nll": 0.35,
+    "r_L1L2": 0.4242,
+    "r_L3": 0.2939,
+    "r_L5": 0.3392,
+    "r_L6b": 0.0,
+    "P_harm": 0.3866,
+    "L3_details": {
+      "total_seed_risk": 180.84,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.19,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.0
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.19,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "BRCA1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "SMAD4",
+        "risk": 7.7,
+        "essential": false
+      }
+    ],
+    "designer": "RNA-FM",
+    "gene": "TTR",
+    "accession": "NM_000371.4",
+    "target_pos": 22,
+    "RNA-FM_nll": 0.35,
+    "RiNALMo_nll": 0.4721
+  },
+  {
+    "guide": "AGCAGCUCAGCAGCUCCUCAU",
+    "seed_7mer": "GCAGCUC",
+    "naturalness_nll": 0.3518,
+    "r_L1L2": 0.4332,
+    "r_L3": 0.281,
+    "r_L5": 0.3371,
+    "r_L6b": 0.0,
+    "P_harm": 0.3839,
+    "L3_details": {
+      "total_seed_risk": 160.27,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 11.88,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.0
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 11.88,
+        "essential": true
+      },
+      {
+        "gene": "RB1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "CDH1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "RAF1",
+        "risk": 6.6,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "PCSK9",
+    "accession": "NM_174936.4",
+    "target_pos": 1728,
+    "RNA-FM_nll": 0.4057,
+    "RiNALMo_nll": 0.3518
+  },
+  {
+    "guide": "CAGAGGAGGAGCAGACGAUGA",
+    "seed_7mer": "AGAGGAG",
+    "naturalness_nll": 0.3757,
+    "r_L1L2": 0.3905,
+    "r_L3": 0.311,
+    "r_L5": 0.3357,
+    "r_L6b": 0.0,
+    "P_harm": 0.3827,
+    "L3_details": {
+      "total_seed_risk": 207.9,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.85,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.0
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.85,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "RB1",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 8.25,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 8.25,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "TTR",
+    "accession": "NM_000371.4",
+    "target_pos": 34,
+    "RNA-FM_nll": 0.4221,
+    "RiNALMo_nll": 0.3757
+  },
+  {
+    "guide": "CAGCAAGGCAGAGGAGGAGCA",
+    "seed_7mer": "AGCAAGG",
+    "naturalness_nll": 0.3329,
+    "r_L1L2": 0.4599,
+    "r_L3": 0.2493,
+    "r_L5": 0.3405,
+    "r_L6b": 0.0,
+    "P_harm": 0.3825,
+    "L3_details": {
+      "total_seed_risk": 110.0,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 8.91,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.0
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 8.91,
+        "essential": true
+      },
+      {
+        "gene": "RB1",
+        "risk": 4.95,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 4.95,
+        "essential": false
+      },
+      {
+        "gene": "ESR1",
+        "risk": 4.95,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 4.95,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "TTR",
+    "accession": "NM_000371.4",
+    "target_pos": 42,
+    "RNA-FM_nll": 0.4087,
+    "RiNALMo_nll": 0.3329
+  },
+  {
+    "guide": "UCCUCCCUCCCACCCCUCCAA",
+    "seed_7mer": "CCUCCCU",
+    "naturalness_nll": 0.3567,
+    "r_L1L2": 0.4194,
+    "r_L3": 0.276,
+    "r_L5": 0.339,
+    "r_L6b": 0.0,
+    "P_harm": 0.3805,
+    "L3_details": {
+      "total_seed_risk": 152.35,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 11.88,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.0
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 11.88,
+        "essential": true
+      },
+      {
+        "gene": "RB1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "ESR1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 6.6,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "BCL2",
+    "accession": "NM_000633.3",
+    "target_pos": 5610,
+    "RNA-FM_nll": 0.3517,
+    "RiNALMo_nll": 0.3567
+  },
+  {
+    "guide": "UGAGAAGCCAUCCUGCCAAGA",
+    "seed_7mer": "GAGAAGC",
+    "naturalness_nll": 0.3746,
+    "r_L1L2": 0.3923,
+    "r_L3": 0.2956,
+    "r_L5": 0.3387,
+    "r_L6b": 0.0,
+    "P_harm": 0.3801,
+    "L3_details": {
+      "total_seed_risk": 183.48,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 14.19,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.0
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 14.19,
+        "essential": true
+      },
+      {
+        "gene": "ESR1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "EGFR",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "BRCA1",
+        "risk": 7.7,
+        "essential": false
+      },
+      {
+        "gene": "SMAD4",
+        "risk": 7.7,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "TTR",
+    "accession": "NM_000371.4",
+    "target_pos": 16,
+    "RNA-FM_nll": 0.4059,
+    "RiNALMo_nll": 0.3746
+  },
+  {
+    "guide": "CGCCGUCCUCGUCCUCCUGCG",
+    "seed_7mer": "GCCGUCC",
+    "naturalness_nll": 0.3525,
+    "r_L1L2": 0.4321,
+    "r_L3": 0.2289,
+    "r_L5": 0.3382,
+    "r_L6b": 0.06,
+    "P_harm": 0.3792,
+    "L3_details": {
+      "total_seed_risk": 77.66,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 5.94,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.36
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 5.94,
+        "essential": true
+      },
+      {
+        "gene": "RB1",
+        "risk": 3.3,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 3.3,
+        "essential": false
+      },
+      {
+        "gene": "CDH1",
+        "risk": 3.3,
+        "essential": false
+      },
+      {
+        "gene": "RAF1",
+        "risk": 3.3,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "PCSK9",
+    "accession": "NM_174936.4",
+    "target_pos": 378,
+    "RNA-FM_nll": 0.2525,
+    "RiNALMo_nll": 0.3525
+  },
+  {
+    "guide": "GAGGAGGAGCAGACGAUGAGA",
+    "seed_7mer": "AGGAGGA",
+    "naturalness_nll": 0.3724,
+    "r_L1L2": 0.3958,
+    "r_L3": 0.2848,
+    "r_L5": 0.3357,
+    "r_L6b": 0.0,
+    "P_harm": 0.3764,
+    "L3_details": {
+      "total_seed_risk": 166.32,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 11.88,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.0
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 11.88,
+        "essential": true
+      },
+      {
+        "gene": "RB1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "CDH1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "RAF1",
+        "risk": 6.6,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "TTR",
+    "accession": "NM_000371.4",
+    "target_pos": 32,
+    "RNA-FM_nll": 0.3907,
+    "RiNALMo_nll": 0.3724
+  },
+  {
+    "guide": "ACCUUCCCUUCCACAGCCUCC",
+    "seed_7mer": "CCUUCCC",
+    "naturalness_nll": 0.4254,
+    "r_L1L2": 0.3424,
+    "r_L3": 0.281,
+    "r_L5": 0.3371,
+    "r_L6b": 0.04,
+    "P_harm": 0.371,
+    "L3_details": {
+      "total_seed_risk": 160.27,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 11.88,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.24
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 11.88,
+        "essential": true
+      },
+      {
+        "gene": "RB1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "AKT1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "CDH1",
+        "risk": 6.6,
+        "essential": false
+      },
+      {
+        "gene": "RAF1",
+        "risk": 6.6,
+        "essential": false
+      }
+    ],
+    "designer": "RiNALMo",
+    "gene": "HAO1",
+    "accession": "NM_017545.3",
+    "target_pos": 872,
+    "RNA-FM_nll": 0.388,
+    "RiNALMo_nll": 0.4254
+  }
+]

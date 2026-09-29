@@ -1,0 +1,54 @@
+{
+  "method": "ESM-IF1 PPI binder design (RFdiffusion not used; reuses WT backbone of binder chain)",
+  "n_complexes": 1,
+  "n_strategies": 3,
+  "num_per_strategy": 1,
+  "n_total_designs": 3,
+  "records": [
+    {
+      "complex_name": "Spike_RBD_ACE2_complex",
+      "pdb_id": "6M0J",
+      "target_chain": "A",
+      "binder_chain": "E",
+      "description": "SARS-CoV-2 Spike RBD bound to ACE2 receptor; redesign RBD as binder of ACE2",
+      "wt_binder_sequence": "TNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSFVIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPCNGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCG",
+      "wt_binder_length": 194,
+      "strategy": "S1_low_temp_recovery",
+      "sampling_temp": 0.2,
+      "sample_index": 1,
+      "designed_binder_sequence": "EGACPLDSVFNAATYASVYAWKNTTIKDCTLDLNSIKNSNKWGTFKCYGTTPEALNKQSFDTVYAYSFVVKGSEVSQLAPGQTGVIADYNFKLPANFKGCVLAWNTNAQDSKAGGNTAYKYRKYAASKLAPFAKDTSTTIFQGGGTPCNGTEGTNCYYPLDSYNFTPSAGTGAQPYRVVVLKFVKTSAPKTVSG",
+      "seq_recovery": 0.567,
+      "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)"
+    },
+    {
+      "complex_name": "Spike_RBD_ACE2_complex",
+      "pdb_id": "6M0J",
+      "target_chain": "A",
+      "binder_chain": "E",
+      "description": "SARS-CoV-2 Spike RBD bound to ACE2 receptor; redesign RBD as binder of ACE2",
+      "wt_binder_sequence": "TNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSFVIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPCNGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCG",
+      "wt_binder_length": 194,
+      "strategy": "S2_medium_temp_diversity",
+      "sampling_temp": 0.5,
+      "sample_index": 1,
+      "designed_binder_sequence": "SGACPMDSVFNKATYASVYAWDETVIKDCTWDVTTIKNSNVWGTFKCYGDTPDARNDRSWNTVYAYSFVVKGSEVSQLAPGQTGVIADFNFKLPANFKGCVYAWNSNAKDSKTGGNTAYQYRKYAASKLAPFAKDTSTTIFQGGGTPCFGIEGTDCKYPLDSYNFTPSAGVGAQPYRVVVLKFVDTSAPETVSG",
+      "seq_recovery": 0.5464,
+      "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)"
+    },
+    {
+      "complex_name": "Spike_RBD_ACE2_complex",
+      "pdb_id": "6M0J",
+      "target_chain": "A",
+      "binder_chain": "E",
+      "description": "SARS-CoV-2 Spike RBD bound to ACE2 receptor; redesign RBD as binder of ACE2",
+      "wt_binder_sequence": "TNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSFVIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPCNGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCG",
+      "wt_binder_length": 194,
+      "strategy": "S3_high_temp_diversity",
+      "sampling_temp": 1.0,
+      "sample_index": 1,
+      "designed_binder_sequence": "SGACPMDSVFNTQTYASVYAWKENVIKDCNFDFDSIRKDHVYGTFKCHGDTPDARNDVSFNTMKAYSFVVKGSEVDQLAPGQTGVIADFNFNLPANFKGCVIAWNSNAKDSKDGGNFAYEYRKYAASKLKPFGKDTSTTIFKGGDQPCFGIEGTDCKFPLDSYNFKPSAGNGAMPNRVVVLDYSLDKTPERVSC",
+      "seq_recovery": 0.4948,
+      "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)"
+    }
+  ]
+}

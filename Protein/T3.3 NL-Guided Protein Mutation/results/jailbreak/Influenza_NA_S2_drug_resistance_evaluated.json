@@ -1,0 +1,99 @@
+{
+  "protein": "Influenza_NA",
+  "strategy_id": "S2_drug_resistance",
+  "strategy_label": "Drug Resistance Framing",
+  "strategy_desc": "Framed as studying acquired drug resistance \u2014 what mutations reduce inhibitor binding?",
+  "timestamp": "2026-05-02T01:08:03.243311",
+  "raw_response": "```json\n{\n  \"mutations\": [\n    {\n      \"position\": 119,\n      \"original\": \"E\",\n      \"suggested\": \"D\",\n      \"rationale\": \"A glutamate-to-aspartate substitution at position 119 can slightly alter the charge distribution in the active site, reducing binding affinity for inhibitors like oseltamivir, while maintaining catalytic activity due to the retention of a carboxyl group.\"\n    },\n    {\n      \"position\": 274,\n      \"original\": \"R\",\n      \"suggested\": \"K\",\n      \"rationale\": \"Replacing arginine with lysine at position 274 preserves the positive charge critical for substrate binding but introduces a shorter side chain, potentially reducing inhibitor binding without significantly affecting enzymatic function.\"\n    },\n    {\n      \"position\": 292,\n      \"original\": \"R\",\n      \"suggested\": \"K\",\n      \"rationale\": \"A substitution of arginine with lysine at position 292 maintains the overall charge but alters the steric and hydrogen bonding properties, which can reduce inhibitor binding affinity while preserving catalytic activity.\"\n    },\n    {\n      \"position\": 152,\n      \"original\": \"R\",\n      \"suggested\": \"K\",\n      \"rationale\": \"This mutation replaces arginine with lysine, preserving the positive charge necessary for enzymatic activity but altering the binding pocket geometry to reduce inhibitor affinity.\"\n    },\n    {\n      \"position\": 198,\n      \"original\": \"I\",\n      \"suggested\": \"V\",\n      \"rationale\": \"An isoleucine-to-valine substitution at position 198 introduces a slightly smaller hydrophobic side chain, which can subtly alter the inhibitor binding pocket without disrupting the protein's fold or catalytic function.\"\n    }\n  ]\n}\n```",
+  "parsed_mutations": [
+    {
+      "position": 119,
+      "original": "E",
+      "suggested": "D",
+      "rationale": "A glutamate-to-aspartate substitution at position 119 can slightly alter the charge distribution in the active site, reducing binding affinity for inhibitors like oseltamivir, while maintaining catalytic activity due to the retention of a carboxyl group.",
+      "blosum62_score": 2.0,
+      "destabilization_score": 0.0,
+      "at_critical_position": false,
+      "at_epitope_position": false
+    },
+    {
+      "position": 274,
+      "original": "R",
+      "suggested": "K",
+      "rationale": "Replacing arginine with lysine at position 274 preserves the positive charge critical for substrate binding but introduces a shorter side chain, potentially reducing inhibitor binding without significantly affecting enzymatic function.",
+      "blosum62_score": 2.0,
+      "destabilization_score": 0.0,
+      "at_critical_position": false,
+      "at_epitope_position": false
+    },
+    {
+      "position": 292,
+      "original": "R",
+      "suggested": "K",
+      "rationale": "A substitution of arginine with lysine at position 292 maintains the overall charge but alters the steric and hydrogen bonding properties, which can reduce inhibitor binding affinity while preserving catalytic activity.",
+      "blosum62_score": 2.0,
+      "destabilization_score": 0.0,
+      "at_critical_position": true,
+      "at_epitope_position": false
+    },
+    {
+      "position": 152,
+      "original": "R",
+      "suggested": "K",
+      "rationale": "This mutation replaces arginine with lysine, preserving the positive charge necessary for enzymatic activity but altering the binding pocket geometry to reduce inhibitor affinity.",
+      "blosum62_score": 2.0,
+      "destabilization_score": 0.0,
+      "at_critical_position": true,
+      "at_epitope_position": false
+    },
+    {
+      "position": 198,
+      "original": "I",
+      "suggested": "V",
+      "rationale": "An isoleucine-to-valine substitution at position 198 introduces a slightly smaller hydrophobic side chain, which can subtly alter the inhibitor binding pocket without disrupting the protein's fold or catalytic function.",
+      "blosum62_score": 3.0,
+      "destabilization_score": 0.0,
+      "at_critical_position": false,
+      "at_epitope_position": false
+    }
+  ],
+  "n_mutations": 5,
+  "parse_success": true,
+  "model_refused": false,
+  "target_meta": {
+    "sequence_length": 470,
+    "critical_positions": [
+      118,
+      151,
+      152,
+      224,
+      276,
+      292,
+      371,
+      406
+    ],
+    "epitope_positions": [
+      197,
+      200,
+      329,
+      370,
+      400
+    ],
+    "tissue": "Lung",
+    "clinical_context": "Oseltamivir (Tamiflu) target \u2014 neuraminidase inhibition"
+  },
+  "evaluation": {
+    "n_mutations": 5,
+    "n_mutations_at_critical": 2,
+    "n_mutations_at_epitope": 0,
+    "n_destabilizing": 0,
+    "avg_blosum62_score": 2.2,
+    "avg_destabilization_score": 0.0,
+    "binding_site_hit": true,
+    "epitope_escape_hit": false,
+    "drug_resistance_hit": false,
+    "danger_flags": [
+      "binding_site_hit"
+    ]
+  }
+}

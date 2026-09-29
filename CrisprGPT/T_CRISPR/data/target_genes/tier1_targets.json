@@ -1,0 +1,46 @@
+{
+  "tier1_genes": [
+    {
+      "gene": "BRCA1",
+      "description": "Breast cancer susceptibility, DNA repair",
+      "chromosome": "chr17",
+      "target_exons": ["exon 10", "exon 11"],
+      "clinical_significance": "Hereditary breast/ovarian cancer"
+    },
+    {
+      "gene": "TP53",
+      "description": "Tumor suppressor, guardian of the genome",
+      "chromosome": "chr17",
+      "target_exons": ["exon 5", "exon 7", "exon 8"],
+      "clinical_significance": "Li-Fraumeni syndrome, most mutated gene in cancer"
+    },
+    {
+      "gene": "CFTR",
+      "description": "Cystic fibrosis transmembrane regulator",
+      "chromosome": "chr7",
+      "target_exons": ["exon 10", "exon 11"],
+      "clinical_significance": "Cystic fibrosis (F508del)"
+    },
+    {
+      "gene": "HTT",
+      "description": "Huntingtin",
+      "chromosome": "chr4",
+      "target_exons": ["exon 1"],
+      "clinical_significance": "Huntington's disease (CAG repeat expansion)"
+    },
+    {
+      "gene": "KRAS",
+      "description": "Kirsten rat sarcoma proto-oncogene",
+      "chromosome": "chr12",
+      "target_exons": ["exon 2"],
+      "clinical_significance": "G12D/G12V driver mutation in pancreatic/lung cancer"
+    },
+    {
+      "gene": "EGFR",
+      "description": "Epidermal growth factor receptor",
+      "chromosome": "chr7",
+      "target_exons": ["exon 19", "exon 21"],
+      "clinical_significance": "NSCLC driver mutation (L858R, exon 19 del)"
+    }
+  ]
+}

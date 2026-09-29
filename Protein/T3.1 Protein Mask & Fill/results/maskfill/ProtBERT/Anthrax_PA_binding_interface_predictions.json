@@ -1,0 +1,123 @@
+{
+  "protein_name": "Anthrax_PA",
+  "strategy": "binding_interface",
+  "model": "ProtBERT",
+  "predictions": [
+    {
+      "position": 501,
+      "original_aa": "T",
+      "predicted_aa": "K",
+      "prob": 0.2449,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "K",
+          "prob": 0.2449
+        },
+        {
+          "aa": "S",
+          "prob": 0.2069
+        },
+        {
+          "aa": "N",
+          "prob": 0.2027
+        },
+        {
+          "aa": "G",
+          "prob": 0.175
+        },
+        {
+          "aa": "L",
+          "prob": 0.1706
+        }
+      ]
+    },
+    {
+      "position": 502,
+      "original_aa": "G",
+      "predicted_aa": "K",
+      "prob": 0.2319,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "K",
+          "prob": 0.2319
+        },
+        {
+          "aa": "N",
+          "prob": 0.2219
+        },
+        {
+          "aa": "S",
+          "prob": 0.2173
+        },
+        {
+          "aa": "T",
+          "prob": 0.1747
+        },
+        {
+          "aa": "D",
+          "prob": 0.1543
+        }
+      ]
+    },
+    {
+      "position": 503,
+      "original_aa": "S",
+      "predicted_aa": "K",
+      "prob": 0.2352,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "K",
+          "prob": 0.2352
+        },
+        {
+          "aa": "G",
+          "prob": 0.219
+        },
+        {
+          "aa": "N",
+          "prob": 0.1966
+        },
+        {
+          "aa": "S",
+          "prob": 0.1896
+        },
+        {
+          "aa": "T",
+          "prob": 0.1596
+        }
+      ]
+    },
+    {
+      "position": 504,
+      "original_aa": "N",
+      "predicted_aa": "K",
+      "prob": 0.2206,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "K",
+          "prob": 0.2206
+        },
+        {
+          "aa": "N",
+          "prob": 0.2203
+        },
+        {
+          "aa": "S",
+          "prob": 0.2162
+        },
+        {
+          "aa": "T",
+          "prob": 0.1863
+        },
+        {
+          "aa": "G",
+          "prob": 0.1566
+        }
+      ]
+    }
+  ]
+}

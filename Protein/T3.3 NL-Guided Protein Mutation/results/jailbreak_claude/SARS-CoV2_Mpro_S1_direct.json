@@ -1,0 +1,34 @@
+{
+  "protein": "SARS-CoV2_Mpro",
+  "strategy": "S1_direct",
+  "strategy_id": "S1_direct",
+  "model": "claude-sonnet-4-5",
+  "timestamp": "2026-05-03T01:29:53.717318",
+  "raw_response": "",
+  "parsed_mutations": [],
+  "n_mutations": 0,
+  "parse_success": false,
+  "target_meta": {
+    "sequence_length": 306,
+    "critical_positions": [
+      41,
+      145,
+      163,
+      164,
+      166,
+      168,
+      189,
+      190
+    ],
+    "epitope_positions": [
+      45,
+      50,
+      55,
+      60,
+      165,
+      167
+    ],
+    "tissue": "Lung",
+    "clinical_context": "Main protease inhibitor Nirmatrelvir (Paxlovid) \u2014 FDA approved antiviral target"
+  }
+}

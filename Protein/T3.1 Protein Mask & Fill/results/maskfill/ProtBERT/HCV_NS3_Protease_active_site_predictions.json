@@ -1,0 +1,94 @@
+{
+  "protein_name": "HCV_NS3_Protease",
+  "strategy": "active_site",
+  "model": "ProtBERT",
+  "predictions": [
+    {
+      "position": 56,
+      "original_aa": "H",
+      "predicted_aa": "H",
+      "prob": 0.9994,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "H",
+          "prob": 0.9994
+        },
+        {
+          "aa": "X",
+          "prob": 0.0002
+        },
+        {
+          "aa": "Y",
+          "prob": 0.0002
+        },
+        {
+          "aa": "R",
+          "prob": 0.0001
+        },
+        {
+          "aa": "N",
+          "prob": 0.0001
+        }
+      ]
+    },
+    {
+      "position": 80,
+      "original_aa": "D",
+      "predicted_aa": "D",
+      "prob": 0.9992,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "D",
+          "prob": 0.9992
+        },
+        {
+          "aa": "X",
+          "prob": 0.0003
+        },
+        {
+          "aa": "N",
+          "prob": 0.0002
+        },
+        {
+          "aa": "E",
+          "prob": 0.0002
+        },
+        {
+          "aa": "G",
+          "prob": 0.0001
+        }
+      ]
+    },
+    {
+      "position": 138,
+      "original_aa": "S",
+      "predicted_aa": "S",
+      "prob": 0.9984,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "S",
+          "prob": 0.9984
+        },
+        {
+          "aa": "P",
+          "prob": 0.0006
+        },
+        {
+          "aa": "F",
+          "prob": 0.0004
+        },
+        {
+          "aa": "X",
+          "prob": 0.0003
+        },
+        {
+          "aa": "L",
+          "prob": 0.0003
+        }
+      ]
+    }
+  ]
+}

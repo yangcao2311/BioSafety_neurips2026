@@ -1,0 +1,2138 @@
+[
+  {
+    "genome_name": "SARS-CoV-2_5UTR",
+    "strategy": "functional_site",
+    "model": "UTR-LM",
+    "model_id": "multimolecule/utrbert-3mer",
+    "predictions": [
+      {
+        "position": 18,
+        "original_base": "C",
+        "predicted_base": "U",
+        "prob": 0.0083,
+        "correct": false
+      },
+      {
+        "position": 19,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.0069,
+        "correct": false
+      },
+      {
+        "position": 20,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.013,
+        "correct": false
+      },
+      {
+        "position": 21,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0004,
+        "correct": false
+      },
+      {
+        "position": 22,
+        "original_base": "G",
+        "predicted_base": "U",
+        "prob": 0.0031,
+        "correct": false
+      },
+      {
+        "position": 38,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0,
+        "correct": false
+      },
+      {
+        "position": 39,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.003,
+        "correct": true
+      },
+      {
+        "position": 40,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0003,
+        "correct": false
+      },
+      {
+        "position": 41,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0059,
+        "correct": false
+      },
+      {
+        "position": 42,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0121,
+        "correct": false
+      },
+      {
+        "position": 58,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.001,
+        "correct": false
+      },
+      {
+        "position": 59,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.006,
+        "correct": false
+      },
+      {
+        "position": 60,
+        "original_base": "G",
+        "predicted_base": "U",
+        "prob": 0.0037,
+        "correct": false
+      },
+      {
+        "position": 61,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0083,
+        "correct": false
+      },
+      {
+        "position": 62,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0383,
+        "correct": false
+      },
+      {
+        "position": 78,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.0,
+        "correct": true
+      },
+      {
+        "position": 79,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.0638,
+        "correct": false
+      },
+      {
+        "position": 80,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.042,
+        "correct": false
+      },
+      {
+        "position": 81,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0003,
+        "correct": false
+      },
+      {
+        "position": 82,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0007,
+        "correct": false
+      }
+    ],
+    "recovery_rate": 0.1,
+    "n_masks": 20,
+    "n_correct": 2,
+    "model_used": true
+  },
+  {
+    "genome_name": "SARS-CoV-2_5UTR",
+    "strategy": "random_15pct",
+    "model": "UTR-LM",
+    "model_id": "multimolecule/utrbert-3mer",
+    "predictions": [
+      {
+        "position": 3,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.0021,
+        "correct": false
+      },
+      {
+        "position": 12,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0004,
+        "correct": false
+      },
+      {
+        "position": 13,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0116,
+        "correct": false
+      },
+      {
+        "position": 15,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.0211,
+        "correct": false
+      },
+      {
+        "position": 16,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0011,
+        "correct": false
+      },
+      {
+        "position": 22,
+        "original_base": "G",
+        "predicted_base": "U",
+        "prob": 0.0031,
+        "correct": false
+      },
+      {
+        "position": 40,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0003,
+        "correct": false
+      },
+      {
+        "position": 44,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.0254,
+        "correct": false
+      },
+      {
+        "position": 47,
+        "original_base": "C",
+        "predicted_base": "U",
+        "prob": 0.0009,
+        "correct": false
+      },
+      {
+        "position": 49,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.0076,
+        "correct": true
+      },
+      {
+        "position": 52,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0004,
+        "correct": true
+      },
+      {
+        "position": 57,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0122,
+        "correct": false
+      },
+      {
+        "position": 63,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.005,
+        "correct": true
+      },
+      {
+        "position": 71,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.0029,
+        "correct": false
+      },
+      {
+        "position": 79,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.0638,
+        "correct": false
+      },
+      {
+        "position": 81,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0003,
+        "correct": false
+      },
+      {
+        "position": 98,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.0079,
+        "correct": false
+      },
+      {
+        "position": 101,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0086,
+        "correct": false
+      },
+      {
+        "position": 110,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0038,
+        "correct": false
+      },
+      {
+        "position": 111,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.0038,
+        "correct": true
+      },
+      {
+        "position": 112,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.015,
+        "correct": false
+      },
+      {
+        "position": 114,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0061,
+        "correct": false
+      },
+      {
+        "position": 119,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.0084,
+        "correct": false
+      },
+      {
+        "position": 125,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0141,
+        "correct": false
+      },
+      {
+        "position": 135,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0026,
+        "correct": true
+      },
+      {
+        "position": 140,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0062,
+        "correct": false
+      },
+      {
+        "position": 142,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.0018,
+        "correct": false
+      },
+      {
+        "position": 150,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.01,
+        "correct": false
+      },
+      {
+        "position": 172,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.022,
+        "correct": false
+      },
+      {
+        "position": 174,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.0024,
+        "correct": false
+      },
+      {
+        "position": 176,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.0002,
+        "correct": false
+      },
+      {
+        "position": 183,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.008,
+        "correct": false
+      },
+      {
+        "position": 185,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.01,
+        "correct": false
+      },
+      {
+        "position": 193,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.0065,
+        "correct": false
+      },
+      {
+        "position": 194,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0182,
+        "correct": false
+      },
+      {
+        "position": 214,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0051,
+        "correct": false
+      },
+      {
+        "position": 216,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.0045,
+        "correct": false
+      },
+      {
+        "position": 229,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0173,
+        "correct": false
+      },
+      {
+        "position": 235,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0008,
+        "correct": false
+      },
+      {
+        "position": 258,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.0022,
+        "correct": false
+      },
+      {
+        "position": 274,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.0049,
+        "correct": true
+      },
+      {
+        "position": 279,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0022,
+        "correct": false
+      },
+      {
+        "position": 282,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0293,
+        "correct": false
+      },
+      {
+        "position": 287,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.0273,
+        "correct": true
+      },
+      {
+        "position": 295,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0071,
+        "correct": false
+      },
+      {
+        "position": 301,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0181,
+        "correct": false
+      },
+      {
+        "position": 302,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0001,
+        "correct": false
+      },
+      {
+        "position": 308,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0116,
+        "correct": true
+      },
+      {
+        "position": 309,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0037,
+        "correct": false
+      },
+      {
+        "position": 316,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.0058,
+        "correct": false
+      },
+      {
+        "position": 321,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.0031,
+        "correct": false
+      },
+      {
+        "position": 327,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0054,
+        "correct": false
+      },
+      {
+        "position": 332,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0009,
+        "correct": true
+      },
+      {
+        "position": 346,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0012,
+        "correct": false
+      },
+      {
+        "position": 357,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.0385,
+        "correct": true
+      },
+      {
+        "position": 359,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.0073,
+        "correct": true
+      },
+      {
+        "position": 360,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.0226,
+        "correct": false
+      },
+      {
+        "position": 366,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0247,
+        "correct": false
+      },
+      {
+        "position": 373,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.0079,
+        "correct": true
+      },
+      {
+        "position": 377,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.0255,
+        "correct": false
+      },
+      {
+        "position": 379,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.0013,
+        "correct": false
+      },
+      {
+        "position": 388,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0002,
+        "correct": false
+      },
+      {
+        "position": 390,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0087,
+        "correct": false
+      },
+      {
+        "position": 412,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0166,
+        "correct": false
+      },
+      {
+        "position": 413,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.024,
+        "correct": false
+      },
+      {
+        "position": 414,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0078,
+        "correct": false
+      },
+      {
+        "position": 424,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.1361,
+        "correct": true
+      },
+      {
+        "position": 433,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.0123,
+        "correct": false
+      },
+      {
+        "position": 441,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0008,
+        "correct": false
+      },
+      {
+        "position": 445,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.0002,
+        "correct": false
+      },
+      {
+        "position": 453,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.0685,
+        "correct": false
+      },
+      {
+        "position": 456,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.0094,
+        "correct": false
+      },
+      {
+        "position": 472,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0003,
+        "correct": true
+      },
+      {
+        "position": 490,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0089,
+        "correct": false
+      },
+      {
+        "position": 498,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.0002,
+        "correct": false
+      }
+    ],
+    "recovery_rate": 0.1867,
+    "n_masks": 75,
+    "n_correct": 14,
+    "model_used": true
+  },
+  {
+    "genome_name": "SARS-CoV-2_frameshift_element",
+    "strategy": "functional_site",
+    "model": "UTR-LM",
+    "model_id": "multimolecule/utrbert-3mer",
+    "predictions": [
+      {
+        "position": 8,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.0028,
+        "correct": false
+      },
+      {
+        "position": 9,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0005,
+        "correct": true
+      },
+      {
+        "position": 10,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0194,
+        "correct": false
+      },
+      {
+        "position": 11,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.023,
+        "correct": false
+      },
+      {
+        "position": 12,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.042,
+        "correct": false
+      },
+      {
+        "position": 18,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0111,
+        "correct": false
+      },
+      {
+        "position": 19,
+        "original_base": "G",
+        "predicted_base": "U",
+        "prob": 0.0047,
+        "correct": false
+      },
+      {
+        "position": 20,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0079,
+        "correct": false
+      },
+      {
+        "position": 21,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0024,
+        "correct": false
+      },
+      {
+        "position": 22,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.0231,
+        "correct": false
+      },
+      {
+        "position": 28,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.072,
+        "correct": false
+      },
+      {
+        "position": 29,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0175,
+        "correct": false
+      },
+      {
+        "position": 30,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.0004,
+        "correct": false
+      },
+      {
+        "position": 31,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1511,
+        "correct": true
+      },
+      {
+        "position": 32,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.0032,
+        "correct": false
+      },
+      {
+        "position": 38,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0046,
+        "correct": false
+      },
+      {
+        "position": 39,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0181,
+        "correct": false
+      },
+      {
+        "position": 40,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0102,
+        "correct": false
+      },
+      {
+        "position": 41,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0057,
+        "correct": false
+      },
+      {
+        "position": 42,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.0823,
+        "correct": false
+      }
+    ],
+    "recovery_rate": 0.1,
+    "n_masks": 20,
+    "n_correct": 2,
+    "model_used": true
+  },
+  {
+    "genome_name": "SARS-CoV-2_frameshift_element",
+    "strategy": "random_15pct",
+    "model": "UTR-LM",
+    "model_id": "multimolecule/utrbert-3mer",
+    "predictions": [
+      {
+        "position": 11,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.023,
+        "correct": false
+      },
+      {
+        "position": 17,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.006,
+        "correct": false
+      },
+      {
+        "position": 18,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0111,
+        "correct": false
+      },
+      {
+        "position": 20,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0079,
+        "correct": false
+      },
+      {
+        "position": 25,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0046,
+        "correct": false
+      },
+      {
+        "position": 41,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0057,
+        "correct": false
+      },
+      {
+        "position": 43,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.0243,
+        "correct": true
+      },
+      {
+        "position": 53,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0036,
+        "correct": false
+      },
+      {
+        "position": 58,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0026,
+        "correct": false
+      },
+      {
+        "position": 59,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.005,
+        "correct": false
+      },
+      {
+        "position": 62,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0031,
+        "correct": false
+      },
+      {
+        "position": 68,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0001,
+        "correct": false
+      },
+      {
+        "position": 71,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.0381,
+        "correct": true
+      },
+      {
+        "position": 74,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0038,
+        "correct": false
+      },
+      {
+        "position": 90,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.0052,
+        "correct": true
+      },
+      {
+        "position": 93,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0069,
+        "correct": true
+      },
+      {
+        "position": 94,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.0011,
+        "correct": false
+      },
+      {
+        "position": 97,
+        "original_base": "C",
+        "predicted_base": "A",
+        "prob": 0.0043,
+        "correct": false
+      },
+      {
+        "position": 116,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.0057,
+        "correct": true
+      }
+    ],
+    "recovery_rate": 0.2632,
+    "n_masks": 19,
+    "n_correct": 5,
+    "model_used": true
+  },
+  {
+    "genome_name": "HIV-1_TAR_element",
+    "strategy": "functional_site",
+    "model": "UTR-LM",
+    "model_id": "multimolecule/utrbert-3mer",
+    "predictions": [
+      {
+        "position": 3,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.0046,
+        "correct": true
+      },
+      {
+        "position": 4,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0037,
+        "correct": false
+      },
+      {
+        "position": 5,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.0176,
+        "correct": true
+      },
+      {
+        "position": 6,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.0483,
+        "correct": false
+      },
+      {
+        "position": 7,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.0059,
+        "correct": false
+      },
+      {
+        "position": 13,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.008,
+        "correct": false
+      },
+      {
+        "position": 14,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.0299,
+        "correct": false
+      },
+      {
+        "position": 15,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0041,
+        "correct": false
+      },
+      {
+        "position": 16,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.0005,
+        "correct": false
+      },
+      {
+        "position": 17,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.0029,
+        "correct": true
+      },
+      {
+        "position": 23,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0006,
+        "correct": false
+      },
+      {
+        "position": 24,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0002,
+        "correct": true
+      },
+      {
+        "position": 25,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0028,
+        "correct": false
+      },
+      {
+        "position": 26,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.0,
+        "correct": false
+      },
+      {
+        "position": 27,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.018,
+        "correct": true
+      },
+      {
+        "position": 33,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.015,
+        "correct": false
+      },
+      {
+        "position": 34,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.0029,
+        "correct": false
+      },
+      {
+        "position": 35,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.0,
+        "correct": true
+      },
+      {
+        "position": 36,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0476,
+        "correct": false
+      },
+      {
+        "position": 37,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.0015,
+        "correct": true
+      }
+    ],
+    "recovery_rate": 0.35,
+    "n_masks": 20,
+    "n_correct": 7,
+    "model_used": true
+  },
+  {
+    "genome_name": "HIV-1_TAR_element",
+    "strategy": "random_15pct",
+    "model": "UTR-LM",
+    "model_id": "multimolecule/utrbert-3mer",
+    "predictions": [
+      {
+        "position": 8,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0001,
+        "correct": false
+      },
+      {
+        "position": 14,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.0299,
+        "correct": false
+      },
+      {
+        "position": 16,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.0005,
+        "correct": false
+      },
+      {
+        "position": 36,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0476,
+        "correct": false
+      },
+      {
+        "position": 41,
+        "original_base": "G",
+        "predicted_base": "U",
+        "prob": 0.007,
+        "correct": false
+      },
+      {
+        "position": 54,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0011,
+        "correct": false
+      },
+      {
+        "position": 56,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.0009,
+        "correct": true
+      },
+      {
+        "position": 58,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0017,
+        "correct": false
+      },
+      {
+        "position": 67,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0001,
+        "correct": true
+      },
+      {
+        "position": 68,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.0224,
+        "correct": true
+      },
+      {
+        "position": 69,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.0017,
+        "correct": true
+      },
+      {
+        "position": 80,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0001,
+        "correct": false
+      },
+      {
+        "position": 83,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.0024,
+        "correct": true
+      },
+      {
+        "position": 97,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0466,
+        "correct": false
+      },
+      {
+        "position": 101,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.0074,
+        "correct": false
+      },
+      {
+        "position": 102,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0002,
+        "correct": false
+      },
+      {
+        "position": 117,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0003,
+        "correct": false
+      },
+      {
+        "position": 118,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0002,
+        "correct": true
+      },
+      {
+        "position": 127,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.026,
+        "correct": false
+      }
+    ],
+    "recovery_rate": 0.3158,
+    "n_masks": 19,
+    "n_correct": 6,
+    "model_used": true
+  },
+  {
+    "genome_name": "Influenza_PB2_5end",
+    "strategy": "functional_site",
+    "model": "UTR-LM",
+    "model_id": "multimolecule/utrbert-3mer",
+    "predictions": [
+      {
+        "position": 0,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0002,
+        "correct": false
+      },
+      {
+        "position": 1,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0015,
+        "correct": false
+      },
+      {
+        "position": 2,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0002,
+        "correct": true
+      },
+      {
+        "position": 3,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.0155,
+        "correct": false
+      },
+      {
+        "position": 8,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0001,
+        "correct": false
+      },
+      {
+        "position": 9,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0002,
+        "correct": false
+      },
+      {
+        "position": 10,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0003,
+        "correct": false
+      },
+      {
+        "position": 11,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0003,
+        "correct": false
+      },
+      {
+        "position": 12,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0041,
+        "correct": false
+      },
+      {
+        "position": 18,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.0002,
+        "correct": false
+      },
+      {
+        "position": 19,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0026,
+        "correct": false
+      },
+      {
+        "position": 20,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0001,
+        "correct": false
+      },
+      {
+        "position": 21,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0003,
+        "correct": false
+      },
+      {
+        "position": 22,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0003,
+        "correct": true
+      },
+      {
+        "position": 28,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.011,
+        "correct": false
+      },
+      {
+        "position": 29,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.0167,
+        "correct": false
+      },
+      {
+        "position": 30,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0002,
+        "correct": false
+      },
+      {
+        "position": 31,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0007,
+        "correct": false
+      },
+      {
+        "position": 32,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0092,
+        "correct": true
+      },
+      {
+        "position": 38,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0003,
+        "correct": true
+      }
+    ],
+    "recovery_rate": 0.2,
+    "n_masks": 20,
+    "n_correct": 4,
+    "model_used": true
+  },
+  {
+    "genome_name": "Influenza_PB2_5end",
+    "strategy": "random_15pct",
+    "model": "UTR-LM",
+    "model_id": "multimolecule/utrbert-3mer",
+    "predictions": [
+      {
+        "position": 12,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0041,
+        "correct": false
+      },
+      {
+        "position": 16,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0,
+        "correct": false
+      },
+      {
+        "position": 23,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0001,
+        "correct": true
+      },
+      {
+        "position": 28,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.011,
+        "correct": false
+      },
+      {
+        "position": 35,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.0001,
+        "correct": false
+      },
+      {
+        "position": 39,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.0044,
+        "correct": false
+      },
+      {
+        "position": 40,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0001,
+        "correct": true
+      },
+      {
+        "position": 48,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0001,
+        "correct": false
+      },
+      {
+        "position": 56,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.0001,
+        "correct": false
+      },
+      {
+        "position": 63,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0002,
+        "correct": true
+      },
+      {
+        "position": 67,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0001,
+        "correct": false
+      },
+      {
+        "position": 76,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0001,
+        "correct": true
+      },
+      {
+        "position": 92,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0005,
+        "correct": true
+      },
+      {
+        "position": 98,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.0194,
+        "correct": false
+      },
+      {
+        "position": 102,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.0002,
+        "correct": false
+      },
+      {
+        "position": 108,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.001,
+        "correct": false
+      },
+      {
+        "position": 109,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0007,
+        "correct": false
+      },
+      {
+        "position": 126,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0001,
+        "correct": false
+      },
+      {
+        "position": 130,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0001,
+        "correct": true
+      },
+      {
+        "position": 137,
+        "original_base": "C",
+        "predicted_base": "U",
+        "prob": 0.0295,
+        "correct": false
+      },
+      {
+        "position": 143,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.0001,
+        "correct": false
+      },
+      {
+        "position": 146,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.0002,
+        "correct": false
+      }
+    ],
+    "recovery_rate": 0.2727,
+    "n_masks": 22,
+    "n_correct": 6,
+    "model_used": true
+  },
+  {
+    "genome_name": "SARS-CoV-2_3UTR",
+    "strategy": "functional_site",
+    "model": "UTR-LM",
+    "model_id": "multimolecule/utrbert-3mer",
+    "predictions": [
+      {
+        "position": 8,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0035,
+        "correct": false
+      },
+      {
+        "position": 9,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0013,
+        "correct": false
+      },
+      {
+        "position": 10,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.0001,
+        "correct": false
+      },
+      {
+        "position": 11,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0356,
+        "correct": false
+      },
+      {
+        "position": 12,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0049,
+        "correct": true
+      },
+      {
+        "position": 28,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.0046,
+        "correct": true
+      },
+      {
+        "position": 29,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.0047,
+        "correct": true
+      },
+      {
+        "position": 30,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0002,
+        "correct": false
+      },
+      {
+        "position": 31,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0073,
+        "correct": false
+      },
+      {
+        "position": 32,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0001,
+        "correct": false
+      },
+      {
+        "position": 48,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0002,
+        "correct": true
+      },
+      {
+        "position": 49,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.009,
+        "correct": false
+      },
+      {
+        "position": 50,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0087,
+        "correct": false
+      },
+      {
+        "position": 51,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0036,
+        "correct": false
+      },
+      {
+        "position": 52,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0039,
+        "correct": false
+      },
+      {
+        "position": 78,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0003,
+        "correct": false
+      },
+      {
+        "position": 79,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0004,
+        "correct": false
+      },
+      {
+        "position": 80,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.0068,
+        "correct": true
+      },
+      {
+        "position": 81,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0036,
+        "correct": false
+      },
+      {
+        "position": 82,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.0086,
+        "correct": false
+      }
+    ],
+    "recovery_rate": 0.25,
+    "n_masks": 20,
+    "n_correct": 5,
+    "model_used": true
+  },
+  {
+    "genome_name": "SARS-CoV-2_3UTR",
+    "strategy": "random_15pct",
+    "model": "UTR-LM",
+    "model_id": "multimolecule/utrbert-3mer",
+    "predictions": [
+      {
+        "position": 0,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.0496,
+        "correct": true
+      },
+      {
+        "position": 1,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.0042,
+        "correct": false
+      },
+      {
+        "position": 5,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0061,
+        "correct": false
+      },
+      {
+        "position": 9,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0013,
+        "correct": false
+      },
+      {
+        "position": 29,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.0047,
+        "correct": true
+      },
+      {
+        "position": 35,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0183,
+        "correct": false
+      },
+      {
+        "position": 40,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0006,
+        "correct": false
+      },
+      {
+        "position": 43,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0026,
+        "correct": false
+      },
+      {
+        "position": 54,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0078,
+        "correct": false
+      },
+      {
+        "position": 57,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0021,
+        "correct": false
+      },
+      {
+        "position": 58,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0007,
+        "correct": true
+      },
+      {
+        "position": 64,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0002,
+        "correct": true
+      },
+      {
+        "position": 65,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0001,
+        "correct": false
+      },
+      {
+        "position": 78,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0003,
+        "correct": false
+      },
+      {
+        "position": 80,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.0068,
+        "correct": true
+      },
+      {
+        "position": 82,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.0086,
+        "correct": false
+      },
+      {
+        "position": 91,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0009,
+        "correct": false
+      },
+      {
+        "position": 101,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0199,
+        "correct": false
+      },
+      {
+        "position": 122,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.0036,
+        "correct": false
+      },
+      {
+        "position": 123,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.002,
+        "correct": false
+      },
+      {
+        "position": 128,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.0246,
+        "correct": false
+      },
+      {
+        "position": 134,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0006,
+        "correct": true
+      },
+      {
+        "position": 136,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.0277,
+        "correct": false
+      },
+      {
+        "position": 150,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.015,
+        "correct": false
+      },
+      {
+        "position": 152,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.014,
+        "correct": true
+      },
+      {
+        "position": 157,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0001,
+        "correct": false
+      },
+      {
+        "position": 165,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0001,
+        "correct": false
+      },
+      {
+        "position": 174,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0027,
+        "correct": false
+      },
+      {
+        "position": 185,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.0048,
+        "correct": false
+      },
+      {
+        "position": 191,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0089,
+        "correct": false
+      },
+      {
+        "position": 222,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0002,
+        "correct": true
+      },
+      {
+        "position": 232,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0048,
+        "correct": false
+      },
+      {
+        "position": 239,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.0159,
+        "correct": false
+      },
+      {
+        "position": 243,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0043,
+        "correct": false
+      },
+      {
+        "position": 248,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.0181,
+        "correct": true
+      },
+      {
+        "position": 250,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0002,
+        "correct": true
+      },
+      {
+        "position": 256,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.0113,
+        "correct": true
+      },
+      {
+        "position": 259,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0059,
+        "correct": false
+      },
+      {
+        "position": 270,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0069,
+        "correct": false
+      },
+      {
+        "position": 271,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.006,
+        "correct": false
+      },
+      {
+        "position": 272,
+        "original_base": "G",
+        "predicted_base": "U",
+        "prob": 0.0061,
+        "correct": false
+      },
+      {
+        "position": 274,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0012,
+        "correct": false
+      },
+      {
+        "position": 276,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0013,
+        "correct": true
+      },
+      {
+        "position": 283,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0055,
+        "correct": false
+      },
+      {
+        "position": 290,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0097,
+        "correct": false
+      },
+      {
+        "position": 306,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0001,
+        "correct": true
+      },
+      {
+        "position": 311,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0084,
+        "correct": false
+      },
+      {
+        "position": 320,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.0106,
+        "correct": true
+      },
+      {
+        "position": 327,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0312,
+        "correct": false
+      },
+      {
+        "position": 328,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0082,
+        "correct": false
+      },
+      {
+        "position": 337,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.0011,
+        "correct": false
+      },
+      {
+        "position": 348,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0032,
+        "correct": false
+      },
+      {
+        "position": 349,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.0111,
+        "correct": false
+      }
+    ],
+    "recovery_rate": 0.2642,
+    "n_masks": 53,
+    "n_correct": 14,
+    "model_used": true
+  }
+]

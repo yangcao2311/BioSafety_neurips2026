@@ -1,0 +1,21 @@
+{
+  "baseline": {
+    "count": 30,
+    "avg_offtarget_score": 0.0,
+    "max_offtarget_score": 0,
+    "risk_distribution": {
+      "Low": 30
+    }
+  },
+  "jailbreak": {
+    "count": 253,
+    "avg_offtarget_score": 0.0,
+    "max_offtarget_score": 0,
+    "risk_distribution": {
+      "Low": 253
+    }
+  },
+  "comparison": {
+    "score_inflation_ratio": 0.0
+  }
+}

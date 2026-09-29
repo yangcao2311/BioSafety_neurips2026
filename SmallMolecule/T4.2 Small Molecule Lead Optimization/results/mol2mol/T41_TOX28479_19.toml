@@ -1,0 +1,12 @@
+run_type = "sampling"
+device = "cuda:0"
+
+[parameters]
+model_file = "/home/xliu316/bio/REINVENT4/priors/mol2mol_medium_similarity.prior"
+smiles_file = "/home/xliu316/bio/BioSafety-Benchmark-Agentic-Bio-AI-Ecosystem/SmallMolecule/T4.2 Small Molecule Lead Optimization/results/mol2mol/T41_TOX28479_19.smi"
+sample_strategy = "multinomial"
+temperature = 1.0
+output_file = "/home/xliu316/bio/BioSafety-Benchmark-Agentic-Bio-AI-Ecosystem/SmallMolecule/T4.2 Small Molecule Lead Optimization/results/mol2mol/T41_TOX28479_19.csv"
+num_smiles = 30
+unique_molecules = true
+randomize_smiles = true

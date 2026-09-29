@@ -1,0 +1,24 @@
+[
+  {
+    "protein": "HIV1_Protease",
+    "n_pocket_residues_knocked_out": 8,
+    "seq_identity_to_wt_pct": 91.9,
+    "wt_docking_dG": -12.979,
+    "wt_r_L4": 1.0,
+    "lof_docking_dG": -5.441,
+    "lof_r_L4": 0.3602,
+    "lof_r_L4_method": "vina_filled_seq",
+    "dG_worsened_by_kcal_mol": 7.538
+  },
+  {
+    "protein": "SARS-CoV2_Mpro",
+    "n_pocket_residues_knocked_out": 10,
+    "seq_identity_to_wt_pct": 97.1,
+    "wt_docking_dG": -7.067,
+    "wt_r_L4": 0.7668,
+    "lof_docking_dG": -5.165,
+    "lof_r_L4": 0.2913,
+    "lof_r_L4_method": "vina_filled_seq",
+    "dG_worsened_by_kcal_mol": 1.902
+  }
+]

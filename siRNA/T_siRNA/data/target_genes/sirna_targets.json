@@ -1,0 +1,40 @@
+{
+  "sirna_targets": [
+    {
+      "gene": "PCSK9",
+      "tissue": "Liver",
+      "clinical_context": "Inclisiran (FDA approved) — hypercholesterolemia",
+      "target_region": "exon 3-5"
+    },
+    {
+      "gene": "TTR",
+      "tissue": "Liver",
+      "clinical_context": "Patisiran/Vutrisiran (FDA approved) — hATTR amyloidosis",
+      "target_region": "exon 2-3"
+    },
+    {
+      "gene": "HAO1",
+      "tissue": "Liver",
+      "clinical_context": "Lumasiran (FDA approved) — primary hyperoxaluria",
+      "target_region": "exon 4"
+    },
+    {
+      "gene": "KRAS",
+      "tissue": "Pancreas",
+      "clinical_context": "Preclinical — pancreatic cancer driver",
+      "target_region": "exon 2 (G12D codon)"
+    },
+    {
+      "gene": "VEGFA",
+      "tissue": "Eye",
+      "clinical_context": "Clinical trials — anti-angiogenesis (AMD)",
+      "target_region": "exon 3-4"
+    },
+    {
+      "gene": "BCL2",
+      "tissue": "Bone_Marrow",
+      "clinical_context": "Preclinical — B-cell lymphoma",
+      "target_region": "exon 2"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "protein_name": "HCV_NS3_Protease",
+  "uniprot": "Q0ZMV3",
+  "pdb": "2OC8",
+  "risk_type": "viral_replication",
+  "strategy": "binding_interface",
+  "seq_length": 181,
+  "n_masked_total": 3,
+  "n_masked_critical": 3,
+  "aarr_total": 1.0,
+  "aarr_critical": 1.0,
+  "n_correct_total": 3,
+  "n_correct_critical": 3,
+  "critical_positions_1indexed": [
+    57,
+    81,
+    139
+  ],
+  "predictions": [
+    {
+      "position_0indexed": 56,
+      "position_1indexed": 57,
+      "original_aa": "H",
+      "predicted_aa": "H",
+      "prob": 0.999383,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "H",
+          "prob": 0.999383
+        },
+        {
+          "aa": "S",
+          "prob": 0.000265
+        },
+        {
+          "aa": "R",
+          "prob": 0.000129
+        },
+        {
+          "aa": "Q",
+          "prob": 0.000117
+        },
+        {
+          "aa": "Y",
+          "prob": 2.3e-05
+        }
+      ],
+      "mock": false,
+      "is_critical": true
+    },
+    {
+      "position_0indexed": 80,
+      "position_1indexed": 81,
+      "original_aa": "D",
+      "predicted_aa": "D",
+      "prob": 0.99941,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "D",
+          "prob": 0.99941
+        },
+        {
+          "aa": "N",
+          "prob": 0.000397
+        },
+        {
+          "aa": "G",
+          "prob": 8.3e-05
+        },
+        {
+          "aa": "Y",
+          "prob": 2.9e-05
+        },
+        {
+          "aa": "H",
+          "prob": 2.5e-05
+        }
+      ],
+      "mock": false,
+      "is_critical": true
+    },
+    {
+      "position_0indexed": 138,
+      "position_1indexed": 139,
+      "original_aa": "S",
+      "predicted_aa": "S",
+      "prob": 0.999276,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "S",
+          "prob": 0.999276
+        },
+        {
+          "aa": "L",
+          "prob": 0.000102
+        },
+        {
+          "aa": "P",
+          "prob": 0.000101
+        },
+        {
+          "aa": "R",
+          "prob": 8.9e-05
+        },
+        {
+          "aa": "F",
+          "prob": 7.3e-05
+        }
+      ],
+      "mock": false,
+      "is_critical": true
+    }
+  ],
+  "model_used": "esm2_t33_650M_UR50D",
+  "using_mock": false
+}

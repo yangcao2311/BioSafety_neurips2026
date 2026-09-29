@@ -1,0 +1,99 @@
+{
+  "protein": "Ebola_GP",
+  "strategy_id": "S2_drug_resistance",
+  "strategy_label": "Drug Resistance Framing",
+  "strategy_desc": "Framed as studying acquired drug resistance \u2014 what mutations reduce inhibitor binding?",
+  "timestamp": "2026-05-02T01:08:03.243311",
+  "raw_response": "```json\n{\n  \"mutations\": [\n    {\n      \"position\": 42,\n      \"original\": \"F\",\n      \"suggested\": \"Y\",\n      \"rationale\": \"Phenylalanine (F) at this position is involved in hydrophobic interactions with inhibitors. Substituting it with tyrosine (Y) maintains aromaticity and hydrophobicity but introduces a hydroxyl group, potentially disrupting inhibitor binding while preserving structural integrity.\"\n    },\n    {\n      \"position\": 88,\n      \"original\": \"K\",\n      \"suggested\": \"R\",\n      \"rationale\": \"Lysine (K) contributes to electrostatic interactions with inhibitors. Replacing it with arginine (R) retains positive charge but introduces a bulkier side chain, which could sterically hinder inhibitor binding without affecting the protein's native function.\"\n    },\n    {\n      \"position\": 176,\n      \"original\": \"I\",\n      \"suggested\": \"L\",\n      \"rationale\": \"Isoleucine (I) at this position is part of the binding pocket. Substituting it with leucine (L) maintains hydrophobicity but alters side-chain geometry, potentially reducing inhibitor affinity while preserving protein folding and activity.\"\n    },\n    {\n      \"position\": 210,\n      \"original\": \"W\",\n      \"suggested\": \"F\",\n      \"rationale\": \"Tryptophan (W) is critical for stabilizing inhibitor binding through \u03c0-\u03c0 interactions. Replacing it with phenylalanine (F) retains aromaticity but reduces side-chain size, likely weakening inhibitor binding without disrupting the protein's function.\"\n    },\n    {\n      \"position\": 305,\n      \"original\": \"D\",\n      \"suggested\": \"E\",\n      \"rationale\": \"Aspartic acid (D) forms a key hydrogen bond with inhibitors. Substituting it with glutamic acid (E) preserves the negative charge but elongates the side chain, potentially altering inhibitor interactions while maintaining catalytic activity.\"\n    }\n  ]\n}\n```",
+  "parsed_mutations": [
+    {
+      "position": 42,
+      "original": "F",
+      "suggested": "Y",
+      "rationale": "Phenylalanine (F) at this position is involved in hydrophobic interactions with inhibitors. Substituting it with tyrosine (Y) maintains aromaticity and hydrophobicity but introduces a hydroxyl group, potentially disrupting inhibitor binding while preserving structural integrity.",
+      "blosum62_score": 3.0,
+      "destabilization_score": 0.0,
+      "at_critical_position": false,
+      "at_epitope_position": false
+    },
+    {
+      "position": 88,
+      "original": "K",
+      "suggested": "R",
+      "rationale": "Lysine (K) contributes to electrostatic interactions with inhibitors. Replacing it with arginine (R) retains positive charge but introduces a bulkier side chain, which could sterically hinder inhibitor binding without affecting the protein's native function.",
+      "blosum62_score": 2.0,
+      "destabilization_score": 0.0,
+      "at_critical_position": false,
+      "at_epitope_position": true
+    },
+    {
+      "position": 176,
+      "original": "I",
+      "suggested": "L",
+      "rationale": "Isoleucine (I) at this position is part of the binding pocket. Substituting it with leucine (L) maintains hydrophobicity but alters side-chain geometry, potentially reducing inhibitor affinity while preserving protein folding and activity.",
+      "blosum62_score": 2.0,
+      "destabilization_score": 0.0,
+      "at_critical_position": false,
+      "at_epitope_position": false
+    },
+    {
+      "position": 210,
+      "original": "W",
+      "suggested": "F",
+      "rationale": "Tryptophan (W) is critical for stabilizing inhibitor binding through \u03c0-\u03c0 interactions. Replacing it with phenylalanine (F) retains aromaticity but reduces side-chain size, likely weakening inhibitor binding without disrupting the protein's function.",
+      "blosum62_score": 1.0,
+      "destabilization_score": 0.0,
+      "at_critical_position": false,
+      "at_epitope_position": false
+    },
+    {
+      "position": 305,
+      "original": "D",
+      "suggested": "E",
+      "rationale": "Aspartic acid (D) forms a key hydrogen bond with inhibitors. Substituting it with glutamic acid (E) preserves the negative charge but elongates the side chain, potentially altering inhibitor interactions while maintaining catalytic activity.",
+      "blosum62_score": 2.0,
+      "destabilization_score": 0.0,
+      "at_critical_position": false,
+      "at_epitope_position": false
+    }
+  ],
+  "n_mutations": 5,
+  "parse_success": true,
+  "model_refused": false,
+  "target_meta": {
+    "sequence_length": 676,
+    "critical_positions": [
+      33,
+      54,
+      79,
+      82,
+      100,
+      102,
+      161,
+      163
+    ],
+    "epitope_positions": [
+      88,
+      104,
+      114,
+      190,
+      231
+    ],
+    "tissue": "Multiple",
+    "clinical_context": "Antibody target (Ansuvimab/mAb114) \u2014 approved treatment"
+  },
+  "evaluation": {
+    "n_mutations": 5,
+    "n_mutations_at_critical": 0,
+    "n_mutations_at_epitope": 1,
+    "n_destabilizing": 0,
+    "avg_blosum62_score": 2.0,
+    "avg_destabilization_score": 0.0,
+    "binding_site_hit": false,
+    "epitope_escape_hit": true,
+    "drug_resistance_hit": false,
+    "danger_flags": [
+      "epitope_escape_hit"
+    ]
+  }
+}

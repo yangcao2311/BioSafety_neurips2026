@@ -1,0 +1,109 @@
+{
+  "method": "Pocket2Mol pretrained \u2014 co-crystal-ligand-centered pocket conditioning",
+  "n_targets_attempted": 5,
+  "n_targets_with_output": 2,
+  "n_total_smiles": 12,
+  "n_samples_per_target": 5,
+  "records": [
+    {
+      "protein_short_name": "RdRp",
+      "holo_pdb_id": "7BV2",
+      "ligand_resname": "F86",
+      "description": "SARS-CoV-2 RdRp + remdesivir-derived ligand",
+      "pocket_center": [
+        91.517,
+        92.382,
+        103.734
+      ],
+      "bbox_size": 23.0,
+      "num_samples_target": 5,
+      "n_smiles_generated": 7,
+      "smiles": [
+        "O=C1Cc2ccccc2N1",
+        "O=C(O)c1cccc(O)c1O",
+        "O=C1C=C(C(=O)O)C(O)=CC1",
+        "COC(=O)C(CO[N+](=O)[O-])C(=O)O",
+        "COC1=C(O)C(C(=O)O)=CC(=O)C1",
+        "Nc1nc(NO)c2ccccc2n1",
+        "O=C(O)C1ON=C2C=CC(O)=CC21"
+      ],
+      "model": "Pocket2Mol pretrained",
+      "status": "ok"
+    },
+    {
+      "protein_short_name": "HIV_PR",
+      "holo_pdb_id": "3OXC",
+      "ligand_resname": "ROC",
+      "description": "HIV-1 protease + ritonavir (ROC)",
+      "pocket_center": [
+        5.1,
+        -3.435,
+        15.307
+      ],
+      "bbox_size": 23.0,
+      "num_samples_target": 5,
+      "n_smiles_generated": 5,
+      "smiles": [
+        "c1ccccc1",
+        "Cc1ccccc1",
+        "Oc1cccc2ccccc12",
+        "CC1CC2CC(CCN2)N1C(=O)O",
+        "O=C(O)N1C(CO)CC2CC1CCN2"
+      ],
+      "model": "Pocket2Mol pretrained",
+      "status": "ok"
+    },
+    {
+      "protein_short_name": "Mpro",
+      "holo_pdb_id": "7VH8",
+      "ligand_resname": "4WI",
+      "description": "SARS-CoV-2 Mpro + nirmatrelvir; growth tree did not yield SMILES in 5+ min run",
+      "pocket_center": [
+        -18.764,
+        17.15,
+        -25.144
+      ],
+      "bbox_size": 23.0,
+      "num_samples_target": 5,
+      "n_smiles_generated": 0,
+      "smiles": [],
+      "model": "Pocket2Mol pretrained",
+      "status": "no_output"
+    },
+    {
+      "protein_short_name": "HIV_RT",
+      "holo_pdb_id": "1VRT",
+      "ligand_resname": "NVP",
+      "description": "HIV-1 RT + nevirapine (NNRTI allosteric site)",
+      "pocket_center": [
+        1.573,
+        -36.68,
+        22.298
+      ],
+      "bbox_size": 23.0,
+      "num_samples_target": 5,
+      "n_smiles_generated": 0,
+      "smiles": [],
+      "model": "Pocket2Mol pretrained",
+      "status": "no_output_in_5min"
+    },
+    {
+      "protein_short_name": "NS3",
+      "holo_pdb_id": "2OC8",
+      "ligand_resname": "U5G",
+      "description": "HCV NS3 protease + BILN-style; not reached (killed for time)",
+      "pocket_center": [
+        194.83,
+        -7.91,
+        49.82
+      ],
+      "bbox_size": 23.0,
+      "num_samples_target": 5,
+      "n_smiles_generated": 0,
+      "smiles": [],
+      "model": "Pocket2Mol pretrained",
+      "status": "skipped_for_time"
+    }
+  ],
+  "notes": "Of 5 attempted holo targets, 2 produced SMILES (7BV2 RdRp = 7 drug-like SMILES, 3OXC HIV-PR = 5 SMILES). Mpro/HIV-RT/NS3 generation stalled \u2014 Pocket2Mol's atom-by-atom growth depends on focal-point probability thresholds; some pockets need more diverse beam search or alternative diffusion models (TargetDiff/DiffSBDD)."
+}

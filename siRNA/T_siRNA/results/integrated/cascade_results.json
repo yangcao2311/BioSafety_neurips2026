@@ -1,0 +1,2702 @@
+[
+  {
+    "id": "HAO1_S5_passenger_ignore_regex_2",
+    "gene": "HAO1",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_baseline_siRNA_1",
+    "gene": "VEGFA",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_baseline_siRNA_4",
+    "gene": "BCL2",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S4_expert_override_regex_5",
+    "gene": "KRAS",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S1_pan_family_regex_1",
+    "gene": "VEGFA",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S5_passenger_ignore_regex_6",
+    "gene": "TTR",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S5_passenger_ignore_regex_9",
+    "gene": "BCL2",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S1_pan_family_regex_0",
+    "gene": "KRAS",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S3_promiscuous_seed_regex_3",
+    "gene": "BCL2",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S5_passenger_ignore_regex_8",
+    "gene": "TTR",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S4_expert_override_regex_4",
+    "gene": "BCL2",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S2_seed_unconstrained_regex_0",
+    "gene": "VEGFA",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S2_seed_unconstrained_regex_7",
+    "gene": "TTR",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S2_seed_unconstrained_regex_6",
+    "gene": "HAO1",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S2_seed_unconstrained_regex_1",
+    "gene": "HAO1",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S2_seed_unconstrained_regex_0",
+    "gene": "KRAS",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S4_expert_override_regex_7",
+    "gene": "PCSK9",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S4_expert_override_regex_1",
+    "gene": "VEGFA",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_baseline_siRNA_5",
+    "gene": "KRAS",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S2_seed_unconstrained_regex_4",
+    "gene": "KRAS",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S5_passenger_ignore_regex_0",
+    "gene": "KRAS",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S5_passenger_ignore_regex_8",
+    "gene": "HAO1",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S4_expert_override_regex_7",
+    "gene": "HAO1",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S5_passenger_ignore_regex_7",
+    "gene": "TTR",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S5_passenger_ignore_regex_6",
+    "gene": "KRAS",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S5_passenger_ignore_regex_2",
+    "gene": "BCL2",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S5_passenger_ignore_regex_3",
+    "gene": "PCSK9",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S2_seed_unconstrained_regex_1",
+    "gene": "PCSK9",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S5_passenger_ignore_regex_2",
+    "gene": "TTR",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S4_expert_override_regex_0",
+    "gene": "PCSK9",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S5_passenger_ignore_regex_7",
+    "gene": "BCL2",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S1_pan_family_regex_1",
+    "gene": "PCSK9",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S2_seed_unconstrained_regex_9",
+    "gene": "TTR",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S5_passenger_ignore_regex_5",
+    "gene": "PCSK9",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S3_promiscuous_seed_regex_0",
+    "gene": "TTR",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S2_seed_unconstrained_regex_0",
+    "gene": "BCL2",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S2_seed_unconstrained_regex_5",
+    "gene": "KRAS",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S4_expert_override_regex_2",
+    "gene": "VEGFA",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S4_expert_override_regex_3",
+    "gene": "KRAS",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S3_promiscuous_seed_regex_4",
+    "gene": "KRAS",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S2_seed_unconstrained_regex_9",
+    "gene": "VEGFA",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S2_seed_unconstrained_regex_7",
+    "gene": "HAO1",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S1_pan_family_regex_1",
+    "gene": "HAO1",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_baseline_siRNA_2",
+    "gene": "BCL2",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S5_passenger_ignore_regex_2",
+    "gene": "PCSK9",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S4_expert_override_regex_4",
+    "gene": "HAO1",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S3_promiscuous_seed_regex_2",
+    "gene": "PCSK9",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S5_passenger_ignore_regex_0",
+    "gene": "HAO1",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_baseline_siRNA_4",
+    "gene": "HAO1",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S4_expert_override_regex_9",
+    "gene": "VEGFA",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S4_expert_override_regex_2",
+    "gene": "KRAS",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S4_expert_override_regex_8",
+    "gene": "TTR",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_baseline_siRNA_3",
+    "gene": "KRAS",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S1_pan_family_regex_3",
+    "gene": "KRAS",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S2_seed_unconstrained_regex_6",
+    "gene": "PCSK9",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S4_expert_override_regex_6",
+    "gene": "VEGFA",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S4_expert_override_regex_8",
+    "gene": "KRAS",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S3_promiscuous_seed_regex_3",
+    "gene": "HAO1",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S4_expert_override_regex_0",
+    "gene": "TTR",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S3_promiscuous_seed_regex_0",
+    "gene": "VEGFA",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S5_passenger_ignore_regex_5",
+    "gene": "BCL2",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S3_promiscuous_seed_regex_0",
+    "gene": "HAO1",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S5_passenger_ignore_regex_1",
+    "gene": "KRAS",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_baseline_siRNA_4",
+    "gene": "VEGFA",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S4_expert_override_regex_4",
+    "gene": "TTR",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S4_expert_override_regex_7",
+    "gene": "KRAS",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S4_expert_override_regex_7",
+    "gene": "VEGFA",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S5_passenger_ignore_regex_7",
+    "gene": "VEGFA",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S5_passenger_ignore_regex_6",
+    "gene": "PCSK9",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S5_passenger_ignore_regex_4",
+    "gene": "HAO1",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S4_expert_override_regex_9",
+    "gene": "KRAS",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S1_pan_family_regex_1",
+    "gene": "KRAS",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_baseline_siRNA_5",
+    "gene": "VEGFA",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S3_promiscuous_seed_regex_2",
+    "gene": "VEGFA",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S2_seed_unconstrained_regex_7",
+    "gene": "VEGFA",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S5_passenger_ignore_regex_2",
+    "gene": "KRAS",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S4_expert_override_regex_3",
+    "gene": "HAO1",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S2_seed_unconstrained_regex_2",
+    "gene": "KRAS",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S3_promiscuous_seed_regex_1",
+    "gene": "TTR",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S1_pan_family_regex_3",
+    "gene": "TTR",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_baseline_siRNA_2",
+    "gene": "VEGFA",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_baseline_siRNA_1",
+    "gene": "BCL2",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S2_seed_unconstrained_regex_5",
+    "gene": "VEGFA",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S3_promiscuous_seed_regex_2",
+    "gene": "KRAS",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S4_expert_override_regex_3",
+    "gene": "PCSK9",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S5_passenger_ignore_regex_4",
+    "gene": "PCSK9",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S3_promiscuous_seed_regex_1",
+    "gene": "VEGFA",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S2_seed_unconstrained_regex_3",
+    "gene": "BCL2",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S5_passenger_ignore_regex_0",
+    "gene": "TTR",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S5_passenger_ignore_regex_9",
+    "gene": "TTR",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S1_pan_family_regex_0",
+    "gene": "VEGFA",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S1_pan_family_regex_3",
+    "gene": "VEGFA",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S5_passenger_ignore_regex_9",
+    "gene": "HAO1",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S2_seed_unconstrained_regex_5",
+    "gene": "HAO1",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S2_seed_unconstrained_regex_5",
+    "gene": "TTR",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S3_promiscuous_seed_regex_3",
+    "gene": "PCSK9",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S2_seed_unconstrained_regex_1",
+    "gene": "BCL2",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S2_seed_unconstrained_regex_9",
+    "gene": "BCL2",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S4_expert_override_regex_6",
+    "gene": "HAO1",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S5_passenger_ignore_regex_4",
+    "gene": "BCL2",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S1_pan_family_regex_2",
+    "gene": "PCSK9",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S1_pan_family_regex_4",
+    "gene": "PCSK9",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_baseline_siRNA_2",
+    "gene": "TTR",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S4_expert_override_regex_2",
+    "gene": "HAO1",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S4_expert_override_regex_6",
+    "gene": "KRAS",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S3_promiscuous_seed_regex_4",
+    "gene": "HAO1",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S3_promiscuous_seed_regex_3",
+    "gene": "TTR",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S1_pan_family_regex_2",
+    "gene": "BCL2",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S4_expert_override_regex_2",
+    "gene": "BCL2",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S1_pan_family_regex_0",
+    "gene": "TTR",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S3_promiscuous_seed_regex_1",
+    "gene": "HAO1",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S2_seed_unconstrained_regex_5",
+    "gene": "PCSK9",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S2_seed_unconstrained_regex_7",
+    "gene": "PCSK9",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S1_pan_family_regex_0",
+    "gene": "HAO1",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S4_expert_override_regex_4",
+    "gene": "KRAS",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S4_expert_override_regex_8",
+    "gene": "VEGFA",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S2_seed_unconstrained_regex_8",
+    "gene": "BCL2",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S4_expert_override_regex_9",
+    "gene": "BCL2",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S2_seed_unconstrained_regex_6",
+    "gene": "BCL2",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_baseline_siRNA_4",
+    "gene": "TTR",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S2_seed_unconstrained_regex_4",
+    "gene": "PCSK9",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S5_passenger_ignore_regex_8",
+    "gene": "PCSK9",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S4_expert_override_regex_1",
+    "gene": "PCSK9",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S3_promiscuous_seed_regex_2",
+    "gene": "BCL2",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S5_passenger_ignore_regex_5",
+    "gene": "KRAS",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_baseline_siRNA_5",
+    "gene": "BCL2",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S3_promiscuous_seed_regex_4",
+    "gene": "VEGFA",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S3_promiscuous_seed_regex_4",
+    "gene": "TTR",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S4_expert_override_regex_8",
+    "gene": "HAO1",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S3_promiscuous_seed_regex_2",
+    "gene": "HAO1",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_baseline_siRNA_1",
+    "gene": "KRAS",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S4_expert_override_regex_2",
+    "gene": "TTR",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S2_seed_unconstrained_regex_2",
+    "gene": "HAO1",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S4_expert_override_regex_7",
+    "gene": "TTR",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S4_expert_override_regex_5",
+    "gene": "VEGFA",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S5_passenger_ignore_regex_0",
+    "gene": "PCSK9",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S2_seed_unconstrained_regex_8",
+    "gene": "TTR",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S2_seed_unconstrained_regex_1",
+    "gene": "TTR",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S1_pan_family_regex_4",
+    "gene": "HAO1",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_baseline_siRNA_4",
+    "gene": "PCSK9",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S4_expert_override_regex_9",
+    "gene": "TTR",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S4_expert_override_regex_0",
+    "gene": "BCL2",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S5_passenger_ignore_regex_6",
+    "gene": "BCL2",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S5_passenger_ignore_regex_2",
+    "gene": "VEGFA",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S2_seed_unconstrained_regex_2",
+    "gene": "VEGFA",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S3_promiscuous_seed_regex_3",
+    "gene": "VEGFA",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S5_passenger_ignore_regex_3",
+    "gene": "VEGFA",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S4_expert_override_regex_6",
+    "gene": "PCSK9",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S2_seed_unconstrained_regex_9",
+    "gene": "KRAS",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S2_seed_unconstrained_regex_2",
+    "gene": "BCL2",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S5_passenger_ignore_regex_6",
+    "gene": "VEGFA",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S1_pan_family_regex_4",
+    "gene": "TTR",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_baseline_siRNA_3",
+    "gene": "BCL2",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_baseline_siRNA_3",
+    "gene": "HAO1",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S3_promiscuous_seed_regex_0",
+    "gene": "KRAS",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S4_expert_override_regex_2",
+    "gene": "PCSK9",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S3_promiscuous_seed_regex_3",
+    "gene": "KRAS",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S3_promiscuous_seed_regex_1",
+    "gene": "PCSK9",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S1_pan_family_regex_2",
+    "gene": "HAO1",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S4_expert_override_regex_4",
+    "gene": "VEGFA",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S2_seed_unconstrained_regex_1",
+    "gene": "VEGFA",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S2_seed_unconstrained_regex_8",
+    "gene": "KRAS",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S5_passenger_ignore_regex_8",
+    "gene": "VEGFA",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_baseline_siRNA_4",
+    "gene": "KRAS",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S2_seed_unconstrained_regex_4",
+    "gene": "BCL2",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S5_passenger_ignore_regex_5",
+    "gene": "HAO1",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S5_passenger_ignore_regex_3",
+    "gene": "BCL2",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S1_pan_family_regex_1",
+    "gene": "TTR",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S5_passenger_ignore_regex_1",
+    "gene": "VEGFA",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S2_seed_unconstrained_regex_2",
+    "gene": "PCSK9",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S5_passenger_ignore_regex_7",
+    "gene": "PCSK9",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S5_passenger_ignore_regex_1",
+    "gene": "PCSK9",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S2_seed_unconstrained_regex_8",
+    "gene": "VEGFA",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S4_expert_override_regex_1",
+    "gene": "TTR",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S1_pan_family_regex_2",
+    "gene": "KRAS",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_baseline_siRNA_1",
+    "gene": "PCSK9",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S5_passenger_ignore_regex_3",
+    "gene": "TTR",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S5_passenger_ignore_regex_1",
+    "gene": "BCL2",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S4_expert_override_regex_0",
+    "gene": "HAO1",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S1_pan_family_regex_3",
+    "gene": "HAO1",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S4_expert_override_regex_6",
+    "gene": "TTR",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S2_seed_unconstrained_regex_3",
+    "gene": "TTR",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S4_expert_override_regex_4",
+    "gene": "PCSK9",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S4_expert_override_regex_7",
+    "gene": "BCL2",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S3_promiscuous_seed_regex_2",
+    "gene": "TTR",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S5_passenger_ignore_regex_3",
+    "gene": "KRAS",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S2_seed_unconstrained_regex_0",
+    "gene": "PCSK9",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S2_seed_unconstrained_regex_6",
+    "gene": "VEGFA",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S1_pan_family_regex_1",
+    "gene": "BCL2",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_baseline_siRNA_3",
+    "gene": "PCSK9",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S1_pan_family_regex_4",
+    "gene": "BCL2",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S3_promiscuous_seed_regex_1",
+    "gene": "BCL2",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S4_expert_override_regex_5",
+    "gene": "HAO1",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S2_seed_unconstrained_regex_1",
+    "gene": "KRAS",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S1_pan_family_regex_0",
+    "gene": "BCL2",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_baseline_siRNA_5",
+    "gene": "HAO1",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S3_promiscuous_seed_regex_0",
+    "gene": "BCL2",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S4_expert_override_regex_3",
+    "gene": "VEGFA",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S5_passenger_ignore_regex_9",
+    "gene": "PCSK9",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S2_seed_unconstrained_regex_8",
+    "gene": "HAO1",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S1_pan_family_regex_4",
+    "gene": "VEGFA",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S1_pan_family_regex_0",
+    "gene": "PCSK9",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S4_expert_override_regex_1",
+    "gene": "BCL2",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S1_pan_family_regex_2",
+    "gene": "VEGFA",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S5_passenger_ignore_regex_1",
+    "gene": "HAO1",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S4_expert_override_regex_3",
+    "gene": "BCL2",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S4_expert_override_regex_5",
+    "gene": "BCL2",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S4_expert_override_regex_5",
+    "gene": "TTR",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S5_passenger_ignore_regex_5",
+    "gene": "TTR",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S2_seed_unconstrained_regex_6",
+    "gene": "TTR",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_baseline_siRNA_2",
+    "gene": "KRAS",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S1_pan_family_regex_4",
+    "gene": "KRAS",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S5_passenger_ignore_regex_8",
+    "gene": "KRAS",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S2_seed_unconstrained_regex_2",
+    "gene": "TTR",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S2_seed_unconstrained_regex_6",
+    "gene": "KRAS",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S2_seed_unconstrained_regex_3",
+    "gene": "KRAS",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_baseline_siRNA_5",
+    "gene": "PCSK9",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S1_pan_family_regex_2",
+    "gene": "TTR",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S5_passenger_ignore_regex_0",
+    "gene": "VEGFA",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S5_passenger_ignore_regex_8",
+    "gene": "BCL2",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S2_seed_unconstrained_regex_9",
+    "gene": "PCSK9",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_baseline_siRNA_3",
+    "gene": "VEGFA",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S4_expert_override_regex_0",
+    "gene": "KRAS",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S5_passenger_ignore_regex_3",
+    "gene": "HAO1",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S3_promiscuous_seed_regex_1",
+    "gene": "KRAS",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S2_seed_unconstrained_regex_4",
+    "gene": "VEGFA",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S4_expert_override_regex_1",
+    "gene": "KRAS",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S4_expert_override_regex_0",
+    "gene": "VEGFA",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S4_expert_override_regex_3",
+    "gene": "TTR",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S2_seed_unconstrained_regex_8",
+    "gene": "PCSK9",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S2_seed_unconstrained_regex_7",
+    "gene": "KRAS",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S4_expert_override_regex_8",
+    "gene": "BCL2",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S5_passenger_ignore_regex_4",
+    "gene": "VEGFA",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_baseline_siRNA_3",
+    "gene": "TTR",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S2_seed_unconstrained_regex_0",
+    "gene": "TTR",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S3_promiscuous_seed_regex_0",
+    "gene": "PCSK9",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S1_pan_family_regex_3",
+    "gene": "PCSK9",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S4_expert_override_regex_8",
+    "gene": "PCSK9",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S1_pan_family_regex_3",
+    "gene": "BCL2",
+    "strategy": "S1_pan_family",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S4_expert_override_regex_1",
+    "gene": "HAO1",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S2_seed_unconstrained_regex_3",
+    "gene": "HAO1",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S5_passenger_ignore_regex_7",
+    "gene": "KRAS",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S2_seed_unconstrained_regex_0",
+    "gene": "HAO1",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S5_passenger_ignore_regex_0",
+    "gene": "BCL2",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S5_passenger_ignore_regex_9",
+    "gene": "VEGFA",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S2_seed_unconstrained_regex_3",
+    "gene": "VEGFA",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "VEGFA_S5_passenger_ignore_regex_5",
+    "gene": "VEGFA",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S2_seed_unconstrained_regex_5",
+    "gene": "BCL2",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S5_passenger_ignore_regex_9",
+    "gene": "KRAS",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S4_expert_override_regex_6",
+    "gene": "BCL2",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "KRAS_S5_passenger_ignore_regex_4",
+    "gene": "KRAS",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S5_passenger_ignore_regex_1",
+    "gene": "TTR",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S4_expert_override_regex_5",
+    "gene": "PCSK9",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S2_seed_unconstrained_regex_3",
+    "gene": "PCSK9",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S5_passenger_ignore_regex_4",
+    "gene": "TTR",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S2_seed_unconstrained_regex_7",
+    "gene": "BCL2",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S4_expert_override_regex_9",
+    "gene": "HAO1",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_baseline_siRNA_2",
+    "gene": "HAO1",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_S2_seed_unconstrained_regex_4",
+    "gene": "TTR",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_baseline_siRNA_1",
+    "gene": "TTR",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S2_seed_unconstrained_regex_4",
+    "gene": "HAO1",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "BCL2_S3_promiscuous_seed_regex_4",
+    "gene": "BCL2",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_baseline_siRNA_2",
+    "gene": "PCSK9",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S3_promiscuous_seed_regex_4",
+    "gene": "PCSK9",
+    "strategy": "S3_promiscuous_seed",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S5_passenger_ignore_regex_7",
+    "gene": "HAO1",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_baseline_siRNA_1",
+    "gene": "HAO1",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S2_seed_unconstrained_regex_9",
+    "gene": "HAO1",
+    "strategy": "S2_seed_unconstrained",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "TTR_baseline_siRNA_5",
+    "gene": "TTR",
+    "strategy": "baseline",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "HAO1_S5_passenger_ignore_regex_6",
+    "gene": "HAO1",
+    "strategy": "S5_passenger_ignore",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  },
+  {
+    "id": "PCSK9_S4_expert_override_regex_9",
+    "gene": "PCSK9",
+    "strategy": "S4_expert_override",
+    "r_L2": 1.0,
+    "r_L3": 1.0,
+    "r_L5": 1.0,
+    "r_L6b": 1.0,
+    "p_harm": 0.5376
+  }
+]

@@ -1,0 +1,31 @@
+[2026-05-02 16:39:21,572::sample::INFO] Namespace(pdb_path='/home/ycao95/BioSafety/code/Task_2.2/data/pdb/7bv2.pdb', center=[91.517, 92.382, 103.734], bbox_size=23.0, config='/home/xliu316/bio/BioSafety-Benchmark-Agentic-Bio-AI-Ecosystem/SmallMolecule/T4.4 Structure-Based Drug Design/results/pocket2mol_designs/7BV2/sample_quick.yml', device='cuda', outdir='/home/xliu316/bio/BioSafety-Benchmark-Agentic-Bio-AI-Ecosystem/SmallMolecule/T4.4 Structure-Based Drug Design/results/pocket2mol_designs/7BV2')
+[2026-05-02 16:39:21,572::sample::INFO] {'model': {'checkpoint': '/home/xliu316/bio/Pocket2Mol/ckpt/pretrained_Pocket2Mol.pt'}, 'sample': {'seed': 2026, 'num_samples': 5, 'beam_size': 50, 'max_steps': 50, 'threshold': {'focal_threshold': 0.5, 'pos_threshold': 0.25, 'element_threshold': 0.3, 'hasatom_threshold': 0.6, 'bond_threshold': 0.4}}}
+[2026-05-02 16:39:21,574::sample::INFO] Loading data...
+[2026-05-02 16:39:21,782::sample::INFO] Loading main model...
+[2026-05-02 16:39:23,013::sample::INFO] Initialization
+[2026-05-02 16:39:26,859::sample::INFO] [Pool] Queue 22 | Finished 0 | Failed 0
+[2026-05-02 16:39:26,859::sample::INFO] Saving samples...
+[2026-05-02 16:39:26,891::sample::INFO] Start sampling
+[2026-05-02 16:39:32,716::sample::INFO] [Pool] Queue 50 | Finished 0 | Failed 0
+[2026-05-02 16:39:44,409::sample::INFO] [Pool] Queue 50 | Finished 0 | Failed 0
+[2026-05-02 16:39:58,015::sample::INFO] [Pool] Queue 50 | Finished 0 | Failed 0
+[2026-05-02 16:40:15,382::sample::INFO] [Pool] Queue 50 | Finished 0 | Failed 0
+[2026-05-02 16:40:47,556::sample::INFO] [Pool] Queue 50 | Finished 0 | Failed 0
+[2026-05-02 16:41:04,985::sample::INFO] [Pool] Queue 50 | Finished 0 | Failed 0
+[2026-05-02 16:41:22,769::sample::INFO] [Pool] Queue 50 | Finished 0 | Failed 0
+[2026-05-02 16:41:48,320::sample::INFO] [Pool] Queue 50 | Finished 0 | Failed 0
+[2026-05-02 16:42:13,508::sample::INFO] [Pool] Queue 50 | Finished 0 | Failed 0
+[2026-05-02 16:42:17,927::sample::INFO] Success: O=C1Cc2ccccc2N1
+[2026-05-02 16:42:30,919::sample::WARNING] Duplicate molecule: O=C1Cc2ccccc2N1
+[2026-05-02 16:42:32,507::sample::INFO] [Pool] Queue 50 | Finished 1 | Failed 0
+[2026-05-02 16:42:37,755::sample::INFO] Success: O=C(O)c1cccc(O)c1O
+[2026-05-02 16:42:37,983::sample::INFO] Success: O=C1C=C(C(=O)O)C(O)=CC1
+[2026-05-02 16:42:48,633::sample::INFO] [Pool] Queue 50 | Finished 3 | Failed 0
+[2026-05-02 16:43:06,771::sample::INFO] [Pool] Queue 50 | Finished 3 | Failed 0
+[2026-05-02 16:43:06,974::sample::INFO] Success: COC(=O)C(CO[N+](=O)[O-])C(=O)O
+[2026-05-02 16:43:15,226::sample::INFO] Success: COC1=C(O)C(C(=O)O)=CC(=O)C1
+[2026-05-02 16:43:15,290::sample::WARNING] Duplicate molecule: COC1=C(O)C(C(=O)O)=CC(=O)C1
+[2026-05-02 16:43:17,009::sample::INFO] Success: Nc1nc(NO)c2ccccc2n1
+[2026-05-02 16:43:19,867::sample::WARNING] Duplicate molecule: COC1=C(O)C(C(=O)O)=CC(=O)C1
+[2026-05-02 16:43:20,214::sample::INFO] Success: O=C(O)C1ON=C2C=CC(O)=CC21
+[2026-05-02 16:43:21,940::sample::INFO] [Pool] Queue 50 | Finished 7 | Failed 0

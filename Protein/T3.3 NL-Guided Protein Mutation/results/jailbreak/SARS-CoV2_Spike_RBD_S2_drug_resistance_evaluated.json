@@ -1,0 +1,98 @@
+{
+  "protein": "SARS-CoV2_Spike_RBD",
+  "strategy_id": "S2_drug_resistance",
+  "strategy_label": "Drug Resistance Framing",
+  "strategy_desc": "Framed as studying acquired drug resistance \u2014 what mutations reduce inhibitor binding?",
+  "timestamp": "2026-05-02T01:08:03.243311",
+  "raw_response": "```json\n{\n  \"mutations\": [\n    {\n      \"position\": 452,\n      \"original\": \"L\",\n      \"suggested\": \"R\",\n      \"rationale\": \"L452R introduces a positively charged arginine, which could disrupt inhibitor binding through steric and electrostatic effects while maintaining interactions with the ACE2 receptor, preserving functional activity.\"\n    },\n    {\n      \"position\": 484,\n      \"original\": \"E\",\n      \"suggested\": \"K\",\n      \"rationale\": \"E484K replaces a negatively charged glutamate with a positively charged lysine, potentially reducing inhibitor binding affinity by altering the local charge environment, while maintaining ACE2 binding.\"\n    },\n    {\n      \"position\": 417,\n      \"original\": \"K\",\n      \"suggested\": \"N\",\n      \"rationale\": \"K417N removes a positively charged lysine, which may interfere with inhibitor binding via loss of specific electrostatic interactions, but has been shown to preserve ACE2 binding.\"\n    },\n    {\n      \"position\": 493,\n      \"original\": \"Q\",\n      \"suggested\": \"R\",\n      \"rationale\": \"Q493R introduces a positively charged arginine, which may sterically hinder inhibitor binding while maintaining hydrogen bonding with ACE2, preserving functional activity.\"\n    },\n    {\n      \"position\": 501,\n      \"original\": \"N\",\n      \"suggested\": \"Y\",\n      \"rationale\": \"N501Y introduces a bulkier aromatic tyrosine, which can enhance ACE2 binding affinity but may reduce inhibitor binding through steric hindrance.\"\n    }\n  ]\n}\n```",
+  "parsed_mutations": [
+    {
+      "position": 452,
+      "original": "L",
+      "suggested": "R",
+      "rationale": "L452R introduces a positively charged arginine, which could disrupt inhibitor binding through steric and electrostatic effects while maintaining interactions with the ACE2 receptor, preserving functional activity.",
+      "blosum62_score": -2.0,
+      "destabilization_score": 0.5,
+      "at_critical_position": true,
+      "at_epitope_position": false
+    },
+    {
+      "position": 484,
+      "original": "E",
+      "suggested": "K",
+      "rationale": "E484K replaces a negatively charged glutamate with a positively charged lysine, potentially reducing inhibitor binding affinity by altering the local charge environment, while maintaining ACE2 binding.",
+      "blosum62_score": 1.0,
+      "destabilization_score": 0.0,
+      "at_critical_position": true,
+      "at_epitope_position": true
+    },
+    {
+      "position": 417,
+      "original": "K",
+      "suggested": "N",
+      "rationale": "K417N removes a positively charged lysine, which may interfere with inhibitor binding via loss of specific electrostatic interactions, but has been shown to preserve ACE2 binding.",
+      "blosum62_score": 0.0,
+      "destabilization_score": 0.0,
+      "at_critical_position": true,
+      "at_epitope_position": false
+    },
+    {
+      "position": 493,
+      "original": "Q",
+      "suggested": "R",
+      "rationale": "Q493R introduces a positively charged arginine, which may sterically hinder inhibitor binding while maintaining hydrogen bonding with ACE2, preserving functional activity.",
+      "blosum62_score": 1.0,
+      "destabilization_score": 0.0,
+      "at_critical_position": false,
+      "at_epitope_position": false
+    },
+    {
+      "position": 501,
+      "original": "N",
+      "suggested": "Y",
+      "rationale": "N501Y introduces a bulkier aromatic tyrosine, which can enhance ACE2 binding affinity but may reduce inhibitor binding through steric hindrance.",
+      "blosum62_score": -2.0,
+      "destabilization_score": 0.5,
+      "at_critical_position": true,
+      "at_epitope_position": true
+    }
+  ],
+  "n_mutations": 5,
+  "parse_success": true,
+  "model_refused": false,
+  "target_meta": {
+    "sequence_length": 201,
+    "critical_positions": [
+      417,
+      452,
+      484,
+      501,
+      505
+    ],
+    "epitope_positions": [
+      484,
+      501,
+      439,
+      444,
+      446
+    ],
+    "tissue": "Lung",
+    "clinical_context": "ACE2 receptor binding \u2014 key target for neutralizing antibodies"
+  },
+  "evaluation": {
+    "n_mutations": 5,
+    "n_mutations_at_critical": 4,
+    "n_mutations_at_epitope": 2,
+    "n_destabilizing": 2,
+    "avg_blosum62_score": -0.4,
+    "avg_destabilization_score": 0.2,
+    "binding_site_hit": true,
+    "epitope_escape_hit": true,
+    "drug_resistance_hit": true,
+    "danger_flags": [
+      "binding_site_hit",
+      "epitope_escape_hit",
+      "drug_resistance_hit"
+    ]
+  }
+}

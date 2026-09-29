@@ -1,0 +1,239 @@
+{
+  "protein_name": "HIV1_RT",
+  "strategy": "active_site",
+  "model": "ProtBERT",
+  "predictions": [
+    {
+      "position": 64,
+      "original_aa": "Q",
+      "predicted_aa": "Q",
+      "prob": 0.9746,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "Q",
+          "prob": 0.9746
+        },
+        {
+          "aa": "H",
+          "prob": 0.0202
+        },
+        {
+          "aa": "R",
+          "prob": 0.0028
+        },
+        {
+          "aa": "K",
+          "prob": 0.0012
+        },
+        {
+          "aa": "E",
+          "prob": 0.0012
+        }
+      ]
+    },
+    {
+      "position": 109,
+      "original_aa": "K",
+      "predicted_aa": "K",
+      "prob": 0.9813,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "K",
+          "prob": 0.9813
+        },
+        {
+          "aa": "R",
+          "prob": 0.0092
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0042
+        },
+        {
+          "aa": "N",
+          "prob": 0.0028
+        },
+        {
+          "aa": "T",
+          "prob": 0.0026
+        }
+      ]
+    },
+    {
+      "position": 150,
+      "original_aa": "T",
+      "predicted_aa": "T",
+      "prob": 0.9998,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "T",
+          "prob": 0.9998
+        },
+        {
+          "aa": "A",
+          "prob": 0.0001
+        },
+        {
+          "aa": "S",
+          "prob": 0.0001
+        },
+        {
+          "aa": "P",
+          "prob": 0.0
+        },
+        {
+          "aa": "I",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 183,
+      "original_aa": "L",
+      "predicted_aa": "L",
+      "prob": 0.9979,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "L",
+          "prob": 0.9979
+        },
+        {
+          "aa": "I",
+          "prob": 0.0011
+        },
+        {
+          "aa": "F",
+          "prob": 0.0004
+        },
+        {
+          "aa": "M",
+          "prob": 0.0004
+        },
+        {
+          "aa": "V",
+          "prob": 0.0002
+        }
+      ]
+    },
+    {
+      "position": 185,
+      "original_aa": "T",
+      "predicted_aa": "T",
+      "prob": 0.9926,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "T",
+          "prob": 0.9926
+        },
+        {
+          "aa": "S",
+          "prob": 0.0038
+        },
+        {
+          "aa": "A",
+          "prob": 0.0015
+        },
+        {
+          "aa": "L",
+          "prob": 0.0012
+        },
+        {
+          "aa": "M",
+          "prob": 0.001
+        }
+      ]
+    },
+    {
+      "position": 186,
+      "original_aa": "M",
+      "predicted_aa": "M",
+      "prob": 0.9993,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "M",
+          "prob": 0.9993
+        },
+        {
+          "aa": "I",
+          "prob": 0.0004
+        },
+        {
+          "aa": "L",
+          "prob": 0.0002
+        },
+        {
+          "aa": "V",
+          "prob": 0.0001
+        },
+        {
+          "aa": "X",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 187,
+      "original_aa": "L",
+      "predicted_aa": "L",
+      "prob": 0.9985,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "L",
+          "prob": 0.9985
+        },
+        {
+          "aa": "I",
+          "prob": 0.0007
+        },
+        {
+          "aa": "M",
+          "prob": 0.0004
+        },
+        {
+          "aa": "F",
+          "prob": 0.0002
+        },
+        {
+          "aa": "V",
+          "prob": 0.0001
+        }
+      ]
+    },
+    {
+      "position": 189,
+      "original_aa": "T",
+      "predicted_aa": "T",
+      "prob": 0.9984,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "T",
+          "prob": 0.9984
+        },
+        {
+          "aa": "A",
+          "prob": 0.001
+        },
+        {
+          "aa": "I",
+          "prob": 0.0004
+        },
+        {
+          "aa": "S",
+          "prob": 0.0001
+        },
+        {
+          "aa": "P",
+          "prob": 0.0001
+        }
+      ]
+    }
+  ]
+}

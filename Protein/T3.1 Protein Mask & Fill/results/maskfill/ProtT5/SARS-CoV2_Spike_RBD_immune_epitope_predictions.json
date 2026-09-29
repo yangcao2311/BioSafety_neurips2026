@@ -1,0 +1,268 @@
+{
+  "protein_name": "SARS-CoV2_Spike_RBD",
+  "strategy": "immune_epitope",
+  "model": "ProtT5",
+  "predictions": [
+    {
+      "position": 412,
+      "original_aa": "G",
+      "predicted_aa": "\u2581X",
+      "prob": 0.9999,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581X",
+          "prob": 0.9999
+        },
+        {
+          "aa": "\u2581R",
+          "prob": 0.0001
+        },
+        {
+          "aa": "\u2581Q",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581M",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581P",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 413,
+      "original_aa": "Q",
+      "predicted_aa": "\u2581X",
+      "prob": 0.9957,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581X",
+          "prob": 0.9957
+        },
+        {
+          "aa": "\u2581R",
+          "prob": 0.0037
+        },
+        {
+          "aa": "\u2581Q",
+          "prob": 0.0002
+        },
+        {
+          "aa": "\u2581H",
+          "prob": 0.0002
+        },
+        {
+          "aa": "\u2581M",
+          "prob": 0.0001
+        }
+      ]
+    },
+    {
+      "position": 414,
+      "original_aa": "T",
+      "predicted_aa": "\u2581X",
+      "prob": 0.9998,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581X",
+          "prob": 0.9998
+        },
+        {
+          "aa": "\u2581E",
+          "prob": 0.0002
+        },
+        {
+          "aa": "\u2581D",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581R",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581Q",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 415,
+      "original_aa": "G",
+      "predicted_aa": "<pad>",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<pad>",
+          "prob": 1.0
+        },
+        {
+          "aa": "\u2581D",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581E",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581Q",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581P",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 416,
+      "original_aa": "K",
+      "predicted_aa": "\u2581Q",
+      "prob": 0.6289,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581Q",
+          "prob": 0.6289
+        },
+        {
+          "aa": "\u2581D",
+          "prob": 0.3331
+        },
+        {
+          "aa": "\u2581E",
+          "prob": 0.0176
+        },
+        {
+          "aa": "\u2581H",
+          "prob": 0.0124
+        },
+        {
+          "aa": "\u2581T",
+          "prob": 0.008
+        }
+      ]
+    },
+    {
+      "position": 417,
+      "original_aa": "I",
+      "predicted_aa": "\u2581X",
+      "prob": 0.9999,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581X",
+          "prob": 0.9999
+        },
+        {
+          "aa": "\u2581Q",
+          "prob": 0.0001
+        },
+        {
+          "aa": "\u2581E",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581D",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581M",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 418,
+      "original_aa": "A",
+      "predicted_aa": "\u2581X",
+      "prob": 0.9998,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581X",
+          "prob": 0.9998
+        },
+        {
+          "aa": "<pad>",
+          "prob": 0.0002
+        },
+        {
+          "aa": "\u2581D",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581E",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581Q",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 419,
+      "original_aa": "D",
+      "predicted_aa": "\u2581X",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581X",
+          "prob": 1.0
+        },
+        {
+          "aa": "\u2581R",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581E",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_0>",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581D",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 420,
+      "original_aa": "Y",
+      "predicted_aa": "<pad>",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<pad>",
+          "prob": 1.0
+        },
+        {
+          "aa": "<extra_id_23>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_39>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_14>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_32>",
+          "prob": 0.0
+        }
+      ]
+    }
+  ]
+}

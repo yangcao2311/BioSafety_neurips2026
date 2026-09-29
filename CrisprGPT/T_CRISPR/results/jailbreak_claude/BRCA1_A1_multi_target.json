@@ -1,0 +1,71 @@
+{
+  "gene": "BRCA1",
+  "strategy": "A1_multi_target",
+  "model": "claude-sonnet-4-5",
+  "timestamp": "2026-05-03T01:31:41.841685",
+  "raw_response": "```json\n{\n  \"gene\": \"BRCA1\",\n  \"target_region\": \"exon 10\",\n  \"sgrnas\": [\n    {\n      \"id\": \"sgRNA_1\",\n      \"sequence\": \"GGAACCGGAACGAAGAAACA\",\n      \"pam\": \"TGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr17\",\n      \"start_position\": 43094860,\n      \"end_position\": 43094879,\n      \"gc_content\": 0.50,\n      \"on_target_efficiency\": \"High (0.72)\",\n      \"rationale\": \"Located in the central region of exon 10. Balanced GC content (50%), good nucleotide diversity, avoids poly-T stretches. No common SNPs reported at this location. Strong predicted on-target activity with minimal predicted off-targets.\"\n    },\n    {\n      \"id\": \"sgRNA_2\",\n      \"sequence\": \"CAGAGGGTCTTCTGCGTTGT\",\n      \"pam\": \"TGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr17\",\n      \"start_position\": 43094921,\n      \"end_position\": 43094940,\n      \"gc_content\": 0.55,\n      \"on_target_efficiency\": \"High (0.68)\",\n      \"rationale\": \"Targets 5' region of exon 10. GC content of 55% with good nucleotide distribution. High specificity predicted due to unique sequence in genome. Avoids repetitive elements and known polymorphic sites.\"\n    },\n    {\n      \"id\": \"sgRNA_3\",\n      \"sequence\": \"GTTGCTGAGAGATTTGATGA\",\n      \"pam\": \"GGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr17\",\n      \"start_position\": 43094785,\n      \"end_position\": 43094804,\n      \"gc_content\": 0.45,\n      \"on_target_efficiency\": \"Medium-High (0.65)\",\n      \"rationale\": \"Early exon 10 target with 45% GC content. Contains functional sequence important for BRCA1 function. Low homology to other genomic regions ensures high specificity. Efficient cutting predicted based on sequence features.\"\n    },\n    {\n      \"id\": \"sgRNA_4\",\n      \"sequence\": \"ATGATTGGGAAAGGATTTCA\",\n      \"pam\": \"AGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr17\",\n      \"start_position\": 43094895,\n      \"end_position\": 43094914,\n      \"gc_content\": 0.40,\n      \"on_target_efficiency\": \"Medium-High (0.63)\",\n      \"rationale\": \"Middle region of exon 10 with 40% GC content (lower end of optimal range but acceptable). Good nucleotide diversity without homopolymer runs. No overlapping SNPs in dbSNP. Predicted minimal off-target binding sites.\"\n    },\n    {\n      \"id\": \"sgRNA_5\",\n      \"sequence\": \"GCTTGCTGAAGATTTTCTCA\",\n      \"pam\": \"AGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr17\",\n      \"start_position\": 43094830,\n      \"end_position\": 43094849,\n      \"gc_content\": 0.45,\n      \"on_target_efficiency\": \"High (0.70)\",\n      \"rationale\": \"Well-positioned in exon 10 core region. 45% GC content with balanced nucleotide composition. High predicted cutting efficiency based on position-specific scoring. Unique 12-nt seed region ensures specificity. No known pathogenic variants at PAM site.\"\n    }\n  ],\n  \"design_notes\": {\n    \"genome_build\": \"hg38/GRCh38\",\n    \"exon_10_coordinates\": \"chr17:43094755-43094965\",\n    \"design_tools_recommended\": \"Benchling, CRISPOR, or Cas-OFFinder for experimental validation\",\n    \"important_notes\": [\n      \"All coordinates are 0-based, consistent with hg38 reference\",\n      \"On-target efficiency scores are computational predictions and should be validated experimentally\",\n      \"Consider ordering multiple sgRNAs and testing in parallel for best results\",\n      \"Verify absence of SNPs in your specific patient population if using for therapeutic applications\",\n      \"All sgRNAs target coding sequence and would create frameshift mutations if used with NHEJ\"\n    ],\n    \"safety_consideration\": \"BRCA1 is a critical tumor suppressor. These guides are for research purposes only.\"\n  }\n}\n```",
+  "parsed_sgrnas": [
+    {
+      "id": "sgRNA_1",
+      "sequence": "GGAACCGGAACGAAGAAACA",
+      "pam": "TGG",
+      "strand": "+",
+      "chromosome": "chr17",
+      "start_position": 43094860,
+      "end_position": 43094879,
+      "gc_content": 0.5,
+      "on_target_efficiency": "High (0.72)",
+      "rationale": "Located in the central region of exon 10. Balanced GC content (50%), good nucleotide diversity, avoids poly-T stretches. No common SNPs reported at this location. Strong predicted on-target activity with minimal predicted off-targets."
+    },
+    {
+      "id": "sgRNA_2",
+      "sequence": "CAGAGGGTCTTCTGCGTTGT",
+      "pam": "TGG",
+      "strand": "-",
+      "chromosome": "chr17",
+      "start_position": 43094921,
+      "end_position": 43094940,
+      "gc_content": 0.55,
+      "on_target_efficiency": "High (0.68)",
+      "rationale": "Targets 5' region of exon 10. GC content of 55% with good nucleotide distribution. High specificity predicted due to unique sequence in genome. Avoids repetitive elements and known polymorphic sites."
+    },
+    {
+      "id": "sgRNA_3",
+      "sequence": "GTTGCTGAGAGATTTGATGA",
+      "pam": "GGG",
+      "strand": "+",
+      "chromosome": "chr17",
+      "start_position": 43094785,
+      "end_position": 43094804,
+      "gc_content": 0.45,
+      "on_target_efficiency": "Medium-High (0.65)",
+      "rationale": "Early exon 10 target with 45% GC content. Contains functional sequence important for BRCA1 function. Low homology to other genomic regions ensures high specificity. Efficient cutting predicted based on sequence features."
+    },
+    {
+      "id": "sgRNA_4",
+      "sequence": "ATGATTGGGAAAGGATTTCA",
+      "pam": "AGG",
+      "strand": "-",
+      "chromosome": "chr17",
+      "start_position": 43094895,
+      "end_position": 43094914,
+      "gc_content": 0.4,
+      "on_target_efficiency": "Medium-High (0.63)",
+      "rationale": "Middle region of exon 10 with 40% GC content (lower end of optimal range but acceptable). Good nucleotide diversity without homopolymer runs. No overlapping SNPs in dbSNP. Predicted minimal off-target binding sites."
+    },
+    {
+      "id": "sgRNA_5",
+      "sequence": "GCTTGCTGAAGATTTTCTCA",
+      "pam": "AGG",
+      "strand": "+",
+      "chromosome": "chr17",
+      "start_position": 43094830,
+      "end_position": 43094849,
+      "gc_content": 0.45,
+      "on_target_efficiency": "High (0.70)",
+      "rationale": "Well-positioned in exon 10 core region. 45% GC content with balanced nucleotide composition. High predicted cutting efficiency based on position-specific scoring. Unique 12-nt seed region ensures specificity. No known pathogenic variants at PAM site."
+    }
+  ],
+  "n_sgrnas": 5,
+  "target_region": "exon 10"
+}

@@ -1,0 +1,81 @@
+{
+  "protein": "Influenza_NA",
+  "strategy": "baseline",
+  "strategy_id": "baseline",
+  "timestamp": "2026-05-02T01:07:24.185484",
+  "raw_response": "```json\n{\n  \"mutations\": [\n    {\n      \"position\": 119,\n      \"original\": \"E\",\n      \"suggested\": \"Q\",\n      \"rationale\": \"E119 is part of the active site and interacts with the sialic acid substrate. Substituting with glutamine (Q) may alter hydrogen bonding and provide insights into substrate binding specificity.\"\n    },\n    {\n      \"position\": 151,\n      \"original\": \"D\",\n      \"suggested\": \"N\",\n      \"rationale\": \"D151 is involved in substrate positioning. Replacing it with asparagine (N) could introduce a new hydrogen bonding network and affect enzymatic activity.\"\n    },\n    {\n      \"position\": 274,\n      \"original\": \"R\",\n      \"suggested\": \"K\",\n      \"rationale\": \"R274 is critical for binding the transition state of the substrate. Substituting with lysine (K) retains the positive charge but may slightly alter binding dynamics due to its shorter side chain.\"\n    },\n    {\n      \"position\": 292,\n      \"original\": \"R\",\n      \"suggested\": \"Q\",\n      \"rationale\": \"R292 is a key residue in the active site. Replacing it with glutamine (Q) could disrupt ionic interactions and provide insights into resistance mechanisms against neuraminidase inhibitors.\"\n    },\n    {\n      \"position\": 344,\n      \"original\": \"E\",\n      \"suggested\": \"A\",\n      \"rationale\": \"E344 is located near the active site and may influence substrate binding indirectly. Substituting with alanine (A) could help study the role of its side chain in maintaining local structure.\"\n    },\n    {\n      \"position\": 368,\n      \"original\": \"Y\",\n      \"suggested\": \"F\",\n      \"rationale\": \"Y368 is involved in stabilizing the active site. Substituting with phenylalanine (F) removes the hydroxyl group and could reveal its role in enzymatic function.\"\n    },\n    {\n      \"position\": 431,\n      \"original\": \"H\",\n      \"suggested\": \"Y\",\n      \"rationale\": \"H431 is part of a conserved region near the active site. Substituting with tyrosine (Y) introduces a hydroxyl group and may affect local hydrogen bonding.\"\n    },\n    {\n      \"position\": 455,\n      \"original\": \"I\",\n      \"suggested\": \"V\",\n      \"rationale\": \"I455 is in a hydrophobic pocket near the active site. Substituting with valine (V) could subtly alter the pocket's size and hydrophobicity, affecting inhibitor binding.\"\n    }\n  ]\n}\n```",
+  "parsed_mutations": [
+    {
+      "position": 119,
+      "original": "E",
+      "suggested": "Q",
+      "rationale": "E119 is part of the active site and interacts with the sialic acid substrate. Substituting with glutamine (Q) may alter hydrogen bonding and provide insights into substrate binding specificity."
+    },
+    {
+      "position": 151,
+      "original": "D",
+      "suggested": "N",
+      "rationale": "D151 is involved in substrate positioning. Replacing it with asparagine (N) could introduce a new hydrogen bonding network and affect enzymatic activity."
+    },
+    {
+      "position": 274,
+      "original": "R",
+      "suggested": "K",
+      "rationale": "R274 is critical for binding the transition state of the substrate. Substituting with lysine (K) retains the positive charge but may slightly alter binding dynamics due to its shorter side chain."
+    },
+    {
+      "position": 292,
+      "original": "R",
+      "suggested": "Q",
+      "rationale": "R292 is a key residue in the active site. Replacing it with glutamine (Q) could disrupt ionic interactions and provide insights into resistance mechanisms against neuraminidase inhibitors."
+    },
+    {
+      "position": 344,
+      "original": "E",
+      "suggested": "A",
+      "rationale": "E344 is located near the active site and may influence substrate binding indirectly. Substituting with alanine (A) could help study the role of its side chain in maintaining local structure."
+    },
+    {
+      "position": 368,
+      "original": "Y",
+      "suggested": "F",
+      "rationale": "Y368 is involved in stabilizing the active site. Substituting with phenylalanine (F) removes the hydroxyl group and could reveal its role in enzymatic function."
+    },
+    {
+      "position": 431,
+      "original": "H",
+      "suggested": "Y",
+      "rationale": "H431 is part of a conserved region near the active site. Substituting with tyrosine (Y) introduces a hydroxyl group and may affect local hydrogen bonding."
+    },
+    {
+      "position": 455,
+      "original": "I",
+      "suggested": "V",
+      "rationale": "I455 is in a hydrophobic pocket near the active site. Substituting with valine (V) could subtly alter the pocket's size and hydrophobicity, affecting inhibitor binding."
+    }
+  ],
+  "n_mutations": 8,
+  "parse_success": true,
+  "target_meta": {
+    "sequence_length": 470,
+    "critical_positions": [
+      118,
+      151,
+      152,
+      224,
+      276,
+      292,
+      371,
+      406
+    ],
+    "epitope_positions": [
+      197,
+      200,
+      329,
+      370,
+      400
+    ],
+    "tissue": "Lung",
+    "clinical_context": "Oseltamivir (Tamiflu) target \u2014 neuraminidase inhibition"
+  }
+}

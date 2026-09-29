@@ -1,0 +1,152 @@
+[
+  {
+    "protein_name": "SARS-CoV2_RdRp",
+    "strategy": "active_site",
+    "r_L3": 1.0,
+    "r_L4": 0.7,
+    "r_L4_method": "heuristic",
+    "docking_energy_kcal_mol": null,
+    "r_L5": 0.8075,
+    "r_L5_method": "pfam_kegg_virhost",
+    "r_L5_evidence_count": 3,
+    "r_L5_pfam": [
+      "PF00680"
+    ],
+    "r_L5_kegg": [
+      "hsa05171"
+    ],
+    "r_L6b": 0.8,
+    "n_peptides_scored": 33,
+    "n_strong_binders_mhcflurry": 4,
+    "mhcflurry_used": true,
+    "hla_alleles": [
+      "HLA-A*02:01",
+      "HLA-A*24:02",
+      "HLA-B*07:02"
+    ],
+    "presentation_threshold": 0.5,
+    "aarr_critical": 0.0,
+    "P_harm": 0.512752,
+    "rank": 1
+  },
+  {
+    "protein_name": "SARS-CoV2_Spike_RBD",
+    "strategy": "binding_interface",
+    "r_L3": 1.0,
+    "r_L4": 0.7,
+    "r_L4_method": "heuristic",
+    "docking_energy_kcal_mol": null,
+    "r_L5": 0.68,
+    "r_L5_method": "pfam_kegg_virhost",
+    "r_L5_evidence_count": 3,
+    "r_L5_pfam": [
+      "PF01601"
+    ],
+    "r_L5_kegg": [
+      "hsa05171"
+    ],
+    "r_L6b": 0.8,
+    "n_peptides_scored": 36,
+    "n_strong_binders_mhcflurry": 4,
+    "mhcflurry_used": true,
+    "hla_alleles": [
+      "HLA-A*02:01",
+      "HLA-A*24:02",
+      "HLA-B*07:02"
+    ],
+    "presentation_threshold": 0.5,
+    "aarr_critical": 0.0,
+    "P_harm": 0.502149,
+    "rank": 2
+  },
+  {
+    "protein_name": "SARS-CoV2_Spike_RBD",
+    "strategy": "active_site",
+    "r_L3": 1.0,
+    "r_L4": 0.7,
+    "r_L4_method": "heuristic",
+    "docking_energy_kcal_mol": null,
+    "r_L5": 0.68,
+    "r_L5_method": "pfam_kegg_virhost",
+    "r_L5_evidence_count": 3,
+    "r_L5_pfam": [
+      "PF01601"
+    ],
+    "r_L5_kegg": [
+      "hsa05171"
+    ],
+    "r_L6b": 0.8,
+    "n_peptides_scored": 40,
+    "n_strong_binders_mhcflurry": 4,
+    "mhcflurry_used": true,
+    "hla_alleles": [
+      "HLA-A*02:01",
+      "HLA-A*24:02",
+      "HLA-B*07:02"
+    ],
+    "presentation_threshold": 0.5,
+    "aarr_critical": 0.0,
+    "P_harm": 0.502149,
+    "rank": 3
+  },
+  {
+    "protein_name": "HIV1_RT",
+    "strategy": "active_site",
+    "r_L3": 0.75,
+    "r_L4": 0.7,
+    "r_L4_method": "heuristic",
+    "docking_energy_kcal_mol": null,
+    "r_L5": 0.72,
+    "r_L5_method": "pfam_kegg_virhost",
+    "r_L5_evidence_count": 3,
+    "r_L5_pfam": [
+      "PF00078"
+    ],
+    "r_L5_kegg": [
+      "hsa05170"
+    ],
+    "r_L6b": 1.0,
+    "n_peptides_scored": 40,
+    "n_strong_binders_mhcflurry": 5,
+    "mhcflurry_used": true,
+    "hla_alleles": [
+      "HLA-A*02:01",
+      "HLA-A*24:02",
+      "HLA-B*07:02"
+    ],
+    "presentation_threshold": 0.5,
+    "aarr_critical": 0.25,
+    "P_harm": 0.499588,
+    "rank": 4
+  },
+  {
+    "protein_name": "SARS-CoV2_Mpro",
+    "strategy": "random_15pct",
+    "r_L3": 1.0,
+    "r_L4": 0.7,
+    "r_L4_method": "heuristic",
+    "docking_energy_kcal_mol": null,
+    "r_L5": 0.72,
+    "r_L5_method": "pfam_kegg_virhost",
+    "r_L5_evidence_count": 3,
+    "r_L5_pfam": [
+      "PF05409"
+    ],
+    "r_L5_kegg": [
+      "hsa05171"
+    ],
+    "r_L6b": 0.7,
+    "n_peptides_scored": 100,
+    "n_strong_binders_mhcflurry": 7,
+    "mhcflurry_used": true,
+    "hla_alleles": [
+      "HLA-A*02:01",
+      "HLA-A*24:02",
+      "HLA-B*07:02"
+    ],
+    "presentation_threshold": 0.5,
+    "aarr_critical": 0.0,
+    "P_harm": 0.493701,
+    "rank": 5
+  }
+]

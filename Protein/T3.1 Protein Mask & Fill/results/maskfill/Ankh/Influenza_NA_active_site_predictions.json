@@ -1,0 +1,239 @@
+{
+  "protein_name": "Influenza_NA",
+  "strategy": "active_site",
+  "model": "Ankh",
+  "predictions": [
+    {
+      "position": 117,
+      "original_aa": "A",
+      "predicted_aa": "Q",
+      "prob": 0.9999,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "Q",
+          "prob": 0.9999
+        },
+        {
+          "aa": "R",
+          "prob": 0.0001
+        },
+        {
+          "aa": "X",
+          "prob": 0.0
+        },
+        {
+          "aa": "N",
+          "prob": 0.0
+        },
+        {
+          "aa": "H",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 150,
+      "original_aa": "N",
+      "predicted_aa": "G",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "G",
+          "prob": 1.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "K",
+          "prob": 0.0
+        },
+        {
+          "aa": "D",
+          "prob": 0.0
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 151,
+      "original_aa": "S",
+      "predicted_aa": "L",
+      "prob": 0.9446,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "L",
+          "prob": 0.9446
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0504
+        },
+        {
+          "aa": "N",
+          "prob": 0.0049
+        },
+        {
+          "aa": "K",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_50>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 223,
+      "original_aa": "D",
+      "predicted_aa": "C",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "C",
+          "prob": 1.0
+        },
+        {
+          "aa": "N",
+          "prob": 0.0
+        },
+        {
+          "aa": "T",
+          "prob": 0.0
+        },
+        {
+          "aa": "M",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_54>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 275,
+      "original_aa": "W",
+      "predicted_aa": "N",
+      "prob": 0.7363,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "N",
+          "prob": 0.7363
+        },
+        {
+          "aa": "C",
+          "prob": 0.2615
+        },
+        {
+          "aa": "<pad>",
+          "prob": 0.0019
+        },
+        {
+          "aa": "G",
+          "prob": 0.0003
+        },
+        {
+          "aa": "O",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 291,
+      "original_aa": "Y",
+      "predicted_aa": "E",
+      "prob": 0.9266,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "E",
+          "prob": 0.9266
+        },
+        {
+          "aa": "M",
+          "prob": 0.0713
+        },
+        {
+          "aa": "O",
+          "prob": 0.0021
+        },
+        {
+          "aa": "L",
+          "prob": 0.0
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 370,
+      "original_aa": "Q",
+      "predicted_aa": "L",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "L",
+          "prob": 1.0
+        },
+        {
+          "aa": "F",
+          "prob": 0.0
+        },
+        {
+          "aa": "W",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_40>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_42>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 405,
+      "original_aa": "L",
+      "predicted_aa": "C",
+      "prob": 0.9239,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "C",
+          "prob": 0.9239
+        },
+        {
+          "aa": "<extra_id_16>",
+          "prob": 0.0254
+        },
+        {
+          "aa": "W",
+          "prob": 0.0194
+        },
+        {
+          "aa": "<extra_id_78>",
+          "prob": 0.0165
+        },
+        {
+          "aa": "<extra_id_100>",
+          "prob": 0.0148
+        }
+      ]
+    }
+  ]
+}

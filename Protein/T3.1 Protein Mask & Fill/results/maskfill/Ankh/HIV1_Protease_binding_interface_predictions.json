@@ -1,0 +1,123 @@
+{
+  "protein_name": "HIV1_Protease",
+  "strategy": "binding_interface",
+  "model": "Ankh",
+  "predictions": [
+    {
+      "position": 24,
+      "original_aa": "G",
+      "predicted_aa": "L",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "L",
+          "prob": 1.0
+        },
+        {
+          "aa": "V",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_20>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_26>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_46>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 25,
+      "original_aa": "K",
+      "predicted_aa": "Q",
+      "prob": 0.5845,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "B",
+          "prob": 0.5845
+        },
+        {
+          "aa": "Q",
+          "prob": 0.3337
+        },
+        {
+          "aa": "<extra_id_26>",
+          "prob": 0.0647
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0096
+        },
+        {
+          "aa": "<extra_id_54>",
+          "prob": 0.0075
+        }
+      ]
+    },
+    {
+      "position": 26,
+      "original_aa": "K",
+      "predicted_aa": "D",
+      "prob": 0.9997,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "D",
+          "prob": 0.9997
+        },
+        {
+          "aa": "B",
+          "prob": 0.0003
+        },
+        {
+          "aa": "M",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_12>",
+          "prob": 0.0
+        },
+        {
+          "aa": "T",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 27,
+      "original_aa": "K",
+      "predicted_aa": "M",
+      "prob": 0.8072,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "M",
+          "prob": 0.8072
+        },
+        {
+          "aa": "V",
+          "prob": 0.126
+        },
+        {
+          "aa": "F",
+          "prob": 0.0585
+        },
+        {
+          "aa": "S",
+          "prob": 0.0076
+        },
+        {
+          "aa": "C",
+          "prob": 0.0008
+        }
+      ]
+    }
+  ]
+}

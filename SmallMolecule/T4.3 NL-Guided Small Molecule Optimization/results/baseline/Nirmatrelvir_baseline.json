@@ -1,0 +1,192 @@
+{
+  "molecule_name": "Nirmatrelvir",
+  "strategy": "baseline",
+  "original_smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)C",
+  "original_smiles_valid": true,
+  "original_canonical_smiles": "CC(C)(C)C(NC(=O)C1CC1(C)C#N)C(=O)N1CC1(C)C1CC1NC(=O)C(F)(F)F",
+  "disease_target": "SARS-CoV-2 Mpro",
+  "mechanism": "Covalent protease inhibitor",
+  "clinical_context": "FDA-approved Paxlovid component",
+  "user_prompt": "Suggest 3 structural modifications to Nirmatrelvir (SMILES: CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)C) to improve its pharmacological profile against SARS-CoV-2 Mpro. For each modification, provide:\n1. A description of the change\n2. The modified SMILES string\n3. Scientific rationale\n\nFormat each modification clearly and include the SMILES on its own line.",
+  "raw_response": "### Modification 1: Introduction of a hydroxyl group to improve solubility and hydrogen bonding\n**Description**: Add a hydroxyl group (-OH) to the cyclopropane ring attached to the nitrile-containing side chain. This modification could enhance solubility and provide an additional hydrogen-bond donor, potentially improving binding affinity to SARS-CoV-2 Mpro.\n\n**Modified SMILES**:  \n`CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1C(C)(C)C(O)C#N)C(C)(C)C`\n\n**Scientific Rationale**: The hydroxyl group can engage in hydrogen bonding with active site residues of SARS-CoV-2 Mpro, improving affinity and specificity. Additionally, increased polar character may enhance aqueous solubility, which could improve oral bioavailability.\n\n---\n\n### Modification 2: Fluorination of the cyclopropane ring for metabolic stability\n**Description**: Replace one of the hydrogens on the cyclopropane ring of the nitrile-bearing side chain with a fluorine atom. This modification could increase metabolic stability by reducing the likelihood of oxidative metabolism at this site.\n\n**Modified SMILES**:  \n`CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1C(C)(C)C(F)C#N)C(C)(C)C`\n\n**Scientific Rationale**: Fluorination enhances the electron density around the carbon atom, reducing the susceptibility of the molecule to enzymatic degradation (e.g., by cytochrome P450 enzymes). This can prolong the compound's half-life and improve pharmacokinetics.\n\n---\n\n### Modification 3: Replacement of trifluoromethyl group with a difluoromethyl group to modulate lipophilicity\n**Description**: Replace the trifluoromethyl group (-CF3) on the main chain with a difluoromethyl group (-CF2H). This reduces lipophilicity while retaining some electron-withdrawing effects.\n\n**Modified SMILES**:  \n`CC1(C2CC2NC(=O)C(F)(F)H)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)C`\n\n**Scientific Rationale**: Reducing the lipophilicity by replacing one fluorine with a hydrogen atom can improve the balance between solubility and membrane permeability. This change may also reduce off-target interactions and toxicity while retaining potency against the protease due to the electron-withdrawing nature of the difluoromethyl group.\n\n---\n\nThese modifications aim to improve the drug's solubility, metabolic stability, and pharmacokinetics while maintaining or enhancing potency against SARS-CoV-2 Mpro.",
+  "suggested_smiles_list": [
+    {
+      "raw_smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1C(C)(C)C(O)C#N)C(C)(C)C",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1C(C)(C)C(F)C#N)C(C)(C)C",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "CC1(C2CC2NC(=O)C(F)(F)H)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)C",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Modification",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Introduction",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Description",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "cyclopropane",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "nitrile-containing",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "modification",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "hydrogen-bond",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "potentially",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "specificity",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Additionally",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "bioavailability",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Fluorination",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "nitrile-bearing",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "susceptibility",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "degradation",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "pharmacokinetics",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Replacement",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "trifluoromethyl",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "difluoromethyl",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "lipophilicity",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "electron-withdrawing",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "permeability",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "interactions",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "modifications",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "maintaining",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    }
+  ],
+  "n_valid_smiles": 0,
+  "n_invalid_smiles": 28,
+  "api_model": "gpt-4o-2024-11-20",
+  "api_usage": {
+    "prompt_tokens": 160,
+    "completion_tokens": 611,
+    "total_tokens": 771
+  },
+  "api_error": null,
+  "timestamp": "2026-05-02T01:10:28.249342Z"
+}

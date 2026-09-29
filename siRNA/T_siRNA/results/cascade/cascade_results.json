@@ -1,0 +1,352 @@
+[
+  {
+    "rank": 1,
+    "sirna_id": "VEGFA_S4_expert_override_regex_1",
+    "gene": "VEGFA",
+    "strategy": "S4_expert_override",
+    "guide_strand": "UUUCUUGAGCAACUUCAUGCU",
+    "seed_region": "UUCUUGA",
+    "composite_score": 9.8668,
+    "r_L1L2": 0.9867,
+    "r_L3": 0.88,
+    "r_L5": 0.3545,
+    "r_L6b": 0.1,
+    "P_harm": 0.6498,
+    "L3_details": {
+      "total_seed_risk": 1111.1312,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 121.077,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.6000000000000001,
+      "top_motifs": [
+        {
+          "motif": "UU",
+          "count": 3,
+          "weight": 0.2
+        }
+      ]
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 121.077,
+        "essential": true
+      },
+      {
+        "gene": "EGFR",
+        "risk": 54.288,
+        "essential": false
+      },
+      {
+        "gene": "SRC",
+        "risk": 50.9581,
+        "essential": false
+      },
+      {
+        "gene": "CDH1",
+        "risk": 48.8085,
+        "essential": false
+      },
+      {
+        "gene": "JAK2",
+        "risk": 48.197,
+        "essential": false
+      }
+    ],
+    "timestamp": "2026-05-01T03:48:51.191990"
+  },
+  {
+    "rank": 2,
+    "sirna_id": "TTR_S2_seed_unconstrained_regex_9",
+    "gene": "TTR",
+    "strategy": "S2_seed_unconstrained",
+    "guide_strand": "UAGGUCUCCAAUGUAGCCAUU",
+    "seed_region": "AGGUCUC",
+    "composite_score": 9.8668,
+    "r_L1L2": 0.9867,
+    "r_L3": 0.88,
+    "r_L5": 0.3545,
+    "r_L6b": 0.3833,
+    "P_harm": 0.6753,
+    "L3_details": {
+      "total_seed_risk": 1111.1312,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 121.077,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 2.3000000000000003,
+      "top_motifs": [
+        {
+          "motif": "GUAG",
+          "count": 1,
+          "weight": 1.5
+        },
+        {
+          "motif": "GU",
+          "count": 2,
+          "weight": 0.3
+        },
+        {
+          "motif": "UU",
+          "count": 1,
+          "weight": 0.2
+        }
+      ]
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 121.077,
+        "essential": true
+      },
+      {
+        "gene": "EGFR",
+        "risk": 54.288,
+        "essential": false
+      },
+      {
+        "gene": "SRC",
+        "risk": 50.9581,
+        "essential": false
+      },
+      {
+        "gene": "CDH1",
+        "risk": 48.8085,
+        "essential": false
+      },
+      {
+        "gene": "JAK2",
+        "risk": 48.197,
+        "essential": false
+      }
+    ],
+    "timestamp": "2026-05-01T03:48:51.192026"
+  },
+  {
+    "rank": 3,
+    "sirna_id": "KRAS_S2_seed_unconstrained_regex_5",
+    "gene": "KRAS",
+    "strategy": "S2_seed_unconstrained",
+    "guide_strand": "AGUUCAGAAGGUCCGAAGAAG",
+    "seed_region": "GUUCAGA",
+    "composite_score": 9.8668,
+    "r_L1L2": 0.9867,
+    "r_L3": 0.88,
+    "r_L5": 0.3545,
+    "r_L6b": 0.1333,
+    "P_harm": 0.6528,
+    "L3_details": {
+      "total_seed_risk": 1111.1312,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 121.077,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.8,
+      "top_motifs": [
+        {
+          "motif": "GU",
+          "count": 2,
+          "weight": 0.3
+        },
+        {
+          "motif": "UU",
+          "count": 1,
+          "weight": 0.2
+        }
+      ]
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 121.077,
+        "essential": true
+      },
+      {
+        "gene": "EGFR",
+        "risk": 54.288,
+        "essential": false
+      },
+      {
+        "gene": "SRC",
+        "risk": 50.9581,
+        "essential": false
+      },
+      {
+        "gene": "CDH1",
+        "risk": 48.8085,
+        "essential": false
+      },
+      {
+        "gene": "JAK2",
+        "risk": 48.197,
+        "essential": false
+      }
+    ],
+    "timestamp": "2026-05-01T03:48:51.192050"
+  },
+  {
+    "rank": 4,
+    "sirna_id": "PCSK9_S5_passenger_ignore_regex_4",
+    "gene": "PCSK9",
+    "strategy": "S5_passenger_ignore",
+    "guide_strand": "GAGACCUUGGCUCAUGGACAA",
+    "seed_region": "AGACCUU",
+    "composite_score": 9.8668,
+    "r_L1L2": 0.9867,
+    "r_L3": 0.88,
+    "r_L5": 0.3545,
+    "r_L6b": 0.0333,
+    "P_harm": 0.6438,
+    "L3_details": {
+      "total_seed_risk": 1111.1312,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 121.077,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 0.2,
+      "top_motifs": [
+        {
+          "motif": "UU",
+          "count": 1,
+          "weight": 0.2
+        }
+      ]
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 121.077,
+        "essential": true
+      },
+      {
+        "gene": "EGFR",
+        "risk": 54.288,
+        "essential": false
+      },
+      {
+        "gene": "SRC",
+        "risk": 50.9581,
+        "essential": false
+      },
+      {
+        "gene": "CDH1",
+        "risk": 48.8085,
+        "essential": false
+      },
+      {
+        "gene": "JAK2",
+        "risk": 48.197,
+        "essential": false
+      }
+    ],
+    "timestamp": "2026-05-01T03:48:51.192069"
+  },
+  {
+    "rank": 5,
+    "sirna_id": "BCL2_S2_seed_unconstrained_regex_9",
+    "gene": "BCL2",
+    "strategy": "S2_seed_unconstrained",
+    "guide_strand": "AAUUGUCCACAAGAUCUCCAG",
+    "seed_region": "AUUGUCC",
+    "composite_score": 9.8668,
+    "r_L1L2": 0.9867,
+    "r_L3": 0.88,
+    "r_L5": 0.3545,
+    "r_L6b": 0.3333,
+    "P_harm": 0.6708,
+    "L3_details": {
+      "total_seed_risk": 1111.1312,
+      "unique_silenced_genes": 30
+    },
+    "L5_details": {
+      "essential_hits": [
+        {
+          "gene": "MYC",
+          "risk": 121.077,
+          "essential": true
+        }
+      ]
+    },
+    "L6b_details": {
+      "raw_tlr_score": 2.0,
+      "top_motifs": [
+        {
+          "motif": "UUGU",
+          "count": 1,
+          "weight": 1.5
+        },
+        {
+          "motif": "GU",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "motif": "UU",
+          "count": 1,
+          "weight": 0.2
+        }
+      ]
+    },
+    "top_seed_matched_genes": [
+      {
+        "gene": "MYC",
+        "risk": 121.077,
+        "essential": true
+      },
+      {
+        "gene": "EGFR",
+        "risk": 54.288,
+        "essential": false
+      },
+      {
+        "gene": "SRC",
+        "risk": 50.9581,
+        "essential": false
+      },
+      {
+        "gene": "CDH1",
+        "risk": 48.8085,
+        "essential": false
+      },
+      {
+        "gene": "JAK2",
+        "risk": 48.197,
+        "essential": false
+      }
+    ],
+    "timestamp": "2026-05-01T03:48:51.192091"
+  }
+]

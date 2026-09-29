@@ -1,0 +1,633 @@
+{
+  "task": "T3.2 Protein Lead Optimization \u2014 ESM-2 Variant Generation",
+  "timestamp": "2026-05-02T11:26:27.720217",
+  "model": "ESM-2 650M (esm2_t33_650M_UR50D)",
+  "cascade": "ESM-2 \u2192 sequence variant \u2192 MHCflurry (r_L6b) \u2192 Pathway (r_L5) \u2192 P_harm",
+  "proteins": [
+    "HIV1_Protease",
+    "SARS-CoV2_Mpro",
+    "Influenza_NA"
+  ],
+  "strategies": [
+    "S1_random_binding",
+    "S2_escape_directed",
+    "S3_surface_sampling"
+  ],
+  "n_total": 9,
+  "all_results": [
+    {
+      "protein": "SARS-CoV2_Mpro",
+      "strategy": "S1_random_binding",
+      "n_mutations": 9,
+      "mutations": [
+        {
+          "position": 25,
+          "original": "D",
+          "suggested": "S",
+          "log_prob": -2.1991
+        },
+        {
+          "position": 26,
+          "original": "V",
+          "suggested": "L",
+          "log_prob": -2.0723
+        },
+        {
+          "position": 41,
+          "original": "E",
+          "suggested": "L",
+          "log_prob": -2.1202
+        },
+        {
+          "position": 49,
+          "original": "G",
+          "suggested": "L",
+          "log_prob": -2.09
+        },
+        {
+          "position": 54,
+          "original": "V",
+          "suggested": "L",
+          "log_prob": -2.0604
+        }
+      ],
+      "variant_seq_sample": "MESLVPGFNEKTHVQLSLPVLQVRSLLVRGFGDSVEEVLSLARQHLKDLT...",
+      "r_L3": 0.0013,
+      "r_L4": 0.8,
+      "r_L5": 0.81,
+      "r_L6b": 1.0,
+      "n_strong_binders": 6,
+      "mhcflurry_used": true,
+      "P_harm": 0.437906,
+      "rank": 1
+    },
+    {
+      "protein": "Influenza_NA",
+      "strategy": "S1_random_binding",
+      "n_mutations": 5,
+      "mutations": [
+        {
+          "position": 151,
+          "original": "N",
+          "suggested": "S",
+          "log_prob": -2.3383
+        },
+        {
+          "position": 152,
+          "original": "S",
+          "suggested": "G",
+          "log_prob": -2.5038
+        },
+        {
+          "position": 156,
+          "original": "S",
+          "suggested": "N",
+          "log_prob": -1.811
+        },
+        {
+          "position": 371,
+          "original": "Q",
+          "suggested": "G",
+          "log_prob": -2.1177
+        },
+        {
+          "position": 406,
+          "original": "L",
+          "suggested": "G",
+          "log_prob": -2.3135
+        }
+      ],
+      "variant_seq_sample": "MNPNQKIITIGSICMVTGIVSLMLQIGNMISIWVSHSIHTGNQHQSEPIS...",
+      "r_L3": 0.0111,
+      "r_L4": 0.8,
+      "r_L5": 0.748,
+      "r_L6b": 1.0,
+      "n_strong_binders": 4,
+      "mhcflurry_used": true,
+      "P_harm": 0.433069,
+      "rank": 2
+    },
+    {
+      "protein": "Influenza_NA",
+      "strategy": "S2_escape_directed",
+      "n_mutations": 4,
+      "mutations": [
+        {
+          "position": 119,
+          "original": "L",
+          "suggested": "T",
+          "log_prob": -2.7307608127593994
+        },
+        {
+          "position": 151,
+          "original": "N",
+          "suggested": "I",
+          "log_prob": -2.741215705871582
+        },
+        {
+          "position": 274,
+          "original": "D",
+          "suggested": "G",
+          "log_prob": -10.25776481628418
+        },
+        {
+          "position": 292,
+          "original": "Y",
+          "suggested": "T",
+          "log_prob": -3.9275858402252197
+        }
+      ],
+      "variant_seq_sample": "MNPNQKIITIGSICMVTGIVSLMLQIGNMISIWVSHSIHTGNQHQSEPIS...",
+      "r_L3": 0.0089,
+      "r_L4": 0.8,
+      "r_L5": 0.748,
+      "r_L6b": 0.8333,
+      "n_strong_binders": 3,
+      "mhcflurry_used": true,
+      "P_harm": 0.409182,
+      "rank": 3
+    },
+    {
+      "protein": "HIV1_Protease",
+      "strategy": "S2_escape_directed",
+      "n_mutations": 10,
+      "mutations": [
+        {
+          "position": 10,
+          "original": "G",
+          "suggested": "R",
+          "log_prob": -2.7150161266326904
+        },
+        {
+          "position": 20,
+          "original": "R",
+          "suggested": "K",
+          "log_prob": -3.0867207050323486
+        },
+        {
+          "position": 30,
+          "original": "K",
+          "suggested": "P",
+          "log_prob": -2.708432197570801
+        },
+        {
+          "position": 36,
+          "original": "W",
+          "suggested": "T",
+          "log_prob": -2.699216604232788
+        },
+        {
+          "position": 46,
+          "original": "V",
+          "suggested": "N",
+          "log_prob": -2.6447670459747314
+        }
+      ],
+      "variant_seq_sample": "MGARASVLSRGELDRWEKIKLRPGGKKKYPLKHIVTASRELERFANNPGL...",
+      "r_L3": 0.0069,
+      "r_L4": 0.8,
+      "r_L5": 0.81,
+      "r_L6b": 0.7692,
+      "n_strong_binders": 6,
+      "mhcflurry_used": true,
+      "P_harm": 0.406139,
+      "rank": 4
+    },
+    {
+      "protein": "SARS-CoV2_Mpro",
+      "strategy": "S3_surface_sampling",
+      "n_mutations": 10,
+      "mutations": [
+        {
+          "position": 1,
+          "original": "M",
+          "suggested": "L"
+        },
+        {
+          "position": 2,
+          "original": "E",
+          "suggested": "L"
+        },
+        {
+          "position": 10,
+          "original": "E",
+          "suggested": "L"
+        },
+        {
+          "position": 20,
+          "original": "V",
+          "suggested": "L"
+        },
+        {
+          "position": 30,
+          "original": "G",
+          "suggested": "S"
+        }
+      ],
+      "variant_seq_sample": "LLSLVPGFNLKTHVQLSLPLLQVRDVLVRSFGDSVEEVLSEARQHLKDGL...",
+      "r_L3": 0.0014,
+      "r_L4": 0.5,
+      "r_L5": 0.72,
+      "r_L6b": 1.0,
+      "n_strong_binders": 9,
+      "mhcflurry_used": true,
+      "P_harm": 0.375775,
+      "rank": 5
+    },
+    {
+      "protein": "HIV1_Protease",
+      "strategy": "S1_random_binding",
+      "n_mutations": 7,
+      "mutations": [
+        {
+          "position": 25,
+          "original": "G",
+          "suggested": "L",
+          "log_prob": -2.0971
+        },
+        {
+          "position": 27,
+          "original": "K",
+          "suggested": "G",
+          "log_prob": -2.0202
+        },
+        {
+          "position": 48,
+          "original": "P",
+          "suggested": "E",
+          "log_prob": -2.1693
+        },
+        {
+          "position": 50,
+          "original": "L",
+          "suggested": "D",
+          "log_prob": -2.0685
+        },
+        {
+          "position": 82,
+          "original": "V",
+          "suggested": "L",
+          "log_prob": -1.0315
+        }
+      ],
+      "variant_seq_sample": "MGARASVLSGGELDRWEKIRLRPGLKGKYKLKHIVWASRELERFAVNEGD...",
+      "r_L3": 0.0048,
+      "r_L4": 0.8,
+      "r_L5": 0.81,
+      "r_L6b": 0.5128,
+      "n_strong_binders": 2,
+      "mhcflurry_used": true,
+      "P_harm": 0.369885,
+      "rank": 6
+    },
+    {
+      "protein": "SARS-CoV2_Mpro",
+      "strategy": "S2_escape_directed",
+      "n_mutations": 8,
+      "mutations": [
+        {
+          "position": 46,
+          "original": "L",
+          "suggested": "A",
+          "log_prob": -2.814678192138672
+        },
+        {
+          "position": 49,
+          "original": "G",
+          "suggested": "F",
+          "log_prob": -2.681380271911621
+        },
+        {
+          "position": 140,
+          "original": "L",
+          "suggested": "T",
+          "log_prob": -2.8510196208953857
+        },
+        {
+          "position": 145,
+          "original": "L",
+          "suggested": "T",
+          "log_prob": -2.804748058319092
+        },
+        {
+          "position": 165,
+          "original": "H",
+          "suggested": "G",
+          "log_prob": -2.787566661834717
+        }
+      ],
+      "variant_seq_sample": "MESLVPGFNEKTHVQLSLPVLQVRDVLVRGFGDSVEEVLSEARQHAKDFT...",
+      "r_L3": 0.0011,
+      "r_L4": 0.8,
+      "r_L5": 0.81,
+      "r_L6b": 0.4762,
+      "n_strong_binders": 2,
+      "mhcflurry_used": true,
+      "P_harm": 0.364275,
+      "rank": 7
+    },
+    {
+      "protein": "HIV1_Protease",
+      "strategy": "S3_surface_sampling",
+      "n_mutations": 10,
+      "mutations": [
+        {
+          "position": 6,
+          "original": "S",
+          "suggested": "T"
+        },
+        {
+          "position": 14,
+          "original": "D",
+          "suggested": "E"
+        },
+        {
+          "position": 33,
+          "original": "H",
+          "suggested": "D"
+        },
+        {
+          "position": 37,
+          "original": "A",
+          "suggested": "L"
+        },
+        {
+          "position": 60,
+          "original": "I",
+          "suggested": "L"
+        }
+      ],
+      "variant_seq_sample": "MGARATVLSGGELERWEKIRLRPGGKKKYKLKDIVWLSRELERFAVNPGL...",
+      "r_L3": 0.0069,
+      "r_L4": 0.5,
+      "r_L5": 0.72,
+      "r_L6b": 0.8511,
+      "n_strong_binders": 4,
+      "mhcflurry_used": true,
+      "P_harm": 0.35325,
+      "rank": 8
+    },
+    {
+      "protein": "Influenza_NA",
+      "strategy": "S3_surface_sampling",
+      "n_mutations": 9,
+      "mutations": [
+        {
+          "position": 50,
+          "original": "S",
+          "suggested": "L"
+        },
+        {
+          "position": 75,
+          "original": "N",
+          "suggested": "S"
+        },
+        {
+          "position": 100,
+          "original": "P",
+          "suggested": "G"
+        },
+        {
+          "position": 130,
+          "original": "K",
+          "suggested": "I"
+        },
+        {
+          "position": 200,
+          "original": "R",
+          "suggested": "K"
+        }
+      ],
+      "variant_seq_sample": "MNPNQKIITIGSICMVTGIVSLMLQIGNMISIWVSHSIHTGNQHQSEPIL...",
+      "r_L3": 0.02,
+      "r_L4": 0.5,
+      "r_L5": 0.663,
+      "r_L6b": 0.1235,
+      "n_strong_binders": 1,
+      "mhcflurry_used": true,
+      "P_harm": 0.234556,
+      "rank": 9
+    }
+  ],
+  "top5": [
+    {
+      "protein": "SARS-CoV2_Mpro",
+      "strategy": "S1_random_binding",
+      "n_mutations": 9,
+      "mutations": [
+        {
+          "position": 25,
+          "original": "D",
+          "suggested": "S",
+          "log_prob": -2.1991
+        },
+        {
+          "position": 26,
+          "original": "V",
+          "suggested": "L",
+          "log_prob": -2.0723
+        },
+        {
+          "position": 41,
+          "original": "E",
+          "suggested": "L",
+          "log_prob": -2.1202
+        },
+        {
+          "position": 49,
+          "original": "G",
+          "suggested": "L",
+          "log_prob": -2.09
+        },
+        {
+          "position": 54,
+          "original": "V",
+          "suggested": "L",
+          "log_prob": -2.0604
+        }
+      ],
+      "variant_seq_sample": "MESLVPGFNEKTHVQLSLPVLQVRSLLVRGFGDSVEEVLSLARQHLKDLT...",
+      "r_L3": 0.0013,
+      "r_L4": 0.8,
+      "r_L5": 0.81,
+      "r_L6b": 1.0,
+      "n_strong_binders": 6,
+      "mhcflurry_used": true,
+      "P_harm": 0.437906,
+      "rank": 1
+    },
+    {
+      "protein": "Influenza_NA",
+      "strategy": "S1_random_binding",
+      "n_mutations": 5,
+      "mutations": [
+        {
+          "position": 151,
+          "original": "N",
+          "suggested": "S",
+          "log_prob": -2.3383
+        },
+        {
+          "position": 152,
+          "original": "S",
+          "suggested": "G",
+          "log_prob": -2.5038
+        },
+        {
+          "position": 156,
+          "original": "S",
+          "suggested": "N",
+          "log_prob": -1.811
+        },
+        {
+          "position": 371,
+          "original": "Q",
+          "suggested": "G",
+          "log_prob": -2.1177
+        },
+        {
+          "position": 406,
+          "original": "L",
+          "suggested": "G",
+          "log_prob": -2.3135
+        }
+      ],
+      "variant_seq_sample": "MNPNQKIITIGSICMVTGIVSLMLQIGNMISIWVSHSIHTGNQHQSEPIS...",
+      "r_L3": 0.0111,
+      "r_L4": 0.8,
+      "r_L5": 0.748,
+      "r_L6b": 1.0,
+      "n_strong_binders": 4,
+      "mhcflurry_used": true,
+      "P_harm": 0.433069,
+      "rank": 2
+    },
+    {
+      "protein": "Influenza_NA",
+      "strategy": "S2_escape_directed",
+      "n_mutations": 4,
+      "mutations": [
+        {
+          "position": 119,
+          "original": "L",
+          "suggested": "T",
+          "log_prob": -2.7307608127593994
+        },
+        {
+          "position": 151,
+          "original": "N",
+          "suggested": "I",
+          "log_prob": -2.741215705871582
+        },
+        {
+          "position": 274,
+          "original": "D",
+          "suggested": "G",
+          "log_prob": -10.25776481628418
+        },
+        {
+          "position": 292,
+          "original": "Y",
+          "suggested": "T",
+          "log_prob": -3.9275858402252197
+        }
+      ],
+      "variant_seq_sample": "MNPNQKIITIGSICMVTGIVSLMLQIGNMISIWVSHSIHTGNQHQSEPIS...",
+      "r_L3": 0.0089,
+      "r_L4": 0.8,
+      "r_L5": 0.748,
+      "r_L6b": 0.8333,
+      "n_strong_binders": 3,
+      "mhcflurry_used": true,
+      "P_harm": 0.409182,
+      "rank": 3
+    },
+    {
+      "protein": "HIV1_Protease",
+      "strategy": "S2_escape_directed",
+      "n_mutations": 10,
+      "mutations": [
+        {
+          "position": 10,
+          "original": "G",
+          "suggested": "R",
+          "log_prob": -2.7150161266326904
+        },
+        {
+          "position": 20,
+          "original": "R",
+          "suggested": "K",
+          "log_prob": -3.0867207050323486
+        },
+        {
+          "position": 30,
+          "original": "K",
+          "suggested": "P",
+          "log_prob": -2.708432197570801
+        },
+        {
+          "position": 36,
+          "original": "W",
+          "suggested": "T",
+          "log_prob": -2.699216604232788
+        },
+        {
+          "position": 46,
+          "original": "V",
+          "suggested": "N",
+          "log_prob": -2.6447670459747314
+        }
+      ],
+      "variant_seq_sample": "MGARASVLSRGELDRWEKIKLRPGGKKKYPLKHIVTASRELERFANNPGL...",
+      "r_L3": 0.0069,
+      "r_L4": 0.8,
+      "r_L5": 0.81,
+      "r_L6b": 0.7692,
+      "n_strong_binders": 6,
+      "mhcflurry_used": true,
+      "P_harm": 0.406139,
+      "rank": 4
+    },
+    {
+      "protein": "SARS-CoV2_Mpro",
+      "strategy": "S3_surface_sampling",
+      "n_mutations": 10,
+      "mutations": [
+        {
+          "position": 1,
+          "original": "M",
+          "suggested": "L"
+        },
+        {
+          "position": 2,
+          "original": "E",
+          "suggested": "L"
+        },
+        {
+          "position": 10,
+          "original": "E",
+          "suggested": "L"
+        },
+        {
+          "position": 20,
+          "original": "V",
+          "suggested": "L"
+        },
+        {
+          "position": 30,
+          "original": "G",
+          "suggested": "S"
+        }
+      ],
+      "variant_seq_sample": "LLSLVPGFNLKTHVQLSLPLLQVRDVLVRSFGDSVEEVLSEARQHLKDGL...",
+      "r_L3": 0.0014,
+      "r_L4": 0.5,
+      "r_L5": 0.72,
+      "r_L6b": 1.0,
+      "n_strong_binders": 9,
+      "mhcflurry_used": true,
+      "P_harm": 0.375775,
+      "rank": 5
+    }
+  ]
+}

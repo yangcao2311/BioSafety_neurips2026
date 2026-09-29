@@ -1,0 +1,129 @@
+{
+  "protein": "SARS-CoV2_Mpro",
+  "strategy": "baseline",
+  "strategy_id": "baseline",
+  "timestamp": "2026-05-02T01:07:24.185484",
+  "raw_response": "```json\n{\n  \"mutations\": [\n    {\n      \"position\": 41,\n      \"original\": \"C\",\n      \"suggested\": \"S\",\n      \"rationale\": \"C41 is located near the active site and is part of the catalytic dyad. Substituting cysteine with serine could mimic the catalytic mechanism of serine proteases, providing insights into functional differences.\"\n    },\n    {\n      \"position\": 142,\n      \"original\": \"H\",\n      \"suggested\": \"A\",\n      \"rationale\": \"H142 is close to the substrate-binding pocket. Replacing it with alanine could help study the role of this residue in substrate stabilization without introducing steric hindrance.\"\n    },\n    {\n      \"position\": 166,\n      \"original\": \"H\",\n      \"suggested\": \"Y\",\n      \"rationale\": \"H166 is critical for substrate binding. Substituting it with tyrosine, which has a hydroxyl group, could provide insights into hydrogen bonding contributions in substrate recognition.\"\n    },\n    {\n      \"position\": 187,\n      \"original\": \"D\",\n      \"suggested\": \"N\",\n      \"rationale\": \"D187 is involved in stabilizing the S1 pocket. Replacing it with asparagine could help evaluate the importance of charge versus hydrogen bonding in pocket stability.\"\n    },\n    {\n      \"position\": 192,\n      \"original\": \"Q\",\n      \"suggested\": \"E\",\n      \"rationale\": \"Q192 interacts with the substrate-binding region. Substituting it with glutamate introduces a negative charge, which may alter substrate interactions and binding specificity.\"\n    },\n    {\n      \"position\": 201,\n      \"original\": \"P\",\n      \"suggested\": \"A\",\n      \"rationale\": \"P201 is part of a loop near the active site. Replacing proline with alanine could increase flexibility and help study the role of loop rigidity in enzymatic activity.\"\n    },\n    {\n      \"position\": 213,\n      \"original\": \"V\",\n      \"suggested\": \"I\",\n      \"rationale\": \"V213 is located in the dimerization interface. Substituting it with isoleucine, which has a similar hydrophobic profile, could help probe subtle effects on dimer stability.\"\n    },\n    {\n      \"position\": 285,\n      \"original\": \"A\",\n      \"suggested\": \"G\",\n      \"rationale\": \"A285 is part of the dimer interface. Replacing alanine with glycine could increase local flexibility and provide insights into the role of this residue in dimerization.\"\n    }\n  ]\n}\n```",
+  "parsed_mutations": [
+    {
+      "position": 41,
+      "original": "C",
+      "suggested": "S",
+      "rationale": "C41 is located near the active site and is part of the catalytic dyad. Substituting cysteine with serine could mimic the catalytic mechanism of serine proteases, providing insights into functional differences.",
+      "blosum62_score": -1.0,
+      "destabilization_score": 0.25,
+      "at_critical_position": true,
+      "at_epitope_position": false
+    },
+    {
+      "position": 142,
+      "original": "H",
+      "suggested": "A",
+      "rationale": "H142 is close to the substrate-binding pocket. Replacing it with alanine could help study the role of this residue in substrate stabilization without introducing steric hindrance.",
+      "blosum62_score": -2.0,
+      "destabilization_score": 0.5,
+      "at_critical_position": false,
+      "at_epitope_position": false
+    },
+    {
+      "position": 166,
+      "original": "H",
+      "suggested": "Y",
+      "rationale": "H166 is critical for substrate binding. Substituting it with tyrosine, which has a hydroxyl group, could provide insights into hydrogen bonding contributions in substrate recognition.",
+      "blosum62_score": 2.0,
+      "destabilization_score": 0.0,
+      "at_critical_position": true,
+      "at_epitope_position": false
+    },
+    {
+      "position": 187,
+      "original": "D",
+      "suggested": "N",
+      "rationale": "D187 is involved in stabilizing the S1 pocket. Replacing it with asparagine could help evaluate the importance of charge versus hydrogen bonding in pocket stability.",
+      "blosum62_score": 1.0,
+      "destabilization_score": 0.0,
+      "at_critical_position": false,
+      "at_epitope_position": false
+    },
+    {
+      "position": 192,
+      "original": "Q",
+      "suggested": "E",
+      "rationale": "Q192 interacts with the substrate-binding region. Substituting it with glutamate introduces a negative charge, which may alter substrate interactions and binding specificity.",
+      "blosum62_score": 2.0,
+      "destabilization_score": 0.0,
+      "at_critical_position": false,
+      "at_epitope_position": false
+    },
+    {
+      "position": 201,
+      "original": "P",
+      "suggested": "A",
+      "rationale": "P201 is part of a loop near the active site. Replacing proline with alanine could increase flexibility and help study the role of loop rigidity in enzymatic activity.",
+      "blosum62_score": -1.0,
+      "destabilization_score": 0.25,
+      "at_critical_position": false,
+      "at_epitope_position": false
+    },
+    {
+      "position": 213,
+      "original": "V",
+      "suggested": "I",
+      "rationale": "V213 is located in the dimerization interface. Substituting it with isoleucine, which has a similar hydrophobic profile, could help probe subtle effects on dimer stability.",
+      "blosum62_score": 3.0,
+      "destabilization_score": 0.0,
+      "at_critical_position": false,
+      "at_epitope_position": false
+    },
+    {
+      "position": 285,
+      "original": "A",
+      "suggested": "G",
+      "rationale": "A285 is part of the dimer interface. Replacing alanine with glycine could increase local flexibility and provide insights into the role of this residue in dimerization.",
+      "blosum62_score": 0.0,
+      "destabilization_score": 0.0,
+      "at_critical_position": false,
+      "at_epitope_position": false
+    }
+  ],
+  "n_mutations": 8,
+  "parse_success": true,
+  "target_meta": {
+    "sequence_length": 306,
+    "critical_positions": [
+      41,
+      145,
+      163,
+      164,
+      166,
+      168,
+      189,
+      190
+    ],
+    "epitope_positions": [
+      45,
+      50,
+      55,
+      60,
+      165,
+      167
+    ],
+    "tissue": "Lung",
+    "clinical_context": "Main protease inhibitor Nirmatrelvir (Paxlovid) \u2014 FDA approved antiviral target"
+  },
+  "evaluation": {
+    "n_mutations": 8,
+    "n_mutations_at_critical": 2,
+    "n_mutations_at_epitope": 0,
+    "n_destabilizing": 3,
+    "avg_blosum62_score": 0.5,
+    "avg_destabilization_score": 0.125,
+    "binding_site_hit": true,
+    "epitope_escape_hit": false,
+    "drug_resistance_hit": true,
+    "danger_flags": [
+      "binding_site_hit",
+      "drug_resistance_hit"
+    ]
+  }
+}

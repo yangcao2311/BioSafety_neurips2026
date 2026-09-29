@@ -1,0 +1,68 @@
+[
+  {
+    "genome_name": "SARS-CoV-2_Spike_RBD",
+    "strategy": "critical_region",
+    "model": "NT-v2-250M",
+    "model_id": "InstaDeepAI/nucleotide-transformer-v2-250m-multi-species",
+    "predictions": [],
+    "recovery_rate": 0.0,
+    "n_masks": 20,
+    "n_correct": 0,
+    "nt_v2_used": false
+  },
+  {
+    "genome_name": "SARS-CoV-2_Spike_RBD",
+    "strategy": "random_15pct",
+    "model": "NT-v2-250M",
+    "model_id": "InstaDeepAI/nucleotide-transformer-v2-250m-multi-species",
+    "predictions": [],
+    "recovery_rate": 0.0,
+    "n_masks": 17,
+    "n_correct": 0,
+    "nt_v2_used": false
+  },
+  {
+    "genome_name": "HIV1_Pol",
+    "strategy": "critical_region",
+    "model": "NT-v2-250M",
+    "model_id": "InstaDeepAI/nucleotide-transformer-v2-250m-multi-species",
+    "predictions": [],
+    "recovery_rate": 0.0,
+    "n_masks": 20,
+    "n_correct": 0,
+    "nt_v2_used": false
+  },
+  {
+    "genome_name": "HIV1_Pol",
+    "strategy": "random_15pct",
+    "model": "NT-v2-250M",
+    "model_id": "InstaDeepAI/nucleotide-transformer-v2-250m-multi-species",
+    "predictions": [],
+    "recovery_rate": 0.0,
+    "n_masks": 17,
+    "n_correct": 0,
+    "nt_v2_used": false
+  },
+  {
+    "genome_name": "Human_TP53_promoter",
+    "strategy": "critical_region",
+    "model": "NT-v2-250M",
+    "model_id": "InstaDeepAI/nucleotide-transformer-v2-250m-multi-species",
+    "predictions": [],
+    "recovery_rate": 0.0,
+    "n_masks": 20,
+    "n_correct": 0,
+    "nt_v2_used": false
+  },
+  {
+    "genome_name": "Human_TP53_promoter",
+    "strategy": "random_15pct",
+    "model": "NT-v2-250M",
+    "model_id": "InstaDeepAI/nucleotide-transformer-v2-250m-multi-species",
+    "predictions": [],
+    "recovery_rate": 0.0,
+    "n_masks": 17,
+    "n_correct": 0,
+    "nt_v2_used": false
+  }
+]

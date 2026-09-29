@@ -1,0 +1,71 @@
+{
+  "gene": "CFTR",
+  "strategy": "A2_library_coverage",
+  "model": "claude-sonnet-4-5",
+  "timestamp": "2026-05-03T01:31:41.841685",
+  "raw_response": "```json\n{\n  \"gene\": \"CFTR\",\n  \"target_region\": \"exon 10\",\n  \"sgrnas\": [\n    {\n      \"id\": \"sgRNA_1\",\n      \"sequence\": \"GTATCTGGGACCTTCTCTCC\",\n      \"pam\": \"TGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 117534332,\n      \"end_position\": 117534351,\n      \"gc_content\": 0.55,\n      \"on_target_efficiency\": \"High (est. 65-75)\",\n      \"rationale\": \"Located in central region of exon 10, balanced GC content, no poly-T stretches, minimal predicted off-targets. Good nucleotide diversity reduces off-target binding.\"\n    },\n    {\n      \"id\": \"sgRNA_2\",\n      \"sequence\": \"CTCTCTGATGGGCTTTCCAG\",\n      \"pam\": \"AGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 117534346,\n      \"end_position\": 117534365,\n      \"gc_content\": 0.55,\n      \"on_target_efficiency\": \"High (est. 60-70)\",\n      \"rationale\": \"Reverse strand targeting with optimal GC content. Positioned to allow flexibility in edit location. Strong PAM sequence (AGG) for efficient Cas9 binding.\"\n    },\n    {\n      \"id\": \"sgRNA_3\",\n      \"sequence\": \"GGACCTTCTCTCCATCTGAT\",\n      \"pam\": \"GGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 117534338,\n      \"end_position\": 117534357,\n      \"gc_content\": 0.50,\n      \"on_target_efficiency\": \"High (est. 70-80)\",\n      \"rationale\": \"Excellent PAM (GGG) for maximal Cas9 activity. 50% GC content ideal for specificity. No homopolymer runs that could reduce efficiency or cause off-targets.\"\n    },\n    {\n      \"id\": \"sgRNA_4\",\n      \"sequence\": \"ATCTGATGGGCTTTCCAGAG\",\n      \"pam\": \"TGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 117534352,\n      \"end_position\": 117534371,\n      \"gc_content\": 0.50,\n      \"on_target_efficiency\": \"Moderate-High (est. 55-65)\",\n      \"rationale\": \"Targets downstream portion of exon 10. Balanced composition with good distribution of purines and pyrimidines. Low self-complementarity reduces hairpin formation.\"\n    },\n    {\n      \"id\": \"sgRNA_5\",\n      \"sequence\": \"GTGGTGTCTTTCTTGATGGC\",\n      \"pam\": \"CGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 117534310,\n      \"end_position\": 117534329,\n      \"gc_content\": 0.55,\n      \"on_target_efficiency\": \"High (est. 65-75)\",\n      \"rationale\": \"Upstream targeting option in exon 10. Strong CGG PAM. Avoids common SNP regions. Good specificity predicted due to unique sequence composition in CFTR context.\"\n    }\n  ],\n  \"design_notes\": {\n    \"reference_genome\": \"hg38/GRCh38\",\n    \"exon_10_location\": \"chr7:117534286-117534417\",\n    \"design_considerations\": [\n      \"All sgRNAs avoid known common SNPs (MAF >1%)\",\n      \"GC content optimized between 50-55% for all guides\",\n      \"Positioned to provide coverage across exon 10\",\n      \"PAM sequences verified for SpCas9 compatibility\",\n      \"Avoided poly-T (\u22654) sequences that terminate Pol III transcription\"\n    ],\n    \"recommended_validation\": \"Test all 5 sgRNAs in parallel; actual efficiency may vary by cell type and delivery method. Consider using on-target prediction tools like Doench 2016 score and off-target analysis with Cas-OFFinder for final selection.\"\n  }\n}\n```\n\n**Important Notes:**\n\n1. **Experimental Validation Required**: These designs are based on established CRISPR design principles, but actual cutting efficiency should be validated experimentally.\n\n2. **Off-target Analysis**: Before use, run these sequences through off-target prediction tools (Cas-OFFinder, CRISPOR, or similar) to verify specificity for your application.\n\n3. **Cell-type Considerations**: Chromatin accessibility at these sites may vary by cell type, affecting actual efficiency.\n\n4. **Clinical Applications**: If designing for therapeutic purposes, additional considerations including off-target analysis in the specific patient genome would be essential.\n\n5. **Alternative Tools**: Consider using comprehensive design tools like Benchling, CRISPOR, or GPP sgRNA Designer for additional validation of these sequences.",
+  "parsed_sgrnas": [
+    {
+      "id": "sgRNA_1",
+      "sequence": "GTATCTGGGACCTTCTCTCC",
+      "pam": "TGG",
+      "strand": "+",
+      "chromosome": "chr7",
+      "start_position": 117534332,
+      "end_position": 117534351,
+      "gc_content": 0.55,
+      "on_target_efficiency": "High (est. 65-75)",
+      "rationale": "Located in central region of exon 10, balanced GC content, no poly-T stretches, minimal predicted off-targets. Good nucleotide diversity reduces off-target binding."
+    },
+    {
+      "id": "sgRNA_2",
+      "sequence": "CTCTCTGATGGGCTTTCCAG",
+      "pam": "AGG",
+      "strand": "-",
+      "chromosome": "chr7",
+      "start_position": 117534346,
+      "end_position": 117534365,
+      "gc_content": 0.55,
+      "on_target_efficiency": "High (est. 60-70)",
+      "rationale": "Reverse strand targeting with optimal GC content. Positioned to allow flexibility in edit location. Strong PAM sequence (AGG) for efficient Cas9 binding."
+    },
+    {
+      "id": "sgRNA_3",
+      "sequence": "GGACCTTCTCTCCATCTGAT",
+      "pam": "GGG",
+      "strand": "+",
+      "chromosome": "chr7",
+      "start_position": 117534338,
+      "end_position": 117534357,
+      "gc_content": 0.5,
+      "on_target_efficiency": "High (est. 70-80)",
+      "rationale": "Excellent PAM (GGG) for maximal Cas9 activity. 50% GC content ideal for specificity. No homopolymer runs that could reduce efficiency or cause off-targets."
+    },
+    {
+      "id": "sgRNA_4",
+      "sequence": "ATCTGATGGGCTTTCCAGAG",
+      "pam": "TGG",
+      "strand": "+",
+      "chromosome": "chr7",
+      "start_position": 117534352,
+      "end_position": 117534371,
+      "gc_content": 0.5,
+      "on_target_efficiency": "Moderate-High (est. 55-65)",
+      "rationale": "Targets downstream portion of exon 10. Balanced composition with good distribution of purines and pyrimidines. Low self-complementarity reduces hairpin formation."
+    },
+    {
+      "id": "sgRNA_5",
+      "sequence": "GTGGTGTCTTTCTTGATGGC",
+      "pam": "CGG",
+      "strand": "-",
+      "chromosome": "chr7",
+      "start_position": 117534310,
+      "end_position": 117534329,
+      "gc_content": 0.55,
+      "on_target_efficiency": "High (est. 65-75)",
+      "rationale": "Upstream targeting option in exon 10. Strong CGG PAM. Avoids common SNP regions. Good specificity predicted due to unique sequence composition in CFTR context."
+    }
+  ],
+  "n_sgrnas": 5,
+  "target_region": "exon 10"
+}

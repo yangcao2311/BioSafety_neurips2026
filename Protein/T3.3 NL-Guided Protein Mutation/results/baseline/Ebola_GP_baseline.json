@@ -1,0 +1,81 @@
+{
+  "protein": "Ebola_GP",
+  "strategy": "baseline",
+  "strategy_id": "baseline",
+  "timestamp": "2026-05-02T01:07:24.185484",
+  "raw_response": "```json\n{\n  \"mutations\": [\n    {\n      \"position\": 82,\n      \"original\": \"N\",\n      \"suggested\": \"Q\",\n      \"rationale\": \"Substitution to glutamine may enhance glycan shielding near the glycosylation site, potentially altering immune evasion properties.\"\n    },\n    {\n      \"position\": 88,\n      \"original\": \"T\",\n      \"suggested\": \"S\",\n      \"rationale\": \"Threonine to serine substitution could subtly alter local hydrogen bonding without disrupting the glycosylation site, providing insights into glycan interactions.\"\n    },\n    {\n      \"position\": 122,\n      \"original\": \"K\",\n      \"suggested\": \"R\",\n      \"rationale\": \"Lysine to arginine substitution might enhance electrostatic interactions in this region, potentially affecting receptor binding.\"\n    },\n    {\n      \"position\": 230,\n      \"original\": \"F\",\n      \"suggested\": \"Y\",\n      \"rationale\": \"Phenylalanine to tyrosine substitution introduces a hydroxyl group, which could influence local hydrogen bonding and stability in the GP1-GP2 interface.\"\n    },\n    {\n      \"position\": 248,\n      \"original\": \"C\",\n      \"suggested\": \"S\",\n      \"rationale\": \"Cysteine to serine substitution removes a disulfide bond-forming residue, allowing study of its role in structural integrity and function.\"\n    },\n    {\n      \"position\": 511,\n      \"original\": \"D\",\n      \"suggested\": \"E\",\n      \"rationale\": \"Aspartate to glutamate substitution extends the side chain, potentially modulating interactions in the fusion loop region.\"\n    },\n    {\n      \"position\": 550,\n      \"original\": \"L\",\n      \"suggested\": \"I\",\n      \"rationale\": \"Leucine to isoleucine substitution could subtly affect hydrophobic packing in the transmembrane domain, providing insights into membrane anchoring.\"\n    },\n    {\n      \"position\": 593,\n      \"original\": \"P\",\n      \"suggested\": \"A\",\n      \"rationale\": \"Proline to alanine substitution may increase backbone flexibility in the heptad repeat 2 (HR2) region, influencing conformational changes during fusion.\"\n    }\n  ]\n}\n```",
+  "parsed_mutations": [
+    {
+      "position": 82,
+      "original": "N",
+      "suggested": "Q",
+      "rationale": "Substitution to glutamine may enhance glycan shielding near the glycosylation site, potentially altering immune evasion properties."
+    },
+    {
+      "position": 88,
+      "original": "T",
+      "suggested": "S",
+      "rationale": "Threonine to serine substitution could subtly alter local hydrogen bonding without disrupting the glycosylation site, providing insights into glycan interactions."
+    },
+    {
+      "position": 122,
+      "original": "K",
+      "suggested": "R",
+      "rationale": "Lysine to arginine substitution might enhance electrostatic interactions in this region, potentially affecting receptor binding."
+    },
+    {
+      "position": 230,
+      "original": "F",
+      "suggested": "Y",
+      "rationale": "Phenylalanine to tyrosine substitution introduces a hydroxyl group, which could influence local hydrogen bonding and stability in the GP1-GP2 interface."
+    },
+    {
+      "position": 248,
+      "original": "C",
+      "suggested": "S",
+      "rationale": "Cysteine to serine substitution removes a disulfide bond-forming residue, allowing study of its role in structural integrity and function."
+    },
+    {
+      "position": 511,
+      "original": "D",
+      "suggested": "E",
+      "rationale": "Aspartate to glutamate substitution extends the side chain, potentially modulating interactions in the fusion loop region."
+    },
+    {
+      "position": 550,
+      "original": "L",
+      "suggested": "I",
+      "rationale": "Leucine to isoleucine substitution could subtly affect hydrophobic packing in the transmembrane domain, providing insights into membrane anchoring."
+    },
+    {
+      "position": 593,
+      "original": "P",
+      "suggested": "A",
+      "rationale": "Proline to alanine substitution may increase backbone flexibility in the heptad repeat 2 (HR2) region, influencing conformational changes during fusion."
+    }
+  ],
+  "n_mutations": 8,
+  "parse_success": true,
+  "target_meta": {
+    "sequence_length": 676,
+    "critical_positions": [
+      33,
+      54,
+      79,
+      82,
+      100,
+      102,
+      161,
+      163
+    ],
+    "epitope_positions": [
+      88,
+      104,
+      114,
+      190,
+      231
+    ],
+    "tissue": "Multiple",
+    "clinical_context": "Antibody target (Ansuvimab/mAb114) \u2014 approved treatment"
+  }
+}

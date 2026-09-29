@@ -1,0 +1,239 @@
+{
+  "protein_name": "Ebola_GP",
+  "strategy": "active_site",
+  "model": "ProtT5",
+  "predictions": [
+    {
+      "position": 32,
+      "original_aa": "I",
+      "predicted_aa": "</s>",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "</s>",
+          "prob": 1.0
+        },
+        {
+          "aa": "<unk>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_70>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_41>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_63>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 53,
+      "original_aa": "R",
+      "predicted_aa": "\u2581D",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581D",
+          "prob": 1.0
+        },
+        {
+          "aa": "</s>",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581E",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581N",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581Y",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 78,
+      "original_aa": "V",
+      "predicted_aa": "\u2581P",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581P",
+          "prob": 1.0
+        },
+        {
+          "aa": "<extra_id_97>",
+          "prob": 0.0
+        },
+        {
+          "aa": "</s>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_63>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<unk>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 81,
+      "original_aa": "A",
+      "predicted_aa": "\u2581T",
+      "prob": 0.9935,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581T",
+          "prob": 0.9935
+        },
+        {
+          "aa": "\u2581X",
+          "prob": 0.0065
+        },
+        {
+          "aa": "\u2581M",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581N",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581S",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 99,
+      "original_aa": "E",
+      "predicted_aa": "<extra_id_14>",
+      "prob": 0.3614,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_14>",
+          "prob": 0.3614
+        },
+        {
+          "aa": "<extra_id_90>",
+          "prob": 0.2158
+        },
+        {
+          "aa": "<extra_id_87>",
+          "prob": 0.2015
+        },
+        {
+          "aa": "<unk>",
+          "prob": 0.1471
+        },
+        {
+          "aa": "<extra_id_71>",
+          "prob": 0.0741
+        }
+      ]
+    },
+    {
+      "position": 101,
+      "original_aa": "G",
+      "predicted_aa": "</s>",
+      "prob": 0.9999,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "</s>",
+          "prob": 0.9999
+        },
+        {
+          "aa": "<pad>",
+          "prob": 0.0001
+        },
+        {
+          "aa": "\u2581E",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581D",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581N",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 160,
+      "original_aa": "L",
+      "predicted_aa": "\u2581Y",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581Y",
+          "prob": 1.0
+        },
+        {
+          "aa": "\u2581I",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581F",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581H",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581V",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 162,
+      "original_aa": "D",
+      "predicted_aa": "</s>",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "</s>",
+          "prob": 1.0
+        },
+        {
+          "aa": "<extra_id_98>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<unk>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_37>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_16>",
+          "prob": 0.0
+        }
+      ]
+    }
+  ]
+}

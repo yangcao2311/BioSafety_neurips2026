@@ -1,0 +1,239 @@
+{
+  "protein_name": "HIV1_Protease",
+  "strategy": "active_site",
+  "model": "ProtT5",
+  "predictions": [
+    {
+      "position": 24,
+      "original_aa": "G",
+      "predicted_aa": "\u2581R",
+      "prob": 0.9993,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581R",
+          "prob": 0.9993
+        },
+        {
+          "aa": "\u2581T",
+          "prob": 0.0004
+        },
+        {
+          "aa": "\u2581Y",
+          "prob": 0.0002
+        },
+        {
+          "aa": "<extra_id_0>",
+          "prob": 0.0001
+        },
+        {
+          "aa": "\u2581W",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 25,
+      "original_aa": "K",
+      "predicted_aa": "\u2581X",
+      "prob": 0.9447,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581X",
+          "prob": 0.9447
+        },
+        {
+          "aa": "\u2581R",
+          "prob": 0.0553
+        },
+        {
+          "aa": "\u2581K",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581Q",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581D",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 26,
+      "original_aa": "K",
+      "predicted_aa": "\u2581R",
+      "prob": 0.9998,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581R",
+          "prob": 0.9998
+        },
+        {
+          "aa": "<pad>",
+          "prob": 0.0002
+        },
+        {
+          "aa": "\u2581M",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581K",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581D",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 27,
+      "original_aa": "K",
+      "predicted_aa": "\u2581Y",
+      "prob": 0.9379,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581Y",
+          "prob": 0.9379
+        },
+        {
+          "aa": "\u2581D",
+          "prob": 0.0302
+        },
+        {
+          "aa": "\u2581Q",
+          "prob": 0.0178
+        },
+        {
+          "aa": "\u2581R",
+          "prob": 0.0137
+        },
+        {
+          "aa": "\u2581F",
+          "prob": 0.0004
+        }
+      ]
+    },
+    {
+      "position": 28,
+      "original_aa": "Y",
+      "predicted_aa": "\u2581X",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581X",
+          "prob": 1.0
+        },
+        {
+          "aa": "\u2581R",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581D",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581T",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581Q",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 29,
+      "original_aa": "K",
+      "predicted_aa": "\u2581X",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581X",
+          "prob": 1.0
+        },
+        {
+          "aa": "<extra_id_0>",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581R",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581D",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581T",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 30,
+      "original_aa": "L",
+      "predicted_aa": "\u2581X",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581X",
+          "prob": 1.0
+        },
+        {
+          "aa": "\u2581R",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_0>",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581K",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581Q",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 31,
+      "original_aa": "K",
+      "predicted_aa": "\u2581H",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581H",
+          "prob": 1.0
+        },
+        {
+          "aa": "\u2581Y",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581F",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581N",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_0>",
+          "prob": 0.0
+        }
+      ]
+    }
+  ]
+}

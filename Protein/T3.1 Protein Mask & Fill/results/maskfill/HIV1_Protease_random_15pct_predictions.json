@@ -1,0 +1,6972 @@
+{
+  "protein_name": "HIV1_Protease",
+  "uniprot": "P03366",
+  "pdb": "3OXC",
+  "risk_type": "viral_replication",
+  "strategy": "random_15pct",
+  "seq_length": 1447,
+  "n_masked_total": 217,
+  "n_masked_critical": 0,
+  "aarr_total": 0.3502,
+  "aarr_critical": 0.0,
+  "n_correct_total": 76,
+  "n_correct_critical": 0,
+  "critical_positions_1indexed": [
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "predictions": [
+    {
+      "position_0indexed": 1,
+      "position_1indexed": 2,
+      "original_aa": "G",
+      "predicted_aa": "G",
+      "prob": 0.947112,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "G",
+          "prob": 0.947112
+        },
+        {
+          "aa": "E",
+          "prob": 0.011989
+        },
+        {
+          "aa": "A",
+          "prob": 0.011505
+        },
+        {
+          "aa": "S",
+          "prob": 0.007276
+        },
+        {
+          "aa": "R",
+          "prob": 0.003294
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 6,
+      "position_1indexed": 7,
+      "original_aa": "V",
+      "predicted_aa": "K",
+      "prob": 0.410414,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.410414
+        },
+        {
+          "aa": "R",
+          "prob": 0.155803
+        },
+        {
+          "aa": "T",
+          "prob": 0.082484
+        },
+        {
+          "aa": "Q",
+          "prob": 0.058504
+        },
+        {
+          "aa": "S",
+          "prob": 0.05405
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 13,
+      "position_1indexed": 14,
+      "original_aa": "D",
+      "predicted_aa": "E",
+      "prob": 0.185012,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.185012
+        },
+        {
+          "aa": "K",
+          "prob": 0.106921
+        },
+        {
+          "aa": "T",
+          "prob": 0.095757
+        },
+        {
+          "aa": "S",
+          "prob": 0.084081
+        },
+        {
+          "aa": "A",
+          "prob": 0.079872
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 14,
+      "position_1indexed": 15,
+      "original_aa": "R",
+      "predicted_aa": "E",
+      "prob": 0.137923,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.137923
+        },
+        {
+          "aa": "L",
+          "prob": 0.135486
+        },
+        {
+          "aa": "A",
+          "prob": 0.086593
+        },
+        {
+          "aa": "I",
+          "prob": 0.066071
+        },
+        {
+          "aa": "D",
+          "prob": 0.064952
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 23,
+      "position_1indexed": 24,
+      "original_aa": "G",
+      "predicted_aa": "E",
+      "prob": 0.122084,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.122084
+        },
+        {
+          "aa": "K",
+          "prob": 0.100588
+        },
+        {
+          "aa": "G",
+          "prob": 0.090655
+        },
+        {
+          "aa": "D",
+          "prob": 0.073164
+        },
+        {
+          "aa": "L",
+          "prob": 0.071979
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 39,
+      "position_1indexed": 40,
+      "original_aa": "E",
+      "predicted_aa": "E",
+      "prob": 0.176664,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.176664
+        },
+        {
+          "aa": "L",
+          "prob": 0.132983
+        },
+        {
+          "aa": "I",
+          "prob": 0.105349
+        },
+        {
+          "aa": "Q",
+          "prob": 0.083276
+        },
+        {
+          "aa": "V",
+          "prob": 0.082782
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 43,
+      "position_1indexed": 44,
+      "original_aa": "F",
+      "predicted_aa": "L",
+      "prob": 0.226567,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.226567
+        },
+        {
+          "aa": "I",
+          "prob": 0.09765
+        },
+        {
+          "aa": "A",
+          "prob": 0.096087
+        },
+        {
+          "aa": "V",
+          "prob": 0.073539
+        },
+        {
+          "aa": "E",
+          "prob": 0.065852
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 51,
+      "position_1indexed": 52,
+      "original_aa": "E",
+      "predicted_aa": "L",
+      "prob": 0.112794,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.112794
+        },
+        {
+          "aa": "K",
+          "prob": 0.098637
+        },
+        {
+          "aa": "E",
+          "prob": 0.088337
+        },
+        {
+          "aa": "T",
+          "prob": 0.075174
+        },
+        {
+          "aa": "R",
+          "prob": 0.068701
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 54,
+      "position_1indexed": 55,
+      "original_aa": "E",
+      "predicted_aa": "E",
+      "prob": 0.310019,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.310019
+        },
+        {
+          "aa": "D",
+          "prob": 0.090771
+        },
+        {
+          "aa": "Q",
+          "prob": 0.090301
+        },
+        {
+          "aa": "K",
+          "prob": 0.077216
+        },
+        {
+          "aa": "A",
+          "prob": 0.065497
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 61,
+      "position_1indexed": 62,
+      "original_aa": "G",
+      "predicted_aa": "E",
+      "prob": 0.184488,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.184488
+        },
+        {
+          "aa": "D",
+          "prob": 0.102629
+        },
+        {
+          "aa": "Q",
+          "prob": 0.099205
+        },
+        {
+          "aa": "K",
+          "prob": 0.093243
+        },
+        {
+          "aa": "R",
+          "prob": 0.067365
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 64,
+      "position_1indexed": 65,
+      "original_aa": "Q",
+      "predicted_aa": "E",
+      "prob": 0.130031,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.130031
+        },
+        {
+          "aa": "K",
+          "prob": 0.104614
+        },
+        {
+          "aa": "G",
+          "prob": 0.081608
+        },
+        {
+          "aa": "Q",
+          "prob": 0.074073
+        },
+        {
+          "aa": "R",
+          "prob": 0.071311
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 65,
+      "position_1indexed": 66,
+      "original_aa": "P",
+      "predicted_aa": "E",
+      "prob": 0.156054,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.156054
+        },
+        {
+          "aa": "Q",
+          "prob": 0.092747
+        },
+        {
+          "aa": "K",
+          "prob": 0.079245
+        },
+        {
+          "aa": "D",
+          "prob": 0.076748
+        },
+        {
+          "aa": "P",
+          "prob": 0.071952
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 88,
+      "position_1indexed": 89,
+      "original_aa": "H",
+      "predicted_aa": "L",
+      "prob": 0.12714,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.12714
+        },
+        {
+          "aa": "K",
+          "prob": 0.081964
+        },
+        {
+          "aa": "A",
+          "prob": 0.079963
+        },
+        {
+          "aa": "Q",
+          "prob": 0.070963
+        },
+        {
+          "aa": "I",
+          "prob": 0.064911
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 93,
+      "position_1indexed": 94,
+      "original_aa": "I",
+      "predicted_aa": "E",
+      "prob": 0.173631,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.173631
+        },
+        {
+          "aa": "D",
+          "prob": 0.115441
+        },
+        {
+          "aa": "K",
+          "prob": 0.095254
+        },
+        {
+          "aa": "G",
+          "prob": 0.082531
+        },
+        {
+          "aa": "A",
+          "prob": 0.064764
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 96,
+      "position_1indexed": 97,
+      "original_aa": "T",
+      "predicted_aa": "L",
+      "prob": 0.214002,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.214002
+        },
+        {
+          "aa": "I",
+          "prob": 0.124907
+        },
+        {
+          "aa": "V",
+          "prob": 0.092694
+        },
+        {
+          "aa": "K",
+          "prob": 0.062563
+        },
+        {
+          "aa": "A",
+          "prob": 0.058926
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 114,
+      "position_1indexed": 115,
+      "original_aa": "A",
+      "predicted_aa": "K",
+      "prob": 0.136226,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.136226
+        },
+        {
+          "aa": "E",
+          "prob": 0.099803
+        },
+        {
+          "aa": "Q",
+          "prob": 0.092844
+        },
+        {
+          "aa": "A",
+          "prob": 0.07649
+        },
+        {
+          "aa": "S",
+          "prob": 0.069435
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 118,
+      "position_1indexed": 119,
+      "original_aa": "A",
+      "predicted_aa": "A",
+      "prob": 0.109959,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "A",
+          "prob": 0.109959
+        },
+        {
+          "aa": "T",
+          "prob": 0.098583
+        },
+        {
+          "aa": "Q",
+          "prob": 0.095032
+        },
+        {
+          "aa": "E",
+          "prob": 0.092046
+        },
+        {
+          "aa": "L",
+          "prob": 0.075363
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 120,
+      "position_1indexed": 121,
+      "original_aa": "D",
+      "predicted_aa": "T",
+      "prob": 0.122097,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "T",
+          "prob": 0.122097
+        },
+        {
+          "aa": "S",
+          "prob": 0.105725
+        },
+        {
+          "aa": "A",
+          "prob": 0.098997
+        },
+        {
+          "aa": "Q",
+          "prob": 0.07758
+        },
+        {
+          "aa": "G",
+          "prob": 0.074024
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 130,
+      "position_1indexed": 131,
+      "original_aa": "N",
+      "predicted_aa": "L",
+      "prob": 0.142338,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.142338
+        },
+        {
+          "aa": "V",
+          "prob": 0.093401
+        },
+        {
+          "aa": "I",
+          "prob": 0.079596
+        },
+        {
+          "aa": "P",
+          "prob": 0.068756
+        },
+        {
+          "aa": "A",
+          "prob": 0.067942
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 131,
+      "position_1indexed": 132,
+      "original_aa": "Y",
+      "predicted_aa": "L",
+      "prob": 0.132046,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.132046
+        },
+        {
+          "aa": "I",
+          "prob": 0.095536
+        },
+        {
+          "aa": "V",
+          "prob": 0.089061
+        },
+        {
+          "aa": "Y",
+          "prob": 0.077283
+        },
+        {
+          "aa": "T",
+          "prob": 0.069241
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 135,
+      "position_1indexed": 136,
+      "original_aa": "Q",
+      "predicted_aa": "V",
+      "prob": 0.112404,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "V",
+          "prob": 0.112404
+        },
+        {
+          "aa": "T",
+          "prob": 0.103831
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0897
+        },
+        {
+          "aa": "R",
+          "prob": 0.089482
+        },
+        {
+          "aa": "E",
+          "prob": 0.071326
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 138,
+      "position_1indexed": 139,
+      "original_aa": "Q",
+      "predicted_aa": "Q",
+      "prob": 0.171557,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "Q",
+          "prob": 0.171557
+        },
+        {
+          "aa": "N",
+          "prob": 0.13039
+        },
+        {
+          "aa": "P",
+          "prob": 0.083018
+        },
+        {
+          "aa": "D",
+          "prob": 0.080251
+        },
+        {
+          "aa": "G",
+          "prob": 0.069173
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 141,
+      "position_1indexed": 142,
+      "original_aa": "M",
+      "predicted_aa": "V",
+      "prob": 0.134734,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "V",
+          "prob": 0.134734
+        },
+        {
+          "aa": "P",
+          "prob": 0.11684
+        },
+        {
+          "aa": "T",
+          "prob": 0.090959
+        },
+        {
+          "aa": "I",
+          "prob": 0.090655
+        },
+        {
+          "aa": "R",
+          "prob": 0.08786
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 142,
+      "position_1indexed": 143,
+      "original_aa": "V",
+      "predicted_aa": "V",
+      "prob": 0.203875,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "V",
+          "prob": 0.203875
+        },
+        {
+          "aa": "I",
+          "prob": 0.137861
+        },
+        {
+          "aa": "T",
+          "prob": 0.100338
+        },
+        {
+          "aa": "Q",
+          "prob": 0.085416
+        },
+        {
+          "aa": "E",
+          "prob": 0.064969
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 145,
+      "position_1indexed": 146,
+      "original_aa": "A",
+      "predicted_aa": "P",
+      "prob": 0.213408,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "P",
+          "prob": 0.213408
+        },
+        {
+          "aa": "E",
+          "prob": 0.077263
+        },
+        {
+          "aa": "A",
+          "prob": 0.070362
+        },
+        {
+          "aa": "T",
+          "prob": 0.065559
+        },
+        {
+          "aa": "R",
+          "prob": 0.062366
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 146,
+      "position_1indexed": 147,
+      "original_aa": "I",
+      "predicted_aa": "F",
+      "prob": 0.278612,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "F",
+          "prob": 0.278612
+        },
+        {
+          "aa": "Y",
+          "prob": 0.15808
+        },
+        {
+          "aa": "L",
+          "prob": 0.105972
+        },
+        {
+          "aa": "I",
+          "prob": 0.088213
+        },
+        {
+          "aa": "W",
+          "prob": 0.081769
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 161,
+      "position_1indexed": 162,
+      "original_aa": "K",
+      "predicted_aa": "G",
+      "prob": 0.134748,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "G",
+          "prob": 0.134748
+        },
+        {
+          "aa": "K",
+          "prob": 0.130528
+        },
+        {
+          "aa": "A",
+          "prob": 0.104632
+        },
+        {
+          "aa": "Q",
+          "prob": 0.094846
+        },
+        {
+          "aa": "L",
+          "prob": 0.076654
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 163,
+      "position_1indexed": 164,
+      "original_aa": "F",
+      "predicted_aa": "K",
+      "prob": 0.155522,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.155522
+        },
+        {
+          "aa": "N",
+          "prob": 0.099583
+        },
+        {
+          "aa": "L",
+          "prob": 0.093893
+        },
+        {
+          "aa": "R",
+          "prob": 0.085169
+        },
+        {
+          "aa": "Q",
+          "prob": 0.083159
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 175,
+      "position_1indexed": 176,
+      "original_aa": "S",
+      "predicted_aa": "L",
+      "prob": 0.112384,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.112384
+        },
+        {
+          "aa": "G",
+          "prob": 0.091328
+        },
+        {
+          "aa": "A",
+          "prob": 0.083482
+        },
+        {
+          "aa": "T",
+          "prob": 0.08129
+        },
+        {
+          "aa": "P",
+          "prob": 0.07303
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 178,
+      "position_1indexed": 179,
+      "original_aa": "A",
+      "predicted_aa": "L",
+      "prob": 0.213909,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.213909
+        },
+        {
+          "aa": "I",
+          "prob": 0.124763
+        },
+        {
+          "aa": "Y",
+          "prob": 0.110106
+        },
+        {
+          "aa": "F",
+          "prob": 0.08421
+        },
+        {
+          "aa": "A",
+          "prob": 0.0797
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 186,
+      "position_1indexed": 187,
+      "original_aa": "M",
+      "predicted_aa": "L",
+      "prob": 0.407729,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.407729
+        },
+        {
+          "aa": "I",
+          "prob": 0.229637
+        },
+        {
+          "aa": "V",
+          "prob": 0.139567
+        },
+        {
+          "aa": "F",
+          "prob": 0.057276
+        },
+        {
+          "aa": "M",
+          "prob": 0.056276
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 189,
+      "position_1indexed": 190,
+      "original_aa": "T",
+      "predicted_aa": "L",
+      "prob": 0.114801,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.114801
+        },
+        {
+          "aa": "K",
+          "prob": 0.094603
+        },
+        {
+          "aa": "R",
+          "prob": 0.090078
+        },
+        {
+          "aa": "Q",
+          "prob": 0.082265
+        },
+        {
+          "aa": "A",
+          "prob": 0.078963
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 191,
+      "position_1indexed": 192,
+      "original_aa": "G",
+      "predicted_aa": "L",
+      "prob": 0.392515,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.392515
+        },
+        {
+          "aa": "V",
+          "prob": 0.110002
+        },
+        {
+          "aa": "I",
+          "prob": 0.107136
+        },
+        {
+          "aa": "M",
+          "prob": 0.06882
+        },
+        {
+          "aa": "F",
+          "prob": 0.064233
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 198,
+      "position_1indexed": 199,
+      "original_aa": "Q",
+      "predicted_aa": "W",
+      "prob": 0.306085,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "W",
+          "prob": 0.306085
+        },
+        {
+          "aa": "E",
+          "prob": 0.102943
+        },
+        {
+          "aa": "A",
+          "prob": 0.072964
+        },
+        {
+          "aa": "L",
+          "prob": 0.07023
+        },
+        {
+          "aa": "D",
+          "prob": 0.0649
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 206,
+      "position_1indexed": 207,
+      "original_aa": "E",
+      "predicted_aa": "Q",
+      "prob": 0.155811,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "Q",
+          "prob": 0.155811
+        },
+        {
+          "aa": "E",
+          "prob": 0.137735
+        },
+        {
+          "aa": "K",
+          "prob": 0.108146
+        },
+        {
+          "aa": "R",
+          "prob": 0.103783
+        },
+        {
+          "aa": "L",
+          "prob": 0.099857
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 209,
+      "position_1indexed": 210,
+      "original_aa": "A",
+      "predicted_aa": "A",
+      "prob": 0.167951,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "A",
+          "prob": 0.167951
+        },
+        {
+          "aa": "E",
+          "prob": 0.162281
+        },
+        {
+          "aa": "Q",
+          "prob": 0.101758
+        },
+        {
+          "aa": "R",
+          "prob": 0.098749
+        },
+        {
+          "aa": "L",
+          "prob": 0.071747
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 217,
+      "position_1indexed": 218,
+      "original_aa": "V",
+      "predicted_aa": "Q",
+      "prob": 0.148853,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "Q",
+          "prob": 0.148853
+        },
+        {
+          "aa": "G",
+          "prob": 0.122367
+        },
+        {
+          "aa": "A",
+          "prob": 0.113277
+        },
+        {
+          "aa": "E",
+          "prob": 0.10896
+        },
+        {
+          "aa": "N",
+          "prob": 0.085201
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 224,
+      "position_1indexed": 225,
+      "original_aa": "P",
+      "predicted_aa": "P",
+      "prob": 0.162953,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "P",
+          "prob": 0.162953
+        },
+        {
+          "aa": "A",
+          "prob": 0.143302
+        },
+        {
+          "aa": "G",
+          "prob": 0.118202
+        },
+        {
+          "aa": "N",
+          "prob": 0.095678
+        },
+        {
+          "aa": "Q",
+          "prob": 0.081001
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 228,
+      "position_1indexed": 229,
+      "original_aa": "R",
+      "predicted_aa": "P",
+      "prob": 0.155814,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "P",
+          "prob": 0.155814
+        },
+        {
+          "aa": "A",
+          "prob": 0.119653
+        },
+        {
+          "aa": "V",
+          "prob": 0.112986
+        },
+        {
+          "aa": "G",
+          "prob": 0.092336
+        },
+        {
+          "aa": "Q",
+          "prob": 0.063834
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 229,
+      "position_1indexed": 230,
+      "original_aa": "E",
+      "predicted_aa": "P",
+      "prob": 0.098087,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "P",
+          "prob": 0.098087
+        },
+        {
+          "aa": "A",
+          "prob": 0.095921
+        },
+        {
+          "aa": "G",
+          "prob": 0.092459
+        },
+        {
+          "aa": "L",
+          "prob": 0.078667
+        },
+        {
+          "aa": "N",
+          "prob": 0.074707
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 234,
+      "position_1indexed": 235,
+      "original_aa": "D",
+      "predicted_aa": "G",
+      "prob": 0.12615,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "G",
+          "prob": 0.12615
+        },
+        {
+          "aa": "P",
+          "prob": 0.111377
+        },
+        {
+          "aa": "T",
+          "prob": 0.108093
+        },
+        {
+          "aa": "Q",
+          "prob": 0.094197
+        },
+        {
+          "aa": "A",
+          "prob": 0.087288
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 247,
+      "position_1indexed": 248,
+      "original_aa": "G",
+      "predicted_aa": "Q",
+      "prob": 0.157899,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "Q",
+          "prob": 0.157899
+        },
+        {
+          "aa": "D",
+          "prob": 0.144965
+        },
+        {
+          "aa": "N",
+          "prob": 0.123043
+        },
+        {
+          "aa": "E",
+          "prob": 0.119833
+        },
+        {
+          "aa": "A",
+          "prob": 0.110683
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 255,
+      "position_1indexed": 256,
+      "original_aa": "I",
+      "predicted_aa": "G",
+      "prob": 0.116505,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "G",
+          "prob": 0.116505
+        },
+        {
+          "aa": "P",
+          "prob": 0.093429
+        },
+        {
+          "aa": "L",
+          "prob": 0.08889
+        },
+        {
+          "aa": "A",
+          "prob": 0.065004
+        },
+        {
+          "aa": "V",
+          "prob": 0.059308
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 257,
+      "position_1indexed": 258,
+      "original_aa": "V",
+      "predicted_aa": "L",
+      "prob": 0.145582,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.145582
+        },
+        {
+          "aa": "V",
+          "prob": 0.100197
+        },
+        {
+          "aa": "A",
+          "prob": 0.080494
+        },
+        {
+          "aa": "I",
+          "prob": 0.077524
+        },
+        {
+          "aa": "W",
+          "prob": 0.064188
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 262,
+      "position_1indexed": 263,
+      "original_aa": "K",
+      "predicted_aa": "R",
+      "prob": 0.354397,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "R",
+          "prob": 0.354397
+        },
+        {
+          "aa": "K",
+          "prob": 0.201331
+        },
+        {
+          "aa": "Q",
+          "prob": 0.104237
+        },
+        {
+          "aa": "L",
+          "prob": 0.053007
+        },
+        {
+          "aa": "H",
+          "prob": 0.028671
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 270,
+      "position_1indexed": 271,
+      "original_aa": "N",
+      "predicted_aa": "R",
+      "prob": 0.201867,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "R",
+          "prob": 0.201867
+        },
+        {
+          "aa": "K",
+          "prob": 0.19918
+        },
+        {
+          "aa": "Q",
+          "prob": 0.166836
+        },
+        {
+          "aa": "E",
+          "prob": 0.104511
+        },
+        {
+          "aa": "G",
+          "prob": 0.048898
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 283,
+      "position_1indexed": 284,
+      "original_aa": "D",
+      "predicted_aa": "S",
+      "prob": 0.180407,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "S",
+          "prob": 0.180407
+        },
+        {
+          "aa": "T",
+          "prob": 0.115377
+        },
+        {
+          "aa": "A",
+          "prob": 0.098951
+        },
+        {
+          "aa": "E",
+          "prob": 0.092991
+        },
+        {
+          "aa": "N",
+          "prob": 0.091416
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 285,
+      "position_1indexed": 286,
+      "original_aa": "R",
+      "predicted_aa": "K",
+      "prob": 0.366085,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.366085
+        },
+        {
+          "aa": "T",
+          "prob": 0.132631
+        },
+        {
+          "aa": "R",
+          "prob": 0.129725
+        },
+        {
+          "aa": "Q",
+          "prob": 0.084634
+        },
+        {
+          "aa": "V",
+          "prob": 0.058538
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 292,
+      "position_1indexed": 293,
+      "original_aa": "F",
+      "predicted_aa": "F",
+      "prob": 0.702922,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "F",
+          "prob": 0.702922
+        },
+        {
+          "aa": "Y",
+          "prob": 0.224123
+        },
+        {
+          "aa": "L",
+          "prob": 0.016179
+        },
+        {
+          "aa": "I",
+          "prob": 0.009895
+        },
+        {
+          "aa": "V",
+          "prob": 0.00951
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 313,
+      "position_1indexed": 314,
+      "original_aa": "K",
+      "predicted_aa": "K",
+      "prob": 0.207172,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.207172
+        },
+        {
+          "aa": "Q",
+          "prob": 0.157922
+        },
+        {
+          "aa": "I",
+          "prob": 0.101727
+        },
+        {
+          "aa": "R",
+          "prob": 0.101205
+        },
+        {
+          "aa": "V",
+          "prob": 0.089228
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 318,
+      "position_1indexed": 319,
+      "original_aa": "E",
+      "predicted_aa": "K",
+      "prob": 0.476498,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.476498
+        },
+        {
+          "aa": "R",
+          "prob": 0.261708
+        },
+        {
+          "aa": "Q",
+          "prob": 0.061241
+        },
+        {
+          "aa": "N",
+          "prob": 0.029226
+        },
+        {
+          "aa": "T",
+          "prob": 0.02546
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 323,
+      "position_1indexed": 324,
+      "original_aa": "Q",
+      "predicted_aa": "E",
+      "prob": 0.284024,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.284024
+        },
+        {
+          "aa": "D",
+          "prob": 0.17191
+        },
+        {
+          "aa": "Q",
+          "prob": 0.164507
+        },
+        {
+          "aa": "N",
+          "prob": 0.063171
+        },
+        {
+          "aa": "K",
+          "prob": 0.058149
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 326,
+      "position_1indexed": 327,
+      "original_aa": "N",
+      "predicted_aa": "N",
+      "prob": 0.919605,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "N",
+          "prob": 0.919605
+        },
+        {
+          "aa": "S",
+          "prob": 0.021818
+        },
+        {
+          "aa": "T",
+          "prob": 0.015758
+        },
+        {
+          "aa": "H",
+          "prob": 0.014488
+        },
+        {
+          "aa": "L",
+          "prob": 0.003749
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 327,
+      "position_1indexed": 328,
+      "original_aa": "P",
+      "predicted_aa": "P",
+      "prob": 0.202509,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "P",
+          "prob": 0.202509
+        },
+        {
+          "aa": "E",
+          "prob": 0.20229
+        },
+        {
+          "aa": "Q",
+          "prob": 0.091524
+        },
+        {
+          "aa": "A",
+          "prob": 0.083592
+        },
+        {
+          "aa": "S",
+          "prob": 0.06771
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 330,
+      "position_1indexed": 331,
+      "original_aa": "K",
+      "predicted_aa": "K",
+      "prob": 0.392973,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.392973
+        },
+        {
+          "aa": "R",
+          "prob": 0.277848
+        },
+        {
+          "aa": "Q",
+          "prob": 0.204088
+        },
+        {
+          "aa": "A",
+          "prob": 0.026247
+        },
+        {
+          "aa": "S",
+          "prob": 0.01647
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 333,
+      "position_1indexed": 334,
+      "original_aa": "L",
+      "predicted_aa": "L",
+      "prob": 0.654119,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.654119
+        },
+        {
+          "aa": "I",
+          "prob": 0.182104
+        },
+        {
+          "aa": "M",
+          "prob": 0.064873
+        },
+        {
+          "aa": "F",
+          "prob": 0.043945
+        },
+        {
+          "aa": "V",
+          "prob": 0.024179
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 334,
+      "position_1indexed": 335,
+      "original_aa": "K",
+      "predicted_aa": "A",
+      "prob": 0.185901,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "A",
+          "prob": 0.185901
+        },
+        {
+          "aa": "R",
+          "prob": 0.126256
+        },
+        {
+          "aa": "S",
+          "prob": 0.10296
+        },
+        {
+          "aa": "Q",
+          "prob": 0.081487
+        },
+        {
+          "aa": "N",
+          "prob": 0.08
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 338,
+      "position_1indexed": 339,
+      "original_aa": "P",
+      "predicted_aa": "P",
+      "prob": 0.293681,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "P",
+          "prob": 0.293681
+        },
+        {
+          "aa": "E",
+          "prob": 0.09521
+        },
+        {
+          "aa": "K",
+          "prob": 0.087188
+        },
+        {
+          "aa": "A",
+          "prob": 0.074669
+        },
+        {
+          "aa": "G",
+          "prob": 0.07386
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 350,
+      "position_1indexed": 351,
+      "original_aa": "Q",
+      "predicted_aa": "A",
+      "prob": 0.288931,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "A",
+          "prob": 0.288931
+        },
+        {
+          "aa": "S",
+          "prob": 0.116914
+        },
+        {
+          "aa": "Q",
+          "prob": 0.113727
+        },
+        {
+          "aa": "E",
+          "prob": 0.092928
+        },
+        {
+          "aa": "R",
+          "prob": 0.072793
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 365,
+      "position_1indexed": 366,
+      "original_aa": "A",
+      "predicted_aa": "A",
+      "prob": 0.744887,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "A",
+          "prob": 0.744887
+        },
+        {
+          "aa": "V",
+          "prob": 0.104491
+        },
+        {
+          "aa": "T",
+          "prob": 0.041911
+        },
+        {
+          "aa": "I",
+          "prob": 0.026558
+        },
+        {
+          "aa": "L",
+          "prob": 0.018349
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 393,
+      "position_1indexed": 394,
+      "original_aa": "N",
+      "predicted_aa": "N",
+      "prob": 0.621279,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "N",
+          "prob": 0.621279
+        },
+        {
+          "aa": "R",
+          "prob": 0.086655
+        },
+        {
+          "aa": "K",
+          "prob": 0.077727
+        },
+        {
+          "aa": "T",
+          "prob": 0.033764
+        },
+        {
+          "aa": "S",
+          "prob": 0.031624
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 407,
+      "position_1indexed": 408,
+      "original_aa": "P",
+      "predicted_aa": "P",
+      "prob": 0.240221,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "P",
+          "prob": 0.240221
+        },
+        {
+          "aa": "E",
+          "prob": 0.228847
+        },
+        {
+          "aa": "G",
+          "prob": 0.121955
+        },
+        {
+          "aa": "A",
+          "prob": 0.061758
+        },
+        {
+          "aa": "D",
+          "prob": 0.055577
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 411,
+      "position_1indexed": 412,
+      "original_aa": "G",
+      "predicted_aa": "F",
+      "prob": 0.411788,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "F",
+          "prob": 0.411788
+        },
+        {
+          "aa": "L",
+          "prob": 0.116697
+        },
+        {
+          "aa": "I",
+          "prob": 0.113529
+        },
+        {
+          "aa": "V",
+          "prob": 0.061432
+        },
+        {
+          "aa": "K",
+          "prob": 0.050021
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 429,
+      "position_1indexed": 430,
+      "original_aa": "Q",
+      "predicted_aa": "K",
+      "prob": 0.197921,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.197921
+        },
+        {
+          "aa": "R",
+          "prob": 0.141834
+        },
+        {
+          "aa": "G",
+          "prob": 0.08627
+        },
+        {
+          "aa": "Q",
+          "prob": 0.085349
+        },
+        {
+          "aa": "T",
+          "prob": 0.077387
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 432,
+      "position_1indexed": 433,
+      "original_aa": "F",
+      "predicted_aa": "Q",
+      "prob": 0.117159,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "Q",
+          "prob": 0.117159
+        },
+        {
+          "aa": "R",
+          "prob": 0.107668
+        },
+        {
+          "aa": "G",
+          "prob": 0.102581
+        },
+        {
+          "aa": "S",
+          "prob": 0.08334
+        },
+        {
+          "aa": "P",
+          "prob": 0.082888
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 433,
+      "position_1indexed": 434,
+      "original_aa": "L",
+      "predicted_aa": "G",
+      "prob": 0.152119,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "G",
+          "prob": 0.152119
+        },
+        {
+          "aa": "R",
+          "prob": 0.123414
+        },
+        {
+          "aa": "Q",
+          "prob": 0.097825
+        },
+        {
+          "aa": "N",
+          "prob": 0.082536
+        },
+        {
+          "aa": "K",
+          "prob": 0.0732
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 435,
+      "position_1indexed": 436,
+      "original_aa": "E",
+      "predicted_aa": "R",
+      "prob": 0.170134,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "R",
+          "prob": 0.170134
+        },
+        {
+          "aa": "K",
+          "prob": 0.112916
+        },
+        {
+          "aa": "G",
+          "prob": 0.109887
+        },
+        {
+          "aa": "Q",
+          "prob": 0.096607
+        },
+        {
+          "aa": "E",
+          "prob": 0.069587
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 438,
+      "position_1indexed": 439,
+      "original_aa": "A",
+      "predicted_aa": "N",
+      "prob": 0.128941,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "N",
+          "prob": 0.128941
+        },
+        {
+          "aa": "G",
+          "prob": 0.109632
+        },
+        {
+          "aa": "R",
+          "prob": 0.106569
+        },
+        {
+          "aa": "P",
+          "prob": 0.092626
+        },
+        {
+          "aa": "S",
+          "prob": 0.083008
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 440,
+      "position_1indexed": 441,
+      "original_aa": "L",
+      "predicted_aa": "N",
+      "prob": 0.110044,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "N",
+          "prob": 0.110044
+        },
+        {
+          "aa": "G",
+          "prob": 0.107732
+        },
+        {
+          "aa": "R",
+          "prob": 0.092888
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0898
+        },
+        {
+          "aa": "S",
+          "prob": 0.089093
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 447,
+      "position_1indexed": 448,
+      "original_aa": "F",
+      "predicted_aa": "I",
+      "prob": 0.226285,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "I",
+          "prob": 0.226285
+        },
+        {
+          "aa": "T",
+          "prob": 0.089484
+        },
+        {
+          "aa": "N",
+          "prob": 0.071778
+        },
+        {
+          "aa": "V",
+          "prob": 0.070496
+        },
+        {
+          "aa": "E",
+          "prob": 0.06122
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 449,
+      "position_1indexed": 450,
+      "original_aa": "S",
+      "predicted_aa": "S",
+      "prob": 0.368903,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "S",
+          "prob": 0.368903
+        },
+        {
+          "aa": "R",
+          "prob": 0.098231
+        },
+        {
+          "aa": "P",
+          "prob": 0.070787
+        },
+        {
+          "aa": "G",
+          "prob": 0.070074
+        },
+        {
+          "aa": "T",
+          "prob": 0.056086
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 451,
+      "position_1indexed": 452,
+      "original_aa": "Q",
+      "predicted_aa": "Q",
+      "prob": 0.571838,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "Q",
+          "prob": 0.571838
+        },
+        {
+          "aa": "R",
+          "prob": 0.056134
+        },
+        {
+          "aa": "E",
+          "prob": 0.054252
+        },
+        {
+          "aa": "P",
+          "prob": 0.044277
+        },
+        {
+          "aa": "K",
+          "prob": 0.04319
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 457,
+      "position_1indexed": 458,
+      "original_aa": "P",
+      "predicted_aa": "R",
+      "prob": 0.13643,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "R",
+          "prob": 0.13643
+        },
+        {
+          "aa": "G",
+          "prob": 0.095636
+        },
+        {
+          "aa": "V",
+          "prob": 0.091764
+        },
+        {
+          "aa": "S",
+          "prob": 0.090565
+        },
+        {
+          "aa": "T",
+          "prob": 0.07984
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 460,
+      "position_1indexed": 461,
+      "original_aa": "S",
+      "predicted_aa": "S",
+      "prob": 0.315434,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "S",
+          "prob": 0.315434
+        },
+        {
+          "aa": "R",
+          "prob": 0.118536
+        },
+        {
+          "aa": "P",
+          "prob": 0.074978
+        },
+        {
+          "aa": "N",
+          "prob": 0.071824
+        },
+        {
+          "aa": "T",
+          "prob": 0.064425
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 466,
+      "position_1indexed": 467,
+      "original_aa": "A",
+      "predicted_aa": "A",
+      "prob": 0.485227,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "A",
+          "prob": 0.485227
+        },
+        {
+          "aa": "T",
+          "prob": 0.095371
+        },
+        {
+          "aa": "V",
+          "prob": 0.069511
+        },
+        {
+          "aa": "E",
+          "prob": 0.053637
+        },
+        {
+          "aa": "G",
+          "prob": 0.053331
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 468,
+      "position_1indexed": 469,
+      "original_aa": "S",
+      "predicted_aa": "S",
+      "prob": 0.472515,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "S",
+          "prob": 0.472515
+        },
+        {
+          "aa": "P",
+          "prob": 0.083194
+        },
+        {
+          "aa": "L",
+          "prob": 0.063559
+        },
+        {
+          "aa": "T",
+          "prob": 0.049226
+        },
+        {
+          "aa": "R",
+          "prob": 0.044008
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 469,
+      "position_1indexed": 470,
+      "original_aa": "P",
+      "predicted_aa": "V",
+      "prob": 0.094334,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "V",
+          "prob": 0.094334
+        },
+        {
+          "aa": "S",
+          "prob": 0.089585
+        },
+        {
+          "aa": "G",
+          "prob": 0.087538
+        },
+        {
+          "aa": "A",
+          "prob": 0.079851
+        },
+        {
+          "aa": "E",
+          "prob": 0.075387
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 471,
+      "position_1indexed": 472,
+      "original_aa": "R",
+      "predicted_aa": "I",
+      "prob": 0.19659,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "I",
+          "prob": 0.19659
+        },
+        {
+          "aa": "V",
+          "prob": 0.103141
+        },
+        {
+          "aa": "T",
+          "prob": 0.081524
+        },
+        {
+          "aa": "S",
+          "prob": 0.070895
+        },
+        {
+          "aa": "G",
+          "prob": 0.063336
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 476,
+      "position_1indexed": 477,
+      "original_aa": "V",
+      "predicted_aa": "E",
+      "prob": 0.100784,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.100784
+        },
+        {
+          "aa": "T",
+          "prob": 0.084063
+        },
+        {
+          "aa": "G",
+          "prob": 0.07543
+        },
+        {
+          "aa": "S",
+          "prob": 0.075371
+        },
+        {
+          "aa": "R",
+          "prob": 0.074045
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 487,
+      "position_1indexed": 488,
+      "original_aa": "A",
+      "predicted_aa": "E",
+      "prob": 0.127076,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.127076
+        },
+        {
+          "aa": "T",
+          "prob": 0.087575
+        },
+        {
+          "aa": "S",
+          "prob": 0.085423
+        },
+        {
+          "aa": "G",
+          "prob": 0.07672
+        },
+        {
+          "aa": "Q",
+          "prob": 0.072814
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 490,
+      "position_1indexed": 491,
+      "original_aa": "D",
+      "predicted_aa": "E",
+      "prob": 0.083534,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.083534
+        },
+        {
+          "aa": "I",
+          "prob": 0.082206
+        },
+        {
+          "aa": "T",
+          "prob": 0.081806
+        },
+        {
+          "aa": "S",
+          "prob": 0.078869
+        },
+        {
+          "aa": "N",
+          "prob": 0.073475
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 493,
+      "position_1indexed": 494,
+      "original_aa": "G",
+      "predicted_aa": "E",
+      "prob": 0.108143,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.108143
+        },
+        {
+          "aa": "G",
+          "prob": 0.093037
+        },
+        {
+          "aa": "A",
+          "prob": 0.084368
+        },
+        {
+          "aa": "R",
+          "prob": 0.073133
+        },
+        {
+          "aa": "T",
+          "prob": 0.072679
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 501,
+      "position_1indexed": 502,
+      "original_aa": "Q",
+      "predicted_aa": "G",
+      "prob": 0.135205,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "G",
+          "prob": 0.135205
+        },
+        {
+          "aa": "K",
+          "prob": 0.133911
+        },
+        {
+          "aa": "R",
+          "prob": 0.081471
+        },
+        {
+          "aa": "Q",
+          "prob": 0.079656
+        },
+        {
+          "aa": "E",
+          "prob": 0.079599
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 505,
+      "position_1indexed": 506,
+      "original_aa": "W",
+      "predicted_aa": "G",
+      "prob": 0.128726,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "G",
+          "prob": 0.128726
+        },
+        {
+          "aa": "S",
+          "prob": 0.099933
+        },
+        {
+          "aa": "K",
+          "prob": 0.097284
+        },
+        {
+          "aa": "N",
+          "prob": 0.089098
+        },
+        {
+          "aa": "T",
+          "prob": 0.077442
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 507,
+      "position_1indexed": 508,
+      "original_aa": "R",
+      "predicted_aa": "A",
+      "prob": 0.146088,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "A",
+          "prob": 0.146088
+        },
+        {
+          "aa": "R",
+          "prob": 0.13906
+        },
+        {
+          "aa": "K",
+          "prob": 0.107081
+        },
+        {
+          "aa": "G",
+          "prob": 0.100135
+        },
+        {
+          "aa": "S",
+          "prob": 0.088376
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 514,
+      "position_1indexed": 515,
+      "original_aa": "I",
+      "predicted_aa": "I",
+      "prob": 0.548667,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "I",
+          "prob": 0.548667
+        },
+        {
+          "aa": "V",
+          "prob": 0.183344
+        },
+        {
+          "aa": "L",
+          "prob": 0.162638
+        },
+        {
+          "aa": "M",
+          "prob": 0.035892
+        },
+        {
+          "aa": "F",
+          "prob": 0.029195
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 538,
+      "position_1indexed": 539,
+      "original_aa": "P",
+      "predicted_aa": "E",
+      "prob": 0.143874,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.143874
+        },
+        {
+          "aa": "P",
+          "prob": 0.117806
+        },
+        {
+          "aa": "K",
+          "prob": 0.093361
+        },
+        {
+          "aa": "D",
+          "prob": 0.078157
+        },
+        {
+          "aa": "G",
+          "prob": 0.075195
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 539,
+      "position_1indexed": 540,
+      "original_aa": "G",
+      "predicted_aa": "K",
+      "prob": 0.106478,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.106478
+        },
+        {
+          "aa": "E",
+          "prob": 0.096279
+        },
+        {
+          "aa": "P",
+          "prob": 0.086068
+        },
+        {
+          "aa": "S",
+          "prob": 0.082754
+        },
+        {
+          "aa": "G",
+          "prob": 0.075143
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 541,
+      "position_1indexed": 542,
+      "original_aa": "W",
+      "predicted_aa": "K",
+      "prob": 0.142029,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.142029
+        },
+        {
+          "aa": "E",
+          "prob": 0.096015
+        },
+        {
+          "aa": "G",
+          "prob": 0.093722
+        },
+        {
+          "aa": "S",
+          "prob": 0.073692
+        },
+        {
+          "aa": "N",
+          "prob": 0.072084
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 542,
+      "position_1indexed": 543,
+      "original_aa": "K",
+      "predicted_aa": "K",
+      "prob": 0.125662,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.125662
+        },
+        {
+          "aa": "T",
+          "prob": 0.081061
+        },
+        {
+          "aa": "S",
+          "prob": 0.073791
+        },
+        {
+          "aa": "G",
+          "prob": 0.073341
+        },
+        {
+          "aa": "L",
+          "prob": 0.070341
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 546,
+      "position_1indexed": 547,
+      "original_aa": "I",
+      "predicted_aa": "I",
+      "prob": 0.187056,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "I",
+          "prob": 0.187056
+        },
+        {
+          "aa": "V",
+          "prob": 0.163097
+        },
+        {
+          "aa": "L",
+          "prob": 0.100712
+        },
+        {
+          "aa": "T",
+          "prob": 0.095752
+        },
+        {
+          "aa": "K",
+          "prob": 0.093662
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 548,
+      "position_1indexed": 549,
+      "original_aa": "G",
+      "predicted_aa": "A",
+      "prob": 0.295574,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "A",
+          "prob": 0.295574
+        },
+        {
+          "aa": "V",
+          "prob": 0.10855
+        },
+        {
+          "aa": "F",
+          "prob": 0.095895
+        },
+        {
+          "aa": "Y",
+          "prob": 0.089185
+        },
+        {
+          "aa": "G",
+          "prob": 0.079438
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 552,
+      "position_1indexed": 553,
+      "original_aa": "F",
+      "predicted_aa": "E",
+      "prob": 0.223977,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.223977
+        },
+        {
+          "aa": "K",
+          "prob": 0.121797
+        },
+        {
+          "aa": "T",
+          "prob": 0.08835
+        },
+        {
+          "aa": "P",
+          "prob": 0.085471
+        },
+        {
+          "aa": "Q",
+          "prob": 0.076367
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 563,
+      "position_1indexed": 564,
+      "original_aa": "I",
+      "predicted_aa": "I",
+      "prob": 0.297274,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "I",
+          "prob": 0.297274
+        },
+        {
+          "aa": "V",
+          "prob": 0.215522
+        },
+        {
+          "aa": "L",
+          "prob": 0.161077
+        },
+        {
+          "aa": "F",
+          "prob": 0.090734
+        },
+        {
+          "aa": "M",
+          "prob": 0.080297
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 569,
+      "position_1indexed": 570,
+      "original_aa": "K",
+      "predicted_aa": "K",
+      "prob": 0.231748,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.231748
+        },
+        {
+          "aa": "Q",
+          "prob": 0.144823
+        },
+        {
+          "aa": "T",
+          "prob": 0.13305
+        },
+        {
+          "aa": "S",
+          "prob": 0.122361
+        },
+        {
+          "aa": "E",
+          "prob": 0.087968
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 570,
+      "position_1indexed": 571,
+      "original_aa": "A",
+      "predicted_aa": "G",
+      "prob": 0.280338,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "G",
+          "prob": 0.280338
+        },
+        {
+          "aa": "A",
+          "prob": 0.11714
+        },
+        {
+          "aa": "V",
+          "prob": 0.112196
+        },
+        {
+          "aa": "T",
+          "prob": 0.063132
+        },
+        {
+          "aa": "I",
+          "prob": 0.062723
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 592,
+      "position_1indexed": 593,
+      "original_aa": "I",
+      "predicted_aa": "L",
+      "prob": 0.46528,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.46528
+        },
+        {
+          "aa": "F",
+          "prob": 0.18208
+        },
+        {
+          "aa": "M",
+          "prob": 0.111421
+        },
+        {
+          "aa": "I",
+          "prob": 0.100803
+        },
+        {
+          "aa": "W",
+          "prob": 0.048562
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 600,
+      "position_1indexed": 601,
+      "original_aa": "I",
+      "predicted_aa": "G",
+      "prob": 0.151229,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "G",
+          "prob": 0.151229
+        },
+        {
+          "aa": "E",
+          "prob": 0.135122
+        },
+        {
+          "aa": "D",
+          "prob": 0.110889
+        },
+        {
+          "aa": "N",
+          "prob": 0.107451
+        },
+        {
+          "aa": "P",
+          "prob": 0.080245
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 601,
+      "position_1indexed": 602,
+      "original_aa": "S",
+      "predicted_aa": "G",
+      "prob": 0.226809,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "G",
+          "prob": 0.226809
+        },
+        {
+          "aa": "K",
+          "prob": 0.076213
+        },
+        {
+          "aa": "N",
+          "prob": 0.071768
+        },
+        {
+          "aa": "Q",
+          "prob": 0.070127
+        },
+        {
+          "aa": "E",
+          "prob": 0.068872
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 611,
+      "position_1indexed": 612,
+      "original_aa": "K",
+      "predicted_aa": "K",
+      "prob": 0.239787,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.239787
+        },
+        {
+          "aa": "P",
+          "prob": 0.161904
+        },
+        {
+          "aa": "I",
+          "prob": 0.122984
+        },
+        {
+          "aa": "L",
+          "prob": 0.114895
+        },
+        {
+          "aa": "V",
+          "prob": 0.066209
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 629,
+      "position_1indexed": 630,
+      "original_aa": "I",
+      "predicted_aa": "K",
+      "prob": 0.454434,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.454434
+        },
+        {
+          "aa": "R",
+          "prob": 0.386166
+        },
+        {
+          "aa": "Q",
+          "prob": 0.052393
+        },
+        {
+          "aa": "E",
+          "prob": 0.023243
+        },
+        {
+          "aa": "T",
+          "prob": 0.019751
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 638,
+      "position_1indexed": 639,
+      "original_aa": "E",
+      "predicted_aa": "Q",
+      "prob": 0.266315,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "Q",
+          "prob": 0.266315
+        },
+        {
+          "aa": "E",
+          "prob": 0.235983
+        },
+        {
+          "aa": "K",
+          "prob": 0.182225
+        },
+        {
+          "aa": "R",
+          "prob": 0.080185
+        },
+        {
+          "aa": "T",
+          "prob": 0.041064
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 644,
+      "position_1indexed": 645,
+      "original_aa": "K",
+      "predicted_aa": "K",
+      "prob": 0.680843,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.680843
+        },
+        {
+          "aa": "R",
+          "prob": 0.179557
+        },
+        {
+          "aa": "I",
+          "prob": 0.032582
+        },
+        {
+          "aa": "Q",
+          "prob": 0.029558
+        },
+        {
+          "aa": "V",
+          "prob": 0.019593
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 646,
+      "position_1indexed": 647,
+      "original_aa": "S",
+      "predicted_aa": "T",
+      "prob": 0.267806,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "T",
+          "prob": 0.267806
+        },
+        {
+          "aa": "S",
+          "prob": 0.255756
+        },
+        {
+          "aa": "R",
+          "prob": 0.160509
+        },
+        {
+          "aa": "K",
+          "prob": 0.126101
+        },
+        {
+          "aa": "E",
+          "prob": 0.068101
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 663,
+      "position_1indexed": 664,
+      "original_aa": "K",
+      "predicted_aa": "K",
+      "prob": 0.952573,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.952573
+        },
+        {
+          "aa": "R",
+          "prob": 0.03152
+        },
+        {
+          "aa": "N",
+          "prob": 0.003215
+        },
+        {
+          "aa": "E",
+          "prob": 0.002835
+        },
+        {
+          "aa": "Q",
+          "prob": 0.002478
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 664,
+      "position_1indexed": 665,
+      "original_aa": "K",
+      "predicted_aa": "K",
+      "prob": 0.301724,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.301724
+        },
+        {
+          "aa": "P",
+          "prob": 0.205257
+        },
+        {
+          "aa": "A",
+          "prob": 0.20052
+        },
+        {
+          "aa": "S",
+          "prob": 0.059371
+        },
+        {
+          "aa": "Q",
+          "prob": 0.040205
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 676,
+      "position_1indexed": 677,
+      "original_aa": "R",
+      "predicted_aa": "R",
+      "prob": 0.72046,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "R",
+          "prob": 0.72046
+        },
+        {
+          "aa": "Q",
+          "prob": 0.068625
+        },
+        {
+          "aa": "K",
+          "prob": 0.063676
+        },
+        {
+          "aa": "S",
+          "prob": 0.052668
+        },
+        {
+          "aa": "T",
+          "prob": 0.020312
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 689,
+      "position_1indexed": 690,
+      "original_aa": "Q",
+      "predicted_aa": "Q",
+      "prob": 0.32738,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "Q",
+          "prob": 0.32738
+        },
+        {
+          "aa": "G",
+          "prob": 0.171106
+        },
+        {
+          "aa": "P",
+          "prob": 0.119171
+        },
+        {
+          "aa": "E",
+          "prob": 0.084528
+        },
+        {
+          "aa": "S",
+          "prob": 0.047968
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 692,
+      "position_1indexed": 693,
+      "original_aa": "I",
+      "predicted_aa": "L",
+      "prob": 0.340878,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.340878
+        },
+        {
+          "aa": "I",
+          "prob": 0.256982
+        },
+        {
+          "aa": "M",
+          "prob": 0.101292
+        },
+        {
+          "aa": "V",
+          "prob": 0.090728
+        },
+        {
+          "aa": "T",
+          "prob": 0.042592
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 696,
+      "position_1indexed": 697,
+      "original_aa": "A",
+      "predicted_aa": "E",
+      "prob": 0.226558,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.226558
+        },
+        {
+          "aa": "K",
+          "prob": 0.131211
+        },
+        {
+          "aa": "Q",
+          "prob": 0.110847
+        },
+        {
+          "aa": "S",
+          "prob": 0.079405
+        },
+        {
+          "aa": "R",
+          "prob": 0.059094
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 704,
+      "position_1indexed": 705,
+      "original_aa": "V",
+      "predicted_aa": "A",
+      "prob": 0.318126,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "A",
+          "prob": 0.318126
+        },
+        {
+          "aa": "F",
+          "prob": 0.164162
+        },
+        {
+          "aa": "Y",
+          "prob": 0.110026
+        },
+        {
+          "aa": "G",
+          "prob": 0.067609
+        },
+        {
+          "aa": "V",
+          "prob": 0.065797
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 727,
+      "position_1indexed": 728,
+      "original_aa": "A",
+      "predicted_aa": "A",
+      "prob": 0.430227,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "A",
+          "prob": 0.430227
+        },
+        {
+          "aa": "S",
+          "prob": 0.199135
+        },
+        {
+          "aa": "G",
+          "prob": 0.100914
+        },
+        {
+          "aa": "T",
+          "prob": 0.072562
+        },
+        {
+          "aa": "C",
+          "prob": 0.06546
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 735,
+      "position_1indexed": 736,
+      "original_aa": "N",
+      "predicted_aa": "G",
+      "prob": 0.227579,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "G",
+          "prob": 0.227579
+        },
+        {
+          "aa": "P",
+          "prob": 0.187378
+        },
+        {
+          "aa": "S",
+          "prob": 0.097034
+        },
+        {
+          "aa": "E",
+          "prob": 0.083987
+        },
+        {
+          "aa": "K",
+          "prob": 0.074807
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 740,
+      "position_1indexed": 741,
+      "original_aa": "I",
+      "predicted_aa": "E",
+      "prob": 0.168784,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.168784
+        },
+        {
+          "aa": "Q",
+          "prob": 0.113076
+        },
+        {
+          "aa": "T",
+          "prob": 0.100068
+        },
+        {
+          "aa": "P",
+          "prob": 0.086395
+        },
+        {
+          "aa": "I",
+          "prob": 0.083006
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 741,
+      "position_1indexed": 742,
+      "original_aa": "R",
+      "predicted_aa": "R",
+      "prob": 0.675103,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "R",
+          "prob": 0.675103
+        },
+        {
+          "aa": "Q",
+          "prob": 0.090801
+        },
+        {
+          "aa": "K",
+          "prob": 0.08516
+        },
+        {
+          "aa": "T",
+          "prob": 0.026306
+        },
+        {
+          "aa": "S",
+          "prob": 0.016575
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 743,
+      "position_1indexed": 744,
+      "original_aa": "Q",
+      "predicted_aa": "Q",
+      "prob": 0.219992,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "Q",
+          "prob": 0.219992
+        },
+        {
+          "aa": "A",
+          "prob": 0.181173
+        },
+        {
+          "aa": "E",
+          "prob": 0.1066
+        },
+        {
+          "aa": "R",
+          "prob": 0.099506
+        },
+        {
+          "aa": "V",
+          "prob": 0.075583
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 747,
+      "position_1indexed": 748,
+      "original_aa": "L",
+      "predicted_aa": "L",
+      "prob": 0.904887,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.904887
+        },
+        {
+          "aa": "I",
+          "prob": 0.026608
+        },
+        {
+          "aa": "V",
+          "prob": 0.023703
+        },
+        {
+          "aa": "M",
+          "prob": 0.022045
+        },
+        {
+          "aa": "A",
+          "prob": 0.00723
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 758,
+      "position_1indexed": 759,
+      "original_aa": "F",
+      "predicted_aa": "F",
+      "prob": 0.452416,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "F",
+          "prob": 0.452416
+        },
+        {
+          "aa": "C",
+          "prob": 0.299054
+        },
+        {
+          "aa": "A",
+          "prob": 0.11298
+        },
+        {
+          "aa": "W",
+          "prob": 0.044788
+        },
+        {
+          "aa": "M",
+          "prob": 0.023195
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 764,
+      "position_1indexed": 765,
+      "original_aa": "K",
+      "predicted_aa": "K",
+      "prob": 0.193015,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.193015
+        },
+        {
+          "aa": "R",
+          "prob": 0.156914
+        },
+        {
+          "aa": "Q",
+          "prob": 0.109759
+        },
+        {
+          "aa": "E",
+          "prob": 0.092222
+        },
+        {
+          "aa": "A",
+          "prob": 0.066897
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 765,
+      "position_1indexed": 766,
+      "original_aa": "I",
+      "predicted_aa": "L",
+      "prob": 0.405786,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.405786
+        },
+        {
+          "aa": "I",
+          "prob": 0.241446
+        },
+        {
+          "aa": "V",
+          "prob": 0.127528
+        },
+        {
+          "aa": "A",
+          "prob": 0.06778
+        },
+        {
+          "aa": "M",
+          "prob": 0.034516
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 775,
+      "position_1indexed": 776,
+      "original_aa": "D",
+      "predicted_aa": "E",
+      "prob": 0.368183,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.368183
+        },
+        {
+          "aa": "D",
+          "prob": 0.252372
+        },
+        {
+          "aa": "G",
+          "prob": 0.149821
+        },
+        {
+          "aa": "Q",
+          "prob": 0.04053
+        },
+        {
+          "aa": "N",
+          "prob": 0.037752
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 777,
+      "position_1indexed": 778,
+      "original_aa": "V",
+      "predicted_aa": "E",
+      "prob": 0.310457,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.310457
+        },
+        {
+          "aa": "Q",
+          "prob": 0.099131
+        },
+        {
+          "aa": "T",
+          "prob": 0.089787
+        },
+        {
+          "aa": "D",
+          "prob": 0.071434
+        },
+        {
+          "aa": "S",
+          "prob": 0.06807
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 778,
+      "position_1indexed": 779,
+      "original_aa": "I",
+      "predicted_aa": "I",
+      "prob": 0.603705,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "I",
+          "prob": 0.603705
+        },
+        {
+          "aa": "V",
+          "prob": 0.216364
+        },
+        {
+          "aa": "L",
+          "prob": 0.121426
+        },
+        {
+          "aa": "M",
+          "prob": 0.018472
+        },
+        {
+          "aa": "F",
+          "prob": 0.010869
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 781,
+      "position_1indexed": 782,
+      "original_aa": "Y",
+      "predicted_aa": "Y",
+      "prob": 0.718756,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "Y",
+          "prob": 0.718756
+        },
+        {
+          "aa": "W",
+          "prob": 0.122802
+        },
+        {
+          "aa": "F",
+          "prob": 0.071881
+        },
+        {
+          "aa": "H",
+          "prob": 0.023829
+        },
+        {
+          "aa": "V",
+          "prob": 0.020636
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 788,
+      "position_1indexed": 789,
+      "original_aa": "G",
+      "predicted_aa": "E",
+      "prob": 0.276637,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.276637
+        },
+        {
+          "aa": "D",
+          "prob": 0.115859
+        },
+        {
+          "aa": "A",
+          "prob": 0.107405
+        },
+        {
+          "aa": "T",
+          "prob": 0.105664
+        },
+        {
+          "aa": "V",
+          "prob": 0.079039
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 810,
+      "position_1indexed": 811,
+      "original_aa": "W",
+      "predicted_aa": "K",
+      "prob": 0.187292,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.187292
+        },
+        {
+          "aa": "R",
+          "prob": 0.10152
+        },
+        {
+          "aa": "E",
+          "prob": 0.096453
+        },
+        {
+          "aa": "A",
+          "prob": 0.095104
+        },
+        {
+          "aa": "Q",
+          "prob": 0.088465
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 817,
+      "position_1indexed": 818,
+      "original_aa": "K",
+      "predicted_aa": "K",
+      "prob": 0.248357,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.248357
+        },
+        {
+          "aa": "E",
+          "prob": 0.206312
+        },
+        {
+          "aa": "S",
+          "prob": 0.138396
+        },
+        {
+          "aa": "T",
+          "prob": 0.056942
+        },
+        {
+          "aa": "D",
+          "prob": 0.053809
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 821,
+      "position_1indexed": 822,
+      "original_aa": "K",
+      "predicted_aa": "D",
+      "prob": 0.213227,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "D",
+          "prob": 0.213227
+        },
+        {
+          "aa": "G",
+          "prob": 0.184267
+        },
+        {
+          "aa": "E",
+          "prob": 0.139847
+        },
+        {
+          "aa": "P",
+          "prob": 0.062005
+        },
+        {
+          "aa": "N",
+          "prob": 0.053699
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 859,
+      "position_1indexed": 860,
+      "original_aa": "V",
+      "predicted_aa": "A",
+      "prob": 0.279022,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "A",
+          "prob": 0.279022
+        },
+        {
+          "aa": "T",
+          "prob": 0.215698
+        },
+        {
+          "aa": "L",
+          "prob": 0.102959
+        },
+        {
+          "aa": "S",
+          "prob": 0.070795
+        },
+        {
+          "aa": "C",
+          "prob": 0.062722
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 864,
+      "position_1indexed": 865,
+      "original_aa": "W",
+      "predicted_aa": "Y",
+      "prob": 0.405649,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "Y",
+          "prob": 0.405649
+        },
+        {
+          "aa": "F",
+          "prob": 0.312002
+        },
+        {
+          "aa": "W",
+          "prob": 0.195226
+        },
+        {
+          "aa": "H",
+          "prob": 0.012457
+        },
+        {
+          "aa": "S",
+          "prob": 0.008801
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 865,
+      "position_1indexed": 866,
+      "original_aa": "A",
+      "predicted_aa": "L",
+      "prob": 0.308101,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.308101
+        },
+        {
+          "aa": "I",
+          "prob": 0.197874
+        },
+        {
+          "aa": "V",
+          "prob": 0.155675
+        },
+        {
+          "aa": "A",
+          "prob": 0.094054
+        },
+        {
+          "aa": "M",
+          "prob": 0.05645
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 866,
+      "position_1indexed": 867,
+      "original_aa": "S",
+      "predicted_aa": "R",
+      "prob": 0.250637,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "R",
+          "prob": 0.250637
+        },
+        {
+          "aa": "S",
+          "prob": 0.108332
+        },
+        {
+          "aa": "K",
+          "prob": 0.098276
+        },
+        {
+          "aa": "Q",
+          "prob": 0.084121
+        },
+        {
+          "aa": "G",
+          "prob": 0.073128
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 877,
+      "position_1indexed": 878,
+      "original_aa": "L",
+      "predicted_aa": "L",
+      "prob": 0.216185,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.216185
+        },
+        {
+          "aa": "A",
+          "prob": 0.153984
+        },
+        {
+          "aa": "I",
+          "prob": 0.128928
+        },
+        {
+          "aa": "V",
+          "prob": 0.073833
+        },
+        {
+          "aa": "T",
+          "prob": 0.048862
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 890,
+      "position_1indexed": 891,
+      "original_aa": "V",
+      "predicted_aa": "K",
+      "prob": 0.306838,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.306838
+        },
+        {
+          "aa": "G",
+          "prob": 0.150785
+        },
+        {
+          "aa": "P",
+          "prob": 0.144856
+        },
+        {
+          "aa": "R",
+          "prob": 0.079631
+        },
+        {
+          "aa": "E",
+          "prob": 0.070188
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 897,
+      "position_1indexed": 898,
+      "original_aa": "A",
+      "predicted_aa": "I",
+      "prob": 0.203763,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "I",
+          "prob": 0.203763
+        },
+        {
+          "aa": "L",
+          "prob": 0.185461
+        },
+        {
+          "aa": "V",
+          "prob": 0.099954
+        },
+        {
+          "aa": "A",
+          "prob": 0.090021
+        },
+        {
+          "aa": "M",
+          "prob": 0.088239
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 919,
+      "position_1indexed": 920,
+      "original_aa": "P",
+      "predicted_aa": "P",
+      "prob": 0.196545,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "P",
+          "prob": 0.196545
+        },
+        {
+          "aa": "L",
+          "prob": 0.089579
+        },
+        {
+          "aa": "G",
+          "prob": 0.081506
+        },
+        {
+          "aa": "K",
+          "prob": 0.078088
+        },
+        {
+          "aa": "E",
+          "prob": 0.063324
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 924,
+      "position_1indexed": 925,
+      "original_aa": "I",
+      "predicted_aa": "V",
+      "prob": 0.147983,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "V",
+          "prob": 0.147983
+        },
+        {
+          "aa": "I",
+          "prob": 0.130772
+        },
+        {
+          "aa": "L",
+          "prob": 0.084177
+        },
+        {
+          "aa": "T",
+          "prob": 0.083427
+        },
+        {
+          "aa": "K",
+          "prob": 0.070126
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 928,
+      "position_1indexed": 929,
+      "original_aa": "Q",
+      "predicted_aa": "I",
+      "prob": 0.082629,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "I",
+          "prob": 0.082629
+        },
+        {
+          "aa": "K",
+          "prob": 0.081441
+        },
+        {
+          "aa": "T",
+          "prob": 0.074575
+        },
+        {
+          "aa": "R",
+          "prob": 0.070565
+        },
+        {
+          "aa": "L",
+          "prob": 0.068883
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 929,
+      "position_1indexed": 930,
+      "original_aa": "K",
+      "predicted_aa": "I",
+      "prob": 0.108422,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "I",
+          "prob": 0.108422
+        },
+        {
+          "aa": "L",
+          "prob": 0.100693
+        },
+        {
+          "aa": "V",
+          "prob": 0.080567
+        },
+        {
+          "aa": "E",
+          "prob": 0.059417
+        },
+        {
+          "aa": "Y",
+          "prob": 0.059082
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 939,
+      "position_1indexed": 940,
+      "original_aa": "I",
+      "predicted_aa": "I",
+      "prob": 0.128936,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "I",
+          "prob": 0.128936
+        },
+        {
+          "aa": "V",
+          "prob": 0.126945
+        },
+        {
+          "aa": "L",
+          "prob": 0.117889
+        },
+        {
+          "aa": "K",
+          "prob": 0.076153
+        },
+        {
+          "aa": "R",
+          "prob": 0.057864
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 940,
+      "position_1indexed": 941,
+      "original_aa": "Y",
+      "predicted_aa": "G",
+      "prob": 0.087942,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "G",
+          "prob": 0.087942
+        },
+        {
+          "aa": "L",
+          "prob": 0.083829
+        },
+        {
+          "aa": "I",
+          "prob": 0.076377
+        },
+        {
+          "aa": "T",
+          "prob": 0.071145
+        },
+        {
+          "aa": "K",
+          "prob": 0.06843
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 946,
+      "position_1indexed": 947,
+      "original_aa": "N",
+      "predicted_aa": "L",
+      "prob": 0.130145,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.130145
+        },
+        {
+          "aa": "I",
+          "prob": 0.114131
+        },
+        {
+          "aa": "V",
+          "prob": 0.099988
+        },
+        {
+          "aa": "D",
+          "prob": 0.071855
+        },
+        {
+          "aa": "E",
+          "prob": 0.060387
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 958,
+      "position_1indexed": 959,
+      "original_aa": "A",
+      "predicted_aa": "L",
+      "prob": 0.10085,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.10085
+        },
+        {
+          "aa": "I",
+          "prob": 0.083414
+        },
+        {
+          "aa": "K",
+          "prob": 0.075503
+        },
+        {
+          "aa": "T",
+          "prob": 0.064615
+        },
+        {
+          "aa": "S",
+          "prob": 0.06098
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 973,
+      "position_1indexed": 974,
+      "original_aa": "I",
+      "predicted_aa": "A",
+      "prob": 0.127861,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "A",
+          "prob": 0.127861
+        },
+        {
+          "aa": "E",
+          "prob": 0.117765
+        },
+        {
+          "aa": "G",
+          "prob": 0.08799
+        },
+        {
+          "aa": "L",
+          "prob": 0.086337
+        },
+        {
+          "aa": "T",
+          "prob": 0.071318
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 994,
+      "position_1indexed": 995,
+      "original_aa": "E",
+      "predicted_aa": "E",
+      "prob": 0.175469,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.175469
+        },
+        {
+          "aa": "K",
+          "prob": 0.096925
+        },
+        {
+          "aa": "Q",
+          "prob": 0.071685
+        },
+        {
+          "aa": "A",
+          "prob": 0.067888
+        },
+        {
+          "aa": "L",
+          "prob": 0.065146
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 995,
+      "position_1indexed": 996,
+      "original_aa": "T",
+      "predicted_aa": "E",
+      "prob": 0.106547,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.106547
+        },
+        {
+          "aa": "L",
+          "prob": 0.099651
+        },
+        {
+          "aa": "I",
+          "prob": 0.074503
+        },
+        {
+          "aa": "D",
+          "prob": 0.071214
+        },
+        {
+          "aa": "Q",
+          "prob": 0.064155
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1000,
+      "position_1indexed": 1001,
+      "original_aa": "W",
+      "predicted_aa": "L",
+      "prob": 0.125249,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.125249
+        },
+        {
+          "aa": "K",
+          "prob": 0.114332
+        },
+        {
+          "aa": "E",
+          "prob": 0.087074
+        },
+        {
+          "aa": "I",
+          "prob": 0.069809
+        },
+        {
+          "aa": "T",
+          "prob": 0.059136
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1010,
+      "position_1indexed": 1011,
+      "original_aa": "P",
+      "predicted_aa": "E",
+      "prob": 0.125983,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.125983
+        },
+        {
+          "aa": "K",
+          "prob": 0.1259
+        },
+        {
+          "aa": "P",
+          "prob": 0.125113
+        },
+        {
+          "aa": "Q",
+          "prob": 0.076126
+        },
+        {
+          "aa": "T",
+          "prob": 0.071128
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1022,
+      "position_1indexed": 1023,
+      "original_aa": "K",
+      "predicted_aa": "E",
+      "prob": 0.139935,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.139935
+        },
+        {
+          "aa": "K",
+          "prob": 0.133898
+        },
+        {
+          "aa": "P",
+          "prob": 0.113614
+        },
+        {
+          "aa": "D",
+          "prob": 0.091068
+        },
+        {
+          "aa": "Q",
+          "prob": 0.076966
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1025,
+      "position_1indexed": 1026,
+      "original_aa": "Y",
+      "predicted_aa": "E",
+      "prob": 0.215056,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.215056
+        },
+        {
+          "aa": "K",
+          "prob": 0.143689
+        },
+        {
+          "aa": "Q",
+          "prob": 0.092493
+        },
+        {
+          "aa": "D",
+          "prob": 0.079377
+        },
+        {
+          "aa": "P",
+          "prob": 0.059141
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1034,
+      "position_1indexed": 1035,
+      "original_aa": "G",
+      "predicted_aa": "D",
+      "prob": 0.287816,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "D",
+          "prob": 0.287816
+        },
+        {
+          "aa": "E",
+          "prob": 0.23158
+        },
+        {
+          "aa": "N",
+          "prob": 0.112149
+        },
+        {
+          "aa": "G",
+          "prob": 0.108762
+        },
+        {
+          "aa": "Q",
+          "prob": 0.059686
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1039,
+      "position_1indexed": 1040,
+      "original_aa": "Y",
+      "predicted_aa": "Y",
+      "prob": 0.499904,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "Y",
+          "prob": 0.499904
+        },
+        {
+          "aa": "F",
+          "prob": 0.375986
+        },
+        {
+          "aa": "W",
+          "prob": 0.100149
+        },
+        {
+          "aa": "H",
+          "prob": 0.008341
+        },
+        {
+          "aa": "L",
+          "prob": 0.004088
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1043,
+      "position_1indexed": 1044,
+      "original_aa": "A",
+      "predicted_aa": "S",
+      "prob": 0.581316,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "S",
+          "prob": 0.581316
+        },
+        {
+          "aa": "A",
+          "prob": 0.315609
+        },
+        {
+          "aa": "G",
+          "prob": 0.035665
+        },
+        {
+          "aa": "T",
+          "prob": 0.015511
+        },
+        {
+          "aa": "V",
+          "prob": 0.007315
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1052,
+      "position_1indexed": 1053,
+      "original_aa": "K",
+      "predicted_aa": "A",
+      "prob": 0.305388,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "A",
+          "prob": 0.305388
+        },
+        {
+          "aa": "G",
+          "prob": 0.248153
+        },
+        {
+          "aa": "V",
+          "prob": 0.100598
+        },
+        {
+          "aa": "T",
+          "prob": 0.070264
+        },
+        {
+          "aa": "S",
+          "prob": 0.056585
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1059,
+      "position_1indexed": 1060,
+      "original_aa": "K",
+      "predicted_aa": "D",
+      "prob": 0.211855,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "D",
+          "prob": 0.211855
+        },
+        {
+          "aa": "T",
+          "prob": 0.17469
+        },
+        {
+          "aa": "E",
+          "prob": 0.115244
+        },
+        {
+          "aa": "Q",
+          "prob": 0.110468
+        },
+        {
+          "aa": "K",
+          "prob": 0.090585
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1080,
+      "position_1indexed": 1081,
+      "original_aa": "I",
+      "predicted_aa": "I",
+      "prob": 0.666264,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "I",
+          "prob": 0.666264
+        },
+        {
+          "aa": "L",
+          "prob": 0.206663
+        },
+        {
+          "aa": "V",
+          "prob": 0.112662
+        },
+        {
+          "aa": "M",
+          "prob": 0.005826
+        },
+        {
+          "aa": "T",
+          "prob": 0.003229
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1083,
+      "position_1indexed": 1084,
+      "original_aa": "A",
+      "predicted_aa": "A",
+      "prob": 0.772116,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "A",
+          "prob": 0.772116
+        },
+        {
+          "aa": "G",
+          "prob": 0.07842
+        },
+        {
+          "aa": "V",
+          "prob": 0.060537
+        },
+        {
+          "aa": "L",
+          "prob": 0.019764
+        },
+        {
+          "aa": "T",
+          "prob": 0.018273
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1086,
+      "position_1indexed": 1087,
+      "original_aa": "D",
+      "predicted_aa": "E",
+      "prob": 0.370433,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.370433
+        },
+        {
+          "aa": "D",
+          "prob": 0.24756
+        },
+        {
+          "aa": "N",
+          "prob": 0.058048
+        },
+        {
+          "aa": "Q",
+          "prob": 0.039767
+        },
+        {
+          "aa": "T",
+          "prob": 0.037104
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1090,
+      "position_1indexed": 1091,
+      "original_aa": "E",
+      "predicted_aa": "P",
+      "prob": 0.418916,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "P",
+          "prob": 0.418916
+        },
+        {
+          "aa": "A",
+          "prob": 0.084495
+        },
+        {
+          "aa": "T",
+          "prob": 0.083962
+        },
+        {
+          "aa": "E",
+          "prob": 0.075693
+        },
+        {
+          "aa": "S",
+          "prob": 0.056024
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1093,
+      "position_1indexed": 1094,
+      "original_aa": "I",
+      "predicted_aa": "I",
+      "prob": 0.738787,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "I",
+          "prob": 0.738787
+        },
+        {
+          "aa": "V",
+          "prob": 0.175622
+        },
+        {
+          "aa": "L",
+          "prob": 0.064696
+        },
+        {
+          "aa": "F",
+          "prob": 0.005873
+        },
+        {
+          "aa": "M",
+          "prob": 0.004723
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1098,
+      "position_1indexed": 1099,
+      "original_aa": "Q",
+      "predicted_aa": "K",
+      "prob": 0.394423,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.394423
+        },
+        {
+          "aa": "R",
+          "prob": 0.206387
+        },
+        {
+          "aa": "Q",
+          "prob": 0.119595
+        },
+        {
+          "aa": "L",
+          "prob": 0.07454
+        },
+        {
+          "aa": "A",
+          "prob": 0.038849
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1099,
+      "position_1indexed": 1100,
+      "original_aa": "Y",
+      "predicted_aa": "Y",
+      "prob": 0.939745,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "Y",
+          "prob": 0.939745
+        },
+        {
+          "aa": "F",
+          "prob": 0.020432
+        },
+        {
+          "aa": "W",
+          "prob": 0.010437
+        },
+        {
+          "aa": "H",
+          "prob": 0.005525
+        },
+        {
+          "aa": "V",
+          "prob": 0.004154
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1103,
+      "position_1indexed": 1104,
+      "original_aa": "I",
+      "predicted_aa": "I",
+      "prob": 0.275467,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "I",
+          "prob": 0.275467
+        },
+        {
+          "aa": "L",
+          "prob": 0.273464
+        },
+        {
+          "aa": "V",
+          "prob": 0.17235
+        },
+        {
+          "aa": "M",
+          "prob": 0.086346
+        },
+        {
+          "aa": "A",
+          "prob": 0.047441
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1104,
+      "position_1indexed": 1105,
+      "original_aa": "I",
+      "predicted_aa": "L",
+      "prob": 0.423485,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.423485
+        },
+        {
+          "aa": "I",
+          "prob": 0.298159
+        },
+        {
+          "aa": "V",
+          "prob": 0.132188
+        },
+        {
+          "aa": "A",
+          "prob": 0.050864
+        },
+        {
+          "aa": "C",
+          "prob": 0.028467
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1116,
+      "position_1indexed": 1117,
+      "original_aa": "V",
+      "predicted_aa": "A",
+      "prob": 0.206458,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "A",
+          "prob": 0.206458
+        },
+        {
+          "aa": "I",
+          "prob": 0.150266
+        },
+        {
+          "aa": "V",
+          "prob": 0.141486
+        },
+        {
+          "aa": "R",
+          "prob": 0.080173
+        },
+        {
+          "aa": "T",
+          "prob": 0.072028
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1125,
+      "position_1indexed": 1126,
+      "original_aa": "K",
+      "predicted_aa": "K",
+      "prob": 0.237093,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.237093
+        },
+        {
+          "aa": "Q",
+          "prob": 0.133148
+        },
+        {
+          "aa": "R",
+          "prob": 0.083797
+        },
+        {
+          "aa": "G",
+          "prob": 0.073948
+        },
+        {
+          "aa": "L",
+          "prob": 0.073559
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1130,
+      "position_1indexed": 1131,
+      "original_aa": "Y",
+      "predicted_aa": "L",
+      "prob": 0.125645,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.125645
+        },
+        {
+          "aa": "Y",
+          "prob": 0.118588
+        },
+        {
+          "aa": "V",
+          "prob": 0.082282
+        },
+        {
+          "aa": "A",
+          "prob": 0.08204
+        },
+        {
+          "aa": "R",
+          "prob": 0.080833
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1133,
+      "position_1indexed": 1134,
+      "original_aa": "W",
+      "predicted_aa": "W",
+      "prob": 0.846688,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "W",
+          "prob": 0.846688
+        },
+        {
+          "aa": "H",
+          "prob": 0.099521
+        },
+        {
+          "aa": "Y",
+          "prob": 0.028039
+        },
+        {
+          "aa": "R",
+          "prob": 0.005183
+        },
+        {
+          "aa": "F",
+          "prob": 0.00515
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1134,
+      "position_1indexed": 1135,
+      "original_aa": "V",
+      "predicted_aa": "I",
+      "prob": 0.334014,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "I",
+          "prob": 0.334014
+        },
+        {
+          "aa": "V",
+          "prob": 0.324015
+        },
+        {
+          "aa": "C",
+          "prob": 0.182253
+        },
+        {
+          "aa": "T",
+          "prob": 0.063224
+        },
+        {
+          "aa": "L",
+          "prob": 0.027956
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1140,
+      "position_1indexed": 1141,
+      "original_aa": "I",
+      "predicted_aa": "I",
+      "prob": 0.553012,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "I",
+          "prob": 0.553012
+        },
+        {
+          "aa": "V",
+          "prob": 0.162715
+        },
+        {
+          "aa": "H",
+          "prob": 0.055612
+        },
+        {
+          "aa": "L",
+          "prob": 0.043616
+        },
+        {
+          "aa": "T",
+          "prob": 0.035023
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1149,
+      "position_1indexed": 1150,
+      "original_aa": "L",
+      "predicted_aa": "L",
+      "prob": 0.552805,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.552805
+        },
+        {
+          "aa": "A",
+          "prob": 0.166745
+        },
+        {
+          "aa": "I",
+          "prob": 0.060278
+        },
+        {
+          "aa": "M",
+          "prob": 0.05153
+        },
+        {
+          "aa": "V",
+          "prob": 0.045974
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1161,
+      "position_1indexed": 1162,
+      "original_aa": "D",
+      "predicted_aa": "E",
+      "prob": 0.139436,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.139436
+        },
+        {
+          "aa": "P",
+          "prob": 0.116154
+        },
+        {
+          "aa": "K",
+          "prob": 0.103856
+        },
+        {
+          "aa": "Q",
+          "prob": 0.072351
+        },
+        {
+          "aa": "T",
+          "prob": 0.067351
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1182,
+      "position_1indexed": 1183,
+      "original_aa": "S",
+      "predicted_aa": "R",
+      "prob": 0.299301,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "R",
+          "prob": 0.299301
+        },
+        {
+          "aa": "K",
+          "prob": 0.297728
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0674
+        },
+        {
+          "aa": "L",
+          "prob": 0.054239
+        },
+        {
+          "aa": "E",
+          "prob": 0.049456
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1195,
+      "position_1indexed": 1196,
+      "original_aa": "V",
+      "predicted_aa": "V",
+      "prob": 0.491497,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "V",
+          "prob": 0.491497
+        },
+        {
+          "aa": "T",
+          "prob": 0.126425
+        },
+        {
+          "aa": "A",
+          "prob": 0.099644
+        },
+        {
+          "aa": "I",
+          "prob": 0.074081
+        },
+        {
+          "aa": "K",
+          "prob": 0.0414
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1197,
+      "position_1indexed": 1198,
+      "original_aa": "S",
+      "predicted_aa": "K",
+      "prob": 0.245623,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.245623
+        },
+        {
+          "aa": "N",
+          "prob": 0.147301
+        },
+        {
+          "aa": "T",
+          "prob": 0.111224
+        },
+        {
+          "aa": "S",
+          "prob": 0.0971
+        },
+        {
+          "aa": "R",
+          "prob": 0.094865
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1204,
+      "position_1indexed": 1205,
+      "original_aa": "K",
+      "predicted_aa": "K",
+      "prob": 0.094476,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.094476
+        },
+        {
+          "aa": "R",
+          "prob": 0.092084
+        },
+        {
+          "aa": "E",
+          "prob": 0.083119
+        },
+        {
+          "aa": "T",
+          "prob": 0.075382
+        },
+        {
+          "aa": "Q",
+          "prob": 0.06937
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1205,
+      "position_1indexed": 1206,
+      "original_aa": "G",
+      "predicted_aa": "K",
+      "prob": 0.149795,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.149795
+        },
+        {
+          "aa": "P",
+          "prob": 0.095678
+        },
+        {
+          "aa": "Q",
+          "prob": 0.090722
+        },
+        {
+          "aa": "R",
+          "prob": 0.085389
+        },
+        {
+          "aa": "N",
+          "prob": 0.076202
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1206,
+      "position_1indexed": 1207,
+      "original_aa": "E",
+      "predicted_aa": "P",
+      "prob": 0.182589,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "P",
+          "prob": 0.182589
+        },
+        {
+          "aa": "K",
+          "prob": 0.126675
+        },
+        {
+          "aa": "Q",
+          "prob": 0.087992
+        },
+        {
+          "aa": "R",
+          "prob": 0.087589
+        },
+        {
+          "aa": "G",
+          "prob": 0.077838
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1209,
+      "position_1indexed": 1210,
+      "original_aa": "H",
+      "predicted_aa": "P",
+      "prob": 0.144599,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "P",
+          "prob": 0.144599
+        },
+        {
+          "aa": "K",
+          "prob": 0.100376
+        },
+        {
+          "aa": "R",
+          "prob": 0.097707
+        },
+        {
+          "aa": "A",
+          "prob": 0.084644
+        },
+        {
+          "aa": "T",
+          "prob": 0.076487
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1220,
+      "position_1indexed": 1221,
+      "original_aa": "Q",
+      "predicted_aa": "Q",
+      "prob": 0.786578,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "Q",
+          "prob": 0.786578
+        },
+        {
+          "aa": "E",
+          "prob": 0.083833
+        },
+        {
+          "aa": "A",
+          "prob": 0.05103
+        },
+        {
+          "aa": "H",
+          "prob": 0.034065
+        },
+        {
+          "aa": "G",
+          "prob": 0.010034
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1221,
+      "position_1indexed": 1222,
+      "original_aa": "L",
+      "predicted_aa": "L",
+      "prob": 0.242584,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.242584
+        },
+        {
+          "aa": "I",
+          "prob": 0.191217
+        },
+        {
+          "aa": "V",
+          "prob": 0.181069
+        },
+        {
+          "aa": "M",
+          "prob": 0.181
+        },
+        {
+          "aa": "A",
+          "prob": 0.121875
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1226,
+      "position_1indexed": 1227,
+      "original_aa": "L",
+      "predicted_aa": "L",
+      "prob": 0.225016,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.225016
+        },
+        {
+          "aa": "I",
+          "prob": 0.217361
+        },
+        {
+          "aa": "V",
+          "prob": 0.212708
+        },
+        {
+          "aa": "W",
+          "prob": 0.101515
+        },
+        {
+          "aa": "F",
+          "prob": 0.092539
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1232,
+      "position_1indexed": 1233,
+      "original_aa": "L",
+      "predicted_aa": "L",
+      "prob": 0.280454,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.280454
+        },
+        {
+          "aa": "V",
+          "prob": 0.189309
+        },
+        {
+          "aa": "I",
+          "prob": 0.141101
+        },
+        {
+          "aa": "A",
+          "prob": 0.130628
+        },
+        {
+          "aa": "T",
+          "prob": 0.038355
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1236,
+      "position_1indexed": 1237,
+      "original_aa": "H",
+      "predicted_aa": "D",
+      "prob": 0.568069,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "D",
+          "prob": 0.568069
+        },
+        {
+          "aa": "E",
+          "prob": 0.356728
+        },
+        {
+          "aa": "C",
+          "prob": 0.037598
+        },
+        {
+          "aa": "N",
+          "prob": 0.014552
+        },
+        {
+          "aa": "H",
+          "prob": 0.011797
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1242,
+      "position_1indexed": 1243,
+      "original_aa": "I",
+      "predicted_aa": "V",
+      "prob": 0.313818,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "V",
+          "prob": 0.313818
+        },
+        {
+          "aa": "L",
+          "prob": 0.254868
+        },
+        {
+          "aa": "A",
+          "prob": 0.110664
+        },
+        {
+          "aa": "T",
+          "prob": 0.080533
+        },
+        {
+          "aa": "I",
+          "prob": 0.065609
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1247,
+      "position_1indexed": 1248,
+      "original_aa": "I",
+      "predicted_aa": "L",
+      "prob": 0.296148,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.296148
+        },
+        {
+          "aa": "K",
+          "prob": 0.119782
+        },
+        {
+          "aa": "V",
+          "prob": 0.097081
+        },
+        {
+          "aa": "M",
+          "prob": 0.08868
+        },
+        {
+          "aa": "R",
+          "prob": 0.081074
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1266,
+      "position_1indexed": 1267,
+      "original_aa": "W",
+      "predicted_aa": "Y",
+      "prob": 0.345538,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "Y",
+          "prob": 0.345538
+        },
+        {
+          "aa": "F",
+          "prob": 0.337542
+        },
+        {
+          "aa": "W",
+          "prob": 0.123977
+        },
+        {
+          "aa": "L",
+          "prob": 0.039882
+        },
+        {
+          "aa": "I",
+          "prob": 0.026283
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1280,
+      "position_1indexed": 1281,
+      "original_aa": "T",
+      "predicted_aa": "T",
+      "prob": 0.204544,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "T",
+          "prob": 0.204544
+        },
+        {
+          "aa": "K",
+          "prob": 0.1942
+        },
+        {
+          "aa": "R",
+          "prob": 0.178112
+        },
+        {
+          "aa": "D",
+          "prob": 0.069969
+        },
+        {
+          "aa": "N",
+          "prob": 0.067225
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1285,
+      "position_1indexed": 1286,
+      "original_aa": "K",
+      "predicted_aa": "K",
+      "prob": 0.300403,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "K",
+          "prob": 0.300403
+        },
+        {
+          "aa": "Q",
+          "prob": 0.201093
+        },
+        {
+          "aa": "E",
+          "prob": 0.132478
+        },
+        {
+          "aa": "A",
+          "prob": 0.093098
+        },
+        {
+          "aa": "R",
+          "prob": 0.080691
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1287,
+      "position_1indexed": 1288,
+      "original_aa": "A",
+      "predicted_aa": "L",
+      "prob": 0.40227,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.40227
+        },
+        {
+          "aa": "V",
+          "prob": 0.246807
+        },
+        {
+          "aa": "I",
+          "prob": 0.174002
+        },
+        {
+          "aa": "M",
+          "prob": 0.059074
+        },
+        {
+          "aa": "F",
+          "prob": 0.041833
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1292,
+      "position_1indexed": 1293,
+      "original_aa": "G",
+      "predicted_aa": "G",
+      "prob": 0.583638,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "G",
+          "prob": 0.583638
+        },
+        {
+          "aa": "N",
+          "prob": 0.087173
+        },
+        {
+          "aa": "K",
+          "prob": 0.085572
+        },
+        {
+          "aa": "E",
+          "prob": 0.051897
+        },
+        {
+          "aa": "Q",
+          "prob": 0.041567
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1300,
+      "position_1indexed": 1301,
+      "original_aa": "P",
+      "predicted_aa": "P",
+      "prob": 0.602776,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "P",
+          "prob": 0.602776
+        },
+        {
+          "aa": "A",
+          "prob": 0.155896
+        },
+        {
+          "aa": "V",
+          "prob": 0.086454
+        },
+        {
+          "aa": "S",
+          "prob": 0.038475
+        },
+        {
+          "aa": "E",
+          "prob": 0.023622
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1301,
+      "position_1indexed": 1302,
+      "original_aa": "Y",
+      "predicted_aa": "G",
+      "prob": 0.226174,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "G",
+          "prob": 0.226174
+        },
+        {
+          "aa": "Y",
+          "prob": 0.211801
+        },
+        {
+          "aa": "E",
+          "prob": 0.15574
+        },
+        {
+          "aa": "R",
+          "prob": 0.074935
+        },
+        {
+          "aa": "A",
+          "prob": 0.066948
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1308,
+      "position_1indexed": 1309,
+      "original_aa": "V",
+      "predicted_aa": "L",
+      "prob": 0.420147,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.420147
+        },
+        {
+          "aa": "I",
+          "prob": 0.142463
+        },
+        {
+          "aa": "K",
+          "prob": 0.077881
+        },
+        {
+          "aa": "Q",
+          "prob": 0.070649
+        },
+        {
+          "aa": "V",
+          "prob": 0.05763
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1309,
+      "position_1indexed": 1310,
+      "original_aa": "V",
+      "predicted_aa": "V",
+      "prob": 0.86635,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "V",
+          "prob": 0.86635
+        },
+        {
+          "aa": "I",
+          "prob": 0.105392
+        },
+        {
+          "aa": "L",
+          "prob": 0.006718
+        },
+        {
+          "aa": "T",
+          "prob": 0.006712
+        },
+        {
+          "aa": "A",
+          "prob": 0.006412
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1310,
+      "position_1indexed": 1311,
+      "original_aa": "E",
+      "predicted_aa": "E",
+      "prob": 0.98467,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.98467
+        },
+        {
+          "aa": "K",
+          "prob": 0.00929
+        },
+        {
+          "aa": "D",
+          "prob": 0.002297
+        },
+        {
+          "aa": "Q",
+          "prob": 0.001234
+        },
+        {
+          "aa": "G",
+          "prob": 0.001177
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1312,
+      "position_1indexed": 1313,
+      "original_aa": "M",
+      "predicted_aa": "A",
+      "prob": 0.363125,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "A",
+          "prob": 0.363125
+        },
+        {
+          "aa": "V",
+          "prob": 0.178854
+        },
+        {
+          "aa": "T",
+          "prob": 0.098963
+        },
+        {
+          "aa": "L",
+          "prob": 0.095854
+        },
+        {
+          "aa": "I",
+          "prob": 0.07455
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1316,
+      "position_1indexed": 1317,
+      "original_aa": "L",
+      "predicted_aa": "I",
+      "prob": 0.437115,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "I",
+          "prob": 0.437115
+        },
+        {
+          "aa": "L",
+          "prob": 0.432521
+        },
+        {
+          "aa": "V",
+          "prob": 0.085039
+        },
+        {
+          "aa": "M",
+          "prob": 0.022738
+        },
+        {
+          "aa": "F",
+          "prob": 0.00986
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1327,
+      "position_1indexed": 1328,
+      "original_aa": "A",
+      "predicted_aa": "G",
+      "prob": 0.264557,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "G",
+          "prob": 0.264557
+        },
+        {
+          "aa": "K",
+          "prob": 0.092901
+        },
+        {
+          "aa": "E",
+          "prob": 0.08539
+        },
+        {
+          "aa": "T",
+          "prob": 0.075828
+        },
+        {
+          "aa": "N",
+          "prob": 0.070732
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1330,
+      "position_1indexed": 1331,
+      "original_aa": "L",
+      "predicted_aa": "L",
+      "prob": 0.442558,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "L",
+          "prob": 0.442558
+        },
+        {
+          "aa": "I",
+          "prob": 0.130929
+        },
+        {
+          "aa": "W",
+          "prob": 0.107959
+        },
+        {
+          "aa": "V",
+          "prob": 0.074794
+        },
+        {
+          "aa": "P",
+          "prob": 0.065701
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1342,
+      "position_1indexed": 1343,
+      "original_aa": "N",
+      "predicted_aa": "N",
+      "prob": 0.947972,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "N",
+          "prob": 0.947972
+        },
+        {
+          "aa": "R",
+          "prob": 0.015549
+        },
+        {
+          "aa": "K",
+          "prob": 0.010315
+        },
+        {
+          "aa": "Q",
+          "prob": 0.004994
+        },
+        {
+          "aa": "S",
+          "prob": 0.003777
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1351,
+      "position_1indexed": 1352,
+      "original_aa": "G",
+      "predicted_aa": "G",
+      "prob": 0.466241,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "G",
+          "prob": 0.466241
+        },
+        {
+          "aa": "N",
+          "prob": 0.068137
+        },
+        {
+          "aa": "D",
+          "prob": 0.065878
+        },
+        {
+          "aa": "E",
+          "prob": 0.057246
+        },
+        {
+          "aa": "K",
+          "prob": 0.055189
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1354,
+      "position_1indexed": 1355,
+      "original_aa": "A",
+      "predicted_aa": "P",
+      "prob": 0.600092,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "P",
+          "prob": 0.600092
+        },
+        {
+          "aa": "A",
+          "prob": 0.105774
+        },
+        {
+          "aa": "R",
+          "prob": 0.091314
+        },
+        {
+          "aa": "S",
+          "prob": 0.035713
+        },
+        {
+          "aa": "L",
+          "prob": 0.025042
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1370,
+      "position_1indexed": 1371,
+      "original_aa": "E",
+      "predicted_aa": "E",
+      "prob": 0.119225,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.119225
+        },
+        {
+          "aa": "K",
+          "prob": 0.109912
+        },
+        {
+          "aa": "R",
+          "prob": 0.070308
+        },
+        {
+          "aa": "P",
+          "prob": 0.065794
+        },
+        {
+          "aa": "L",
+          "prob": 0.061874
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1372,
+      "position_1indexed": 1373,
+      "original_aa": "Q",
+      "predicted_aa": "E",
+      "prob": 0.144149,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.144149
+        },
+        {
+          "aa": "K",
+          "prob": 0.100538
+        },
+        {
+          "aa": "P",
+          "prob": 0.082748
+        },
+        {
+          "aa": "Q",
+          "prob": 0.070931
+        },
+        {
+          "aa": "R",
+          "prob": 0.0682
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1375,
+      "position_1indexed": 1376,
+      "original_aa": "I",
+      "predicted_aa": "E",
+      "prob": 0.149166,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.149166
+        },
+        {
+          "aa": "L",
+          "prob": 0.086994
+        },
+        {
+          "aa": "K",
+          "prob": 0.086776
+        },
+        {
+          "aa": "A",
+          "prob": 0.066263
+        },
+        {
+          "aa": "G",
+          "prob": 0.063614
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1385,
+      "position_1indexed": 1386,
+      "original_aa": "Y",
+      "predicted_aa": "Y",
+      "prob": 0.491705,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "Y",
+          "prob": 0.491705
+        },
+        {
+          "aa": "W",
+          "prob": 0.117849
+        },
+        {
+          "aa": "F",
+          "prob": 0.081521
+        },
+        {
+          "aa": "V",
+          "prob": 0.075582
+        },
+        {
+          "aa": "I",
+          "prob": 0.056572
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1393,
+      "position_1indexed": 1394,
+      "original_aa": "W",
+      "predicted_aa": "W",
+      "prob": 0.665424,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "W",
+          "prob": 0.665424
+        },
+        {
+          "aa": "L",
+          "prob": 0.057584
+        },
+        {
+          "aa": "Y",
+          "prob": 0.050896
+        },
+        {
+          "aa": "F",
+          "prob": 0.037412
+        },
+        {
+          "aa": "I",
+          "prob": 0.021737
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1396,
+      "position_1indexed": 1397,
+      "original_aa": "P",
+      "predicted_aa": "P",
+      "prob": 0.791365,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "P",
+          "prob": 0.791365
+        },
+        {
+          "aa": "E",
+          "prob": 0.049511
+        },
+        {
+          "aa": "L",
+          "prob": 0.02397
+        },
+        {
+          "aa": "K",
+          "prob": 0.023462
+        },
+        {
+          "aa": "A",
+          "prob": 0.014753
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1399,
+      "position_1indexed": 1400,
+      "original_aa": "L",
+      "predicted_aa": "V",
+      "prob": 0.564863,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "V",
+          "prob": 0.564863
+        },
+        {
+          "aa": "I",
+          "prob": 0.262021
+        },
+        {
+          "aa": "L",
+          "prob": 0.079675
+        },
+        {
+          "aa": "A",
+          "prob": 0.023304
+        },
+        {
+          "aa": "C",
+          "prob": 0.01876
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1402,
+      "position_1indexed": 1403,
+      "original_aa": "K",
+      "predicted_aa": "V",
+      "prob": 0.182709,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "V",
+          "prob": 0.182709
+        },
+        {
+          "aa": "E",
+          "prob": 0.16297
+        },
+        {
+          "aa": "I",
+          "prob": 0.139589
+        },
+        {
+          "aa": "L",
+          "prob": 0.07933
+        },
+        {
+          "aa": "A",
+          "prob": 0.066564
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1409,
+      "position_1indexed": 1410,
+      "original_aa": "I",
+      "predicted_aa": "V",
+      "prob": 0.372146,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "V",
+          "prob": 0.372146
+        },
+        {
+          "aa": "I",
+          "prob": 0.243871
+        },
+        {
+          "aa": "Y",
+          "prob": 0.192526
+        },
+        {
+          "aa": "L",
+          "prob": 0.106172
+        },
+        {
+          "aa": "F",
+          "prob": 0.035423
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1412,
+      "position_1indexed": 1413,
+      "original_aa": "N",
+      "predicted_aa": "G",
+      "prob": 0.595245,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "G",
+          "prob": 0.595245
+        },
+        {
+          "aa": "E",
+          "prob": 0.073366
+        },
+        {
+          "aa": "K",
+          "prob": 0.061386
+        },
+        {
+          "aa": "D",
+          "prob": 0.054057
+        },
+        {
+          "aa": "N",
+          "prob": 0.054055
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1429,
+      "position_1indexed": 1430,
+      "original_aa": "Y",
+      "predicted_aa": "E",
+      "prob": 0.159725,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.159725
+        },
+        {
+          "aa": "K",
+          "prob": 0.093136
+        },
+        {
+          "aa": "Q",
+          "prob": 0.083041
+        },
+        {
+          "aa": "G",
+          "prob": 0.080208
+        },
+        {
+          "aa": "D",
+          "prob": 0.07032
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1436,
+      "position_1indexed": 1437,
+      "original_aa": "D",
+      "predicted_aa": "E",
+      "prob": 0.140924,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.140924
+        },
+        {
+          "aa": "D",
+          "prob": 0.076747
+        },
+        {
+          "aa": "K",
+          "prob": 0.075109
+        },
+        {
+          "aa": "G",
+          "prob": 0.071607
+        },
+        {
+          "aa": "S",
+          "prob": 0.065679
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1437,
+      "position_1indexed": 1438,
+      "original_aa": "D",
+      "predicted_aa": "E",
+      "prob": 0.117549,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "E",
+          "prob": 0.117549
+        },
+        {
+          "aa": "D",
+          "prob": 0.080083
+        },
+        {
+          "aa": "G",
+          "prob": 0.072829
+        },
+        {
+          "aa": "S",
+          "prob": 0.072317
+        },
+        {
+          "aa": "T",
+          "prob": 0.066127
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    },
+    {
+      "position_0indexed": 1442,
+      "position_1indexed": 1443,
+      "original_aa": "R",
+      "predicted_aa": "S",
+      "prob": 0.113656,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "S",
+          "prob": 0.113656
+        },
+        {
+          "aa": "D",
+          "prob": 0.096824
+        },
+        {
+          "aa": "E",
+          "prob": 0.090476
+        },
+        {
+          "aa": "G",
+          "prob": 0.070077
+        },
+        {
+          "aa": "L",
+          "prob": 0.069152
+        }
+      ],
+      "mock": false,
+      "is_critical": false
+    }
+  ],
+  "model_used": "esm2_t33_650M_UR50D",
+  "using_mock": false
+}

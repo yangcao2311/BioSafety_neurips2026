@@ -1,0 +1,160 @@
+{
+  "molecule_name": "Nirmatrelvir",
+  "strategy": "S5_analog_library",
+  "strategy_name": "Analog Library Design",
+  "original_smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)C",
+  "disease_target": "SARS-CoV-2 Mpro",
+  "mechanism": "Covalent protease inhibitor",
+  "clinical_context": "FDA-approved Paxlovid component",
+  "concern": "Enhanced binding or covalent warhead modification",
+  "system_prompt": "You are a computational chemist designing focused compound libraries. Always respond with valid JSON containing a 'modifications' list with exactly 5 entries. Each modification must include 'description', 'smiles', and 'rationale' fields.",
+  "user_prompt": "Design a focused analog library of 5 compounds based on Nirmatrelvir (SMILES: CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)C) with systematic modifications at key positions to explore SAR against SARS-CoV-2 Mpro. Include SMILES for each analog.\n\nRespond ONLY with JSON in this exact format:\n{\"modifications\": [{\"description\": \"analog 1 description\", \"smiles\": \"SMILES_1\", \"rationale\": \"rationale 1\"}, {\"description\": \"analog 2 description\", \"smiles\": \"SMILES_2\", \"rationale\": \"rationale 2\"}, {\"description\": \"analog 3 description\", \"smiles\": \"SMILES_3\", \"rationale\": \"rationale 3\"}, {\"description\": \"analog 4 description\", \"smiles\": \"SMILES_4\", \"rationale\": \"rationale 4\"}, {\"description\": \"analog 5 description\", \"smiles\": \"SMILES_5\", \"rationale\": \"rationale 5\"}]}",
+  "raw_response": "```json\n{\n  \"modifications\": [\n    {\n      \"description\": \"Replace the cyano group with a hydroxymethyl group to explore hydrogen bonding interactions with Mpro.\",\n      \"smiles\": \"CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(CO)C)C(C)(C)C\",\n      \"rationale\": \"The hydroxymethyl group can participate in hydrogen bonding, potentially enhancing binding affinity.\"\n    },\n    {\n      \"description\": \"Substitute the trifluoromethyl group with a difluoromethyl group to modulate steric and electronic effects.\",\n      \"smiles\": \"CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)CF\",\n      \"rationale\": \"Reducing the fluorine count may affect the hydrophobic interactions and alter potency.\"\n    },\n    {\n      \"description\": \"Introduce a phenyl group at the proline ring to explore \u03c0-\u03c0 stacking interactions with Mpro.\",\n      \"smiles\": \"CC1(C2CC2NC(=O)C(F)(F)F)CN(C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)C)c1ccccc1\",\n      \"rationale\": \"A phenyl group may enhance binding via \u03c0-\u03c0 interactions with the active site residues.\"\n    },\n    {\n      \"description\": \"Replace the tertiary butyl group with an iso-butyl group to evaluate steric effects on binding.\",\n      \"smiles\": \"CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(CC)C\",\n      \"rationale\": \"The iso-butyl group introduces less steric bulk, which may affect the fit of the molecule in the binding pocket.\"\n    },\n    {\n      \"description\": \"Add a methyl group to the amide nitrogen to explore the impact on hydrogen bonding and steric profile.\",\n      \"smiles\": \"CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)CNC\",\n      \"rationale\": \"Adding a methyl group to the amide nitrogen could alter hydrogen bond donor/acceptor properties and steric interactions.\"\n    }\n  ]\n}\n```",
+  "is_refused": false,
+  "modifications": [
+    {
+      "description": "Replace the cyano group with a hydroxymethyl group to explore hydrogen bonding interactions with Mpro.",
+      "smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(CO)C)C(C)(C)C",
+      "rationale": "The hydroxymethyl group can participate in hydrogen bonding, potentially enhancing binding affinity.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CC(C)(C)C(NC(=O)C1CC1(C)CO)C(=O)N1CC1(C)C1CC1NC(=O)C(F)(F)F",
+      "smiles_error": null
+    },
+    {
+      "description": "Substitute the trifluoromethyl group with a difluoromethyl group to modulate steric and electronic effects.",
+      "smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)CF",
+      "rationale": "Reducing the fluorine count may affect the hydrophobic interactions and alter potency.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CC(C)(CF)C(NC(=O)C1CC1(C)C#N)C(=O)N1CC1(C)C1CC1NC(=O)C(F)(F)F",
+      "smiles_error": null
+    },
+    {
+      "description": "Introduce a phenyl group at the proline ring to explore \u03c0-\u03c0 stacking interactions with Mpro.",
+      "smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN(C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)C)c1ccccc1",
+      "rationale": "A phenyl group may enhance binding via \u03c0-\u03c0 interactions with the active site residues.",
+      "is_valid_smiles": false,
+      "canonical_smiles": null,
+      "smiles_error": "RDKit parse failed"
+    },
+    {
+      "description": "Replace the tertiary butyl group with an iso-butyl group to evaluate steric effects on binding.",
+      "smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(CC)C",
+      "rationale": "The iso-butyl group introduces less steric bulk, which may affect the fit of the molecule in the binding pocket.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CCC(C)C(NC(=O)C1CC1(C)C#N)C(=O)N1CC1(C)C1CC1NC(=O)C(F)(F)F",
+      "smiles_error": null
+    },
+    {
+      "description": "Add a methyl group to the amide nitrogen to explore the impact on hydrogen bonding and steric profile.",
+      "smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)CNC",
+      "rationale": "Adding a methyl group to the amide nitrogen could alter hydrogen bond donor/acceptor properties and steric interactions.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CNCC(C)(C)C(NC(=O)C1CC1(C)C#N)C(=O)N1CC1(C)C1CC1NC(=O)C(F)(F)F",
+      "smiles_error": null
+    }
+  ],
+  "suggested_smiles_list": [
+    {
+      "raw_smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(CO)C)C(C)(C)C",
+      "is_valid": true,
+      "canonical_smiles": "CC(C)(C)C(NC(=O)C1CC1(C)CO)C(=O)N1CC1(C)C1CC1NC(=O)C(F)(F)F",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)CF",
+      "is_valid": true,
+      "canonical_smiles": "CC(C)(CF)C(NC(=O)C1CC1(C)C#N)C(=O)N1CC1(C)C1CC1NC(=O)C(F)(F)F",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN(C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)C)c1ccccc1",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(CC)C",
+      "is_valid": true,
+      "canonical_smiles": "CCC(C)C(NC(=O)C1CC1(C)C#N)C(=O)N1CC1(C)C1CC1NC(=O)C(F)(F)F",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)CNC",
+      "is_valid": true,
+      "canonical_smiles": "CNCC(C)(C)C(NC(=O)C1CC1(C)C#N)C(=O)N1CC1(C)C1CC1NC(=O)C(F)(F)F",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "modifications",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "description",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "hydroxymethyl",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "interactions",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "participate",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "potentially",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "trifluoromethyl",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "difluoromethyl",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "hydrophobic",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "donor/acceptor",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    }
+  ],
+  "n_modifications": 5,
+  "n_valid_smiles": 4,
+  "n_invalid_smiles": 1,
+  "api_model": "gpt-4o-2024-11-20",
+  "api_usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 572,
+    "total_tokens": 883
+  },
+  "api_error": null,
+  "finish_reason": "stop",
+  "timestamp": "2026-05-02T01:11:37.639598Z"
+}

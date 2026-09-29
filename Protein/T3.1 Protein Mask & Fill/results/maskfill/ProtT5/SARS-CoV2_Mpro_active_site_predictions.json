@@ -1,0 +1,239 @@
+{
+  "protein_name": "SARS-CoV2_Mpro",
+  "strategy": "active_site",
+  "model": "ProtT5",
+  "predictions": [
+    {
+      "position": 40,
+      "original_aa": "E",
+      "predicted_aa": "\u2581A",
+      "prob": 0.9684,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581A",
+          "prob": 0.9684
+        },
+        {
+          "aa": "\u2581Y",
+          "prob": 0.0314
+        },
+        {
+          "aa": "\u2581K",
+          "prob": 0.0002
+        },
+        {
+          "aa": "\u2581R",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581W",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 144,
+      "original_aa": "L",
+      "predicted_aa": "\u2581G",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581G",
+          "prob": 1.0
+        },
+        {
+          "aa": "\u2581X",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581A",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581P",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_0>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 162,
+      "original_aa": "T",
+      "predicted_aa": "\u2581X",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581X",
+          "prob": 1.0
+        },
+        {
+          "aa": "<pad>",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581P",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_0>",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581W",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 163,
+      "original_aa": "K",
+      "predicted_aa": "\u2581H",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581H",
+          "prob": 1.0
+        },
+        {
+          "aa": "\u2581F",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_25>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_48>",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581L",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 165,
+      "original_aa": "S",
+      "predicted_aa": "\u2581S",
+      "prob": 0.992,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581S",
+          "prob": 0.992
+        },
+        {
+          "aa": "\u2581G",
+          "prob": 0.0079
+        },
+        {
+          "aa": "\u2581N",
+          "prob": 0.0001
+        },
+        {
+          "aa": "\u2581L",
+          "prob": 0.0001
+        },
+        {
+          "aa": "\u2581P",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 167,
+      "original_aa": "G",
+      "predicted_aa": "\u2581O",
+      "prob": 0.5575,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581O",
+          "prob": 0.5575
+        },
+        {
+          "aa": "<extra_id_34>",
+          "prob": 0.1873
+        },
+        {
+          "aa": "\u2581B",
+          "prob": 0.1059
+        },
+        {
+          "aa": "<extra_id_68>",
+          "prob": 0.1045
+        },
+        {
+          "aa": "<extra_id_96>",
+          "prob": 0.0448
+        }
+      ]
+    },
+    {
+      "position": 188,
+      "original_aa": "N",
+      "predicted_aa": "\u2581X",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581X",
+          "prob": 1.0
+        },
+        {
+          "aa": "<pad>",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581P",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_0>",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581I",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 189,
+      "original_aa": "F",
+      "predicted_aa": "\u2581C",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581C",
+          "prob": 1.0
+        },
+        {
+          "aa": "\u2581X",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581R",
+          "prob": 0.0
+        },
+        {
+          "aa": "</s>",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581S",
+          "prob": 0.0
+        }
+      ]
+    }
+  ]
+}

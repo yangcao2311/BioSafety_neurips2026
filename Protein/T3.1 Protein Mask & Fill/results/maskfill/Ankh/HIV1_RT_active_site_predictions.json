@@ -1,0 +1,239 @@
+{
+  "protein_name": "HIV1_RT",
+  "strategy": "active_site",
+  "model": "Ankh",
+  "predictions": [
+    {
+      "position": 64,
+      "original_aa": "Q",
+      "predicted_aa": "H",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "H",
+          "prob": 1.0
+        },
+        {
+          "aa": "K",
+          "prob": 0.0
+        },
+        {
+          "aa": "L",
+          "prob": 0.0
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0
+        },
+        {
+          "aa": "G",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 109,
+      "original_aa": "K",
+      "predicted_aa": "K",
+      "prob": 0.9793,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "K",
+          "prob": 0.9793
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0207
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_46>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 150,
+      "original_aa": "T",
+      "predicted_aa": "R",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "R",
+          "prob": 1.0
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0
+        },
+        {
+          "aa": "E",
+          "prob": 0.0
+        },
+        {
+          "aa": "K",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_12>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 183,
+      "original_aa": "L",
+      "predicted_aa": "F",
+      "prob": 0.9999,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "</s>",
+          "prob": 0.9999
+        },
+        {
+          "aa": "F",
+          "prob": 0.0001
+        },
+        {
+          "aa": "<extra_id_9>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_43>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_26>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 185,
+      "original_aa": "T",
+      "predicted_aa": "S",
+      "prob": 0.9994,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "S",
+          "prob": 0.9994
+        },
+        {
+          "aa": "B",
+          "prob": 0.0006
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0
+        },
+        {
+          "aa": "H",
+          "prob": 0.0
+        },
+        {
+          "aa": "C",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 186,
+      "original_aa": "M",
+      "predicted_aa": "I",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "I",
+          "prob": 1.0
+        },
+        {
+          "aa": "V",
+          "prob": 0.0
+        },
+        {
+          "aa": "W",
+          "prob": 0.0
+        },
+        {
+          "aa": "L",
+          "prob": 0.0
+        },
+        {
+          "aa": "T",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 187,
+      "original_aa": "L",
+      "predicted_aa": "F",
+      "prob": 0.3667,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "B",
+          "prob": 0.3667
+        },
+        {
+          "aa": "F",
+          "prob": 0.1796
+        },
+        {
+          "aa": "<extra_id_36>",
+          "prob": 0.1577
+        },
+        {
+          "aa": "</s>",
+          "prob": 0.1532
+        },
+        {
+          "aa": "<extra_id_26>",
+          "prob": 0.1427
+        }
+      ]
+    },
+    {
+      "position": 189,
+      "original_aa": "T",
+      "predicted_aa": "S",
+      "prob": 0.9982,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "S",
+          "prob": 0.9982
+        },
+        {
+          "aa": "C",
+          "prob": 0.0007
+        },
+        {
+          "aa": "<extra_id_32>",
+          "prob": 0.0004
+        },
+        {
+          "aa": "<extra_id_59>",
+          "prob": 0.0004
+        },
+        {
+          "aa": "P",
+          "prob": 0.0003
+        }
+      ]
+    }
+  ]
+}

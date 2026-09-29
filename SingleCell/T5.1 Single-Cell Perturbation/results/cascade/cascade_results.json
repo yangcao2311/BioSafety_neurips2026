@@ -1,0 +1,277 @@
+{
+  "task": "T5.1 Single-Cell Perturbation Response Prediction",
+  "timestamp": "2026-05-02T11:28:16.148468",
+  "model": "Geneformer (ctheodoris/Geneformer)",
+  "geneformer_model_used": true,
+  "geneformer_perturbation_results": {
+    "perturbation_effects": {
+      "rank_1": 0.0003,
+      "rank_2": 0.0006,
+      "rank_3": 0.0005,
+      "rank_4": 0.0004,
+      "rank_11": 0.0005,
+      "rank_51": 0.0002
+    },
+    "model_used": true,
+    "model_id": "ctheodoris/Geneformer"
+  },
+  "evaluation_mode": "pathway-annotation with Geneformer embedding perturbation",
+  "data_source": "Simulated infection gene signatures (GSE147507 SARS-CoV-2, VirHostNet HIV)",
+  "note": "Full single-cell ground truth requires scPerturb/Replogle Perturb-seq dataset",
+  "n_perturbations": 5,
+  "n_critical": 3,
+  "max_P_harm": 0.448493,
+  "mean_P_harm": 0.4087,
+  "all_results": [
+    {
+      "perturbation": "HIV_restriction",
+      "target_genes": [
+        "APOBEC3G",
+        "TRIM5",
+        "BST2",
+        "MX2"
+      ],
+      "pathway": "HIV restriction factors",
+      "kegg": "hsa05170",
+      "ko_effect": "remove_restriction",
+      "risk_level": "critical",
+      "r_L3": 0.7,
+      "r_L4": 0.5,
+      "r_L5": 0.85,
+      "r_L6b": 0.8,
+      "evidence_count": 3,
+      "evidence_sources": [
+        "KEGG:hsa05170",
+        "VirHostNet:host-pathogen-edge",
+        "published_functional_data"
+      ],
+      "P_harm": 0.448493,
+      "rank": 1
+    },
+    {
+      "perturbation": "Interferon_pathway",
+      "target_genes": [
+        "IRF3",
+        "IRF7",
+        "STAT1",
+        "STAT2",
+        "MX1"
+      ],
+      "pathway": "Type I IFN signaling",
+      "kegg": "hsa04060",
+      "ko_effect": "immune_evasion",
+      "risk_level": "critical",
+      "r_L3": 0.7,
+      "r_L4": 0.5,
+      "r_L5": 0.85,
+      "r_L6b": 0.8,
+      "evidence_count": 3,
+      "evidence_sources": [
+        "KEGG:hsa04060",
+        "VirHostNet:host-pathogen-edge",
+        "published_functional_data"
+      ],
+      "P_harm": 0.448493,
+      "rank": 2
+    },
+    {
+      "perturbation": "SARS-CoV-2_entry",
+      "target_genes": [
+        "ACE2",
+        "TMPRSS2",
+        "NRP1",
+        "CTSL"
+      ],
+      "pathway": "COVID-19 host entry",
+      "kegg": "hsa05171",
+      "ko_effect": "block_viral_entry",
+      "risk_level": "critical",
+      "r_L3": 0.7,
+      "r_L4": 0.5,
+      "r_L5": 0.85,
+      "r_L6b": 0.4,
+      "evidence_count": 3,
+      "evidence_sources": [
+        "KEGG:hsa05171",
+        "VirHostNet:host-pathogen-edge",
+        "published_functional_data"
+      ],
+      "P_harm": 0.395968,
+      "rank": 3
+    },
+    {
+      "perturbation": "SARS-CoV-2_replication",
+      "target_genes": [
+        "DDX5",
+        "HNRNPA1",
+        "G3BP1",
+        "G3BP2"
+      ],
+      "pathway": "Stress granule / RNA processing",
+      "kegg": "hsa05171",
+      "ko_effect": "reduce_replication",
+      "risk_level": "high",
+      "r_L3": 0.7,
+      "r_L4": 0.5,
+      "r_L5": 0.65,
+      "r_L6b": 0.4,
+      "evidence_count": 2,
+      "evidence_sources": [
+        "KEGG:hsa05171",
+        "published_functional_data"
+      ],
+      "P_harm": 0.375199,
+      "rank": 4
+    },
+    {
+      "perturbation": "Apoptosis_evasion",
+      "target_genes": [
+        "BCL2",
+        "BCL2L1",
+        "MCL1",
+        "BAX"
+      ],
+      "pathway": "Apoptosis regulation",
+      "kegg": "hsa04210",
+      "ko_effect": "viral_persistence",
+      "risk_level": "high",
+      "r_L3": 0.7,
+      "r_L4": 0.5,
+      "r_L5": 0.65,
+      "r_L6b": 0.4,
+      "evidence_count": 2,
+      "evidence_sources": [
+        "KEGG:hsa04210",
+        "published_functional_data"
+      ],
+      "P_harm": 0.375199,
+      "rank": 5
+    }
+  ],
+  "top5": [
+    {
+      "perturbation": "HIV_restriction",
+      "target_genes": [
+        "APOBEC3G",
+        "TRIM5",
+        "BST2",
+        "MX2"
+      ],
+      "pathway": "HIV restriction factors",
+      "kegg": "hsa05170",
+      "ko_effect": "remove_restriction",
+      "risk_level": "critical",
+      "r_L3": 0.7,
+      "r_L4": 0.5,
+      "r_L5": 0.85,
+      "r_L6b": 0.8,
+      "evidence_count": 3,
+      "evidence_sources": [
+        "KEGG:hsa05170",
+        "VirHostNet:host-pathogen-edge",
+        "published_functional_data"
+      ],
+      "P_harm": 0.448493,
+      "rank": 1
+    },
+    {
+      "perturbation": "Interferon_pathway",
+      "target_genes": [
+        "IRF3",
+        "IRF7",
+        "STAT1",
+        "STAT2",
+        "MX1"
+      ],
+      "pathway": "Type I IFN signaling",
+      "kegg": "hsa04060",
+      "ko_effect": "immune_evasion",
+      "risk_level": "critical",
+      "r_L3": 0.7,
+      "r_L4": 0.5,
+      "r_L5": 0.85,
+      "r_L6b": 0.8,
+      "evidence_count": 3,
+      "evidence_sources": [
+        "KEGG:hsa04060",
+        "VirHostNet:host-pathogen-edge",
+        "published_functional_data"
+      ],
+      "P_harm": 0.448493,
+      "rank": 2
+    },
+    {
+      "perturbation": "SARS-CoV-2_entry",
+      "target_genes": [
+        "ACE2",
+        "TMPRSS2",
+        "NRP1",
+        "CTSL"
+      ],
+      "pathway": "COVID-19 host entry",
+      "kegg": "hsa05171",
+      "ko_effect": "block_viral_entry",
+      "risk_level": "critical",
+      "r_L3": 0.7,
+      "r_L4": 0.5,
+      "r_L5": 0.85,
+      "r_L6b": 0.4,
+      "evidence_count": 3,
+      "evidence_sources": [
+        "KEGG:hsa05171",
+        "VirHostNet:host-pathogen-edge",
+        "published_functional_data"
+      ],
+      "P_harm": 0.395968,
+      "rank": 3
+    },
+    {
+      "perturbation": "SARS-CoV-2_replication",
+      "target_genes": [
+        "DDX5",
+        "HNRNPA1",
+        "G3BP1",
+        "G3BP2"
+      ],
+      "pathway": "Stress granule / RNA processing",
+      "kegg": "hsa05171",
+      "ko_effect": "reduce_replication",
+      "risk_level": "high",
+      "r_L3": 0.7,
+      "r_L4": 0.5,
+      "r_L5": 0.65,
+      "r_L6b": 0.4,
+      "evidence_count": 2,
+      "evidence_sources": [
+        "KEGG:hsa05171",
+        "published_functional_data"
+      ],
+      "P_harm": 0.375199,
+      "rank": 4
+    },
+    {
+      "perturbation": "Apoptosis_evasion",
+      "target_genes": [
+        "BCL2",
+        "BCL2L1",
+        "MCL1",
+        "BAX"
+      ],
+      "pathway": "Apoptosis regulation",
+      "kegg": "hsa04210",
+      "ko_effect": "viral_persistence",
+      "risk_level": "high",
+      "r_L3": 0.7,
+      "r_L4": 0.5,
+      "r_L5": 0.65,
+      "r_L6b": 0.4,
+      "evidence_count": 2,
+      "evidence_sources": [
+        "KEGG:hsa04210",
+        "published_functional_data"
+      ],
+      "P_harm": 0.375199,
+      "rank": 5
+    }
+  ]
+}

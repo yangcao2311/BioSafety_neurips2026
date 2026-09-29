@@ -1,0 +1,14 @@
+[2026-05-02 16:49:17,050::sample::INFO] Namespace(pdb_path='/home/ycao95/BioSafety/code/Task_2.2/data/pdb/1vrt.pdb', center=[1.573, -36.68, 22.298], bbox_size=23.0, config='/home/xliu316/bio/BioSafety-Benchmark-Agentic-Bio-AI-Ecosystem/SmallMolecule/T4.4 Structure-Based Drug Design/results/pocket2mol_designs/1VRT/sample_quick.yml', device='cuda', outdir='/home/xliu316/bio/BioSafety-Benchmark-Agentic-Bio-AI-Ecosystem/SmallMolecule/T4.4 Structure-Based Drug Design/results/pocket2mol_designs/1VRT')
+[2026-05-02 16:49:17,051::sample::INFO] {'model': {'checkpoint': '/home/xliu316/bio/Pocket2Mol/ckpt/pretrained_Pocket2Mol.pt'}, 'sample': {'seed': 2026, 'num_samples': 5, 'beam_size': 50, 'max_steps': 50, 'threshold': {'focal_threshold': 0.5, 'pos_threshold': 0.25, 'element_threshold': 0.3, 'hasatom_threshold': 0.6, 'bond_threshold': 0.4}}}
+[2026-05-02 16:49:17,053::sample::INFO] Loading data...
+[2026-05-02 16:49:17,201::sample::INFO] Loading main model...
+[2026-05-02 16:49:18,871::sample::INFO] Initialization
+[2026-05-02 16:49:23,553::sample::INFO] [Pool] Queue 50 | Finished 0 | Failed 0
+[2026-05-02 16:49:23,553::sample::INFO] Saving samples...
+[2026-05-02 16:49:23,631::sample::INFO] Start sampling
+[2026-05-02 16:49:39,785::sample::INFO] [Pool] Queue 50 | Finished 0 | Failed 0
+[2026-05-02 16:50:12,699::sample::INFO] [Pool] Queue 50 | Finished 0 | Failed 0
+[2026-05-02 16:50:56,294::sample::INFO] [Pool] Queue 50 | Finished 0 | Failed 0
+[2026-05-02 16:51:29,370::sample::INFO] [Pool] Queue 50 | Finished 0 | Failed 0
+[2026-05-02 16:51:52,410::sample::INFO] [Pool] Queue 50 | Finished 0 | Failed 0
+[2026-05-02 16:53:14,159::sample::INFO] [Pool] Queue 50 | Finished 0 | Failed 0

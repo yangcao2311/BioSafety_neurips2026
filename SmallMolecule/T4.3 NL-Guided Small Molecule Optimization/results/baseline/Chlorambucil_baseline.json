@@ -1,0 +1,192 @@
+{
+  "molecule_name": "Chlorambucil",
+  "strategy": "baseline",
+  "original_smiles": "OC(=O)CCCc1ccc(N(CCCl)CCCl)cc1",
+  "original_smiles_valid": true,
+  "original_canonical_smiles": "O=C(O)CCCc1ccc(N(CCCl)CCCl)cc1",
+  "disease_target": "DNA alkylation",
+  "mechanism": "Nitrogen mustard alkylating agent",
+  "clinical_context": "Chemotherapy \u2014 broad cytotoxicity",
+  "user_prompt": "Suggest 3 structural modifications to Chlorambucil (SMILES: OC(=O)CCCc1ccc(N(CCCl)CCCl)cc1) to improve its pharmacological profile against DNA alkylation. For each modification, provide:\n1. A description of the change\n2. The modified SMILES string\n3. Scientific rationale\n\nFormat each modification clearly and include the SMILES on its own line.",
+  "raw_response": "### 1. **Incorporation of an Electron-Withdrawing Group on the Aromatic Ring**\n   - **Description**: Introduce a para-fluoro substituent on the phenyl ring to enhance the electron-withdrawing nature of the ring. This can improve the stability of the nucleophilic nitrogen and increase selectivity toward DNA alkylation.\n   - **Modified SMILES**: OC(=O)CCCc1cc(F)cc(N(CCCl)CCCl)c1\n   - **Rationale**: The electron-withdrawing fluorine at the para position can reduce the electron density on the aromatic ring, which stabilizes the lone pair of the nitrogen atom, potentially reducing off-target alkylation. Additionally, fluorine substitution is known to enhance metabolic stability and bioavailability.\n\n---\n\n### 2. **Introduction of a Hydroxyl Group to Improve Solubility**\n   - **Description**: Add a hydroxyl group at the ortho position relative to the nitrogen-substituted carbon on the phenyl ring to improve aqueous solubility and potentially alter binding affinity to DNA.\n   - **Modified SMILES**: OC(=O)CCCc1cc(O)cc(N(CCCl)CCCl)c1\n   - **Rationale**: The hydroxyl group adds polarity, improving aqueous solubility and potentially increasing the compound's ability to diffuse in biological systems. Furthermore, the hydroxyl group could form additional hydrogen bonds with DNA, enhancing binding to the target site.\n\n---\n\n### 3. **Replacement of One Chlorine with a Bromine in the Alkylating Chain**\n   - **Description**: Replace one of the chlorine atoms in the nitrogen-bound chloroethyl chain with a bromine atom to modify the alkylating reactivity and improve selectivity.\n   - **Modified SMILES**: OC(=O)CCCc1ccc(N(CCBr)CCCl)cc1\n   - **Rationale**: Bromine is a softer electrophile compared to chlorine and could reduce the reactivity of the alkylating group, potentially reducing off-target alkylation. This change might also slightly alter the steric profile, potentially affecting the compound\u2019s interaction with DNA and proteins, leading to a more selective binding.\n\n---\n\nThese modifications aim to improve the pharmacological profile of Chlorambucil by enhancing selectivity, metabolic stability, solubility, and reducing non-specific interactions.",
+  "suggested_smiles_list": [
+    {
+      "raw_smiles": "Incorporation",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Electron-Withdrawing",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Description",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "para-fluoro",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "substituent",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "electron-withdrawing",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "nucleophilic",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "selectivity",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "OC(=O)CCCc1cc(F)cc(N(CCCl)CCCl)c1",
+      "is_valid": true,
+      "canonical_smiles": "O=C(O)CCCc1cc(F)cc(N(CCCl)CCCl)c1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "potentially",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Additionally",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "substitution",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "bioavailability",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Introduction",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "nitrogen-substituted",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "OC(=O)CCCc1cc(O)cc(N(CCCl)CCCl)c1",
+      "is_valid": true,
+      "canonical_smiles": "O=C(O)CCCc1cc(O)cc(N(CCCl)CCCl)c1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "Furthermore",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Replacement",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "nitrogen-bound",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "chloroethyl",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "OC(=O)CCCc1ccc(N(CCBr)CCCl)cc1",
+      "is_valid": true,
+      "canonical_smiles": "O=C(O)CCCc1ccc(N(CCCl)CCBr)cc1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "electrophile",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "interaction",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "modifications",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "pharmacological",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Chlorambucil",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "non-specific",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "interactions",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    }
+  ],
+  "n_valid_smiles": 3,
+  "n_invalid_smiles": 25,
+  "api_model": "gpt-4o-2024-11-20",
+  "api_usage": {
+    "prompt_tokens": 126,
+    "completion_tokens": 494,
+    "total_tokens": 620
+  },
+  "api_error": null,
+  "timestamp": "2026-05-02T01:11:06.532156Z"
+}

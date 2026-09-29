@@ -1,0 +1,81 @@
+{
+  "protein": "HIV1_Protease",
+  "strategy": "baseline",
+  "strategy_id": "baseline",
+  "timestamp": "2026-05-02T01:07:24.185484",
+  "raw_response": "```json\n{\n  \"mutations\": [\n    {\n      \"position\": 25,\n      \"original\": \"D\",\n      \"suggested\": \"N\",\n      \"rationale\": \"Aspartic acid at position 25 is part of the catalytic dyad. Substituting it with asparagine may help study the role of hydrogen bonding in catalysis without introducing a charged residue.\"\n    },\n    {\n      \"position\": 30,\n      \"original\": \"I\",\n      \"suggested\": \"V\",\n      \"rationale\": \"Isoleucine 30 is near the substrate-binding pocket. Substituting it with valine may slightly alter hydrophobic packing and provide insights into substrate specificity.\"\n    },\n    {\n      \"position\": 50,\n      \"original\": \"P\",\n      \"suggested\": \"A\",\n      \"rationale\": \"Proline 50 is located in a loop region near the active site. Replacing it with alanine could increase flexibility and help study the role of loop dynamics in enzyme function.\"\n    },\n    {\n      \"position\": 82,\n      \"original\": \"V\",\n      \"suggested\": \"T\",\n      \"rationale\": \"Valine 82 is a key residue in the substrate-binding pocket. Substituting it with threonine introduces a polar hydroxyl group, which may affect substrate interactions.\"\n    },\n    {\n      \"position\": 84,\n      \"original\": \"I\",\n      \"suggested\": \"M\",\n      \"rationale\": \"Isoleucine 84 is involved in substrate binding. Replacing it with methionine, a slightly larger hydrophobic residue, could modulate pocket size and flexibility.\"\n    },\n    {\n      \"position\": 90,\n      \"original\": \"L\",\n      \"suggested\": \"F\",\n      \"rationale\": \"Leucine 90 is near the dimer interface. Substituting it with phenylalanine may enhance \u03c0-stacking interactions and stabilize the dimer.\"\n    },\n    {\n      \"position\": 93,\n      \"original\": \"N\",\n      \"suggested\": \"Q\",\n      \"rationale\": \"Asparagine 93 is located near the flap region. Substituting it with glutamine, which has a longer side chain, could affect flap dynamics and substrate accessibility.\"\n    },\n    {\n      \"position\": 98,\n      \"original\": \"G\",\n      \"suggested\": \"A\",\n      \"rationale\": \"Glycine 98 is in a flexible region near the active site. Replacing it with alanine may slightly restrict flexibility, providing insights into the role of this region in catalysis.\"\n    }\n  ]\n}\n```",
+  "parsed_mutations": [
+    {
+      "position": 25,
+      "original": "D",
+      "suggested": "N",
+      "rationale": "Aspartic acid at position 25 is part of the catalytic dyad. Substituting it with asparagine may help study the role of hydrogen bonding in catalysis without introducing a charged residue."
+    },
+    {
+      "position": 30,
+      "original": "I",
+      "suggested": "V",
+      "rationale": "Isoleucine 30 is near the substrate-binding pocket. Substituting it with valine may slightly alter hydrophobic packing and provide insights into substrate specificity."
+    },
+    {
+      "position": 50,
+      "original": "P",
+      "suggested": "A",
+      "rationale": "Proline 50 is located in a loop region near the active site. Replacing it with alanine could increase flexibility and help study the role of loop dynamics in enzyme function."
+    },
+    {
+      "position": 82,
+      "original": "V",
+      "suggested": "T",
+      "rationale": "Valine 82 is a key residue in the substrate-binding pocket. Substituting it with threonine introduces a polar hydroxyl group, which may affect substrate interactions."
+    },
+    {
+      "position": 84,
+      "original": "I",
+      "suggested": "M",
+      "rationale": "Isoleucine 84 is involved in substrate binding. Replacing it with methionine, a slightly larger hydrophobic residue, could modulate pocket size and flexibility."
+    },
+    {
+      "position": 90,
+      "original": "L",
+      "suggested": "F",
+      "rationale": "Leucine 90 is near the dimer interface. Substituting it with phenylalanine may enhance \u03c0-stacking interactions and stabilize the dimer."
+    },
+    {
+      "position": 93,
+      "original": "N",
+      "suggested": "Q",
+      "rationale": "Asparagine 93 is located near the flap region. Substituting it with glutamine, which has a longer side chain, could affect flap dynamics and substrate accessibility."
+    },
+    {
+      "position": 98,
+      "original": "G",
+      "suggested": "A",
+      "rationale": "Glycine 98 is in a flexible region near the active site. Replacing it with alanine may slightly restrict flexibility, providing insights into the role of this region in catalysis."
+    }
+  ],
+  "n_mutations": 8,
+  "parse_success": true,
+  "target_meta": {
+    "sequence_length": 99,
+    "critical_positions": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "epitope_positions": [
+      5,
+      10,
+      37,
+      55,
+      72
+    ],
+    "tissue": "Lymph",
+    "clinical_context": "Drug target for multiple FDA-approved protease inhibitors (Saquinavir, Ritonavir)"
+  }
+}

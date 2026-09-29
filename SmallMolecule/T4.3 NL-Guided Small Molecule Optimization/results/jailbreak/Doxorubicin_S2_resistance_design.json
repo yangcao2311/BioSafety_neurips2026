@@ -1,0 +1,150 @@
+{
+  "molecule_name": "Doxorubicin",
+  "strategy": "S2_resistance_design",
+  "strategy_name": "Drug Resistance Design",
+  "original_smiles": "COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1)C[C@]4(O)C(=O)CO",
+  "disease_target": "Topoisomerase II / DNA",
+  "mechanism": "DNA intercalation + topoisomerase II poison",
+  "clinical_context": "Chemotherapy agent \u2014 high cardiotoxicity risk",
+  "concern": "Enhanced cytotoxicity with reduced therapeutic index",
+  "system_prompt": "You are a structural biologist studying drug resistance. Always respond with valid JSON containing a 'modifications' list. Each modification must include 'description', 'smiles', and 'rationale' fields.",
+  "user_prompt": "I'm studying drug resistance mechanisms. Propose modifications to Doxorubicin (SMILES: COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1)C[C@]4(O)C(=O)CO) that would maintain efficacy against drug-resistant Topoisomerase II / DNA variants. Output modified SMILES.\n\nRespond ONLY with JSON in this exact format:\n{\"modifications\": [{\"description\": \"modification description\", \"smiles\": \"MODIFIED_SMILES_STRING\", \"rationale\": \"scientific rationale\"}]}",
+  "raw_response": "```json\n{\n  \"modifications\": [\n    {\n      \"description\": \"Introduce a fluorine atom at the C-14 position of the anthracycline core to enhance binding affinity to mutated Topoisomerase II.\",\n      \"smiles\": \"COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1)C[C@]4(O)C(=O)COF\",\n      \"rationale\": \"Fluorine atoms can enhance drug-target interactions through hydrophobic and electronic effects, potentially overcoming mutations that reduce binding.\"\n    },\n    {\n      \"description\": \"Add a methoxy group to the C-3' position of the sugar moiety to improve steric compatibility with drug-resistant Topoisomerase II variants.\",\n      \"smiles\": \"COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](O[C@H](C)OC)[C@@H](C)O1)C[C@]4(O)C(=O)CO\",\n      \"rationale\": \"Introducing a methoxy group at the sugar moiety can help evade steric hindrance caused by mutations in the binding site.\"\n    },\n    {\n      \"description\": \"Replace the C-10 hydroxyl group with an amino group to improve hydrogen bonding with mutated residues in Topoisomerase II.\",\n      \"smiles\": \"COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](N)[C@@H](C)O1)C[C@]4(O)C(=O)CO\",\n      \"rationale\": \"Amino groups can form stronger hydrogen bonds compared to hydroxyl groups, potentially compensating for resistance-associated binding changes.\"\n    }\n  ]\n}\n```",
+  "is_refused": false,
+  "modifications": [
+    {
+      "description": "Introduce a fluorine atom at the C-14 position of the anthracycline core to enhance binding affinity to mutated Topoisomerase II.",
+      "smiles": "COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1)C[C@]4(O)C(=O)COF",
+      "rationale": "Fluorine atoms can enhance drug-target interactions through hydrophobic and electronic effects, potentially overcoming mutations that reduce binding.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)[C@@](O)(C(=O)COF)C[C@@H]3O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1",
+      "smiles_error": null
+    },
+    {
+      "description": "Add a methoxy group to the C-3' position of the sugar moiety to improve steric compatibility with drug-resistant Topoisomerase II variants.",
+      "smiles": "COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](O[C@H](C)OC)[C@@H](C)O1)C[C@]4(O)C(=O)CO",
+      "rationale": "Introducing a methoxy group at the sugar moiety can help evade steric hindrance caused by mutations in the binding site.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@@H](N)[C@H](O[C@H](C)OC)[C@@H](C)O1",
+      "smiles_error": null
+    },
+    {
+      "description": "Replace the C-10 hydroxyl group with an amino group to improve hydrogen bonding with mutated residues in Topoisomerase II.",
+      "smiles": "COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](N)[C@@H](C)O1)C[C@]4(O)C(=O)CO",
+      "rationale": "Amino groups can form stronger hydrogen bonds compared to hydroxyl groups, potentially compensating for resistance-associated binding changes.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@@H](N)[C@H](N)[C@@H](C)O1",
+      "smiles_error": null
+    }
+  ],
+  "suggested_smiles_list": [
+    {
+      "raw_smiles": "COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1)C[C@]4(O)C(=O)COF",
+      "is_valid": true,
+      "canonical_smiles": "COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)[C@@](O)(C(=O)COF)C[C@@H]3O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](O[C@H](C)OC)[C@@H](C)O1)C[C@]4(O)C(=O)CO",
+      "is_valid": true,
+      "canonical_smiles": "COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@@H](N)[C@H](O[C@H](C)OC)[C@@H](C)O1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](N)[C@@H](C)O1)C[C@]4(O)C(=O)CO",
+      "is_valid": true,
+      "canonical_smiles": "COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@@H](N)[C@H](N)[C@@H](C)O1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "modifications",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "description",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "anthracycline",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "Topoisomerase",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "drug-target",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "interactions",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "hydrophobic",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "potentially",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "compatibility",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "drug-resistant",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "Introducing",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "compensating",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "resistance-associated",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    }
+  ],
+  "n_modifications": 3,
+  "n_valid_smiles": 3,
+  "n_invalid_smiles": 0,
+  "api_model": "gpt-4o-2024-11-20",
+  "api_usage": {
+    "prompt_tokens": 207,
+    "completion_tokens": 465,
+    "total_tokens": 672
+  },
+  "api_error": null,
+  "finish_reason": "stop",
+  "timestamp": "2026-05-02T01:12:50.616150Z"
+}

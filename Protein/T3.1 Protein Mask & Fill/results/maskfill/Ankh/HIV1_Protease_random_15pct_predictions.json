@@ -1,0 +1,2472 @@
+{
+  "protein_name": "HIV1_Protease",
+  "strategy": "random_15pct",
+  "model": "Ankh",
+  "predictions": [
+    {
+      "position": 1,
+      "original_aa": "G",
+      "predicted_aa": "R",
+      "prob": 0.9724,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "</s>",
+          "prob": 0.9724
+        },
+        {
+          "aa": "R",
+          "prob": 0.018
+        },
+        {
+          "aa": "N",
+          "prob": 0.0048
+        },
+        {
+          "aa": "S",
+          "prob": 0.0038
+        },
+        {
+          "aa": "K",
+          "prob": 0.001
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "original_aa": "V",
+      "predicted_aa": "R",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "R",
+          "prob": 1.0
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0
+        },
+        {
+          "aa": "N",
+          "prob": 0.0
+        },
+        {
+          "aa": "K",
+          "prob": 0.0
+        },
+        {
+          "aa": "M",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "original_aa": "D",
+      "predicted_aa": "Q",
+      "prob": 0.9164,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "Q",
+          "prob": 0.9164
+        },
+        {
+          "aa": "C",
+          "prob": 0.0701
+        },
+        {
+          "aa": "E",
+          "prob": 0.0095
+        },
+        {
+          "aa": "N",
+          "prob": 0.0036
+        },
+        {
+          "aa": "<pad>",
+          "prob": 0.0004
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "original_aa": "R",
+      "predicted_aa": "L",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "L",
+          "prob": 1.0
+        },
+        {
+          "aa": "C",
+          "prob": 0.0
+        },
+        {
+          "aa": "V",
+          "prob": 0.0
+        },
+        {
+          "aa": "G",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_20>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "original_aa": "G",
+      "predicted_aa": "A",
+      "prob": 0.9079,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "A",
+          "prob": 0.9079
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0809
+        },
+        {
+          "aa": "Y",
+          "prob": 0.0056
+        },
+        {
+          "aa": "F",
+          "prob": 0.0033
+        },
+        {
+          "aa": "K",
+          "prob": 0.0023
+        }
+      ]
+    },
+    {
+      "position": 39,
+      "original_aa": "E",
+      "predicted_aa": "F",
+      "prob": 0.7276,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "F",
+          "prob": 0.7276
+        },
+        {
+          "aa": "Q",
+          "prob": 0.2264
+        },
+        {
+          "aa": "<pad>",
+          "prob": 0.0424
+        },
+        {
+          "aa": "S",
+          "prob": 0.0021
+        },
+        {
+          "aa": "<extra_id_24>",
+          "prob": 0.0015
+        }
+      ]
+    },
+    {
+      "position": 43,
+      "original_aa": "F",
+      "predicted_aa": "M",
+      "prob": 0.9162,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "M",
+          "prob": 0.9162
+        },
+        {
+          "aa": "F",
+          "prob": 0.0834
+        },
+        {
+          "aa": "I",
+          "prob": 0.0003
+        },
+        {
+          "aa": "<pad>",
+          "prob": 0.0001
+        },
+        {
+          "aa": "<extra_id_24>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 51,
+      "original_aa": "E",
+      "predicted_aa": "Q",
+      "prob": 0.9999,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "Q",
+          "prob": 0.9999
+        },
+        {
+          "aa": "K",
+          "prob": 0.0001
+        },
+        {
+          "aa": "G",
+          "prob": 0.0
+        },
+        {
+          "aa": "<pad>",
+          "prob": 0.0
+        },
+        {
+          "aa": "C",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 54,
+      "original_aa": "E",
+      "predicted_aa": "Q",
+      "prob": 0.8874,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "Q",
+          "prob": 0.8874
+        },
+        {
+          "aa": "K",
+          "prob": 0.1124
+        },
+        {
+          "aa": "W",
+          "prob": 0.0001
+        },
+        {
+          "aa": "L",
+          "prob": 0.0
+        },
+        {
+          "aa": "F",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 61,
+      "original_aa": "G",
+      "predicted_aa": "Q",
+      "prob": 0.9916,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "Q",
+          "prob": 0.9916
+        },
+        {
+          "aa": "B",
+          "prob": 0.0048
+        },
+        {
+          "aa": "T",
+          "prob": 0.0015
+        },
+        {
+          "aa": "G",
+          "prob": 0.0014
+        },
+        {
+          "aa": "S",
+          "prob": 0.0006
+        }
+      ]
+    },
+    {
+      "position": 64,
+      "original_aa": "Q",
+      "predicted_aa": "H",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "H",
+          "prob": 1.0
+        },
+        {
+          "aa": "K",
+          "prob": 0.0
+        },
+        {
+          "aa": "L",
+          "prob": 0.0
+        },
+        {
+          "aa": "Y",
+          "prob": 0.0
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 65,
+      "original_aa": "P",
+      "predicted_aa": "N",
+      "prob": 0.6957,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "N",
+          "prob": 0.6957
+        },
+        {
+          "aa": "<pad>",
+          "prob": 0.1282
+        },
+        {
+          "aa": "<extra_id_26>",
+          "prob": 0.0842
+        },
+        {
+          "aa": "K",
+          "prob": 0.0598
+        },
+        {
+          "aa": "<extra_id_32>",
+          "prob": 0.0322
+        }
+      ]
+    },
+    {
+      "position": 88,
+      "original_aa": "H",
+      "predicted_aa": "A",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "A",
+          "prob": 1.0
+        },
+        {
+          "aa": "S",
+          "prob": 0.0
+        },
+        {
+          "aa": "U",
+          "prob": 0.0
+        },
+        {
+          "aa": "G",
+          "prob": 0.0
+        },
+        {
+          "aa": "K",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 93,
+      "original_aa": "I",
+      "predicted_aa": "V",
+      "prob": 0.9933,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "V",
+          "prob": 0.9933
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0045
+        },
+        {
+          "aa": "M",
+          "prob": 0.0018
+        },
+        {
+          "aa": "F",
+          "prob": 0.0004
+        },
+        {
+          "aa": "C",
+          "prob": 0.0001
+        }
+      ]
+    },
+    {
+      "position": 96,
+      "original_aa": "T",
+      "predicted_aa": "G",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "G",
+          "prob": 1.0
+        },
+        {
+          "aa": "N",
+          "prob": 0.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "S",
+          "prob": 0.0
+        },
+        {
+          "aa": "K",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 114,
+      "original_aa": "A",
+      "predicted_aa": "R",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "R",
+          "prob": 1.0
+        },
+        {
+          "aa": "N",
+          "prob": 0.0
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0
+        },
+        {
+          "aa": "X",
+          "prob": 0.0
+        },
+        {
+          "aa": "G",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 118,
+      "original_aa": "A",
+      "predicted_aa": "I",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "I",
+          "prob": 1.0
+        },
+        {
+          "aa": "V",
+          "prob": 0.0
+        },
+        {
+          "aa": "L",
+          "prob": 0.0
+        },
+        {
+          "aa": "M",
+          "prob": 0.0
+        },
+        {
+          "aa": "T",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 120,
+      "original_aa": "D",
+      "predicted_aa": "L",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "L",
+          "prob": 1.0
+        },
+        {
+          "aa": "V",
+          "prob": 0.0
+        },
+        {
+          "aa": "F",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_20>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_40>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 130,
+      "original_aa": "N",
+      "predicted_aa": "F",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "X",
+          "prob": 1.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0
+        },
+        {
+          "aa": "U",
+          "prob": 0.0
+        },
+        {
+          "aa": "F",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 131,
+      "original_aa": "Y",
+      "predicted_aa": "T",
+      "prob": 0.9989,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "T",
+          "prob": 0.9989
+        },
+        {
+          "aa": "E",
+          "prob": 0.001
+        },
+        {
+          "aa": "F",
+          "prob": 0.0001
+        },
+        {
+          "aa": "K",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_6>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 135,
+      "original_aa": "Q",
+      "predicted_aa": "N",
+      "prob": 0.4785,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_50>",
+          "prob": 0.4785
+        },
+        {
+          "aa": "N",
+          "prob": 0.2202
+        },
+        {
+          "aa": "<extra_id_49>",
+          "prob": 0.1526
+        },
+        {
+          "aa": "E",
+          "prob": 0.0958
+        },
+        {
+          "aa": "<extra_id_36>",
+          "prob": 0.0529
+        }
+      ]
+    },
+    {
+      "position": 138,
+      "original_aa": "Q",
+      "predicted_aa": "T",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "T",
+          "prob": 1.0
+        },
+        {
+          "aa": "W",
+          "prob": 0.0
+        },
+        {
+          "aa": "S",
+          "prob": 0.0
+        },
+        {
+          "aa": "A",
+          "prob": 0.0
+        },
+        {
+          "aa": "C",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 141,
+      "original_aa": "M",
+      "predicted_aa": "Q",
+      "prob": 0.996,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "Q",
+          "prob": 0.996
+        },
+        {
+          "aa": "A",
+          "prob": 0.0033
+        },
+        {
+          "aa": "P",
+          "prob": 0.0006
+        },
+        {
+          "aa": "Y",
+          "prob": 0.0001
+        },
+        {
+          "aa": "F",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 142,
+      "original_aa": "V",
+      "predicted_aa": "S",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "S",
+          "prob": 1.0
+        },
+        {
+          "aa": "T",
+          "prob": 0.0
+        },
+        {
+          "aa": "F",
+          "prob": 0.0
+        },
+        {
+          "aa": "G",
+          "prob": 0.0
+        },
+        {
+          "aa": "A",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 145,
+      "original_aa": "A",
+      "predicted_aa": "K",
+      "prob": 0.9951,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "K",
+          "prob": 0.9951
+        },
+        {
+          "aa": "A",
+          "prob": 0.0048
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0
+        },
+        {
+          "aa": "T",
+          "prob": 0.0
+        },
+        {
+          "aa": "N",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 146,
+      "original_aa": "I",
+      "predicted_aa": "E",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "E",
+          "prob": 1.0
+        },
+        {
+          "aa": "U",
+          "prob": 0.0
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0
+        },
+        {
+          "aa": "M",
+          "prob": 0.0
+        },
+        {
+          "aa": "C",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 161,
+      "original_aa": "K",
+      "predicted_aa": "S",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "B",
+          "prob": 1.0
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0
+        },
+        {
+          "aa": "S",
+          "prob": 0.0
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0
+        },
+        {
+          "aa": "N",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 163,
+      "original_aa": "F",
+      "predicted_aa": "S",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "S",
+          "prob": 1.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "G",
+          "prob": 0.0
+        },
+        {
+          "aa": "T",
+          "prob": 0.0
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 175,
+      "original_aa": "S",
+      "predicted_aa": "K",
+      "prob": 0.8105,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "K",
+          "prob": 0.8105
+        },
+        {
+          "aa": "F",
+          "prob": 0.1475
+        },
+        {
+          "aa": "E",
+          "prob": 0.0322
+        },
+        {
+          "aa": "N",
+          "prob": 0.0051
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0046
+        }
+      ]
+    },
+    {
+      "position": 178,
+      "original_aa": "A",
+      "predicted_aa": "Q",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "Q",
+          "prob": 1.0
+        },
+        {
+          "aa": "L",
+          "prob": 0.0
+        },
+        {
+          "aa": "F",
+          "prob": 0.0
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0
+        },
+        {
+          "aa": "E",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 186,
+      "original_aa": "M",
+      "predicted_aa": "Y",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "X",
+          "prob": 1.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0
+        },
+        {
+          "aa": "U",
+          "prob": 0.0
+        },
+        {
+          "aa": "Y",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 189,
+      "original_aa": "T",
+      "predicted_aa": "S",
+      "prob": 0.7468,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "S",
+          "prob": 0.7468
+        },
+        {
+          "aa": "F",
+          "prob": 0.2053
+        },
+        {
+          "aa": "P",
+          "prob": 0.0292
+        },
+        {
+          "aa": "<extra_id_13>",
+          "prob": 0.0145
+        },
+        {
+          "aa": "<extra_id_59>",
+          "prob": 0.0041
+        }
+      ]
+    },
+    {
+      "position": 191,
+      "original_aa": "G",
+      "predicted_aa": "F",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "F",
+          "prob": 1.0
+        },
+        {
+          "aa": "Y",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_6>",
+          "prob": 0.0
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0
+        },
+        {
+          "aa": "P",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 198,
+      "original_aa": "Q",
+      "predicted_aa": "A",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "A",
+          "prob": 1.0
+        },
+        {
+          "aa": "S",
+          "prob": 0.0
+        },
+        {
+          "aa": "G",
+          "prob": 0.0
+        },
+        {
+          "aa": "U",
+          "prob": 0.0
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 206,
+      "original_aa": "E",
+      "predicted_aa": "I",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "I",
+          "prob": 1.0
+        },
+        {
+          "aa": "V",
+          "prob": 0.0
+        },
+        {
+          "aa": "L",
+          "prob": 0.0
+        },
+        {
+          "aa": "W",
+          "prob": 0.0
+        },
+        {
+          "aa": "T",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 209,
+      "original_aa": "A",
+      "predicted_aa": "F",
+      "prob": 0.9563,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "B",
+          "prob": 0.9563
+        },
+        {
+          "aa": "F",
+          "prob": 0.043
+        },
+        {
+          "aa": "K",
+          "prob": 0.0007
+        },
+        {
+          "aa": "N",
+          "prob": 0.0
+        },
+        {
+          "aa": "L",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 217,
+      "original_aa": "V",
+      "predicted_aa": "P",
+      "prob": 0.9891,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "P",
+          "prob": 0.9891
+        },
+        {
+          "aa": "E",
+          "prob": 0.0094
+        },
+        {
+          "aa": "<extra_id_72>",
+          "prob": 0.001
+        },
+        {
+          "aa": "F",
+          "prob": 0.0003
+        },
+        {
+          "aa": "<extra_id_36>",
+          "prob": 0.0002
+        }
+      ]
+    },
+    {
+      "position": 224,
+      "original_aa": "P",
+      "predicted_aa": "F",
+      "prob": 0.9679,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "F",
+          "prob": 0.9679
+        },
+        {
+          "aa": "K",
+          "prob": 0.0267
+        },
+        {
+          "aa": "W",
+          "prob": 0.0053
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0
+        },
+        {
+          "aa": "L",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 228,
+      "original_aa": "R",
+      "predicted_aa": "F",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "X",
+          "prob": 1.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0
+        },
+        {
+          "aa": "U",
+          "prob": 0.0
+        },
+        {
+          "aa": "F",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 229,
+      "original_aa": "E",
+      "predicted_aa": "F",
+      "prob": 0.9999,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "F",
+          "prob": 0.9999
+        },
+        {
+          "aa": "K",
+          "prob": 0.0
+        },
+        {
+          "aa": "W",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_101>",
+          "prob": 0.0
+        },
+        {
+          "aa": "T",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 234,
+      "original_aa": "D",
+      "predicted_aa": "A",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "A",
+          "prob": 1.0
+        },
+        {
+          "aa": "S",
+          "prob": 0.0
+        },
+        {
+          "aa": "G",
+          "prob": 0.0
+        },
+        {
+          "aa": "R",
+          "prob": 0.0
+        },
+        {
+          "aa": "W",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 247,
+      "original_aa": "G",
+      "predicted_aa": "C",
+      "prob": 0.4407,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "C",
+          "prob": 0.4407
+        },
+        {
+          "aa": "E",
+          "prob": 0.3282
+        },
+        {
+          "aa": "W",
+          "prob": 0.1642
+        },
+        {
+          "aa": "V",
+          "prob": 0.0649
+        },
+        {
+          "aa": "T",
+          "prob": 0.002
+        }
+      ]
+    },
+    {
+      "position": 255,
+      "original_aa": "I",
+      "predicted_aa": "F",
+      "prob": 0.933,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "F",
+          "prob": 0.933
+        },
+        {
+          "aa": "E",
+          "prob": 0.0608
+        },
+        {
+          "aa": "<extra_id_46>",
+          "prob": 0.003
+        },
+        {
+          "aa": "<extra_id_14>",
+          "prob": 0.0021
+        },
+        {
+          "aa": "<extra_id_50>",
+          "prob": 0.0012
+        }
+      ]
+    },
+    {
+      "position": 257,
+      "original_aa": "V",
+      "predicted_aa": "C",
+      "prob": 0.3604,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_47>",
+          "prob": 0.3604
+        },
+        {
+          "aa": "C",
+          "prob": 0.3156
+        },
+        {
+          "aa": "<extra_id_12>",
+          "prob": 0.1837
+        },
+        {
+          "aa": "<extra_id_39>",
+          "prob": 0.1095
+        },
+        {
+          "aa": "<extra_id_83>",
+          "prob": 0.0307
+        }
+      ]
+    },
+    {
+      "position": 262,
+      "original_aa": "K",
+      "predicted_aa": "Y",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "X",
+          "prob": 1.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0
+        },
+        {
+          "aa": "U",
+          "prob": 0.0
+        },
+        {
+          "aa": "Y",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 270,
+      "original_aa": "N",
+      "predicted_aa": "F",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "X",
+          "prob": 1.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0
+        },
+        {
+          "aa": "U",
+          "prob": 0.0
+        },
+        {
+          "aa": "F",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 283,
+      "original_aa": "D",
+      "predicted_aa": "K",
+      "prob": 0.9432,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "K",
+          "prob": 0.9432
+        },
+        {
+          "aa": "T",
+          "prob": 0.0566
+        },
+        {
+          "aa": "F",
+          "prob": 0.0001
+        },
+        {
+          "aa": "<extra_id_6>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_10>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 285,
+      "original_aa": "R",
+      "predicted_aa": "K",
+      "prob": 0.6477,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_55>",
+          "prob": 0.6477
+        },
+        {
+          "aa": "K",
+          "prob": 0.1601
+        },
+        {
+          "aa": "<extra_id_10>",
+          "prob": 0.1219
+        },
+        {
+          "aa": "<extra_id_17>",
+          "prob": 0.0472
+        },
+        {
+          "aa": "<extra_id_12>",
+          "prob": 0.0231
+        }
+      ]
+    },
+    {
+      "position": 292,
+      "original_aa": "F",
+      "predicted_aa": "Y",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "X",
+          "prob": 1.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0
+        },
+        {
+          "aa": "U",
+          "prob": 0.0
+        },
+        {
+          "aa": "Y",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 313,
+      "original_aa": "K",
+      "predicted_aa": "N",
+      "prob": 0.9979,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "N",
+          "prob": 0.9979
+        },
+        {
+          "aa": "C",
+          "prob": 0.0016
+        },
+        {
+          "aa": "<pad>",
+          "prob": 0.0003
+        },
+        {
+          "aa": "H",
+          "prob": 0.0001
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 318,
+      "original_aa": "E",
+      "predicted_aa": "E",
+      "prob": 1.0,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "E",
+          "prob": 1.0
+        },
+        {
+          "aa": "F",
+          "prob": 0.0
+        },
+        {
+          "aa": "U",
+          "prob": 0.0
+        },
+        {
+          "aa": "T",
+          "prob": 0.0
+        },
+        {
+          "aa": "M",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 323,
+      "original_aa": "Q",
+      "predicted_aa": "F",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "F",
+          "prob": 1.0
+        },
+        {
+          "aa": "T",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_76>",
+          "prob": 0.0
+        },
+        {
+          "aa": "O",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_32>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 326,
+      "original_aa": "N",
+      "predicted_aa": "Y",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "X",
+          "prob": 1.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0
+        },
+        {
+          "aa": "U",
+          "prob": 0.0
+        },
+        {
+          "aa": "Y",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 327,
+      "original_aa": "P",
+      "predicted_aa": "F",
+      "prob": 0.804,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_101>",
+          "prob": 0.804
+        },
+        {
+          "aa": "F",
+          "prob": 0.1912
+        },
+        {
+          "aa": "E",
+          "prob": 0.0031
+        },
+        {
+          "aa": "T",
+          "prob": 0.0016
+        },
+        {
+          "aa": "<extra_id_6>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 330,
+      "original_aa": "K",
+      "predicted_aa": "P",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "P",
+          "prob": 1.0
+        },
+        {
+          "aa": "A",
+          "prob": 0.0
+        },
+        {
+          "aa": "T",
+          "prob": 0.0
+        },
+        {
+          "aa": "S",
+          "prob": 0.0
+        },
+        {
+          "aa": "<pad>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 333,
+      "original_aa": "L",
+      "predicted_aa": "K",
+      "prob": 0.9998,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "B",
+          "prob": 0.9998
+        },
+        {
+          "aa": "K",
+          "prob": 0.0002
+        },
+        {
+          "aa": "N",
+          "prob": 0.0
+        },
+        {
+          "aa": "C",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_52>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 334,
+      "original_aa": "K",
+      "predicted_aa": "V",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "V",
+          "prob": 1.0
+        },
+        {
+          "aa": "C",
+          "prob": 0.0
+        },
+        {
+          "aa": "A",
+          "prob": 0.0
+        },
+        {
+          "aa": "W",
+          "prob": 0.0
+        },
+        {
+          "aa": "S",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 338,
+      "original_aa": "P",
+      "predicted_aa": "P",
+      "prob": 1.0,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "P",
+          "prob": 1.0
+        },
+        {
+          "aa": "A",
+          "prob": 0.0
+        },
+        {
+          "aa": "S",
+          "prob": 0.0
+        },
+        {
+          "aa": "G",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_93>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 350,
+      "original_aa": "Q",
+      "predicted_aa": "Y",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "X",
+          "prob": 1.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0
+        },
+        {
+          "aa": "U",
+          "prob": 0.0
+        },
+        {
+          "aa": "Y",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 365,
+      "original_aa": "A",
+      "predicted_aa": "C",
+      "prob": 0.9395,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "C",
+          "prob": 0.9395
+        },
+        {
+          "aa": "W",
+          "prob": 0.0288
+        },
+        {
+          "aa": "F",
+          "prob": 0.0147
+        },
+        {
+          "aa": "K",
+          "prob": 0.0145
+        },
+        {
+          "aa": "P",
+          "prob": 0.0024
+        }
+      ]
+    },
+    {
+      "position": 393,
+      "original_aa": "N",
+      "predicted_aa": "E",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_101>",
+          "prob": 1.0
+        },
+        {
+          "aa": "E",
+          "prob": 0.0
+        },
+        {
+          "aa": "N",
+          "prob": 0.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "</s>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 407,
+      "original_aa": "P",
+      "predicted_aa": "H",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "B",
+          "prob": 1.0
+        },
+        {
+          "aa": "<extra_id_101>",
+          "prob": 0.0
+        },
+        {
+          "aa": "H",
+          "prob": 0.0
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0
+        },
+        {
+          "aa": "S",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 411,
+      "original_aa": "G",
+      "predicted_aa": "P",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_101>",
+          "prob": 1.0
+        },
+        {
+          "aa": "P",
+          "prob": 0.0
+        },
+        {
+          "aa": "F",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_92>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_64>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 429,
+      "original_aa": "Q",
+      "predicted_aa": "E",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_101>",
+          "prob": 1.0
+        },
+        {
+          "aa": "<extra_id_1>",
+          "prob": 0.0
+        },
+        {
+          "aa": "E",
+          "prob": 0.0
+        },
+        {
+          "aa": "A",
+          "prob": 0.0
+        },
+        {
+          "aa": "R",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 432,
+      "original_aa": "F",
+      "predicted_aa": "P",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "P",
+          "prob": 1.0
+        },
+        {
+          "aa": "A",
+          "prob": 0.0
+        },
+        {
+          "aa": "S",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_101>",
+          "prob": 0.0
+        },
+        {
+          "aa": "T",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 433,
+      "original_aa": "L",
+      "predicted_aa": "K",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_101>",
+          "prob": 1.0
+        },
+        {
+          "aa": "K",
+          "prob": 0.0
+        },
+        {
+          "aa": "</s>",
+          "prob": 0.0
+        },
+        {
+          "aa": "E",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_93>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 435,
+      "original_aa": "E",
+      "predicted_aa": "<extra_id_101>",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_101>",
+          "prob": 1.0
+        },
+        {
+          "aa": "<extra_id_6>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_95>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_4>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_88>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 438,
+      "original_aa": "A",
+      "predicted_aa": "A",
+      "prob": 1.0,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "A",
+          "prob": 1.0
+        },
+        {
+          "aa": "S",
+          "prob": 0.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "W",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_101>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 440,
+      "original_aa": "L",
+      "predicted_aa": "G",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "G",
+          "prob": 1.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "N",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_101>",
+          "prob": 0.0
+        },
+        {
+          "aa": "D",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 447,
+      "original_aa": "F",
+      "predicted_aa": "E",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_101>",
+          "prob": 1.0
+        },
+        {
+          "aa": "E",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_92>",
+          "prob": 0.0
+        },
+        {
+          "aa": "D",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_80>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 449,
+      "original_aa": "S",
+      "predicted_aa": "F",
+      "prob": 0.9152,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "F",
+          "prob": 0.9152
+        },
+        {
+          "aa": "<extra_id_101>",
+          "prob": 0.0846
+        },
+        {
+          "aa": "<extra_id_93>",
+          "prob": 0.0001
+        },
+        {
+          "aa": "K",
+          "prob": 0.0001
+        },
+        {
+          "aa": "<extra_id_57>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 451,
+      "original_aa": "Q",
+      "predicted_aa": "F",
+      "prob": 0.9999,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_101>",
+          "prob": 0.9999
+        },
+        {
+          "aa": "F",
+          "prob": 0.0001
+        },
+        {
+          "aa": "D",
+          "prob": 0.0
+        },
+        {
+          "aa": "H",
+          "prob": 0.0
+        },
+        {
+          "aa": "A",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 457,
+      "original_aa": "P",
+      "predicted_aa": "F",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_101>",
+          "prob": 1.0
+        },
+        {
+          "aa": "F",
+          "prob": 0.0
+        },
+        {
+          "aa": "K",
+          "prob": 0.0
+        },
+        {
+          "aa": "E",
+          "prob": 0.0
+        },
+        {
+          "aa": "A",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 460,
+      "original_aa": "S",
+      "predicted_aa": "P",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "P",
+          "prob": 1.0
+        },
+        {
+          "aa": "A",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_101>",
+          "prob": 0.0
+        },
+        {
+          "aa": "S",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_84>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 466,
+      "original_aa": "A",
+      "predicted_aa": "S",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "S",
+          "prob": 1.0
+        },
+        {
+          "aa": "<extra_id_101>",
+          "prob": 0.0
+        },
+        {
+          "aa": "G",
+          "prob": 0.0
+        },
+        {
+          "aa": "F",
+          "prob": 0.0
+        },
+        {
+          "aa": "A",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 468,
+      "original_aa": "S",
+      "predicted_aa": "F",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "X",
+          "prob": 1.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0
+        },
+        {
+          "aa": "U",
+          "prob": 0.0
+        },
+        {
+          "aa": "F",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 469,
+      "original_aa": "P",
+      "predicted_aa": "N",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "B",
+          "prob": 1.0
+        },
+        {
+          "aa": "<extra_id_101>",
+          "prob": 0.0
+        },
+        {
+          "aa": "N",
+          "prob": 0.0
+        },
+        {
+          "aa": "H",
+          "prob": 0.0
+        },
+        {
+          "aa": "W",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 471,
+      "original_aa": "R",
+      "predicted_aa": "E",
+      "prob": 0.852,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "B",
+          "prob": 0.852
+        },
+        {
+          "aa": "<extra_id_101>",
+          "prob": 0.1475
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0005
+        },
+        {
+          "aa": "E",
+          "prob": 0.0
+        },
+        {
+          "aa": "X",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 476,
+      "original_aa": "V",
+      "predicted_aa": "T",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "T",
+          "prob": 1.0
+        },
+        {
+          "aa": "<extra_id_101>",
+          "prob": 0.0
+        },
+        {
+          "aa": "W",
+          "prob": 0.0
+        },
+        {
+          "aa": "A",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_91>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 487,
+      "original_aa": "A",
+      "predicted_aa": "K",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_101>",
+          "prob": 1.0
+        },
+        {
+          "aa": "K",
+          "prob": 0.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "N",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_92>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 490,
+      "original_aa": "D",
+      "predicted_aa": "Q",
+      "prob": 0.9999,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "Q",
+          "prob": 0.9999
+        },
+        {
+          "aa": "<extra_id_101>",
+          "prob": 0.0001
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0
+        },
+        {
+          "aa": "E",
+          "prob": 0.0
+        },
+        {
+          "aa": "R",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 493,
+      "original_aa": "G",
+      "predicted_aa": "K",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_101>",
+          "prob": 1.0
+        },
+        {
+          "aa": "K",
+          "prob": 0.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "E",
+          "prob": 0.0
+        },
+        {
+          "aa": "</s>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 501,
+      "original_aa": "Q",
+      "predicted_aa": "E",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_101>",
+          "prob": 1.0
+        },
+        {
+          "aa": "E",
+          "prob": 0.0
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "L",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 505,
+      "original_aa": "W",
+      "predicted_aa": "E",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_101>",
+          "prob": 1.0
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0
+        },
+        {
+          "aa": "E",
+          "prob": 0.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "W",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 507,
+      "original_aa": "R",
+      "predicted_aa": "M",
+      "prob": 0.9998,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_101>",
+          "prob": 0.9998
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0002
+        },
+        {
+          "aa": "M",
+          "prob": 0.0
+        },
+        {
+          "aa": "E",
+          "prob": 0.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        }
+      ]
+    }
+  ]
+}

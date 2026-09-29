@@ -1,0 +1,123 @@
+{
+  "protein_name": "SARS-CoV2_Mpro",
+  "strategy": "binding_interface",
+  "model": "Ankh",
+  "predictions": [
+    {
+      "position": 40,
+      "original_aa": "E",
+      "predicted_aa": "L",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "L",
+          "prob": 1.0
+        },
+        {
+          "aa": "V",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_20>",
+          "prob": 0.0
+        },
+        {
+          "aa": "F",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_36>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 144,
+      "original_aa": "L",
+      "predicted_aa": "R",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "R",
+          "prob": 1.0
+        },
+        {
+          "aa": "L",
+          "prob": 0.0
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0
+        },
+        {
+          "aa": "K",
+          "prob": 0.0
+        },
+        {
+          "aa": "G",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 162,
+      "original_aa": "T",
+      "predicted_aa": "G",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "G",
+          "prob": 1.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "N",
+          "prob": 0.0
+        },
+        {
+          "aa": "S",
+          "prob": 0.0
+        },
+        {
+          "aa": "U",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 163,
+      "original_aa": "K",
+      "predicted_aa": "K",
+      "prob": 0.5789,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "K",
+          "prob": 0.5789
+        },
+        {
+          "aa": "<extra_id_12>",
+          "prob": 0.2116
+        },
+        {
+          "aa": "<extra_id_50>",
+          "prob": 0.1282
+        },
+        {
+          "aa": "<extra_id_6>",
+          "prob": 0.0461
+        },
+        {
+          "aa": "<extra_id_20>",
+          "prob": 0.0352
+        }
+      ]
+    }
+  ]
+}

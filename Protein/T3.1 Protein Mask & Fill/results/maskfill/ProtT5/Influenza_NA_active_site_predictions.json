@@ -1,0 +1,239 @@
+{
+  "protein_name": "Influenza_NA",
+  "strategy": "active_site",
+  "model": "ProtT5",
+  "predictions": [
+    {
+      "position": 117,
+      "original_aa": "A",
+      "predicted_aa": "<extra_id_44>",
+      "prob": 0.4968,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_44>",
+          "prob": 0.4968
+        },
+        {
+          "aa": "<extra_id_50>",
+          "prob": 0.3331
+        },
+        {
+          "aa": "<extra_id_19>",
+          "prob": 0.1149
+        },
+        {
+          "aa": "<extra_id_87>",
+          "prob": 0.0295
+        },
+        {
+          "aa": "\u2581B",
+          "prob": 0.0258
+        }
+      ]
+    },
+    {
+      "position": 150,
+      "original_aa": "N",
+      "predicted_aa": "\u2581X",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581X",
+          "prob": 1.0
+        },
+        {
+          "aa": "<extra_id_33>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_64>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_80>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_93>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 151,
+      "original_aa": "S",
+      "predicted_aa": "<pad>",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<pad>",
+          "prob": 1.0
+        },
+        {
+          "aa": "</s>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_87>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_45>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_74>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 223,
+      "original_aa": "D",
+      "predicted_aa": "</s>",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "</s>",
+          "prob": 1.0
+        },
+        {
+          "aa": "\u2581G",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581X",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_14>",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581B",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 275,
+      "original_aa": "W",
+      "predicted_aa": "\u2581H",
+      "prob": 0.9999,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581H",
+          "prob": 0.9999
+        },
+        {
+          "aa": "<pad>",
+          "prob": 0.0001
+        },
+        {
+          "aa": "\u2581F",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581L",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581V",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 291,
+      "original_aa": "Y",
+      "predicted_aa": "</s>",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "</s>",
+          "prob": 1.0
+        },
+        {
+          "aa": "\u2581Q",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581H",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581P",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581N",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 370,
+      "original_aa": "Q",
+      "predicted_aa": "</s>",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "</s>",
+          "prob": 1.0
+        },
+        {
+          "aa": "<extra_id_76>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_43>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_39>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_98>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 405,
+      "original_aa": "L",
+      "predicted_aa": "<pad>",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<pad>",
+          "prob": 1.0
+        },
+        {
+          "aa": "<extra_id_91>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_16>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_5>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_6>",
+          "prob": 0.0
+        }
+      ]
+    }
+  ]
+}

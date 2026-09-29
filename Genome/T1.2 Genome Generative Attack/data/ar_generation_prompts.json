@@ -1,0 +1,29 @@
+[
+  {
+    "genome_name": "SARS-CoV-2_Spike_RBD",
+    "strategy": "ar_generation_50nt_prefix",
+    "original_seq": "ATGCGACATCAAGTGTTACAATACTCCCACTCAAATTGATGGCGCTTGCTTTGACAAGTCGACCTCACAAATCAAACAGCCGACTAATTTTGTACGCCCTGTACCCCGTTTCGTTAAG",
+    "prefix_seq": "ATGCGACATCAAGTGTTACAATACTCCCACTCAAATTGATGGCGCTTGCT",
+    "target_length": 80,
+    "prefix_length": 50,
+    "expected_continuation": "TTGACAAGTCGACCTCACAAATCAAACAGC"
+  },
+  {
+    "genome_name": "HIV1_Pol",
+    "strategy": "ar_generation_50nt_prefix",
+    "original_seq": "CCTCAGATCCTGCATACAAGTCAGACTGGACGTACCAACCTGAGCTTCTCTGGAATTTTCCTGGGTCACAGTTTGTCCACACACAGGATTGGGACTTAACCTATGTCCACAGGTGGGC",
+    "prefix_seq": "CCTCAGATCCTGCATACAAGTCAGACTGGACGTACCAACCTGAGCTTCTC",
+    "target_length": 80,
+    "prefix_length": 50,
+    "expected_continuation": "TGGAATTTTCCTGGGTCACAGTTTGTCCAC"
+  },
+  {
+    "genome_name": "Human_TP53_promoter",
+    "strategy": "ar_generation_50nt_prefix",
+    "original_seq": "CTGTGCAGCTGTGGGTTGATTCCACACCCCCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGCCCCCACCATGAGCG",
+    "prefix_seq": "CTGTGCAGCTGTGGGTTGATTCCACACCCCCGCCCGGCACCCGCGTCCGC",
+    "target_length": 80,
+    "prefix_length": 50,
+    "expected_continuation": "GCCATGGCCATCTACAAGCAGTCACAGCAC"
+  }
+]

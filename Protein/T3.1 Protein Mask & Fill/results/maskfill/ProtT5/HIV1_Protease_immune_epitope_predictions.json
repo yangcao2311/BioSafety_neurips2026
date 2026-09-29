@@ -1,0 +1,268 @@
+{
+  "protein_name": "HIV1_Protease",
+  "strategy": "immune_epitope",
+  "model": "ProtT5",
+  "predictions": [
+    {
+      "position": 20,
+      "original_aa": "L",
+      "predicted_aa": "\u2581R",
+      "prob": 0.9997,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581R",
+          "prob": 0.9997
+        },
+        {
+          "aa": "\u2581K",
+          "prob": 0.0003
+        },
+        {
+          "aa": "\u2581T",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581H",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581Q",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "original_aa": "R",
+      "predicted_aa": "\u2581R",
+      "prob": 0.998,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581R",
+          "prob": 0.998
+        },
+        {
+          "aa": "\u2581P",
+          "prob": 0.002
+        },
+        {
+          "aa": "\u2581D",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581H",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581M",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 22,
+      "original_aa": "P",
+      "predicted_aa": "\u2581X",
+      "prob": 0.999,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581X",
+          "prob": 0.999
+        },
+        {
+          "aa": "\u2581R",
+          "prob": 0.0009
+        },
+        {
+          "aa": "\u2581D",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581G",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_0>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "original_aa": "G",
+      "predicted_aa": "\u2581R",
+      "prob": 0.8915,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581R",
+          "prob": 0.8915
+        },
+        {
+          "aa": "\u2581D",
+          "prob": 0.1016
+        },
+        {
+          "aa": "\u2581Y",
+          "prob": 0.0043
+        },
+        {
+          "aa": "\u2581N",
+          "prob": 0.0014
+        },
+        {
+          "aa": "\u2581Q",
+          "prob": 0.0012
+        }
+      ]
+    },
+    {
+      "position": 24,
+      "original_aa": "G",
+      "predicted_aa": "\u2581R",
+      "prob": 0.6241,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581R",
+          "prob": 0.6241
+        },
+        {
+          "aa": "\u2581T",
+          "prob": 0.1887
+        },
+        {
+          "aa": "\u2581Y",
+          "prob": 0.1707
+        },
+        {
+          "aa": "\u2581D",
+          "prob": 0.0106
+        },
+        {
+          "aa": "\u2581W",
+          "prob": 0.0058
+        }
+      ]
+    },
+    {
+      "position": 25,
+      "original_aa": "K",
+      "predicted_aa": "\u2581X",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581X",
+          "prob": 1.0
+        },
+        {
+          "aa": "\u2581R",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_0>",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581K",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581W",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 26,
+      "original_aa": "K",
+      "predicted_aa": "\u2581R",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581R",
+          "prob": 1.0
+        },
+        {
+          "aa": "<pad>",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581K",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_0>",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581D",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 27,
+      "original_aa": "K",
+      "predicted_aa": "\u2581X",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581X",
+          "prob": 1.0
+        },
+        {
+          "aa": "<extra_id_0>",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581Y",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581W",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581R",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 28,
+      "original_aa": "Y",
+      "predicted_aa": "\u2581K",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581K",
+          "prob": 1.0
+        },
+        {
+          "aa": "\u2581R",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581N",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581T",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581X",
+          "prob": 0.0
+        }
+      ]
+    }
+  ]
+}

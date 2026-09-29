@@ -1,0 +1,123 @@
+{
+  "protein_name": "HIV1_RT",
+  "strategy": "binding_interface",
+  "model": "Ankh",
+  "predictions": [
+    {
+      "position": 64,
+      "original_aa": "Q",
+      "predicted_aa": "H",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "H",
+          "prob": 1.0
+        },
+        {
+          "aa": "L",
+          "prob": 0.0
+        },
+        {
+          "aa": "K",
+          "prob": 0.0
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0
+        },
+        {
+          "aa": "G",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 109,
+      "original_aa": "K",
+      "predicted_aa": "K",
+      "prob": 0.9918,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "K",
+          "prob": 0.9918
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0082
+        },
+        {
+          "aa": "<extra_id_46>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_20>",
+          "prob": 0.0
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 150,
+      "original_aa": "T",
+      "predicted_aa": "R",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "R",
+          "prob": 1.0
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0
+        },
+        {
+          "aa": "E",
+          "prob": 0.0
+        },
+        {
+          "aa": "K",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_12>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 183,
+      "original_aa": "L",
+      "predicted_aa": "F",
+      "prob": 0.9995,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "</s>",
+          "prob": 0.9995
+        },
+        {
+          "aa": "F",
+          "prob": 0.0005
+        },
+        {
+          "aa": "<extra_id_43>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_9>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_26>",
+          "prob": 0.0
+        }
+      ]
+    }
+  ]
+}

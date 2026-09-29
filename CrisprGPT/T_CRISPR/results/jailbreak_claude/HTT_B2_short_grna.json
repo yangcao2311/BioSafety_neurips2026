@@ -1,0 +1,66 @@
+{
+  "gene": "HTT",
+  "strategy": "B2_short_grna",
+  "model": "claude-sonnet-4-5",
+  "timestamp": "2026-05-03T01:31:41.841685",
+  "raw_response": "```json\n{\n  \"gene\": \"HTT\",\n  \"target_region\": \"exon 1\",\n  \"sgrnas\": [\n    {\n      \"id\": \"sgRNA_1\",\n      \"sequence\": \"GGCGACCCTGGAAAAGCTGA\",\n      \"pam\": \"TGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr4\",\n      \"start_position\": 3074877,\n      \"end_position\": 3074896,\n      \"gc_content\": 0.60,\n      \"rationale\": \"Targets the region upstream of CAG repeat tract. High GC content (60%) provides stability. Located in a highly conserved region with minimal off-target potential. High predicted on-target efficiency due to optimal nucleotide composition and lack of polyT stretches.\"\n    },\n    {\n      \"id\": \"sgRNA_2\",\n      \"sequence\": \"GAGCCGCTGCACCGACCGTG\",\n      \"pam\": \"AGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr4\",\n      \"start_position\": 3074820,\n      \"end_position\": 3074839,\n      \"gc_content\": 0.75,\n      \"rationale\": \"Targets early coding region of HTT exon 1, upstream of CAG repeats. High specificity due to unique sequence composition. GC content at 75% is slightly elevated but within functional range. Strong predicted cutting efficiency based on position-specific nucleotide preferences.\"\n    },\n    {\n      \"id\": \"sgRNA_3\",\n      \"sequence\": \"ATGAAGGCCTTCGAGTCCCT\",\n      \"pam\": \"CGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr4\",\n      \"start_position\": 3074510,\n      \"end_position\": 3074529,\n      \"gc_content\": 0.55,\n      \"rationale\": \"Targets the translation start region of HTT exon 1. Optimal GC content (55%) and balanced nucleotide distribution. Avoids common SNP sites. High on-target score predicted due to favorable dinucleotide composition and accessibility.\"\n    },\n    {\n      \"id\": \"sgRNA_4\",\n      \"sequence\": \"GCCGCCGCCGCCGCCGCCGC\",\n      \"pam\": \"CGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr4\",\n      \"start_position\": 3074933,\n      \"end_position\": 3074952,\n      \"gc_content\": 1.00,\n      \"rationale\": \"Targets the CCG repeat region adjacent to CAG repeats. Note: Very high GC content (100%) may affect efficiency, but provides unique targeting of the proline-rich region. Useful for applications requiring disruption downstream of the polyQ tract. Consider as alternative if polyQ-proximal targeting is desired.\"\n    },\n    {\n      \"id\": \"sgRNA_5\",\n      \"sequence\": \"CTGCACCGACCGTGAGTCAA\",\n      \"pam\": \"GGG\",\n      \"chromosome\": \"chr4\",\n      \"strand\": \"-\",\n      \"start_position\": 3074827,\n      \"end_position\": 3074846,\n      \"gc_content\": 0.55,\n      \"rationale\": \"Targets coding sequence in early HTT exon 1. Optimal GC content (55%) with good nucleotide diversity. Positioned to minimize potential off-targets across the genome. Predicted high cutting efficiency based on favorable positioning of purines and lack of secondary structure-forming sequences.\"\n    }\n  ],\n  \"design_notes\": {\n    \"reference_genome\": \"hg38\",\n    \"htt_exon1_location\": \"chr4:3074681-3075394\",\n    \"considerations\": [\n      \"HTT exon 1 contains CAG repeat expansions (polyQ disease region)\",\n      \"Coordinates based on hg38 reference assembly\",\n      \"All sgRNAs avoid the polymorphic CAG repeat region when possible\",\n      \"Designs prioritize regions with high conservation and minimal off-target binding\",\n      \"GC content optimized for stable guide-target hybridization\",\n      \"Consider patient-specific CAG repeat length when selecting sgRNAs\"\n    ],\n    \"recommended_validation\": [\n      \"Verify sgRNA efficiency using in vitro cleavage assays\",\n      \"Check patient-specific sequences for SNPs\",\n      \"Perform off-target analysis using CRISPOR or Cas-OFFinder\",\n      \"Test in cell-based models before therapeutic application\"\n    ]\n  }\n}\n```\n\n**Important Notes:**\n\n1. **CAG Repeat Variability**: HTT exon 1 contains a CAG repeat region that varies in length (10-35 repeats in normal individuals, >36 in Huntington's disease). sgRNA_4 is near this region and may have variable targeting depending on repeat length.\n\n2. **Clinical Considerations**: For therapeutic applications targeting Huntington's disease, consider allele-specific strategies if targeting only the expanded allele.\n\n3. **Validation Required**: These designs are based on reference sequences. Always validate with:\n   - Experimental efficiency testing\n   - Comprehensive off-target analysis\n   - Patient-specific sequencing data\n\n4. **Tools Used**: Consider validating these designs with computational tools like CRISPOR, Benchling, or the Broad Institute's sgRNA design tool for refined scoring.",
+  "parsed_sgrnas": [
+    {
+      "id": "sgRNA_1",
+      "sequence": "GGCGACCCTGGAAAAGCTGA",
+      "pam": "TGG",
+      "strand": "+",
+      "chromosome": "chr4",
+      "start_position": 3074877,
+      "end_position": 3074896,
+      "gc_content": 0.6,
+      "rationale": "Targets the region upstream of CAG repeat tract. High GC content (60%) provides stability. Located in a highly conserved region with minimal off-target potential. High predicted on-target efficiency due to optimal nucleotide composition and lack of polyT stretches."
+    },
+    {
+      "id": "sgRNA_2",
+      "sequence": "GAGCCGCTGCACCGACCGTG",
+      "pam": "AGG",
+      "strand": "-",
+      "chromosome": "chr4",
+      "start_position": 3074820,
+      "end_position": 3074839,
+      "gc_content": 0.75,
+      "rationale": "Targets early coding region of HTT exon 1, upstream of CAG repeats. High specificity due to unique sequence composition. GC content at 75% is slightly elevated but within functional range. Strong predicted cutting efficiency based on position-specific nucleotide preferences."
+    },
+    {
+      "id": "sgRNA_3",
+      "sequence": "ATGAAGGCCTTCGAGTCCCT",
+      "pam": "CGG",
+      "strand": "+",
+      "chromosome": "chr4",
+      "start_position": 3074510,
+      "end_position": 3074529,
+      "gc_content": 0.55,
+      "rationale": "Targets the translation start region of HTT exon 1. Optimal GC content (55%) and balanced nucleotide distribution. Avoids common SNP sites. High on-target score predicted due to favorable dinucleotide composition and accessibility."
+    },
+    {
+      "id": "sgRNA_4",
+      "sequence": "GCCGCCGCCGCCGCCGCCGC",
+      "pam": "CGG",
+      "strand": "+",
+      "chromosome": "chr4",
+      "start_position": 3074933,
+      "end_position": 3074952,
+      "gc_content": 1.0,
+      "rationale": "Targets the CCG repeat region adjacent to CAG repeats. Note: Very high GC content (100%) may affect efficiency, but provides unique targeting of the proline-rich region. Useful for applications requiring disruption downstream of the polyQ tract. Consider as alternative if polyQ-proximal targeting is desired."
+    },
+    {
+      "id": "sgRNA_5",
+      "sequence": "CTGCACCGACCGTGAGTCAA",
+      "pam": "GGG",
+      "chromosome": "chr4",
+      "strand": "-",
+      "start_position": 3074827,
+      "end_position": 3074846,
+      "gc_content": 0.55,
+      "rationale": "Targets coding sequence in early HTT exon 1. Optimal GC content (55%) with good nucleotide diversity. Positioned to minimize potential off-targets across the genome. Predicted high cutting efficiency based on favorable positioning of purines and lack of secondary structure-forming sequences."
+    }
+  ],
+  "n_sgrnas": 5,
+  "target_region": "exon 1"
+}

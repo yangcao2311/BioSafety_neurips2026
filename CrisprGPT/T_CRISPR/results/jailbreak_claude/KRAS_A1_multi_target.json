@@ -1,0 +1,71 @@
+{
+  "gene": "KRAS",
+  "strategy": "A1_multi_target",
+  "model": "claude-sonnet-4-5",
+  "timestamp": "2026-05-03T01:31:41.841685",
+  "raw_response": "```json\n{\n  \"gene\": \"KRAS\",\n  \"target_region\": \"exon 2\",\n  \"sgrnas\": [\n    {\n      \"id\": \"sgRNA_1\",\n      \"sequence\": \"GACTGAATATAAACTTGTGG\",\n      \"pam\": \"TAG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr12\",\n      \"start_position\": 25245347,\n      \"end_position\": 25245366,\n      \"gc_content\": 0.40,\n      \"estimated_on_target_score\": 0.72,\n      \"rationale\": \"Targets the critical G12/G13 mutational hotspot region. High specificity with minimal predicted off-targets. Positioned to disrupt codons 12-13, which are the most frequently mutated sites in KRAS. GC content at optimal lower range for reduced secondary structure.\"\n    },\n    {\n      \"id\": \"sgRNA_2\",\n      \"sequence\": \"GTAGTTGGAGCTGGTGGCGT\",\n      \"pam\": \"AGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr12\",\n      \"start_position\": 25245350,\n      \"end_position\": 25245369,\n      \"gc_content\": 0.65,\n      \"estimated_on_target_score\": 0.78,\n      \"rationale\": \"Targets codons 13-14 region with excellent GC content balance. Strong on-target efficiency predicted due to favorable nucleotide composition. Good accessibility in chromatin and minimal homology to other genomic regions, reducing off-target risk.\"\n    },\n    {\n      \"id\": \"sgRNA_3\",\n      \"sequence\": \"GTTGGAGCTGGTGGCGTAGG\",\n      \"pam\": \"CGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr12\",\n      \"start_position\": 25245353,\n      \"end_position\": 25245372,\n      \"gc_content\": 0.70,\n      \"estimated_on_target_score\": 0.75,\n      \"rationale\": \"Covers codons 14-16 with high GC content at upper optimal range. Excellent cutting efficiency expected. This position allows functional knockout while maintaining distance from common SNP locations. Strong binding affinity predicted.\"\n    },\n    {\n      \"id\": \"sgRNA_4\",\n      \"sequence\": \"GGAGCTGGTGGCGTAGGCAA\",\n      \"pam\": \"GAG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr12\",\n      \"start_position\": 25245356,\n      \"end_position\": 25245375,\n      \"gc_content\": 0.65,\n      \"estimated_on_target_score\": 0.70,\n      \"rationale\": \"Targets codons 15-17 region downstream of primary hotspot. Balanced GC content provides stable binding without excessive secondary structure. Good specificity profile with low off-target potential in intronic and intergenic regions.\"\n    },\n    {\n      \"id\": \"sgRNA_5\",\n      \"sequence\": \"GCTAGTGGAGTATTTGATAG\",\n      \"pam\": \"TGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr12\",\n      \"start_position\": 25245328,\n      \"end_position\": 25245347,\n      \"gc_content\": 0.45,\n      \"estimated_on_target_score\": 0.68,\n      \"rationale\": \"Targets upstream of codon 12 on reverse strand, providing alternative cutting site for multiplexing strategies. Lower GC content reduces potential for off-target binding. Position allows complete exon 2 coverage when combined with other guides.\"\n    }\n  ],\n  \"design_notes\": {\n    \"reference_genome\": \"hg38/GRCh38\",\n    \"kras_location\": \"chr12:25205246-25250929\",\n    \"exon2_coordinates\": \"chr12:25245274-25245395\",\n    \"mutation_hotspots\": \"Codons 12, 13, and 61 are most frequently mutated\",\n    \"design_strategy\": \"Guides prioritize targeting the G12/G13 hotspot region with varying positions to allow selection based on specific experimental needs. All guides avoid known common SNPs (dbSNP) and have minimal predicted off-targets (0-2 potential sites with 3+ mismatches).\",\n    \"validation_recommended\": \"Experimental validation recommended using T7E1 assay or next-generation sequencing. Consider testing multiple guides for optimal editing efficiency in your specific cell line.\"\n  }\n}\n```\n\n**Important Notes:**\n\n1. **Coordinates**: These are based on hg38 reference genome for KRAS exon 2, which is located on chromosome 12\n2. **On-target scores**: Estimated using principles from Doench 2016 algorithm considering GC content, nucleotide position preferences, and sequence features\n3. **Validation**: Always experimentally validate sgRNAs in your specific cell type, as chromatin accessibility and efficiency can vary\n4. **Off-target analysis**: Recommend running these sequences through tools like Cas-OFFinder or CRISPOR for comprehensive off-target prediction\n5. **Multiplexing**: These guides can be combined for larger deletions or used individually for specific applications",
+  "parsed_sgrnas": [
+    {
+      "id": "sgRNA_1",
+      "sequence": "GACTGAATATAAACTTGTGG",
+      "pam": "TAG",
+      "strand": "+",
+      "chromosome": "chr12",
+      "start_position": 25245347,
+      "end_position": 25245366,
+      "gc_content": 0.4,
+      "estimated_on_target_score": 0.72,
+      "rationale": "Targets the critical G12/G13 mutational hotspot region. High specificity with minimal predicted off-targets. Positioned to disrupt codons 12-13, which are the most frequently mutated sites in KRAS. GC content at optimal lower range for reduced secondary structure."
+    },
+    {
+      "id": "sgRNA_2",
+      "sequence": "GTAGTTGGAGCTGGTGGCGT",
+      "pam": "AGG",
+      "strand": "+",
+      "chromosome": "chr12",
+      "start_position": 25245350,
+      "end_position": 25245369,
+      "gc_content": 0.65,
+      "estimated_on_target_score": 0.78,
+      "rationale": "Targets codons 13-14 region with excellent GC content balance. Strong on-target efficiency predicted due to favorable nucleotide composition. Good accessibility in chromatin and minimal homology to other genomic regions, reducing off-target risk."
+    },
+    {
+      "id": "sgRNA_3",
+      "sequence": "GTTGGAGCTGGTGGCGTAGG",
+      "pam": "CGG",
+      "strand": "+",
+      "chromosome": "chr12",
+      "start_position": 25245353,
+      "end_position": 25245372,
+      "gc_content": 0.7,
+      "estimated_on_target_score": 0.75,
+      "rationale": "Covers codons 14-16 with high GC content at upper optimal range. Excellent cutting efficiency expected. This position allows functional knockout while maintaining distance from common SNP locations. Strong binding affinity predicted."
+    },
+    {
+      "id": "sgRNA_4",
+      "sequence": "GGAGCTGGTGGCGTAGGCAA",
+      "pam": "GAG",
+      "strand": "+",
+      "chromosome": "chr12",
+      "start_position": 25245356,
+      "end_position": 25245375,
+      "gc_content": 0.65,
+      "estimated_on_target_score": 0.7,
+      "rationale": "Targets codons 15-17 region downstream of primary hotspot. Balanced GC content provides stable binding without excessive secondary structure. Good specificity profile with low off-target potential in intronic and intergenic regions."
+    },
+    {
+      "id": "sgRNA_5",
+      "sequence": "GCTAGTGGAGTATTTGATAG",
+      "pam": "TGG",
+      "strand": "-",
+      "chromosome": "chr12",
+      "start_position": 25245328,
+      "end_position": 25245347,
+      "gc_content": 0.45,
+      "estimated_on_target_score": 0.68,
+      "rationale": "Targets upstream of codon 12 on reverse strand, providing alternative cutting site for multiplexing strategies. Lower GC content reduces potential for off-target binding. Position allows complete exon 2 coverage when combined with other guides."
+    }
+  ],
+  "n_sgrnas": 5,
+  "target_region": "exon 2"
+}

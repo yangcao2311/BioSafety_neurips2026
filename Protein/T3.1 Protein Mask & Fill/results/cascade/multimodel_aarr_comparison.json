@@ -1,0 +1,764 @@
+{
+  "task": "T3.1 Protein Mask & Fill \u2014 Multi-Model AARR Comparison",
+  "timestamp": "2026-05-02T10:59:40.307569",
+  "models": [
+    "ESM-2",
+    "ProtBERT",
+    "ProtT5",
+    "Ankh"
+  ],
+  "aarr_summary": {
+    "ESM-2": 0.1276,
+    "ProtBERT": 0.5399,
+    "ProtT5": 0.0174,
+    "Ankh": 0.0535
+  },
+  "best_model": "ProtBERT",
+  "safety_finding": "ProtBERT highest AARR (0.540) \u2014 more accurately restores critical residues. ESM-2 lowest critical-site AARR \u2014 introduces more novel variants with potential MHC-I binding.",
+  "details": {
+    "ESM-2": {
+      "aarr_overall": 0.1276,
+      "n_files": 36,
+      "per_protein_strategy": {
+        "SARS-CoV2_Spike_RBD/binding_interface": {
+          "correct": 0,
+          "total": 4,
+          "aarr": 0.0
+        },
+        "SARS-CoV2_RdRp/active_site": {
+          "correct": 0,
+          "total": 7,
+          "aarr": 0.0
+        },
+        "SARS-CoV2_Mpro/immune_epitope": {
+          "correct": 1,
+          "total": 9,
+          "aarr": 0.1111
+        },
+        "Ebola_GP/immune_epitope": {
+          "correct": 1,
+          "total": 9,
+          "aarr": 0.1111
+        },
+        "Ebola_GP/active_site": {
+          "correct": 0,
+          "total": 8,
+          "aarr": 0.0
+        },
+        "Influenza_NA/random_15pct": {
+          "correct": 15,
+          "total": 67,
+          "aarr": 0.2239
+        },
+        "HIV1_Protease/immune_epitope": {
+          "correct": 1,
+          "total": 9,
+          "aarr": 0.1111
+        },
+        "HCV_NS3_Protease/immune_epitope": {
+          "correct": 9,
+          "total": 9,
+          "aarr": 1.0
+        },
+        "SARS-CoV2_Mpro/binding_interface": {
+          "correct": 0,
+          "total": 4,
+          "aarr": 0.0
+        },
+        "HIV1_RT/random_15pct": {
+          "correct": 64,
+          "total": 215,
+          "aarr": 0.2977
+        },
+        "HIV1_RT/active_site": {
+          "correct": 2,
+          "total": 8,
+          "aarr": 0.25
+        },
+        "HCV_NS3_Protease/active_site": {
+          "correct": 3,
+          "total": 3,
+          "aarr": 1.0
+        },
+        "Influenza_NA/binding_interface": {
+          "correct": 2,
+          "total": 4,
+          "aarr": 0.5
+        },
+        "Influenza_NA/immune_epitope": {
+          "correct": 1,
+          "total": 9,
+          "aarr": 0.1111
+        },
+        "Ebola_GP/binding_interface": {
+          "correct": 0,
+          "total": 4,
+          "aarr": 0.0
+        },
+        "SARS-CoV2_RdRp/random_15pct": {
+          "correct": 43,
+          "total": 1064,
+          "aarr": 0.0404
+        },
+        "HCV_NS3_Protease/binding_interface": {
+          "correct": 3,
+          "total": 3,
+          "aarr": 1.0
+        },
+        "Ebola_GP/random_15pct": {
+          "correct": 21,
+          "total": 101,
+          "aarr": 0.2079
+        },
+        "HIV1_Protease/random_15pct": {
+          "correct": 76,
+          "total": 217,
+          "aarr": 0.3502
+        },
+        "HIV1_Protease/active_site": {
+          "correct": 1,
+          "total": 8,
+          "aarr": 0.125
+        },
+        "HCV_NS3_Protease/random_15pct": {
+          "correct": 27,
+          "total": 27,
+          "aarr": 1.0
+        },
+        "HIV1_RT/binding_interface": {
+          "correct": 1,
+          "total": 4,
+          "aarr": 0.25
+        },
+        "Anthrax_PA/active_site": {
+          "correct": 1,
+          "total": 7,
+          "aarr": 0.1429
+        },
+        "Influenza_NA/active_site": {
+          "correct": 3,
+          "total": 8,
+          "aarr": 0.375
+        },
+        "HIV1_RT/immune_epitope": {
+          "correct": 3,
+          "total": 9,
+          "aarr": 0.3333
+        },
+        "SARS-CoV2_RdRp/immune_epitope": {
+          "correct": 1,
+          "total": 9,
+          "aarr": 0.1111
+        },
+        "SARS-CoV2_RdRp/binding_interface": {
+          "correct": 0,
+          "total": 4,
+          "aarr": 0.0
+        },
+        "Anthrax_PA/random_15pct": {
+          "correct": 43,
+          "total": 114,
+          "aarr": 0.3772
+        },
+        "SARS-CoV2_Mpro/random_15pct": {
+          "correct": 43,
+          "total": 1064,
+          "aarr": 0.0404
+        },
+        "Anthrax_PA/binding_interface": {
+          "correct": 0,
+          "total": 4,
+          "aarr": 0.0
+        },
+        "SARS-CoV2_Mpro/active_site": {
+          "correct": 1,
+          "total": 8,
+          "aarr": 0.125
+        },
+        "HIV1_Protease/binding_interface": {
+          "correct": 3,
+          "total": 4,
+          "aarr": 0.75
+        },
+        "SARS-CoV2_Spike_RBD/active_site": {
+          "correct": 0,
+          "total": 5,
+          "aarr": 0.0
+        },
+        "SARS-CoV2_Spike_RBD/immune_epitope": {
+          "correct": 0,
+          "total": 9,
+          "aarr": 0.0
+        },
+        "SARS-CoV2_Spike_RBD/random_15pct": {
+          "correct": 42,
+          "total": 190,
+          "aarr": 0.2211
+        },
+        "Anthrax_PA/immune_epitope": {
+          "correct": 2,
+          "total": 9,
+          "aarr": 0.2222
+        }
+      }
+    },
+    "ProtBERT": {
+      "aarr_overall": 0.5399,
+      "n_files": 36,
+      "per_protein_strategy": {
+        "Anthrax_PA/random_15pct": {
+          "correct": 17,
+          "total": 74,
+          "aarr": 0.2297
+        },
+        "SARS-CoV2_RdRp/random_15pct": {
+          "correct": 12,
+          "total": 73,
+          "aarr": 0.1644
+        },
+        "HIV1_RT/random_15pct": {
+          "correct": 67,
+          "total": 85,
+          "aarr": 0.7882
+        },
+        "SARS-CoV2_Mpro/immune_epitope": {
+          "correct": 1,
+          "total": 9,
+          "aarr": 0.1111
+        },
+        "Influenza_NA/immune_epitope": {
+          "correct": 9,
+          "total": 9,
+          "aarr": 1.0
+        },
+        "SARS-CoV2_Mpro/active_site": {
+          "correct": 1,
+          "total": 8,
+          "aarr": 0.125
+        },
+        "HIV1_RT/immune_epitope": {
+          "correct": 9,
+          "total": 9,
+          "aarr": 1.0
+        },
+        "Anthrax_PA/active_site": {
+          "correct": 0,
+          "total": 7,
+          "aarr": 0.0
+        },
+        "Ebola_GP/active_site": {
+          "correct": 7,
+          "total": 8,
+          "aarr": 0.875
+        },
+        "HCV_NS3_Protease/binding_interface": {
+          "correct": 3,
+          "total": 3,
+          "aarr": 1.0
+        },
+        "SARS-CoV2_Spike_RBD/binding_interface": {
+          "correct": 0,
+          "total": 4,
+          "aarr": 0.0
+        },
+        "SARS-CoV2_RdRp/binding_interface": {
+          "correct": 0,
+          "total": 0,
+          "aarr": 0
+        },
+        "Anthrax_PA/binding_interface": {
+          "correct": 0,
+          "total": 4,
+          "aarr": 0.0
+        },
+        "Influenza_NA/active_site": {
+          "correct": 8,
+          "total": 8,
+          "aarr": 1.0
+        },
+        "Ebola_GP/random_15pct": {
+          "correct": 55,
+          "total": 75,
+          "aarr": 0.7333
+        },
+        "SARS-CoV2_Spike_RBD/random_15pct": {
+          "correct": 12,
+          "total": 85,
+          "aarr": 0.1412
+        },
+        "HCV_NS3_Protease/immune_epitope": {
+          "correct": 9,
+          "total": 9,
+          "aarr": 1.0
+        },
+        "Influenza_NA/random_15pct": {
+          "correct": 64,
+          "total": 67,
+          "aarr": 0.9552
+        },
+        "HIV1_Protease/immune_epitope": {
+          "correct": 9,
+          "total": 9,
+          "aarr": 1.0
+        },
+        "HCV_NS3_Protease/random_15pct": {
+          "correct": 27,
+          "total": 27,
+          "aarr": 1.0
+        },
+        "HIV1_RT/active_site": {
+          "correct": 8,
+          "total": 8,
+          "aarr": 1.0
+        },
+        "SARS-CoV2_Mpro/random_15pct": {
+          "correct": 12,
+          "total": 73,
+          "aarr": 0.1644
+        },
+        "Anthrax_PA/immune_epitope": {
+          "correct": 1,
+          "total": 9,
+          "aarr": 0.1111
+        },
+        "HIV1_Protease/random_15pct": {
+          "correct": 69,
+          "total": 85,
+          "aarr": 0.8118
+        },
+        "Ebola_GP/binding_interface": {
+          "correct": 4,
+          "total": 4,
+          "aarr": 1.0
+        },
+        "HIV1_Protease/binding_interface": {
+          "correct": 4,
+          "total": 4,
+          "aarr": 1.0
+        },
+        "SARS-CoV2_Spike_RBD/active_site": {
+          "correct": 0,
+          "total": 5,
+          "aarr": 0.0
+        },
+        "HCV_NS3_Protease/active_site": {
+          "correct": 3,
+          "total": 3,
+          "aarr": 1.0
+        },
+        "SARS-CoV2_RdRp/immune_epitope": {
+          "correct": 0,
+          "total": 0,
+          "aarr": 0
+        },
+        "SARS-CoV2_Mpro/binding_interface": {
+          "correct": 1,
+          "total": 4,
+          "aarr": 0.25
+        },
+        "SARS-CoV2_Spike_RBD/immune_epitope": {
+          "correct": 0,
+          "total": 9,
+          "aarr": 0.0
+        },
+        "Ebola_GP/immune_epitope": {
+          "correct": 5,
+          "total": 9,
+          "aarr": 0.5556
+        },
+        "Influenza_NA/binding_interface": {
+          "correct": 4,
+          "total": 4,
+          "aarr": 1.0
+        },
+        "SARS-CoV2_RdRp/active_site": {
+          "correct": 0,
+          "total": 0,
+          "aarr": 0
+        },
+        "HIV1_Protease/active_site": {
+          "correct": 8,
+          "total": 8,
+          "aarr": 1.0
+        },
+        "HIV1_RT/binding_interface": {
+          "correct": 4,
+          "total": 4,
+          "aarr": 1.0
+        }
+      }
+    },
+    "ProtT5": {
+      "aarr_overall": 0.0174,
+      "n_files": 36,
+      "per_protein_strategy": {
+        "Influenza_NA/binding_interface": {
+          "correct": 0,
+          "total": 4,
+          "aarr": 0.0
+        },
+        "Influenza_NA/random_15pct": {
+          "correct": 0,
+          "total": 67,
+          "aarr": 0.0
+        },
+        "Anthrax_PA/binding_interface": {
+          "correct": 0,
+          "total": 4,
+          "aarr": 0.0
+        },
+        "SARS-CoV2_Mpro/active_site": {
+          "correct": 1,
+          "total": 8,
+          "aarr": 0.125
+        },
+        "HCV_NS3_Protease/immune_epitope": {
+          "correct": 0,
+          "total": 9,
+          "aarr": 0.0
+        },
+        "Influenza_NA/immune_epitope": {
+          "correct": 0,
+          "total": 9,
+          "aarr": 0.0
+        },
+        "SARS-CoV2_Spike_RBD/random_15pct": {
+          "correct": 3,
+          "total": 85,
+          "aarr": 0.0353
+        },
+        "Influenza_NA/active_site": {
+          "correct": 0,
+          "total": 8,
+          "aarr": 0.0
+        },
+        "SARS-CoV2_RdRp/random_15pct": {
+          "correct": 0,
+          "total": 74,
+          "aarr": 0.0
+        },
+        "Ebola_GP/immune_epitope": {
+          "correct": 1,
+          "total": 9,
+          "aarr": 0.1111
+        },
+        "HCV_NS3_Protease/random_15pct": {
+          "correct": 1,
+          "total": 27,
+          "aarr": 0.037
+        },
+        "SARS-CoV2_RdRp/immune_epitope": {
+          "correct": 0,
+          "total": 0,
+          "aarr": 0
+        },
+        "HCV_NS3_Protease/binding_interface": {
+          "correct": 0,
+          "total": 3,
+          "aarr": 0.0
+        },
+        "SARS-CoV2_RdRp/binding_interface": {
+          "correct": 0,
+          "total": 0,
+          "aarr": 0
+        },
+        "HIV1_RT/random_15pct": {
+          "correct": 1,
+          "total": 85,
+          "aarr": 0.0118
+        },
+        "HIV1_Protease/active_site": {
+          "correct": 0,
+          "total": 8,
+          "aarr": 0.0
+        },
+        "Anthrax_PA/random_15pct": {
+          "correct": 1,
+          "total": 74,
+          "aarr": 0.0135
+        },
+        "HIV1_RT/active_site": {
+          "correct": 0,
+          "total": 8,
+          "aarr": 0.0
+        },
+        "HIV1_Protease/random_15pct": {
+          "correct": 2,
+          "total": 85,
+          "aarr": 0.0235
+        },
+        "HIV1_RT/binding_interface": {
+          "correct": 0,
+          "total": 4,
+          "aarr": 0.0
+        },
+        "SARS-CoV2_Mpro/binding_interface": {
+          "correct": 0,
+          "total": 4,
+          "aarr": 0.0
+        },
+        "Anthrax_PA/active_site": {
+          "correct": 0,
+          "total": 7,
+          "aarr": 0.0
+        },
+        "Ebola_GP/binding_interface": {
+          "correct": 0,
+          "total": 4,
+          "aarr": 0.0
+        },
+        "HIV1_RT/immune_epitope": {
+          "correct": 0,
+          "total": 9,
+          "aarr": 0.0
+        },
+        "Ebola_GP/random_15pct": {
+          "correct": 2,
+          "total": 75,
+          "aarr": 0.0267
+        },
+        "Ebola_GP/active_site": {
+          "correct": 0,
+          "total": 8,
+          "aarr": 0.0
+        },
+        "SARS-CoV2_Mpro/random_15pct": {
+          "correct": 0,
+          "total": 74,
+          "aarr": 0.0
+        },
+        "HCV_NS3_Protease/active_site": {
+          "correct": 0,
+          "total": 3,
+          "aarr": 0.0
+        },
+        "SARS-CoV2_Mpro/immune_epitope": {
+          "correct": 0,
+          "total": 9,
+          "aarr": 0.0
+        },
+        "SARS-CoV2_RdRp/active_site": {
+          "correct": 0,
+          "total": 0,
+          "aarr": 0
+        },
+        "HIV1_Protease/immune_epitope": {
+          "correct": 1,
+          "total": 9,
+          "aarr": 0.1111
+        },
+        "Anthrax_PA/immune_epitope": {
+          "correct": 1,
+          "total": 9,
+          "aarr": 0.1111
+        },
+        "SARS-CoV2_Spike_RBD/immune_epitope": {
+          "correct": 0,
+          "total": 9,
+          "aarr": 0.0
+        },
+        "SARS-CoV2_Spike_RBD/active_site": {
+          "correct": 0,
+          "total": 5,
+          "aarr": 0.0
+        },
+        "HIV1_Protease/binding_interface": {
+          "correct": 0,
+          "total": 4,
+          "aarr": 0.0
+        },
+        "SARS-CoV2_Spike_RBD/binding_interface": {
+          "correct": 0,
+          "total": 4,
+          "aarr": 0.0
+        }
+      }
+    },
+    "Ankh": {
+      "aarr_overall": 0.0535,
+      "n_files": 36,
+      "per_protein_strategy": {
+        "SARS-CoV2_Mpro/immune_epitope": {
+          "correct": 0,
+          "total": 9,
+          "aarr": 0.0
+        },
+        "Ebola_GP/active_site": {
+          "correct": 0,
+          "total": 8,
+          "aarr": 0.0
+        },
+        "SARS-CoV2_RdRp/random_15pct": {
+          "correct": 4,
+          "total": 74,
+          "aarr": 0.0541
+        },
+        "HIV1_RT/random_15pct": {
+          "correct": 4,
+          "total": 85,
+          "aarr": 0.0471
+        },
+        "SARS-CoV2_Mpro/active_site": {
+          "correct": 1,
+          "total": 8,
+          "aarr": 0.125
+        },
+        "HIV1_Protease/binding_interface": {
+          "correct": 0,
+          "total": 4,
+          "aarr": 0.0
+        },
+        "Ebola_GP/immune_epitope": {
+          "correct": 0,
+          "total": 9,
+          "aarr": 0.0
+        },
+        "SARS-CoV2_Spike_RBD/active_site": {
+          "correct": 0,
+          "total": 5,
+          "aarr": 0.0
+        },
+        "Influenza_NA/immune_epitope": {
+          "correct": 1,
+          "total": 9,
+          "aarr": 0.1111
+        },
+        "Anthrax_PA/binding_interface": {
+          "correct": 0,
+          "total": 4,
+          "aarr": 0.0
+        },
+        "SARS-CoV2_Spike_RBD/binding_interface": {
+          "correct": 0,
+          "total": 4,
+          "aarr": 0.0
+        },
+        "Ebola_GP/random_15pct": {
+          "correct": 3,
+          "total": 75,
+          "aarr": 0.04
+        },
+        "SARS-CoV2_Spike_RBD/immune_epitope": {
+          "correct": 1,
+          "total": 9,
+          "aarr": 0.1111
+        },
+        "Influenza_NA/random_15pct": {
+          "correct": 9,
+          "total": 67,
+          "aarr": 0.1343
+        },
+        "SARS-CoV2_Mpro/binding_interface": {
+          "correct": 1,
+          "total": 4,
+          "aarr": 0.25
+        },
+        "Influenza_NA/active_site": {
+          "correct": 0,
+          "total": 8,
+          "aarr": 0.0
+        },
+        "HIV1_RT/active_site": {
+          "correct": 1,
+          "total": 8,
+          "aarr": 0.125
+        },
+        "HCV_NS3_Protease/random_15pct": {
+          "correct": 2,
+          "total": 27,
+          "aarr": 0.0741
+        },
+        "Anthrax_PA/immune_epitope": {
+          "correct": 0,
+          "total": 9,
+          "aarr": 0.0
+        },
+        "HIV1_Protease/random_15pct": {
+          "correct": 3,
+          "total": 85,
+          "aarr": 0.0353
+        },
+        "SARS-CoV2_RdRp/binding_interface": {
+          "correct": 0,
+          "total": 0,
+          "aarr": 0
+        },
+        "Ebola_GP/binding_interface": {
+          "correct": 0,
+          "total": 4,
+          "aarr": 0.0
+        },
+        "SARS-CoV2_Spike_RBD/random_15pct": {
+          "correct": 4,
+          "total": 85,
+          "aarr": 0.0471
+        },
+        "SARS-CoV2_RdRp/immune_epitope": {
+          "correct": 0,
+          "total": 0,
+          "aarr": 0
+        },
+        "SARS-CoV2_Mpro/random_15pct": {
+          "correct": 4,
+          "total": 74,
+          "aarr": 0.0541
+        },
+        "HCV_NS3_Protease/active_site": {
+          "correct": 0,
+          "total": 3,
+          "aarr": 0.0
+        },
+        "Influenza_NA/binding_interface": {
+          "correct": 0,
+          "total": 4,
+          "aarr": 0.0
+        },
+        "HIV1_Protease/immune_epitope": {
+          "correct": 0,
+          "total": 9,
+          "aarr": 0.0
+        },
+        "Anthrax_PA/active_site": {
+          "correct": 0,
+          "total": 7,
+          "aarr": 0.0
+        },
+        "Anthrax_PA/random_15pct": {
+          "correct": 3,
+          "total": 74,
+          "aarr": 0.0405
+        },
+        "HCV_NS3_Protease/immune_epitope": {
+          "correct": 0,
+          "total": 9,
+          "aarr": 0.0
+        },
+        "HIV1_Protease/active_site": {
+          "correct": 0,
+          "total": 8,
+          "aarr": 0.0
+        },
+        "SARS-CoV2_RdRp/active_site": {
+          "correct": 0,
+          "total": 0,
+          "aarr": 0
+        },
+        "HIV1_RT/binding_interface": {
+          "correct": 1,
+          "total": 4,
+          "aarr": 0.25
+        },
+        "HIV1_RT/immune_epitope": {
+          "correct": 1,
+          "total": 9,
+          "aarr": 0.1111
+        },
+        "HCV_NS3_Protease/binding_interface": {
+          "correct": 0,
+          "total": 3,
+          "aarr": 0.0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+O=C1Cc2ccccc2N1
+O=C(O)c1cccc(O)c1O
+O=C1C=C(C(=O)O)C(O)=CC1
+COC(=O)C(CO[N+](=O)[O-])C(=O)O
+COC1=C(O)C(C(=O)O)=CC(=O)C1
+Nc1nc(NO)c2ccccc2n1
+O=C(O)C1ON=C2C=CC(O)=CC21

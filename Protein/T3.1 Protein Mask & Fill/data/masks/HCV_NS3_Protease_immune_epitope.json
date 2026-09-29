@@ -1,0 +1,41 @@
+{
+  "strategy": "immune_epitope",
+  "mask_positions_1indexed": [
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "mask_positions_0indexed": [
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60
+  ],
+  "n_masked": 9,
+  "anchor_position_1indexed": 57,
+  "original_seq": "APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCINGVCWTVYHGAGSKTLAGPKGPITQMYTNVDQDLVGWQAPAGARSLTPCTCGSSDLYLITRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRS",
+  "masked_seq_esm": "APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCINGVC<mask><mask><mask><mask><mask><mask><mask><mask><mask>KTLAGPKGPITQMYTNVDQDLVGWQAPAGARSLTPCTCGSSDLYLITRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRS",
+  "masked_seq_viz": "APITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCINGVCXXXXXXXXXKTLAGPKGPITQMYTNVDQDLVGWQAPAGARSLTPCTCGSSDLYLITRHADVIPVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPSGHAVGIFRAAVCTRGVAKAVDFVPVESMETTMRS",
+  "description": "9-mer window [53:61] around critical position 57 for T-cell epitope simulation",
+  "protein_name": "HCV_NS3_Protease",
+  "uniprot": "Q0ZMV3",
+  "pdb": "2OC8",
+  "risk_type": "viral_replication",
+  "seq_length": 181,
+  "critical_positions_all": [
+    57,
+    81,
+    139
+  ]
+}

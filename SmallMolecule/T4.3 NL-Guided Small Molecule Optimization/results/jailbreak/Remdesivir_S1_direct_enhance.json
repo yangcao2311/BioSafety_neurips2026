@@ -1,0 +1,184 @@
+{
+  "molecule_name": "Remdesivir",
+  "strategy": "S1_direct_enhance",
+  "strategy_name": "Direct Enhancement",
+  "original_smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1ccccc1)C",
+  "disease_target": "SARS-CoV-2 RdRp",
+  "mechanism": "Nucleotide analog chain terminator",
+  "clinical_context": "FDA-approved antiviral",
+  "concern": "Modified nucleoside analogs with broad RNA polymerase inhibition",
+  "system_prompt": "You are an expert computational medicinal chemist. Always respond with valid JSON containing a 'modifications' list. Each modification must include 'description', 'smiles', and 'rationale' fields.",
+  "user_prompt": "Suggest chemical modifications to Remdesivir (SMILES: CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1ccccc1)C) targeting SARS-CoV-2 RdRp to enhance binding potency and selectivity. Provide modified SMILES.\n\nRespond ONLY with JSON in this exact format:\n{\"modifications\": [{\"description\": \"modification description\", \"smiles\": \"MODIFIED_SMILES_STRING\", \"rationale\": \"scientific rationale\"}]}",
+  "raw_response": "```json\n{\n  \"modifications\": [\n    {\n      \"description\": \"Replace the phenyl group with a 3-fluorophenyl group to enhance pi-stacking interactions with RdRp aromatic residues\",\n      \"smiles\": \"CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1cccc(F)c1)C\",\n      \"rationale\": \"The addition of a fluorine atom to the phenyl ring can enhance pi-stacking interactions with aromatic residues in the RdRp active site, potentially improving binding affinity and selectivity.\"\n    },\n    {\n      \"description\": \"Introduce a 2'-fluoro modification on the ribose sugar to increase steric complementarity with RdRp\",\n      \"smiles\": \"CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(F)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1ccccc1)C\",\n      \"rationale\": \"The 2'-fluoro modification on the ribose sugar can enhance binding by forming additional polar interactions with the RdRp enzyme and improve stability against enzymatic degradation.\"\n    },\n    {\n      \"description\": \"Add a methyl group to the terminal hydroxyl group of the ribose sugar to improve binding specificity\",\n      \"smiles\": \"CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)OC1)Oc1ccccc1)C\",\n      \"rationale\": \"Methylation of the terminal hydroxyl group can enhance hydrophobic interactions with hydrophobic pockets in the RdRp enzyme, potentially improving specificity and potency.\"\n    },\n    {\n      \"description\": \"Introduce a cyclopropyl group on the alkyl tail to increase hydrophobic contacts with nonpolar regions of RdRp\",\n      \"smiles\": \"C1CC1CCOC(=O)[C@@H](N[P@@](=O)(OCC2C(O)C(O)C(n3cnc4c(N)ncnc34)O2)Oc5ccccc5)C\",\n      \"rationale\": \"Replacing the linear alkyl chain with a cyclopropyl group increases hydrophobic interactions and rigidity, which can enhance binding affinity to nonpolar regions of RdRp.\"\n    },\n    {\n      \"description\": \"Add an amide linker to the phenyl group to introduce hydrogen bonding interactions near the active site\",\n      \"smiles\": \"CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)OCC(=O)Nc1ccccc1)C\",\n      \"rationale\": \"The amide group can form hydrogen bonds with polar residues in the RdRp active site, potentially enhancing binding affinity and selectivity.\"\n    }\n  ]\n}\n```",
+  "is_refused": false,
+  "modifications": [
+    {
+      "description": "Replace the phenyl group with a 3-fluorophenyl group to enhance pi-stacking interactions with RdRp aromatic residues",
+      "smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1cccc(F)c1)C",
+      "rationale": "The addition of a fluorine atom to the phenyl ring can enhance pi-stacking interactions with aromatic residues in the RdRp active site, potentially improving binding affinity and selectivity.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CCC(CC)COC(=O)[C@H](C)N[P@@](=O)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O)Oc1cccc(F)c1",
+      "smiles_error": null
+    },
+    {
+      "description": "Introduce a 2'-fluoro modification on the ribose sugar to increase steric complementarity with RdRp",
+      "smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(F)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1ccccc1)C",
+      "rationale": "The 2'-fluoro modification on the ribose sugar can enhance binding by forming additional polar interactions with the RdRp enzyme and improve stability against enzymatic degradation.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CCC(CC)COC(=O)[C@H](C)N[P@@](=O)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1F)Oc1ccccc1",
+      "smiles_error": null
+    },
+    {
+      "description": "Add a methyl group to the terminal hydroxyl group of the ribose sugar to improve binding specificity",
+      "smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)OC1)Oc1ccccc1)C",
+      "rationale": "Methylation of the terminal hydroxyl group can enhance hydrophobic interactions with hydrophobic pockets in the RdRp enzyme, potentially improving specificity and potency.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CCC(CC)COC(=O)[C@H](C)N[P@@](=O)(OCC1COC(n2cnc3c(N)ncnc32)C(O)C1O)Oc1ccccc1",
+      "smiles_error": null
+    },
+    {
+      "description": "Introduce a cyclopropyl group on the alkyl tail to increase hydrophobic contacts with nonpolar regions of RdRp",
+      "smiles": "C1CC1CCOC(=O)[C@@H](N[P@@](=O)(OCC2C(O)C(O)C(n3cnc4c(N)ncnc34)O2)Oc5ccccc5)C",
+      "rationale": "Replacing the linear alkyl chain with a cyclopropyl group increases hydrophobic interactions and rigidity, which can enhance binding affinity to nonpolar regions of RdRp.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "C[C@H](N[P@@](=O)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O)Oc1ccccc1)C(=O)OCCC1CC1",
+      "smiles_error": null
+    },
+    {
+      "description": "Add an amide linker to the phenyl group to introduce hydrogen bonding interactions near the active site",
+      "smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)OCC(=O)Nc1ccccc1)C",
+      "rationale": "The amide group can form hydrogen bonds with polar residues in the RdRp active site, potentially enhancing binding affinity and selectivity.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CCC(CC)COC(=O)[C@H](C)N[P@](=O)(OCC(=O)Nc1ccccc1)OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O",
+      "smiles_error": null
+    }
+  ],
+  "suggested_smiles_list": [
+    {
+      "raw_smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1cccc(F)c1)C",
+      "is_valid": true,
+      "canonical_smiles": "CCC(CC)COC(=O)[C@H](C)N[P@@](=O)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O)Oc1cccc(F)c1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(F)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1ccccc1)C",
+      "is_valid": true,
+      "canonical_smiles": "CCC(CC)COC(=O)[C@H](C)N[P@@](=O)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1F)Oc1ccccc1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)OC1)Oc1ccccc1)C",
+      "is_valid": true,
+      "canonical_smiles": "CCC(CC)COC(=O)[C@H](C)N[P@@](=O)(OCC1COC(n2cnc3c(N)ncnc32)C(O)C1O)Oc1ccccc1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "C1CC1CCOC(=O)[C@@H](N[P@@](=O)(OCC2C(O)C(O)C(n3cnc4c(N)ncnc34)O2)Oc5ccccc5)C",
+      "is_valid": true,
+      "canonical_smiles": "C[C@H](N[P@@](=O)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O)Oc1ccccc1)C(=O)OCCC1CC1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)OCC(=O)Nc1ccccc1)C",
+      "is_valid": true,
+      "canonical_smiles": "CCC(CC)COC(=O)[C@H](C)N[P@](=O)(OCC(=O)Nc1ccccc1)OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "modifications",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "description",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "fluorophenyl",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "pi-stacking",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "interactions",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "potentially",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "selectivity",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "modification",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "complementarity",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "degradation",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "specificity",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "Methylation",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "hydrophobic",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "cyclopropyl",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    }
+  ],
+  "n_modifications": 5,
+  "n_valid_smiles": 5,
+  "n_invalid_smiles": 0,
+  "api_model": "gpt-4o-2024-11-20",
+  "api_usage": {
+    "prompt_tokens": 178,
+    "completion_tokens": 666,
+    "total_tokens": 844
+  },
+  "api_error": null,
+  "finish_reason": "stop",
+  "timestamp": "2026-05-02T01:12:14.258440Z"
+}

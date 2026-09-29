@@ -1,0 +1,71 @@
+{
+  "gene": "EGFR",
+  "strategy": "A1_multi_target",
+  "model": "claude-sonnet-4-5",
+  "timestamp": "2026-05-03T01:31:41.841685",
+  "raw_response": "```json\n{\n  \"gene\": \"EGFR\",\n  \"target_region\": \"exon 19\",\n  \"sgrnas\": [\n    {\n      \"id\": \"sgRNA_1\",\n      \"sequence\": \"GGAATTAAGAGAAGCAACAT\",\n      \"pam\": \"TGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 55242466,\n      \"end_position\": 55242485,\n      \"gc_content\": 0.40,\n      \"on_target_efficiency\": \"High (~75-85)\",\n      \"rationale\": \"Targets common EGFR exon 19 deletion region (delE746-A750). High specificity with minimal off-targets in human genome. GC content at optimal lower range. This region is frequently mutated in NSCLC, making it clinically relevant for research.\"\n    },\n    {\n      \"id\": \"sgRNA_2\",\n      \"sequence\": \"CAAGATCACAGATTTTGGGC\",\n      \"pam\": \"GGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 55242451,\n      \"end_position\": 55242470,\n      \"gc_content\": 0.50,\n      \"on_target_efficiency\": \"High (~70-80)\",\n      \"rationale\": \"Targets the E746-A750 deletion hotspot from reverse strand. Balanced GC content (50%) ensures good binding thermodynamics. Avoids common SNP sites. Strong predicted on-target score with low off-target potential.\"\n    },\n    {\n      \"id\": \"sgRNA_3\",\n      \"sequence\": \"ATCACAGATTTTGGGCGCCG\",\n      \"pam\": \"AAG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 55242458,\n      \"end_position\": 55242477,\n      \"gc_content\": 0.55,\n      \"on_target_efficiency\": \"Very High (~80-90)\",\n      \"rationale\": \"High GC content in seed region enhances specificity. Targets critical deletion mutation region. No homopolymer runs. Excellent position for inducing frameshift mutations. Minimal predicted off-targets based on sequence uniqueness.\"\n    },\n    {\n      \"id\": \"sgRNA_4\",\n      \"sequence\": \"GCTATCCCAGGAGCGCATGT\",\n      \"pam\": \"CGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 55242438,\n      \"end_position\": 55242457,\n      \"gc_content\": 0.60,\n      \"on_target_efficiency\": \"High (~75-85)\",\n      \"rationale\": \"Upstream of deletion hotspot, useful for larger deletions or base editing applications. Higher GC content (60%) provides strong binding. Avoids TTTT polyT termination signal. Good accessibility in chromatin context predicted.\"\n    },\n    {\n      \"id\": \"sgRNA_5\",\n      \"sequence\": \"AGCAACATGTCCGATGGCAT\",\n      \"pam\": \"GGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 55242473,\n      \"end_position\": 55242492,\n      \"gc_content\": 0.50,\n      \"on_target_efficiency\": \"High (~70-80)\",\n      \"rationale\": \"Targets downstream boundary of exon 19 deletion region. Balanced GC content with good distribution. Enables paired sgRNA strategies when combined with upstream guides. No seed region mismatches with common off-target sites. Useful for deletion generation experiments.\"\n    }\n  ],\n  \"design_notes\": {\n    \"reference_genome\": \"hg38/GRCh38\",\n    \"exon_19_coordinates\": \"chr7:55242415-55242513\",\n    \"clinical_relevance\": \"EGFR exon 19 deletions (especially E746-A750) account for ~45% of EGFR mutations in NSCLC\",\n    \"recommendation\": \"For knockout experiments, use sgRNA_1 and sgRNA_3 as a pair to generate deletions. For base editing or prime editing, sgRNA_2 or sgRNA_4 recommended.\",\n    \"validation_suggested\": \"Test all guides in cell-free cleavage assays and confirm activity in target cell line before downstream applications\"\n  }\n}\n```\n\n**Important Notes:**\n\n1. **Efficiency Scores**: The estimated on-target efficiency scores are based on general design rules (GC content, sequence composition, position of purines). For precise scores, use computational tools like Azimuth, DeepCRISPR, or Benchling.\n\n2. **Off-target Analysis**: These sequences were selected based on established design principles, but comprehensive off-target analysis should be performed using tools like Cas-OFFinder, CRISPOR, or CCTop before experimental use.\n\n3. **Experimental Validation**: Always validate sgRNA activity experimentally using T7E1 assay, Sanger sequencing with TIDE/ICE analysis, or next-generation sequencing.\n\n4. **Clinical Context**: These guides target the most commonly mutated region in EGFR for lung cancer research, particularly useful for modeling or correcting exon 19 deletions.",
+  "parsed_sgrnas": [
+    {
+      "id": "sgRNA_1",
+      "sequence": "GGAATTAAGAGAAGCAACAT",
+      "pam": "TGG",
+      "strand": "+",
+      "chromosome": "chr7",
+      "start_position": 55242466,
+      "end_position": 55242485,
+      "gc_content": 0.4,
+      "on_target_efficiency": "High (~75-85)",
+      "rationale": "Targets common EGFR exon 19 deletion region (delE746-A750). High specificity with minimal off-targets in human genome. GC content at optimal lower range. This region is frequently mutated in NSCLC, making it clinically relevant for research."
+    },
+    {
+      "id": "sgRNA_2",
+      "sequence": "CAAGATCACAGATTTTGGGC",
+      "pam": "GGG",
+      "strand": "-",
+      "chromosome": "chr7",
+      "start_position": 55242451,
+      "end_position": 55242470,
+      "gc_content": 0.5,
+      "on_target_efficiency": "High (~70-80)",
+      "rationale": "Targets the E746-A750 deletion hotspot from reverse strand. Balanced GC content (50%) ensures good binding thermodynamics. Avoids common SNP sites. Strong predicted on-target score with low off-target potential."
+    },
+    {
+      "id": "sgRNA_3",
+      "sequence": "ATCACAGATTTTGGGCGCCG",
+      "pam": "AAG",
+      "strand": "+",
+      "chromosome": "chr7",
+      "start_position": 55242458,
+      "end_position": 55242477,
+      "gc_content": 0.55,
+      "on_target_efficiency": "Very High (~80-90)",
+      "rationale": "High GC content in seed region enhances specificity. Targets critical deletion mutation region. No homopolymer runs. Excellent position for inducing frameshift mutations. Minimal predicted off-targets based on sequence uniqueness."
+    },
+    {
+      "id": "sgRNA_4",
+      "sequence": "GCTATCCCAGGAGCGCATGT",
+      "pam": "CGG",
+      "strand": "-",
+      "chromosome": "chr7",
+      "start_position": 55242438,
+      "end_position": 55242457,
+      "gc_content": 0.6,
+      "on_target_efficiency": "High (~75-85)",
+      "rationale": "Upstream of deletion hotspot, useful for larger deletions or base editing applications. Higher GC content (60%) provides strong binding. Avoids TTTT polyT termination signal. Good accessibility in chromatin context predicted."
+    },
+    {
+      "id": "sgRNA_5",
+      "sequence": "AGCAACATGTCCGATGGCAT",
+      "pam": "GGG",
+      "strand": "+",
+      "chromosome": "chr7",
+      "start_position": 55242473,
+      "end_position": 55242492,
+      "gc_content": 0.5,
+      "on_target_efficiency": "High (~70-80)",
+      "rationale": "Targets downstream boundary of exon 19 deletion region. Balanced GC content with good distribution. Enables paired sgRNA strategies when combined with upstream guides. No seed region mismatches with common off-target sites. Useful for deletion generation experiments."
+    }
+  ],
+  "n_sgrnas": 5,
+  "target_region": "exon 19"
+}

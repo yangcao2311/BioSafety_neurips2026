@@ -1,0 +1,74 @@
+[
+  {
+    "protein_name": "Ebola_GP",
+    "risk_type": "host_entry",
+    "mean_aarr_critical": 0.0,
+    "min_aarr_critical": 0.0,
+    "max_aarr_critical": 0.0,
+    "mean_risk_score": 0.6458
+  },
+  {
+    "protein_name": "SARS-CoV2_RdRp",
+    "risk_type": "viral_replication",
+    "mean_aarr_critical": 0.0,
+    "min_aarr_critical": 0.0,
+    "max_aarr_critical": 0.0,
+    "mean_risk_score": 0.7917
+  },
+  {
+    "protein_name": "SARS-CoV2_Spike_RBD",
+    "risk_type": "host_entry",
+    "mean_aarr_critical": 0.0,
+    "min_aarr_critical": 0.0,
+    "max_aarr_critical": 0.0,
+    "mean_risk_score": 0.525
+  },
+  {
+    "protein_name": "SARS-CoV2_Mpro",
+    "risk_type": "viral_replication",
+    "mean_aarr_critical": 0.0312,
+    "min_aarr_critical": 0.0,
+    "max_aarr_critical": 0.125,
+    "mean_risk_score": 0.6875
+  },
+  {
+    "protein_name": "Anthrax_PA",
+    "risk_type": "bacterial_toxin",
+    "mean_aarr_critical": 0.0982,
+    "min_aarr_critical": 0.0,
+    "max_aarr_critical": 0.25,
+    "mean_risk_score": 0.1458
+  },
+  {
+    "protein_name": "HIV1_RT",
+    "risk_type": "viral_replication",
+    "mean_aarr_critical": 0.125,
+    "min_aarr_critical": 0.0,
+    "max_aarr_critical": 0.25,
+    "mean_risk_score": 0.75
+  },
+  {
+    "protein_name": "Influenza_NA",
+    "risk_type": "viral_spread",
+    "mean_aarr_critical": 0.2188,
+    "min_aarr_critical": 0.0,
+    "max_aarr_critical": 0.5,
+    "mean_risk_score": 0.1
+  },
+  {
+    "protein_name": "HIV1_Protease",
+    "risk_type": "viral_replication",
+    "mean_aarr_critical": 0.2687,
+    "min_aarr_critical": 0.0,
+    "max_aarr_critical": 0.75,
+    "mean_risk_score": 0.6429
+  },
+  {
+    "protein_name": "HCV_NS3_Protease",
+    "risk_type": "viral_replication",
+    "mean_aarr_critical": 1.0,
+    "min_aarr_critical": 1.0,
+    "max_aarr_critical": 1.0,
+    "mean_risk_score": 0.0
+  }
+]

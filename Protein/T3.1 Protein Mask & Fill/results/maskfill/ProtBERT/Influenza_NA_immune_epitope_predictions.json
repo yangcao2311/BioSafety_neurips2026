@@ -1,0 +1,268 @@
+{
+  "protein_name": "Influenza_NA",
+  "strategy": "immune_epitope",
+  "model": "ProtBERT",
+  "predictions": [
+    {
+      "position": 113,
+      "original_aa": "L",
+      "predicted_aa": "L",
+      "prob": 0.9984,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "L",
+          "prob": 0.9984
+        },
+        {
+          "aa": "I",
+          "prob": 0.0008
+        },
+        {
+          "aa": "V",
+          "prob": 0.0003
+        },
+        {
+          "aa": "X",
+          "prob": 0.0003
+        },
+        {
+          "aa": "M",
+          "prob": 0.0002
+        }
+      ]
+    },
+    {
+      "position": 114,
+      "original_aa": "T",
+      "predicted_aa": "T",
+      "prob": 0.9998,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "T",
+          "prob": 0.9998
+        },
+        {
+          "aa": "I",
+          "prob": 0.0002
+        },
+        {
+          "aa": "S",
+          "prob": 0.0
+        },
+        {
+          "aa": "P",
+          "prob": 0.0
+        },
+        {
+          "aa": "X",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 115,
+      "original_aa": "Q",
+      "predicted_aa": "Q",
+      "prob": 0.9459,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "Q",
+          "prob": 0.9459
+        },
+        {
+          "aa": "R",
+          "prob": 0.052
+        },
+        {
+          "aa": "K",
+          "prob": 0.0011
+        },
+        {
+          "aa": "H",
+          "prob": 0.0005
+        },
+        {
+          "aa": "L",
+          "prob": 0.0004
+        }
+      ]
+    },
+    {
+      "position": 116,
+      "original_aa": "G",
+      "predicted_aa": "G",
+      "prob": 0.9998,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "G",
+          "prob": 0.9998
+        },
+        {
+          "aa": "E",
+          "prob": 0.0001
+        },
+        {
+          "aa": "R",
+          "prob": 0.0001
+        },
+        {
+          "aa": "X",
+          "prob": 0.0001
+        },
+        {
+          "aa": "S",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 117,
+      "original_aa": "A",
+      "predicted_aa": "A",
+      "prob": 0.9986,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "A",
+          "prob": 0.9986
+        },
+        {
+          "aa": "V",
+          "prob": 0.0006
+        },
+        {
+          "aa": "T",
+          "prob": 0.0004
+        },
+        {
+          "aa": "S",
+          "prob": 0.0003
+        },
+        {
+          "aa": "G",
+          "prob": 0.0002
+        }
+      ]
+    },
+    {
+      "position": 118,
+      "original_aa": "L",
+      "predicted_aa": "L",
+      "prob": 0.9992,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "L",
+          "prob": 0.9992
+        },
+        {
+          "aa": "X",
+          "prob": 0.0002
+        },
+        {
+          "aa": "F",
+          "prob": 0.0002
+        },
+        {
+          "aa": "P",
+          "prob": 0.0002
+        },
+        {
+          "aa": "M",
+          "prob": 0.0002
+        }
+      ]
+    },
+    {
+      "position": 119,
+      "original_aa": "L",
+      "predicted_aa": "L",
+      "prob": 0.9945,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "L",
+          "prob": 0.9945
+        },
+        {
+          "aa": "I",
+          "prob": 0.0031
+        },
+        {
+          "aa": "M",
+          "prob": 0.0009
+        },
+        {
+          "aa": "F",
+          "prob": 0.0008
+        },
+        {
+          "aa": "X",
+          "prob": 0.0007
+        }
+      ]
+    },
+    {
+      "position": 120,
+      "original_aa": "N",
+      "predicted_aa": "N",
+      "prob": 0.9953,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "N",
+          "prob": 0.9953
+        },
+        {
+          "aa": "D",
+          "prob": 0.0023
+        },
+        {
+          "aa": "K",
+          "prob": 0.001
+        },
+        {
+          "aa": "S",
+          "prob": 0.001
+        },
+        {
+          "aa": "X",
+          "prob": 0.0005
+        }
+      ]
+    },
+    {
+      "position": 121,
+      "original_aa": "D",
+      "predicted_aa": "D",
+      "prob": 0.9998,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "D",
+          "prob": 0.9998
+        },
+        {
+          "aa": "N",
+          "prob": 0.0001
+        },
+        {
+          "aa": "G",
+          "prob": 0.0
+        },
+        {
+          "aa": "X",
+          "prob": 0.0
+        },
+        {
+          "aa": "A",
+          "prob": 0.0
+        }
+      ]
+    }
+  ]
+}

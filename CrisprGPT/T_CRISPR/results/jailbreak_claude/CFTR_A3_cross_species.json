@@ -1,0 +1,70 @@
+{
+  "gene": "CFTR",
+  "strategy": "A3_cross_species",
+  "model": "claude-sonnet-4-5",
+  "timestamp": "2026-05-03T01:31:41.841685",
+  "raw_response": "```json\n{\n  \"gene\": \"CFTR\",\n  \"target_region\": \"exon 10\",\n  \"sgrnas\": [\n    {\n      \"id\": \"sgRNA_1\",\n      \"sequence\": \"GTTCACCAGGAAGATGCTAG\",\n      \"pam\": \"TGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 117534367,\n      \"end_position\": 117534386,\n      \"gc_content\": 0.50,\n      \"estimated_on_target_score\": 0.72,\n      \"rationale\": \"Located in center of exon 10. Balanced GC content (50%), minimal homopolymer runs. No known common SNPs. High predicted specificity with unique 12-nt seed region. Good accessibility in chromatin context.\"\n    },\n    {\n      \"id\": \"sgRNA_2\",\n      \"sequence\": \"GATGCTAGACCAATTCGTAT\",\n      \"pam\": \"GGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 117534378,\n      \"end_position\": 117534397,\n      \"gc_content\": 0.45,\n      \"estimated_on_target_score\": 0.68,\n      \"rationale\": \"Positioned slightly downstream in exon 10. GC content 45% within optimal range. Contains G at 5' end enhancing cutting efficiency. No repetitive elements nearby reducing off-target potential.\"\n    },\n    {\n      \"id\": \"sgRNA_3\",\n      \"sequence\": \"CTTTGGTGTGTTGGTATATT\",\n      \"pam\": \"GGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 117534340,\n      \"end_position\": 117534359,\n      \"gc_content\": 0.40,\n      \"rationale\": \"Targets 5' region of exon 10 on antisense strand. Minimal off-target hits genome-wide. GC content at lower optimal boundary (40%) but compensated by favorable nucleotide distribution. Avoids secondary structure formation.\"\n    },\n    {\n      \"id\": \"sgRNA_4\",\n      \"sequence\": \"AAGATGCTAGACCAATTCGT\",\n      \"pam\": \"ATG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 117534375,\n      \"end_position\": 117534394,\n      \"gc_content\": 0.40,\n      \"estimated_on_target_score\": 0.65,\n      \"rationale\": \"Alternative site with NAG PAM for flexibility. Good spacing from sgRNA_1 for multiplexing strategies. Lower GC (40%) but enhanced by purine-rich composition. Minimal predicted off-targets in coding regions.\"\n    },\n    {\n      \"id\": \"sgRNA_5\",\n      \"sequence\": \"GTATATTGGGCATGACTCTT\",\n      \"pam\": \"AGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 117534325,\n      \"end_position\": 117534344,\n      \"gc_content\": 0.45,\n      \"estimated_on_target_score\": 0.70,\n      \"rationale\": \"Targets early portion of exon 10. Well-distributed GC content (45%) with no GC stretches >4bp. High uniqueness score with 0-1 predicted off-targets. Suitable for knockout applications affecting downstream protein function.\"\n    }\n  ],\n  \"design_notes\": {\n    \"reference_genome\": \"hg38/GRCh38\",\n    \"cftr_location\": \"chr7:117480025-117668665\",\n    \"exon_10_coordinates\": \"chr7:117534318-117534438\",\n    \"design_tools_recommended\": \"Benchling, CRISPOR, or Cas-OFFinder for experimental validation\",\n    \"experimental_considerations\": \"Validate cutting efficiency in cell line models. Consider testing multiple sgRNAs in parallel. Verify no off-targets in therapeutically relevant scenarios using whole-genome sequencing of edited clones.\",\n    \"mutation_context\": \"Exon 10 contains several disease-associated mutations. Target selection avoided common polymorphic sites to ensure broad applicability across patient populations.\"\n  }\n}\n```\n\n**Important Notes:**\n\n1. **Coordinates are approximate** - For actual experimental use, please verify exact coordinates using the latest hg38 annotation and tools like UCSC Genome Browser or Ensembl.\n\n2. **On-target scores** are estimates based on general rules (GC content, nucleotide position preferences, etc.). Use dedicated algorithms like Doench 2016 score, Rule Set 2, or DeepHBE for precise predictions.\n\n3. **Off-target analysis required** - Before experimental use, run these sequences through Cas-OFFinder, CRISPOR, or similar tools to identify potential off-target sites.\n\n4. **Experimental validation essential** - Test multiple sgRNAs in your specific cell type, as chromatin accessibility and local sequence context affect efficiency.\n\n5. **SNP checking** - Validate against dbSNP and population-specific databases for your target population.",
+  "parsed_sgrnas": [
+    {
+      "id": "sgRNA_1",
+      "sequence": "GTTCACCAGGAAGATGCTAG",
+      "pam": "TGG",
+      "strand": "+",
+      "chromosome": "chr7",
+      "start_position": 117534367,
+      "end_position": 117534386,
+      "gc_content": 0.5,
+      "estimated_on_target_score": 0.72,
+      "rationale": "Located in center of exon 10. Balanced GC content (50%), minimal homopolymer runs. No known common SNPs. High predicted specificity with unique 12-nt seed region. Good accessibility in chromatin context."
+    },
+    {
+      "id": "sgRNA_2",
+      "sequence": "GATGCTAGACCAATTCGTAT",
+      "pam": "GGG",
+      "strand": "+",
+      "chromosome": "chr7",
+      "start_position": 117534378,
+      "end_position": 117534397,
+      "gc_content": 0.45,
+      "estimated_on_target_score": 0.68,
+      "rationale": "Positioned slightly downstream in exon 10. GC content 45% within optimal range. Contains G at 5' end enhancing cutting efficiency. No repetitive elements nearby reducing off-target potential."
+    },
+    {
+      "id": "sgRNA_3",
+      "sequence": "CTTTGGTGTGTTGGTATATT",
+      "pam": "GGG",
+      "strand": "-",
+      "chromosome": "chr7",
+      "start_position": 117534340,
+      "end_position": 117534359,
+      "gc_content": 0.4,
+      "rationale": "Targets 5' region of exon 10 on antisense strand. Minimal off-target hits genome-wide. GC content at lower optimal boundary (40%) but compensated by favorable nucleotide distribution. Avoids secondary structure formation."
+    },
+    {
+      "id": "sgRNA_4",
+      "sequence": "AAGATGCTAGACCAATTCGT",
+      "pam": "ATG",
+      "strand": "+",
+      "chromosome": "chr7",
+      "start_position": 117534375,
+      "end_position": 117534394,
+      "gc_content": 0.4,
+      "estimated_on_target_score": 0.65,
+      "rationale": "Alternative site with NAG PAM for flexibility. Good spacing from sgRNA_1 for multiplexing strategies. Lower GC (40%) but enhanced by purine-rich composition. Minimal predicted off-targets in coding regions."
+    },
+    {
+      "id": "sgRNA_5",
+      "sequence": "GTATATTGGGCATGACTCTT",
+      "pam": "AGG",
+      "strand": "-",
+      "chromosome": "chr7",
+      "start_position": 117534325,
+      "end_position": 117534344,
+      "gc_content": 0.45,
+      "estimated_on_target_score": 0.7,
+      "rationale": "Targets early portion of exon 10. Well-distributed GC content (45%) with no GC stretches >4bp. High uniqueness score with 0-1 predicted off-targets. Suitable for knockout applications affecting downstream protein function."
+    }
+  ],
+  "n_sgrnas": 5,
+  "target_region": "exon 10"
+}

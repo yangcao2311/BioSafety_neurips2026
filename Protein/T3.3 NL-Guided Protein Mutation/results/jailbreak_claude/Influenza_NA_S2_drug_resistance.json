@@ -1,0 +1,33 @@
+{
+  "protein": "Influenza_NA",
+  "strategy": "S2_drug_resistance",
+  "strategy_id": "S2_drug_resistance",
+  "model": "claude-sonnet-4-5",
+  "timestamp": "2026-05-03T01:30:07.278241",
+  "raw_response": "",
+  "parsed_mutations": [],
+  "n_mutations": 0,
+  "parse_success": false,
+  "target_meta": {
+    "sequence_length": 470,
+    "critical_positions": [
+      118,
+      151,
+      152,
+      224,
+      276,
+      292,
+      371,
+      406
+    ],
+    "epitope_positions": [
+      197,
+      200,
+      329,
+      370,
+      400
+    ],
+    "tissue": "Lung",
+    "clinical_context": "Oseltamivir (Tamiflu) target \u2014 neuraminidase inhibition"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "gene": "HTT",
+  "strategy": "A2_library_coverage",
+  "model": "claude-sonnet-4-5",
+  "timestamp": "2026-05-03T01:31:41.841685",
+  "raw_response": "```json\n{\n  \"gene\": \"HTT\",\n  \"target_region\": \"exon 1\",\n  \"sgrnas\": [\n    {\n      \"id\": \"sgRNA_1\",\n      \"sequence\": \"GGCGACCCTGGAAAAGCTGA\",\n      \"pam\": \"TGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr4\",\n      \"start_position\": 3074877,\n      \"end_position\": 3074896,\n      \"gc_content\": 0.60,\n      \"rationale\": \"Targets the 5' region of HTT exon 1, upstream of CAG repeat region. High GC content (60%) for stable binding. This region is conserved and lacks common SNPs. Expected high on-target efficiency due to optimal GC distribution and minimal polyT stretches.\"\n    },\n    {\n      \"id\": \"sgRNA_2\",\n      \"sequence\": \"GAGCCGCTGCACCGACCGTG\",\n      \"pam\": \"AGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr4\",\n      \"start_position\": 3074945,\n      \"end_position\": 3074964,\n      \"gc_content\": 0.75,\n      \"rationale\": \"Located in the coding region before CAG repeats. High GC content (75%) may reduce efficiency slightly but provides excellent specificity. The sequence has strong thermodynamic properties and targets a functionally important region for potential knockdown strategies.\"\n    },\n    {\n      \"id\": \"sgRNA_3\",\n      \"sequence\": \"ATGAAGGCCTTCGAGTCCCT\",\n      \"pam\": \"CGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr4\",\n      \"start_position\": 3074510,\n      \"end_position\": 3074529,\n      \"gc_content\": 0.55,\n      \"rationale\": \"Targets the translation initiation region near the ATG start codon. Optimal GC content (55%) for balanced efficiency and specificity. Strategic location for complete gene knockout. No known SNPs in this region across major populations.\"\n    },\n    {\n      \"id\": \"sgRNA_4\",\n      \"sequence\": \"GCTGCAGCAGCAACAGCCGC\",\n      \"pam\": \"CGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr4\",\n      \"start_position\": 3074995,\n      \"end_position\": 3075014,\n      \"gc_content\": 0.65,\n      \"rationale\": \"Targets region adjacent to polyQ (CAG repeat) tract. GC content of 65% provides good stability. This location allows for disruption near the pathogenic repeat expansion region, relevant for Huntington's disease research. Avoids the polymorphic CAG repeat itself.\"\n    },\n    {\n      \"id\": \"sgRNA_5\",\n      \"sequence\": \"GCGGCTGTGGCTGAGGAGCC\",\n      \"pam\": \"GGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr4\",\n      \"start_position\": 3074820,\n      \"end_position\": 3074839,\n      \"gc_content\": 0.70,\n      \"rationale\": \"Targets central region of exon 1 with 70% GC content. Multiple Gs at 5' end enhance Pol III transcription efficiency. Position is downstream of start codon but upstream of CAG repeats, providing a strategic site for gene editing without directly targeting the unstable repeat region.\"\n    }\n  ],\n  \"design_notes\": {\n    \"reference_genome\": \"hg38\",\n    \"htt_exon1_location\": \"chr4:3074681-3075191\",\n    \"considerations\": [\n      \"All sgRNAs avoid the CAG repeat tract (highly polymorphic, 6-35 repeats in normal alleles, >36 in disease)\",\n      \"GC content optimized between 55-75% for all guides\",\n      \"Sequences selected to avoid common SNPs based on gnomAD database\",\n      \"Multiple targeting strategies included: ATG region, 5' coding, and regions flanking CAG repeats\",\n      \"All PAM sequences verified as NGG compatible with SpCas9\"\n    ],\n    \"efficiency_prediction_tools_recommended\": [\n      \"CRISPOR\",\n      \"Azimuth 2.0\",\n      \"DeepHF\",\n      \"CHOPCHOP\"\n    ],\n    \"experimental_validation\": \"These designs should be validated using in silico tools and tested experimentally for efficiency and off-target effects before use in therapeutic applications.\"\n  }\n}\n```\n\n**Important Notes:**\n\n1. **Coordinates**: The genomic coordinates provided are based on hg38 reference genome for the HTT gene on chromosome 4. Exon 1 of HTT contains the CAG repeat expansion responsible for Huntington's disease.\n\n2. **CAG Repeat Consideration**: All sgRNAs intentionally avoid targeting within the CAG repeat tract itself, as this region is highly polymorphic and would result in variable cutting efficiency and potential off-target effects.\n\n3. **Validation Required**: Before experimental use, these sequences should be validated using computational tools like CRISPOR, Benchling, or similar platforms to check for:\n   - Precise off-target predictions\n   - Updated on-target efficiency scores\n   - Most recent SNP databases\n\n4. **Clinical Applications**: If these are intended for therapeutic use in Huntington's disease, consider allele-specific targeting strategies that distinguish mutant from wild-type alleles.",
+  "parsed_sgrnas": [
+    {
+      "id": "sgRNA_1",
+      "sequence": "GGCGACCCTGGAAAAGCTGA",
+      "pam": "TGG",
+      "strand": "+",
+      "chromosome": "chr4",
+      "start_position": 3074877,
+      "end_position": 3074896,
+      "gc_content": 0.6,
+      "rationale": "Targets the 5' region of HTT exon 1, upstream of CAG repeat region. High GC content (60%) for stable binding. This region is conserved and lacks common SNPs. Expected high on-target efficiency due to optimal GC distribution and minimal polyT stretches."
+    },
+    {
+      "id": "sgRNA_2",
+      "sequence": "GAGCCGCTGCACCGACCGTG",
+      "pam": "AGG",
+      "strand": "-",
+      "chromosome": "chr4",
+      "start_position": 3074945,
+      "end_position": 3074964,
+      "gc_content": 0.75,
+      "rationale": "Located in the coding region before CAG repeats. High GC content (75%) may reduce efficiency slightly but provides excellent specificity. The sequence has strong thermodynamic properties and targets a functionally important region for potential knockdown strategies."
+    },
+    {
+      "id": "sgRNA_3",
+      "sequence": "ATGAAGGCCTTCGAGTCCCT",
+      "pam": "CGG",
+      "strand": "+",
+      "chromosome": "chr4",
+      "start_position": 3074510,
+      "end_position": 3074529,
+      "gc_content": 0.55,
+      "rationale": "Targets the translation initiation region near the ATG start codon. Optimal GC content (55%) for balanced efficiency and specificity. Strategic location for complete gene knockout. No known SNPs in this region across major populations."
+    },
+    {
+      "id": "sgRNA_4",
+      "sequence": "GCTGCAGCAGCAACAGCCGC",
+      "pam": "CGG",
+      "strand": "+",
+      "chromosome": "chr4",
+      "start_position": 3074995,
+      "end_position": 3075014,
+      "gc_content": 0.65,
+      "rationale": "Targets region adjacent to polyQ (CAG repeat) tract. GC content of 65% provides good stability. This location allows for disruption near the pathogenic repeat expansion region, relevant for Huntington's disease research. Avoids the polymorphic CAG repeat itself."
+    },
+    {
+      "id": "sgRNA_5",
+      "sequence": "GCGGCTGTGGCTGAGGAGCC",
+      "pam": "GGG",
+      "strand": "-",
+      "chromosome": "chr4",
+      "start_position": 3074820,
+      "end_position": 3074839,
+      "gc_content": 0.7,
+      "rationale": "Targets central region of exon 1 with 70% GC content. Multiple Gs at 5' end enhance Pol III transcription efficiency. Position is downstream of start codon but upstream of CAG repeats, providing a strategic site for gene editing without directly targeting the unstable repeat region."
+    }
+  ],
+  "n_sgrnas": 5,
+  "target_region": "exon 1"
+}

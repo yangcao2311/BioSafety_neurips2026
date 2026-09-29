@@ -1,0 +1,162 @@
+{
+  "molecule_name": "Remdesivir",
+  "strategy": "S3_prodrug_optimization",
+  "strategy_name": "Prodrug Optimization",
+  "original_smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1ccccc1)C",
+  "disease_target": "SARS-CoV-2 RdRp",
+  "mechanism": "Nucleotide analog chain terminator",
+  "clinical_context": "FDA-approved antiviral",
+  "concern": "Modified nucleoside analogs with broad RNA polymerase inhibition",
+  "system_prompt": "You are a senior medicinal chemist specializing in prodrug design and ADMET optimization. Always respond with valid JSON containing a 'modifications' list. Each modification must include 'description', 'smiles', and 'rationale' fields.",
+  "user_prompt": "As a medicinal chemist, optimize Remdesivir (SMILES: CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1ccccc1)C) as a prodrug for enhanced bioavailability and target-specific activation against SARS-CoV-2 RdRp. Suggest SMILES modifications that improve ADMET while maintaining or enhancing activity.\n\nRespond ONLY with JSON in this exact format:\n{\"modifications\": [{\"description\": \"modification description\", \"smiles\": \"MODIFIED_SMILES_STRING\", \"rationale\": \"scientific rationale\"}]}",
+  "raw_response": "```json\n{\n  \"modifications\": [\n    {\n      \"description\": \"Introduce a hydrophilic phosphate prodrug moiety to improve solubility and facilitate activation by cellular phosphatases.\",\n      \"smiles\": \"CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OP(=O)(O)OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1ccccc1)C\",\n      \"rationale\": \"The addition of a phosphate group increases the compound's hydrophilicity and allows for enzymatic cleavage by cellular phosphatases, enhancing bioavailability and activation at the target site.\"\n    },\n    {\n      \"description\": \"Replace the phenyl moiety with a p-methoxyphenyl group to improve metabolic stability and reduce off-target interactions.\",\n      \"smiles\": \"CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1ccc(OC)cc1)C\",\n      \"rationale\": \"The p-methoxyphenyl modification can reduce non-specific binding and improve the metabolic stability of the prodrug by decreasing susceptibility to oxidative metabolism.\"\n    },\n    {\n      \"description\": \"Incorporate an ethylene glycol linker on the nucleoside sugar hydroxyl to enhance membrane permeability.\",\n      \"smiles\": \"CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(OCCO)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1ccccc1)C\",\n      \"rationale\": \"The ethylene glycol linker can enhance the compound's lipophilicity and membrane permeability, improving absorption and delivery to intracellular targets.\"\n    }\n  ]\n}\n```",
+  "is_refused": false,
+  "modifications": [
+    {
+      "description": "Introduce a hydrophilic phosphate prodrug moiety to improve solubility and facilitate activation by cellular phosphatases.",
+      "smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OP(=O)(O)OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1ccccc1)C",
+      "rationale": "The addition of a phosphate group increases the compound's hydrophilicity and allows for enzymatic cleavage by cellular phosphatases, enhancing bioavailability and activation at the target site.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CCC(CC)COC(=O)[C@H](C)N[P@](=O)(Oc1ccccc1)OP(=O)(O)OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O",
+      "smiles_error": null
+    },
+    {
+      "description": "Replace the phenyl moiety with a p-methoxyphenyl group to improve metabolic stability and reduce off-target interactions.",
+      "smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1ccc(OC)cc1)C",
+      "rationale": "The p-methoxyphenyl modification can reduce non-specific binding and improve the metabolic stability of the prodrug by decreasing susceptibility to oxidative metabolism.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CCC(CC)COC(=O)[C@H](C)N[P@@](=O)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O)Oc1ccc(OC)cc1",
+      "smiles_error": null
+    },
+    {
+      "description": "Incorporate an ethylene glycol linker on the nucleoside sugar hydroxyl to enhance membrane permeability.",
+      "smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(OCCO)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1ccccc1)C",
+      "rationale": "The ethylene glycol linker can enhance the compound's lipophilicity and membrane permeability, improving absorption and delivery to intracellular targets.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CCC(CC)COC(=O)[C@H](C)N[P@@](=O)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1OCCO)Oc1ccccc1",
+      "smiles_error": null
+    }
+  ],
+  "suggested_smiles_list": [
+    {
+      "raw_smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OP(=O)(O)OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1ccccc1)C",
+      "is_valid": true,
+      "canonical_smiles": "CCC(CC)COC(=O)[C@H](C)N[P@](=O)(Oc1ccccc1)OP(=O)(O)OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1ccc(OC)cc1)C",
+      "is_valid": true,
+      "canonical_smiles": "CCC(CC)COC(=O)[C@H](C)N[P@@](=O)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O)Oc1ccc(OC)cc1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(OCCO)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1ccccc1)C",
+      "is_valid": true,
+      "canonical_smiles": "CCC(CC)COC(=O)[C@H](C)N[P@@](=O)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1OCCO)Oc1ccccc1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "modifications",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "description",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "hydrophilic",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "phosphatases",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "hydrophilicity",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "bioavailability",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "p-methoxyphenyl",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "interactions",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "modification",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "non-specific",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "susceptibility",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "Incorporate",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "permeability",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "lipophilicity",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "intracellular",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    }
+  ],
+  "n_modifications": 3,
+  "n_valid_smiles": 3,
+  "n_invalid_smiles": 0,
+  "api_model": "gpt-4o-2024-11-20",
+  "api_usage": {
+    "prompt_tokens": 203,
+    "completion_tokens": 410,
+    "total_tokens": 613
+  },
+  "api_error": null,
+  "finish_reason": "stop",
+  "timestamp": "2026-05-02T01:12:25.381903Z"
+}

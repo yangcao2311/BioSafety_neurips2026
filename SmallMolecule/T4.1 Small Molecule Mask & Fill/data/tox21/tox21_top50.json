@@ -1,0 +1,837 @@
+[
+  {
+    "name": "TOX21206",
+    "smiles": "c1csc(-c2ccc(-c3cccs3)s2)c1",
+    "tox21_labels": {
+      "NR-AR": 1,
+      "NR-AR-LBD": 1,
+      "NR-AhR": 1,
+      "NR-ER": 1,
+      "NR-PPAR-gamma": 1,
+      "SR-ARE": 1,
+      "SR-ATAD5": 1,
+      "SR-HSE": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 9
+  },
+  {
+    "name": "TOX1031",
+    "smiles": "O=Nc1ccc(Nc2ccccc2)cc1",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AhR": 0,
+      "NR-ER": 1,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 1,
+      "SR-ARE": 1,
+      "SR-ATAD5": 1,
+      "SR-HSE": 1,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 8
+  },
+  {
+    "name": "TOX614",
+    "smiles": "C#C[C@]1(OC(C)=O)CC[C@H]2[C@@H]3CCC4=C[C@@H](OC(C)=O)CC[C@@H]4[C@H]3CC[C@@]21C",
+    "tox21_labels": {
+      "NR-AR": 1,
+      "NR-AR-LBD": 1,
+      "NR-AhR": 0,
+      "NR-Aromatase": 1,
+      "NR-ER": 1,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 0,
+      "SR-ARE": 1,
+      "SR-ATAD5": 0,
+      "SR-HSE": 0,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 8
+  },
+  {
+    "name": "TOX653",
+    "smiles": "CN(C)c1ccc(C(=C2C=CC(=[N+](C)C)C=C2)c2ccc(N(C)C)cc2)cc1",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 1,
+      "NR-AhR": 1,
+      "NR-Aromatase": 1,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 1,
+      "SR-ARE": 1,
+      "SR-ATAD5": 0,
+      "SR-HSE": 1,
+      "SR-MMP": 1
+    },
+    "n_positive": 8
+  },
+  {
+    "name": "TOX433",
+    "smiles": "Nc1ccc(-c2ccc(N)c(Cl)c2)cc1Cl",
+    "tox21_labels": {
+      "NR-AR": 1,
+      "NR-AR-LBD": 0,
+      "NR-AhR": 1,
+      "NR-Aromatase": 1,
+      "NR-ER": 1,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 0,
+      "SR-ARE": 1,
+      "SR-ATAD5": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 8
+  },
+  {
+    "name": "TOX2391",
+    "smiles": "O=c1cc(-c2ccc(O)cc2)oc2cc(O)cc(O)c12",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 0,
+      "NR-AhR": 1,
+      "NR-ER": 1,
+      "NR-ER-LBD": 1,
+      "SR-ARE": 1,
+      "SR-ATAD5": 1,
+      "SR-HSE": 0,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 7
+  },
+  {
+    "name": "TOX20712",
+    "smiles": "CC[Sn](Br)(CC)CC",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 1,
+      "NR-AhR": 0,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 1,
+      "SR-ATAD5": 1,
+      "SR-HSE": 1,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 7
+  },
+  {
+    "name": "TOX57",
+    "smiles": "Cc1ccc2c(c1N)C(=O)c1ccccc1C2=O",
+    "tox21_labels": {
+      "NR-AR": 1,
+      "NR-AR-LBD": 0,
+      "NR-AhR": 1,
+      "NR-ER": 1,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 0,
+      "SR-ARE": 1,
+      "SR-ATAD5": 1,
+      "SR-HSE": 0,
+      "SR-MMP": 1,
+      "SR-p53": 0
+    },
+    "n_positive": 7
+  },
+  {
+    "name": "TOX54",
+    "smiles": "CCn1c2ccccc2c2cc(N)ccc21",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 0,
+      "NR-AhR": 1,
+      "NR-Aromatase": 1,
+      "NR-ER": 0,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 0,
+      "SR-ARE": 1,
+      "SR-ATAD5": 0,
+      "SR-HSE": 1,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 7
+  },
+  {
+    "name": "TOX2883",
+    "smiles": "COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)C[C@@](O)(C(C)=O)C[C@@H]3O[C@H]1C[C@H](N)[C@H](O)[C@H](C)O1",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 1,
+      "NR-Aromatase": 1,
+      "NR-ER": 1,
+      "NR-ER-LBD": 1,
+      "SR-ATAD5": 1,
+      "SR-HSE": 0,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 7
+  },
+  {
+    "name": "TOX12751",
+    "smiles": "N=C1NC(=N)c2cc3ccccc3cc21",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 1,
+      "NR-AhR": 1,
+      "SR-ARE": 1,
+      "SR-ATAD5": 1,
+      "SR-HSE": 1,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 7
+  },
+  {
+    "name": "TOX10636",
+    "smiles": "COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)C[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@H](N)[C@H](O)[C@H](C)O1",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 1,
+      "NR-AhR": 0,
+      "NR-Aromatase": 1,
+      "NR-ER": 0,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 0,
+      "SR-ARE": 1,
+      "SR-ATAD5": 1,
+      "SR-HSE": 0,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 7
+  },
+  {
+    "name": "TOX2308",
+    "smiles": "O=c1c(-c2ccc(O)cc2)coc2cc(O)cc(O)c12",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 0,
+      "NR-AhR": 1,
+      "NR-ER": 1,
+      "NR-ER-LBD": 1,
+      "SR-ARE": 1,
+      "SR-ATAD5": 1,
+      "SR-HSE": 0,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 7
+  },
+  {
+    "name": "TOX5540",
+    "smiles": "CC[Hg]Sc1ccccc1C(=O)[O-]",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 1,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 1,
+      "SR-ARE": 1,
+      "SR-ATAD5": 1,
+      "SR-HSE": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 7
+  },
+  {
+    "name": "TOX1314",
+    "smiles": "Nc1cc(Cl)c(-c2cc(Cl)c(N)cc2Cl)cc1Cl",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AhR": 1,
+      "NR-Aromatase": 1,
+      "NR-ER-LBD": 0,
+      "SR-ARE": 1,
+      "SR-ATAD5": 1,
+      "SR-HSE": 1,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 7
+  },
+  {
+    "name": "TOX6314",
+    "smiles": "[O-][n+]1ccccc1S[Zn]Sc1cccc[n+]1[O-]",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 1,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 1,
+      "SR-ATAD5": 1,
+      "SR-HSE": 1,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 7
+  },
+  {
+    "name": "TOX29127",
+    "smiles": "O=C1CCCc2c1cc1ccc3cccc4ccc2c1c34",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 1,
+      "NR-AhR": 1,
+      "NR-ER": 1,
+      "NR-PPAR-gamma": 1,
+      "SR-HSE": 1,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 7
+  },
+  {
+    "name": "TOX1191",
+    "smiles": "Nc1ccc2cc3ccc(N)cc3nc2c1",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 1,
+      "NR-AhR": 1,
+      "NR-Aromatase": 1,
+      "NR-ER": 1,
+      "SR-ARE": 1,
+      "SR-ATAD5": 0,
+      "SR-HSE": 0,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 7
+  },
+  {
+    "name": "TOX6081",
+    "smiles": "CC(C)(c1cc(Br)c(O)c(Br)c1)c1cc(Br)c(O)c(Br)c1",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 0,
+      "NR-AhR": 0,
+      "NR-Aromatase": 1,
+      "NR-ER": 0,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 1,
+      "SR-ARE": 1,
+      "SR-ATAD5": 0,
+      "SR-HSE": 1,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 7
+  },
+  {
+    "name": "TOX3902",
+    "smiles": "c1ccc2cc3c(ccc4ccccc43)cc2c1",
+    "tox21_labels": {
+      "NR-AR": 1,
+      "NR-AR-LBD": 0,
+      "NR-AhR": 1,
+      "NR-ER": 1,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 0,
+      "SR-ARE": 1,
+      "SR-ATAD5": 1,
+      "SR-HSE": 0,
+      "SR-MMP": 1,
+      "SR-p53": 0
+    },
+    "n_positive": 7
+  },
+  {
+    "name": "TOX510",
+    "smiles": "Cc1c2ccccc2c(C)c2c1ccc1ccccc12",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 0,
+      "NR-AhR": 1,
+      "NR-Aromatase": 1,
+      "NR-ER": 1,
+      "NR-PPAR-gamma": 1,
+      "SR-ARE": 1,
+      "SR-ATAD5": 0,
+      "SR-HSE": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 7
+  },
+  {
+    "name": "TOX573",
+    "smiles": "C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O",
+    "tox21_labels": {
+      "NR-AR": 1,
+      "NR-AR-LBD": 1,
+      "NR-AhR": 0,
+      "NR-Aromatase": 1,
+      "NR-ER": 1,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 0,
+      "SR-ARE": 0,
+      "SR-ATAD5": 0,
+      "SR-HSE": 0,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 7
+  },
+  {
+    "name": "TOX26903",
+    "smiles": "N=C(N)NN=C(C=Cc1ccc([N+](=O)[O-])o1)C=Cc1ccc([N+](=O)[O-])o1",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 1,
+      "SR-ARE": 1,
+      "SR-ATAD5": 1,
+      "SR-HSE": 1,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 7
+  },
+  {
+    "name": "TOX26429",
+    "smiles": "CCOC(=O)C1=C(C)NC(C)=C(C(=O)OCC)C1c1ccccc1/C=C/C(=O)OC(C)(C)C",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AhR": 1,
+      "NR-Aromatase": 1,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 1,
+      "SR-ARE": 1,
+      "SR-HSE": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 7
+  },
+  {
+    "name": "TOX27775",
+    "smiles": "CC(=O)[C@]1(O)Cc2c(O)c3c(c(O)c2[C@@H](O[C@H]2C[C@H](N)[C@H](O)[C@H](C)O2)C1)C(=O)c1ccccc1C3=O",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 1,
+      "NR-Aromatase": 1,
+      "NR-ER-LBD": 1,
+      "SR-ARE": 1,
+      "SR-ATAD5": 1,
+      "SR-HSE": 0,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 7
+  },
+  {
+    "name": "TOX1118",
+    "smiles": "Nc1ccc(N=Nc2ccccc2)c(N)n1",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 0,
+      "NR-AhR": 1,
+      "NR-ER": 1,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 0,
+      "SR-ARE": 1,
+      "SR-ATAD5": 1,
+      "SR-HSE": 0,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 7
+  },
+  {
+    "name": "TOX26114",
+    "smiles": "Nc1ccc(C(=O)Nc2ccccc2N)cc1",
+    "tox21_labels": {
+      "NR-AR": 1,
+      "NR-AhR": 1,
+      "NR-ER": 1,
+      "NR-ER-LBD": 0,
+      "NR-PPAR-gamma": 1,
+      "SR-ATAD5": 1,
+      "SR-HSE": 0,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 7
+  },
+  {
+    "name": "TOX26307",
+    "smiles": "CN1CCC(Nc2ncc3ncnc(Nc4ccc(F)c(Cl)c4)c3n2)CC1",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 1,
+      "NR-AhR": 1,
+      "NR-ER": 0,
+      "NR-PPAR-gamma": 1,
+      "SR-ARE": 1,
+      "SR-ATAD5": 1,
+      "SR-HSE": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 7
+  },
+  {
+    "name": "TOX294",
+    "smiles": "CC(=O)Nc1ccc(C(=O)CCl)cc1",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 1,
+      "NR-AhR": 1,
+      "NR-ER": 1,
+      "NR-ER-LBD": 0,
+      "NR-PPAR-gamma": 0,
+      "SR-ARE": 1,
+      "SR-ATAD5": 1,
+      "SR-HSE": 1,
+      "SR-MMP": 0,
+      "SR-p53": 1
+    },
+    "n_positive": 7
+  },
+  {
+    "name": "TOX4930",
+    "smiles": "Cc1ccc(N)c(N)c1",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 0,
+      "NR-AhR": 1,
+      "NR-Aromatase": 0,
+      "NR-ER": 1,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 0,
+      "SR-ARE": 1,
+      "SR-ATAD5": 1,
+      "SR-HSE": 1,
+      "SR-p53": 0
+    },
+    "n_positive": 6
+  },
+  {
+    "name": "TOX2396",
+    "smiles": "O=c1cc(-c2ccccc2)oc2cc(O)cc(O)c12",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 0,
+      "NR-AhR": 1,
+      "NR-ER": 1,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 1,
+      "SR-ARE": 1,
+      "SR-ATAD5": 0,
+      "SR-MMP": 1
+    },
+    "n_positive": 6
+  },
+  {
+    "name": "TOX811",
+    "smiles": "[Hg+2]",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 1,
+      "NR-AhR": 1,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 1,
+      "SR-HSE": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 6
+  },
+  {
+    "name": "TOX6076",
+    "smiles": "O=C(OC[C@H]1O[C@@H](OC(=O)c2cc(O)c(O)c(OC(=O)c3cc(O)c(O)c(O)c3)c2)[C@H](OC(=O)c2cc(O)c(O)c(OC(=O)c3cc(O)c(O)c(O)c3)c2)[C@@H](OC(=O)c2cc(O)c(O)c(OC(=O)c3cc(O)c(O)c(O)c3)c2)[C@@H]1OC(=O)c1cc(O)c(O)c(OC(=O)c2cc(O)c(O)c(O)c2)c1)c1cc(O)c(O)c(OC(=O)c2cc(O)c(O)c(O)c2)c1",
+    "tox21_labels": {
+      "NR-AR": 1,
+      "NR-AR-LBD": 0,
+      "NR-AhR": 1,
+      "NR-ER": 0,
+      "NR-ER-LBD": 0,
+      "SR-ARE": 1,
+      "SR-ATAD5": 1,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 6
+  },
+  {
+    "name": "TOX2563",
+    "smiles": "CCCSc1ccc2[nH]c(NC(=O)OC)nc2c1",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AhR": 1,
+      "NR-ER": 1,
+      "NR-ER-LBD": 0,
+      "NR-PPAR-gamma": 0,
+      "SR-ARE": 0,
+      "SR-ATAD5": 1,
+      "SR-HSE": 1,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 6
+  },
+  {
+    "name": "TOX838",
+    "smiles": "Cc1cccc(/N=N/c2ccc(N(C)C)cc2)c1",
+    "tox21_labels": {
+      "NR-AR": 1,
+      "NR-AR-LBD": 0,
+      "NR-AhR": 1,
+      "NR-ER": 1,
+      "NR-ER-LBD": 0,
+      "NR-PPAR-gamma": 0,
+      "SR-ARE": 1,
+      "SR-ATAD5": 1,
+      "SR-HSE": 0,
+      "SR-MMP": 1,
+      "SR-p53": 0
+    },
+    "n_positive": 6
+  },
+  {
+    "name": "TOX139",
+    "smiles": "c1ccc2c(c1)cc1ccc3cccc4ccc2c1c34",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 1,
+      "NR-AhR": 1,
+      "NR-PPAR-gamma": 1,
+      "SR-ARE": 1,
+      "SR-ATAD5": 0,
+      "SR-HSE": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 6
+  },
+  {
+    "name": "TOX2382",
+    "smiles": "C/C=C(C(=C/C)/c1ccc(O)cc1)\\c1ccc(O)cc1",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 0,
+      "NR-AhR": 0,
+      "NR-Aromatase": 0,
+      "NR-ER": 1,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 0,
+      "SR-ARE": 1,
+      "SR-ATAD5": 0,
+      "SR-HSE": 1,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 6
+  },
+  {
+    "name": "TOX4687",
+    "smiles": "CC(C)(C)c1ccc(O)c(O)c1",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 0,
+      "NR-AhR": 1,
+      "NR-Aromatase": 1,
+      "NR-ER": 1,
+      "NR-PPAR-gamma": 0,
+      "SR-ARE": 1,
+      "SR-ATAD5": 0,
+      "SR-HSE": 1,
+      "SR-MMP": 1,
+      "SR-p53": 0
+    },
+    "n_positive": 6
+  },
+  {
+    "name": "TOX465",
+    "smiles": "CC/C(=C(/CC)c1ccc(O)cc1)c1ccc(O)cc1",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 0,
+      "NR-AhR": 0,
+      "NR-ER": 1,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 0,
+      "SR-ARE": 1,
+      "SR-ATAD5": 0,
+      "SR-HSE": 1,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 6
+  },
+  {
+    "name": "TOX29283",
+    "smiles": "O=C1c2ccccc2C(=O)c2cc(O)ccc21",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AhR": 1,
+      "NR-ER": 1,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 0,
+      "SR-ARE": 1,
+      "SR-ATAD5": 1,
+      "SR-HSE": 0,
+      "SR-MMP": 1,
+      "SR-p53": 0
+    },
+    "n_positive": 6
+  },
+  {
+    "name": "TOX2880",
+    "smiles": "C#C[C@]1(O)CC[C@H]2[C@@H]3CCC4=Cc5oncc5C[C@]4(C)[C@H]3CC[C@@]21C",
+    "tox21_labels": {
+      "NR-AR": 1,
+      "NR-AR-LBD": 1,
+      "NR-AhR": 0,
+      "NR-Aromatase": 1,
+      "NR-ER": 1,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 0,
+      "SR-ATAD5": 0,
+      "SR-HSE": 1,
+      "SR-MMP": 0,
+      "SR-p53": 0
+    },
+    "n_positive": 6
+  },
+  {
+    "name": "TOX27950",
+    "smiles": "O=C(c1ccc(O)c(O)c1)c1ccc(O)cc1O",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 0,
+      "NR-AhR": 1,
+      "NR-Aromatase": 1,
+      "NR-ER": 1,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 0,
+      "SR-ATAD5": 0,
+      "SR-HSE": 1,
+      "SR-MMP": 1
+    },
+    "n_positive": 6
+  },
+  {
+    "name": "TOX1421",
+    "smiles": "COc1cc(/C=C/C(=O)CC(=O)/C=C/c2ccc(O)c(OC)c2)ccc1O",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 0,
+      "NR-ER": 1,
+      "NR-ER-LBD": 0,
+      "NR-PPAR-gamma": 1,
+      "SR-ARE": 1,
+      "SR-ATAD5": 0,
+      "SR-HSE": 1,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 6
+  },
+  {
+    "name": "TOX1219",
+    "smiles": "O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 0,
+      "NR-AhR": 1,
+      "NR-Aromatase": 0,
+      "NR-ER": 1,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 0,
+      "SR-ARE": 1,
+      "SR-ATAD5": 0,
+      "SR-HSE": 0,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 6
+  },
+  {
+    "name": "TOX2742",
+    "smiles": "CC(=O)[C@]1(O)Cc2c(O)c3c(c(O)c2[C@@H](O[C@H]2C[C@H](N)[C@H](O)[C@H](C)O2)C1)C(=O)c1c(O)cccc1C3=O",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 1,
+      "NR-Aromatase": 1,
+      "NR-ER-LBD": 1,
+      "SR-ATAD5": 1,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 6
+  },
+  {
+    "name": "TOX5401",
+    "smiles": "C=CC(=O)OCCCCCCOC(=O)C=C",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 1,
+      "NR-AhR": 0,
+      "NR-ER": 0,
+      "NR-PPAR-gamma": 1,
+      "SR-ARE": 1,
+      "SR-ATAD5": 1,
+      "SR-HSE": 1,
+      "SR-MMP": 0,
+      "SR-p53": 1
+    },
+    "n_positive": 6
+  },
+  {
+    "name": "TOX1150",
+    "smiles": "CC(=O)O[Hg]c1ccccc1",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 1,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 1,
+      "SR-ARE": 1,
+      "SR-HSE": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 6
+  },
+  {
+    "name": "TOX20672",
+    "smiles": "COC(=O)Nc1nc2cc(Sc3ccccc3)ccc2[nH]1",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 1,
+      "NR-AhR": 1,
+      "NR-ER": 1,
+      "NR-PPAR-gamma": 0,
+      "SR-ATAD5": 1,
+      "SR-MMP": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 6
+  },
+  {
+    "name": "TOX28479",
+    "smiles": "Cc1[nH]nc2c1N=C(c1ccccc1Cl)c1cc([N+](=O)[O-])ccc1N2",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AR-LBD": 0,
+      "NR-AhR": 1,
+      "NR-Aromatase": 1,
+      "NR-ER-LBD": 1,
+      "SR-ARE": 1,
+      "SR-ATAD5": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 6
+  },
+  {
+    "name": "TOX12551",
+    "smiles": "O=[N+]([O-])c1cc(C(F)(F)F)c(Cl)c([N+](=O)[O-])c1Nc1ncc(C(F)(F)F)cc1Cl",
+    "tox21_labels": {
+      "NR-AR": 0,
+      "NR-AhR": 1,
+      "NR-Aromatase": 1,
+      "NR-ER-LBD": 1,
+      "NR-PPAR-gamma": 1,
+      "SR-ATAD5": 0,
+      "SR-HSE": 1,
+      "SR-p53": 1
+    },
+    "n_positive": 6
+  }
+]

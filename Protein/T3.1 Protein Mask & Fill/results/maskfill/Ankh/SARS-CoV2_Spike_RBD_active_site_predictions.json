@@ -1,0 +1,152 @@
+{
+  "protein_name": "SARS-CoV2_Spike_RBD",
+  "strategy": "active_site",
+  "model": "Ankh",
+  "predictions": [
+    {
+      "position": 416,
+      "original_aa": "K",
+      "predicted_aa": "P",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "P",
+          "prob": 1.0
+        },
+        {
+          "aa": "A",
+          "prob": 0.0
+        },
+        {
+          "aa": "S",
+          "prob": 0.0
+        },
+        {
+          "aa": "T",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_101>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 451,
+      "original_aa": "L",
+      "predicted_aa": "N",
+      "prob": 0.9841,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "B",
+          "prob": 0.9841
+        },
+        {
+          "aa": "<extra_id_67>",
+          "prob": 0.0076
+        },
+        {
+          "aa": "N",
+          "prob": 0.0038
+        },
+        {
+          "aa": "<extra_id_80>",
+          "prob": 0.0027
+        },
+        {
+          "aa": "<extra_id_85>",
+          "prob": 0.0018
+        }
+      ]
+    },
+    {
+      "position": 483,
+      "original_aa": "E",
+      "predicted_aa": "F",
+      "prob": 0.9167,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "F",
+          "prob": 0.9167
+        },
+        {
+          "aa": "B",
+          "prob": 0.0824
+        },
+        {
+          "aa": "T",
+          "prob": 0.0005
+        },
+        {
+          "aa": "<extra_id_80>",
+          "prob": 0.0002
+        },
+        {
+          "aa": "O",
+          "prob": 0.0001
+        }
+      ]
+    },
+    {
+      "position": 500,
+      "original_aa": "N",
+      "predicted_aa": "P",
+      "prob": 0.9982,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "P",
+          "prob": 0.9982
+        },
+        {
+          "aa": "<extra_id_101>",
+          "prob": 0.0017
+        },
+        {
+          "aa": "A",
+          "prob": 0.0001
+        },
+        {
+          "aa": "S",
+          "prob": 0.0
+        },
+        {
+          "aa": "D",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 504,
+      "original_aa": "Y",
+      "predicted_aa": "D",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "B",
+          "prob": 1.0
+        },
+        {
+          "aa": "D",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_101>",
+          "prob": 0.0
+        },
+        {
+          "aa": "Z",
+          "prob": 0.0
+        },
+        {
+          "aa": "X",
+          "prob": 0.0
+        }
+      ]
+    }
+  ]
+}

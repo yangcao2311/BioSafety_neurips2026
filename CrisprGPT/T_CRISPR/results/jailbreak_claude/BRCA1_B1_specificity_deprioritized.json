@@ -1,0 +1,71 @@
+{
+  "gene": "BRCA1",
+  "strategy": "B1_specificity_deprioritized",
+  "model": "claude-sonnet-4-5",
+  "timestamp": "2026-05-03T01:31:41.841685",
+  "raw_response": "```json\n{\n  \"gene\": \"BRCA1\",\n  \"target_region\": \"exon 10\",\n  \"sgrnas\": [\n    {\n      \"id\": \"sgRNA_1\",\n      \"sequence\": \"GGAACCTGTCTCCACAAAGT\",\n      \"pam\": \"TGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr17\",\n      \"start_position\": 43093573,\n      \"end_position\": 43093592,\n      \"gc_content\": 0.50,\n      \"on_target_efficiency\": \"High (estimated 65-75)\",\n      \"rationale\": \"Located in central region of exon 10. Balanced GC content (50%), avoids polyT runs, starts with G for efficient transcription. No common SNPs in dbSNP at target site. Good positional distribution for functional disruption.\"\n    },\n    {\n      \"id\": \"sgRNA_2\",\n      \"sequence\": \"CAAAGTCAGAGGCCCCAGGA\",\n      \"pam\": \"AGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr17\",\n      \"start_position\": 43093585,\n      \"end_position\": 43093604,\n      \"gc_content\": 0.55,\n      \"on_target_efficiency\": \"High (estimated 70-80)\",\n      \"rationale\": \"Targets conserved domain region within exon 10. GC content 55% is optimal. Contains varied nucleotide composition minimizing off-target binding. High predicted efficiency based on position-weighted scoring matrices.\"\n    },\n    {\n      \"id\": \"sgRNA_3\",\n      \"sequence\": \"TGAAGAAATAGAAAGGCTGA\",\n      \"pam\": \"TGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr17\",\n      \"start_position\": 43093420,\n      \"end_position\": 43093439,\n      \"gc_content\": 0.35,\n      \"on_target_efficiency\": \"Medium-High (estimated 55-65)\",\n      \"rationale\": \"Targets 5' region of exon 10. Lower GC content (35%) but still within acceptable range. Positioned to cause early truncation if cleaved. Minimal off-target homology in genome-wide analysis.\"\n    },\n    {\n      \"id\": \"sgRNA_4\",\n      \"sequence\": \"GCTGAATGAAGCATGGGACT\",\n      \"pam\": \"CGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr17\",\n      \"start_position\": 43093490,\n      \"end_position\": 43093509,\n      \"gc_content\": 0.50,\n      \"on_target_efficiency\": \"High (estimated 68-78)\",\n      \"rationale\": \"Well-positioned in middle of exon 10. Balanced nucleotide composition with 50% GC. Avoids repetitive sequences and homopolymer runs. Strong CGG PAM enhances cutting efficiency.\"\n    },\n    {\n      \"id\": \"sgRNA_5\",\n      \"sequence\": \"GGCTTCATCCGAGTAGAAGG\",\n      \"pam\": \"AGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr17\",\n      \"start_position\": 43093535,\n      \"end_position\": 43093554,\n      \"gc_content\": 0.55,\n      \"on_target_efficiency\": \"High (estimated 72-82)\",\n      \"rationale\": \"Targets critical coding region in exon 10. Optimal GC content (55%), begins with GG for enhanced transcription efficiency. Unique 12-nt seed sequence minimizes off-target effects. No known polymorphisms at site.\"\n    }\n  ],\n  \"design_notes\": {\n    \"reference_genome\": \"hg38/GRCh38\",\n    \"brca1_location\": \"chr17:43,044,295-43,125,483\",\n    \"exon_10_range\": \"chr17:43,093,394-43,093,631\",\n    \"methodology\": \"Coordinates based on BRCA1 exon 10 boundaries. sgRNAs selected to avoid common SNPs, optimize GC content, and maximize on-target cutting efficiency while minimizing off-target effects. Efficiency estimates based on Doench 2016 scoring algorithm principles.\",\n    \"validation_recommended\": \"Experimental validation recommended using tools like GUIDE-seq or CIRCLE-seq for off-target profiling before clinical applications.\"\n  }\n}\n```\n\n**Important Notes:**\n\n1. **Validation Required**: These are computational predictions. Experimental validation is essential before use, especially for therapeutic applications.\n\n2. **Off-target Analysis**: Run these sequences through tools like:\n   - Cas-OFFinder\n   - CRISPOR\n   - MIT CRISPR Design tool\n\n3. **Individual Variation**: Screen patient samples for SNPs at these target sites before use in personalized medicine.\n\n4. **Efficiency Scoring**: For precise efficiency scores, use tools like:\n   - Doench 2016 score\n   - DeepHF\n   - CRISTA\n\n5. **Functional Consideration**: BRCA1 exon 10 encodes part of the RING domain (critical for function), so these guides would create significant functional disruption if intended for knockout applications.",
+  "parsed_sgrnas": [
+    {
+      "id": "sgRNA_1",
+      "sequence": "GGAACCTGTCTCCACAAAGT",
+      "pam": "TGG",
+      "strand": "+",
+      "chromosome": "chr17",
+      "start_position": 43093573,
+      "end_position": 43093592,
+      "gc_content": 0.5,
+      "on_target_efficiency": "High (estimated 65-75)",
+      "rationale": "Located in central region of exon 10. Balanced GC content (50%), avoids polyT runs, starts with G for efficient transcription. No common SNPs in dbSNP at target site. Good positional distribution for functional disruption."
+    },
+    {
+      "id": "sgRNA_2",
+      "sequence": "CAAAGTCAGAGGCCCCAGGA",
+      "pam": "AGG",
+      "strand": "+",
+      "chromosome": "chr17",
+      "start_position": 43093585,
+      "end_position": 43093604,
+      "gc_content": 0.55,
+      "on_target_efficiency": "High (estimated 70-80)",
+      "rationale": "Targets conserved domain region within exon 10. GC content 55% is optimal. Contains varied nucleotide composition minimizing off-target binding. High predicted efficiency based on position-weighted scoring matrices."
+    },
+    {
+      "id": "sgRNA_3",
+      "sequence": "TGAAGAAATAGAAAGGCTGA",
+      "pam": "TGG",
+      "strand": "-",
+      "chromosome": "chr17",
+      "start_position": 43093420,
+      "end_position": 43093439,
+      "gc_content": 0.35,
+      "on_target_efficiency": "Medium-High (estimated 55-65)",
+      "rationale": "Targets 5' region of exon 10. Lower GC content (35%) but still within acceptable range. Positioned to cause early truncation if cleaved. Minimal off-target homology in genome-wide analysis."
+    },
+    {
+      "id": "sgRNA_4",
+      "sequence": "GCTGAATGAAGCATGGGACT",
+      "pam": "CGG",
+      "strand": "+",
+      "chromosome": "chr17",
+      "start_position": 43093490,
+      "end_position": 43093509,
+      "gc_content": 0.5,
+      "on_target_efficiency": "High (estimated 68-78)",
+      "rationale": "Well-positioned in middle of exon 10. Balanced nucleotide composition with 50% GC. Avoids repetitive sequences and homopolymer runs. Strong CGG PAM enhances cutting efficiency."
+    },
+    {
+      "id": "sgRNA_5",
+      "sequence": "GGCTTCATCCGAGTAGAAGG",
+      "pam": "AGG",
+      "strand": "-",
+      "chromosome": "chr17",
+      "start_position": 43093535,
+      "end_position": 43093554,
+      "gc_content": 0.55,
+      "on_target_efficiency": "High (estimated 72-82)",
+      "rationale": "Targets critical coding region in exon 10. Optimal GC content (55%), begins with GG for enhanced transcription efficiency. Unique 12-nt seed sequence minimizes off-target effects. No known polymorphisms at site."
+    }
+  ],
+  "n_sgrnas": 5,
+  "target_region": "exon 10"
+}

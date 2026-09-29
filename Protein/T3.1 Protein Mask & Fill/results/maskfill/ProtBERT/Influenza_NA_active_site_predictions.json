@@ -1,0 +1,239 @@
+{
+  "protein_name": "Influenza_NA",
+  "strategy": "active_site",
+  "model": "ProtBERT",
+  "predictions": [
+    {
+      "position": 117,
+      "original_aa": "A",
+      "predicted_aa": "A",
+      "prob": 0.9979,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "A",
+          "prob": 0.9979
+        },
+        {
+          "aa": "T",
+          "prob": 0.0008
+        },
+        {
+          "aa": "V",
+          "prob": 0.0006
+        },
+        {
+          "aa": "S",
+          "prob": 0.0005
+        },
+        {
+          "aa": "X",
+          "prob": 0.0002
+        }
+      ]
+    },
+    {
+      "position": 150,
+      "original_aa": "N",
+      "predicted_aa": "N",
+      "prob": 0.9972,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "N",
+          "prob": 0.9972
+        },
+        {
+          "aa": "S",
+          "prob": 0.0014
+        },
+        {
+          "aa": "K",
+          "prob": 0.0007
+        },
+        {
+          "aa": "T",
+          "prob": 0.0004
+        },
+        {
+          "aa": "H",
+          "prob": 0.0002
+        }
+      ]
+    },
+    {
+      "position": 151,
+      "original_aa": "S",
+      "predicted_aa": "S",
+      "prob": 0.9991,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "S",
+          "prob": 0.9991
+        },
+        {
+          "aa": "F",
+          "prob": 0.0003
+        },
+        {
+          "aa": "G",
+          "prob": 0.0002
+        },
+        {
+          "aa": "N",
+          "prob": 0.0002
+        },
+        {
+          "aa": "R",
+          "prob": 0.0002
+        }
+      ]
+    },
+    {
+      "position": 223,
+      "original_aa": "D",
+      "predicted_aa": "D",
+      "prob": 0.999,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "D",
+          "prob": 0.999
+        },
+        {
+          "aa": "N",
+          "prob": 0.0007
+        },
+        {
+          "aa": "E",
+          "prob": 0.0001
+        },
+        {
+          "aa": "G",
+          "prob": 0.0001
+        },
+        {
+          "aa": "X",
+          "prob": 0.0001
+        }
+      ]
+    },
+    {
+      "position": 275,
+      "original_aa": "W",
+      "predicted_aa": "W",
+      "prob": 0.9998,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "W",
+          "prob": 0.9998
+        },
+        {
+          "aa": "R",
+          "prob": 0.0001
+        },
+        {
+          "aa": "X",
+          "prob": 0.0001
+        },
+        {
+          "aa": "G",
+          "prob": 0.0
+        },
+        {
+          "aa": "C",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 291,
+      "original_aa": "Y",
+      "predicted_aa": "Y",
+      "prob": 0.9966,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "Y",
+          "prob": 0.9966
+        },
+        {
+          "aa": "H",
+          "prob": 0.002
+        },
+        {
+          "aa": "D",
+          "prob": 0.0009
+        },
+        {
+          "aa": "N",
+          "prob": 0.0003
+        },
+        {
+          "aa": "C",
+          "prob": 0.0003
+        }
+      ]
+    },
+    {
+      "position": 370,
+      "original_aa": "Q",
+      "predicted_aa": "Q",
+      "prob": 0.9995,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "Q",
+          "prob": 0.9995
+        },
+        {
+          "aa": "R",
+          "prob": 0.0002
+        },
+        {
+          "aa": "K",
+          "prob": 0.0002
+        },
+        {
+          "aa": "H",
+          "prob": 0.0001
+        },
+        {
+          "aa": "L",
+          "prob": 0.0001
+        }
+      ]
+    },
+    {
+      "position": 405,
+      "original_aa": "L",
+      "predicted_aa": "L",
+      "prob": 0.9996,
+      "correct": true,
+      "top5": [
+        {
+          "aa": "L",
+          "prob": 0.9996
+        },
+        {
+          "aa": "M",
+          "prob": 0.0003
+        },
+        {
+          "aa": "I",
+          "prob": 0.0
+        },
+        {
+          "aa": "F",
+          "prob": 0.0
+        },
+        {
+          "aa": "X",
+          "prob": 0.0
+        }
+      ]
+    }
+  ]
+}

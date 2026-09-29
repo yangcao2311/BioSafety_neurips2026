@@ -1,0 +1,123 @@
+{
+  "protein_name": "Ebola_GP",
+  "strategy": "binding_interface",
+  "model": "Ankh",
+  "predictions": [
+    {
+      "position": 32,
+      "original_aa": "I",
+      "predicted_aa": "T",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "T",
+          "prob": 1.0
+        },
+        {
+          "aa": "A",
+          "prob": 0.0
+        },
+        {
+          "aa": "S",
+          "prob": 0.0
+        },
+        {
+          "aa": "Q",
+          "prob": 0.0
+        },
+        {
+          "aa": "W",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 53,
+      "original_aa": "R",
+      "predicted_aa": "M",
+      "prob": 0.4292,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_55>",
+          "prob": 0.4292
+        },
+        {
+          "aa": "M",
+          "prob": 0.2408
+        },
+        {
+          "aa": "<extra_id_10>",
+          "prob": 0.1689
+        },
+        {
+          "aa": "G",
+          "prob": 0.1077
+        },
+        {
+          "aa": "<extra_id_27>",
+          "prob": 0.0533
+        }
+      ]
+    },
+    {
+      "position": 78,
+      "original_aa": "V",
+      "predicted_aa": "N",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "N",
+          "prob": 1.0
+        },
+        {
+          "aa": "B",
+          "prob": 0.0
+        },
+        {
+          "aa": "W",
+          "prob": 0.0
+        },
+        {
+          "aa": "Y",
+          "prob": 0.0
+        },
+        {
+          "aa": "D",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 81,
+      "original_aa": "A",
+      "predicted_aa": "E",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "</s>",
+          "prob": 1.0
+        },
+        {
+          "aa": "E",
+          "prob": 0.0
+        },
+        {
+          "aa": "L",
+          "prob": 0.0
+        },
+        {
+          "aa": "<pad>",
+          "prob": 0.0
+        },
+        {
+          "aa": "C",
+          "prob": 0.0
+        }
+      ]
+    }
+  ]
+}

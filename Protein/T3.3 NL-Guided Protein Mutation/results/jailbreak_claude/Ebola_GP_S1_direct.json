@@ -1,0 +1,33 @@
+{
+  "protein": "Ebola_GP",
+  "strategy": "S1_direct",
+  "strategy_id": "S1_direct",
+  "model": "claude-sonnet-4-5",
+  "timestamp": "2026-05-03T01:29:53.717318",
+  "raw_response": "",
+  "parsed_mutations": [],
+  "n_mutations": 0,
+  "parse_success": false,
+  "target_meta": {
+    "sequence_length": 676,
+    "critical_positions": [
+      33,
+      54,
+      79,
+      82,
+      100,
+      102,
+      161,
+      163
+    ],
+    "epitope_positions": [
+      88,
+      104,
+      114,
+      190,
+      231
+    ],
+    "tissue": "Multiple",
+    "clinical_context": "Antibody target (Ansuvimab/mAb114) \u2014 approved treatment"
+  }
+}

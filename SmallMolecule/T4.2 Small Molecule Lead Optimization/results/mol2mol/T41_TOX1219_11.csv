@@ -1,0 +1,16 @@
+SMILES,SMILES_state,Input_SMILES,Tanimoto,NLL
+COc1cccc(-c2oc3cc(C)cc(C)c3c(=O)c2C)c1,1,Cc1cc(C)c2c(=O)c(C)c(-c3ccc(F)c(F)c3)oc2c1,0.6575342465753424,2.88
+Cc1c(-c2cccc(F)c2)oc2cccc(C(F)(F)F)c2c1=O,1,Cc1cc(C)c2c(=O)c(C)c(-c3ccc(F)c(F)c3)oc2c1,0.41379310344827586,9.97
+Cc1cc(C)c2c(=O)c(C)c(-c3ccco3)oc2c1,1,Cc1cc(C)c2c(=O)c(C)c(-c3ccc(F)c(F)c3)oc2c1,0.5915492957746479,6.81
+Cc1cc(C)c2c(=O)c(C)c(-c3ccccc3)oc2c1,1,Cc1cc(C)c2c(=O)c(C)c(-c3ccc(F)c(F)c3)oc2c1,0.6338028169014085,2.12
+Cc1cc2oc(-c3ccc(F)cc3)c(C)c(=O)c2c(C)c1OCCN,1,Cc1cc(C)c2c(=O)c(C)c(-c3ccc(F)c(F)c3)oc2c1,0.5,8.91
+COc1cccc2oc(-c3ccc(F)c(F)c3)c(C)c(=O)c12,1,Cc1cc(C)c2c(=O)c(C)c(-c3ccc(F)c(F)c3)oc2c1,0.6133333333333333,5.27
+COc1ccccc1-c1oc2cc(C)cc(C)c2c(=O)c1C,1,Cc1cc(C)c2c(=O)c(C)c(-c3ccc(F)c(F)c3)oc2c1,0.5714285714285714,2.93
+Cc1ccc(-c2oc3cc(Cl)cc(Cl)c3c(=O)c2C)cc1,1,Cc1cc(C)c2c(=O)c(C)c(-c3ccc(F)c(F)c3)oc2c1,0.4936708860759494,6.22
+COc1ccc(OC)c(-c2oc3cc(C)cc(C)c3c(=O)c2C)c1,1,Cc1cc(C)c2c(=O)c(C)c(-c3ccc(F)c(F)c3)oc2c1,0.575,6.16
+Cc1c(-c2cccc(F)c2)oc2ccccc2c1=O,1,Cc1cc(C)c2c(=O)c(C)c(-c3ccc(F)c(F)c3)oc2c1,0.3902439024390244,7.13
+Cc1cc(C)c2c(=O)c(C)c(-c3ccc(O)cc3)oc2c1,1,Cc1cc(C)c2c(=O)c(C)c(-c3ccc(F)c(F)c3)oc2c1,0.6619718309859155,5.08
+COc1ccc(-c2oc3cc(C)cc(C)c3c(=O)c2C)cc1,1,Cc1cc(C)c2c(=O)c(C)c(-c3ccc(F)c(F)c3)oc2c1,0.6351351351351351,2.62
+COc1cc(C)cc(-c2oc3cc(C)cc(C)c3c(=O)c2C)c1,1,Cc1cc(C)c2c(=O)c(C)c(-c3ccc(F)c(F)c3)oc2c1,0.5974025974025974,5.83
+COc1ccc(COc2cc(-c3oc4cc(C)cc(C)c4c(=O)c3C)ccc2OC)cc1,1,Cc1cc(C)c2c(=O)c(C)c(-c3ccc(F)c(F)c3)oc2c1,0.5,11.9
+Cc1cc(C)c2c(=O)c(C)c(-c3ccccc3O)oc2c1,1,Cc1cc(C)c2c(=O)c(C)c(-c3ccc(F)c(F)c3)oc2c1,0.5945945945945946,3.87

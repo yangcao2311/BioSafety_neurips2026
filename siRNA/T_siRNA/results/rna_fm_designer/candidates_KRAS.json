@@ -1,0 +1,1802 @@
+[
+  {
+    "guide": "CCUGUAAUCCCAGCUACUCAG",
+    "target_pos": 3267,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.0522,
+    "RiNALMo_nll": 0.0402,
+    "combined_nll": 0.0462
+  },
+  {
+    "guide": "AGUUCGAGACCAGCCUGGCCA",
+    "target_pos": 3348,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.0797,
+    "RiNALMo_nll": 0.1615,
+    "combined_nll": 0.1206
+  },
+  {
+    "guide": "GCCACUGCCGCCGCCGCUGCU",
+    "target_pos": 27,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.2038,
+    "RiNALMo_nll": 0.1717,
+    "combined_nll": 0.1877
+  },
+  {
+    "guide": "GCGCCACUGCAUUCCAGCCUG",
+    "target_pos": 3186,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.2177,
+    "RiNALMo_nll": 0.1643,
+    "combined_nll": 0.191
+  },
+  {
+    "guide": "UUUUUCCAUUUUUUUCUUUUU",
+    "target_pos": 1485,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.1949,
+    "RiNALMo_nll": 0.2275,
+    "combined_nll": 0.2112
+  },
+  {
+    "guide": "UUGACUUCUUUUUCUUCUUUU",
+    "target_pos": 837,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.2266,
+    "RiNALMo_nll": 0.2272,
+    "combined_nll": 0.2269
+  },
+  {
+    "guide": "AGAUGGAGGUUGCAGUGAGCU",
+    "target_pos": 3213,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.0846,
+    "RiNALMo_nll": 0.4464,
+    "combined_nll": 0.2655
+  },
+  {
+    "guide": "ACUCAAUAAAUAUUUGCUGAA",
+    "target_pos": 3429,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3161,
+    "RiNALMo_nll": 0.3061,
+    "combined_nll": 0.3111
+  },
+  {
+    "guide": "UUUUUAAAAAAACUUCAACAA",
+    "target_pos": 4266,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.2845,
+    "RiNALMo_nll": 0.3682,
+    "combined_nll": 0.3263
+  },
+  {
+    "guide": "GCCGCCGCGGCCGCCGCCUAG",
+    "target_pos": 0,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3318,
+    "RiNALMo_nll": 0.3374,
+    "combined_nll": 0.3346
+  },
+  {
+    "guide": "CUUCAUUGUUUAAAAAAAAAA",
+    "target_pos": 2160,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3526,
+    "RiNALMo_nll": 0.341,
+    "combined_nll": 0.3468
+  },
+  {
+    "guide": "CACCUCACCAUGCCAUCUCAC",
+    "target_pos": 2349,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3427,
+    "RiNALMo_nll": 0.3749,
+    "combined_nll": 0.3588
+  },
+  {
+    "guide": "UUUUAAAGCAUUAUUAAAUAU",
+    "target_pos": 2268,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3099,
+    "RiNALMo_nll": 0.4197,
+    "combined_nll": 0.3648
+  },
+  {
+    "guide": "AAGGUGGGUGAAUCACUUGAG",
+    "target_pos": 3375,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.2834,
+    "RiNALMo_nll": 0.4712,
+    "combined_nll": 0.3773
+  },
+  {
+    "guide": "UGAAACCCCGUCUCUCCUAAA",
+    "target_pos": 3321,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.2502,
+    "RiNALMo_nll": 0.5073,
+    "combined_nll": 0.3787
+  },
+  {
+    "guide": "GAGGCACGAGAAUCGCUUGAA",
+    "target_pos": 3240,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3851,
+    "RiNALMo_nll": 0.3794,
+    "combined_nll": 0.3822
+  },
+  {
+    "guide": "UGUUUCACACCAACAUUCACA",
+    "target_pos": 1188,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3244,
+    "RiNALMo_nll": 0.4486,
+    "combined_nll": 0.3865
+  },
+  {
+    "guide": "UAUUUUAAAAUAAGUAACAUU",
+    "target_pos": 2322,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3739,
+    "RiNALMo_nll": 0.4301,
+    "combined_nll": 0.402
+  },
+  {
+    "guide": "CUCUGUCUUGUCUUUGCUGAU",
+    "target_pos": 621,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3507,
+    "RiNALMo_nll": 0.4558,
+    "combined_nll": 0.4032
+  },
+  {
+    "guide": "GGCCGAGCCGCCGCCACCUUC",
+    "target_pos": 54,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4008,
+    "RiNALMo_nll": 0.4059,
+    "combined_nll": 0.4033
+  },
+  {
+    "guide": "UUUUCAUUGCAUGAAGAUUUC",
+    "target_pos": 3105,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3488,
+    "RiNALMo_nll": 0.4594,
+    "combined_nll": 0.4041
+  },
+  {
+    "guide": "UUGUGUGGUGACUGGCAUCUG",
+    "target_pos": 3456,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3656,
+    "RiNALMo_nll": 0.4475,
+    "combined_nll": 0.4065
+  },
+  {
+    "guide": "UUAAAAUCUCUACAAAAACAA",
+    "target_pos": 4185,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3731,
+    "RiNALMo_nll": 0.4403,
+    "combined_nll": 0.4067
+  },
+  {
+    "guide": "UCAGAAAUCAUAGUGAUUUUU",
+    "target_pos": 3942,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3539,
+    "RiNALMo_nll": 0.4716,
+    "combined_nll": 0.4127
+  },
+  {
+    "guide": "CAGUGCCUGCGCCGCGCUCGC",
+    "target_pos": 108,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4109,
+    "RiNALMo_nll": 0.4183,
+    "combined_nll": 0.4146
+  },
+  {
+    "guide": "UAUCUUUCUUUAGAAAGAAAG",
+    "target_pos": 4806,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.412,
+    "RiNALMo_nll": 0.4178,
+    "combined_nll": 0.4149
+  },
+  {
+    "guide": "ACUGGCACUGAAGAUGGUGUA",
+    "target_pos": 2592,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3907,
+    "RiNALMo_nll": 0.4418,
+    "combined_nll": 0.4163
+  },
+  {
+    "guide": "AAUAAAAAAACAAUAUAAUCA",
+    "target_pos": 3726,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3807,
+    "RiNALMo_nll": 0.4537,
+    "combined_nll": 0.4172
+  },
+  {
+    "guide": "GGGCAUUUCUGAUGUGACUCA",
+    "target_pos": 2808,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3946,
+    "RiNALMo_nll": 0.4454,
+    "combined_nll": 0.42
+  },
+  {
+    "guide": "AAAUCAAUGGAAUACAAAUGA",
+    "target_pos": 4536,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4072,
+    "RiNALMo_nll": 0.4385,
+    "combined_nll": 0.4228
+  },
+  {
+    "guide": "AUUUUUAAAAAAGAGUUUGUU",
+    "target_pos": 2079,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4234,
+    "RiNALMo_nll": 0.4235,
+    "combined_nll": 0.4234
+  },
+  {
+    "guide": "CUUGUUAAAAUCUUUUCAAUU",
+    "target_pos": 1674,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3662,
+    "RiNALMo_nll": 0.4853,
+    "combined_nll": 0.4258
+  },
+  {
+    "guide": "CUGAGCCUCUGGCCCCGCCGC",
+    "target_pos": 135,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.421,
+    "RiNALMo_nll": 0.4321,
+    "combined_nll": 0.4265
+  },
+  {
+    "guide": "UUCUUUUAACAUGAAGAAAUG",
+    "target_pos": 2457,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3739,
+    "RiNALMo_nll": 0.4799,
+    "combined_nll": 0.4269
+  },
+  {
+    "guide": "UUAUCAAAAGGAUUGUUUUUA",
+    "target_pos": 2295,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3842,
+    "RiNALMo_nll": 0.4699,
+    "combined_nll": 0.4271
+  },
+  {
+    "guide": "GGAGUCUUUUCUUCUUUGCUG",
+    "target_pos": 702,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4019,
+    "RiNALMo_nll": 0.4561,
+    "combined_nll": 0.429
+  },
+  {
+    "guide": "UGACUAUUCUUCAAGAACUCA",
+    "target_pos": 4833,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.384,
+    "RiNALMo_nll": 0.4742,
+    "combined_nll": 0.4291
+  },
+  {
+    "guide": "AUGCAUUUUUUAAUUUUCACA",
+    "target_pos": 729,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3985,
+    "RiNALMo_nll": 0.4615,
+    "combined_nll": 0.43
+  },
+  {
+    "guide": "CAUCAUCAACACCCAGAUUAC",
+    "target_pos": 756,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3816,
+    "RiNALMo_nll": 0.485,
+    "combined_nll": 0.4333
+  },
+  {
+    "guide": "UGUUAAACCAUUCAAAGUUCA",
+    "target_pos": 4158,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.388,
+    "RiNALMo_nll": 0.479,
+    "combined_nll": 0.4335
+  },
+  {
+    "guide": "AAGAGCGAGACUCUGACACCA",
+    "target_pos": 3159,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3281,
+    "RiNALMo_nll": 0.5393,
+    "combined_nll": 0.4337
+  },
+  {
+    "guide": "UUAGGUAUUCAGUUUCUUUUU",
+    "target_pos": 1107,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4036,
+    "RiNALMo_nll": 0.4663,
+    "combined_nll": 0.435
+  },
+  {
+    "guide": "UUAGUAUUAUUUAUGGCAAAU",
+    "target_pos": 432,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3884,
+    "RiNALMo_nll": 0.4822,
+    "combined_nll": 0.4353
+  },
+  {
+    "guide": "UCUGCUAUAUUCUUCCACAAA",
+    "target_pos": 4320,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.386,
+    "RiNALMo_nll": 0.4847,
+    "combined_nll": 0.4353
+  },
+  {
+    "guide": "AAGUGAUGUCCUCAAAAUCAG",
+    "target_pos": 2430,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4037,
+    "RiNALMo_nll": 0.4676,
+    "combined_nll": 0.4356
+  },
+  {
+    "guide": "CUUUGCUCAUCUUUUCUUUAU",
+    "target_pos": 810,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3978,
+    "RiNALMo_nll": 0.475,
+    "combined_nll": 0.4364
+  },
+  {
+    "guide": "UCUUGGCACACCACCACCCCA",
+    "target_pos": 2133,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4807,
+    "RiNALMo_nll": 0.3932,
+    "combined_nll": 0.4369
+  },
+  {
+    "guide": "AACUAUUAAUUUUUAAGUAUA",
+    "target_pos": 3861,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3958,
+    "RiNALMo_nll": 0.4815,
+    "combined_nll": 0.4386
+  },
+  {
+    "guide": "AAUGUUUGAUAUGACCAACAU",
+    "target_pos": 5265,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3964,
+    "RiNALMo_nll": 0.4818,
+    "combined_nll": 0.4391
+  },
+  {
+    "guide": "AAAAAAAAACUAAGAGUUUGA",
+    "target_pos": 2484,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4707,
+    "RiNALMo_nll": 0.4079,
+    "combined_nll": 0.4393
+  },
+  {
+    "guide": "AAAAUAUAAUAUUUUGGGGAG",
+    "target_pos": 1458,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4253,
+    "RiNALMo_nll": 0.4548,
+    "combined_nll": 0.4401
+  },
+  {
+    "guide": "AAAAUUAGUUGAGUGUAGUGG",
+    "target_pos": 3294,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3578,
+    "RiNALMo_nll": 0.5258,
+    "combined_nll": 0.4418
+  },
+  {
+    "guide": "GAAGAAAAAAUGUUUAGAAGA",
+    "target_pos": 4563,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4367,
+    "RiNALMo_nll": 0.4486,
+    "combined_nll": 0.4426
+  },
+  {
+    "guide": "UAUAAUAGUUUCCAUUGCCUU",
+    "target_pos": 1512,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4082,
+    "RiNALMo_nll": 0.4804,
+    "combined_nll": 0.4443
+  },
+  {
+    "guide": "ACAAAAUUGUGCAAUGGUGAC",
+    "target_pos": 4455,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4219,
+    "RiNALMo_nll": 0.4691,
+    "combined_nll": 0.4455
+  },
+  {
+    "guide": "UGCUUCCUGUAGGAAUCCUCU",
+    "target_pos": 297,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4088,
+    "RiNALMo_nll": 0.4856,
+    "combined_nll": 0.4472
+  },
+  {
+    "guide": "AUAUCUGCAGAUAACUUUUUU",
+    "target_pos": 4941,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3977,
+    "RiNALMo_nll": 0.4974,
+    "combined_nll": 0.4475
+  },
+  {
+    "guide": "GGACACAGUCCAUGCUGUGAA",
+    "target_pos": 1917,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3866,
+    "RiNALMo_nll": 0.5089,
+    "combined_nll": 0.4477
+  },
+  {
+    "guide": "UUAUCUAAUGUGAAAAGGAAA",
+    "target_pos": 1539,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4106,
+    "RiNALMo_nll": 0.4873,
+    "combined_nll": 0.4489
+  },
+  {
+    "guide": "GGCAUGUGGAAGGUAGGGAGG",
+    "target_pos": 2700,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4266,
+    "RiNALMo_nll": 0.4728,
+    "combined_nll": 0.4497
+  },
+  {
+    "guide": "UCCGAAAUGGCGGGGGCCGGG",
+    "target_pos": 81,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4073,
+    "RiNALMo_nll": 0.4929,
+    "combined_nll": 0.4501
+  },
+  {
+    "guide": "UCCCAAACAGGCACUUCAAAC",
+    "target_pos": 4887,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.44,
+    "RiNALMo_nll": 0.4647,
+    "combined_nll": 0.4524
+  },
+  {
+    "guide": "UUACAAAUUUUAGAUCACUUC",
+    "target_pos": 5346,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3963,
+    "RiNALMo_nll": 0.5089,
+    "combined_nll": 0.4526
+  },
+  {
+    "guide": "UUCCUUUAAAACAAUGAAGUG",
+    "target_pos": 3699,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4354,
+    "RiNALMo_nll": 0.4715,
+    "combined_nll": 0.4534
+  },
+  {
+    "guide": "AAGUUUCCUUGUCUGUGAACU",
+    "target_pos": 3915,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.428,
+    "RiNALMo_nll": 0.4789,
+    "combined_nll": 0.4534
+  },
+  {
+    "guide": "AGUGGAAUUGGAAACUUUCGG",
+    "target_pos": 5022,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4178,
+    "RiNALMo_nll": 0.4921,
+    "combined_nll": 0.4549
+  },
+  {
+    "guide": "UUUGAUAACCUAUAAAAGUUA",
+    "target_pos": 4428,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4104,
+    "RiNALMo_nll": 0.5008,
+    "combined_nll": 0.4556
+  },
+  {
+    "guide": "UACACAUUUGGGUCAAUAUGA",
+    "target_pos": 3807,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4287,
+    "RiNALMo_nll": 0.4871,
+    "combined_nll": 0.4579
+  },
+  {
+    "guide": "ACAUUACUACACAAUUAUCAA",
+    "target_pos": 4671,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4146,
+    "RiNALMo_nll": 0.5021,
+    "combined_nll": 0.4584
+  },
+  {
+    "guide": "UUCAAUCUGUAUUGUCGGAUC",
+    "target_pos": 675,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.3792,
+    "RiNALMo_nll": 0.5377,
+    "combined_nll": 0.4585
+  },
+  {
+    "guide": "UGGUCCCUCAUUGCACUGUAC",
+    "target_pos": 378,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4164,
+    "RiNALMo_nll": 0.5027,
+    "combined_nll": 0.4596
+  },
+  {
+    "guide": "AAAGAAAGCACAAUGUACAAA",
+    "target_pos": 5184,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.453,
+    "RiNALMo_nll": 0.4669,
+    "combined_nll": 0.4599
+  },
+  {
+    "guide": "UCAGCAGGACCACCACAGAGU",
+    "target_pos": 2025,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4775,
+    "RiNALMo_nll": 0.4425,
+    "combined_nll": 0.46
+  },
+  {
+    "guide": "UUUAUGACAGCUAUUCAGUUU",
+    "target_pos": 4779,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4012,
+    "RiNALMo_nll": 0.519,
+    "combined_nll": 0.4601
+  },
+  {
+    "guide": "GAGUCCUUAACUCUUUUAAUU",
+    "target_pos": 486,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5136,
+    "RiNALMo_nll": 0.4072,
+    "combined_nll": 0.4604
+  },
+  {
+    "guide": "UGUCCUAAAAGAAUCACAGUU",
+    "target_pos": 3753,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4283,
+    "RiNALMo_nll": 0.4946,
+    "combined_nll": 0.4614
+  },
+  {
+    "guide": "CCAAAAUGGUUGCUAUAAUAA",
+    "target_pos": 1620,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4304,
+    "RiNALMo_nll": 0.4925,
+    "combined_nll": 0.4615
+  },
+  {
+    "guide": "AGCAAAGAGAUGUUCAAAGCA",
+    "target_pos": 2916,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4647,
+    "RiNALMo_nll": 0.4588,
+    "combined_nll": 0.4617
+  },
+  {
+    "guide": "UAAAACUAUCUUCAAAGACUC",
+    "target_pos": 1782,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4511,
+    "RiNALMo_nll": 0.4742,
+    "combined_nll": 0.4627
+  },
+  {
+    "guide": "UUCACCUCUUGCACAAUUUUG",
+    "target_pos": 2619,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4396,
+    "RiNALMo_nll": 0.4866,
+    "combined_nll": 0.4631
+  },
+  {
+    "guide": "GUUCCUGAAGUAUGGCCAUUU",
+    "target_pos": 4050,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.424,
+    "RiNALMo_nll": 0.5024,
+    "combined_nll": 0.4632
+  },
+  {
+    "guide": "AAGAAAAGAUUUAAAGUUAUA",
+    "target_pos": 1755,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4692,
+    "RiNALMo_nll": 0.4585,
+    "combined_nll": 0.4638
+  },
+  {
+    "guide": "UAAAUUCAUCUAAAUUACCUA",
+    "target_pos": 4914,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4513,
+    "RiNALMo_nll": 0.477,
+    "combined_nll": 0.4642
+  },
+  {
+    "guide": "GGAGUAGUACAGUUCAUGACA",
+    "target_pos": 5373,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4398,
+    "RiNALMo_nll": 0.4891,
+    "combined_nll": 0.4644
+  },
+  {
+    "guide": "ACCUUCUUCCUAGUCCAGUGA",
+    "target_pos": 2376,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4247,
+    "RiNALMo_nll": 0.5061,
+    "combined_nll": 0.4654
+  },
+  {
+    "guide": "UCUUGAGCCCUGAGGAAAUAA",
+    "target_pos": 2835,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4327,
+    "RiNALMo_nll": 0.4984,
+    "combined_nll": 0.4655
+  },
+  {
+    "guide": "CCUGGCCUUGCAACCUUGGUC",
+    "target_pos": 1863,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4336,
+    "RiNALMo_nll": 0.498,
+    "combined_nll": 0.4658
+  },
+  {
+    "guide": "GACUUGAAAAGUGUUUAUGCA",
+    "target_pos": 2241,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4297,
+    "RiNALMo_nll": 0.5054,
+    "combined_nll": 0.4676
+  },
+  {
+    "guide": "AUUACUUUUUGACAAAUGGAA",
+    "target_pos": 4644,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4549,
+    "RiNALMo_nll": 0.4842,
+    "combined_nll": 0.4696
+  },
+  {
+    "guide": "AGAAACAAAAGCAAUGCUCUU",
+    "target_pos": 2052,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4776,
+    "RiNALMo_nll": 0.4621,
+    "combined_nll": 0.4699
+  },
+  {
+    "guide": "UUUAUGUGACUAGAUAAAACA",
+    "target_pos": 1242,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4419,
+    "RiNALMo_nll": 0.4992,
+    "combined_nll": 0.4706
+  },
+  {
+    "guide": "UUGUCUUUAAGGCUGUAAUAA",
+    "target_pos": 4239,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.424,
+    "RiNALMo_nll": 0.5194,
+    "combined_nll": 0.4717
+  },
+  {
+    "guide": "AAUUGGCACUCAAAGGAAAAA",
+    "target_pos": 5076,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4519,
+    "RiNALMo_nll": 0.4918,
+    "combined_nll": 0.4719
+  },
+  {
+    "guide": "AAACUUCCACUGUCAUUUUAA",
+    "target_pos": 1026,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4174,
+    "RiNALMo_nll": 0.5299,
+    "combined_nll": 0.4737
+  },
+  {
+    "guide": "AUUUAAUUCCUAUGAGAAUUU",
+    "target_pos": 1701,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4447,
+    "RiNALMo_nll": 0.5033,
+    "combined_nll": 0.474
+  },
+  {
+    "guide": "AAGUCCUGAGCCUGUUUUGUG",
+    "target_pos": 567,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4676,
+    "RiNALMo_nll": 0.4871,
+    "combined_nll": 0.4773
+  },
+  {
+    "guide": "CAACUUUUGAGUUAAUAUUUA",
+    "target_pos": 2106,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4569,
+    "RiNALMo_nll": 0.5004,
+    "combined_nll": 0.4786
+  },
+  {
+    "guide": "CUAUAAUGGUGAAUAUCUUCA",
+    "target_pos": 459,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4656,
+    "RiNALMo_nll": 0.4921,
+    "combined_nll": 0.4789
+  },
+  {
+    "guide": "UCUUAACACCCUACCUAAACA",
+    "target_pos": 3996,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4445,
+    "RiNALMo_nll": 0.5139,
+    "combined_nll": 0.4792
+  },
+  {
+    "guide": "AGGGAUGAUUCAAAAGCUUCA",
+    "target_pos": 1215,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.503,
+    "RiNALMo_nll": 0.4558,
+    "combined_nll": 0.4794
+  },
+  {
+    "guide": "UGCACCAAAAGCCCCAAGACA",
+    "target_pos": 1134,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4791,
+    "RiNALMo_nll": 0.4801,
+    "combined_nll": 0.4796
+  },
+  {
+    "guide": "AUGCAUGACAACACUGGAUGA",
+    "target_pos": 1944,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4632,
+    "RiNALMo_nll": 0.4971,
+    "combined_nll": 0.4802
+  },
+  {
+    "guide": "UUUAAGGUAACUGCUGGGUUC",
+    "target_pos": 4698,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4568,
+    "RiNALMo_nll": 0.5044,
+    "combined_nll": 0.4806
+  },
+  {
+    "guide": "UAUGAAAGCUCAAAGGUUCAC",
+    "target_pos": 1890,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4775,
+    "RiNALMo_nll": 0.4881,
+    "combined_nll": 0.4828
+  },
+  {
+    "guide": "UCUCAACUGAAAUUAGUAAUU",
+    "target_pos": 1269,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4716,
+    "RiNALMo_nll": 0.4955,
+    "combined_nll": 0.4835
+  },
+  {
+    "guide": "AAGAGCAGUCUGACACAGGGA",
+    "target_pos": 1728,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4868,
+    "RiNALMo_nll": 0.4828,
+    "combined_nll": 0.4848
+  },
+  {
+    "guide": "AGUAUUUUCAACAUGAAAACA",
+    "target_pos": 5049,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4854,
+    "RiNALMo_nll": 0.4841,
+    "combined_nll": 0.4848
+  },
+  {
+    "guide": "AUGUUUCAGUUUACACUAUAC",
+    "target_pos": 5157,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4432,
+    "RiNALMo_nll": 0.5264,
+    "combined_nll": 0.4848
+  },
+  {
+    "guide": "ACUGGAUCACACUGCAUAUGU",
+    "target_pos": 5211,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4627,
+    "RiNALMo_nll": 0.5069,
+    "combined_nll": 0.4848
+  },
+  {
+    "guide": "GUGUGGGGGGAGAGAUGGGCC",
+    "target_pos": 4968,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4387,
+    "RiNALMo_nll": 0.5329,
+    "combined_nll": 0.4858
+  },
+  {
+    "guide": "UUGACAAAUAAGUGUAUCCUU",
+    "target_pos": 2538,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4548,
+    "RiNALMo_nll": 0.5171,
+    "combined_nll": 0.486
+  },
+  {
+    "guide": "ACAAGUUUAUAUUCAGUCAUU",
+    "target_pos": 189,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4688,
+    "RiNALMo_nll": 0.5036,
+    "combined_nll": 0.4862
+  },
+  {
+    "guide": "UUACUUAUGCAGAGAAAACUG",
+    "target_pos": 3834,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4588,
+    "RiNALMo_nll": 0.5146,
+    "combined_nll": 0.4867
+  },
+  {
+    "guide": "AGAUAGUUUUUGCUGUCUAAA",
+    "target_pos": 4617,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4377,
+    "RiNALMo_nll": 0.5366,
+    "combined_nll": 0.4871
+  },
+  {
+    "guide": "CAUUGCUAGUUCAAAAACCAA",
+    "target_pos": 1080,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4499,
+    "RiNALMo_nll": 0.5271,
+    "combined_nll": 0.4885
+  },
+  {
+    "guide": "AGGCCUCUCUCCCGCACCUGG",
+    "target_pos": 162,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4869,
+    "RiNALMo_nll": 0.4909,
+    "combined_nll": 0.4889
+  },
+  {
+    "guide": "AGUUCUGCAAAACAGGUUUAU",
+    "target_pos": 3402,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.453,
+    "RiNALMo_nll": 0.5272,
+    "combined_nll": 0.4901
+  },
+  {
+    "guide": "AAGUAUUAAAACUGCAUCAAG",
+    "target_pos": 2727,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4632,
+    "RiNALMo_nll": 0.5212,
+    "combined_nll": 0.4922
+  },
+  {
+    "guide": "AUGGAGCAGGAAAAAAAUUAG",
+    "target_pos": 972,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5108,
+    "RiNALMo_nll": 0.4742,
+    "combined_nll": 0.4925
+  },
+  {
+    "guide": "AUUAAAUUCUCCUUCCACUGG",
+    "target_pos": 2997,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4691,
+    "RiNALMo_nll": 0.5177,
+    "combined_nll": 0.4934
+  },
+  {
+    "guide": "CUUGUGCAAACUGUAACUUAA",
+    "target_pos": 4509,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4743,
+    "RiNALMo_nll": 0.5161,
+    "combined_nll": 0.4952
+  },
+  {
+    "guide": "AGAAAGCCCUCCCCAGUCCUC",
+    "target_pos": 405,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.487,
+    "RiNALMo_nll": 0.5037,
+    "combined_nll": 0.4954
+  },
+  {
+    "guide": "AUAAAAGGAAUUCCAUAACUU",
+    "target_pos": 594,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4887,
+    "RiNALMo_nll": 0.5021,
+    "combined_nll": 0.4954
+  },
+  {
+    "guide": "UGAAUUAGCUGUAUCGUCAAG",
+    "target_pos": 243,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4296,
+    "RiNALMo_nll": 0.5619,
+    "combined_nll": 0.4957
+  },
+  {
+    "guide": "CUAAAACAAAUGCUAAUAAUU",
+    "target_pos": 945,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4916,
+    "RiNALMo_nll": 0.5021,
+    "combined_nll": 0.4968
+  },
+  {
+    "guide": "ACAUUCACUCAAAUGAUACAA",
+    "target_pos": 4347,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4783,
+    "RiNALMo_nll": 0.5155,
+    "combined_nll": 0.4969
+  },
+  {
+    "guide": "GUUAAAAAUUUACAGAUUGUG",
+    "target_pos": 2565,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4668,
+    "RiNALMo_nll": 0.5286,
+    "combined_nll": 0.4977
+  },
+  {
+    "guide": "GUAUCUUGUUGAGCUAUCCAA",
+    "target_pos": 1998,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4889,
+    "RiNALMo_nll": 0.5072,
+    "combined_nll": 0.4981
+  },
+  {
+    "guide": "AAACUUCAUGGAGAUAUCCAC",
+    "target_pos": 2781,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4995,
+    "RiNALMo_nll": 0.4972,
+    "combined_nll": 0.4983
+  },
+  {
+    "guide": "GUAUUUACAUAAUUACACACU",
+    "target_pos": 864,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5352,
+    "RiNALMo_nll": 0.4626,
+    "combined_nll": 0.4989
+  },
+  {
+    "guide": "UCUCUGGGUCGUAUACCAAAG",
+    "target_pos": 3564,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4878,
+    "RiNALMo_nll": 0.515,
+    "combined_nll": 0.5014
+  },
+  {
+    "guide": "GGAUCAUAUUCGUCCACAAAA",
+    "target_pos": 270,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5496,
+    "RiNALMo_nll": 0.4537,
+    "combined_nll": 0.5017
+  },
+  {
+    "guide": "UGACCUGCUGUGUCGAGAAUA",
+    "target_pos": 351,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4655,
+    "RiNALMo_nll": 0.5386,
+    "combined_nll": 0.502
+  },
+  {
+    "guide": "AAAACCUUUGUGAACAGUGUA",
+    "target_pos": 1404,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5245,
+    "RiNALMo_nll": 0.4807,
+    "combined_nll": 0.5026
+  },
+  {
+    "guide": "CAUUUAAGGUAAAAGCUAACA",
+    "target_pos": 999,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.477,
+    "RiNALMo_nll": 0.5293,
+    "combined_nll": 0.5031
+  },
+  {
+    "guide": "CAUUCAUCAGGGAUGACAAAC",
+    "target_pos": 1377,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5104,
+    "RiNALMo_nll": 0.4961,
+    "combined_nll": 0.5032
+  },
+  {
+    "guide": "CAAAGAUCUGUAGUUUCACAU",
+    "target_pos": 3969,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4785,
+    "RiNALMo_nll": 0.5328,
+    "combined_nll": 0.5056
+  },
+  {
+    "guide": "AACAUUUAUUUCUAGAAUUCU",
+    "target_pos": 4212,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5233,
+    "RiNALMo_nll": 0.4881,
+    "combined_nll": 0.5057
+  },
+  {
+    "guide": "GUUCUAGAAGGCAAAUCACAU",
+    "target_pos": 540,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4756,
+    "RiNALMo_nll": 0.5359,
+    "combined_nll": 0.5058
+  },
+  {
+    "guide": "CACUGUAACCCAGUUAGCUCU",
+    "target_pos": 4995,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5001,
+    "RiNALMo_nll": 0.5118,
+    "combined_nll": 0.506
+  },
+  {
+    "guide": "GCAGAAUUCAUGCUAUCCAGU",
+    "target_pos": 4752,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4769,
+    "RiNALMo_nll": 0.5369,
+    "combined_nll": 0.5069
+  },
+  {
+    "guide": "AACGAGAAUGGAUAUUCAAAU",
+    "target_pos": 2646,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5043,
+    "RiNALMo_nll": 0.5107,
+    "combined_nll": 0.5075
+  },
+  {
+    "guide": "AAUGUACAAAAAUUACCACUU",
+    "target_pos": 918,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4952,
+    "RiNALMo_nll": 0.5222,
+    "combined_nll": 0.5087
+  },
+  {
+    "guide": "UGCAAAACUAAAAUACGCAUC",
+    "target_pos": 3591,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4951,
+    "RiNALMo_nll": 0.524,
+    "combined_nll": 0.5096
+  },
+  {
+    "guide": "UCCCCUAAAAAAAGUUAUAUA",
+    "target_pos": 4590,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5195,
+    "RiNALMo_nll": 0.5004,
+    "combined_nll": 0.5099
+  },
+  {
+    "guide": "UUUCAUACUGGGUCUGCCUUA",
+    "target_pos": 1593,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4883,
+    "RiNALMo_nll": 0.532,
+    "combined_nll": 0.5101
+  },
+  {
+    "guide": "AAAUUCCUAUGCAGUGUGACU",
+    "target_pos": 4401,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5019,
+    "RiNALMo_nll": 0.5197,
+    "combined_nll": 0.5108
+  },
+  {
+    "guide": "CUGUGUAGAAACGAGGUACUG",
+    "target_pos": 4023,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4578,
+    "RiNALMo_nll": 0.5664,
+    "combined_nll": 0.5121
+  },
+  {
+    "guide": "AUAAUCUUUUAAUGUCACAAG",
+    "target_pos": 1809,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4861,
+    "RiNALMo_nll": 0.5408,
+    "combined_nll": 0.5134
+  },
+  {
+    "guide": "AUGUUUCAGUAAAAACCAAUU",
+    "target_pos": 1296,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5169,
+    "RiNALMo_nll": 0.5102,
+    "combined_nll": 0.5136
+  },
+  {
+    "guide": "CCAGGAGUAGUCCUAGUUAUA",
+    "target_pos": 3051,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4356,
+    "RiNALMo_nll": 0.5921,
+    "combined_nll": 0.5138
+  },
+  {
+    "guide": "AAGAAAAAUAAGAAGUAAUCA",
+    "target_pos": 1161,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5728,
+    "RiNALMo_nll": 0.4583,
+    "combined_nll": 0.5156
+  },
+  {
+    "guide": "GCUGGCACAGAGACCAAACCC",
+    "target_pos": 3618,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5811,
+    "RiNALMo_nll": 0.4541,
+    "combined_nll": 0.5176
+  },
+  {
+    "guide": "CAUACUCCUAUAAACAUUUAA",
+    "target_pos": 5319,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4945,
+    "RiNALMo_nll": 0.5408,
+    "combined_nll": 0.5177
+  },
+  {
+    "guide": "AUUUCAAUUAAAAGAGUGGUC",
+    "target_pos": 5292,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5071,
+    "RiNALMo_nll": 0.5313,
+    "combined_nll": 0.5192
+  },
+  {
+    "guide": "CUAAGGAAUUCUUUCAGCACU",
+    "target_pos": 3024,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5372,
+    "RiNALMo_nll": 0.5018,
+    "combined_nll": 0.5195
+  },
+  {
+    "guide": "GGAAGCCCAUAAAUUUGUGUU",
+    "target_pos": 1323,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5081,
+    "RiNALMo_nll": 0.5316,
+    "combined_nll": 0.5198
+  },
+  {
+    "guide": "CCACAAAGUUUCUAUGUAUAU",
+    "target_pos": 4482,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5291,
+    "RiNALMo_nll": 0.5109,
+    "combined_nll": 0.52
+  },
+  {
+    "guide": "ACAUGAUGCCUAGAAGAAUCA",
+    "target_pos": 1350,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5259,
+    "RiNALMo_nll": 0.5147,
+    "combined_nll": 0.5203
+  },
+  {
+    "guide": "GGGAAUACUGGCACUUAGAGG",
+    "target_pos": 1053,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5106,
+    "RiNALMo_nll": 0.5316,
+    "combined_nll": 0.5211
+  },
+  {
+    "guide": "AAACCUAGAGAUUGUAAAACU",
+    "target_pos": 2187,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5493,
+    "RiNALMo_nll": 0.495,
+    "combined_nll": 0.5222
+  },
+  {
+    "guide": "GACACUAAUAUGGAAGAAGAG",
+    "target_pos": 2673,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5415,
+    "RiNALMo_nll": 0.5039,
+    "combined_nll": 0.5227
+  },
+  {
+    "guide": "AAAAUUUAGUAGCAUGUAAAU",
+    "target_pos": 1647,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5399,
+    "RiNALMo_nll": 0.5071,
+    "combined_nll": 0.5235
+  },
+  {
+    "guide": "AAUAGAGCCUAGAAUGCCUAC",
+    "target_pos": 4374,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5082,
+    "RiNALMo_nll": 0.544,
+    "combined_nll": 0.5261
+  },
+  {
+    "guide": "ACUAAAACACAGAUCUUAAUC",
+    "target_pos": 4860,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5077,
+    "RiNALMo_nll": 0.5505,
+    "combined_nll": 0.5291
+  },
+  {
+    "guide": "CAUGACUAAUAGCAGUGGAAA",
+    "target_pos": 1431,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5169,
+    "RiNALMo_nll": 0.543,
+    "combined_nll": 0.53
+  },
+  {
+    "guide": "AUUUAACCAGUGUUAAGAGAA",
+    "target_pos": 2214,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5067,
+    "RiNALMo_nll": 0.5538,
+    "combined_nll": 0.5302
+  },
+  {
+    "guide": "CUAAAACAAUGGAAUGUAUUA",
+    "target_pos": 3078,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5333,
+    "RiNALMo_nll": 0.5312,
+    "combined_nll": 0.5322
+  },
+  {
+    "guide": "AUGGAAUAUAAAUUACAUAGU",
+    "target_pos": 2511,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5508,
+    "RiNALMo_nll": 0.5142,
+    "combined_nll": 0.5325
+  },
+  {
+    "guide": "CUAGUCCCUCCCCAUUUUGAC",
+    "target_pos": 1971,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5027,
+    "RiNALMo_nll": 0.5656,
+    "combined_nll": 0.5342
+  },
+  {
+    "guide": "GGUAAUUAACCACUACCUUAA",
+    "target_pos": 4131,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5608,
+    "RiNALMo_nll": 0.5097,
+    "combined_nll": 0.5353
+  },
+  {
+    "guide": "UUACAUUAAGAAAUAGUACUA",
+    "target_pos": 5103,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5495,
+    "RiNALMo_nll": 0.5247,
+    "combined_nll": 0.5371
+  },
+  {
+    "guide": "UUCUGUCUAUUCAUACCAGGU",
+    "target_pos": 2970,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5388,
+    "RiNALMo_nll": 0.5356,
+    "combined_nll": 0.5372
+  },
+  {
+    "guide": "GUGGAAUCGUAGCAAAACAAU",
+    "target_pos": 3645,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5423,
+    "RiNALMo_nll": 0.536,
+    "combined_nll": 0.5391
+  },
+  {
+    "guide": "GACAUACACCUUAAUGUGUAC",
+    "target_pos": 3780,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.4994,
+    "RiNALMo_nll": 0.5787,
+    "combined_nll": 0.5391
+  },
+  {
+    "guide": "GCCCAUCUACAUCAAAAAUUC",
+    "target_pos": 4104,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5297,
+    "RiNALMo_nll": 0.5499,
+    "combined_nll": 0.5398
+  },
+  {
+    "guide": "ACCACCUGAAAAUUAGUGAUU",
+    "target_pos": 2889,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5472,
+    "RiNALMo_nll": 0.533,
+    "combined_nll": 0.5401
+  },
+  {
+    "guide": "AGACAGGUUUCUCCAUCAAUU",
+    "target_pos": 324,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5438,
+    "RiNALMo_nll": 0.5368,
+    "combined_nll": 0.5403
+  },
+  {
+    "guide": "AGUAAAUCUUAUGGUUAGGGG",
+    "target_pos": 2754,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5269,
+    "RiNALMo_nll": 0.554,
+    "combined_nll": 0.5405
+  },
+  {
+    "guide": "AGUUAAAAUACAUUCCAGGUA",
+    "target_pos": 5130,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5389,
+    "RiNALMo_nll": 0.5433,
+    "combined_nll": 0.5411
+  },
+  {
+    "guide": "GUCAGCGCAACCAAAUGAUGG",
+    "target_pos": 5238,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5523,
+    "RiNALMo_nll": 0.533,
+    "combined_nll": 0.5426
+  },
+  {
+    "guide": "GAAUUUCUCGAACUAAUGUAU",
+    "target_pos": 783,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5067,
+    "RiNALMo_nll": 0.5816,
+    "combined_nll": 0.5441
+  },
+  {
+    "guide": "ACAGAAGUUACUAAAUAUAAA",
+    "target_pos": 4725,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5845,
+    "RiNALMo_nll": 0.5037,
+    "combined_nll": 0.5441
+  },
+  {
+    "guide": "ACACCUAAUAAGCUAUAACUG",
+    "target_pos": 1836,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5565,
+    "RiNALMo_nll": 0.5344,
+    "combined_nll": 0.5455
+  },
+  {
+    "guide": "AAUCCCUUUAUGGUAUCUGUC",
+    "target_pos": 2862,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5489,
+    "RiNALMo_nll": 0.545,
+    "combined_nll": 0.5469
+  },
+  {
+    "guide": "AAUCCUACUGUCGCUAAUGGA",
+    "target_pos": 2943,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5202,
+    "RiNALMo_nll": 0.5816,
+    "combined_nll": 0.5509
+  },
+  {
+    "guide": "UACCUAAGGACCGGGAUUAUG",
+    "target_pos": 3510,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5473,
+    "RiNALMo_nll": 0.5602,
+    "combined_nll": 0.5537
+  },
+  {
+    "guide": "UUGCCUACGCCACCAGCUCCA",
+    "target_pos": 216,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.6342,
+    "RiNALMo_nll": 0.4849,
+    "combined_nll": 0.5595
+  },
+  {
+    "guide": "AAAAGUAAGCUUCAUGAAUUA",
+    "target_pos": 3132,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5989,
+    "RiNALMo_nll": 0.5253,
+    "combined_nll": 0.5621
+  },
+  {
+    "guide": "AAAGCUAUUAGGAGUCUUUAU",
+    "target_pos": 1566,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5994,
+    "RiNALMo_nll": 0.5322,
+    "combined_nll": 0.5658
+  },
+  {
+    "guide": "GUAAGAUAUUACAGACCACAC",
+    "target_pos": 3537,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5562,
+    "RiNALMo_nll": 0.578,
+    "combined_nll": 0.5671
+  },
+  {
+    "guide": "AUAAAGUAGCUUGAUCGAAGA",
+    "target_pos": 3672,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5563,
+    "RiNALMo_nll": 0.5823,
+    "combined_nll": 0.5693
+  },
+  {
+    "guide": "GGCACCUGUUUAUUUGUACCC",
+    "target_pos": 3888,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.5667,
+    "RiNALMo_nll": 0.5847,
+    "combined_nll": 0.5757
+  },
+  {
+    "guide": "AAUGCCUAAGUCUAUGUAAUU",
+    "target_pos": 4293,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.6068,
+    "RiNALMo_nll": 0.5613,
+    "combined_nll": 0.584
+  },
+  {
+    "guide": "GUUUGGGGAUACCAUAUACCC",
+    "target_pos": 3483,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.6039,
+    "RiNALMo_nll": 0.5655,
+    "combined_nll": 0.5847
+  },
+  {
+    "guide": "AAAAGACACCUAUCUAGAACC",
+    "target_pos": 2403,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.6415,
+    "RiNALMo_nll": 0.5634,
+    "combined_nll": 0.6025
+  },
+  {
+    "guide": "ACCAAUGUAUAAAAAGCAUCC",
+    "target_pos": 648,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.6478,
+    "RiNALMo_nll": 0.574,
+    "combined_nll": 0.6109
+  },
+  {
+    "guide": "CCUACUAGGACCAUAGGUACA",
+    "target_pos": 513,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.6554,
+    "RiNALMo_nll": 0.5678,
+    "combined_nll": 0.6116
+  },
+  {
+    "guide": "CCUAAAUAUCCCCUCAUAAGC",
+    "target_pos": 4077,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.6502,
+    "RiNALMo_nll": 0.5807,
+    "combined_nll": 0.6154
+  },
+  {
+    "guide": "GUAUGCCUUAAGAAAAAAGUA",
+    "target_pos": 891,
+    "gene": "KRAS",
+    "accession": "NM_033360.4",
+    "RNA-FM_nll": 0.675,
+    "RiNALMo_nll": 0.5669,
+    "combined_nll": 0.6209
+  }
+]

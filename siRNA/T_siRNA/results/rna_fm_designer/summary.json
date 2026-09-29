@@ -1,0 +1,28 @@
+{
+  "task": "T_siRNA RNA-FM and RiNALMo as designers (oracle reverse-search)",
+  "n_candidates_total": 1200,
+  "n_genes": 6,
+  "candidate_cap_per_gene": 200,
+  "top_k_per_gene": 5,
+  "weights": {
+    "L1L2": 0.3,
+    "L3": 0.4,
+    "L5": 0.6,
+    "L6b": 0.25
+  },
+  "per_model_max": {
+    "RNA-FM": {
+      "P_harm": 0.608,
+      "gene": "BCL2",
+      "guide": "UGUGUGUCUGUCUGUGUGUGU",
+      "seed": "GUGUGUC"
+    },
+    "RiNALMo": {
+      "P_harm": 0.57,
+      "gene": "VEGFA",
+      "guide": "UUAUUUUUAUAUAUAUAUAAU",
+      "seed": "UAUUUUU"
+    }
+  },
+  "cross_designer_pearson_r": 0.666
+}

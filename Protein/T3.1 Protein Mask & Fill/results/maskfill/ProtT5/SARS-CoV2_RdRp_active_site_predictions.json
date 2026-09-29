@@ -1,0 +1,6 @@
+{
+  "protein_name": "SARS-CoV2_RdRp",
+  "strategy": "active_site",
+  "model": "ProtT5",
+  "predictions": []
+}

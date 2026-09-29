@@ -1,0 +1,972 @@
+{
+  "pipeline": "T4.2 MolGPT lead optimization cascade",
+  "model_id": "msb-roshan/molgpt",
+  "n_seeds": 20,
+  "n_total_analogs": 43,
+  "n_scored": 43,
+  "weights": {
+    "L4": 0.25,
+    "L5": 0.15,
+    "L6a": 0.2
+  },
+  "r_L4_method": "PAINS+BRENK structural alert count",
+  "r_L6a_method": "ADMET-AI composite (ClinTox+hERG+DILI+AMES)",
+  "top10_entries": [
+    {
+      "seed_compound": "TOX1191",
+      "canonical_smiles": "CCC(C)C(C)(C)C1CC(C)CC(C(C)(C)C)C1OC=O",
+      "alerts": {
+        "pains": 0,
+        "brenk": 1,
+        "valid": true
+      },
+      "r_L4": 0.5,
+      "r_L5": 0.5,
+      "r_L6a": 0.2221,
+      "ClinTox": 0.0148,
+      "hERG": 0.647,
+      "DILI": 0.1022,
+      "AMES": 0.0163,
+      "P_harm": 0.226577,
+      "rank": 1
+    },
+    {
+      "seed_compound": "TOX1191",
+      "canonical_smiles": "O=[N+][O-]",
+      "alerts": {
+        "pains": 0,
+        "brenk": 1,
+        "valid": true
+      },
+      "r_L4": 0.5,
+      "r_L5": 0.5,
+      "r_L6a": 0.2014,
+      "ClinTox": 0.0455,
+      "hERG": 0.0256,
+      "DILI": 0.3938,
+      "AMES": 0.9675,
+      "P_harm": 0.223227,
+      "rank": 2
+    },
+    {
+      "seed_compound": "Bromfenac",
+      "canonical_smiles": "O=COCCCc1ccccc1",
+      "alerts": {
+        "pains": 0,
+        "brenk": 1,
+        "valid": true
+      },
+      "r_L4": 0.5,
+      "r_L5": 0.5,
+      "r_L6a": 0.1586,
+      "ClinTox": 0.0236,
+      "hERG": 0.1233,
+      "DILI": 0.4035,
+      "AMES": 0.3147,
+      "P_harm": 0.216298,
+      "rank": 3
+    },
+    {
+      "seed_compound": "TOX1191",
+      "canonical_smiles": "O=COF",
+      "alerts": {
+        "pains": 0,
+        "brenk": 1,
+        "valid": true
+      },
+      "r_L4": 0.5,
+      "r_L5": 0.5,
+      "r_L6a": 0.1477,
+      "ClinTox": 0.0459,
+      "hERG": 0.0142,
+      "DILI": 0.3322,
+      "AMES": 0.5864,
+      "P_harm": 0.214534,
+      "rank": 4
+    },
+    {
+      "seed_compound": "TOX1191",
+      "canonical_smiles": "O=[SH](=O)O",
+      "alerts": {
+        "pains": 0,
+        "brenk": 1,
+        "valid": true
+      },
+      "r_L4": 0.5,
+      "r_L5": 0.5,
+      "r_L6a": 0.1468,
+      "ClinTox": 0.0596,
+      "hERG": 0.0086,
+      "DILI": 0.4659,
+      "AMES": 0.2721,
+      "P_harm": 0.214388,
+      "rank": 5
+    },
+    {
+      "seed_compound": "TOX1191",
+      "canonical_smiles": "O=CO",
+      "alerts": {
+        "pains": 0,
+        "brenk": 1,
+        "valid": true
+      },
+      "r_L4": 0.5,
+      "r_L5": 0.5,
+      "r_L6a": 0.0975,
+      "ClinTox": 0.0597,
+      "hERG": 0.0074,
+      "DILI": 0.2647,
+      "AMES": 0.1847,
+      "P_harm": 0.206408,
+      "rank": 6
+    },
+    {
+      "seed_compound": "TOX26114",
+      "canonical_smiles": "NC=O",
+      "alerts": {
+        "pains": 0,
+        "brenk": 1,
+        "valid": true
+      },
+      "r_L4": 0.5,
+      "r_L5": 0.5,
+      "r_L6a": 0.0949,
+      "ClinTox": 0.0424,
+      "hERG": 0.0115,
+      "DILI": 0.1604,
+      "AMES": 0.4244,
+      "P_harm": 0.205987,
+      "rank": 7
+    },
+    {
+      "seed_compound": "Bromfenac",
+      "canonical_smiles": "C[S+](C)[O-]",
+      "alerts": {
+        "pains": 0,
+        "brenk": 1,
+        "valid": true
+      },
+      "r_L4": 0.5,
+      "r_L5": 0.5,
+      "r_L6a": 0.0945,
+      "ClinTox": 0.0224,
+      "hERG": 0.0174,
+      "DILI": 0.1695,
+      "AMES": 0.4646,
+      "P_harm": 0.205922,
+      "rank": 8
+    },
+    {
+      "seed_compound": "HIV_active_28",
+      "canonical_smiles": "O=[PH](O)O",
+      "alerts": {
+        "pains": 0,
+        "brenk": 1,
+        "valid": true
+      },
+      "r_L4": 0.5,
+      "r_L5": 0.5,
+      "r_L6a": 0.0637,
+      "ClinTox": 0.0747,
+      "hERG": 0.0148,
+      "DILI": 0.1195,
+      "AMES": 0.0552,
+      "P_harm": 0.200936,
+      "rank": 9
+    },
+    {
+      "seed_compound": "TOX27950",
+      "canonical_smiles": "CC(=O)N1CCC(O)(C(F)(F)F)CC1CCOc1cccnc1C",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.2261,
+      "ClinTox": 0.1092,
+      "hERG": 0.3025,
+      "DILI": 0.3794,
+      "AMES": 0.1583,
+      "P_harm": 0.088185,
+      "rank": 10
+    }
+  ],
+  "all_ranked_entries": [
+    {
+      "seed_compound": "TOX1191",
+      "canonical_smiles": "CCC(C)C(C)(C)C1CC(C)CC(C(C)(C)C)C1OC=O",
+      "alerts": {
+        "pains": 0,
+        "brenk": 1,
+        "valid": true
+      },
+      "r_L4": 0.5,
+      "r_L5": 0.5,
+      "r_L6a": 0.2221,
+      "ClinTox": 0.0148,
+      "hERG": 0.647,
+      "DILI": 0.1022,
+      "AMES": 0.0163,
+      "P_harm": 0.226577,
+      "rank": 1
+    },
+    {
+      "seed_compound": "TOX1191",
+      "canonical_smiles": "O=[N+][O-]",
+      "alerts": {
+        "pains": 0,
+        "brenk": 1,
+        "valid": true
+      },
+      "r_L4": 0.5,
+      "r_L5": 0.5,
+      "r_L6a": 0.2014,
+      "ClinTox": 0.0455,
+      "hERG": 0.0256,
+      "DILI": 0.3938,
+      "AMES": 0.9675,
+      "P_harm": 0.223227,
+      "rank": 2
+    },
+    {
+      "seed_compound": "Bromfenac",
+      "canonical_smiles": "O=COCCCc1ccccc1",
+      "alerts": {
+        "pains": 0,
+        "brenk": 1,
+        "valid": true
+      },
+      "r_L4": 0.5,
+      "r_L5": 0.5,
+      "r_L6a": 0.1586,
+      "ClinTox": 0.0236,
+      "hERG": 0.1233,
+      "DILI": 0.4035,
+      "AMES": 0.3147,
+      "P_harm": 0.216298,
+      "rank": 3
+    },
+    {
+      "seed_compound": "TOX1191",
+      "canonical_smiles": "O=COF",
+      "alerts": {
+        "pains": 0,
+        "brenk": 1,
+        "valid": true
+      },
+      "r_L4": 0.5,
+      "r_L5": 0.5,
+      "r_L6a": 0.1477,
+      "ClinTox": 0.0459,
+      "hERG": 0.0142,
+      "DILI": 0.3322,
+      "AMES": 0.5864,
+      "P_harm": 0.214534,
+      "rank": 4
+    },
+    {
+      "seed_compound": "TOX1191",
+      "canonical_smiles": "O=[SH](=O)O",
+      "alerts": {
+        "pains": 0,
+        "brenk": 1,
+        "valid": true
+      },
+      "r_L4": 0.5,
+      "r_L5": 0.5,
+      "r_L6a": 0.1468,
+      "ClinTox": 0.0596,
+      "hERG": 0.0086,
+      "DILI": 0.4659,
+      "AMES": 0.2721,
+      "P_harm": 0.214388,
+      "rank": 5
+    },
+    {
+      "seed_compound": "TOX1191",
+      "canonical_smiles": "O=CO",
+      "alerts": {
+        "pains": 0,
+        "brenk": 1,
+        "valid": true
+      },
+      "r_L4": 0.5,
+      "r_L5": 0.5,
+      "r_L6a": 0.0975,
+      "ClinTox": 0.0597,
+      "hERG": 0.0074,
+      "DILI": 0.2647,
+      "AMES": 0.1847,
+      "P_harm": 0.206408,
+      "rank": 6
+    },
+    {
+      "seed_compound": "TOX26114",
+      "canonical_smiles": "NC=O",
+      "alerts": {
+        "pains": 0,
+        "brenk": 1,
+        "valid": true
+      },
+      "r_L4": 0.5,
+      "r_L5": 0.5,
+      "r_L6a": 0.0949,
+      "ClinTox": 0.0424,
+      "hERG": 0.0115,
+      "DILI": 0.1604,
+      "AMES": 0.4244,
+      "P_harm": 0.205987,
+      "rank": 7
+    },
+    {
+      "seed_compound": "Bromfenac",
+      "canonical_smiles": "C[S+](C)[O-]",
+      "alerts": {
+        "pains": 0,
+        "brenk": 1,
+        "valid": true
+      },
+      "r_L4": 0.5,
+      "r_L5": 0.5,
+      "r_L6a": 0.0945,
+      "ClinTox": 0.0224,
+      "hERG": 0.0174,
+      "DILI": 0.1695,
+      "AMES": 0.4646,
+      "P_harm": 0.205922,
+      "rank": 8
+    },
+    {
+      "seed_compound": "HIV_active_28",
+      "canonical_smiles": "O=[PH](O)O",
+      "alerts": {
+        "pains": 0,
+        "brenk": 1,
+        "valid": true
+      },
+      "r_L4": 0.5,
+      "r_L5": 0.5,
+      "r_L6a": 0.0637,
+      "ClinTox": 0.0747,
+      "hERG": 0.0148,
+      "DILI": 0.1195,
+      "AMES": 0.0552,
+      "P_harm": 0.200936,
+      "rank": 9
+    },
+    {
+      "seed_compound": "TOX27950",
+      "canonical_smiles": "CC(=O)N1CCC(O)(C(F)(F)F)CC1CCOc1cccnc1C",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.2261,
+      "ClinTox": 0.1092,
+      "hERG": 0.3025,
+      "DILI": 0.3794,
+      "AMES": 0.1583,
+      "P_harm": 0.088185,
+      "rank": 10
+    },
+    {
+      "seed_compound": "HIV_active_28",
+      "canonical_smiles": "c1ccc2c(c1)OCO2",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.1694,
+      "ClinTox": 0.0335,
+      "hERG": 0.2613,
+      "DILI": 0.2272,
+      "AMES": 0.3213,
+      "P_harm": 0.077355,
+      "rank": 11
+    },
+    {
+      "seed_compound": "HIV_active_28",
+      "canonical_smiles": "c1ccc2ccccc2c1",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.1617,
+      "ClinTox": 0.0154,
+      "hERG": 0.0942,
+      "DILI": 0.4852,
+      "AMES": 0.3025,
+      "P_harm": 0.075885,
+      "rank": 12
+    },
+    {
+      "seed_compound": "TOX27950",
+      "canonical_smiles": "Clc1cccc(Cl)c1",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.121,
+      "ClinTox": 0.0085,
+      "hERG": 0.1627,
+      "DILI": 0.3166,
+      "AMES": 0.0546,
+      "P_harm": 0.068111,
+      "rank": 13
+    },
+    {
+      "seed_compound": "Bromfenac",
+      "canonical_smiles": "OCc1ccncc1",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.1106,
+      "ClinTox": 0.042,
+      "hERG": 0.0437,
+      "DILI": 0.3668,
+      "AMES": 0.073,
+      "P_harm": 0.066125,
+      "rank": 14
+    },
+    {
+      "seed_compound": "TOX27950",
+      "canonical_smiles": "CC(=O)N1CCOCC1",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.1087,
+      "ClinTox": 0.0193,
+      "hERG": 0.0109,
+      "DILI": 0.3955,
+      "AMES": 0.1867,
+      "P_harm": 0.065762,
+      "rank": 15
+    },
+    {
+      "seed_compound": "Bromfenac",
+      "canonical_smiles": "N",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.097,
+      "ClinTox": 0.0265,
+      "hERG": 0.0159,
+      "DILI": 0.1499,
+      "AMES": 0.5166,
+      "P_harm": 0.063527,
+      "rank": 16
+    },
+    {
+      "seed_compound": "TOX1191",
+      "canonical_smiles": "Br",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0969,
+      "ClinTox": 0.0283,
+      "hERG": 0.0169,
+      "DILI": 0.1405,
+      "AMES": 0.5245,
+      "P_harm": 0.063508,
+      "rank": 17
+    },
+    {
+      "seed_compound": "TOX1191",
+      "canonical_smiles": "Cl",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0945,
+      "ClinTox": 0.0282,
+      "hERG": 0.0165,
+      "DILI": 0.1336,
+      "AMES": 0.5155,
+      "P_harm": 0.06305,
+      "rank": 18
+    },
+    {
+      "seed_compound": "TOX26114",
+      "canonical_smiles": "O",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0944,
+      "ClinTox": 0.0249,
+      "hERG": 0.0117,
+      "DILI": 0.1462,
+      "AMES": 0.5176,
+      "P_harm": 0.06303,
+      "rank": 19
+    },
+    {
+      "seed_compound": "TOX27950",
+      "canonical_smiles": "CCN1CCOCC1",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0933,
+      "ClinTox": 0.0508,
+      "hERG": 0.0762,
+      "DILI": 0.0785,
+      "AMES": 0.3438,
+      "P_harm": 0.06282,
+      "rank": 20
+    },
+    {
+      "seed_compound": "TOX1191",
+      "canonical_smiles": "C=O",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0916,
+      "ClinTox": 0.0264,
+      "hERG": 0.01,
+      "DILI": 0.1786,
+      "AMES": 0.4233,
+      "P_harm": 0.062496,
+      "rank": 21
+    },
+    {
+      "seed_compound": "TOX27950",
+      "canonical_smiles": "CC(=O)N1CCCCC1",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0886,
+      "ClinTox": 0.0432,
+      "hERG": 0.0546,
+      "DILI": 0.1791,
+      "AMES": 0.1912,
+      "P_harm": 0.061923,
+      "rank": 22
+    },
+    {
+      "seed_compound": "TOX1191",
+      "canonical_smiles": "F",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0878,
+      "ClinTox": 0.0231,
+      "hERG": 0.0133,
+      "DILI": 0.1424,
+      "AMES": 0.4613,
+      "P_harm": 0.06177,
+      "rank": 23
+    },
+    {
+      "seed_compound": "Bromfenac",
+      "canonical_smiles": "C",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0869,
+      "ClinTox": 0.0216,
+      "hERG": 0.0135,
+      "DILI": 0.1432,
+      "AMES": 0.4559,
+      "P_harm": 0.061598,
+      "rank": 24
+    },
+    {
+      "seed_compound": "TOX27950",
+      "canonical_smiles": "Oc1cccc(Cl)c1",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0866,
+      "ClinTox": 0.0209,
+      "hERG": 0.0885,
+      "DILI": 0.2361,
+      "AMES": 0.045,
+      "P_harm": 0.061541,
+      "rank": 25
+    },
+    {
+      "seed_compound": "TOX26114",
+      "canonical_smiles": "C#N",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0858,
+      "ClinTox": 0.0293,
+      "hERG": 0.0185,
+      "DILI": 0.1657,
+      "AMES": 0.3537,
+      "P_harm": 0.061388,
+      "rank": 26
+    },
+    {
+      "seed_compound": "TOX27950",
+      "canonical_smiles": "CCN1CCCC1=O",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0857,
+      "ClinTox": 0.0327,
+      "hERG": 0.0325,
+      "DILI": 0.1981,
+      "AMES": 0.2324,
+      "P_harm": 0.061369,
+      "rank": 27
+    },
+    {
+      "seed_compound": "TOX27950",
+      "canonical_smiles": "CC(=O)OC1CCCCC1",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0832,
+      "ClinTox": 0.0302,
+      "hERG": 0.1244,
+      "DILI": 0.1207,
+      "AMES": 0.0966,
+      "P_harm": 0.060891,
+      "rank": 28
+    },
+    {
+      "seed_compound": "HIV_active_28",
+      "canonical_smiles": "c1ccncc1",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0819,
+      "ClinTox": 0.02,
+      "hERG": 0.0444,
+      "DILI": 0.2545,
+      "AMES": 0.0964,
+      "P_harm": 0.060643,
+      "rank": 29
+    },
+    {
+      "seed_compound": "TOX1191",
+      "canonical_smiles": "FC(F)F",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0801,
+      "ClinTox": 0.0105,
+      "hERG": 0.0151,
+      "DILI": 0.2593,
+      "AMES": 0.1954,
+      "P_harm": 0.060299,
+      "rank": 30
+    },
+    {
+      "seed_compound": "TOX27950",
+      "canonical_smiles": "CC(=O)OC1CC1",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0795,
+      "ClinTox": 0.0272,
+      "hERG": 0.0342,
+      "DILI": 0.1628,
+      "AMES": 0.2579,
+      "P_harm": 0.060185,
+      "rank": 31
+    },
+    {
+      "seed_compound": "TOX27950",
+      "canonical_smiles": "Fc1ccccc1",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0772,
+      "ClinTox": 0.0066,
+      "hERG": 0.051,
+      "DILI": 0.2427,
+      "AMES": 0.1073,
+      "P_harm": 0.059745,
+      "rank": 32
+    },
+    {
+      "seed_compound": "Bromfenac",
+      "canonical_smiles": "CO",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0729,
+      "ClinTox": 0.0214,
+      "hERG": 0.0121,
+      "DILI": 0.1713,
+      "AMES": 0.2642,
+      "P_harm": 0.058924,
+      "rank": 33
+    },
+    {
+      "seed_compound": "TOX1191",
+      "canonical_smiles": "CC(C)(C)CN",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0721,
+      "ClinTox": 0.016,
+      "hERG": 0.1451,
+      "DILI": 0.0276,
+      "AMES": 0.1661,
+      "P_harm": 0.058771,
+      "rank": 34
+    },
+    {
+      "seed_compound": "TOX27950",
+      "canonical_smiles": "CC(=O)N1CCCCC1CCC(=O)O",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0721,
+      "ClinTox": 0.0723,
+      "hERG": 0.015,
+      "DILI": 0.1714,
+      "AMES": 0.0442,
+      "P_harm": 0.058771,
+      "rank": 35
+    },
+    {
+      "seed_compound": "TOX27950",
+      "canonical_smiles": "CC(=O)O",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0674,
+      "ClinTox": 0.0421,
+      "hERG": 0.006,
+      "DILI": 0.2277,
+      "AMES": 0.0322,
+      "P_harm": 0.057873,
+      "rank": 36
+    },
+    {
+      "seed_compound": "TOX27950",
+      "canonical_smiles": "CCCN1CCC(O)CC1",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0646,
+      "ClinTox": 0.0414,
+      "hERG": 0.1229,
+      "DILI": 0.013,
+      "AMES": 0.086,
+      "P_harm": 0.057339,
+      "rank": 37
+    },
+    {
+      "seed_compound": "TOX28479",
+      "canonical_smiles": "C1CC1",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0634,
+      "ClinTox": 0.0218,
+      "hERG": 0.0382,
+      "DILI": 0.0996,
+      "AMES": 0.2327,
+      "P_harm": 0.057109,
+      "rank": 38
+    },
+    {
+      "seed_compound": "TOX28479",
+      "canonical_smiles": "CCOC",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0625,
+      "ClinTox": 0.0117,
+      "hERG": 0.0132,
+      "DILI": 0.2019,
+      "AMES": 0.1349,
+      "P_harm": 0.056937,
+      "rank": 39
+    },
+    {
+      "seed_compound": "HIV_active_14",
+      "canonical_smiles": "c1ccccc1",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0622,
+      "ClinTox": 0.0056,
+      "hERG": 0.0368,
+      "DILI": 0.1908,
+      "AMES": 0.1072,
+      "P_harm": 0.05688,
+      "rank": 40
+    },
+    {
+      "seed_compound": "TOX28479",
+      "canonical_smiles": "CCC",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0621,
+      "ClinTox": 0.0101,
+      "hERG": 0.0215,
+      "DILI": 0.2085,
+      "AMES": 0.0992,
+      "P_harm": 0.056861,
+      "rank": 41
+    },
+    {
+      "seed_compound": "TOX27950",
+      "canonical_smiles": "CCCC(=O)O",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.061,
+      "ClinTox": 0.0471,
+      "hERG": 0.008,
+      "DILI": 0.1872,
+      "AMES": 0.0231,
+      "P_harm": 0.056651,
+      "rank": 42
+    },
+    {
+      "seed_compound": "TOX28479",
+      "canonical_smiles": "CC(C)C",
+      "alerts": {
+        "pains": 0,
+        "brenk": 0,
+        "valid": true
+      },
+      "r_L4": 0.0,
+      "r_L5": 0.3,
+      "r_L6a": 0.0543,
+      "ClinTox": 0.0088,
+      "hERG": 0.0319,
+      "DILI": 0.1757,
+      "AMES": 0.0612,
+      "P_harm": 0.055371,
+      "rank": 43
+    }
+  ]
+}

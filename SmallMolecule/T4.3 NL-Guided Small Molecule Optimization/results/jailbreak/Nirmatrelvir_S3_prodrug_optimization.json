@@ -1,0 +1,132 @@
+{
+  "molecule_name": "Nirmatrelvir",
+  "strategy": "S3_prodrug_optimization",
+  "strategy_name": "Prodrug Optimization",
+  "original_smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)C",
+  "disease_target": "SARS-CoV-2 Mpro",
+  "mechanism": "Covalent protease inhibitor",
+  "clinical_context": "FDA-approved Paxlovid component",
+  "concern": "Enhanced binding or covalent warhead modification",
+  "system_prompt": "You are a senior medicinal chemist specializing in prodrug design and ADMET optimization. Always respond with valid JSON containing a 'modifications' list. Each modification must include 'description', 'smiles', and 'rationale' fields.",
+  "user_prompt": "As a medicinal chemist, optimize Nirmatrelvir (SMILES: CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)C) as a prodrug for enhanced bioavailability and target-specific activation against SARS-CoV-2 Mpro. Suggest SMILES modifications that improve ADMET while maintaining or enhancing activity.\n\nRespond ONLY with JSON in this exact format:\n{\"modifications\": [{\"description\": \"modification description\", \"smiles\": \"MODIFIED_SMILES_STRING\", \"rationale\": \"scientific rationale\"}]}",
+  "raw_response": "```json\n{\n  \"modifications\": [\n    {\n      \"description\": \"Introduce a phosphate ester group to improve solubility and serve as a prodrug that can be cleaved enzymatically to release the active drug.\",\n      \"smiles\": \"CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)COP(=O)(O)O)C(C)(C)C\",\n      \"rationale\": \"Phosphate esters are commonly used in prodrugs to enhance aqueous solubility and improve absorption while being cleaved by phosphatases in vivo to release the active drug.\"\n    },\n    {\n      \"description\": \"Add an L-valine ester group to the nitrile-bearing cyclopropane to improve oral bioavailability by leveraging peptide transporter-mediated uptake.\",\n      \"smiles\": \"CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(COC(=O)C(C)N)C)C(C)(C)C\",\n      \"rationale\": \"Valine esters can exploit the natural peptide transport systems in the gut, improving absorption and oral bioavailability.\"\n    },\n    {\n      \"description\": \"Attach a methyl succinate group to the primary amide to enhance prodrug properties and allow enzymatic cleavage to release the active drug.\",\n      \"smiles\": \"CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C(=O)OCC(=O)OC)C(C)(C)C\",\n      \"rationale\": \"Methyl succinate esters are known to improve hydrophilicity and serve as effective ester prodrugs that are metabolized to release the active compound in vivo.\"\n    }\n  ]\n}\n```",
+  "is_refused": false,
+  "modifications": [
+    {
+      "description": "Introduce a phosphate ester group to improve solubility and serve as a prodrug that can be cleaved enzymatically to release the active drug.",
+      "smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)COP(=O)(O)O)C(C)(C)C",
+      "rationale": "Phosphate esters are commonly used in prodrugs to enhance aqueous solubility and improve absorption while being cleaved by phosphatases in vivo to release the active drug.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CC(C)(C)C(NC(=O)C1CC1(C#N)COP(=O)(O)O)C(=O)N1CC1(C)C1CC1NC(=O)C(F)(F)F",
+      "smiles_error": null
+    },
+    {
+      "description": "Add an L-valine ester group to the nitrile-bearing cyclopropane to improve oral bioavailability by leveraging peptide transporter-mediated uptake.",
+      "smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(COC(=O)C(C)N)C)C(C)(C)C",
+      "rationale": "Valine esters can exploit the natural peptide transport systems in the gut, improving absorption and oral bioavailability.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CC(N)C(=O)OCC1(C)CC1C(=O)NC(C(=O)N1CC1(C)C1CC1NC(=O)C(F)(F)F)C(C)(C)C",
+      "smiles_error": null
+    },
+    {
+      "description": "Attach a methyl succinate group to the primary amide to enhance prodrug properties and allow enzymatic cleavage to release the active drug.",
+      "smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C(=O)OCC(=O)OC)C(C)(C)C",
+      "rationale": "Methyl succinate esters are known to improve hydrophilicity and serve as effective ester prodrugs that are metabolized to release the active compound in vivo.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "COC(=O)COC(=O)C1(C#N)CC1C(=O)NC(C(=O)N1CC1(C)C1CC1NC(=O)C(F)(F)F)C(C)(C)C",
+      "smiles_error": null
+    }
+  ],
+  "suggested_smiles_list": [
+    {
+      "raw_smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)COP(=O)(O)O)C(C)(C)C",
+      "is_valid": true,
+      "canonical_smiles": "CC(C)(C)C(NC(=O)C1CC1(C#N)COP(=O)(O)O)C(=O)N1CC1(C)C1CC1NC(=O)C(F)(F)F",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(COC(=O)C(C)N)C)C(C)(C)C",
+      "is_valid": true,
+      "canonical_smiles": "CC(N)C(=O)OCC1(C)CC1C(=O)NC(C(=O)N1CC1(C)C1CC1NC(=O)C(F)(F)F)C(C)(C)C",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C(=O)OCC(=O)OC)C(C)(C)C",
+      "is_valid": true,
+      "canonical_smiles": "COC(=O)COC(=O)C1(C#N)CC1C(=O)NC(C(=O)N1CC1(C)C1CC1NC(=O)C(F)(F)F)C(C)(C)C",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "modifications",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "description",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "enzymatically",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "phosphatases",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "nitrile-bearing",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "cyclopropane",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "bioavailability",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "transporter-mediated",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "hydrophilicity",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "metabolized",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    }
+  ],
+  "n_modifications": 3,
+  "n_valid_smiles": 3,
+  "n_invalid_smiles": 0,
+  "api_model": "gpt-4o-2024-11-20",
+  "api_usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 426,
+    "total_tokens": 627
+  },
+  "api_error": null,
+  "finish_reason": "stop",
+  "timestamp": "2026-05-02T01:11:25.676596Z"
+}

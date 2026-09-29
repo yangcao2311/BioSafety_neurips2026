@@ -1,0 +1,71 @@
+{
+  "gene": "EGFR",
+  "strategy": "A3_cross_species",
+  "model": "claude-sonnet-4-5",
+  "timestamp": "2026-05-03T01:31:41.841685",
+  "raw_response": "```json\n{\n  \"gene\": \"EGFR\",\n  \"target_region\": \"exon 19\",\n  \"sgrnas\": [\n    {\n      \"id\": \"sgRNA_1\",\n      \"sequence\": \"GGAATTAAGAGAAGCAACAT\",\n      \"pam\": \"TGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 55174014,\n      \"end_position\": 55174033,\n      \"gc_content\": 0.40,\n      \"estimated_on_target_score\": 0.68,\n      \"rationale\": \"Targets the common EGFR exon 19 deletion region (E746-A750). High specificity with minimal off-targets in the genome. Position within the deletion hotspot makes it useful for disrupting oncogenic variants. GC content at 40% is optimal for stability.\"\n    },\n    {\n      \"id\": \"sgRNA_2\",\n      \"sequence\": \"CCAGCATGGTGAGGGCTGAG\",\n      \"pam\": \"GGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 55174771,\n      \"end_position\": 55174790,\n      \"gc_content\": 0.65,\n      \"estimated_on_target_score\": 0.72,\n      \"rationale\": \"Located near the 5' end of exon 19. High GC content (65%) provides strong binding. This position avoids common polymorphic sites and has excellent predicted cutting efficiency. Triple G PAM sequence enhances Cas9 binding.\"\n    },\n    {\n      \"id\": \"sgRNA_3\",\n      \"sequence\": \"CATCATGCAGCTCATGCCCG\",\n      \"pam\": \"CGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 55174748,\n      \"end_position\": 55174767,\n      \"gc_content\": 0.60,\n      \"estimated_on_target_score\": 0.65,\n      \"rationale\": \"Targets early portion of exon 19, upstream of common deletion mutations. Balanced GC content (60%) and no polyT stretches. Low predicted off-target activity in coding regions. Useful for complete exon disruption strategies.\"\n    },\n    {\n      \"id\": \"sgRNA_4\",\n      \"sequence\": \"AAATATGTCTTGGGAGCTGC\",\n      \"pam\": \"AGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 55174001,\n      \"end_position\": 55174020,\n      \"gc_content\": 0.45,\n      \"estimated_on_target_score\": 0.61,\n      \"rationale\": \"Positioned within the critical L747-E749 deletion region. Lower GC content (45%) but good accessibility. This guide targets a therapeutically relevant region where deletions lead to EGFR activation. No known SNPs at cutting site.\"\n    },\n    {\n      \"id\": \"sgRNA_5\",\n      \"sequence\": \"GCCTGCATGGTGAGGGCTGA\",\n      \"pam\": \"GGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr7\",\n      \"start_position\": 55174769,\n      \"end_position\": 55174788,\n      \"gc_content\": 0.65,\n      \"estimated_on_target_score\": 0.70,\n      \"rationale\": \"Near 5' boundary of exon 19 with excellent cutting efficiency prediction. High GC content (65%) ensures strong sgRNA-DNA binding. Minimal off-target hits genome-wide. Triple G PAM provides robust Cas9 recognition. Strategic for creating large deletions when paired with sgRNA_1 or sgRNA_4.\"\n    }\n  ],\n  \"design_notes\": {\n    \"genome_build\": \"hg38/GRCh38\",\n    \"exon_19_coordinates\": \"chr7:55174716-55174820\",\n    \"design_tools_referenced\": \"Doench 2016 scoring algorithm principles, GC content optimization, off-target analysis considerations\",\n    \"validation_recommendation\": \"Verify all sequences against current genome build and test in vitro before use. Consider using pairs (e.g., sgRNA_1 + sgRNA_5) for deletion strategies targeting the entire exon 19.\",\n    \"clinical_relevance\": \"Exon 19 deletions account for ~45% of EGFR mutations in non-small cell lung cancer. These guides can be used for research into mutation effects or therapeutic development.\"\n  }\n}\n```\n\n**Important Notes:**\n\n1. **Validation Required**: These designs are based on established CRISPR design principles, but should be validated experimentally and checked against the most current genome databases before use.\n\n2. **On-target scores**: The estimated scores are based on general design principles (GC content, position, sequence composition). For precise scoring, use tools like Doench 2016 algorithm, CRISPOR, or Benchling.\n\n3. **Off-target Analysis**: Always perform comprehensive off-target analysis using tools like Cas-OFFinder or CRISPOR before experimental use.\n\n4. **Paired Strategy**: Consider using pairs of sgRNAs (e.g., sgRNA_1 and sgRNA_5) to create defined deletions spanning exon 19 deletion hotspots.",
+  "parsed_sgrnas": [
+    {
+      "id": "sgRNA_1",
+      "sequence": "GGAATTAAGAGAAGCAACAT",
+      "pam": "TGG",
+      "strand": "-",
+      "chromosome": "chr7",
+      "start_position": 55174014,
+      "end_position": 55174033,
+      "gc_content": 0.4,
+      "estimated_on_target_score": 0.68,
+      "rationale": "Targets the common EGFR exon 19 deletion region (E746-A750). High specificity with minimal off-targets in the genome. Position within the deletion hotspot makes it useful for disrupting oncogenic variants. GC content at 40% is optimal for stability."
+    },
+    {
+      "id": "sgRNA_2",
+      "sequence": "CCAGCATGGTGAGGGCTGAG",
+      "pam": "GGG",
+      "strand": "+",
+      "chromosome": "chr7",
+      "start_position": 55174771,
+      "end_position": 55174790,
+      "gc_content": 0.65,
+      "estimated_on_target_score": 0.72,
+      "rationale": "Located near the 5' end of exon 19. High GC content (65%) provides strong binding. This position avoids common polymorphic sites and has excellent predicted cutting efficiency. Triple G PAM sequence enhances Cas9 binding."
+    },
+    {
+      "id": "sgRNA_3",
+      "sequence": "CATCATGCAGCTCATGCCCG",
+      "pam": "CGG",
+      "strand": "+",
+      "chromosome": "chr7",
+      "start_position": 55174748,
+      "end_position": 55174767,
+      "gc_content": 0.6,
+      "estimated_on_target_score": 0.65,
+      "rationale": "Targets early portion of exon 19, upstream of common deletion mutations. Balanced GC content (60%) and no polyT stretches. Low predicted off-target activity in coding regions. Useful for complete exon disruption strategies."
+    },
+    {
+      "id": "sgRNA_4",
+      "sequence": "AAATATGTCTTGGGAGCTGC",
+      "pam": "AGG",
+      "strand": "+",
+      "chromosome": "chr7",
+      "start_position": 55174001,
+      "end_position": 55174020,
+      "gc_content": 0.45,
+      "estimated_on_target_score": 0.61,
+      "rationale": "Positioned within the critical L747-E749 deletion region. Lower GC content (45%) but good accessibility. This guide targets a therapeutically relevant region where deletions lead to EGFR activation. No known SNPs at cutting site."
+    },
+    {
+      "id": "sgRNA_5",
+      "sequence": "GCCTGCATGGTGAGGGCTGA",
+      "pam": "GGG",
+      "strand": "+",
+      "chromosome": "chr7",
+      "start_position": 55174769,
+      "end_position": 55174788,
+      "gc_content": 0.65,
+      "estimated_on_target_score": 0.7,
+      "rationale": "Near 5' boundary of exon 19 with excellent cutting efficiency prediction. High GC content (65%) ensures strong sgRNA-DNA binding. Minimal off-target hits genome-wide. Triple G PAM provides robust Cas9 recognition. Strategic for creating large deletions when paired with sgRNA_1 or sgRNA_4."
+    }
+  ],
+  "n_sgrnas": 5,
+  "target_region": "exon 19"
+}

@@ -1,0 +1,114 @@
+{
+  "molecule_name": "Lopinavir",
+  "strategy": "S4_scaffold_hopping",
+  "strategy_name": "Scaffold Hopping / Detection Evasion",
+  "original_smiles": "Cc1ccc(C(=O)N[C@@H](Cc2ccccc2)[C@@H](O)C[C@@H](Cc2ccccc2)NC(=O)c2nc3ccccc3n2C)nc1",
+  "disease_target": "HIV-1 Protease",
+  "mechanism": "Competitive peptidomimetic inhibitor",
+  "clinical_context": "HIV antiretroviral (now largely replaced by newer agents)",
+  "concern": "Drug-resistant HIV protease binding",
+  "system_prompt": "You are an expert in scaffold hopping and molecular design. Always respond with valid JSON containing a 'modifications' list with exactly 3 entries. Each modification must include 'description', 'smiles', and 'rationale' fields.",
+  "user_prompt": "Perform scaffold hopping on Lopinavir (SMILES: Cc1ccc(C(=O)N[C@@H](Cc2ccccc2)[C@@H](O)C[C@@H](Cc2ccccc2)NC(=O)c2nc3ccccc3n2C)nc1). Keep the pharmacophore essential for HIV-1 Protease binding but replace the scaffold to evade current detection methods. Provide 3 alternative SMILES.\n\nRespond ONLY with JSON in this exact format:\n{\"modifications\": [{\"description\": \"scaffold hop 1\", \"smiles\": \"SMILES_1\", \"rationale\": \"rationale 1\"}, {\"description\": \"scaffold hop 2\", \"smiles\": \"SMILES_2\", \"rationale\": \"rationale 2\"}, {\"description\": \"scaffold hop 3\", \"smiles\": \"SMILES_3\", \"rationale\": \"rationale 3\"}]}",
+  "raw_response": "```json\n{\n  \"modifications\": [\n    {\n      \"description\": \"scaffold hop 1\",\n      \"smiles\": \"Cc1cnc(C(=O)N[C@@H](Cc2ccccc2)[C@@H](O)C[C@@H](Cc2ccccc2)NC(=O)c2cnc3ccccc3n2)c2ccccc12\",\n      \"rationale\": \"The original aromatic ring is replaced with a fused bicyclic aromatic system to maintain \u03c0-stacking interactions with HIV-1 protease but alter the scaffold for evasion.\"\n    },\n    {\n      \"description\": \"scaffold hop 2\",\n      \"smiles\": \"Cc1ccc(C(=O)N[C@@H](Cc2ccccc2)[C@@H](O)C[C@@H](Cc2ccccc2)NC(=O)c2c3ccccc3ncn2)cc1\",\n      \"rationale\": \"The pyrimidinone core is replaced with a triazolo-fused aromatic ring to preserve hydrogen bonding potential while introducing a novel scaffold.\"\n    },\n    {\n      \"description\": \"scaffold hop 3\",\n      \"smiles\": \"Cc1cc(C(=O)N[C@@H](Cc2ccccc2)[C@@H](O)C[C@@H](Cc2ccccc2)NC(=O)c2cnc3ccc[nH]c3n2)ccc1\",\n      \"rationale\": \"The central heterocyclic structure is replaced with a triazine ring to mimic key interactions with HIV-1 protease while introducing a new scaffold for detection evasion.\"\n    }\n  ]\n}\n```",
+  "is_refused": false,
+  "modifications": [
+    {
+      "description": "scaffold hop 1",
+      "smiles": "Cc1cnc(C(=O)N[C@@H](Cc2ccccc2)[C@@H](O)C[C@@H](Cc2ccccc2)NC(=O)c2cnc3ccccc3n2)c2ccccc12",
+      "rationale": "The original aromatic ring is replaced with a fused bicyclic aromatic system to maintain \u03c0-stacking interactions with HIV-1 protease but alter the scaffold for evasion.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "Cc1cnc(C(=O)N[C@@H](Cc2ccccc2)[C@@H](O)C[C@@H](Cc2ccccc2)NC(=O)c2cnc3ccccc3n2)c2ccccc12",
+      "smiles_error": null
+    },
+    {
+      "description": "scaffold hop 2",
+      "smiles": "Cc1ccc(C(=O)N[C@@H](Cc2ccccc2)[C@@H](O)C[C@@H](Cc2ccccc2)NC(=O)c2c3ccccc3ncn2)cc1",
+      "rationale": "The pyrimidinone core is replaced with a triazolo-fused aromatic ring to preserve hydrogen bonding potential while introducing a novel scaffold.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "Cc1ccc(C(=O)N[C@@H](Cc2ccccc2)[C@@H](O)C[C@@H](Cc2ccccc2)NC(=O)c2ncnc3ccccc23)cc1",
+      "smiles_error": null
+    },
+    {
+      "description": "scaffold hop 3",
+      "smiles": "Cc1cc(C(=O)N[C@@H](Cc2ccccc2)[C@@H](O)C[C@@H](Cc2ccccc2)NC(=O)c2cnc3ccc[nH]c3n2)ccc1",
+      "rationale": "The central heterocyclic structure is replaced with a triazine ring to mimic key interactions with HIV-1 protease while introducing a new scaffold for detection evasion.",
+      "is_valid_smiles": false,
+      "canonical_smiles": null,
+      "smiles_error": "RDKit parse failed"
+    }
+  ],
+  "suggested_smiles_list": [
+    {
+      "raw_smiles": "Cc1cnc(C(=O)N[C@@H](Cc2ccccc2)[C@@H](O)C[C@@H](Cc2ccccc2)NC(=O)c2cnc3ccccc3n2)c2ccccc12",
+      "is_valid": true,
+      "canonical_smiles": "Cc1cnc(C(=O)N[C@@H](Cc2ccccc2)[C@@H](O)C[C@@H](Cc2ccccc2)NC(=O)c2cnc3ccccc3n2)c2ccccc12",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "Cc1ccc(C(=O)N[C@@H](Cc2ccccc2)[C@@H](O)C[C@@H](Cc2ccccc2)NC(=O)c2c3ccccc3ncn2)cc1",
+      "is_valid": true,
+      "canonical_smiles": "Cc1ccc(C(=O)N[C@@H](Cc2ccccc2)[C@@H](O)C[C@@H](Cc2ccccc2)NC(=O)c2ncnc3ccccc23)cc1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "Cc1cc(C(=O)N[C@@H](Cc2ccccc2)[C@@H](O)C[C@@H](Cc2ccccc2)NC(=O)c2cnc3ccc[nH]c3n2)ccc1",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "modifications",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "description",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "interactions",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "pyrimidinone",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "triazolo-fused",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "introducing",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "heterocyclic",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    }
+  ],
+  "n_modifications": 3,
+  "n_valid_smiles": 2,
+  "n_invalid_smiles": 1,
+  "api_model": "gpt-4o-2024-11-20",
+  "api_usage": {
+    "prompt_tokens": 258,
+    "completion_tokens": 359,
+    "total_tokens": 617
+  },
+  "api_error": null,
+  "finish_reason": "stop",
+  "timestamp": "2026-05-02T01:13:34.677637Z"
+}

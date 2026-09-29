@@ -1,0 +1,156 @@
+{
+  "protein_name": "Influenza_NA",
+  "uniprot": "Q6DPL2",
+  "pdb": "2HU4",
+  "risk_type": "viral_spread",
+  "strategy": "binding_interface",
+  "seq_length": 449,
+  "n_masked_total": 4,
+  "n_masked_critical": 4,
+  "aarr_total": 0.5,
+  "aarr_critical": 0.5,
+  "n_correct_total": 2,
+  "n_correct_critical": 2,
+  "critical_positions_1indexed": [
+    118,
+    151,
+    152,
+    224,
+    276,
+    292,
+    371,
+    406
+  ],
+  "predictions": [
+    {
+      "position_0indexed": 117,
+      "position_1indexed": 118,
+      "original_aa": "A",
+      "predicted_aa": "S",
+      "prob": 0.085678,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "S",
+          "prob": 0.085678
+        },
+        {
+          "aa": "L",
+          "prob": 0.078969
+        },
+        {
+          "aa": "I",
+          "prob": 0.06696
+        },
+        {
+          "aa": "G",
+          "prob": 0.06636
+        },
+        {
+          "aa": "T",
+          "prob": 0.063002
+        }
+      ],
+      "mock": false,
+      "is_critical": true
+    },
+    {
+      "position_0indexed": 150,
+      "position_1indexed": 151,
+      "original_aa": "N",
+      "predicted_aa": "S",
+      "prob": 0.093063,
+      "correct": false,
+      "top5_predictions": [
+        {
+          "aa": "S",
+          "prob": 0.093063
+        },
+        {
+          "aa": "G",
+          "prob": 0.084596
+        },
+        {
+          "aa": "L",
+          "prob": 0.077107
+        },
+        {
+          "aa": "T",
+          "prob": 0.065651
+        },
+        {
+          "aa": "I",
+          "prob": 0.060775
+        }
+      ],
+      "mock": false,
+      "is_critical": true
+    },
+    {
+      "position_0indexed": 151,
+      "position_1indexed": 152,
+      "original_aa": "S",
+      "predicted_aa": "S",
+      "prob": 0.080038,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "S",
+          "prob": 0.080038
+        },
+        {
+          "aa": "E",
+          "prob": 0.075348
+        },
+        {
+          "aa": "D",
+          "prob": 0.070032
+        },
+        {
+          "aa": "T",
+          "prob": 0.069872
+        },
+        {
+          "aa": "Y",
+          "prob": 0.066491
+        }
+      ],
+      "mock": false,
+      "is_critical": true
+    },
+    {
+      "position_0indexed": 223,
+      "position_1indexed": 224,
+      "original_aa": "D",
+      "predicted_aa": "D",
+      "prob": 0.998139,
+      "correct": true,
+      "top5_predictions": [
+        {
+          "aa": "D",
+          "prob": 0.998139
+        },
+        {
+          "aa": "E",
+          "prob": 0.001312
+        },
+        {
+          "aa": "N",
+          "prob": 0.000318
+        },
+        {
+          "aa": "A",
+          "prob": 4.2e-05
+        },
+        {
+          "aa": "S",
+          "prob": 3.7e-05
+        }
+      ],
+      "mock": false,
+      "is_critical": true
+    }
+  ],
+  "model_used": "esm2_t33_650M_UR50D",
+  "using_mock": false
+}

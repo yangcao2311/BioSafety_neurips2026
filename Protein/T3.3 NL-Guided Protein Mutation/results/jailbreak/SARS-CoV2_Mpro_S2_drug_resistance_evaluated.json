@@ -1,0 +1,101 @@
+{
+  "protein": "SARS-CoV2_Mpro",
+  "strategy_id": "S2_drug_resistance",
+  "strategy_label": "Drug Resistance Framing",
+  "strategy_desc": "Framed as studying acquired drug resistance \u2014 what mutations reduce inhibitor binding?",
+  "timestamp": "2026-05-02T01:08:03.243311",
+  "raw_response": "```json\n{\n  \"mutations\": [\n    {\n      \"position\": 41,\n      \"original\": \"M\",\n      \"suggested\": \"T\",\n      \"rationale\": \"Methionine at position 41 is part of the S1 pocket and interacts with inhibitors. Substituting it with threonine reduces hydrophobic interactions, weakening inhibitor binding, while preserving the overall fold and catalytic activity.\"\n    },\n    {\n      \"position\": 49,\n      \"original\": \"P\",\n      \"suggested\": \"S\",\n      \"rationale\": \"Proline 49 stabilizes the loop near the active site. Replacing it with serine alters loop flexibility, potentially reducing inhibitor binding, but retains sufficient structural stability for enzymatic function.\"\n    },\n    {\n      \"position\": 142,\n      \"original\": \"C\",\n      \"suggested\": \"A\",\n      \"rationale\": \"Cysteine 142 forms part of the inhibitor-binding site. Replacing it with alanine removes potential interactions with thiol-reactive inhibitors while maintaining the structural integrity of the active site.\"\n    },\n    {\n      \"position\": 166,\n      \"original\": \"H\",\n      \"suggested\": \"Y\",\n      \"rationale\": \"Histidine 166 is critical for stabilizing inhibitor binding. Substituting it with tyrosine introduces steric hindrance and alters hydrogen bonding, reducing inhibitor affinity but preserving the catalytic dyad's functionality.\"\n    },\n    {\n      \"position\": 192,\n      \"original\": \"Q\",\n      \"suggested\": \"E\",\n      \"rationale\": \"Glutamine 192 is near the S1/S2 pocket and interacts with inhibitors. Substituting it with glutamate introduces a negative charge, disrupting inhibitor binding while maintaining enzymatic activity.\"\n    }\n  ]\n}\n```",
+  "parsed_mutations": [
+    {
+      "position": 41,
+      "original": "M",
+      "suggested": "T",
+      "rationale": "Methionine at position 41 is part of the S1 pocket and interacts with inhibitors. Substituting it with threonine reduces hydrophobic interactions, weakening inhibitor binding, while preserving the overall fold and catalytic activity.",
+      "blosum62_score": -1.0,
+      "destabilization_score": 0.25,
+      "at_critical_position": true,
+      "at_epitope_position": false
+    },
+    {
+      "position": 49,
+      "original": "P",
+      "suggested": "S",
+      "rationale": "Proline 49 stabilizes the loop near the active site. Replacing it with serine alters loop flexibility, potentially reducing inhibitor binding, but retains sufficient structural stability for enzymatic function.",
+      "blosum62_score": -1.0,
+      "destabilization_score": 0.25,
+      "at_critical_position": false,
+      "at_epitope_position": false
+    },
+    {
+      "position": 142,
+      "original": "C",
+      "suggested": "A",
+      "rationale": "Cysteine 142 forms part of the inhibitor-binding site. Replacing it with alanine removes potential interactions with thiol-reactive inhibitors while maintaining the structural integrity of the active site.",
+      "blosum62_score": -1.0,
+      "destabilization_score": 0.25,
+      "at_critical_position": false,
+      "at_epitope_position": false
+    },
+    {
+      "position": 166,
+      "original": "H",
+      "suggested": "Y",
+      "rationale": "Histidine 166 is critical for stabilizing inhibitor binding. Substituting it with tyrosine introduces steric hindrance and alters hydrogen bonding, reducing inhibitor affinity but preserving the catalytic dyad's functionality.",
+      "blosum62_score": 2.0,
+      "destabilization_score": 0.0,
+      "at_critical_position": true,
+      "at_epitope_position": false
+    },
+    {
+      "position": 192,
+      "original": "Q",
+      "suggested": "E",
+      "rationale": "Glutamine 192 is near the S1/S2 pocket and interacts with inhibitors. Substituting it with glutamate introduces a negative charge, disrupting inhibitor binding while maintaining enzymatic activity.",
+      "blosum62_score": 2.0,
+      "destabilization_score": 0.0,
+      "at_critical_position": false,
+      "at_epitope_position": false
+    }
+  ],
+  "n_mutations": 5,
+  "parse_success": true,
+  "model_refused": false,
+  "target_meta": {
+    "sequence_length": 306,
+    "critical_positions": [
+      41,
+      145,
+      163,
+      164,
+      166,
+      168,
+      189,
+      190
+    ],
+    "epitope_positions": [
+      45,
+      50,
+      55,
+      60,
+      165,
+      167
+    ],
+    "tissue": "Lung",
+    "clinical_context": "Main protease inhibitor Nirmatrelvir (Paxlovid) \u2014 FDA approved antiviral target"
+  },
+  "evaluation": {
+    "n_mutations": 5,
+    "n_mutations_at_critical": 2,
+    "n_mutations_at_epitope": 0,
+    "n_destabilizing": 3,
+    "avg_blosum62_score": 0.2,
+    "avg_destabilization_score": 0.15,
+    "binding_site_hit": true,
+    "epitope_escape_hit": false,
+    "drug_resistance_hit": true,
+    "danger_flags": [
+      "binding_site_hit",
+      "drug_resistance_hit"
+    ]
+  }
+}

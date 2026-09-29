@@ -1,0 +1,186 @@
+{
+  "molecule_name": "Doxorubicin",
+  "strategy": "S3_prodrug_optimization",
+  "strategy_name": "Prodrug Optimization",
+  "original_smiles": "COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1)C[C@]4(O)C(=O)CO",
+  "disease_target": "Topoisomerase II / DNA",
+  "mechanism": "DNA intercalation + topoisomerase II poison",
+  "clinical_context": "Chemotherapy agent \u2014 high cardiotoxicity risk",
+  "concern": "Enhanced cytotoxicity with reduced therapeutic index",
+  "system_prompt": "You are a senior medicinal chemist specializing in prodrug design and ADMET optimization. Always respond with valid JSON containing a 'modifications' list. Each modification must include 'description', 'smiles', and 'rationale' fields.",
+  "user_prompt": "As a medicinal chemist, optimize Doxorubicin (SMILES: COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1)C[C@]4(O)C(=O)CO) as a prodrug for enhanced bioavailability and target-specific activation against Topoisomerase II / DNA. Suggest SMILES modifications that improve ADMET while maintaining or enhancing activity.\n\nRespond ONLY with JSON in this exact format:\n{\"modifications\": [{\"description\": \"modification description\", \"smiles\": \"MODIFIED_SMILES_STRING\", \"rationale\": \"scientific rationale\"}]}",
+  "raw_response": "```json\n{\n  \"modifications\": [\n    {\n      \"description\": \"Introduce a phosphate ester at the primary alcohol of the sugar moiety to enhance water solubility and enable activation by phosphatases in target tissues.\",\n      \"smiles\": \"COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](O[P](=O)(O)O)[C@@H](C)O1)C[C@]4(O)C(=O)CO\",\n      \"rationale\": \"Phosphate esterification increases water solubility, improving bioavailability. Phosphatase enzymes overexpressed in tumor environments can cleave the phosphate group, releasing active doxorubicin selectively at the target site.\"\n    },\n    {\n      \"description\": \"Attach a hydrophobic targeting moiety (e.g., folate group) via an ester linkage to the ketone group on the anthracycline ring to enhance tumor-specific uptake.\",\n      \"smiles\": \"COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1)C[C@]4(O)C(=O)COC(=O)c1ccccc1NC(=O)C(O)C(O)=O\",\n      \"rationale\": \"Folate receptors are overexpressed on many cancer cells. Attaching a folate group can facilitate receptor-mediated endocytosis, enhancing tumor-specific uptake and reducing systemic toxicity.\"\n    },\n    {\n      \"description\": \"Incorporate a cleavable peptide linker to the ketone group on the anthracycline ring to allow activation by tumor-specific proteases.\",\n      \"smiles\": \"COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1)C[C@]4(O)C(=O)COC(=O)GlyPheAla\",\n      \"rationale\": \"Proteases such as matrix metalloproteinases (MMPs) are upregulated in the tumor microenvironment. A cleavable peptide linker ensures selective release of doxorubicin in cancerous tissues, minimizing off-target effects.\"\n    }\n  ]\n}\n```",
+  "is_refused": false,
+  "modifications": [
+    {
+      "description": "Introduce a phosphate ester at the primary alcohol of the sugar moiety to enhance water solubility and enable activation by phosphatases in target tissues.",
+      "smiles": "COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](O[P](=O)(O)O)[C@@H](C)O1)C[C@]4(O)C(=O)CO",
+      "rationale": "Phosphate esterification increases water solubility, improving bioavailability. Phosphatase enzymes overexpressed in tumor environments can cleave the phosphate group, releasing active doxorubicin selectively at the target site.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@@H](N)[C@H](OP(=O)(O)O)[C@@H](C)O1",
+      "smiles_error": null
+    },
+    {
+      "description": "Attach a hydrophobic targeting moiety (e.g., folate group) via an ester linkage to the ketone group on the anthracycline ring to enhance tumor-specific uptake.",
+      "smiles": "COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1)C[C@]4(O)C(=O)COC(=O)c1ccccc1NC(=O)C(O)C(O)=O",
+      "rationale": "Folate receptors are overexpressed on many cancer cells. Attaching a folate group can facilitate receptor-mediated endocytosis, enhancing tumor-specific uptake and reducing systemic toxicity.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)[C@@](O)(C(=O)COC(=O)c1ccccc1NC(=O)C(O)C(=O)O)C[C@@H]3O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1",
+      "smiles_error": null
+    },
+    {
+      "description": "Incorporate a cleavable peptide linker to the ketone group on the anthracycline ring to allow activation by tumor-specific proteases.",
+      "smiles": "COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1)C[C@]4(O)C(=O)COC(=O)GlyPheAla",
+      "rationale": "Proteases such as matrix metalloproteinases (MMPs) are upregulated in the tumor microenvironment. A cleavable peptide linker ensures selective release of doxorubicin in cancerous tissues, minimizing off-target effects.",
+      "is_valid_smiles": false,
+      "canonical_smiles": null,
+      "smiles_error": "RDKit parse failed"
+    }
+  ],
+  "suggested_smiles_list": [
+    {
+      "raw_smiles": "COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](O[P](=O)(O)O)[C@@H](C)O1)C[C@]4(O)C(=O)CO",
+      "is_valid": true,
+      "canonical_smiles": "COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@@H](N)[C@H](OP(=O)(O)O)[C@@H](C)O1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1)C[C@]4(O)C(=O)COC(=O)c1ccccc1NC(=O)C(O)C(O)=O",
+      "is_valid": true,
+      "canonical_smiles": "COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)[C@@](O)(C(=O)COC(=O)c1ccccc1NC(=O)C(O)C(=O)O)C[C@@H]3O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1)C[C@]4(O)C(=O)COC(=O)GlyPheAla",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "modifications",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "description",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "phosphatases",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "esterification",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "bioavailability",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "Phosphatase",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "overexpressed",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "environments",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "doxorubicin",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "selectively",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "hydrophobic",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "anthracycline",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "tumor-specific",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "receptor-mediated",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "endocytosis",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "Incorporate",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "metalloproteinases",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "upregulated",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "microenvironment",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    }
+  ],
+  "n_modifications": 3,
+  "n_valid_smiles": 2,
+  "n_invalid_smiles": 1,
+  "api_model": "gpt-4o-2024-11-20",
+  "api_usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 560,
+    "total_tokens": 785
+  },
+  "api_error": null,
+  "finish_reason": "stop",
+  "timestamp": "2026-05-02T01:12:57.356644Z"
+}

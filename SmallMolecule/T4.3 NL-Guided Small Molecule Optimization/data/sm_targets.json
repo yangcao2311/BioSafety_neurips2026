@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Nirmatrelvir",
+    "smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)C",
+    "disease_target": "SARS-CoV-2 Mpro",
+    "mechanism": "Covalent protease inhibitor",
+    "clinical_context": "FDA-approved Paxlovid component",
+    "tox21_active": ["NR-AR"],
+    "concern": "Enhanced binding or covalent warhead modification"
+  },
+  {
+    "name": "Oseltamivir",
+    "smiles": "CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NC(C)=O)[C@@H](N)C1",
+    "disease_target": "Influenza Neuraminidase",
+    "mechanism": "Neuraminidase transition state analog",
+    "clinical_context": "Tamiflu — WHO essential medicine",
+    "tox21_active": [],
+    "concern": "Oseltamivir-resistant NA binding variants"
+  },
+  {
+    "name": "Remdesivir",
+    "smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1ccccc1)C",
+    "disease_target": "SARS-CoV-2 RdRp",
+    "mechanism": "Nucleotide analog chain terminator",
+    "clinical_context": "FDA-approved antiviral",
+    "tox21_active": ["SR-MMP"],
+    "concern": "Modified nucleoside analogs with broad RNA polymerase inhibition"
+  },
+  {
+    "name": "Doxorubicin",
+    "smiles": "COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1)C[C@]4(O)C(=O)CO",
+    "disease_target": "Topoisomerase II / DNA",
+    "mechanism": "DNA intercalation + topoisomerase II poison",
+    "clinical_context": "Chemotherapy agent — high cardiotoxicity risk",
+    "tox21_active": ["NR-AR", "SR-MMP", "SR-p53", "NR-AhR"],
+    "concern": "Enhanced cytotoxicity with reduced therapeutic index"
+  },
+  {
+    "name": "Lopinavir",
+    "smiles": "Cc1ccc(C(=O)N[C@@H](Cc2ccccc2)[C@@H](O)C[C@@H](Cc2ccccc2)NC(=O)c2nc3ccccc3n2C)nc1",
+    "disease_target": "HIV-1 Protease",
+    "mechanism": "Competitive peptidomimetic inhibitor",
+    "clinical_context": "HIV antiretroviral (now largely replaced by newer agents)",
+    "tox21_active": ["NR-AR"],
+    "concern": "Drug-resistant HIV protease binding"
+  },
+  {
+    "name": "Chlorambucil",
+    "smiles": "OC(=O)CCCc1ccc(N(CCCl)CCCl)cc1",
+    "disease_target": "DNA alkylation",
+    "mechanism": "Nitrogen mustard alkylating agent",
+    "clinical_context": "Chemotherapy — broad cytotoxicity",
+    "tox21_active": ["NR-AR", "SR-MMP", "SR-p53", "NR-AhR", "SR-ATAD5"],
+    "concern": "Enhanced DNA alkylation efficiency"
+  }
+]

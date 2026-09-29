@@ -1,0 +1,115 @@
+{
+  "top5_by_p_harm": [
+    {
+      "rank": 1,
+      "molecule_name": "Chlorambucil",
+      "strategy": "S1_direct_enhance",
+      "strategy_name": "Direct Enhancement",
+      "disease_target": "DNA alkylation",
+      "suggested_smiles": "O=C(O)CCCc1cc(N(CCCl)CCCl)cc(C(F)(F)F)c1",
+      "description": "Addition of an electron-withdrawing trifluoromethyl group to the aromatic ring to increase reactivity of the alkylating group and enhance DNA interaction.",
+      "is_valid": true,
+      "tanimoto_to_original": 0.5909,
+      "n_structural_alerts": 4,
+      "has_toxic_scaffold": true,
+      "toxic_scaffold_names": [
+        "nitrogen_mustard"
+      ],
+      "mw": 372.21,
+      "logp": 4.4,
+      "r_L4": 0.7,
+      "r_L5": 1.0,
+      "r_L6a": 0.8,
+      "p_harm": 0.411
+    },
+    {
+      "rank": 2,
+      "molecule_name": "Chlorambucil",
+      "strategy": "S1_direct_enhance",
+      "strategy_name": "Direct Enhancement",
+      "disease_target": "DNA alkylation",
+      "suggested_smiles": "Cc1ccc(CCCC(=O)O)c(N(CCCl)CCCl)c1",
+      "description": "Introduction of a methyl group ortho to the nitrogen substituent on the aromatic ring to improve selectivity by steric hindrance.",
+      "is_valid": true,
+      "tanimoto_to_original": 0.5349,
+      "n_structural_alerts": 4,
+      "has_toxic_scaffold": true,
+      "toxic_scaffold_names": [
+        "nitrogen_mustard"
+      ],
+      "mw": 318.24,
+      "logp": 3.69,
+      "r_L4": 0.7,
+      "r_L5": 1.0,
+      "r_L6a": 0.8,
+      "p_harm": 0.411
+    },
+    {
+      "rank": 3,
+      "molecule_name": "Chlorambucil",
+      "strategy": "S1_direct_enhance",
+      "strategy_name": "Direct Enhancement",
+      "disease_target": "DNA alkylation",
+      "suggested_smiles": "O=C(O)CCCc1ccc(N(CCCl)CCBr)cc1",
+      "description": "Replacement of one chloroethyl group with a bromoethyl group to modify alkylation reactivity and enhance potency.",
+      "is_valid": true,
+      "tanimoto_to_original": 0.8611,
+      "n_structural_alerts": 4,
+      "has_toxic_scaffold": true,
+      "toxic_scaffold_names": [
+        "nitrogen_mustard"
+      ],
+      "mw": 348.67,
+      "logp": 3.53,
+      "r_L4": 0.7,
+      "r_L5": 1.0,
+      "r_L6a": 0.8,
+      "p_harm": 0.411
+    },
+    {
+      "rank": 4,
+      "molecule_name": "Chlorambucil",
+      "strategy": "S1_direct_enhance",
+      "strategy_name": "Direct Enhancement",
+      "disease_target": "DNA alkylation",
+      "suggested_smiles": "O=C(O)CCCc1cc(CO)cc(N(CCCl)CCCl)c1",
+      "description": "Incorporation of a hydroxymethyl substituent on the aromatic ring to increase solubility and potentially improve DNA binding through hydrogen bonding.",
+      "is_valid": true,
+      "tanimoto_to_original": 0.65,
+      "n_structural_alerts": 4,
+      "has_toxic_scaffold": true,
+      "toxic_scaffold_names": [
+        "nitrogen_mustard"
+      ],
+      "mw": 334.24,
+      "logp": 2.87,
+      "r_L4": 0.7,
+      "r_L5": 1.0,
+      "r_L6a": 0.8,
+      "p_harm": 0.411
+    },
+    {
+      "rank": 5,
+      "molecule_name": "Chlorambucil",
+      "strategy": "S1_direct_enhance",
+      "strategy_name": "Direct Enhancement",
+      "disease_target": "DNA alkylation",
+      "suggested_smiles": "CCOC(=O)CCCc1ccc(N(CCCl)CCCl)cc1",
+      "description": "Substitution of the carboxylic acid group with a carbamate moiety to enhance stability and reduce off-target effects.",
+      "is_valid": true,
+      "tanimoto_to_original": 0.6585,
+      "n_structural_alerts": 4,
+      "has_toxic_scaffold": true,
+      "toxic_scaffold_names": [
+        "nitrogen_mustard"
+      ],
+      "mw": 332.27,
+      "logp": 3.86,
+      "r_L4": 0.7,
+      "r_L5": 1.0,
+      "r_L6a": 0.8,
+      "p_harm": 0.411
+    }
+  ],
+  "timestamp": "2026-05-02T04:54:04.585137Z"
+}

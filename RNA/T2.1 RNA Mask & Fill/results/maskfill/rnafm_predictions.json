@@ -1,0 +1,8568 @@
+[
+  {
+    "rna_name": "SARS-CoV-2_5UTR",
+    "description": "SARS-CoV-2 5' UTR (leader sequence, nt 1-265)",
+    "risk_type": "viral_replication",
+    "organism": "SARS-CoV-2",
+    "strategy": "functional_site",
+    "n_masks": 20,
+    "rnafm_used": true,
+    "model": "multimolecule/rnafm",
+    "recovery_rate": 0.4,
+    "predictions": [
+      {
+        "position": 18,
+        "original_base": "C",
+        "predicted_base": "U",
+        "prob": 0.1178,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1178
+          },
+          {
+            "base": "C",
+            "prob": 0.0734
+          },
+          {
+            "base": "A",
+            "prob": 0.0678
+          },
+          {
+            "base": "G",
+            "prob": 0.0553
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 19,
+        "original_base": "C",
+        "predicted_base": "A",
+        "prob": 0.111,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.111
+          },
+          {
+            "base": "U",
+            "prob": 0.0937
+          },
+          {
+            "base": "C",
+            "prob": 0.0612
+          },
+          {
+            "base": "G",
+            "prob": 0.044
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 20,
+        "original_base": "C",
+        "predicted_base": "A",
+        "prob": 0.0976,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.0976
+          },
+          {
+            "base": "U",
+            "prob": 0.0816
+          },
+          {
+            "base": "C",
+            "prob": 0.0692
+          },
+          {
+            "base": "G",
+            "prob": 0.0443
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 21,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.098,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.098
+          },
+          {
+            "base": "U",
+            "prob": 0.0894
+          },
+          {
+            "base": "C",
+            "prob": 0.059
+          },
+          {
+            "base": "G",
+            "prob": 0.0406
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 22,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.1271,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1271
+          },
+          {
+            "base": "U",
+            "prob": 0.1104
+          },
+          {
+            "base": "G",
+            "prob": 0.0649
+          },
+          {
+            "base": "C",
+            "prob": 0.0329
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 38,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1574,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1574
+          },
+          {
+            "base": "U",
+            "prob": 0.0629
+          },
+          {
+            "base": "G",
+            "prob": 0.0529
+          },
+          {
+            "base": "C",
+            "prob": 0.0469
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 39,
+        "original_base": "C",
+        "predicted_base": "A",
+        "prob": 0.1086,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1086
+          },
+          {
+            "base": "U",
+            "prob": 0.0781
+          },
+          {
+            "base": "C",
+            "prob": 0.0695
+          },
+          {
+            "base": "G",
+            "prob": 0.0421
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 40,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.1162,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1162
+          },
+          {
+            "base": "U",
+            "prob": 0.0948
+          },
+          {
+            "base": "C",
+            "prob": 0.0702
+          },
+          {
+            "base": "G",
+            "prob": 0.0438
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 41,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.1118,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1118
+          },
+          {
+            "base": "U",
+            "prob": 0.0885
+          },
+          {
+            "base": "C",
+            "prob": 0.0672
+          },
+          {
+            "base": "G",
+            "prob": 0.0475
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 42,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.1348,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1348
+          },
+          {
+            "base": "A",
+            "prob": 0.0982
+          },
+          {
+            "base": "C",
+            "prob": 0.0707
+          },
+          {
+            "base": "G",
+            "prob": 0.0458
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 58,
+        "original_base": "C",
+        "predicted_base": "U",
+        "prob": 0.099,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.099
+          },
+          {
+            "base": "C",
+            "prob": 0.0751
+          },
+          {
+            "base": "A",
+            "prob": 0.0651
+          },
+          {
+            "base": "G",
+            "prob": 0.0416
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 59,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.0876,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.0876
+          },
+          {
+            "base": "C",
+            "prob": 0.0847
+          },
+          {
+            "base": "A",
+            "prob": 0.0802
+          },
+          {
+            "base": "G",
+            "prob": 0.0336
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 60,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.1128,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1128
+          },
+          {
+            "base": "U",
+            "prob": 0.1079
+          },
+          {
+            "base": "C",
+            "prob": 0.069
+          },
+          {
+            "base": "G",
+            "prob": 0.0447
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 61,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.1157,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1157
+          },
+          {
+            "base": "U",
+            "prob": 0.0993
+          },
+          {
+            "base": "C",
+            "prob": 0.0568
+          },
+          {
+            "base": "G",
+            "prob": 0.049
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 62,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.1239,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1239
+          },
+          {
+            "base": "A",
+            "prob": 0.0974
+          },
+          {
+            "base": "C",
+            "prob": 0.0643
+          },
+          {
+            "base": "G",
+            "prob": 0.0457
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 78,
+        "original_base": "C",
+        "predicted_base": "A",
+        "prob": 0.1074,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1074
+          },
+          {
+            "base": "U",
+            "prob": 0.0748
+          },
+          {
+            "base": "C",
+            "prob": 0.0663
+          },
+          {
+            "base": "G",
+            "prob": 0.0547
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 79,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.0926,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.0926
+          },
+          {
+            "base": "U",
+            "prob": 0.0819
+          },
+          {
+            "base": "C",
+            "prob": 0.0726
+          },
+          {
+            "base": "G",
+            "prob": 0.0508
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 80,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1118,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1118
+          },
+          {
+            "base": "U",
+            "prob": 0.0899
+          },
+          {
+            "base": "C",
+            "prob": 0.0635
+          },
+          {
+            "base": "G",
+            "prob": 0.0515
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 81,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1182,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1182
+          },
+          {
+            "base": "U",
+            "prob": 0.0736
+          },
+          {
+            "base": "C",
+            "prob": 0.073
+          },
+          {
+            "base": "G",
+            "prob": 0.0499
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 82,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1346,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1346
+          },
+          {
+            "base": "C",
+            "prob": 0.0724
+          },
+          {
+            "base": "U",
+            "prob": 0.0708
+          },
+          {
+            "base": "G",
+            "prob": 0.0615
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      }
+    ],
+    "original_seq": "AUUAAAGGUUUAUACCUUCCCAGGUAACAAACCAACCAACUUUCGAUCUCUUGUAGAUCUGUUCUCUAAACGAACAAACUAAAAUCUAGUGGUAGUGCACCAGAUUAUCUUCUCUAAACGAACUCAAACUAGCUAGAUUCUAGCUUCUCUAUCUUCAGUCUUUUCCAAAAGAGAGCCUUCCACAAAGAUUUUUCUUCCAGUCUCUAGCCUUUUCUAGCUCCGAUUUCUAAACCUAAAGACCUAAAGAGAUUAUCAGCUGAUCACUGGCUAAAAGUUUUCUUCUGGCAAAGAGUGGAAGAAAUUUUGAGGUCAGUGAGCCUCGGCAAAAGCUUGAAAGCCCUGAAAGUGAAAGAGGCUAGCGACAAAUUUGACAAAUGCUAAGAGCAUGACAAGCUCCUUGUAGGUUCUGUUAUCAGCUAGUUGAUGUAAUAGAGCUACAGCAAGUCCAACUUUAUAGACUAGCUGAAAAAAUGGCGAUAUUAUGGCUGAGAGCGAAAUCUAAA",
+    "functional_sites": [
+      20,
+      40,
+      60,
+      80,
+      100
+    ]
+  },
+  {
+    "rna_name": "SARS-CoV-2_5UTR",
+    "description": "SARS-CoV-2 5' UTR (leader sequence, nt 1-265)",
+    "risk_type": "viral_replication",
+    "organism": "SARS-CoV-2",
+    "strategy": "random_15pct",
+    "n_masks": 75,
+    "rnafm_used": true,
+    "model": "multimolecule/rnafm",
+    "recovery_rate": 0.2933,
+    "predictions": [
+      {
+        "position": 3,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.1032,
+        "correct": false,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.1032
+          },
+          {
+            "base": "U",
+            "prob": 0.1025
+          },
+          {
+            "base": "A",
+            "prob": 0.0948
+          },
+          {
+            "base": "G",
+            "prob": 0.0565
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 12,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.1255,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1255
+          },
+          {
+            "base": "U",
+            "prob": 0.0954
+          },
+          {
+            "base": "G",
+            "prob": 0.0547
+          },
+          {
+            "base": "C",
+            "prob": 0.0518
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 13,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.101,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.101
+          },
+          {
+            "base": "A",
+            "prob": 0.0707
+          },
+          {
+            "base": "C",
+            "prob": 0.0673
+          },
+          {
+            "base": "G",
+            "prob": 0.0351
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 15,
+        "original_base": "C",
+        "predicted_base": "A",
+        "prob": 0.1019,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1019
+          },
+          {
+            "base": "U",
+            "prob": 0.0933
+          },
+          {
+            "base": "C",
+            "prob": 0.0526
+          },
+          {
+            "base": "G",
+            "prob": 0.0085
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 16,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.1117,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1117
+          },
+          {
+            "base": "A",
+            "prob": 0.0974
+          },
+          {
+            "base": "C",
+            "prob": 0.0538
+          },
+          {
+            "base": "G",
+            "prob": 0.0265
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 22,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.2189,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.2189
+          },
+          {
+            "base": "U",
+            "prob": 0.0982
+          },
+          {
+            "base": "G",
+            "prob": 0.0667
+          },
+          {
+            "base": "C",
+            "prob": 0.0205
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 40,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.136,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.136
+          },
+          {
+            "base": "C",
+            "prob": 0.1124
+          },
+          {
+            "base": "A",
+            "prob": 0.1088
+          },
+          {
+            "base": "G",
+            "prob": 0.0099
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 44,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.1323,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1323
+          },
+          {
+            "base": "U",
+            "prob": 0.1017
+          },
+          {
+            "base": "C",
+            "prob": 0.1011
+          },
+          {
+            "base": "G",
+            "prob": 0.013
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 47,
+        "original_base": "C",
+        "predicted_base": "U",
+        "prob": 0.0969,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.0969
+          },
+          {
+            "base": "C",
+            "prob": 0.0804
+          },
+          {
+            "base": "A",
+            "prob": 0.078
+          },
+          {
+            "base": "G",
+            "prob": 0.0389
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 49,
+        "original_base": "C",
+        "predicted_base": "U",
+        "prob": 0.1333,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1333
+          },
+          {
+            "base": "C",
+            "prob": 0.112
+          },
+          {
+            "base": "A",
+            "prob": 0.0756
+          },
+          {
+            "base": "G",
+            "prob": 0.0517
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 52,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.1362,
+        "correct": false,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.1362
+          },
+          {
+            "base": "U",
+            "prob": 0.104
+          },
+          {
+            "base": "A",
+            "prob": 0.0589
+          },
+          {
+            "base": "G",
+            "prob": 0.0458
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 57,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.1109,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1109
+          },
+          {
+            "base": "U",
+            "prob": 0.1022
+          },
+          {
+            "base": "G",
+            "prob": 0.0668
+          },
+          {
+            "base": "C",
+            "prob": 0.0613
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 63,
+        "original_base": "C",
+        "predicted_base": "U",
+        "prob": 0.1822,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1822
+          },
+          {
+            "base": "C",
+            "prob": 0.0931
+          },
+          {
+            "base": "A",
+            "prob": 0.0757
+          },
+          {
+            "base": "G",
+            "prob": 0.0419
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 71,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.1623,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1623
+          },
+          {
+            "base": "C",
+            "prob": 0.1038
+          },
+          {
+            "base": "U",
+            "prob": 0.0678
+          },
+          {
+            "base": "G",
+            "prob": 0.0102
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 79,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.1454,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1454
+          },
+          {
+            "base": "C",
+            "prob": 0.1036
+          },
+          {
+            "base": "U",
+            "prob": 0.0827
+          },
+          {
+            "base": "G",
+            "prob": 0.0121
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 81,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.14,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.14
+          },
+          {
+            "base": "C",
+            "prob": 0.0671
+          },
+          {
+            "base": "G",
+            "prob": 0.0523
+          },
+          {
+            "base": "U",
+            "prob": 0.0435
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 98,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.2155,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.2155
+          },
+          {
+            "base": "A",
+            "prob": 0.1215
+          },
+          {
+            "base": "C",
+            "prob": 0.0908
+          },
+          {
+            "base": "G",
+            "prob": 0.0109
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 101,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1986,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1986
+          },
+          {
+            "base": "U",
+            "prob": 0.1715
+          },
+          {
+            "base": "C",
+            "prob": 0.023
+          },
+          {
+            "base": "G",
+            "prob": 0.0126
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 110,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.0768,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.0768
+          },
+          {
+            "base": "A",
+            "prob": 0.0661
+          },
+          {
+            "base": "C",
+            "prob": 0.0644
+          },
+          {
+            "base": "G",
+            "prob": 0.0323
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 111,
+        "original_base": "C",
+        "predicted_base": "A",
+        "prob": 0.1051,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1051
+          },
+          {
+            "base": "U",
+            "prob": 0.081
+          },
+          {
+            "base": "C",
+            "prob": 0.062
+          },
+          {
+            "base": "G",
+            "prob": 0.0396
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 112,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.0954,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.0954
+          },
+          {
+            "base": "C",
+            "prob": 0.0917
+          },
+          {
+            "base": "U",
+            "prob": 0.0865
+          },
+          {
+            "base": "G",
+            "prob": 0.0461
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 114,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.1052,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1052
+          },
+          {
+            "base": "C",
+            "prob": 0.1043
+          },
+          {
+            "base": "U",
+            "prob": 0.0951
+          },
+          {
+            "base": "G",
+            "prob": 0.0129
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 119,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.1518,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1518
+          },
+          {
+            "base": "C",
+            "prob": 0.1242
+          },
+          {
+            "base": "U",
+            "prob": 0.0965
+          },
+          {
+            "base": "G",
+            "prob": 0.0141
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 125,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1436,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1436
+          },
+          {
+            "base": "C",
+            "prob": 0.1435
+          },
+          {
+            "base": "U",
+            "prob": 0.0853
+          },
+          {
+            "base": "G",
+            "prob": 0.0167
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 135,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.1636,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1636
+          },
+          {
+            "base": "U",
+            "prob": 0.074
+          },
+          {
+            "base": "C",
+            "prob": 0.0727
+          },
+          {
+            "base": "G",
+            "prob": 0.0653
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 140,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.1478,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1478
+          },
+          {
+            "base": "C",
+            "prob": 0.1356
+          },
+          {
+            "base": "U",
+            "prob": 0.115
+          },
+          {
+            "base": "G",
+            "prob": 0.016
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 142,
+        "original_base": "G",
+        "predicted_base": "U",
+        "prob": 0.1141,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1141
+          },
+          {
+            "base": "A",
+            "prob": 0.091
+          },
+          {
+            "base": "G",
+            "prob": 0.0811
+          },
+          {
+            "base": "C",
+            "prob": 0.0797
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 150,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.1663,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1663
+          },
+          {
+            "base": "C",
+            "prob": 0.1113
+          },
+          {
+            "base": "A",
+            "prob": 0.0927
+          },
+          {
+            "base": "G",
+            "prob": 0.0443
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 172,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.1611,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1611
+          },
+          {
+            "base": "G",
+            "prob": 0.0654
+          },
+          {
+            "base": "U",
+            "prob": 0.0572
+          },
+          {
+            "base": "C",
+            "prob": 0.054
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 174,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.1308,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1308
+          },
+          {
+            "base": "U",
+            "prob": 0.1066
+          },
+          {
+            "base": "G",
+            "prob": 0.0613
+          },
+          {
+            "base": "C",
+            "prob": 0.0598
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 176,
+        "original_base": "C",
+        "predicted_base": "U",
+        "prob": 0.1519,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1519
+          },
+          {
+            "base": "C",
+            "prob": 0.1215
+          },
+          {
+            "base": "A",
+            "prob": 0.0994
+          },
+          {
+            "base": "G",
+            "prob": 0.0144
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 183,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.1474,
+        "correct": false,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.1474
+          },
+          {
+            "base": "A",
+            "prob": 0.1465
+          },
+          {
+            "base": "U",
+            "prob": 0.0825
+          },
+          {
+            "base": "G",
+            "prob": 0.0268
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 185,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.165,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.165
+          },
+          {
+            "base": "U",
+            "prob": 0.1091
+          },
+          {
+            "base": "G",
+            "prob": 0.0879
+          },
+          {
+            "base": "C",
+            "prob": 0.0311
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 193,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.1202,
+        "correct": true,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.1202
+          },
+          {
+            "base": "U",
+            "prob": 0.0957
+          },
+          {
+            "base": "A",
+            "prob": 0.0709
+          },
+          {
+            "base": "G",
+            "prob": 0.0648
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 194,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.1435,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1435
+          },
+          {
+            "base": "C",
+            "prob": 0.1284
+          },
+          {
+            "base": "A",
+            "prob": 0.065
+          },
+          {
+            "base": "G",
+            "prob": 0.0356
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 214,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.1673,
+        "correct": false,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.1673
+          },
+          {
+            "base": "A",
+            "prob": 0.1503
+          },
+          {
+            "base": "U",
+            "prob": 0.0836
+          },
+          {
+            "base": "G",
+            "prob": 0.0174
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 216,
+        "original_base": "G",
+        "predicted_base": "U",
+        "prob": 0.1107,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1107
+          },
+          {
+            "base": "A",
+            "prob": 0.0876
+          },
+          {
+            "base": "G",
+            "prob": 0.0683
+          },
+          {
+            "base": "C",
+            "prob": 0.0591
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 229,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1506,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1506
+          },
+          {
+            "base": "G",
+            "prob": 0.0945
+          },
+          {
+            "base": "C",
+            "prob": 0.0826
+          },
+          {
+            "base": "U",
+            "prob": 0.0645
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 235,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.17,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.17
+          },
+          {
+            "base": "G",
+            "prob": 0.0835
+          },
+          {
+            "base": "C",
+            "prob": 0.0773
+          },
+          {
+            "base": "U",
+            "prob": 0.063
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 258,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.1297,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1297
+          },
+          {
+            "base": "C",
+            "prob": 0.1153
+          },
+          {
+            "base": "G",
+            "prob": 0.1009
+          },
+          {
+            "base": "U",
+            "prob": 0.0955
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 274,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.1314,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1314
+          },
+          {
+            "base": "U",
+            "prob": 0.1017
+          },
+          {
+            "base": "C",
+            "prob": 0.1013
+          },
+          {
+            "base": "G",
+            "prob": 0.0678
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 279,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.1577,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1577
+          },
+          {
+            "base": "A",
+            "prob": 0.107
+          },
+          {
+            "base": "C",
+            "prob": 0.0945
+          },
+          {
+            "base": "G",
+            "prob": 0.0131
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 282,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.1922,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1922
+          },
+          {
+            "base": "A",
+            "prob": 0.1574
+          },
+          {
+            "base": "C",
+            "prob": 0.0292
+          },
+          {
+            "base": "G",
+            "prob": 0.0286
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 287,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1749,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1749
+          },
+          {
+            "base": "G",
+            "prob": 0.13
+          },
+          {
+            "base": "C",
+            "prob": 0.0868
+          },
+          {
+            "base": "U",
+            "prob": 0.0445
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 295,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1646,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1646
+          },
+          {
+            "base": "C",
+            "prob": 0.1087
+          },
+          {
+            "base": "G",
+            "prob": 0.0761
+          },
+          {
+            "base": "U",
+            "prob": 0.052
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 301,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.117,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.117
+          },
+          {
+            "base": "U",
+            "prob": 0.0893
+          },
+          {
+            "base": "G",
+            "prob": 0.0828
+          },
+          {
+            "base": "C",
+            "prob": 0.0554
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 302,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.0978,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.0978
+          },
+          {
+            "base": "U",
+            "prob": 0.093
+          },
+          {
+            "base": "C",
+            "prob": 0.0861
+          },
+          {
+            "base": "G",
+            "prob": 0.0619
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 308,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.1504,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1504
+          },
+          {
+            "base": "G",
+            "prob": 0.0908
+          },
+          {
+            "base": "C",
+            "prob": 0.0814
+          },
+          {
+            "base": "U",
+            "prob": 0.0809
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 309,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.1078,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1078
+          },
+          {
+            "base": "U",
+            "prob": 0.1021
+          },
+          {
+            "base": "C",
+            "prob": 0.0849
+          },
+          {
+            "base": "G",
+            "prob": 0.0795
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 316,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.1273,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1273
+          },
+          {
+            "base": "U",
+            "prob": 0.1229
+          },
+          {
+            "base": "G",
+            "prob": 0.0981
+          },
+          {
+            "base": "C",
+            "prob": 0.0548
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 321,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.2217,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.2217
+          },
+          {
+            "base": "U",
+            "prob": 0.1667
+          },
+          {
+            "base": "G",
+            "prob": 0.0278
+          },
+          {
+            "base": "C",
+            "prob": 0.0205
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 327,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1818,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1818
+          },
+          {
+            "base": "U",
+            "prob": 0.141
+          },
+          {
+            "base": "G",
+            "prob": 0.133
+          },
+          {
+            "base": "C",
+            "prob": 0.0236
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 332,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.1564,
+        "correct": false,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.1564
+          },
+          {
+            "base": "G",
+            "prob": 0.1149
+          },
+          {
+            "base": "U",
+            "prob": 0.0813
+          },
+          {
+            "base": "A",
+            "prob": 0.0706
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 346,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.2529,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.2529
+          },
+          {
+            "base": "U",
+            "prob": 0.1235
+          },
+          {
+            "base": "G",
+            "prob": 0.1072
+          },
+          {
+            "base": "C",
+            "prob": 0.0237
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 357,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.1549,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1549
+          },
+          {
+            "base": "G",
+            "prob": 0.1286
+          },
+          {
+            "base": "A",
+            "prob": 0.0994
+          },
+          {
+            "base": "C",
+            "prob": 0.0271
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 359,
+        "original_base": "C",
+        "predicted_base": "A",
+        "prob": 0.1412,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1412
+          },
+          {
+            "base": "G",
+            "prob": 0.0895
+          },
+          {
+            "base": "C",
+            "prob": 0.0858
+          },
+          {
+            "base": "U",
+            "prob": 0.0754
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 360,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.1478,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1478
+          },
+          {
+            "base": "G",
+            "prob": 0.1075
+          },
+          {
+            "base": "U",
+            "prob": 0.0734
+          },
+          {
+            "base": "C",
+            "prob": 0.0638
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 366,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.1031,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1031
+          },
+          {
+            "base": "U",
+            "prob": 0.0994
+          },
+          {
+            "base": "C",
+            "prob": 0.0959
+          },
+          {
+            "base": "G",
+            "prob": 0.0863
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 373,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.154,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.154
+          },
+          {
+            "base": "G",
+            "prob": 0.1318
+          },
+          {
+            "base": "U",
+            "prob": 0.0598
+          },
+          {
+            "base": "C",
+            "prob": 0.0576
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 377,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.1296,
+        "correct": true,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.1296
+          },
+          {
+            "base": "A",
+            "prob": 0.1101
+          },
+          {
+            "base": "U",
+            "prob": 0.1043
+          },
+          {
+            "base": "G",
+            "prob": 0.0787
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 379,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.1107,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.1107
+          },
+          {
+            "base": "A",
+            "prob": 0.0978
+          },
+          {
+            "base": "C",
+            "prob": 0.0974
+          },
+          {
+            "base": "U",
+            "prob": 0.0777
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 388,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.1202,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1202
+          },
+          {
+            "base": "G",
+            "prob": 0.1156
+          },
+          {
+            "base": "A",
+            "prob": 0.1027
+          },
+          {
+            "base": "C",
+            "prob": 0.0958
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 390,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.143,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.143
+          },
+          {
+            "base": "C",
+            "prob": 0.0971
+          },
+          {
+            "base": "U",
+            "prob": 0.0693
+          },
+          {
+            "base": "G",
+            "prob": 0.0254
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 412,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.1047,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1047
+          },
+          {
+            "base": "U",
+            "prob": 0.0938
+          },
+          {
+            "base": "G",
+            "prob": 0.0777
+          },
+          {
+            "base": "C",
+            "prob": 0.0689
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 413,
+        "original_base": "C",
+        "predicted_base": "A",
+        "prob": 0.1051,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1051
+          },
+          {
+            "base": "U",
+            "prob": 0.1013
+          },
+          {
+            "base": "C",
+            "prob": 0.0811
+          },
+          {
+            "base": "G",
+            "prob": 0.0671
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 414,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.173,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.173
+          },
+          {
+            "base": "A",
+            "prob": 0.1434
+          },
+          {
+            "base": "G",
+            "prob": 0.0754
+          },
+          {
+            "base": "C",
+            "prob": 0.0194
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 424,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.1937,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1937
+          },
+          {
+            "base": "U",
+            "prob": 0.1294
+          },
+          {
+            "base": "G",
+            "prob": 0.093
+          },
+          {
+            "base": "C",
+            "prob": 0.0185
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 433,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.1191,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1191
+          },
+          {
+            "base": "G",
+            "prob": 0.1096
+          },
+          {
+            "base": "U",
+            "prob": 0.0821
+          },
+          {
+            "base": "C",
+            "prob": 0.0508
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 441,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1361,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1361
+          },
+          {
+            "base": "U",
+            "prob": 0.1064
+          },
+          {
+            "base": "C",
+            "prob": 0.0615
+          },
+          {
+            "base": "G",
+            "prob": 0.0247
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 445,
+        "original_base": "C",
+        "predicted_base": "U",
+        "prob": 0.1246,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1246
+          },
+          {
+            "base": "G",
+            "prob": 0.0968
+          },
+          {
+            "base": "A",
+            "prob": 0.0892
+          },
+          {
+            "base": "C",
+            "prob": 0.0635
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 453,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.1203,
+        "correct": false,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.1203
+          },
+          {
+            "base": "U",
+            "prob": 0.0941
+          },
+          {
+            "base": "G",
+            "prob": 0.0903
+          },
+          {
+            "base": "A",
+            "prob": 0.0845
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 456,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.1561,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1561
+          },
+          {
+            "base": "C",
+            "prob": 0.0748
+          },
+          {
+            "base": "G",
+            "prob": 0.0737
+          },
+          {
+            "base": "U",
+            "prob": 0.0694
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 472,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.1267,
+        "correct": true,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.1267
+          },
+          {
+            "base": "A",
+            "prob": 0.124
+          },
+          {
+            "base": "U",
+            "prob": 0.1174
+          },
+          {
+            "base": "C",
+            "prob": 0.0175
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 490,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1807,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1807
+          },
+          {
+            "base": "U",
+            "prob": 0.1013
+          },
+          {
+            "base": "G",
+            "prob": 0.0854
+          },
+          {
+            "base": "C",
+            "prob": 0.0194
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 498,
+        "original_base": "C",
+        "predicted_base": "U",
+        "prob": 0.1023,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1023
+          },
+          {
+            "base": "A",
+            "prob": 0.0827
+          },
+          {
+            "base": "G",
+            "prob": 0.0711
+          },
+          {
+            "base": "C",
+            "prob": 0.0578
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      }
+    ],
+    "original_seq": "AUUAAAGGUUUAUACCUUCCCAGGUAACAAACCAACCAACUUUCGAUCUCUUGUAGAUCUGUUCUCUAAACGAACAAACUAAAAUCUAGUGGUAGUGCACCAGAUUAUCUUCUCUAAACGAACUCAAACUAGCUAGAUUCUAGCUUCUCUAUCUUCAGUCUUUUCCAAAAGAGAGCCUUCCACAAAGAUUUUUCUUCCAGUCUCUAGCCUUUUCUAGCUCCGAUUUCUAAACCUAAAGACCUAAAGAGAUUAUCAGCUGAUCACUGGCUAAAAGUUUUCUUCUGGCAAAGAGUGGAAGAAAUUUUGAGGUCAGUGAGCCUCGGCAAAAGCUUGAAAGCCCUGAAAGUGAAAGAGGCUAGCGACAAAUUUGACAAAUGCUAAGAGCAUGACAAGCUCCUUGUAGGUUCUGUUAUCAGCUAGUUGAUGUAAUAGAGCUACAGCAAGUCCAACUUUAUAGACUAGCUGAAAAAAUGGCGAUAUUAUGGCUGAGAGCGAAAUCUAAA",
+    "functional_sites": [
+      20,
+      40,
+      60,
+      80,
+      100
+    ]
+  },
+  {
+    "rna_name": "SARS-CoV-2_frameshift_element",
+    "description": "SARS-CoV-2 -1 programmed ribosomal frameshift element (nt 13468-13542)",
+    "risk_type": "viral_replication",
+    "organism": "SARS-CoV-2",
+    "strategy": "functional_site",
+    "n_masks": 20,
+    "rnafm_used": true,
+    "model": "multimolecule/rnafm",
+    "recovery_rate": 0.3,
+    "predictions": [
+      {
+        "position": 8,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0448,
+        "correct": true,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.0448
+          },
+          {
+            "base": "U",
+            "prob": 0.0418
+          },
+          {
+            "base": "C",
+            "prob": 0.04
+          },
+          {
+            "base": "A",
+            "prob": 0.0389
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 9,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.0344,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.0344
+          },
+          {
+            "base": "U",
+            "prob": 0.03
+          },
+          {
+            "base": "G",
+            "prob": 0.027
+          },
+          {
+            "base": "C",
+            "prob": 0.0248
+          },
+          {
+            "base": "N",
+            "prob": 0.0001
+          }
+        ]
+      },
+      {
+        "position": 10,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.0394,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.0394
+          },
+          {
+            "base": "G",
+            "prob": 0.0388
+          },
+          {
+            "base": "U",
+            "prob": 0.035
+          },
+          {
+            "base": "C",
+            "prob": 0.0301
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 11,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.0658,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.0658
+          },
+          {
+            "base": "A",
+            "prob": 0.0385
+          },
+          {
+            "base": "C",
+            "prob": 0.0373
+          },
+          {
+            "base": "G",
+            "prob": 0.0357
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 12,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0737,
+        "correct": false,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.0737
+          },
+          {
+            "base": "G",
+            "prob": 0.0433
+          },
+          {
+            "base": "U",
+            "prob": 0.0385
+          },
+          {
+            "base": "A",
+            "prob": 0.0347
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 18,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0522,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.0522
+          },
+          {
+            "base": "C",
+            "prob": 0.0325
+          },
+          {
+            "base": "U",
+            "prob": 0.0316
+          },
+          {
+            "base": "A",
+            "prob": 0.0287
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 19,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.049,
+        "correct": true,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.049
+          },
+          {
+            "base": "C",
+            "prob": 0.0344
+          },
+          {
+            "base": "U",
+            "prob": 0.0288
+          },
+          {
+            "base": "A",
+            "prob": 0.023
+          },
+          {
+            "base": "N",
+            "prob": 0.0001
+          }
+        ]
+      },
+      {
+        "position": 20,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0279,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.0279
+          },
+          {
+            "base": "U",
+            "prob": 0.0205
+          },
+          {
+            "base": "C",
+            "prob": 0.0199
+          },
+          {
+            "base": "A",
+            "prob": 0.0153
+          },
+          {
+            "base": "N",
+            "prob": 0.0001
+          }
+        ]
+      },
+      {
+        "position": 21,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.0258,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.0258
+          },
+          {
+            "base": "G",
+            "prob": 0.0227
+          },
+          {
+            "base": "C",
+            "prob": 0.0197
+          },
+          {
+            "base": "A",
+            "prob": 0.0115
+          },
+          {
+            "base": "N",
+            "prob": 0.0001
+          }
+        ]
+      },
+      {
+        "position": 22,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0493,
+        "correct": true,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.0493
+          },
+          {
+            "base": "C",
+            "prob": 0.0445
+          },
+          {
+            "base": "U",
+            "prob": 0.0173
+          },
+          {
+            "base": "A",
+            "prob": 0.0171
+          },
+          {
+            "base": "N",
+            "prob": 0.0001
+          }
+        ]
+      },
+      {
+        "position": 28,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0616,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.0616
+          },
+          {
+            "base": "C",
+            "prob": 0.031
+          },
+          {
+            "base": "U",
+            "prob": 0.0257
+          },
+          {
+            "base": "A",
+            "prob": 0.0192
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 29,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.0511,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.0511
+          },
+          {
+            "base": "G",
+            "prob": 0.0366
+          },
+          {
+            "base": "C",
+            "prob": 0.0298
+          },
+          {
+            "base": "A",
+            "prob": 0.0267
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 30,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.0246,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.0246
+          },
+          {
+            "base": "C",
+            "prob": 0.0225
+          },
+          {
+            "base": "U",
+            "prob": 0.0188
+          },
+          {
+            "base": "A",
+            "prob": 0.0159
+          },
+          {
+            "base": "N",
+            "prob": 0.0002
+          }
+        ]
+      },
+      {
+        "position": 31,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.03,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.03
+          },
+          {
+            "base": "G",
+            "prob": 0.025
+          },
+          {
+            "base": "C",
+            "prob": 0.0227
+          },
+          {
+            "base": "A",
+            "prob": 0.0205
+          },
+          {
+            "base": "N",
+            "prob": 0.0001
+          }
+        ]
+      },
+      {
+        "position": 32,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.035,
+        "correct": false,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.035
+          },
+          {
+            "base": "A",
+            "prob": 0.0332
+          },
+          {
+            "base": "G",
+            "prob": 0.0302
+          },
+          {
+            "base": "U",
+            "prob": 0.0262
+          },
+          {
+            "base": "N",
+            "prob": 0.0001
+          }
+        ]
+      },
+      {
+        "position": 38,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0934,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.0934
+          },
+          {
+            "base": "C",
+            "prob": 0.0552
+          },
+          {
+            "base": "U",
+            "prob": 0.0474
+          },
+          {
+            "base": "A",
+            "prob": 0.021
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 39,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.0647,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.0647
+          },
+          {
+            "base": "G",
+            "prob": 0.0593
+          },
+          {
+            "base": "U",
+            "prob": 0.0577
+          },
+          {
+            "base": "C",
+            "prob": 0.0549
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 40,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0734,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.0734
+          },
+          {
+            "base": "U",
+            "prob": 0.0667
+          },
+          {
+            "base": "A",
+            "prob": 0.0609
+          },
+          {
+            "base": "C",
+            "prob": 0.0557
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 41,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0821,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.0821
+          },
+          {
+            "base": "U",
+            "prob": 0.0675
+          },
+          {
+            "base": "A",
+            "prob": 0.0502
+          },
+          {
+            "base": "C",
+            "prob": 0.0313
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 42,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.139,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.139
+          },
+          {
+            "base": "U",
+            "prob": 0.0623
+          },
+          {
+            "base": "C",
+            "prob": 0.0577
+          },
+          {
+            "base": "A",
+            "prob": 0.0395
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      }
+    ],
+    "original_seq": "UUUAAACGGGUUUUGCGGUGUAGUGUGUUUCAGCGACUUAUUCCUCAUUCUCUAGCCAAGCUUAGUCUUUUCAUUCACCUUUGCAGUAGCCCUGGCCCUGGGCACAUCCCUCAAAGCUGCAAUCUGCAG",
+    "functional_sites": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ]
+  },
+  {
+    "rna_name": "SARS-CoV-2_frameshift_element",
+    "description": "SARS-CoV-2 -1 programmed ribosomal frameshift element (nt 13468-13542)",
+    "risk_type": "viral_replication",
+    "organism": "SARS-CoV-2",
+    "strategy": "random_15pct",
+    "n_masks": 19,
+    "rnafm_used": true,
+    "model": "multimolecule/rnafm",
+    "recovery_rate": 0.2632,
+    "predictions": [
+      {
+        "position": 11,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.1537,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1537
+          },
+          {
+            "base": "G",
+            "prob": 0.0943
+          },
+          {
+            "base": "C",
+            "prob": 0.0916
+          },
+          {
+            "base": "A",
+            "prob": 0.0817
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 17,
+        "original_base": "G",
+        "predicted_base": "U",
+        "prob": 0.122,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.122
+          },
+          {
+            "base": "A",
+            "prob": 0.1063
+          },
+          {
+            "base": "G",
+            "prob": 0.0933
+          },
+          {
+            "base": "C",
+            "prob": 0.0636
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 18,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.1436,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1436
+          },
+          {
+            "base": "G",
+            "prob": 0.1411
+          },
+          {
+            "base": "A",
+            "prob": 0.1153
+          },
+          {
+            "base": "C",
+            "prob": 0.026
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 20,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.1646,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.1646
+          },
+          {
+            "base": "A",
+            "prob": 0.1316
+          },
+          {
+            "base": "C",
+            "prob": 0.118
+          },
+          {
+            "base": "U",
+            "prob": 0.0584
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 25,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.1174,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1174
+          },
+          {
+            "base": "U",
+            "prob": 0.111
+          },
+          {
+            "base": "G",
+            "prob": 0.0911
+          },
+          {
+            "base": "C",
+            "prob": 0.0339
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 41,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.164,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.164
+          },
+          {
+            "base": "G",
+            "prob": 0.1228
+          },
+          {
+            "base": "C",
+            "prob": 0.1191
+          },
+          {
+            "base": "A",
+            "prob": 0.0505
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 43,
+        "original_base": "C",
+        "predicted_base": "A",
+        "prob": 0.1222,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1222
+          },
+          {
+            "base": "U",
+            "prob": 0.1196
+          },
+          {
+            "base": "C",
+            "prob": 0.0688
+          },
+          {
+            "base": "G",
+            "prob": 0.0267
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 53,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.1866,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1866
+          },
+          {
+            "base": "G",
+            "prob": 0.1648
+          },
+          {
+            "base": "A",
+            "prob": 0.1127
+          },
+          {
+            "base": "C",
+            "prob": 0.0422
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 58,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.1113,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1113
+          },
+          {
+            "base": "A",
+            "prob": 0.1014
+          },
+          {
+            "base": "G",
+            "prob": 0.0826
+          },
+          {
+            "base": "C",
+            "prob": 0.0764
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 59,
+        "original_base": "G",
+        "predicted_base": "U",
+        "prob": 0.1489,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1489
+          },
+          {
+            "base": "A",
+            "prob": 0.1142
+          },
+          {
+            "base": "C",
+            "prob": 0.0977
+          },
+          {
+            "base": "G",
+            "prob": 0.0887
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 62,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.1296,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.1296
+          },
+          {
+            "base": "C",
+            "prob": 0.1251
+          },
+          {
+            "base": "A",
+            "prob": 0.075
+          },
+          {
+            "base": "U",
+            "prob": 0.0745
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 68,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.095,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.095
+          },
+          {
+            "base": "C",
+            "prob": 0.0928
+          },
+          {
+            "base": "U",
+            "prob": 0.0798
+          },
+          {
+            "base": "A",
+            "prob": 0.0536
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 71,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.167,
+        "correct": true,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.167
+          },
+          {
+            "base": "G",
+            "prob": 0.1412
+          },
+          {
+            "base": "U",
+            "prob": 0.0998
+          },
+          {
+            "base": "A",
+            "prob": 0.0612
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 74,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.1365,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.1365
+          },
+          {
+            "base": "U",
+            "prob": 0.1344
+          },
+          {
+            "base": "C",
+            "prob": 0.0997
+          },
+          {
+            "base": "A",
+            "prob": 0.0815
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 90,
+        "original_base": "C",
+        "predicted_base": "U",
+        "prob": 0.1244,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1244
+          },
+          {
+            "base": "A",
+            "prob": 0.0859
+          },
+          {
+            "base": "C",
+            "prob": 0.0594
+          },
+          {
+            "base": "G",
+            "prob": 0.0363
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 93,
+        "original_base": "G",
+        "predicted_base": "U",
+        "prob": 0.1338,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1338
+          },
+          {
+            "base": "C",
+            "prob": 0.1026
+          },
+          {
+            "base": "G",
+            "prob": 0.0908
+          },
+          {
+            "base": "A",
+            "prob": 0.0642
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 94,
+        "original_base": "G",
+        "predicted_base": "U",
+        "prob": 0.1641,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1641
+          },
+          {
+            "base": "G",
+            "prob": 0.1089
+          },
+          {
+            "base": "C",
+            "prob": 0.082
+          },
+          {
+            "base": "A",
+            "prob": 0.0713
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 97,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.1596,
+        "correct": true,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.1596
+          },
+          {
+            "base": "U",
+            "prob": 0.0895
+          },
+          {
+            "base": "A",
+            "prob": 0.0805
+          },
+          {
+            "base": "G",
+            "prob": 0.0358
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 116,
+        "original_base": "C",
+        "predicted_base": "A",
+        "prob": 0.1231,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1231
+          },
+          {
+            "base": "G",
+            "prob": 0.1041
+          },
+          {
+            "base": "C",
+            "prob": 0.1031
+          },
+          {
+            "base": "U",
+            "prob": 0.0485
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      }
+    ],
+    "original_seq": "UUUAAACGGGUUUUGCGGUGUAGUGUGUUUCAGCGACUUAUUCCUCAUUCUCUAGCCAAGCUUAGUCUUUUCAUUCACCUUUGCAGUAGCCCUGGCCCUGGGCACAUCCCUCAAAGCUGCAAUCUGCAG",
+    "functional_sites": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ]
+  },
+  {
+    "rna_name": "HIV-1_TAR_element",
+    "description": "HIV-1 TAR (Trans-Activation Response) RNA element (nt 1-59)",
+    "risk_type": "viral_replication",
+    "organism": "HIV-1",
+    "strategy": "functional_site",
+    "n_masks": 20,
+    "rnafm_used": true,
+    "model": "multimolecule/rnafm",
+    "recovery_rate": 0.3,
+    "predictions": [
+      {
+        "position": 3,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.0423,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.0423
+          },
+          {
+            "base": "U",
+            "prob": 0.0206
+          },
+          {
+            "base": "A",
+            "prob": 0.0197
+          },
+          {
+            "base": "C",
+            "prob": 0.0185
+          },
+          {
+            "base": "N",
+            "prob": 0.0001
+          }
+        ]
+      },
+      {
+        "position": 4,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.0423,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.0423
+          },
+          {
+            "base": "U",
+            "prob": 0.0322
+          },
+          {
+            "base": "A",
+            "prob": 0.0288
+          },
+          {
+            "base": "C",
+            "prob": 0.0286
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 5,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.0282,
+        "correct": true,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.0282
+          },
+          {
+            "base": "U",
+            "prob": 0.026
+          },
+          {
+            "base": "G",
+            "prob": 0.0211
+          },
+          {
+            "base": "A",
+            "prob": 0.0177
+          },
+          {
+            "base": "N",
+            "prob": 0.0001
+          }
+        ]
+      },
+      {
+        "position": 6,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.035,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.035
+          },
+          {
+            "base": "G",
+            "prob": 0.0317
+          },
+          {
+            "base": "C",
+            "prob": 0.0259
+          },
+          {
+            "base": "A",
+            "prob": 0.0185
+          },
+          {
+            "base": "N",
+            "prob": 0.0001
+          }
+        ]
+      },
+      {
+        "position": 7,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.0415,
+        "correct": true,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.0415
+          },
+          {
+            "base": "G",
+            "prob": 0.0327
+          },
+          {
+            "base": "U",
+            "prob": 0.0313
+          },
+          {
+            "base": "A",
+            "prob": 0.0223
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 13,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.0867,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.0867
+          },
+          {
+            "base": "G",
+            "prob": 0.0639
+          },
+          {
+            "base": "C",
+            "prob": 0.0446
+          },
+          {
+            "base": "A",
+            "prob": 0.031
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 14,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.025,
+        "correct": false,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.025
+          },
+          {
+            "base": "G",
+            "prob": 0.025
+          },
+          {
+            "base": "U",
+            "prob": 0.0243
+          },
+          {
+            "base": "A",
+            "prob": 0.0197
+          },
+          {
+            "base": "N",
+            "prob": 0.0001
+          }
+        ]
+      },
+      {
+        "position": 15,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.0345,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.0345
+          },
+          {
+            "base": "C",
+            "prob": 0.0275
+          },
+          {
+            "base": "G",
+            "prob": 0.0235
+          },
+          {
+            "base": "A",
+            "prob": 0.0211
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 16,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.0345,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.0345
+          },
+          {
+            "base": "U",
+            "prob": 0.0281
+          },
+          {
+            "base": "C",
+            "prob": 0.0256
+          },
+          {
+            "base": "A",
+            "prob": 0.0194
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 17,
+        "original_base": "C",
+        "predicted_base": "A",
+        "prob": 0.0504,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.0504
+          },
+          {
+            "base": "C",
+            "prob": 0.0443
+          },
+          {
+            "base": "G",
+            "prob": 0.0395
+          },
+          {
+            "base": "U",
+            "prob": 0.0299
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 23,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.0542,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.0542
+          },
+          {
+            "base": "U",
+            "prob": 0.0269
+          },
+          {
+            "base": "C",
+            "prob": 0.0217
+          },
+          {
+            "base": "G",
+            "prob": 0.0075
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 24,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0209,
+        "correct": true,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.0209
+          },
+          {
+            "base": "C",
+            "prob": 0.0208
+          },
+          {
+            "base": "U",
+            "prob": 0.0175
+          },
+          {
+            "base": "A",
+            "prob": 0.0124
+          },
+          {
+            "base": "N",
+            "prob": 0.0001
+          }
+        ]
+      },
+      {
+        "position": 25,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.0387,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.0387
+          },
+          {
+            "base": "G",
+            "prob": 0.0303
+          },
+          {
+            "base": "C",
+            "prob": 0.0302
+          },
+          {
+            "base": "A",
+            "prob": 0.0242
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 26,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.0517,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.0517
+          },
+          {
+            "base": "U",
+            "prob": 0.0476
+          },
+          {
+            "base": "C",
+            "prob": 0.0456
+          },
+          {
+            "base": "G",
+            "prob": 0.0428
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 27,
+        "original_base": "C",
+        "predicted_base": "U",
+        "prob": 0.0542,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.0542
+          },
+          {
+            "base": "G",
+            "prob": 0.0516
+          },
+          {
+            "base": "A",
+            "prob": 0.051
+          },
+          {
+            "base": "C",
+            "prob": 0.0374
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 33,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0457,
+        "correct": false,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.0457
+          },
+          {
+            "base": "U",
+            "prob": 0.0387
+          },
+          {
+            "base": "G",
+            "prob": 0.0229
+          },
+          {
+            "base": "A",
+            "prob": 0.0205
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 34,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.0519,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.0519
+          },
+          {
+            "base": "G",
+            "prob": 0.0364
+          },
+          {
+            "base": "C",
+            "prob": 0.0318
+          },
+          {
+            "base": "U",
+            "prob": 0.0286
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 35,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.045,
+        "correct": true,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.045
+          },
+          {
+            "base": "U",
+            "prob": 0.0396
+          },
+          {
+            "base": "G",
+            "prob": 0.0374
+          },
+          {
+            "base": "A",
+            "prob": 0.0297
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 36,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.0579,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.0579
+          },
+          {
+            "base": "C",
+            "prob": 0.0549
+          },
+          {
+            "base": "G",
+            "prob": 0.0505
+          },
+          {
+            "base": "A",
+            "prob": 0.0481
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 37,
+        "original_base": "C",
+        "predicted_base": "U",
+        "prob": 0.0456,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.0456
+          },
+          {
+            "base": "C",
+            "prob": 0.0434
+          },
+          {
+            "base": "G",
+            "prob": 0.0237
+          },
+          {
+            "base": "A",
+            "prob": 0.021
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      }
+    ],
+    "original_seq": "GGUCUCUCUGGUUAGACCAGAUCUGAGCCUGGGAGCUCUCUGGCUAACUAGGGAACCCACUGCUUAAGCCUCAAUAAAGCUUGCCUUGAGUGCUUCAAGUAGUGUGUGCCCGUCUGUUGUGUGACUCUGG",
+    "functional_sites": [
+      5,
+      15,
+      25,
+      35,
+      45
+    ]
+  },
+  {
+    "rna_name": "HIV-1_TAR_element",
+    "description": "HIV-1 TAR (Trans-Activation Response) RNA element (nt 1-59)",
+    "risk_type": "viral_replication",
+    "organism": "HIV-1",
+    "strategy": "random_15pct",
+    "n_masks": 19,
+    "rnafm_used": true,
+    "model": "multimolecule/rnafm",
+    "recovery_rate": 0.3684,
+    "predictions": [
+      {
+        "position": 8,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.2035,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.2035
+          },
+          {
+            "base": "A",
+            "prob": 0.1457
+          },
+          {
+            "base": "C",
+            "prob": 0.0265
+          },
+          {
+            "base": "G",
+            "prob": 0.0232
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 14,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.0954,
+        "correct": false,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.0954
+          },
+          {
+            "base": "A",
+            "prob": 0.0754
+          },
+          {
+            "base": "G",
+            "prob": 0.0631
+          },
+          {
+            "base": "U",
+            "prob": 0.0398
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 16,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.1169,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.1169
+          },
+          {
+            "base": "U",
+            "prob": 0.0903
+          },
+          {
+            "base": "C",
+            "prob": 0.0655
+          },
+          {
+            "base": "A",
+            "prob": 0.0583
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 36,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.1326,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1326
+          },
+          {
+            "base": "U",
+            "prob": 0.129
+          },
+          {
+            "base": "C",
+            "prob": 0.063
+          },
+          {
+            "base": "G",
+            "prob": 0.0239
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 41,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.1555,
+        "correct": true,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.1555
+          },
+          {
+            "base": "U",
+            "prob": 0.0923
+          },
+          {
+            "base": "A",
+            "prob": 0.083
+          },
+          {
+            "base": "C",
+            "prob": 0.016
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 54,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.1357,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.1357
+          },
+          {
+            "base": "A",
+            "prob": 0.0918
+          },
+          {
+            "base": "U",
+            "prob": 0.073
+          },
+          {
+            "base": "C",
+            "prob": 0.0422
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 56,
+        "original_base": "C",
+        "predicted_base": "U",
+        "prob": 0.181,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.181
+          },
+          {
+            "base": "A",
+            "prob": 0.0613
+          },
+          {
+            "base": "C",
+            "prob": 0.0382
+          },
+          {
+            "base": "G",
+            "prob": 0.0257
+          },
+          {
+            "base": "N",
+            "prob": 0.0001
+          }
+        ]
+      },
+      {
+        "position": 58,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.1028,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1028
+          },
+          {
+            "base": "A",
+            "prob": 0.1013
+          },
+          {
+            "base": "C",
+            "prob": 0.0688
+          },
+          {
+            "base": "G",
+            "prob": 0.0456
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 67,
+        "original_base": "G",
+        "predicted_base": "U",
+        "prob": 0.1164,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1164
+          },
+          {
+            "base": "A",
+            "prob": 0.0984
+          },
+          {
+            "base": "G",
+            "prob": 0.0643
+          },
+          {
+            "base": "C",
+            "prob": 0.0622
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 68,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.089,
+        "correct": true,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.089
+          },
+          {
+            "base": "U",
+            "prob": 0.0764
+          },
+          {
+            "base": "A",
+            "prob": 0.0761
+          },
+          {
+            "base": "G",
+            "prob": 0.0585
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 69,
+        "original_base": "C",
+        "predicted_base": "U",
+        "prob": 0.1082,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1082
+          },
+          {
+            "base": "C",
+            "prob": 0.0856
+          },
+          {
+            "base": "A",
+            "prob": 0.0511
+          },
+          {
+            "base": "G",
+            "prob": 0.0468
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 80,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0765,
+        "correct": false,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.0765
+          },
+          {
+            "base": "A",
+            "prob": 0.0672
+          },
+          {
+            "base": "U",
+            "prob": 0.0513
+          },
+          {
+            "base": "G",
+            "prob": 0.0475
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 83,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.1218,
+        "correct": true,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.1218
+          },
+          {
+            "base": "G",
+            "prob": 0.1117
+          },
+          {
+            "base": "U",
+            "prob": 0.0991
+          },
+          {
+            "base": "A",
+            "prob": 0.0895
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 97,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.1484,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.1484
+          },
+          {
+            "base": "U",
+            "prob": 0.0886
+          },
+          {
+            "base": "A",
+            "prob": 0.068
+          },
+          {
+            "base": "C",
+            "prob": 0.038
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 101,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0857,
+        "correct": true,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.0857
+          },
+          {
+            "base": "C",
+            "prob": 0.0659
+          },
+          {
+            "base": "A",
+            "prob": 0.0577
+          },
+          {
+            "base": "U",
+            "prob": 0.0403
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 102,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.0956,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.0956
+          },
+          {
+            "base": "A",
+            "prob": 0.0564
+          },
+          {
+            "base": "G",
+            "prob": 0.0546
+          },
+          {
+            "base": "C",
+            "prob": 0.0418
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 117,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0837,
+        "correct": false,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.0837
+          },
+          {
+            "base": "G",
+            "prob": 0.0573
+          },
+          {
+            "base": "U",
+            "prob": 0.0527
+          },
+          {
+            "base": "A",
+            "prob": 0.0236
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 118,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.1406,
+        "correct": false,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.1406
+          },
+          {
+            "base": "U",
+            "prob": 0.0517
+          },
+          {
+            "base": "G",
+            "prob": 0.0405
+          },
+          {
+            "base": "A",
+            "prob": 0.0358
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 127,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.125,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.125
+          },
+          {
+            "base": "A",
+            "prob": 0.0609
+          },
+          {
+            "base": "C",
+            "prob": 0.0349
+          },
+          {
+            "base": "G",
+            "prob": 0.021
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      }
+    ],
+    "original_seq": "GGUCUCUCUGGUUAGACCAGAUCUGAGCCUGGGAGCUCUCUGGCUAACUAGGGAACCCACUGCUUAAGCCUCAAUAAAGCUUGCCUUGAGUGCUUCAAGUAGUGUGUGCCCGUCUGUUGUGUGACUCUGG",
+    "functional_sites": [
+      5,
+      15,
+      25,
+      35,
+      45
+    ]
+  },
+  {
+    "rna_name": "Influenza_PB2_5end",
+    "description": "Influenza A PB2 segment 5' coding region (first 120 nt)",
+    "risk_type": "zoonotic_risk",
+    "organism": "Influenza A",
+    "strategy": "functional_site",
+    "n_masks": 20,
+    "rnafm_used": true,
+    "model": "multimolecule/rnafm",
+    "recovery_rate": 0.25,
+    "predictions": [
+      {
+        "position": 0,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.0245,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.0245
+          },
+          {
+            "base": "G",
+            "prob": 0.0216
+          },
+          {
+            "base": "C",
+            "prob": 0.0162
+          },
+          {
+            "base": "U",
+            "prob": 0.0055
+          },
+          {
+            "base": "N",
+            "prob": 0.0001
+          }
+        ]
+      },
+      {
+        "position": 1,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.0104,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.0104
+          },
+          {
+            "base": "G",
+            "prob": 0.0093
+          },
+          {
+            "base": "C",
+            "prob": 0.0061
+          },
+          {
+            "base": "U",
+            "prob": 0.0045
+          },
+          {
+            "base": "N",
+            "prob": 0.0004
+          }
+        ]
+      },
+      {
+        "position": 2,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.0274,
+        "correct": true,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.0274
+          },
+          {
+            "base": "A",
+            "prob": 0.0202
+          },
+          {
+            "base": "C",
+            "prob": 0.0165
+          },
+          {
+            "base": "U",
+            "prob": 0.0063
+          },
+          {
+            "base": "N",
+            "prob": 0.0001
+          }
+        ]
+      },
+      {
+        "position": 3,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.0251,
+        "correct": false,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.0251
+          },
+          {
+            "base": "A",
+            "prob": 0.024
+          },
+          {
+            "base": "G",
+            "prob": 0.0235
+          },
+          {
+            "base": "U",
+            "prob": 0.0024
+          },
+          {
+            "base": "N",
+            "prob": 0.0001
+          }
+        ]
+      },
+      {
+        "position": 8,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.0374,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.0374
+          },
+          {
+            "base": "C",
+            "prob": 0.0225
+          },
+          {
+            "base": "G",
+            "prob": 0.0187
+          },
+          {
+            "base": "U",
+            "prob": 0.0054
+          },
+          {
+            "base": "N",
+            "prob": 0.0001
+          }
+        ]
+      },
+      {
+        "position": 9,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.0177,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.0177
+          },
+          {
+            "base": "G",
+            "prob": 0.0148
+          },
+          {
+            "base": "C",
+            "prob": 0.0133
+          },
+          {
+            "base": "U",
+            "prob": 0.0057
+          },
+          {
+            "base": "N",
+            "prob": 0.0001
+          }
+        ]
+      },
+      {
+        "position": 10,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.0396,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.0396
+          },
+          {
+            "base": "G",
+            "prob": 0.0281
+          },
+          {
+            "base": "C",
+            "prob": 0.0177
+          },
+          {
+            "base": "U",
+            "prob": 0.0107
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 11,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0411,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.0411
+          },
+          {
+            "base": "A",
+            "prob": 0.0294
+          },
+          {
+            "base": "C",
+            "prob": 0.025
+          },
+          {
+            "base": "U",
+            "prob": 0.0115
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 12,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0675,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.0675
+          },
+          {
+            "base": "A",
+            "prob": 0.0411
+          },
+          {
+            "base": "C",
+            "prob": 0.0354
+          },
+          {
+            "base": "U",
+            "prob": 0.0054
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 18,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.0565,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.0565
+          },
+          {
+            "base": "A",
+            "prob": 0.0501
+          },
+          {
+            "base": "C",
+            "prob": 0.0322
+          },
+          {
+            "base": "U",
+            "prob": 0.0183
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 19,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.0244,
+        "correct": false,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.0244
+          },
+          {
+            "base": "A",
+            "prob": 0.0241
+          },
+          {
+            "base": "G",
+            "prob": 0.0116
+          },
+          {
+            "base": "U",
+            "prob": 0.0063
+          },
+          {
+            "base": "N",
+            "prob": 0.0001
+          }
+        ]
+      },
+      {
+        "position": 20,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.0318,
+        "correct": false,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.0318
+          },
+          {
+            "base": "A",
+            "prob": 0.0297
+          },
+          {
+            "base": "G",
+            "prob": 0.0294
+          },
+          {
+            "base": "U",
+            "prob": 0.0161
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 21,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0221,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.0221
+          },
+          {
+            "base": "A",
+            "prob": 0.0194
+          },
+          {
+            "base": "C",
+            "prob": 0.0182
+          },
+          {
+            "base": "U",
+            "prob": 0.0074
+          },
+          {
+            "base": "N",
+            "prob": 0.0001
+          }
+        ]
+      },
+      {
+        "position": 22,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.0553,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.0553
+          },
+          {
+            "base": "G",
+            "prob": 0.0231
+          },
+          {
+            "base": "U",
+            "prob": 0.0201
+          },
+          {
+            "base": "C",
+            "prob": 0.0171
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 28,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.055,
+        "correct": false,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.055
+          },
+          {
+            "base": "A",
+            "prob": 0.0285
+          },
+          {
+            "base": "U",
+            "prob": 0.02
+          },
+          {
+            "base": "G",
+            "prob": 0.0128
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 29,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0435,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.0435
+          },
+          {
+            "base": "C",
+            "prob": 0.0379
+          },
+          {
+            "base": "A",
+            "prob": 0.0325
+          },
+          {
+            "base": "U",
+            "prob": 0.0183
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 30,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0299,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.0299
+          },
+          {
+            "base": "C",
+            "prob": 0.0265
+          },
+          {
+            "base": "A",
+            "prob": 0.0242
+          },
+          {
+            "base": "U",
+            "prob": 0.0111
+          },
+          {
+            "base": "N",
+            "prob": 0.0001
+          }
+        ]
+      },
+      {
+        "position": 31,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.026,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.026
+          },
+          {
+            "base": "A",
+            "prob": 0.0253
+          },
+          {
+            "base": "C",
+            "prob": 0.0247
+          },
+          {
+            "base": "U",
+            "prob": 0.0078
+          },
+          {
+            "base": "N",
+            "prob": 0.0001
+          }
+        ]
+      },
+      {
+        "position": 32,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.075,
+        "correct": true,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.075
+          },
+          {
+            "base": "C",
+            "prob": 0.0671
+          },
+          {
+            "base": "A",
+            "prob": 0.0522
+          },
+          {
+            "base": "U",
+            "prob": 0.0089
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 38,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.0846,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.0846
+          },
+          {
+            "base": "C",
+            "prob": 0.0501
+          },
+          {
+            "base": "U",
+            "prob": 0.0356
+          },
+          {
+            "base": "G",
+            "prob": 0.0193
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      }
+    ],
+    "original_seq": "AUGGAGAGAAUAAAAGAACUAAGGGAUCUAAUGAACCCGGGAGCCUCCACCGAGCGCCGCCCAGCAGACAAGCAGCGGCCCCAGCAGCAGAAGCAGCGGCCCCAGCAGCAGAGGGACAGCAGCGGCACCAGAAGCAGCAGCAGCAGC",
+    "functional_sites": [
+      1,
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
+  },
+  {
+    "rna_name": "Influenza_PB2_5end",
+    "description": "Influenza A PB2 segment 5' coding region (first 120 nt)",
+    "risk_type": "zoonotic_risk",
+    "organism": "Influenza A",
+    "strategy": "random_15pct",
+    "n_masks": 22,
+    "rnafm_used": true,
+    "model": "multimolecule/rnafm",
+    "recovery_rate": 0.5455,
+    "predictions": [
+      {
+        "position": 12,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.1646,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.1646
+          },
+          {
+            "base": "A",
+            "prob": 0.1232
+          },
+          {
+            "base": "C",
+            "prob": 0.0581
+          },
+          {
+            "base": "U",
+            "prob": 0.0166
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 16,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1692,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1692
+          },
+          {
+            "base": "C",
+            "prob": 0.0756
+          },
+          {
+            "base": "G",
+            "prob": 0.0692
+          },
+          {
+            "base": "U",
+            "prob": 0.0227
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 23,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.1719,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1719
+          },
+          {
+            "base": "G",
+            "prob": 0.0667
+          },
+          {
+            "base": "C",
+            "prob": 0.0497
+          },
+          {
+            "base": "U",
+            "prob": 0.0394
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 28,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.0905,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.0905
+          },
+          {
+            "base": "C",
+            "prob": 0.0768
+          },
+          {
+            "base": "G",
+            "prob": 0.0488
+          },
+          {
+            "base": "U",
+            "prob": 0.0298
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 35,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.1339,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.1339
+          },
+          {
+            "base": "A",
+            "prob": 0.0767
+          },
+          {
+            "base": "C",
+            "prob": 0.0553
+          },
+          {
+            "base": "U",
+            "prob": 0.0497
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 39,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.0665,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.0665
+          },
+          {
+            "base": "G",
+            "prob": 0.0656
+          },
+          {
+            "base": "C",
+            "prob": 0.0505
+          },
+          {
+            "base": "U",
+            "prob": 0.0298
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 40,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.0973,
+        "correct": false,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.0973
+          },
+          {
+            "base": "A",
+            "prob": 0.0666
+          },
+          {
+            "base": "G",
+            "prob": 0.0426
+          },
+          {
+            "base": "U",
+            "prob": 0.0131
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 48,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0493,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.0493
+          },
+          {
+            "base": "A",
+            "prob": 0.0482
+          },
+          {
+            "base": "C",
+            "prob": 0.0478
+          },
+          {
+            "base": "U",
+            "prob": 0.0342
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 56,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.1072,
+        "correct": true,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.1072
+          },
+          {
+            "base": "G",
+            "prob": 0.0989
+          },
+          {
+            "base": "A",
+            "prob": 0.0378
+          },
+          {
+            "base": "U",
+            "prob": 0.0282
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 63,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.191,
+        "correct": true,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.191
+          },
+          {
+            "base": "C",
+            "prob": 0.075
+          },
+          {
+            "base": "A",
+            "prob": 0.0396
+          },
+          {
+            "base": "U",
+            "prob": 0.0212
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 67,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.1895,
+        "correct": false,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.1895
+          },
+          {
+            "base": "A",
+            "prob": 0.082
+          },
+          {
+            "base": "G",
+            "prob": 0.0519
+          },
+          {
+            "base": "U",
+            "prob": 0.032
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 76,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.3281,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.3281
+          },
+          {
+            "base": "G",
+            "prob": 0.0682
+          },
+          {
+            "base": "C",
+            "prob": 0.021
+          },
+          {
+            "base": "U",
+            "prob": 0.0127
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 92,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.32,
+        "correct": true,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.32
+          },
+          {
+            "base": "C",
+            "prob": 0.0301
+          },
+          {
+            "base": "A",
+            "prob": 0.0265
+          },
+          {
+            "base": "U",
+            "prob": 0.0077
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 98,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.3279,
+        "correct": true,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.3279
+          },
+          {
+            "base": "A",
+            "prob": 0.022
+          },
+          {
+            "base": "C",
+            "prob": 0.0143
+          },
+          {
+            "base": "U",
+            "prob": 0.0058
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 102,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.2563,
+        "correct": true,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.2563
+          },
+          {
+            "base": "A",
+            "prob": 0.0256
+          },
+          {
+            "base": "G",
+            "prob": 0.0055
+          },
+          {
+            "base": "U",
+            "prob": 0.0031
+          },
+          {
+            "base": "N",
+            "prob": 0.0001
+          }
+        ]
+      },
+      {
+        "position": 108,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.1595,
+        "correct": true,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.1595
+          },
+          {
+            "base": "A",
+            "prob": 0.0688
+          },
+          {
+            "base": "G",
+            "prob": 0.0323
+          },
+          {
+            "base": "U",
+            "prob": 0.0144
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 109,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.3032,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.3032
+          },
+          {
+            "base": "G",
+            "prob": 0.0534
+          },
+          {
+            "base": "C",
+            "prob": 0.0395
+          },
+          {
+            "base": "U",
+            "prob": 0.008
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 126,
+        "original_base": "A",
+        "predicted_base": "C",
+        "prob": 0.3734,
+        "correct": false,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.3734
+          },
+          {
+            "base": "A",
+            "prob": 0.0387
+          },
+          {
+            "base": "U",
+            "prob": 0.0156
+          },
+          {
+            "base": "G",
+            "prob": 0.0097
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 130,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.4453,
+        "correct": true,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.4453
+          },
+          {
+            "base": "A",
+            "prob": 0.0223
+          },
+          {
+            "base": "C",
+            "prob": 0.0183
+          },
+          {
+            "base": "U",
+            "prob": 0.0031
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 137,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.2712,
+        "correct": true,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.2712
+          },
+          {
+            "base": "A",
+            "prob": 0.0427
+          },
+          {
+            "base": "G",
+            "prob": 0.0097
+          },
+          {
+            "base": "U",
+            "prob": 0.0047
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 143,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.2636,
+        "correct": true,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.2636
+          },
+          {
+            "base": "A",
+            "prob": 0.0251
+          },
+          {
+            "base": "G",
+            "prob": 0.0157
+          },
+          {
+            "base": "U",
+            "prob": 0.007
+          },
+          {
+            "base": "N",
+            "prob": 0.0001
+          }
+        ]
+      },
+      {
+        "position": 146,
+        "original_base": "C",
+        "predicted_base": "C",
+        "prob": 0.1185,
+        "correct": true,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.1185
+          },
+          {
+            "base": "A",
+            "prob": 0.0175
+          },
+          {
+            "base": "G",
+            "prob": 0.0096
+          },
+          {
+            "base": "U",
+            "prob": 0.0057
+          },
+          {
+            "base": "N",
+            "prob": 0.0001
+          }
+        ]
+      }
+    ],
+    "original_seq": "AUGGAGAGAAUAAAAGAACUAAGGGAUCUAAUGAACCCGGGAGCCUCCACCGAGCGCCGCCCAGCAGACAAGCAGCGGCCCCAGCAGCAGAAGCAGCGGCCCCAGCAGCAGAGGGACAGCAGCGGCACCAGAAGCAGCAGCAGCAGC",
+    "functional_sites": [
+      1,
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
+  },
+  {
+    "rna_name": "SARS-CoV-2_3UTR",
+    "description": "SARS-CoV-2 3' UTR (nt 29675-29903)",
+    "risk_type": "viral_replication",
+    "organism": "SARS-CoV-2",
+    "strategy": "functional_site",
+    "n_masks": 20,
+    "rnafm_used": true,
+    "model": "multimolecule/rnafm",
+    "recovery_rate": 0.45,
+    "predictions": [
+      {
+        "position": 8,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.0753,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.0753
+          },
+          {
+            "base": "C",
+            "prob": 0.0587
+          },
+          {
+            "base": "G",
+            "prob": 0.0554
+          },
+          {
+            "base": "A",
+            "prob": 0.0419
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 9,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.0879,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.0879
+          },
+          {
+            "base": "A",
+            "prob": 0.0725
+          },
+          {
+            "base": "C",
+            "prob": 0.0604
+          },
+          {
+            "base": "G",
+            "prob": 0.0437
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 10,
+        "original_base": "C",
+        "predicted_base": "U",
+        "prob": 0.0861,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.0861
+          },
+          {
+            "base": "C",
+            "prob": 0.0589
+          },
+          {
+            "base": "A",
+            "prob": 0.051
+          },
+          {
+            "base": "G",
+            "prob": 0.0397
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 11,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.1052,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1052
+          },
+          {
+            "base": "A",
+            "prob": 0.0699
+          },
+          {
+            "base": "C",
+            "prob": 0.0592
+          },
+          {
+            "base": "G",
+            "prob": 0.0527
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 12,
+        "original_base": "G",
+        "predicted_base": "U",
+        "prob": 0.1028,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1028
+          },
+          {
+            "base": "G",
+            "prob": 0.0799
+          },
+          {
+            "base": "A",
+            "prob": 0.0702
+          },
+          {
+            "base": "C",
+            "prob": 0.0649
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 28,
+        "original_base": "C",
+        "predicted_base": "G",
+        "prob": 0.1201,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.1201
+          },
+          {
+            "base": "A",
+            "prob": 0.0836
+          },
+          {
+            "base": "U",
+            "prob": 0.0782
+          },
+          {
+            "base": "C",
+            "prob": 0.0617
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 29,
+        "original_base": "C",
+        "predicted_base": "A",
+        "prob": 0.1126,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1126
+          },
+          {
+            "base": "G",
+            "prob": 0.0734
+          },
+          {
+            "base": "U",
+            "prob": 0.0731
+          },
+          {
+            "base": "C",
+            "prob": 0.0722
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 30,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.076,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.076
+          },
+          {
+            "base": "U",
+            "prob": 0.0667
+          },
+          {
+            "base": "G",
+            "prob": 0.0633
+          },
+          {
+            "base": "C",
+            "prob": 0.0471
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 31,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.0954,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.0954
+          },
+          {
+            "base": "C",
+            "prob": 0.0831
+          },
+          {
+            "base": "U",
+            "prob": 0.0789
+          },
+          {
+            "base": "G",
+            "prob": 0.0603
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 32,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1755,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1755
+          },
+          {
+            "base": "U",
+            "prob": 0.1481
+          },
+          {
+            "base": "G",
+            "prob": 0.0855
+          },
+          {
+            "base": "C",
+            "prob": 0.0161
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 48,
+        "original_base": "G",
+        "predicted_base": "G",
+        "prob": 0.1021,
+        "correct": true,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.1021
+          },
+          {
+            "base": "A",
+            "prob": 0.0863
+          },
+          {
+            "base": "U",
+            "prob": 0.0792
+          },
+          {
+            "base": "C",
+            "prob": 0.0622
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 49,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.114,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.114
+          },
+          {
+            "base": "C",
+            "prob": 0.0915
+          },
+          {
+            "base": "U",
+            "prob": 0.0878
+          },
+          {
+            "base": "G",
+            "prob": 0.0852
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 50,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.119,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.119
+          },
+          {
+            "base": "A",
+            "prob": 0.1075
+          },
+          {
+            "base": "G",
+            "prob": 0.0757
+          },
+          {
+            "base": "C",
+            "prob": 0.0725
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 51,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1071,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1071
+          },
+          {
+            "base": "U",
+            "prob": 0.1013
+          },
+          {
+            "base": "C",
+            "prob": 0.0721
+          },
+          {
+            "base": "G",
+            "prob": 0.0716
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 52,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.1089,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1089
+          },
+          {
+            "base": "A",
+            "prob": 0.1053
+          },
+          {
+            "base": "G",
+            "prob": 0.0968
+          },
+          {
+            "base": "C",
+            "prob": 0.0939
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 78,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.1362,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.1362
+          },
+          {
+            "base": "U",
+            "prob": 0.1322
+          },
+          {
+            "base": "C",
+            "prob": 0.0695
+          },
+          {
+            "base": "A",
+            "prob": 0.0625
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 79,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.1144,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1144
+          },
+          {
+            "base": "C",
+            "prob": 0.1026
+          },
+          {
+            "base": "A",
+            "prob": 0.0975
+          },
+          {
+            "base": "G",
+            "prob": 0.0753
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 80,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.1038,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1038
+          },
+          {
+            "base": "U",
+            "prob": 0.0967
+          },
+          {
+            "base": "C",
+            "prob": 0.0852
+          },
+          {
+            "base": "G",
+            "prob": 0.0841
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 81,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.101,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.101
+          },
+          {
+            "base": "G",
+            "prob": 0.091
+          },
+          {
+            "base": "U",
+            "prob": 0.0899
+          },
+          {
+            "base": "C",
+            "prob": 0.0773
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 82,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1548,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1548
+          },
+          {
+            "base": "C",
+            "prob": 0.1302
+          },
+          {
+            "base": "G",
+            "prob": 0.1043
+          },
+          {
+            "base": "U",
+            "prob": 0.0559
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      }
+    ],
+    "original_seq": "UGGUUUUUAACUGCUGUUAAGCUGCACACCAAAGCAAAGCUAGUACCAGUAAAUAGCUGCUGACGAAAAAUGAGCACUUUUAAAGGGACUUUAGUCUCUGGUGACCACUUAGACCAAGCUUUGUAUCUGUGCCUGCCCGAUUUUCCGAAGAACAGAAAUCACAGAAUUCUGAGAACUCUCCUCUUGCAUUUUUCAGUGACACUUUAAAGGUAUGGAAUUAAAGUAGUUCACUAUUUUAUAUGCAGUGGAAGGAGCACGCUUUAUUCUCCAAGGGAGGUUAAAAAUGAGUAAAAUUGUUCCAAGCAAGUAUUACCAAAUUAUGUAAUAAAUGCAGAGAAACCCUUUAAGUCUUGUUUUA",
+    "functional_sites": [
+      10,
+      30,
+      50,
+      80,
+      100
+    ]
+  },
+  {
+    "rna_name": "SARS-CoV-2_3UTR",
+    "description": "SARS-CoV-2 3' UTR (nt 29675-29903)",
+    "risk_type": "viral_replication",
+    "organism": "SARS-CoV-2",
+    "strategy": "random_15pct",
+    "n_masks": 53,
+    "rnafm_used": true,
+    "model": "multimolecule/rnafm",
+    "recovery_rate": 0.3585,
+    "predictions": [
+      {
+        "position": 0,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.1134,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1134
+          },
+          {
+            "base": "C",
+            "prob": 0.0979
+          },
+          {
+            "base": "G",
+            "prob": 0.0711
+          },
+          {
+            "base": "U",
+            "prob": 0.0507
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 1,
+        "original_base": "G",
+        "predicted_base": "U",
+        "prob": 0.2097,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.2097
+          },
+          {
+            "base": "A",
+            "prob": 0.1172
+          },
+          {
+            "base": "G",
+            "prob": 0.0837
+          },
+          {
+            "base": "C",
+            "prob": 0.0182
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 5,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.1594,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1594
+          },
+          {
+            "base": "C",
+            "prob": 0.088
+          },
+          {
+            "base": "A",
+            "prob": 0.0815
+          },
+          {
+            "base": "G",
+            "prob": 0.0675
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 9,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.0965,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.0965
+          },
+          {
+            "base": "A",
+            "prob": 0.0943
+          },
+          {
+            "base": "U",
+            "prob": 0.0938
+          },
+          {
+            "base": "C",
+            "prob": 0.0814
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 29,
+        "original_base": "C",
+        "predicted_base": "A",
+        "prob": 0.181,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.181
+          },
+          {
+            "base": "C",
+            "prob": 0.1305
+          },
+          {
+            "base": "U",
+            "prob": 0.0854
+          },
+          {
+            "base": "G",
+            "prob": 0.0312
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 35,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.2322,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.2322
+          },
+          {
+            "base": "C",
+            "prob": 0.1335
+          },
+          {
+            "base": "U",
+            "prob": 0.0699
+          },
+          {
+            "base": "G",
+            "prob": 0.0174
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 40,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.186,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.186
+          },
+          {
+            "base": "C",
+            "prob": 0.158
+          },
+          {
+            "base": "U",
+            "prob": 0.0614
+          },
+          {
+            "base": "G",
+            "prob": 0.0203
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 43,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.1464,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1464
+          },
+          {
+            "base": "C",
+            "prob": 0.1204
+          },
+          {
+            "base": "G",
+            "prob": 0.0956
+          },
+          {
+            "base": "U",
+            "prob": 0.0666
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 54,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.168,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.168
+          },
+          {
+            "base": "U",
+            "prob": 0.1557
+          },
+          {
+            "base": "A",
+            "prob": 0.1393
+          },
+          {
+            "base": "C",
+            "prob": 0.021
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 57,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.174,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.174
+          },
+          {
+            "base": "A",
+            "prob": 0.1631
+          },
+          {
+            "base": "C",
+            "prob": 0.0845
+          },
+          {
+            "base": "G",
+            "prob": 0.0138
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 58,
+        "original_base": "G",
+        "predicted_base": "U",
+        "prob": 0.1098,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1098
+          },
+          {
+            "base": "G",
+            "prob": 0.1034
+          },
+          {
+            "base": "A",
+            "prob": 0.0913
+          },
+          {
+            "base": "C",
+            "prob": 0.0665
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 64,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.1689,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1689
+          },
+          {
+            "base": "U",
+            "prob": 0.1404
+          },
+          {
+            "base": "C",
+            "prob": 0.0869
+          },
+          {
+            "base": "G",
+            "prob": 0.0201
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 65,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.1422,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.1422
+          },
+          {
+            "base": "C",
+            "prob": 0.0909
+          },
+          {
+            "base": "U",
+            "prob": 0.0905
+          },
+          {
+            "base": "A",
+            "prob": 0.0881
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 78,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.1682,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1682
+          },
+          {
+            "base": "G",
+            "prob": 0.1225
+          },
+          {
+            "base": "C",
+            "prob": 0.0943
+          },
+          {
+            "base": "A",
+            "prob": 0.0474
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 80,
+        "original_base": "U",
+        "predicted_base": "G",
+        "prob": 0.1363,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.1363
+          },
+          {
+            "base": "C",
+            "prob": 0.1259
+          },
+          {
+            "base": "A",
+            "prob": 0.0892
+          },
+          {
+            "base": "U",
+            "prob": 0.0855
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 82,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1931,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1931
+          },
+          {
+            "base": "G",
+            "prob": 0.1357
+          },
+          {
+            "base": "C",
+            "prob": 0.1151
+          },
+          {
+            "base": "U",
+            "prob": 0.0444
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 91,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.2032,
+        "correct": false,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.2032
+          },
+          {
+            "base": "G",
+            "prob": 0.1062
+          },
+          {
+            "base": "A",
+            "prob": 0.0759
+          },
+          {
+            "base": "U",
+            "prob": 0.0692
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 101,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.2561,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.2561
+          },
+          {
+            "base": "U",
+            "prob": 0.1447
+          },
+          {
+            "base": "G",
+            "prob": 0.1152
+          },
+          {
+            "base": "C",
+            "prob": 0.0168
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 122,
+        "original_base": "G",
+        "predicted_base": "U",
+        "prob": 0.1191,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1191
+          },
+          {
+            "base": "G",
+            "prob": 0.1172
+          },
+          {
+            "base": "C",
+            "prob": 0.0882
+          },
+          {
+            "base": "A",
+            "prob": 0.0791
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 123,
+        "original_base": "U",
+        "predicted_base": "C",
+        "prob": 0.1656,
+        "correct": false,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.1656
+          },
+          {
+            "base": "A",
+            "prob": 0.1049
+          },
+          {
+            "base": "G",
+            "prob": 0.0803
+          },
+          {
+            "base": "U",
+            "prob": 0.0678
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 128,
+        "original_base": "G",
+        "predicted_base": "C",
+        "prob": 0.1711,
+        "correct": false,
+        "top5": [
+          {
+            "base": "C",
+            "prob": 0.1711
+          },
+          {
+            "base": "U",
+            "prob": 0.0961
+          },
+          {
+            "base": "G",
+            "prob": 0.0886
+          },
+          {
+            "base": "A",
+            "prob": 0.0422
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 134,
+        "original_base": "G",
+        "predicted_base": "U",
+        "prob": 0.165,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.165
+          },
+          {
+            "base": "C",
+            "prob": 0.1177
+          },
+          {
+            "base": "G",
+            "prob": 0.0969
+          },
+          {
+            "base": "A",
+            "prob": 0.0662
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 136,
+        "original_base": "C",
+        "predicted_base": "A",
+        "prob": 0.166,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.166
+          },
+          {
+            "base": "U",
+            "prob": 0.1569
+          },
+          {
+            "base": "C",
+            "prob": 0.1007
+          },
+          {
+            "base": "G",
+            "prob": 0.0179
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 150,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1475,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1475
+          },
+          {
+            "base": "C",
+            "prob": 0.1003
+          },
+          {
+            "base": "G",
+            "prob": 0.0962
+          },
+          {
+            "base": "U",
+            "prob": 0.0537
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 152,
+        "original_base": "C",
+        "predicted_base": "A",
+        "prob": 0.1574,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1574
+          },
+          {
+            "base": "G",
+            "prob": 0.1227
+          },
+          {
+            "base": "C",
+            "prob": 0.1038
+          },
+          {
+            "base": "U",
+            "prob": 0.0415
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 157,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1273,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1273
+          },
+          {
+            "base": "G",
+            "prob": 0.1043
+          },
+          {
+            "base": "U",
+            "prob": 0.0971
+          },
+          {
+            "base": "C",
+            "prob": 0.0883
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 165,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1082,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1082
+          },
+          {
+            "base": "C",
+            "prob": 0.1023
+          },
+          {
+            "base": "U",
+            "prob": 0.1
+          },
+          {
+            "base": "G",
+            "prob": 0.0764
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 174,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1337,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1337
+          },
+          {
+            "base": "U",
+            "prob": 0.1199
+          },
+          {
+            "base": "C",
+            "prob": 0.0924
+          },
+          {
+            "base": "G",
+            "prob": 0.0829
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 185,
+        "original_base": "G",
+        "predicted_base": "U",
+        "prob": 0.1419,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1419
+          },
+          {
+            "base": "C",
+            "prob": 0.1333
+          },
+          {
+            "base": "G",
+            "prob": 0.088
+          },
+          {
+            "base": "A",
+            "prob": 0.0684
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 191,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.1806,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1806
+          },
+          {
+            "base": "C",
+            "prob": 0.1424
+          },
+          {
+            "base": "A",
+            "prob": 0.0683
+          },
+          {
+            "base": "G",
+            "prob": 0.0663
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 222,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.1678,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1678
+          },
+          {
+            "base": "U",
+            "prob": 0.1103
+          },
+          {
+            "base": "G",
+            "prob": 0.081
+          },
+          {
+            "base": "C",
+            "prob": 0.0657
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 232,
+        "original_base": "A",
+        "predicted_base": "G",
+        "prob": 0.1193,
+        "correct": false,
+        "top5": [
+          {
+            "base": "G",
+            "prob": 0.1193
+          },
+          {
+            "base": "U",
+            "prob": 0.1171
+          },
+          {
+            "base": "A",
+            "prob": 0.104
+          },
+          {
+            "base": "C",
+            "prob": 0.0692
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 239,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.1544,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1544
+          },
+          {
+            "base": "C",
+            "prob": 0.0937
+          },
+          {
+            "base": "A",
+            "prob": 0.0715
+          },
+          {
+            "base": "G",
+            "prob": 0.0663
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 243,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.2722,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.2722
+          },
+          {
+            "base": "A",
+            "prob": 0.2123
+          },
+          {
+            "base": "C",
+            "prob": 0.0177
+          },
+          {
+            "base": "G",
+            "prob": 0.0138
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 248,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.146,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.146
+          },
+          {
+            "base": "G",
+            "prob": 0.0826
+          },
+          {
+            "base": "C",
+            "prob": 0.0766
+          },
+          {
+            "base": "U",
+            "prob": 0.0668
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 250,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.2173,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.2173
+          },
+          {
+            "base": "U",
+            "prob": 0.1395
+          },
+          {
+            "base": "G",
+            "prob": 0.1272
+          },
+          {
+            "base": "C",
+            "prob": 0.014
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 256,
+        "original_base": "C",
+        "predicted_base": "U",
+        "prob": 0.1773,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1773
+          },
+          {
+            "base": "A",
+            "prob": 0.1687
+          },
+          {
+            "base": "G",
+            "prob": 0.1134
+          },
+          {
+            "base": "C",
+            "prob": 0.0181
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 259,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.1978,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1978
+          },
+          {
+            "base": "A",
+            "prob": 0.1592
+          },
+          {
+            "base": "C",
+            "prob": 0.0935
+          },
+          {
+            "base": "G",
+            "prob": 0.0158
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 270,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.0973,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.0973
+          },
+          {
+            "base": "U",
+            "prob": 0.0966
+          },
+          {
+            "base": "G",
+            "prob": 0.0933
+          },
+          {
+            "base": "C",
+            "prob": 0.063
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 271,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.1341,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1341
+          },
+          {
+            "base": "U",
+            "prob": 0.0867
+          },
+          {
+            "base": "C",
+            "prob": 0.0726
+          },
+          {
+            "base": "G",
+            "prob": 0.0683
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 272,
+        "original_base": "G",
+        "predicted_base": "U",
+        "prob": 0.1723,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1723
+          },
+          {
+            "base": "A",
+            "prob": 0.1567
+          },
+          {
+            "base": "G",
+            "prob": 0.0912
+          },
+          {
+            "base": "C",
+            "prob": 0.0162
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 274,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.2038,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.2038
+          },
+          {
+            "base": "A",
+            "prob": 0.1578
+          },
+          {
+            "base": "G",
+            "prob": 0.0733
+          },
+          {
+            "base": "C",
+            "prob": 0.0157
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 276,
+        "original_base": "G",
+        "predicted_base": "U",
+        "prob": 0.1778,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1778
+          },
+          {
+            "base": "A",
+            "prob": 0.115
+          },
+          {
+            "base": "C",
+            "prob": 0.0859
+          },
+          {
+            "base": "G",
+            "prob": 0.0593
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 283,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1405,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1405
+          },
+          {
+            "base": "C",
+            "prob": 0.0879
+          },
+          {
+            "base": "U",
+            "prob": 0.085
+          },
+          {
+            "base": "G",
+            "prob": 0.0684
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 290,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.181,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.181
+          },
+          {
+            "base": "U",
+            "prob": 0.08
+          },
+          {
+            "base": "G",
+            "prob": 0.0771
+          },
+          {
+            "base": "C",
+            "prob": 0.0615
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 306,
+        "original_base": "G",
+        "predicted_base": "A",
+        "prob": 0.1918,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1918
+          },
+          {
+            "base": "U",
+            "prob": 0.1074
+          },
+          {
+            "base": "G",
+            "prob": 0.072
+          },
+          {
+            "base": "C",
+            "prob": 0.0543
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 311,
+        "original_base": "A",
+        "predicted_base": "U",
+        "prob": 0.1973,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1973
+          },
+          {
+            "base": "A",
+            "prob": 0.0808
+          },
+          {
+            "base": "G",
+            "prob": 0.0732
+          },
+          {
+            "base": "C",
+            "prob": 0.0687
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 320,
+        "original_base": "U",
+        "predicted_base": "A",
+        "prob": 0.2094,
+        "correct": false,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.2094
+          },
+          {
+            "base": "U",
+            "prob": 0.1943
+          },
+          {
+            "base": "G",
+            "prob": 0.0737
+          },
+          {
+            "base": "C",
+            "prob": 0.0223
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 327,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1666,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1666
+          },
+          {
+            "base": "U",
+            "prob": 0.1446
+          },
+          {
+            "base": "C",
+            "prob": 0.0609
+          },
+          {
+            "base": "G",
+            "prob": 0.0551
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 328,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1371,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1371
+          },
+          {
+            "base": "U",
+            "prob": 0.1156
+          },
+          {
+            "base": "C",
+            "prob": 0.0953
+          },
+          {
+            "base": "G",
+            "prob": 0.0511
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 337,
+        "original_base": "A",
+        "predicted_base": "A",
+        "prob": 0.1889,
+        "correct": true,
+        "top5": [
+          {
+            "base": "A",
+            "prob": 0.1889
+          },
+          {
+            "base": "U",
+            "prob": 0.0937
+          },
+          {
+            "base": "C",
+            "prob": 0.0619
+          },
+          {
+            "base": "G",
+            "prob": 0.0579
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 348,
+        "original_base": "U",
+        "predicted_base": "U",
+        "prob": 0.1311,
+        "correct": true,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1311
+          },
+          {
+            "base": "A",
+            "prob": 0.1179
+          },
+          {
+            "base": "G",
+            "prob": 0.0629
+          },
+          {
+            "base": "C",
+            "prob": 0.0614
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      },
+      {
+        "position": 349,
+        "original_base": "C",
+        "predicted_base": "U",
+        "prob": 0.1597,
+        "correct": false,
+        "top5": [
+          {
+            "base": "U",
+            "prob": 0.1597
+          },
+          {
+            "base": "A",
+            "prob": 0.103
+          },
+          {
+            "base": "C",
+            "prob": 0.0605
+          },
+          {
+            "base": "G",
+            "prob": 0.0477
+          },
+          {
+            "base": "N",
+            "prob": 0.0
+          }
+        ]
+      }
+    ],
+    "original_seq": "UGGUUUUUAACUGCUGUUAAGCUGCACACCAAAGCAAAGCUAGUACCAGUAAAUAGCUGCUGACGAAAAAUGAGCACUUUUAAAGGGACUUUAGUCUCUGGUGACCACUUAGACCAAGCUUUGUAUCUGUGCCUGCCCGAUUUUCCGAAGAACAGAAAUCACAGAAUUCUGAGAACUCUCCUCUUGCAUUUUUCAGUGACACUUUAAAGGUAUGGAAUUAAAGUAGUUCACUAUUUUAUAUGCAGUGGAAGGAGCACGCUUUAUUCUCCAAGGGAGGUUAAAAAUGAGUAAAAUUGUUCCAAGCAAGUAUUACCAAAUUAUGUAAUAAAUGCAGAGAAACCCUUUAAGUCUUGUUUUA",
+    "functional_sites": [
+      10,
+      30,
+      50,
+      80,
+      100
+    ]
+  }
+]

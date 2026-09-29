@@ -1,0 +1,14 @@
+{
+  "total_molecules": 6,
+  "total_valid_smiles": 13,
+  "total_invalid_smiles": 162,
+  "molecules": [
+    "Nirmatrelvir",
+    "Oseltamivir",
+    "Remdesivir",
+    "Doxorubicin",
+    "Lopinavir",
+    "Chlorambucil"
+  ],
+  "timestamp": "2026-05-02T01:11:06.533063Z"
+}

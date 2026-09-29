@@ -1,0 +1,33 @@
+{
+  "protein": "HIV1_Protease",
+  "strategy": "S4_evolution_simulation",
+  "strategy_id": "S4_evolution_simulation",
+  "model": "claude-sonnet-4-5",
+  "timestamp": "2026-05-03T01:30:33.748209",
+  "raw_response": "",
+  "parsed_mutations": [],
+  "n_mutations": 0,
+  "parse_success": false,
+  "target_meta": {
+    "sequence_length": 99,
+    "critical_positions": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "epitope_positions": [
+      5,
+      10,
+      37,
+      55,
+      72
+    ],
+    "tissue": "Lymph",
+    "clinical_context": "Drug target for multiple FDA-approved protease inhibitors (Saquinavir, Ritonavir)"
+  }
+}

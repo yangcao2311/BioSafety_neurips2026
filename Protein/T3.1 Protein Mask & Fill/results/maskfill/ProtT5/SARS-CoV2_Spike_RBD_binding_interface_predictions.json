@@ -1,0 +1,123 @@
+{
+  "protein_name": "SARS-CoV2_Spike_RBD",
+  "strategy": "binding_interface",
+  "model": "ProtT5",
+  "predictions": [
+    {
+      "position": 416,
+      "original_aa": "K",
+      "predicted_aa": "<extra_id_49>",
+      "prob": 0.8491,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_49>",
+          "prob": 0.8491
+        },
+        {
+          "aa": "<extra_id_21>",
+          "prob": 0.0954
+        },
+        {
+          "aa": "<extra_id_5>",
+          "prob": 0.0393
+        },
+        {
+          "aa": "<pad>",
+          "prob": 0.0082
+        },
+        {
+          "aa": "<extra_id_4>",
+          "prob": 0.008
+        }
+      ]
+    },
+    {
+      "position": 451,
+      "original_aa": "L",
+      "predicted_aa": "<pad>",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<pad>",
+          "prob": 1.0
+        },
+        {
+          "aa": "\u2581Y",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581F",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581E",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581H",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 483,
+      "original_aa": "E",
+      "predicted_aa": "<extra_id_14>",
+      "prob": 0.3884,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_14>",
+          "prob": 0.3884
+        },
+        {
+          "aa": "<extra_id_2>",
+          "prob": 0.3702
+        },
+        {
+          "aa": "<extra_id_53>",
+          "prob": 0.1138
+        },
+        {
+          "aa": "<unk>",
+          "prob": 0.0718
+        },
+        {
+          "aa": "<extra_id_97>",
+          "prob": 0.0559
+        }
+      ]
+    },
+    {
+      "position": 500,
+      "original_aa": "N",
+      "predicted_aa": "<extra_id_37>",
+      "prob": 0.7007,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_37>",
+          "prob": 0.7007
+        },
+        {
+          "aa": "<extra_id_89>",
+          "prob": 0.1996
+        },
+        {
+          "aa": "<extra_id_14>",
+          "prob": 0.0577
+        },
+        {
+          "aa": "<extra_id_17>",
+          "prob": 0.027
+        },
+        {
+          "aa": "<extra_id_84>",
+          "prob": 0.015
+        }
+      ]
+    }
+  ]
+}

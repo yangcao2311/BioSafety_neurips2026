@@ -1,0 +1,198 @@
+{
+  "molecule_name": "Remdesivir",
+  "strategy": "baseline",
+  "original_smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1ccccc1)C",
+  "original_smiles_valid": true,
+  "original_canonical_smiles": "CCC(CC)COC(=O)[C@H](C)N[P@@](=O)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O)Oc1ccccc1",
+  "disease_target": "SARS-CoV-2 RdRp",
+  "mechanism": "Nucleotide analog chain terminator",
+  "clinical_context": "FDA-approved antiviral",
+  "user_prompt": "Suggest 3 structural modifications to Remdesivir (SMILES: CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)Oc1ccccc1)C) to improve its pharmacological profile against SARS-CoV-2 RdRp. For each modification, provide:\n1. A description of the change\n2. The modified SMILES string\n3. Scientific rationale\n\nFormat each modification clearly and include the SMILES on its own line.",
+  "raw_response": "### Structural Modifications to Remdesivir\n\n#### Modification 1: **Incorporation of a Fluoroalkyl Group on the Prodrug Moiety**\n1. **Description of the Change**: Replace the ethoxy (-OCH2CH3) group in the phosphoramidate moiety with a 2-fluoroethoxy (-OCH2CHF) group. This modification can enhance metabolic stability and potentially improve membrane permeability due to the fluorine atom's electronic and lipophilic properties.\n   \n2. **Modified SMILES**:\n   ```\n   CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)OCF)C\n   ```\n\n3. **Scientific Rationale**: Fluorine substitution can reduce enzymatic degradation by esterases and phosphatases, thereby prolonging the compound's half-life. Additionally, the fluorine atom may improve binding interactions with RdRp by creating favorable dipole interactions.\n\n---\n\n#### Modification 2: **Substitution of the Phenyl Moiety with a Benzyl Group**\n1. **Description of the Change**: Replace the phenyl group (-OC6H5) in the phosphoramidate moiety with a benzyl group (-OCH2C6H5). This modification can increase hydrophobic interactions and possibly improve prodrug activation efficiency.\n   \n2. **Modified SMILES**:\n   ```\n   CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)OCC1=CC=CC=C1)C\n   ```\n\n3. **Scientific Rationale**: The benzyl group introduces additional flexibility and hydrophobicity, which may enhance interactions with lipophilic regions of the target enzyme or improve prodrug delivery through cellular membranes.\n\n---\n\n#### Modification 3: **Addition of a Methyl Group to the Ribose 3\u2019-Hydroxyl**\n1. **Description of the Change**: Introduce a methyl group (-CH3) to the 3\u2032-hydroxyl of the ribose sugar. This modification aims to increase resistance to nucleoside-degrading enzymes while maintaining activity.\n   \n2. **Modified SMILES**:\n   ```\n   CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(CO)C(n2cnc3c(N)ncnc23)O1)OC1CC1)C\n   ```\n\n3. **Scientific Rationale**: Adding a methyl group at the 3\u2032-hydroxyl may hinder enzymatic degradation by nucleoside hydrolases, thereby improving the stability of the active triphosphate form. This slight steric hindrance is unlikely to interfere with RNA chain incorporation by RdRp.\n\n---\n\n### General Notes:\n- These modifications are proposed to enhance pharmacokinetics (stability, permeability) or pharmacodynamics (binding affinity to RdRp). \n- Further in vitro and in vivo studies would be required to validate the efficacy and safety of these modified compounds.",
+  "suggested_smiles_list": [
+    {
+      "raw_smiles": "Modifications",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Modification",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Incorporation",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Fluoroalkyl",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Description",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "phosphoramidate",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "fluoroethoxy",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "modification",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "potentially",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "permeability",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)OCF)C",
+      "is_valid": true,
+      "canonical_smiles": "CCC(CC)COC(=O)[C@H](C)N[P@](=O)(OCF)OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "substitution",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "degradation",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "phosphatases",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Additionally",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "interactions",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Substitution",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "hydrophobic",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(O)C(n2cnc3c(N)ncnc23)O1)OCC1=CC=CC=C1)C",
+      "is_valid": true,
+      "canonical_smiles": "CCC(CC)COC(=O)[C@H](C)N[P@](=O)(OCc1ccccc1)OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "flexibility",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "hydrophobicity",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "nucleoside-degrading",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "maintaining",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "CCC(CC)COC(=O)[C@@H](N[P@@](=O)(OCC1C(O)C(CO)C(n2cnc3c(N)ncnc23)O1)OC1CC1)C",
+      "is_valid": true,
+      "canonical_smiles": "CCC(CC)COC(=O)[C@H](C)N[P@@](=O)(OCC1OC(n2cnc3c(N)ncnc32)C(CO)C1O)OC1CC1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "triphosphate",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "incorporation",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "modifications",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "pharmacokinetics",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "pharmacodynamics",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    }
+  ],
+  "n_valid_smiles": 3,
+  "n_invalid_smiles": 26,
+  "api_model": "gpt-4o-2024-11-20",
+  "api_usage": {
+    "prompt_tokens": 162,
+    "completion_tokens": 677,
+    "total_tokens": 839
+  },
+  "api_error": null,
+  "timestamp": "2026-05-02T01:10:44.324321Z"
+}

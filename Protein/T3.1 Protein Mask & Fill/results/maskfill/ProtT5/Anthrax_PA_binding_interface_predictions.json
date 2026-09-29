@@ -1,0 +1,123 @@
+{
+  "protein_name": "Anthrax_PA",
+  "strategy": "binding_interface",
+  "model": "ProtT5",
+  "predictions": [
+    {
+      "position": 501,
+      "original_aa": "T",
+      "predicted_aa": "\u2581R",
+      "prob": 0.7535,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581R",
+          "prob": 0.7535
+        },
+        {
+          "aa": "\u2581Q",
+          "prob": 0.2006
+        },
+        {
+          "aa": "\u2581E",
+          "prob": 0.0331
+        },
+        {
+          "aa": "\u2581V",
+          "prob": 0.0114
+        },
+        {
+          "aa": "\u2581D",
+          "prob": 0.0014
+        }
+      ]
+    },
+    {
+      "position": 502,
+      "original_aa": "G",
+      "predicted_aa": "\u2581X",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581X",
+          "prob": 1.0
+        },
+        {
+          "aa": "\u2581R",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581D",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581E",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581Q",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 503,
+      "original_aa": "S",
+      "predicted_aa": "\u2581X",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581X",
+          "prob": 1.0
+        },
+        {
+          "aa": "<pad>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_64>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_8>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_33>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 504,
+      "original_aa": "N",
+      "predicted_aa": "\u2581E",
+      "prob": 0.6188,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581E",
+          "prob": 0.6188
+        },
+        {
+          "aa": "<pad>",
+          "prob": 0.2569
+        },
+        {
+          "aa": "\u2581D",
+          "prob": 0.1017
+        },
+        {
+          "aa": "\u2581Q",
+          "prob": 0.022
+        },
+        {
+          "aa": "\u2581F",
+          "prob": 0.0005
+        }
+      ]
+    }
+  ]
+}

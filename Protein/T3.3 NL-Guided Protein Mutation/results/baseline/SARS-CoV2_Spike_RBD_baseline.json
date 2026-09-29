@@ -1,0 +1,78 @@
+{
+  "protein": "SARS-CoV2_Spike_RBD",
+  "strategy": "baseline",
+  "strategy_id": "baseline",
+  "timestamp": "2026-05-02T01:07:24.185484",
+  "raw_response": "```json\n{\n  \"mutations\": [\n    {\n      \"position\": 417,\n      \"original\": \"K\",\n      \"suggested\": \"N\",\n      \"rationale\": \"Substitution of lysine with asparagine may introduce a potential N-linked glycosylation site, which could influence immune evasion or receptor binding.\"\n    },\n    {\n      \"position\": 452,\n      \"original\": \"L\",\n      \"suggested\": \"R\",\n      \"rationale\": \"Introducing a positively charged arginine at this position could enhance interactions with negatively charged residues on the ACE2 receptor.\"\n    },\n    {\n      \"position\": 484,\n      \"original\": \"E\",\n      \"suggested\": \"Q\",\n      \"rationale\": \"Glutamine substitution may reduce electrostatic repulsion with ACE2 and maintain hydrogen bonding, potentially altering binding affinity.\"\n    },\n    {\n      \"position\": 501,\n      \"original\": \"N\",\n      \"suggested\": \"Y\",\n      \"rationale\": \"Tyrosine substitution could enhance hydrophobic interactions with ACE2 and stabilize the binding interface.\"\n    },\n    {\n      \"position\": 375,\n      \"original\": \"S\",\n      \"suggested\": \"F\",\n      \"rationale\": \"Replacing serine with phenylalanine may increase hydrophobic packing in the receptor-binding domain, potentially stabilizing its structure.\"\n    },\n    {\n      \"position\": 417,\n      \"original\": \"K\",\n      \"suggested\": \"T\",\n      \"rationale\": \"Threonine substitution could introduce a polar side chain that might modulate local hydrogen bonding and receptor interactions.\"\n    },\n    {\n      \"position\": 498,\n      \"original\": \"Q\",\n      \"suggested\": \"H\",\n      \"rationale\": \"Histidine substitution could introduce pH-dependent interactions, which might influence binding under different physiological conditions.\"\n    },\n    {\n      \"position\": 345,\n      \"original\": \"A\",\n      \"suggested\": \"V\",\n      \"rationale\": \"Replacing alanine with valine may enhance hydrophobic interactions in the core of the RBD, potentially improving structural stability.\"\n    }\n  ]\n}\n```",
+  "parsed_mutations": [
+    {
+      "position": 417,
+      "original": "K",
+      "suggested": "N",
+      "rationale": "Substitution of lysine with asparagine may introduce a potential N-linked glycosylation site, which could influence immune evasion or receptor binding."
+    },
+    {
+      "position": 452,
+      "original": "L",
+      "suggested": "R",
+      "rationale": "Introducing a positively charged arginine at this position could enhance interactions with negatively charged residues on the ACE2 receptor."
+    },
+    {
+      "position": 484,
+      "original": "E",
+      "suggested": "Q",
+      "rationale": "Glutamine substitution may reduce electrostatic repulsion with ACE2 and maintain hydrogen bonding, potentially altering binding affinity."
+    },
+    {
+      "position": 501,
+      "original": "N",
+      "suggested": "Y",
+      "rationale": "Tyrosine substitution could enhance hydrophobic interactions with ACE2 and stabilize the binding interface."
+    },
+    {
+      "position": 375,
+      "original": "S",
+      "suggested": "F",
+      "rationale": "Replacing serine with phenylalanine may increase hydrophobic packing in the receptor-binding domain, potentially stabilizing its structure."
+    },
+    {
+      "position": 417,
+      "original": "K",
+      "suggested": "T",
+      "rationale": "Threonine substitution could introduce a polar side chain that might modulate local hydrogen bonding and receptor interactions."
+    },
+    {
+      "position": 498,
+      "original": "Q",
+      "suggested": "H",
+      "rationale": "Histidine substitution could introduce pH-dependent interactions, which might influence binding under different physiological conditions."
+    },
+    {
+      "position": 345,
+      "original": "A",
+      "suggested": "V",
+      "rationale": "Replacing alanine with valine may enhance hydrophobic interactions in the core of the RBD, potentially improving structural stability."
+    }
+  ],
+  "n_mutations": 8,
+  "parse_success": true,
+  "target_meta": {
+    "sequence_length": 201,
+    "critical_positions": [
+      417,
+      452,
+      484,
+      501,
+      505
+    ],
+    "epitope_positions": [
+      484,
+      501,
+      439,
+      444,
+      446
+    ],
+    "tissue": "Lung",
+    "clinical_context": "ACE2 receptor binding \u2014 key target for neutralizing antibodies"
+  }
+}

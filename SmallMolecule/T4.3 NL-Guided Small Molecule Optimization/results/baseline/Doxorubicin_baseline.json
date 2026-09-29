@@ -1,0 +1,246 @@
+{
+  "molecule_name": "Doxorubicin",
+  "strategy": "baseline",
+  "original_smiles": "COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1)C[C@]4(O)C(=O)CO",
+  "original_smiles_valid": true,
+  "original_canonical_smiles": "COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1",
+  "disease_target": "Topoisomerase II / DNA",
+  "mechanism": "DNA intercalation + topoisomerase II poison",
+  "clinical_context": "Chemotherapy agent \u2014 high cardiotoxicity risk",
+  "user_prompt": "Suggest 3 structural modifications to Doxorubicin (SMILES: COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1)C[C@]4(O)C(=O)CO) to improve its pharmacological profile against Topoisomerase II / DNA. For each modification, provide:\n1. A description of the change\n2. The modified SMILES string\n3. Scientific rationale\n\nFormat each modification clearly and include the SMILES on its own line.",
+  "raw_response": "### Modification 1: Reduce cardiotoxicity by introducing a lipophilic substituent at the glycosidic amine group\n1. **Description**: Replace the primary amine (-NH2) group on the sugar moiety with a piperidine group (-NH-piperidine). This modification aims to reduce cardiotoxicity by increasing the selectivity of the compound for tumor cells over cardiomyocytes due to altered distribution and reduced interaction with cardiolipin in mitochondrial membranes.\n   \n2. **Modified SMILES**:  \n   `COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](NC5CCCCC5)[C@H](O)[C@@H](C)O1)C[C@]4(O)C(=O)CO`\n\n3. **Scientific Rationale**: Cardiotoxicity is a major dose-limiting toxicity of doxorubicin. Replacing the primary amine with a piperidine group increases lipophilicity and may reduce mitochondrial accumulation in cardiomyocytes, which is associated with reactive oxygen species generation and cardiotoxic effects.\n\n---\n\n### Modification 2: Improve DNA binding by introducing a methyl group on the C-14 hydroxyl\n1. **Description**: Add a methyl group to the C-14 hydroxyl group in the anthracycline ring system. This modification enhances DNA intercalation by increasing hydrophobic interactions with the DNA base pairs.\n   \n2. **Modified SMILES**:  \n   `COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](OC)[C@@H](O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1)C[C@]4(O)C(=O)CO`\n\n3. **Scientific Rationale**: The addition of a methyl group to the C-14 hydroxyl increases DNA binding affinity due to hydrophobic contacts. Stronger DNA intercalation improves the ability of doxorubicin to inhibit Topoisomerase II-mediated DNA religation, enhancing its antitumor potency.\n\n---\n\n### Modification 3: Enhance systemic stability by substituting the C-13 ketone with an oxime group\n1. **Description**: Convert the C-13 ketone group (=O) to an oxime (-C=NOH). This modification is intended to improve metabolic stability by reducing susceptibility to enzymatic reduction at this position.\n   \n2. **Modified SMILES**:  \n   `COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=NOH)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1)C[C@]4(O)C(=O)CO`\n\n3. **Scientific Rationale**: The C-13 ketone group in doxorubicin is prone to reduction by carbonyl reductases, leading to the formation of doxorubicinol, a metabolite associated with cardiotoxicity. Substituting the ketone with an oxime reduces this reductive metabolism and potentially increases the half-life of the drug while lowering the risk of cardiotoxic side effects.\n\n---\n\nEach of these modifications provides a targeted approach to addressing specific limitations of doxorubicin, including toxicity, potency, and stability, while maintaining its core pharmacological activity.",
+  "suggested_smiles_list": [
+    {
+      "raw_smiles": "COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](O[C@H]1C[C@@H](NC5CCCCC5)[C@H](O)[C@@H](C)O1)C[C@]4(O)C(=O)CO",
+      "is_valid": true,
+      "canonical_smiles": "COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@@H](NC2CCCCC2)[C@H](O)[C@@H](C)O1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=O)c12)[C@@H](OC)[C@@H](O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1)C[C@]4(O)C(=O)CO",
+      "is_valid": true,
+      "canonical_smiles": "COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)[C@@](O)(C(=O)CO)C[C@H](O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1)[C@@H]3OC",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "COc1cccc2C(=O)c3c(O)c4c(c(O)c3C(=NOH)c12)[C@@H](O[C@H]1C[C@@H](N)[C@H](O)[C@@H](C)O1)C[C@]4(O)C(=O)CO",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Modification",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "cardiotoxicity",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "introducing",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "substituent",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Description",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "NH-piperidine",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "modification",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "selectivity",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "cardiomyocytes",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "distribution",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "interaction",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "cardiolipin",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "mitochondrial",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Cardiotoxicity",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "dose-limiting",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "doxorubicin",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "lipophilicity",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "accumulation",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "cardiotoxic",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "anthracycline",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "intercalation",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "hydrophobic",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "interactions",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Topoisomerase",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "II-mediated",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "substituting",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "susceptibility",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "doxorubicinol",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "Substituting",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "potentially",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "modifications",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "limitations",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "maintaining",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    },
+    {
+      "raw_smiles": "pharmacological",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit could not parse SMILES"
+    }
+  ],
+  "n_valid_smiles": 2,
+  "n_invalid_smiles": 35,
+  "api_model": "gpt-4o-2024-11-20",
+  "api_usage": {
+    "prompt_tokens": 184,
+    "completion_tokens": 752,
+    "total_tokens": 936
+  },
+  "api_error": null,
+  "timestamp": "2026-05-02T01:10:53.114899Z"
+}

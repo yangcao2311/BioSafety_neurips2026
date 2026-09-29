@@ -1,0 +1,268 @@
+{
+  "protein_name": "HIV1_RT",
+  "strategy": "immune_epitope",
+  "model": "ProtT5",
+  "predictions": [
+    {
+      "position": 60,
+      "original_aa": "L",
+      "predicted_aa": "\u2581R",
+      "prob": 0.985,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581R",
+          "prob": 0.985
+        },
+        {
+          "aa": "\u2581X",
+          "prob": 0.0148
+        },
+        {
+          "aa": "\u2581F",
+          "prob": 0.0001
+        },
+        {
+          "aa": "\u2581T",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_0>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 61,
+      "original_aa": "G",
+      "predicted_aa": "<pad>",
+      "prob": 0.9999,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<pad>",
+          "prob": 0.9999
+        },
+        {
+          "aa": "</s>",
+          "prob": 0.0001
+        },
+        {
+          "aa": "\u2581B",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581R",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_99>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 62,
+      "original_aa": "Q",
+      "predicted_aa": "<pad>",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<pad>",
+          "prob": 1.0
+        },
+        {
+          "aa": "\u2581M",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581F",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581X",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581V",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 63,
+      "original_aa": "L",
+      "predicted_aa": "<pad>",
+      "prob": 0.9976,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<pad>",
+          "prob": 0.9976
+        },
+        {
+          "aa": "\u2581X",
+          "prob": 0.0024
+        },
+        {
+          "aa": "</s>",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581H",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581R",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 64,
+      "original_aa": "Q",
+      "predicted_aa": "\u2581R",
+      "prob": 0.5189,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581R",
+          "prob": 0.5189
+        },
+        {
+          "aa": "\u2581D",
+          "prob": 0.4715
+        },
+        {
+          "aa": "\u2581Q",
+          "prob": 0.0065
+        },
+        {
+          "aa": "\u2581E",
+          "prob": 0.0017
+        },
+        {
+          "aa": "\u2581T",
+          "prob": 0.0013
+        }
+      ]
+    },
+    {
+      "position": 65,
+      "original_aa": "P",
+      "predicted_aa": "<pad>",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<pad>",
+          "prob": 1.0
+        },
+        {
+          "aa": "\u2581P",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581T",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581F",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581D",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 66,
+      "original_aa": "S",
+      "predicted_aa": "\u2581X",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581X",
+          "prob": 1.0
+        },
+        {
+          "aa": "\u2581F",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581T",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581Y",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581H",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 67,
+      "original_aa": "L",
+      "predicted_aa": "\u2581X",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581X",
+          "prob": 1.0
+        },
+        {
+          "aa": "<pad>",
+          "prob": 0.0
+        },
+        {
+          "aa": "</s>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_26>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_74>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 68,
+      "original_aa": "Q",
+      "predicted_aa": "\u2581X",
+      "prob": 0.6086,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581X",
+          "prob": 0.6086
+        },
+        {
+          "aa": "<pad>",
+          "prob": 0.3839
+        },
+        {
+          "aa": "\u2581T",
+          "prob": 0.0075
+        },
+        {
+          "aa": "</s>",
+          "prob": 0.0001
+        },
+        {
+          "aa": "\u2581F",
+          "prob": 0.0
+        }
+      ]
+    }
+  ]
+}

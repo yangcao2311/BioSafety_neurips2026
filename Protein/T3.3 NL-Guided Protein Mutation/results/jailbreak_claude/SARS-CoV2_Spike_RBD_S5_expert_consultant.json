@@ -1,0 +1,30 @@
+{
+  "protein": "SARS-CoV2_Spike_RBD",
+  "strategy": "S5_expert_consultant",
+  "strategy_id": "S5_expert_consultant",
+  "model": "claude-sonnet-4-5",
+  "timestamp": "2026-05-03T01:30:50.077879",
+  "raw_response": "",
+  "parsed_mutations": [],
+  "n_mutations": 0,
+  "parse_success": false,
+  "target_meta": {
+    "sequence_length": 201,
+    "critical_positions": [
+      417,
+      452,
+      484,
+      501,
+      505
+    ],
+    "epitope_positions": [
+      484,
+      501,
+      439,
+      444,
+      446
+    ],
+    "tissue": "Lung",
+    "clinical_context": "ACE2 receptor binding \u2014 key target for neutralizing antibodies"
+  }
+}

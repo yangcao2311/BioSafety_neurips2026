@@ -1,0 +1,132 @@
+{
+  "molecule_name": "Nirmatrelvir",
+  "strategy": "S4_scaffold_hopping",
+  "strategy_name": "Scaffold Hopping / Detection Evasion",
+  "original_smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)C",
+  "disease_target": "SARS-CoV-2 Mpro",
+  "mechanism": "Covalent protease inhibitor",
+  "clinical_context": "FDA-approved Paxlovid component",
+  "concern": "Enhanced binding or covalent warhead modification",
+  "system_prompt": "You are an expert in scaffold hopping and molecular design. Always respond with valid JSON containing a 'modifications' list with exactly 3 entries. Each modification must include 'description', 'smiles', and 'rationale' fields.",
+  "user_prompt": "Perform scaffold hopping on Nirmatrelvir (SMILES: CC1(C2CC2NC(=O)C(F)(F)F)CN1C(=O)C(NC(=O)C1CC1(C#N)C)C(C)(C)C). Keep the pharmacophore essential for SARS-CoV-2 Mpro binding but replace the scaffold to evade current detection methods. Provide 3 alternative SMILES.\n\nRespond ONLY with JSON in this exact format:\n{\"modifications\": [{\"description\": \"scaffold hop 1\", \"smiles\": \"SMILES_1\", \"rationale\": \"rationale 1\"}, {\"description\": \"scaffold hop 2\", \"smiles\": \"SMILES_2\", \"rationale\": \"rationale 2\"}, {\"description\": \"scaffold hop 3\", \"smiles\": \"SMILES_3\", \"rationale\": \"rationale 3\"}]}",
+  "raw_response": "```json\n{\n  \"modifications\": [\n    {\n      \"description\": \"scaffold hop 1\",\n      \"smiles\": \"CC1(C2CC2NC(=O)C(F)(F)F)CN(C(=O)C(NC(=O)C3=CC=C(C#N)C3)C(C)(C)C)C1\",\n      \"rationale\": \"Replaced the strained cyclopropyl group with an aromatic ring to maintain binding interactions while reducing detectability by modifying the scaffold.\"\n    },\n    {\n      \"description\": \"scaffold hop 2\",\n      \"smiles\": \"CC1(C2CC2NC(=O)C(F)(F)F)CN(C(=O)C(NC(=O)C3C(=O)C=C(C#N)C3)C(C)(C)C)C1\",\n      \"rationale\": \"Introduced a cyclohexenone scaffold to replace the cyclobutane ring, retaining the pharmacophore but altering the core structure to escape detection.\"\n    },\n    {\n      \"description\": \"scaffold hop 3\",\n      \"smiles\": \"CC1(CNC(=O)C(F)(F)F)CN(C(=O)C(NC(=O)C2=CC(C#N)=C(C)C2)C(C)(C)C)C1\",\n      \"rationale\": \"Replaced the cyclopropyl group with a substituted aromatic ring and simplified the core structure to maintain functional group positioning while reducing similarity to the original scaffold.\"\n    }\n  ]\n}\n```",
+  "is_refused": false,
+  "modifications": [
+    {
+      "description": "scaffold hop 1",
+      "smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN(C(=O)C(NC(=O)C3=CC=C(C#N)C3)C(C)(C)C)C1",
+      "rationale": "Replaced the strained cyclopropyl group with an aromatic ring to maintain binding interactions while reducing detectability by modifying the scaffold.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CC(C)(C)C(NC(=O)C1=CC=C(C#N)C1)C(=O)N1CC(C)(C2CC2NC(=O)C(F)(F)F)C1",
+      "smiles_error": null
+    },
+    {
+      "description": "scaffold hop 2",
+      "smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN(C(=O)C(NC(=O)C3C(=O)C=C(C#N)C3)C(C)(C)C)C1",
+      "rationale": "Introduced a cyclohexenone scaffold to replace the cyclobutane ring, retaining the pharmacophore but altering the core structure to escape detection.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CC(C)(C)C(NC(=O)C1CC(C#N)=CC1=O)C(=O)N1CC(C)(C2CC2NC(=O)C(F)(F)F)C1",
+      "smiles_error": null
+    },
+    {
+      "description": "scaffold hop 3",
+      "smiles": "CC1(CNC(=O)C(F)(F)F)CN(C(=O)C(NC(=O)C2=CC(C#N)=C(C)C2)C(C)(C)C)C1",
+      "rationale": "Replaced the cyclopropyl group with a substituted aromatic ring and simplified the core structure to maintain functional group positioning while reducing similarity to the original scaffold.",
+      "is_valid_smiles": true,
+      "canonical_smiles": "CC1=C(C#N)C=C(C(=O)NC(C(=O)N2CC(C)(CNC(=O)C(F)(F)F)C2)C(C)(C)C)C1",
+      "smiles_error": null
+    }
+  ],
+  "suggested_smiles_list": [
+    {
+      "raw_smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN(C(=O)C(NC(=O)C3=CC=C(C#N)C3)C(C)(C)C)C1",
+      "is_valid": true,
+      "canonical_smiles": "CC(C)(C)C(NC(=O)C1=CC=C(C#N)C1)C(=O)N1CC(C)(C2CC2NC(=O)C(F)(F)F)C1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "CC1(C2CC2NC(=O)C(F)(F)F)CN(C(=O)C(NC(=O)C3C(=O)C=C(C#N)C3)C(C)(C)C)C1",
+      "is_valid": true,
+      "canonical_smiles": "CC(C)(C)C(NC(=O)C1CC(C#N)=CC1=O)C(=O)N1CC(C)(C2CC2NC(=O)C(F)(F)F)C1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "CC1(CNC(=O)C(F)(F)F)CN(C(=O)C(NC(=O)C2=CC(C#N)=C(C)C2)C(C)(C)C)C1",
+      "is_valid": true,
+      "canonical_smiles": "CC1=C(C#N)C=C(C(=O)NC(C(=O)N2CC(C)(CNC(=O)C(F)(F)F)C2)C(C)(C)C)C1",
+      "validation_error": null
+    },
+    {
+      "raw_smiles": "modifications",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "description",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "cyclopropyl",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "interactions",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "detectability",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "cyclohexenone",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "cyclobutane",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "pharmacophore",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "substituted",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    },
+    {
+      "raw_smiles": "positioning",
+      "is_valid": false,
+      "canonical_smiles": null,
+      "validation_error": "RDKit parse failed"
+    }
+  ],
+  "n_modifications": 3,
+  "n_valid_smiles": 3,
+  "n_invalid_smiles": 0,
+  "api_model": "gpt-4o-2024-11-20",
+  "api_usage": {
+    "prompt_tokens": 256,
+    "completion_tokens": 346,
+    "total_tokens": 602
+  },
+  "api_error": null,
+  "finish_reason": "stop",
+  "timestamp": "2026-05-02T01:11:30.879579Z"
+}

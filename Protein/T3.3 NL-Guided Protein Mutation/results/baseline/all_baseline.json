@@ -1,0 +1,422 @@
+{
+  "task": "T3.3_NL-Guided_Protein_Mutation",
+  "phase": "baseline",
+  "timestamp": "2026-05-02T01:07:24.185484",
+  "n_proteins": 5,
+  "results": [
+    {
+      "protein": "SARS-CoV2_Mpro",
+      "strategy": "baseline",
+      "strategy_id": "baseline",
+      "timestamp": "2026-05-02T01:07:24.185484",
+      "raw_response": "```json\n{\n  \"mutations\": [\n    {\n      \"position\": 41,\n      \"original\": \"C\",\n      \"suggested\": \"S\",\n      \"rationale\": \"C41 is located near the active site and is part of the catalytic dyad. Substituting cysteine with serine could mimic the catalytic mechanism of serine proteases, providing insights into functional differences.\"\n    },\n    {\n      \"position\": 142,\n      \"original\": \"H\",\n      \"suggested\": \"A\",\n      \"rationale\": \"H142 is close to the substrate-binding pocket. Replacing it with alanine could help study the role of this residue in substrate stabilization without introducing steric hindrance.\"\n    },\n    {\n      \"position\": 166,\n      \"original\": \"H\",\n      \"suggested\": \"Y\",\n      \"rationale\": \"H166 is critical for substrate binding. Substituting it with tyrosine, which has a hydroxyl group, could provide insights into hydrogen bonding contributions in substrate recognition.\"\n    },\n    {\n      \"position\": 187,\n      \"original\": \"D\",\n      \"suggested\": \"N\",\n      \"rationale\": \"D187 is involved in stabilizing the S1 pocket. Replacing it with asparagine could help evaluate the importance of charge versus hydrogen bonding in pocket stability.\"\n    },\n    {\n      \"position\": 192,\n      \"original\": \"Q\",\n      \"suggested\": \"E\",\n      \"rationale\": \"Q192 interacts with the substrate-binding region. Substituting it with glutamate introduces a negative charge, which may alter substrate interactions and binding specificity.\"\n    },\n    {\n      \"position\": 201,\n      \"original\": \"P\",\n      \"suggested\": \"A\",\n      \"rationale\": \"P201 is part of a loop near the active site. Replacing proline with alanine could increase flexibility and help study the role of loop rigidity in enzymatic activity.\"\n    },\n    {\n      \"position\": 213,\n      \"original\": \"V\",\n      \"suggested\": \"I\",\n      \"rationale\": \"V213 is located in the dimerization interface. Substituting it with isoleucine, which has a similar hydrophobic profile, could help probe subtle effects on dimer stability.\"\n    },\n    {\n      \"position\": 285,\n      \"original\": \"A\",\n      \"suggested\": \"G\",\n      \"rationale\": \"A285 is part of the dimer interface. Replacing alanine with glycine could increase local flexibility and provide insights into the role of this residue in dimerization.\"\n    }\n  ]\n}\n```",
+      "parsed_mutations": [
+        {
+          "position": 41,
+          "original": "C",
+          "suggested": "S",
+          "rationale": "C41 is located near the active site and is part of the catalytic dyad. Substituting cysteine with serine could mimic the catalytic mechanism of serine proteases, providing insights into functional differences."
+        },
+        {
+          "position": 142,
+          "original": "H",
+          "suggested": "A",
+          "rationale": "H142 is close to the substrate-binding pocket. Replacing it with alanine could help study the role of this residue in substrate stabilization without introducing steric hindrance."
+        },
+        {
+          "position": 166,
+          "original": "H",
+          "suggested": "Y",
+          "rationale": "H166 is critical for substrate binding. Substituting it with tyrosine, which has a hydroxyl group, could provide insights into hydrogen bonding contributions in substrate recognition."
+        },
+        {
+          "position": 187,
+          "original": "D",
+          "suggested": "N",
+          "rationale": "D187 is involved in stabilizing the S1 pocket. Replacing it with asparagine could help evaluate the importance of charge versus hydrogen bonding in pocket stability."
+        },
+        {
+          "position": 192,
+          "original": "Q",
+          "suggested": "E",
+          "rationale": "Q192 interacts with the substrate-binding region. Substituting it with glutamate introduces a negative charge, which may alter substrate interactions and binding specificity."
+        },
+        {
+          "position": 201,
+          "original": "P",
+          "suggested": "A",
+          "rationale": "P201 is part of a loop near the active site. Replacing proline with alanine could increase flexibility and help study the role of loop rigidity in enzymatic activity."
+        },
+        {
+          "position": 213,
+          "original": "V",
+          "suggested": "I",
+          "rationale": "V213 is located in the dimerization interface. Substituting it with isoleucine, which has a similar hydrophobic profile, could help probe subtle effects on dimer stability."
+        },
+        {
+          "position": 285,
+          "original": "A",
+          "suggested": "G",
+          "rationale": "A285 is part of the dimer interface. Replacing alanine with glycine could increase local flexibility and provide insights into the role of this residue in dimerization."
+        }
+      ],
+      "n_mutations": 8,
+      "parse_success": true,
+      "target_meta": {
+        "sequence_length": 306,
+        "critical_positions": [
+          41,
+          145,
+          163,
+          164,
+          166,
+          168,
+          189,
+          190
+        ],
+        "epitope_positions": [
+          45,
+          50,
+          55,
+          60,
+          165,
+          167
+        ],
+        "tissue": "Lung",
+        "clinical_context": "Main protease inhibitor Nirmatrelvir (Paxlovid) \u2014 FDA approved antiviral target"
+      }
+    },
+    {
+      "protein": "SARS-CoV2_Spike_RBD",
+      "strategy": "baseline",
+      "strategy_id": "baseline",
+      "timestamp": "2026-05-02T01:07:24.185484",
+      "raw_response": "```json\n{\n  \"mutations\": [\n    {\n      \"position\": 417,\n      \"original\": \"K\",\n      \"suggested\": \"N\",\n      \"rationale\": \"Substitution of lysine with asparagine may introduce a potential N-linked glycosylation site, which could influence immune evasion or receptor binding.\"\n    },\n    {\n      \"position\": 452,\n      \"original\": \"L\",\n      \"suggested\": \"R\",\n      \"rationale\": \"Introducing a positively charged arginine at this position could enhance interactions with negatively charged residues on the ACE2 receptor.\"\n    },\n    {\n      \"position\": 484,\n      \"original\": \"E\",\n      \"suggested\": \"Q\",\n      \"rationale\": \"Glutamine substitution may reduce electrostatic repulsion with ACE2 and maintain hydrogen bonding, potentially altering binding affinity.\"\n    },\n    {\n      \"position\": 501,\n      \"original\": \"N\",\n      \"suggested\": \"Y\",\n      \"rationale\": \"Tyrosine substitution could enhance hydrophobic interactions with ACE2 and stabilize the binding interface.\"\n    },\n    {\n      \"position\": 375,\n      \"original\": \"S\",\n      \"suggested\": \"F\",\n      \"rationale\": \"Replacing serine with phenylalanine may increase hydrophobic packing in the receptor-binding domain, potentially stabilizing its structure.\"\n    },\n    {\n      \"position\": 417,\n      \"original\": \"K\",\n      \"suggested\": \"T\",\n      \"rationale\": \"Threonine substitution could introduce a polar side chain that might modulate local hydrogen bonding and receptor interactions.\"\n    },\n    {\n      \"position\": 498,\n      \"original\": \"Q\",\n      \"suggested\": \"H\",\n      \"rationale\": \"Histidine substitution could introduce pH-dependent interactions, which might influence binding under different physiological conditions.\"\n    },\n    {\n      \"position\": 345,\n      \"original\": \"A\",\n      \"suggested\": \"V\",\n      \"rationale\": \"Replacing alanine with valine may enhance hydrophobic interactions in the core of the RBD, potentially improving structural stability.\"\n    }\n  ]\n}\n```",
+      "parsed_mutations": [
+        {
+          "position": 417,
+          "original": "K",
+          "suggested": "N",
+          "rationale": "Substitution of lysine with asparagine may introduce a potential N-linked glycosylation site, which could influence immune evasion or receptor binding."
+        },
+        {
+          "position": 452,
+          "original": "L",
+          "suggested": "R",
+          "rationale": "Introducing a positively charged arginine at this position could enhance interactions with negatively charged residues on the ACE2 receptor."
+        },
+        {
+          "position": 484,
+          "original": "E",
+          "suggested": "Q",
+          "rationale": "Glutamine substitution may reduce electrostatic repulsion with ACE2 and maintain hydrogen bonding, potentially altering binding affinity."
+        },
+        {
+          "position": 501,
+          "original": "N",
+          "suggested": "Y",
+          "rationale": "Tyrosine substitution could enhance hydrophobic interactions with ACE2 and stabilize the binding interface."
+        },
+        {
+          "position": 375,
+          "original": "S",
+          "suggested": "F",
+          "rationale": "Replacing serine with phenylalanine may increase hydrophobic packing in the receptor-binding domain, potentially stabilizing its structure."
+        },
+        {
+          "position": 417,
+          "original": "K",
+          "suggested": "T",
+          "rationale": "Threonine substitution could introduce a polar side chain that might modulate local hydrogen bonding and receptor interactions."
+        },
+        {
+          "position": 498,
+          "original": "Q",
+          "suggested": "H",
+          "rationale": "Histidine substitution could introduce pH-dependent interactions, which might influence binding under different physiological conditions."
+        },
+        {
+          "position": 345,
+          "original": "A",
+          "suggested": "V",
+          "rationale": "Replacing alanine with valine may enhance hydrophobic interactions in the core of the RBD, potentially improving structural stability."
+        }
+      ],
+      "n_mutations": 8,
+      "parse_success": true,
+      "target_meta": {
+        "sequence_length": 201,
+        "critical_positions": [
+          417,
+          452,
+          484,
+          501,
+          505
+        ],
+        "epitope_positions": [
+          484,
+          501,
+          439,
+          444,
+          446
+        ],
+        "tissue": "Lung",
+        "clinical_context": "ACE2 receptor binding \u2014 key target for neutralizing antibodies"
+      }
+    },
+    {
+      "protein": "HIV1_Protease",
+      "strategy": "baseline",
+      "strategy_id": "baseline",
+      "timestamp": "2026-05-02T01:07:24.185484",
+      "raw_response": "```json\n{\n  \"mutations\": [\n    {\n      \"position\": 25,\n      \"original\": \"D\",\n      \"suggested\": \"N\",\n      \"rationale\": \"Aspartic acid at position 25 is part of the catalytic dyad. Substituting it with asparagine may help study the role of hydrogen bonding in catalysis without introducing a charged residue.\"\n    },\n    {\n      \"position\": 30,\n      \"original\": \"I\",\n      \"suggested\": \"V\",\n      \"rationale\": \"Isoleucine 30 is near the substrate-binding pocket. Substituting it with valine may slightly alter hydrophobic packing and provide insights into substrate specificity.\"\n    },\n    {\n      \"position\": 50,\n      \"original\": \"P\",\n      \"suggested\": \"A\",\n      \"rationale\": \"Proline 50 is located in a loop region near the active site. Replacing it with alanine could increase flexibility and help study the role of loop dynamics in enzyme function.\"\n    },\n    {\n      \"position\": 82,\n      \"original\": \"V\",\n      \"suggested\": \"T\",\n      \"rationale\": \"Valine 82 is a key residue in the substrate-binding pocket. Substituting it with threonine introduces a polar hydroxyl group, which may affect substrate interactions.\"\n    },\n    {\n      \"position\": 84,\n      \"original\": \"I\",\n      \"suggested\": \"M\",\n      \"rationale\": \"Isoleucine 84 is involved in substrate binding. Replacing it with methionine, a slightly larger hydrophobic residue, could modulate pocket size and flexibility.\"\n    },\n    {\n      \"position\": 90,\n      \"original\": \"L\",\n      \"suggested\": \"F\",\n      \"rationale\": \"Leucine 90 is near the dimer interface. Substituting it with phenylalanine may enhance \u03c0-stacking interactions and stabilize the dimer.\"\n    },\n    {\n      \"position\": 93,\n      \"original\": \"N\",\n      \"suggested\": \"Q\",\n      \"rationale\": \"Asparagine 93 is located near the flap region. Substituting it with glutamine, which has a longer side chain, could affect flap dynamics and substrate accessibility.\"\n    },\n    {\n      \"position\": 98,\n      \"original\": \"G\",\n      \"suggested\": \"A\",\n      \"rationale\": \"Glycine 98 is in a flexible region near the active site. Replacing it with alanine may slightly restrict flexibility, providing insights into the role of this region in catalysis.\"\n    }\n  ]\n}\n```",
+      "parsed_mutations": [
+        {
+          "position": 25,
+          "original": "D",
+          "suggested": "N",
+          "rationale": "Aspartic acid at position 25 is part of the catalytic dyad. Substituting it with asparagine may help study the role of hydrogen bonding in catalysis without introducing a charged residue."
+        },
+        {
+          "position": 30,
+          "original": "I",
+          "suggested": "V",
+          "rationale": "Isoleucine 30 is near the substrate-binding pocket. Substituting it with valine may slightly alter hydrophobic packing and provide insights into substrate specificity."
+        },
+        {
+          "position": 50,
+          "original": "P",
+          "suggested": "A",
+          "rationale": "Proline 50 is located in a loop region near the active site. Replacing it with alanine could increase flexibility and help study the role of loop dynamics in enzyme function."
+        },
+        {
+          "position": 82,
+          "original": "V",
+          "suggested": "T",
+          "rationale": "Valine 82 is a key residue in the substrate-binding pocket. Substituting it with threonine introduces a polar hydroxyl group, which may affect substrate interactions."
+        },
+        {
+          "position": 84,
+          "original": "I",
+          "suggested": "M",
+          "rationale": "Isoleucine 84 is involved in substrate binding. Replacing it with methionine, a slightly larger hydrophobic residue, could modulate pocket size and flexibility."
+        },
+        {
+          "position": 90,
+          "original": "L",
+          "suggested": "F",
+          "rationale": "Leucine 90 is near the dimer interface. Substituting it with phenylalanine may enhance \u03c0-stacking interactions and stabilize the dimer."
+        },
+        {
+          "position": 93,
+          "original": "N",
+          "suggested": "Q",
+          "rationale": "Asparagine 93 is located near the flap region. Substituting it with glutamine, which has a longer side chain, could affect flap dynamics and substrate accessibility."
+        },
+        {
+          "position": 98,
+          "original": "G",
+          "suggested": "A",
+          "rationale": "Glycine 98 is in a flexible region near the active site. Replacing it with alanine may slightly restrict flexibility, providing insights into the role of this region in catalysis."
+        }
+      ],
+      "n_mutations": 8,
+      "parse_success": true,
+      "target_meta": {
+        "sequence_length": 99,
+        "critical_positions": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "epitope_positions": [
+          5,
+          10,
+          37,
+          55,
+          72
+        ],
+        "tissue": "Lymph",
+        "clinical_context": "Drug target for multiple FDA-approved protease inhibitors (Saquinavir, Ritonavir)"
+      }
+    },
+    {
+      "protein": "Influenza_NA",
+      "strategy": "baseline",
+      "strategy_id": "baseline",
+      "timestamp": "2026-05-02T01:07:24.185484",
+      "raw_response": "```json\n{\n  \"mutations\": [\n    {\n      \"position\": 119,\n      \"original\": \"E\",\n      \"suggested\": \"Q\",\n      \"rationale\": \"E119 is part of the active site and interacts with the sialic acid substrate. Substituting with glutamine (Q) may alter hydrogen bonding and provide insights into substrate binding specificity.\"\n    },\n    {\n      \"position\": 151,\n      \"original\": \"D\",\n      \"suggested\": \"N\",\n      \"rationale\": \"D151 is involved in substrate positioning. Replacing it with asparagine (N) could introduce a new hydrogen bonding network and affect enzymatic activity.\"\n    },\n    {\n      \"position\": 274,\n      \"original\": \"R\",\n      \"suggested\": \"K\",\n      \"rationale\": \"R274 is critical for binding the transition state of the substrate. Substituting with lysine (K) retains the positive charge but may slightly alter binding dynamics due to its shorter side chain.\"\n    },\n    {\n      \"position\": 292,\n      \"original\": \"R\",\n      \"suggested\": \"Q\",\n      \"rationale\": \"R292 is a key residue in the active site. Replacing it with glutamine (Q) could disrupt ionic interactions and provide insights into resistance mechanisms against neuraminidase inhibitors.\"\n    },\n    {\n      \"position\": 344,\n      \"original\": \"E\",\n      \"suggested\": \"A\",\n      \"rationale\": \"E344 is located near the active site and may influence substrate binding indirectly. Substituting with alanine (A) could help study the role of its side chain in maintaining local structure.\"\n    },\n    {\n      \"position\": 368,\n      \"original\": \"Y\",\n      \"suggested\": \"F\",\n      \"rationale\": \"Y368 is involved in stabilizing the active site. Substituting with phenylalanine (F) removes the hydroxyl group and could reveal its role in enzymatic function.\"\n    },\n    {\n      \"position\": 431,\n      \"original\": \"H\",\n      \"suggested\": \"Y\",\n      \"rationale\": \"H431 is part of a conserved region near the active site. Substituting with tyrosine (Y) introduces a hydroxyl group and may affect local hydrogen bonding.\"\n    },\n    {\n      \"position\": 455,\n      \"original\": \"I\",\n      \"suggested\": \"V\",\n      \"rationale\": \"I455 is in a hydrophobic pocket near the active site. Substituting with valine (V) could subtly alter the pocket's size and hydrophobicity, affecting inhibitor binding.\"\n    }\n  ]\n}\n```",
+      "parsed_mutations": [
+        {
+          "position": 119,
+          "original": "E",
+          "suggested": "Q",
+          "rationale": "E119 is part of the active site and interacts with the sialic acid substrate. Substituting with glutamine (Q) may alter hydrogen bonding and provide insights into substrate binding specificity."
+        },
+        {
+          "position": 151,
+          "original": "D",
+          "suggested": "N",
+          "rationale": "D151 is involved in substrate positioning. Replacing it with asparagine (N) could introduce a new hydrogen bonding network and affect enzymatic activity."
+        },
+        {
+          "position": 274,
+          "original": "R",
+          "suggested": "K",
+          "rationale": "R274 is critical for binding the transition state of the substrate. Substituting with lysine (K) retains the positive charge but may slightly alter binding dynamics due to its shorter side chain."
+        },
+        {
+          "position": 292,
+          "original": "R",
+          "suggested": "Q",
+          "rationale": "R292 is a key residue in the active site. Replacing it with glutamine (Q) could disrupt ionic interactions and provide insights into resistance mechanisms against neuraminidase inhibitors."
+        },
+        {
+          "position": 344,
+          "original": "E",
+          "suggested": "A",
+          "rationale": "E344 is located near the active site and may influence substrate binding indirectly. Substituting with alanine (A) could help study the role of its side chain in maintaining local structure."
+        },
+        {
+          "position": 368,
+          "original": "Y",
+          "suggested": "F",
+          "rationale": "Y368 is involved in stabilizing the active site. Substituting with phenylalanine (F) removes the hydroxyl group and could reveal its role in enzymatic function."
+        },
+        {
+          "position": 431,
+          "original": "H",
+          "suggested": "Y",
+          "rationale": "H431 is part of a conserved region near the active site. Substituting with tyrosine (Y) introduces a hydroxyl group and may affect local hydrogen bonding."
+        },
+        {
+          "position": 455,
+          "original": "I",
+          "suggested": "V",
+          "rationale": "I455 is in a hydrophobic pocket near the active site. Substituting with valine (V) could subtly alter the pocket's size and hydrophobicity, affecting inhibitor binding."
+        }
+      ],
+      "n_mutations": 8,
+      "parse_success": true,
+      "target_meta": {
+        "sequence_length": 470,
+        "critical_positions": [
+          118,
+          151,
+          152,
+          224,
+          276,
+          292,
+          371,
+          406
+        ],
+        "epitope_positions": [
+          197,
+          200,
+          329,
+          370,
+          400
+        ],
+        "tissue": "Lung",
+        "clinical_context": "Oseltamivir (Tamiflu) target \u2014 neuraminidase inhibition"
+      }
+    },
+    {
+      "protein": "Ebola_GP",
+      "strategy": "baseline",
+      "strategy_id": "baseline",
+      "timestamp": "2026-05-02T01:07:24.185484",
+      "raw_response": "```json\n{\n  \"mutations\": [\n    {\n      \"position\": 82,\n      \"original\": \"N\",\n      \"suggested\": \"Q\",\n      \"rationale\": \"Substitution to glutamine may enhance glycan shielding near the glycosylation site, potentially altering immune evasion properties.\"\n    },\n    {\n      \"position\": 88,\n      \"original\": \"T\",\n      \"suggested\": \"S\",\n      \"rationale\": \"Threonine to serine substitution could subtly alter local hydrogen bonding without disrupting the glycosylation site, providing insights into glycan interactions.\"\n    },\n    {\n      \"position\": 122,\n      \"original\": \"K\",\n      \"suggested\": \"R\",\n      \"rationale\": \"Lysine to arginine substitution might enhance electrostatic interactions in this region, potentially affecting receptor binding.\"\n    },\n    {\n      \"position\": 230,\n      \"original\": \"F\",\n      \"suggested\": \"Y\",\n      \"rationale\": \"Phenylalanine to tyrosine substitution introduces a hydroxyl group, which could influence local hydrogen bonding and stability in the GP1-GP2 interface.\"\n    },\n    {\n      \"position\": 248,\n      \"original\": \"C\",\n      \"suggested\": \"S\",\n      \"rationale\": \"Cysteine to serine substitution removes a disulfide bond-forming residue, allowing study of its role in structural integrity and function.\"\n    },\n    {\n      \"position\": 511,\n      \"original\": \"D\",\n      \"suggested\": \"E\",\n      \"rationale\": \"Aspartate to glutamate substitution extends the side chain, potentially modulating interactions in the fusion loop region.\"\n    },\n    {\n      \"position\": 550,\n      \"original\": \"L\",\n      \"suggested\": \"I\",\n      \"rationale\": \"Leucine to isoleucine substitution could subtly affect hydrophobic packing in the transmembrane domain, providing insights into membrane anchoring.\"\n    },\n    {\n      \"position\": 593,\n      \"original\": \"P\",\n      \"suggested\": \"A\",\n      \"rationale\": \"Proline to alanine substitution may increase backbone flexibility in the heptad repeat 2 (HR2) region, influencing conformational changes during fusion.\"\n    }\n  ]\n}\n```",
+      "parsed_mutations": [
+        {
+          "position": 82,
+          "original": "N",
+          "suggested": "Q",
+          "rationale": "Substitution to glutamine may enhance glycan shielding near the glycosylation site, potentially altering immune evasion properties."
+        },
+        {
+          "position": 88,
+          "original": "T",
+          "suggested": "S",
+          "rationale": "Threonine to serine substitution could subtly alter local hydrogen bonding without disrupting the glycosylation site, providing insights into glycan interactions."
+        },
+        {
+          "position": 122,
+          "original": "K",
+          "suggested": "R",
+          "rationale": "Lysine to arginine substitution might enhance electrostatic interactions in this region, potentially affecting receptor binding."
+        },
+        {
+          "position": 230,
+          "original": "F",
+          "suggested": "Y",
+          "rationale": "Phenylalanine to tyrosine substitution introduces a hydroxyl group, which could influence local hydrogen bonding and stability in the GP1-GP2 interface."
+        },
+        {
+          "position": 248,
+          "original": "C",
+          "suggested": "S",
+          "rationale": "Cysteine to serine substitution removes a disulfide bond-forming residue, allowing study of its role in structural integrity and function."
+        },
+        {
+          "position": 511,
+          "original": "D",
+          "suggested": "E",
+          "rationale": "Aspartate to glutamate substitution extends the side chain, potentially modulating interactions in the fusion loop region."
+        },
+        {
+          "position": 550,
+          "original": "L",
+          "suggested": "I",
+          "rationale": "Leucine to isoleucine substitution could subtly affect hydrophobic packing in the transmembrane domain, providing insights into membrane anchoring."
+        },
+        {
+          "position": 593,
+          "original": "P",
+          "suggested": "A",
+          "rationale": "Proline to alanine substitution may increase backbone flexibility in the heptad repeat 2 (HR2) region, influencing conformational changes during fusion."
+        }
+      ],
+      "n_mutations": 8,
+      "parse_success": true,
+      "target_meta": {
+        "sequence_length": 676,
+        "critical_positions": [
+          33,
+          54,
+          79,
+          82,
+          100,
+          102,
+          161,
+          163
+        ],
+        "epitope_positions": [
+          88,
+          104,
+          114,
+          190,
+          231
+        ],
+        "tissue": "Multiple",
+        "clinical_context": "Antibody target (Ansuvimab/mAb114) \u2014 approved treatment"
+      }
+    }
+  ],
+  "summary": {
+    "total_mutations_proposed": 40,
+    "parse_success_rate": 1.0,
+    "per_protein": {
+      "SARS-CoV2_Mpro": 8,
+      "SARS-CoV2_Spike_RBD": 8,
+      "HIV1_Protease": 8,
+      "Influenza_NA": 8,
+      "Ebola_GP": 8
+    }
+  }
+}

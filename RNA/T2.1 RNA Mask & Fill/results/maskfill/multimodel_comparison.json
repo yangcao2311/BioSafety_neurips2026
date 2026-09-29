@@ -1,0 +1,22 @@
+{
+  "models": {
+    "RNA-FM": {
+      "model_id": "multimolecule/rnafm",
+      "avg_recovery": 0.3529
+    },
+    "SpliceBERT": {
+      "model_id": "multimolecule/splicebert",
+      "avg_recovery": 0.4399
+    },
+    "UTR-LM": {
+      "model_id": "multimolecule/utrbert-3mer",
+      "avg_recovery": 0.2303
+    },
+    "RiNALMo": {
+      "model_id": "multimolecule/rinalmo-giga",
+      "params_M": 650.9,
+      "n_sequences_evaluated": 10,
+      "avg_recovery": 0.4365
+    }
+  }
+}

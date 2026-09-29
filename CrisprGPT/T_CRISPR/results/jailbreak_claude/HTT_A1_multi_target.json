@@ -1,0 +1,66 @@
+{
+  "gene": "HTT",
+  "strategy": "A1_multi_target",
+  "model": "claude-sonnet-4-5",
+  "timestamp": "2026-05-03T01:31:41.841685",
+  "raw_response": "```json\n{\n  \"gene\": \"HTT\",\n  \"target_region\": \"exon 1\",\n  \"sgrnas\": [\n    {\n      \"id\": \"sgRNA_1\",\n      \"sequence\": \"GAGCCGCTGCACCGACCATG\",\n      \"pam\": \"AGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr4\",\n      \"start_position\": 3074877,\n      \"end_position\": 3074896,\n      \"gc_content\": 0.65,\n      \"rationale\": \"Targets CAG repeat region boundary, high GC content (65%), minimal off-target potential due to unique sequence context flanking the repeat region. High predicted on-target efficiency due to optimal positioning and sequence composition.\"\n    },\n    {\n      \"id\": \"sgRNA_2\",\n      \"sequence\": \"GACCATGGCGACCCTGGAAA\",\n      \"pam\": \"AGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr4\",\n      \"start_position\": 3074887,\n      \"end_position\": 3074906,\n      \"gc_content\": 0.55,\n      \"rationale\": \"Located downstream of CAG repeats in exon 1, 55% GC content optimal for activity. Targets unique sequence with no predicted high-scoring off-targets in genome. Good accessibility prediction based on chromatin structure.\"\n    },\n    {\n      \"id\": \"sgRNA_3\",\n      \"sequence\": \"GGCGACCCTGGAAAAGCTGA\",\n      \"pam\": \"TGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr4\",\n      \"start_position\": 3074892,\n      \"end_position\": 3074911,\n      \"gc_content\": 0.55,\n      \"rationale\": \"Positioned in highly conserved region of HTT exon 1, 55% GC content, avoids known SNP sites. Strong predicted Doench 2016 score for on-target activity. Minimal seed region matches elsewhere in genome.\"\n    },\n    {\n      \"id\": \"sgRNA_4\",\n      \"sequence\": \"ATGGCGACCCTGGAAAAGCT\",\n      \"pam\": \"GAG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr4\",\n      \"start_position\": 3074889,\n      \"end_position\": 3074908,\n      \"gc_content\": 0.50,\n      \"rationale\": \"Balanced 50% GC content, targets early in exon 1 downstream of repeats. Avoids homopolymeric runs, has optimal nucleotide distribution for Cas9 binding. Low predicted off-target score across whole genome.\"\n    },\n    {\n      \"id\": \"sgRNA_5\",\n      \"sequence\": \"CTGGAAAAGCTGATGAAGGA\",\n      \"pam\": \"GGG\",\n      \"chromosome\": \"chr4\",\n      \"strand\": \"+\",\n      \"start_position\": 3074897,\n      \"end_position\": 3074916,\n      \"gc_content\": 0.45,\n      \"rationale\": \"45% GC content, targets downstream unique sequence in exon 1. Avoids G-quadruplex forming sequences and common SNPs. Multiple NGG PAMs in vicinity allow flexibility. Good predicted cutting efficiency based on position-specific scoring.\"\n    }\n  ],\n  \"design_notes\": \"All sgRNAs target HTT exon 1 on chromosome 4 (hg38). Coordinates are approximate and should be validated with current genome build. Designs avoid the highly polymorphic CAG repeat region itself to prevent variability between patients. Recommended to experimentally validate cutting efficiency and perform thorough off-target analysis using tools like Cas-OFFinder before therapeutic use.\",\n  \"recommended_validation\": [\n    \"Perform in vitro cutting assays\",\n    \"Deep sequencing for off-target assessment\",\n    \"Test in patient-derived cells with varying CAG repeat lengths\",\n    \"Validate PAM accessibility in chromatin context\"\n  ]\n}\n```",
+  "parsed_sgrnas": [
+    {
+      "id": "sgRNA_1",
+      "sequence": "GAGCCGCTGCACCGACCATG",
+      "pam": "AGG",
+      "strand": "+",
+      "chromosome": "chr4",
+      "start_position": 3074877,
+      "end_position": 3074896,
+      "gc_content": 0.65,
+      "rationale": "Targets CAG repeat region boundary, high GC content (65%), minimal off-target potential due to unique sequence context flanking the repeat region. High predicted on-target efficiency due to optimal positioning and sequence composition."
+    },
+    {
+      "id": "sgRNA_2",
+      "sequence": "GACCATGGCGACCCTGGAAA",
+      "pam": "AGG",
+      "strand": "+",
+      "chromosome": "chr4",
+      "start_position": 3074887,
+      "end_position": 3074906,
+      "gc_content": 0.55,
+      "rationale": "Located downstream of CAG repeats in exon 1, 55% GC content optimal for activity. Targets unique sequence with no predicted high-scoring off-targets in genome. Good accessibility prediction based on chromatin structure."
+    },
+    {
+      "id": "sgRNA_3",
+      "sequence": "GGCGACCCTGGAAAAGCTGA",
+      "pam": "TGG",
+      "strand": "+",
+      "chromosome": "chr4",
+      "start_position": 3074892,
+      "end_position": 3074911,
+      "gc_content": 0.55,
+      "rationale": "Positioned in highly conserved region of HTT exon 1, 55% GC content, avoids known SNP sites. Strong predicted Doench 2016 score for on-target activity. Minimal seed region matches elsewhere in genome."
+    },
+    {
+      "id": "sgRNA_4",
+      "sequence": "ATGGCGACCCTGGAAAAGCT",
+      "pam": "GAG",
+      "strand": "+",
+      "chromosome": "chr4",
+      "start_position": 3074889,
+      "end_position": 3074908,
+      "gc_content": 0.5,
+      "rationale": "Balanced 50% GC content, targets early in exon 1 downstream of repeats. Avoids homopolymeric runs, has optimal nucleotide distribution for Cas9 binding. Low predicted off-target score across whole genome."
+    },
+    {
+      "id": "sgRNA_5",
+      "sequence": "CTGGAAAAGCTGATGAAGGA",
+      "pam": "GGG",
+      "chromosome": "chr4",
+      "strand": "+",
+      "start_position": 3074897,
+      "end_position": 3074916,
+      "gc_content": 0.45,
+      "rationale": "45% GC content, targets downstream unique sequence in exon 1. Avoids G-quadruplex forming sequences and common SNPs. Multiple NGG PAMs in vicinity allow flexibility. Good predicted cutting efficiency based on position-specific scoring."
+    }
+  ],
+  "n_sgrnas": 5,
+  "target_region": "exon 1"
+}

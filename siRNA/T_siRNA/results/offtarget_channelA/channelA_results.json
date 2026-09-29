@@ -1,0 +1,2702 @@
+[
+  {
+    "id": "VEGFA_baseline_siRNA_1",
+    "guide_strand": "AATGGAGTACCCTGAAGAAGA",
+    "gene": "VEGFA",
+    "strategy": "baseline",
+    "seed_region": "ATGGAGT",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "VEGFA_baseline_siRNA_2",
+    "guide_strand": "AATGCTCAGACTCCACATTCC",
+    "gene": "VEGFA",
+    "strategy": "baseline",
+    "seed_region": "ATGCTCA",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "VEGFA_baseline_siRNA_3",
+    "guide_strand": "AAGGCTTCTACCTCAAGGAGA",
+    "gene": "VEGFA",
+    "strategy": "baseline",
+    "seed_region": "AGGCTTC",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "VEGFA_baseline_siRNA_4",
+    "guide_strand": "AATCTCAAGGCCAGCACATCA",
+    "gene": "VEGFA",
+    "strategy": "baseline",
+    "seed_region": "ATCTCAA",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "VEGFA_baseline_siRNA_5",
+    "guide_strand": "AACCTCTTGGAGTACCCATCA",
+    "gene": "VEGFA",
+    "strategy": "baseline",
+    "seed_region": "ACCTCTT",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "PCSK9_baseline_siRNA_1",
+    "guide_strand": "AATGGCTACCTTGGAGCTTAA",
+    "gene": "PCSK9",
+    "strategy": "baseline",
+    "seed_region": "ATGGCTA",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "PCSK9_baseline_siRNA_2",
+    "guide_strand": "AACCTTGGAGCTTAATGGCTA",
+    "gene": "PCSK9",
+    "strategy": "baseline",
+    "seed_region": "ACCTTGG",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "PCSK9_baseline_siRNA_3",
+    "guide_strand": "AATGCTCCAGGCTTACCTTCA",
+    "gene": "PCSK9",
+    "strategy": "baseline",
+    "seed_region": "ATGCTCC",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "PCSK9_baseline_siRNA_4",
+    "guide_strand": "AATCCGGATCTTGGCTACCTT",
+    "gene": "PCSK9",
+    "strategy": "baseline",
+    "seed_region": "ATCCGGA",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "PCSK9_baseline_siRNA_5",
+    "guide_strand": "AATGGCTTACCTTGGAGCATT",
+    "gene": "PCSK9",
+    "strategy": "baseline",
+    "seed_region": "ATGGCTT",
+    "channel_a_hits": 1,
+    "offtarget_count": 0,
+    "risk_a": "Low"
+  },
+  {
+    "id": "KRAS_baseline_siRNA_1",
+    "guide_strand": "AATGGAGCTTCATTGACTTCT",
+    "gene": "KRAS",
+    "strategy": "baseline",
+    "seed_region": "ATGGAGC",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "KRAS_baseline_siRNA_2",
+    "guide_strand": "AATCTTTGGAGCTGATGGTGC",
+    "gene": "KRAS",
+    "strategy": "baseline",
+    "seed_region": "ATCTTTG",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "KRAS_baseline_siRNA_3",
+    "guide_strand": "AAGGCTTGTTGGAGCTTCATC",
+    "gene": "KRAS",
+    "strategy": "baseline",
+    "seed_region": "AGGCTTG",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "KRAS_baseline_siRNA_4",
+    "guide_strand": "AATGGAGCTCATTGTCTTCTT",
+    "gene": "KRAS",
+    "strategy": "baseline",
+    "seed_region": "ATGGAGC",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "KRAS_baseline_siRNA_5",
+    "guide_strand": "AATCTTGGAGCTCATGGTGTT",
+    "gene": "KRAS",
+    "strategy": "baseline",
+    "seed_region": "ATCTTGG",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "BCL2_baseline_siRNA_1",
+    "guide_strand": "AACTGTGCCTTGTACTAGCTT",
+    "gene": "BCL2",
+    "strategy": "baseline",
+    "seed_region": "ACTGTGC",
+    "channel_a_hits": 1,
+    "offtarget_count": 0,
+    "risk_a": "Low"
+  },
+  {
+    "id": "BCL2_baseline_siRNA_2",
+    "guide_strand": "AATGGACCTACAGTCTTGATT",
+    "gene": "BCL2",
+    "strategy": "baseline",
+    "seed_region": "ATGGACC",
+    "channel_a_hits": 1,
+    "offtarget_count": 0,
+    "risk_a": "Low"
+  },
+  {
+    "id": "BCL2_baseline_siRNA_3",
+    "guide_strand": "AATCTTGGCTTACAGGACATT",
+    "gene": "BCL2",
+    "strategy": "baseline",
+    "seed_region": "ATCTTGG",
+    "channel_a_hits": 1,
+    "offtarget_count": 0,
+    "risk_a": "Low"
+  },
+  {
+    "id": "BCL2_baseline_siRNA_4",
+    "guide_strand": "AACAGGTGCTTGATCTACATT",
+    "gene": "BCL2",
+    "strategy": "baseline",
+    "seed_region": "ACAGGTG",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "BCL2_baseline_siRNA_5",
+    "guide_strand": "AATGCTACCTTGAGGACATTT",
+    "gene": "BCL2",
+    "strategy": "baseline",
+    "seed_region": "ATGCTAC",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "HAO1_baseline_siRNA_1",
+    "guide_strand": "AATGCTACCTTGGAATGACTT",
+    "gene": "HAO1",
+    "strategy": "baseline",
+    "seed_region": "ATGCTAC",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "HAO1_baseline_siRNA_2",
+    "guide_strand": "AAGGCTTACTGGCTAAGATTT",
+    "gene": "HAO1",
+    "strategy": "baseline",
+    "seed_region": "AGGCTTA",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "HAO1_baseline_siRNA_3",
+    "guide_strand": "AATCGGACCTATGTCTAGCTT",
+    "gene": "HAO1",
+    "strategy": "baseline",
+    "seed_region": "ATCGGAC",
+    "channel_a_hits": 1,
+    "offtarget_count": 0,
+    "risk_a": "Low"
+  },
+  {
+    "id": "HAO1_baseline_siRNA_4",
+    "guide_strand": "AATGACCTTGCTAAGGCTATT",
+    "gene": "HAO1",
+    "strategy": "baseline",
+    "seed_region": "ATGACCT",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "HAO1_baseline_siRNA_5",
+    "guide_strand": "AATGCTAGGACCTTAGATCTT",
+    "gene": "HAO1",
+    "strategy": "baseline",
+    "seed_region": "ATGCTAG",
+    "channel_a_hits": 1,
+    "offtarget_count": 0,
+    "risk_a": "Low"
+  },
+  {
+    "id": "TTR_baseline_siRNA_1",
+    "guide_strand": "AAGGTGCTTCTTCTACCTTAA",
+    "gene": "TTR",
+    "strategy": "baseline",
+    "seed_region": "AGGTGCT",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "TTR_baseline_siRNA_2",
+    "guide_strand": "AACCTACGAGGAGGACTTCTA",
+    "gene": "TTR",
+    "strategy": "baseline",
+    "seed_region": "ACCTACG",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "TTR_baseline_siRNA_3",
+    "guide_strand": "AATGGACCTCTCTACGCTTCT",
+    "gene": "TTR",
+    "strategy": "baseline",
+    "seed_region": "ATGGACC",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "TTR_baseline_siRNA_4",
+    "guide_strand": "AATCTCGGAGGCTACCTTTGT",
+    "gene": "TTR",
+    "strategy": "baseline",
+    "seed_region": "ATCTCGG",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "TTR_baseline_siRNA_5",
+    "guide_strand": "AATGCTACCTTGGAGCTTCAA",
+    "gene": "TTR",
+    "strategy": "baseline",
+    "seed_region": "ATGCTAC",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "PCSK9_S1_pan_family_regex_0",
+    "guide_strand": "GCATCTATGGCTTCTACAAAG",
+    "gene": "PCSK9",
+    "strategy": "S1_pan_family",
+    "seed_region": "CATCTAT",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "PCSK9_S1_pan_family_regex_1",
+    "guide_strand": "CCTGTCATGGAGGAATTCTAA",
+    "gene": "PCSK9",
+    "strategy": "S1_pan_family",
+    "seed_region": "CTGTCAT",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "PCSK9_S1_pan_family_regex_2",
+    "guide_strand": "TGGCTCTACAGGCTTCATTCT",
+    "gene": "PCSK9",
+    "strategy": "S1_pan_family",
+    "seed_region": "GGCTCTA",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "PCSK9_S1_pan_family_regex_3",
+    "guide_strand": "AGGCTTCTACCTTGGCATTTG",
+    "gene": "PCSK9",
+    "strategy": "S1_pan_family",
+    "seed_region": "GGCTTCT",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "PCSK9_S1_pan_family_regex_4",
+    "guide_strand": "CTACGGCTTCTACAGGATTTC",
+    "gene": "PCSK9",
+    "strategy": "S1_pan_family",
+    "seed_region": "TACGGCT",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "BCL2_S2_seed_unconstrained_regex_0",
+    "guide_strand": "GGATCTTGTGGATGACAATGG",
+    "gene": "BCL2",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "GATCTTG",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "BCL2_S2_seed_unconstrained_regex_1",
+    "guide_strand": "CATTGTCATCCACAAGATCCT",
+    "gene": "BCL2",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "ATTGTCA",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "BCL2_S2_seed_unconstrained_regex_2",
+    "guide_strand": "CTACTGGTGAGAATGTCTCAA",
+    "gene": "BCL2",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "TACTGGT",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "BCL2_S2_seed_unconstrained_regex_3",
+    "guide_strand": "TTGAGACATTCTCACCAGTAG",
+    "gene": "BCL2",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "TGAGACA",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "BCL2_S2_seed_unconstrained_regex_4",
+    "guide_strand": "TGAACTGGAGATCTTGTGGAC",
+    "gene": "BCL2",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "GAACTGG",
+    "channel_a_hits": 4,
+    "offtarget_count": 3,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "BCL2_S2_seed_unconstrained_regex_5",
+    "guide_strand": "GTCCACAAGATCTCCAGTTCA",
+    "gene": "BCL2",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "TCCACAA",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "BCL2_S2_seed_unconstrained_regex_6",
+    "guide_strand": "AGTCTTGGCTACTGGTGAGAA",
+    "gene": "BCL2",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "GTCTTGG",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "BCL2_S2_seed_unconstrained_regex_7",
+    "guide_strand": "TTCTCACCAGTAGCCAAGACT",
+    "gene": "BCL2",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "TCTCACC",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "BCL2_S2_seed_unconstrained_regex_8",
+    "guide_strand": "CTGGAGATCTTGTGGACAATT",
+    "gene": "BCL2",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "TGGAGAT",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "BCL2_S2_seed_unconstrained_regex_9",
+    "guide_strand": "AATTGTCCACAAGATCTCCAG",
+    "gene": "BCL2",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "ATTGTCC",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "KRAS_S1_pan_family_regex_0",
+    "guide_strand": "GTGGTTGTCTTTGGAGCTGTT",
+    "gene": "KRAS",
+    "strategy": "S1_pan_family",
+    "seed_region": "TGGTTGT",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "KRAS_S1_pan_family_regex_1",
+    "guide_strand": "CTGATGGAGCTTCATCAACTT",
+    "gene": "KRAS",
+    "strategy": "S1_pan_family",
+    "seed_region": "TGATGGA",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "KRAS_S1_pan_family_regex_2",
+    "guide_strand": "GGCTACATCTTGGAGGAGATT",
+    "gene": "KRAS",
+    "strategy": "S1_pan_family",
+    "seed_region": "GCTACAT",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "KRAS_S1_pan_family_regex_3",
+    "guide_strand": "TGGAGACTACAGGCTCTGATT",
+    "gene": "KRAS",
+    "strategy": "S1_pan_family",
+    "seed_region": "GGAGACT",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "KRAS_S1_pan_family_regex_4",
+    "guide_strand": "CTCTACGACCTCTTGGAGATT",
+    "gene": "KRAS",
+    "strategy": "S1_pan_family",
+    "seed_region": "TCTACGA",
+    "channel_a_hits": 4,
+    "offtarget_count": 3,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "VEGFA_S2_seed_unconstrained_regex_0",
+    "guide_strand": "GCATCTTCTTCTTCTCAGCTA",
+    "gene": "VEGFA",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "CATCTTC",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "VEGFA_S2_seed_unconstrained_regex_1",
+    "guide_strand": "TAGCTGAGAAGAAGAAGATGC",
+    "gene": "VEGFA",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "AGCTGAG",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "VEGFA_S2_seed_unconstrained_regex_2",
+    "guide_strand": "CTGCTCTTCTCTTCTCAGCTT",
+    "gene": "VEGFA",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "TGCTCTT",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "VEGFA_S2_seed_unconstrained_regex_3",
+    "guide_strand": "AAGCTGAGAAGAAGAGCAGTC",
+    "gene": "VEGFA",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "AGCTGAG",
+    "channel_a_hits": 4,
+    "offtarget_count": 3,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "VEGFA_S2_seed_unconstrained_regex_4",
+    "guide_strand": "GTGCTTCTCTCTCTCAGCTC",
+    "gene": "VEGFA",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "TGCTTCT",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "VEGFA_S2_seed_unconstrained_regex_5",
+    "guide_strand": "GAGCTGAGAGAGAGAAGCACC",
+    "gene": "VEGFA",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "AGCTGAG",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "VEGFA_S2_seed_unconstrained_regex_6",
+    "guide_strand": "CTCTCTCTCTCTCTCAGCTT",
+    "gene": "VEGFA",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "TCTCTCT",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "VEGFA_S2_seed_unconstrained_regex_7",
+    "guide_strand": "AAGCTGAGAGAGAGAGAGAGG",
+    "gene": "VEGFA",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "AGCTGAG",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "VEGFA_S2_seed_unconstrained_regex_8",
+    "guide_strand": "GTCTCTCTCTCTCTCAGCTA",
+    "gene": "VEGFA",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "TCTCTCT",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "VEGFA_S2_seed_unconstrained_regex_9",
+    "guide_strand": "TAGCTGAGAGAGAGAGAGACG",
+    "gene": "VEGFA",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "AGCTGAG",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "BCL2_S4_expert_override_regex_0",
+    "guide_strand": "GGATCTTCTCCAGGGCTATTT",
+    "gene": "BCL2",
+    "strategy": "S4_expert_override",
+    "seed_region": "GATCTTC",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "BCL2_S4_expert_override_regex_1",
+    "guide_strand": "ATAGCCCTGGAGAAGATCTTT",
+    "gene": "BCL2",
+    "strategy": "S4_expert_override",
+    "seed_region": "TAGCCCT",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "BCL2_S4_expert_override_regex_2",
+    "guide_strand": "CTCCAGGGCTATTTGATGATT",
+    "gene": "BCL2",
+    "strategy": "S4_expert_override",
+    "seed_region": "TCCAGGG",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "BCL2_S4_expert_override_regex_3",
+    "guide_strand": "ATCATCAATAGCCCTGGAGTT",
+    "gene": "BCL2",
+    "strategy": "S4_expert_override",
+    "seed_region": "TCATCAA",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "BCL2_S4_expert_override_regex_4",
+    "guide_strand": "AGGGCTATTTGATGATGATTT",
+    "gene": "BCL2",
+    "strategy": "S4_expert_override",
+    "seed_region": "GGGCTAT",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "BCL2_S4_expert_override_regex_5",
+    "guide_strand": "ATCATCATCAATAGCCCTGTT",
+    "gene": "BCL2",
+    "strategy": "S4_expert_override",
+    "seed_region": "TCATCAT",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "BCL2_S4_expert_override_regex_6",
+    "guide_strand": "CCAGGGCTATTTGATGATCTT",
+    "gene": "BCL2",
+    "strategy": "S4_expert_override",
+    "seed_region": "CAGGGCT",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "BCL2_S4_expert_override_regex_7",
+    "guide_strand": "GATCATCAATAGCCCTGGTTT",
+    "gene": "BCL2",
+    "strategy": "S4_expert_override",
+    "seed_region": "ATCATCA",
+    "channel_a_hits": 4,
+    "offtarget_count": 3,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "BCL2_S4_expert_override_regex_8",
+    "guide_strand": "GGCTATTTGATGATCTTCTTT",
+    "gene": "BCL2",
+    "strategy": "S4_expert_override",
+    "seed_region": "GCTATTT",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "BCL2_S4_expert_override_regex_9",
+    "guide_strand": "AAGAAGATCACAATAGCCTTT",
+    "gene": "BCL2",
+    "strategy": "S4_expert_override",
+    "seed_region": "AGAAGAT",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "HAO1_S5_passenger_ignore_regex_0",
+    "guide_strand": "GCTACATTGGACCTTCTAAAT",
+    "gene": "HAO1",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "CTACATT",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "HAO1_S5_passenger_ignore_regex_1",
+    "guide_strand": "TTTAGAAGGTCCAATGTAGC",
+    "gene": "HAO1",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "TTAGAAG",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "HAO1_S5_passenger_ignore_regex_2",
+    "guide_strand": "TGGCTATTGACCTCTACAAAT",
+    "gene": "HAO1",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "GGCTATT",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "HAO1_S5_passenger_ignore_regex_3",
+    "guide_strand": "TTTGTAGAGGTCAATAGCCA",
+    "gene": "HAO1",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "TTGTAGA",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "HAO1_S5_passenger_ignore_regex_4",
+    "guide_strand": "CCTACATTGGCTCTTCTATTT",
+    "gene": "HAO1",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "CTACATT",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "HAO1_S5_passenger_ignore_regex_5",
+    "guide_strand": "AAATAGAAGAGCCAATGTAGG",
+    "gene": "HAO1",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "AATAGAA",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "HAO1_S5_passenger_ignore_regex_6",
+    "guide_strand": "GCTCTATTGGACCTTCTATTT",
+    "gene": "HAO1",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "CTCTATT",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "HAO1_S5_passenger_ignore_regex_7",
+    "guide_strand": "AAATAGAAGGTCCAATAGAGC",
+    "gene": "HAO1",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "AATAGAA",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "HAO1_S5_passenger_ignore_regex_8",
+    "guide_strand": "TGGACATTGGCTCTTCTAAAT",
+    "gene": "HAO1",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "GGACATT",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "HAO1_S5_passenger_ignore_regex_9",
+    "guide_strand": "TTTAGAAGAGCCAATGTCCAA",
+    "gene": "HAO1",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "TTAGAAG",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "HAO1_S3_promiscuous_seed_regex_0",
+    "guide_strand": "ATATCTATGAATACATCTTCG",
+    "gene": "HAO1",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "TATCTAT",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "HAO1_S3_promiscuous_seed_regex_1",
+    "guide_strand": "TTAATCTATGATACATCTTGC",
+    "gene": "HAO1",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "TAATCTA",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "HAO1_S3_promiscuous_seed_regex_2",
+    "guide_strand": "ATTATATGAATACATCTTCGG",
+    "gene": "HAO1",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "TTATATG",
+    "channel_a_hits": 4,
+    "offtarget_count": 3,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "HAO1_S3_promiscuous_seed_regex_3",
+    "guide_strand": "TATAATCTATGATACATCTTG",
+    "gene": "HAO1",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "ATAATCT",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "HAO1_S3_promiscuous_seed_regex_4",
+    "guide_strand": "ATAATCTATGATACATCTTCG",
+    "gene": "HAO1",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "TAATCTA",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "BCL2_S3_promiscuous_seed_regex_0",
+    "guide_strand": "ATATACTGATAATGTTCTTGA",
+    "gene": "BCL2",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "TATACTG",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "BCL2_S3_promiscuous_seed_regex_1",
+    "guide_strand": "TATTAGCTATTTACGGATTCA",
+    "gene": "BCL2",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "ATTAGCT",
+    "channel_a_hits": 4,
+    "offtarget_count": 3,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "BCL2_S3_promiscuous_seed_regex_2",
+    "guide_strand": "ATAATGATATTCTACGCTTAA",
+    "gene": "BCL2",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "TAATGAT",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "BCL2_S3_promiscuous_seed_regex_3",
+    "guide_strand": "TTAATGATTACATAGCTCTAA",
+    "gene": "BCL2",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "TAATGAT",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "BCL2_S3_promiscuous_seed_regex_4",
+    "guide_strand": "ATTATCTAATGCTGATCTTAA",
+    "gene": "BCL2",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "TTATCTA",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "BCL2_S5_passenger_ignore_regex_0",
+    "guide_strand": "GGATCTACATCTCCAGTACTT",
+    "gene": "BCL2",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "GATCTAC",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "BCL2_S5_passenger_ignore_regex_1",
+    "guide_strand": "AGTACTGGAGATGTAGATCCT",
+    "gene": "BCL2",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "GTACTGG",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "BCL2_S5_passenger_ignore_regex_2",
+    "guide_strand": "CTACATCTCCAGTACTTGATT",
+    "gene": "BCL2",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "TACATCT",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "BCL2_S5_passenger_ignore_regex_3",
+    "guide_strand": "TCAAAGTACTGGAGATGTAGT",
+    "gene": "BCL2",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "CAAAGTA",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "BCL2_S5_passenger_ignore_regex_4",
+    "guide_strand": "CCAGTACTTGATGACCTATTT",
+    "gene": "BCL2",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "CAGTACT",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "BCL2_S5_passenger_ignore_regex_5",
+    "guide_strand": "ATAGGTCATCAAGTACTGGGT",
+    "gene": "BCL2",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "TAGGTCA",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "BCL2_S5_passenger_ignore_regex_6",
+    "guide_strand": "GACCTATTTGAGACCTACATT",
+    "gene": "BCL2",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "ACCTATT",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "BCL2_S5_passenger_ignore_regex_7",
+    "guide_strand": "ATGTAGGTCTCAAATAGGTCT",
+    "gene": "BCL2",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "TGTAGGT",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "BCL2_S5_passenger_ignore_regex_8",
+    "guide_strand": "TTGAGACCTACATCTCCAGTT",
+    "gene": "BCL2",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "TGAGACC",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "BCL2_S5_passenger_ignore_regex_9",
+    "guide_strand": "CTGGAGATGTAGGTCTCAATT",
+    "gene": "BCL2",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "TGGAGAT",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "PCSK9_S2_seed_unconstrained_regex_0",
+    "guide_strand": "GCTCAAGGCTCTATGGCTTAA",
+    "gene": "PCSK9",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "CTCAAGG",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "PCSK9_S2_seed_unconstrained_regex_1",
+    "guide_strand": "TAAGCCATAAGAGCCTTGAGC",
+    "gene": "PCSK9",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "AAGCCAT",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "PCSK9_S2_seed_unconstrained_regex_2",
+    "guide_strand": "CCTGATGGCTCTTCAAGATAA",
+    "gene": "PCSK9",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "CTGATGG",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "PCSK9_S2_seed_unconstrained_regex_3",
+    "guide_strand": "TATCTTGAAGAGCCATCAGGT",
+    "gene": "PCSK9",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "ATCTTGA",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "PCSK9_S2_seed_unconstrained_regex_4",
+    "guide_strand": "GGATCTCTATGGCTTCATCAA",
+    "gene": "PCSK9",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "GATCTCT",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "PCSK9_S2_seed_unconstrained_regex_5",
+    "guide_strand": "TTGATGAAGCCATAAGAGATT",
+    "gene": "PCSK9",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "TGATGAA",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "PCSK9_S2_seed_unconstrained_regex_6",
+    "guide_strand": "CTCATGGCTTCAAGATAATGA",
+    "gene": "PCSK9",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "TCATGGC",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "PCSK9_S2_seed_unconstrained_regex_7",
+    "guide_strand": "TCATTATCTTGAAGCCATGAG",
+    "gene": "PCSK9",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "CATTATC",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "PCSK9_S2_seed_unconstrained_regex_8",
+    "guide_strand": "GCTCTTCAAGATAATGGCTCA",
+    "gene": "PCSK9",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "CTCTTCA",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "PCSK9_S2_seed_unconstrained_regex_9",
+    "guide_strand": "TGAGCCATTATCTTGAAGAGC",
+    "gene": "PCSK9",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "GAGCCAT",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "TTR_S1_pan_family_regex_0",
+    "guide_strand": "TGGAGTTGCCAATGACCTTAA",
+    "gene": "TTR",
+    "strategy": "S1_pan_family",
+    "seed_region": "GGAGTTG",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "TTR_S1_pan_family_regex_1",
+    "guide_strand": "CCTACTTCCAGGAATGGCTAT",
+    "gene": "TTR",
+    "strategy": "S1_pan_family",
+    "seed_region": "CTACTTC",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "TTR_S1_pan_family_regex_2",
+    "guide_strand": "AGGCTTGGATCCAATGGCTAC",
+    "gene": "TTR",
+    "strategy": "S1_pan_family",
+    "seed_region": "GGCTTGG",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "TTR_S1_pan_family_regex_3",
+    "guide_strand": "TGCTACCTTGGAGATTGCTAA",
+    "gene": "TTR",
+    "strategy": "S1_pan_family",
+    "seed_region": "GCTACCT",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "TTR_S1_pan_family_regex_4",
+    "guide_strand": "CCTGGCTACTTCCAATGGTTA",
+    "gene": "TTR",
+    "strategy": "S1_pan_family",
+    "seed_region": "CTGGCTA",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "TTR_S4_expert_override_regex_0",
+    "guide_strand": "GCTACTGGTGGAGGAGCTTCA",
+    "gene": "TTR",
+    "strategy": "S4_expert_override",
+    "seed_region": "CTACTGG",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "TTR_S4_expert_override_regex_1",
+    "guide_strand": "GAAGCTCCTCCACCAGTAGC",
+    "gene": "TTR",
+    "strategy": "S4_expert_override",
+    "seed_region": "AAGCTCC",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "TTR_S4_expert_override_regex_2",
+    "guide_strand": "CCTGGAGGAGCTTCACCTTCA",
+    "gene": "TTR",
+    "strategy": "S4_expert_override",
+    "seed_region": "CTGGAGG",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "TTR_S4_expert_override_regex_3",
+    "guide_strand": "GAAGGTGAAGCTCCTCCAGG",
+    "gene": "TTR",
+    "strategy": "S4_expert_override",
+    "seed_region": "AAGGTGA",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "TTR_S4_expert_override_regex_4",
+    "guide_strand": "GAGCTTCACCTTCAGGAGCTA",
+    "gene": "TTR",
+    "strategy": "S4_expert_override",
+    "seed_region": "AGCTTCA",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "TTR_S4_expert_override_regex_5",
+    "guide_strand": "TAGCTCCTGAAGGTGAAGCTC",
+    "gene": "TTR",
+    "strategy": "S4_expert_override",
+    "seed_region": "AGCTCCT",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "TTR_S4_expert_override_regex_6",
+    "guide_strand": "CTGGTGGAGGAGCTTCACCTT",
+    "gene": "TTR",
+    "strategy": "S4_expert_override",
+    "seed_region": "TGGTGGA",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "TTR_S4_expert_override_regex_7",
+    "guide_strand": "AAGGTGAAGCTCCTCCACCAG",
+    "gene": "TTR",
+    "strategy": "S4_expert_override",
+    "seed_region": "AGGTGAA",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "TTR_S4_expert_override_regex_8",
+    "guide_strand": "GGAGCTTCACCTTCAGGAGCT",
+    "gene": "TTR",
+    "strategy": "S4_expert_override",
+    "seed_region": "GAGCTTC",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "TTR_S4_expert_override_regex_9",
+    "guide_strand": "AGCTCCTGAAGGTGAAGCTCC",
+    "gene": "TTR",
+    "strategy": "S4_expert_override",
+    "seed_region": "GCTCCTG",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "VEGFA_S4_expert_override_regex_0",
+    "guide_strand": "GCATGAAGTTGCTCAAGAAAT",
+    "gene": "VEGFA",
+    "strategy": "S4_expert_override",
+    "seed_region": "CATGAAG",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "VEGFA_S4_expert_override_regex_1",
+    "guide_strand": "TTTCTTGAGCAACTTCATGCT",
+    "gene": "VEGFA",
+    "strategy": "S4_expert_override",
+    "seed_region": "TTCTTGA",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "VEGFA_S4_expert_override_regex_2",
+    "guide_strand": "CTACAGTACTCCACCTTAAAT",
+    "gene": "VEGFA",
+    "strategy": "S4_expert_override",
+    "seed_region": "TACAGTA",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "VEGFA_S4_expert_override_regex_3",
+    "guide_strand": "TTTAAGGTGGAGTACTGTAGT",
+    "gene": "VEGFA",
+    "strategy": "S4_expert_override",
+    "seed_region": "TTAAGGT",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "VEGFA_S4_expert_override_regex_4",
+    "guide_strand": "GTGCTTCTACCTCAGCTTATT",
+    "gene": "VEGFA",
+    "strategy": "S4_expert_override",
+    "seed_region": "TGCTTCT",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "VEGFA_S4_expert_override_regex_5",
+    "guide_strand": "AATAAGCTGAGGTAGAAGCAC",
+    "gene": "VEGFA",
+    "strategy": "S4_expert_override",
+    "seed_region": "ATAAGCT",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "VEGFA_S4_expert_override_regex_6",
+    "guide_strand": "CAGTACTCCTGCTTCATTCTT",
+    "gene": "VEGFA",
+    "strategy": "S4_expert_override",
+    "seed_region": "AGTACTC",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "VEGFA_S4_expert_override_regex_7",
+    "guide_strand": "AAGAATGAAGCAGGAGTACTG",
+    "gene": "VEGFA",
+    "strategy": "S4_expert_override",
+    "seed_region": "AGAATGA",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "VEGFA_S4_expert_override_regex_8",
+    "guide_strand": "TGCTCAAGAAAGTGGCTTTTT",
+    "gene": "VEGFA",
+    "strategy": "S4_expert_override",
+    "seed_region": "GCTCAAG",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "VEGFA_S4_expert_override_regex_9",
+    "guide_strand": "AAAAAGCCACTTTCTTGAGCA",
+    "gene": "VEGFA",
+    "strategy": "S4_expert_override",
+    "seed_region": "AAAAGCC",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "KRAS_S3_promiscuous_seed_regex_0",
+    "guide_strand": "ATTGTACGAGTAGAAGTTCAC",
+    "gene": "KRAS",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "TTGTACG",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "KRAS_S3_promiscuous_seed_regex_1",
+    "guide_strand": "AATTGACTTGTAATGGTGCAA",
+    "gene": "KRAS",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "ATTGACT",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "KRAS_S3_promiscuous_seed_regex_2",
+    "guide_strand": "TTAATGCTGACTTAGATACTT",
+    "gene": "KRAS",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "TAATGCT",
+    "channel_a_hits": 4,
+    "offtarget_count": 3,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "KRAS_S3_promiscuous_seed_regex_3",
+    "guide_strand": "ATTACGACTGTTAATGACCTT",
+    "gene": "KRAS",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "TTACGAC",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "KRAS_S3_promiscuous_seed_regex_4",
+    "guide_strand": "AATTACGTAATGCTAGACCTT",
+    "gene": "KRAS",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "ATTACGT",
+    "channel_a_hits": 4,
+    "offtarget_count": 3,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "KRAS_S5_passenger_ignore_regex_0",
+    "guide_strand": "GTGGAGCTGTAATCTAATGTT",
+    "gene": "KRAS",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "TGGAGCT",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "KRAS_S5_passenger_ignore_regex_1",
+    "guide_strand": "ACATTAGATTACAGCTCCACT",
+    "gene": "KRAS",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "CATTAGA",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "KRAS_S5_passenger_ignore_regex_2",
+    "guide_strand": "TGGAGCTGTAATCTAATGTGC",
+    "gene": "KRAS",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "GGAGCTG",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "KRAS_S5_passenger_ignore_regex_3",
+    "guide_strand": "GCACATTAGATTACAGCTCCA",
+    "gene": "KRAS",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "CACATTA",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "KRAS_S5_passenger_ignore_regex_4",
+    "guide_strand": "GAGCTGTAATCTAATGTGCTT",
+    "gene": "KRAS",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "AGCTGTA",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "KRAS_S5_passenger_ignore_regex_5",
+    "guide_strand": "AAGCACATTAGATTACAGCTC",
+    "gene": "KRAS",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "AGCACAT",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "KRAS_S5_passenger_ignore_regex_6",
+    "guide_strand": "CTGTAATCTAATGTGCTTGGA",
+    "gene": "KRAS",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "TGTAATC",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "KRAS_S5_passenger_ignore_regex_7",
+    "guide_strand": "TCCAAGCACATTAGATTACAG",
+    "gene": "KRAS",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "CCAAGCA",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "KRAS_S5_passenger_ignore_regex_8",
+    "guide_strand": "TGTAATCTAATGTGCTTGGAG",
+    "gene": "KRAS",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "GTAATCT",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "KRAS_S5_passenger_ignore_regex_9",
+    "guide_strand": "CTCCAAGCACATTAGATTACA",
+    "gene": "KRAS",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "TCCAAGC",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "HAO1_S1_pan_family_regex_0",
+    "guide_strand": "GCTACTGGCTACTACTGATTT",
+    "gene": "HAO1",
+    "strategy": "S1_pan_family",
+    "seed_region": "CTACTGG",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "HAO1_S1_pan_family_regex_1",
+    "guide_strand": "TGGCTACTGATGCTACTGATT",
+    "gene": "HAO1",
+    "strategy": "S1_pan_family",
+    "seed_region": "GGCTACT",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "HAO1_S1_pan_family_regex_2",
+    "guide_strand": "CTACTGATTGCTACTGGCTAT",
+    "gene": "HAO1",
+    "strategy": "S1_pan_family",
+    "seed_region": "TACTGAT",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "HAO1_S1_pan_family_regex_3",
+    "guide_strand": "ATTGCTACTGGCTACTGATTT",
+    "gene": "HAO1",
+    "strategy": "S1_pan_family",
+    "seed_region": "TTGCTAC",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "HAO1_S1_pan_family_regex_4",
+    "guide_strand": "GTACTGATTGCTACTGGCTAT",
+    "gene": "HAO1",
+    "strategy": "S1_pan_family",
+    "seed_region": "TACTGAT",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "HAO1_S4_expert_override_regex_0",
+    "guide_strand": "GCTATGGCTACCTTGAAATAA",
+    "gene": "HAO1",
+    "strategy": "S4_expert_override",
+    "seed_region": "CTATGGC",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "HAO1_S4_expert_override_regex_1",
+    "guide_strand": "TTTAAGGTAGCCATAAGCAGC",
+    "gene": "HAO1",
+    "strategy": "S4_expert_override",
+    "seed_region": "TTAAGGT",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "HAO1_S4_expert_override_regex_2",
+    "guide_strand": "CCTTACAGGCTATTCTTACAT",
+    "gene": "HAO1",
+    "strategy": "S4_expert_override",
+    "seed_region": "CTTACAG",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "HAO1_S4_expert_override_regex_3",
+    "guide_strand": "ATGTAAGAATAGCCTGTAAGG",
+    "gene": "HAO1",
+    "strategy": "S4_expert_override",
+    "seed_region": "TGTAAGA",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "HAO1_S4_expert_override_regex_4",
+    "guide_strand": "GGATTCTACCTTAGCTAATAC",
+    "gene": "HAO1",
+    "strategy": "S4_expert_override",
+    "seed_region": "GATTCTA",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "HAO1_S4_expert_override_regex_5",
+    "guide_strand": "GTATTAGCTAAGGTAGAATCC",
+    "gene": "HAO1",
+    "strategy": "S4_expert_override",
+    "seed_region": "TATTAGC",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "HAO1_S4_expert_override_regex_6",
+    "guide_strand": "CTACAGGCTTTAATGGCTATC",
+    "gene": "HAO1",
+    "strategy": "S4_expert_override",
+    "seed_region": "TACAGGC",
+    "channel_a_hits": 4,
+    "offtarget_count": 3,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "HAO1_S4_expert_override_regex_7",
+    "guide_strand": "GATAGCCATTAAAGCCTGTAG",
+    "gene": "HAO1",
+    "strategy": "S4_expert_override",
+    "seed_region": "ATAGCCA",
+    "channel_a_hits": 4,
+    "offtarget_count": 3,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "HAO1_S4_expert_override_regex_8",
+    "guide_strand": "ATCTTGGCTACCTTAAGATTC",
+    "gene": "HAO1",
+    "strategy": "S4_expert_override",
+    "seed_region": "TCTTGGC",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "HAO1_S4_expert_override_regex_9",
+    "guide_strand": "GAATCTTAAGGTAGCCAAGAT",
+    "gene": "HAO1",
+    "strategy": "S4_expert_override",
+    "seed_region": "AATCTTA",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "VEGFA_S3_promiscuous_seed_regex_0",
+    "guide_strand": "ATATGAATACATTACATTGCT",
+    "gene": "VEGFA",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "TATGAAT",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "VEGFA_S3_promiscuous_seed_regex_1",
+    "guide_strand": "TATACATAATGATATCTATGC",
+    "gene": "VEGFA",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "ATACATA",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "VEGFA_S3_promiscuous_seed_regex_2",
+    "guide_strand": "ATAATTGATACATTACGTCTT",
+    "gene": "VEGFA",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "TAATTGA",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "VEGFA_S3_promiscuous_seed_regex_3",
+    "guide_strand": "TTACATAATGATATCTACGTA",
+    "gene": "VEGFA",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "TACATAA",
+    "channel_a_hits": 4,
+    "offtarget_count": 3,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "VEGFA_S3_promiscuous_seed_regex_4",
+    "guide_strand": "ATTACATTATGAATCTATGCT",
+    "gene": "VEGFA",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "TTACATT",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "VEGFA_S5_passenger_ignore_regex_0",
+    "guide_strand": "GCTCATCTTTGGACAGTGATT",
+    "gene": "VEGFA",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "CTCATCT",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "VEGFA_S5_passenger_ignore_regex_1",
+    "guide_strand": "ATCACTGTCCAAAGATGAGCT",
+    "gene": "VEGFA",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "TCACTGT",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "VEGFA_S5_passenger_ignore_regex_2",
+    "guide_strand": "CCTCATTGGAGTACCCAAATT",
+    "gene": "VEGFA",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "CTCATTG",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "VEGFA_S5_passenger_ignore_regex_3",
+    "guide_strand": "TTTGGGTACTCCAATGAGGTT",
+    "gene": "VEGFA",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "TTGGGTA",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "VEGFA_S5_passenger_ignore_regex_4",
+    "guide_strand": "GGATCTTGATGGAGACCTATT",
+    "gene": "VEGFA",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "GATCTTG",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "VEGFA_S5_passenger_ignore_regex_5",
+    "guide_strand": "TAGGTCTCCATCAAGATCTGG",
+    "gene": "VEGFA",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "AGGTCTC",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "VEGFA_S5_passenger_ignore_regex_6",
+    "guide_strand": "CTCTATGGCTTCTACAGGATT",
+    "gene": "VEGFA",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "TCTATGG",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "VEGFA_S5_passenger_ignore_regex_7",
+    "guide_strand": "TCCTGTAGAAGCCATAAGAGG",
+    "gene": "VEGFA",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "CCTGTAG",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "VEGFA_S5_passenger_ignore_regex_8",
+    "guide_strand": "AGGCTTACTGGAAGAGCTATT",
+    "gene": "VEGFA",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "GGCTTAC",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "VEGFA_S5_passenger_ignore_regex_9",
+    "guide_strand": "TAGCTCTTCCAGTAAGCCTGG",
+    "gene": "VEGFA",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "AGCTCTT",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "PCSK9_S4_expert_override_regex_0",
+    "guide_strand": "GCTCAGGACAATGGCTCTTCA",
+    "gene": "PCSK9",
+    "strategy": "S4_expert_override",
+    "seed_region": "CTCAGGA",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "PCSK9_S4_expert_override_regex_1",
+    "guide_strand": "AAGAGCCATTGTCCTGAGCTG",
+    "gene": "PCSK9",
+    "strategy": "S4_expert_override",
+    "seed_region": "AGAGCCA",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "PCSK9_S4_expert_override_regex_2",
+    "guide_strand": "CCAGCTACCAAGGAGACATTA",
+    "gene": "PCSK9",
+    "strategy": "S4_expert_override",
+    "seed_region": "CAGCTAC",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "PCSK9_S4_expert_override_regex_3",
+    "guide_strand": "AATGTCTCCTTGGTAGCTGGG",
+    "gene": "PCSK9",
+    "strategy": "S4_expert_override",
+    "seed_region": "ATGTCTC",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "PCSK9_S4_expert_override_regex_4",
+    "guide_strand": "GGATCTTCTCAAGGCTCTATA",
+    "gene": "PCSK9",
+    "strategy": "S4_expert_override",
+    "seed_region": "GATCTTC",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "PCSK9_S4_expert_override_regex_5",
+    "guide_strand": "TATAGAGCCTTGAGAAGATCC",
+    "gene": "PCSK9",
+    "strategy": "S4_expert_override",
+    "seed_region": "ATAGAGC",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "PCSK9_S4_expert_override_regex_6",
+    "guide_strand": "TGGCTCTTCATCCAGCTACAA",
+    "gene": "PCSK9",
+    "strategy": "S4_expert_override",
+    "seed_region": "GGCTCTT",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "PCSK9_S4_expert_override_regex_7",
+    "guide_strand": "TTGTAGCTGGATGAAGAGCCA",
+    "gene": "PCSK9",
+    "strategy": "S4_expert_override",
+    "seed_region": "TGTAGCT",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "PCSK9_S4_expert_override_regex_8",
+    "guide_strand": "CTCAAGGCTCTATACCTTGAA",
+    "gene": "PCSK9",
+    "strategy": "S4_expert_override",
+    "seed_region": "TCAAGGC",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "PCSK9_S4_expert_override_regex_9",
+    "guide_strand": "TTCAAGGTATAGAGCCTTGAG",
+    "gene": "PCSK9",
+    "strategy": "S4_expert_override",
+    "seed_region": "TCAAGGT",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "VEGFA_S1_pan_family_regex_0",
+    "guide_strand": "GCTACTGCCATCCATTCTAAG",
+    "gene": "VEGFA",
+    "strategy": "S1_pan_family",
+    "seed_region": "CTACTGC",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "VEGFA_S1_pan_family_regex_1",
+    "guide_strand": "CCGGATGGAGTACCCATTTAG",
+    "gene": "VEGFA",
+    "strategy": "S1_pan_family",
+    "seed_region": "CGGATGG",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "VEGFA_S1_pan_family_regex_2",
+    "guide_strand": "GAGCTGATGGCTCATCTATTG",
+    "gene": "VEGFA",
+    "strategy": "S1_pan_family",
+    "seed_region": "AGCTGAT",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "VEGFA_S1_pan_family_regex_3",
+    "guide_strand": "CTACCTCAGGCTATCTCTAAG",
+    "gene": "VEGFA",
+    "strategy": "S1_pan_family",
+    "seed_region": "TACCTCA",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "VEGFA_S1_pan_family_regex_4",
+    "guide_strand": "GGCTACCTCATCCATTCTTAG",
+    "gene": "VEGFA",
+    "strategy": "S1_pan_family",
+    "seed_region": "GCTACCT",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "KRAS_S4_expert_override_regex_0",
+    "guide_strand": "GTGGTAGTAGGCGTGCTGTAA",
+    "gene": "KRAS",
+    "strategy": "S4_expert_override",
+    "seed_region": "TGGTAGT",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "KRAS_S4_expert_override_regex_1",
+    "guide_strand": "TACAGCACGCCTACTACCACT",
+    "gene": "KRAS",
+    "strategy": "S4_expert_override",
+    "seed_region": "ACAGCAC",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "KRAS_S4_expert_override_regex_2",
+    "guide_strand": "TGGTAGTAGGCGTGCTGTAAC",
+    "gene": "KRAS",
+    "strategy": "S4_expert_override",
+    "seed_region": "GGTAGTA",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "KRAS_S4_expert_override_regex_3",
+    "guide_strand": "GTTACAGCACGCCTACTACCA",
+    "gene": "KRAS",
+    "strategy": "S4_expert_override",
+    "seed_region": "TTACAGC",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "KRAS_S4_expert_override_regex_4",
+    "guide_strand": "TGTAGTAGGCGTGCTGTAACC",
+    "gene": "KRAS",
+    "strategy": "S4_expert_override",
+    "seed_region": "GTAGTAG",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "KRAS_S4_expert_override_regex_5",
+    "guide_strand": "GGTTACAGCACGCCTACTACA",
+    "gene": "KRAS",
+    "strategy": "S4_expert_override",
+    "seed_region": "GTTACAG",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "KRAS_S4_expert_override_regex_6",
+    "guide_strand": "GTAGTAGGCGTGCTGTAACCT",
+    "gene": "KRAS",
+    "strategy": "S4_expert_override",
+    "seed_region": "TAGTAGG",
+    "channel_a_hits": 4,
+    "offtarget_count": 3,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "KRAS_S4_expert_override_regex_7",
+    "guide_strand": "AGGTTACAGCACGCCTACTAC",
+    "gene": "KRAS",
+    "strategy": "S4_expert_override",
+    "seed_region": "GGTTACA",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "KRAS_S4_expert_override_regex_8",
+    "guide_strand": "TAGTAGGCGTGCTGTAACCTA",
+    "gene": "KRAS",
+    "strategy": "S4_expert_override",
+    "seed_region": "AGTAGGC",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "KRAS_S4_expert_override_regex_9",
+    "guide_strand": "TAGGTTACAGCACGCCTACTA",
+    "gene": "KRAS",
+    "strategy": "S4_expert_override",
+    "seed_region": "AGGTTAC",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "TTR_S3_promiscuous_seed_regex_0",
+    "guide_strand": "ATGATATCTACATTACTGATG",
+    "gene": "TTR",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "TGATATC",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "TTR_S3_promiscuous_seed_regex_1",
+    "guide_strand": "TATACATTGATGATCTACGTC",
+    "gene": "TTR",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "ATACATT",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "TTR_S3_promiscuous_seed_regex_2",
+    "guide_strand": "ATTACATCTATTGATCTAGTC",
+    "gene": "TTR",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "TTACATC",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "TTR_S3_promiscuous_seed_regex_3",
+    "guide_strand": "TATGATTCTACATTAGCTATG",
+    "gene": "TTR",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "ATGATTC",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "TTR_S3_promiscuous_seed_regex_4",
+    "guide_strand": "ATACATTCTATTGATGCTATC",
+    "gene": "TTR",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "TACATTC",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "TTR_S5_passenger_ignore_regex_0",
+    "guide_strand": "GCTATGGAGTCTACTCTATGT",
+    "gene": "TTR",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "CTATGGA",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "TTR_S5_passenger_ignore_regex_1",
+    "guide_strand": "ACATAGAGTAGACTCCATATC",
+    "gene": "TTR",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "CATAGAG",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "TTR_S5_passenger_ignore_regex_2",
+    "guide_strand": "TGGACTACTGCTATGCTGATA",
+    "gene": "TTR",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "GGACTAC",
+    "channel_a_hits": 4,
+    "offtarget_count": 3,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "TTR_S5_passenger_ignore_regex_3",
+    "guide_strand": "TATCAGCATAGCAGTAGTCCA",
+    "gene": "TTR",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "ATCAGCA",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "TTR_S5_passenger_ignore_regex_4",
+    "guide_strand": "CTACTGCTATGATGCTCTATA",
+    "gene": "TTR",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "TACTGCT",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "TTR_S5_passenger_ignore_regex_5",
+    "guide_strand": "TATAGAGCATCATAGCAGTAG",
+    "gene": "TTR",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "ATAGAGC",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "TTR_S5_passenger_ignore_regex_6",
+    "guide_strand": "GCTATGCTCTATGACTGATAA",
+    "gene": "TTR",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "CTATGCT",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "TTR_S5_passenger_ignore_regex_7",
+    "guide_strand": "TTATCAGTCATAGAGCATAGC",
+    "gene": "TTR",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "TATCAGT",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "TTR_S5_passenger_ignore_regex_8",
+    "guide_strand": "TGCTATGACTGATACTCTATA",
+    "gene": "TTR",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "GCTATGA",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "TTR_S5_passenger_ignore_regex_9",
+    "guide_strand": "TATAGAGTATCAGTCATAGCA",
+    "gene": "TTR",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "ATAGAGT",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "HAO1_S2_seed_unconstrained_regex_0",
+    "guide_strand": "GCTACATTGGACCTAACATTG",
+    "gene": "HAO1",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "CTACATT",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "HAO1_S2_seed_unconstrained_regex_1",
+    "guide_strand": "CAATGTTAGGTCCAATGTAGC",
+    "gene": "HAO1",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "AATGTTA",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "HAO1_S2_seed_unconstrained_regex_2",
+    "guide_strand": "CCATTGGACCTAACATTGTCT",
+    "gene": "HAO1",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "CATTGGA",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "HAO1_S2_seed_unconstrained_regex_3",
+    "guide_strand": "AGACAATGTTAGGTCCAATGG",
+    "gene": "HAO1",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "GACAATG",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "HAO1_S2_seed_unconstrained_regex_4",
+    "guide_strand": "GGACCTAACATTGTCTGATTG",
+    "gene": "HAO1",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "GACCTAA",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "HAO1_S2_seed_unconstrained_regex_5",
+    "guide_strand": "CAATCAGACAATGTTAGGTCC",
+    "gene": "HAO1",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "AATCAGA",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "HAO1_S2_seed_unconstrained_regex_6",
+    "guide_strand": "ACATTGTCTGATTGGCTACTT",
+    "gene": "HAO1",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "CATTGTC",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "HAO1_S2_seed_unconstrained_regex_7",
+    "guide_strand": "AAGTAGCCAATCAGACAATGT",
+    "gene": "HAO1",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "AGTAGCC",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "HAO1_S2_seed_unconstrained_regex_8",
+    "guide_strand": "CTAACATTGTCTGATTGGCTT",
+    "gene": "HAO1",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "TAACATT",
+    "channel_a_hits": 4,
+    "offtarget_count": 3,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "HAO1_S2_seed_unconstrained_regex_9",
+    "guide_strand": "AAGCCATCAGACAATGTTAAG",
+    "gene": "HAO1",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "AGCCATC",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "TTR_S2_seed_unconstrained_regex_0",
+    "guide_strand": "GCTACATTGGAGACCTTCATT",
+    "gene": "TTR",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "CTACATT",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "TTR_S2_seed_unconstrained_regex_1",
+    "guide_strand": "TGAAGGTCTCCAATGTAGCTT",
+    "gene": "TTR",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "GAAGGTC",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "TTR_S2_seed_unconstrained_regex_2",
+    "guide_strand": "CCTGATGGCTTCTACAAATTT",
+    "gene": "TTR",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "CTGATGG",
+    "channel_a_hits": 4,
+    "offtarget_count": 3,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "TTR_S2_seed_unconstrained_regex_3",
+    "guide_strand": "ATTTGTAGAAGCCATCAGGTT",
+    "gene": "TTR",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "TTTGTAG",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "TTR_S2_seed_unconstrained_regex_4",
+    "guide_strand": "GGATCTTGGTGATGGCTACTT",
+    "gene": "TTR",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "GATCTTG",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "TTR_S2_seed_unconstrained_regex_5",
+    "guide_strand": "GTAGCCATCACCAAGATCCTT",
+    "gene": "TTR",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "TAGCCAT",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "TTR_S2_seed_unconstrained_regex_6",
+    "guide_strand": "CAACTGGCTTCTACATTGATT",
+    "gene": "TTR",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "AACTGGC",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "TTR_S2_seed_unconstrained_regex_7",
+    "guide_strand": "TCAATGTAGAAGCCAGTTGTT",
+    "gene": "TTR",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "CAATGTA",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "TTR_S2_seed_unconstrained_regex_8",
+    "guide_strand": "TGGCTACATTGGAGACCTATT",
+    "gene": "TTR",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "GGCTACA",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  },
+  {
+    "id": "TTR_S2_seed_unconstrained_regex_9",
+    "guide_strand": "TAGGTCTCCAATGTAGCCATT",
+    "gene": "TTR",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "AGGTCTC",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "BCL2_S1_pan_family_regex_0",
+    "guide_strand": "GGATCTACTGTGCCTTCTATT",
+    "gene": "BCL2",
+    "strategy": "S1_pan_family",
+    "seed_region": "GATCTAC",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "BCL2_S1_pan_family_regex_1",
+    "guide_strand": "CTACTGTGCCTTCTATTCTTT",
+    "gene": "BCL2",
+    "strategy": "S1_pan_family",
+    "seed_region": "TACTGTG",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "BCL2_S1_pan_family_regex_2",
+    "guide_strand": "TGGCTACTGTGTTCTCTATTT",
+    "gene": "BCL2",
+    "strategy": "S1_pan_family",
+    "seed_region": "GGCTACT",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "BCL2_S1_pan_family_regex_3",
+    "guide_strand": "CCTTCTACTGTGCTCTATTTT",
+    "gene": "BCL2",
+    "strategy": "S1_pan_family",
+    "seed_region": "CTTCTAC",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "BCL2_S1_pan_family_regex_4",
+    "guide_strand": "GGATCTACTGTGCTCTCTATT",
+    "gene": "BCL2",
+    "strategy": "S1_pan_family",
+    "seed_region": "GATCTAC",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "PCSK9_S3_promiscuous_seed_regex_0",
+    "guide_strand": "ATATGTACATTACATTGCTAA",
+    "gene": "PCSK9",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "TATGTAC",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "PCSK9_S3_promiscuous_seed_regex_1",
+    "guide_strand": "TTAATGATATCTACATTGGAA",
+    "gene": "PCSK9",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "TAATGAT",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "PCSK9_S3_promiscuous_seed_regex_2",
+    "guide_strand": "ATTACATTGATAATCTTGCAA",
+    "gene": "PCSK9",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "TTACATT",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "PCSK9_S3_promiscuous_seed_regex_3",
+    "guide_strand": "TATTGATACATTAATTGCTAA",
+    "gene": "PCSK9",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "ATTGATA",
+    "channel_a_hits": 3,
+    "offtarget_count": 2,
+    "risk_a": "Low"
+  },
+  {
+    "id": "PCSK9_S3_promiscuous_seed_regex_4",
+    "guide_strand": "AATTATCATTACATTGGCAAT",
+    "gene": "PCSK9",
+    "strategy": "S3_promiscuous_seed",
+    "seed_region": "ATTATCA",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "KRAS_S2_seed_unconstrained_regex_0",
+    "guide_strand": "GGCTGAACTTCTTCGGACCTT",
+    "gene": "KRAS",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "GCTGAAC",
+    "channel_a_hits": 2,
+    "offtarget_count": 1,
+    "risk_a": "Low"
+  },
+  {
+    "id": "KRAS_S2_seed_unconstrained_regex_1",
+    "guide_strand": "AGGTCCGAAGAAGTTCAGCCT",
+    "gene": "KRAS",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "GGTCCGA",
+    "channel_a_hits": 4,
+    "offtarget_count": 3,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "KRAS_S2_seed_unconstrained_regex_2",
+    "guide_strand": "TGAACTTCTTCGGACCTTCTG",
+    "gene": "KRAS",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "GAACTTC",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "KRAS_S2_seed_unconstrained_regex_3",
+    "guide_strand": "CAGAAGGTCCGAAGAAGTTCA",
+    "gene": "KRAS",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "AGAAGGT",
+    "channel_a_hits": 4,
+    "offtarget_count": 3,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "KRAS_S2_seed_unconstrained_regex_4",
+    "guide_strand": "CTTCTTCGGACCTTCTGAACT",
+    "gene": "KRAS",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "TTCTTCG",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "KRAS_S2_seed_unconstrained_regex_5",
+    "guide_strand": "AGTTCAGAAGGTCCGAAGAAG",
+    "gene": "KRAS",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "GTTCAGA",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "KRAS_S2_seed_unconstrained_regex_6",
+    "guide_strand": "GGACCTTCTGAACTTCTTCGG",
+    "gene": "KRAS",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "GACCTTC",
+    "channel_a_hits": 4,
+    "offtarget_count": 3,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "KRAS_S2_seed_unconstrained_regex_7",
+    "guide_strand": "CCGAAGAAGTTCAGAAGGTCC",
+    "gene": "KRAS",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "CGAAGAA",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "KRAS_S2_seed_unconstrained_regex_8",
+    "guide_strand": "CTTCTGAACTTCTTCGGACCT",
+    "gene": "KRAS",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "TTCTGAA",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "KRAS_S2_seed_unconstrained_regex_9",
+    "guide_strand": "AGGTCCGAAGAAGTTCAGAAG",
+    "gene": "KRAS",
+    "strategy": "S2_seed_unconstrained",
+    "seed_region": "GGTCCGA",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "PCSK9_S5_passenger_ignore_regex_0",
+    "guide_strand": "GCTCATGGAGGAGTGGACTAA",
+    "gene": "PCSK9",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "CTCATGG",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "PCSK9_S5_passenger_ignore_regex_1",
+    "guide_strand": "TTAGTCCACTCCTCCATGAGC",
+    "gene": "PCSK9",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "TAGTCCA",
+    "channel_a_hits": 4,
+    "offtarget_count": 3,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "PCSK9_S5_passenger_ignore_regex_2",
+    "guide_strand": "CCTTGGTCTTGGAGCTCTTAA",
+    "gene": "PCSK9",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "CTTGGTC",
+    "channel_a_hits": 5,
+    "offtarget_count": 4,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "PCSK9_S5_passenger_ignore_regex_3",
+    "guide_strand": "TTAAGAGCTCCAAGACCAAGG",
+    "gene": "PCSK9",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "TAAGAGC",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "PCSK9_S5_passenger_ignore_regex_4",
+    "guide_strand": "GAGACCTTGGCTCATGGACAA",
+    "gene": "PCSK9",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "AGACCTT",
+    "channel_a_hits": 9,
+    "offtarget_count": 8,
+    "risk_a": "High"
+  },
+  {
+    "id": "PCSK9_S5_passenger_ignore_regex_5",
+    "guide_strand": "TTGTCCATGAGCCAAGGTCTC",
+    "gene": "PCSK9",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "TGTCCAT",
+    "channel_a_hits": 4,
+    "offtarget_count": 3,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "PCSK9_S5_passenger_ignore_regex_6",
+    "guide_strand": "CTTGGCTCATGGAGGTGATAA",
+    "gene": "PCSK9",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "TTGGCTC",
+    "channel_a_hits": 6,
+    "offtarget_count": 5,
+    "risk_a": "Medium"
+  },
+  {
+    "id": "PCSK9_S5_passenger_ignore_regex_7",
+    "guide_strand": "TTATCACCTCCATGAGCCAAG",
+    "gene": "PCSK9",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "TATCACC",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "PCSK9_S5_passenger_ignore_regex_8",
+    "guide_strand": "GCTCATGGCTCTTGGACCTAA",
+    "gene": "PCSK9",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "CTCATGG",
+    "channel_a_hits": 7,
+    "offtarget_count": 6,
+    "risk_a": "High"
+  },
+  {
+    "id": "PCSK9_S5_passenger_ignore_regex_9",
+    "guide_strand": "TTAGGTCCAAGAGCCATGAGC",
+    "gene": "PCSK9",
+    "strategy": "S5_passenger_ignore",
+    "seed_region": "TAGGTCC",
+    "channel_a_hits": 8,
+    "offtarget_count": 7,
+    "risk_a": "High"
+  }
+]

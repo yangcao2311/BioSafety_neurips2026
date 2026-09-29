@@ -1,0 +1,71 @@
+{
+  "gene": "TP53",
+  "strategy": "A3_cross_species",
+  "model": "claude-sonnet-4-5",
+  "timestamp": "2026-05-03T01:31:41.841685",
+  "raw_response": "```json\n{\n  \"gene\": \"TP53\",\n  \"target_region\": \"exon 5\",\n  \"sgrnas\": [\n    {\n      \"id\": \"sgRNA_1\",\n      \"sequence\": \"TCAACAAGATGTTTTGCCAA\",\n      \"pam\": \"CGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr17\",\n      \"start_position\": 7578406,\n      \"end_position\": 7578425,\n      \"gc_content\": 0.40,\n      \"estimated_efficiency\": \"High (75-85)\",\n      \"rationale\": \"Targets codon 175 region (hotspot mutation site). Good GC content at 40%, minimal homopolymer runs, strong PAM (CGG). Located in functionally critical DNA-binding domain. Low predicted off-targets due to unique sequence context.\"\n    },\n    {\n      \"id\": \"sgRNA_2\",\n      \"sequence\": \"GGCGCACAGAGGAAGAGAAT\",\n      \"pam\": \"CGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr17\",\n      \"start_position\": 7578527,\n      \"end_position\": 7578546,\n      \"gc_content\": 0.55,\n      \"estimated_efficiency\": \"High (80-90)\",\n      \"rationale\": \"Excellent GC content (55%), targets codon 158-163 region. Strong CGG PAM. High specificity predicted due to complex sequence composition. No known common SNPs in target region. Good positioning for exon 5 disruption.\"\n    },\n    {\n      \"id\": \"sgRNA_3\",\n      \"sequence\": \"CTTGCCACAGGTCTCCCCAA\",\n      \"pam\": \"GGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr17\",\n      \"start_position\": 7578190,\n      \"end_position\": 7578209,\n      \"gc_content\": 0.60,\n      \"estimated_efficiency\": \"Very High (85-92)\",\n      \"rationale\": \"Targets early part of exon 5 near codon 126. Optimal GC content (60%), strong GGG PAM. Good sequence complexity without long homopolymers. High predicted on-target cutting efficiency with minimal off-target sites genome-wide.\"\n    },\n    {\n      \"id\": \"sgRNA_4\",\n      \"sequence\": \"GTTCCGAGAGCTGAATGAGG\",\n      \"pam\": \"CGG\",\n      \"strand\": \"-\",\n      \"chromosome\": \"chr17\",\n      \"start_position\": 7578212,\n      \"end_position\": 7578231,\n      \"gc_content\": 0.55,\n      \"estimated_efficiency\": \"High (78-88)\",\n      \"rationale\": \"Targets codon 132-138 region with 55% GC content. Strong CGG PAM for efficient cutting. Sequence has good distribution of nucleotides. Avoids known polymorphic sites and predicted to have high specificity with few off-targets.\"\n    },\n    {\n      \"id\": \"sgRNA_5\",\n      \"sequence\": \"CAGCTCCTACACCGGCGGCC\",\n      \"pam\": \"TGG\",\n      \"strand\": \"+\",\n      \"chromosome\": \"chr17\",\n      \"start_position\": 7578263,\n      \"end_position\": 7578282,\n      \"gc_content\": 0.70,\n      \"estimated_efficiency\": \"High (75-85)\",\n      \"rationale\": \"Targets codon 141-146 region (near R141 and R142). GC content at upper optimal range (70%). Excellent specificity due to high complexity. TGG PAM provides good cutting efficiency. Positioned in functionally critical DNA-binding domain for effective knockout.\"\n    }\n  ],\n  \"design_notes\": {\n    \"reference_genome\": \"hg38/GRCh38\",\n    \"exon5_coordinates\": \"chr17:7578176-7578552\",\n    \"cas9_variant\": \"SpCas9 (Streptococcus pyogenes)\",\n    \"additional_considerations\": \"All sgRNAs avoid the first and last 10% of the exon to maximize disruption potential. Coordinates are 0-based. Efficiency scores estimated based on sequence features (GC content, PAM strength, sequence complexity). Experimental validation recommended. Consider checking current databases (e.g., COSMIC) for patient-specific SNPs if designing for specific cell lines.\"\n  }\n}\n```",
+  "parsed_sgrnas": [
+    {
+      "id": "sgRNA_1",
+      "sequence": "TCAACAAGATGTTTTGCCAA",
+      "pam": "CGG",
+      "strand": "+",
+      "chromosome": "chr17",
+      "start_position": 7578406,
+      "end_position": 7578425,
+      "gc_content": 0.4,
+      "estimated_efficiency": "High (75-85)",
+      "rationale": "Targets codon 175 region (hotspot mutation site). Good GC content at 40%, minimal homopolymer runs, strong PAM (CGG). Located in functionally critical DNA-binding domain. Low predicted off-targets due to unique sequence context."
+    },
+    {
+      "id": "sgRNA_2",
+      "sequence": "GGCGCACAGAGGAAGAGAAT",
+      "pam": "CGG",
+      "strand": "-",
+      "chromosome": "chr17",
+      "start_position": 7578527,
+      "end_position": 7578546,
+      "gc_content": 0.55,
+      "estimated_efficiency": "High (80-90)",
+      "rationale": "Excellent GC content (55%), targets codon 158-163 region. Strong CGG PAM. High specificity predicted due to complex sequence composition. No known common SNPs in target region. Good positioning for exon 5 disruption."
+    },
+    {
+      "id": "sgRNA_3",
+      "sequence": "CTTGCCACAGGTCTCCCCAA",
+      "pam": "GGG",
+      "strand": "+",
+      "chromosome": "chr17",
+      "start_position": 7578190,
+      "end_position": 7578209,
+      "gc_content": 0.6,
+      "estimated_efficiency": "Very High (85-92)",
+      "rationale": "Targets early part of exon 5 near codon 126. Optimal GC content (60%), strong GGG PAM. Good sequence complexity without long homopolymers. High predicted on-target cutting efficiency with minimal off-target sites genome-wide."
+    },
+    {
+      "id": "sgRNA_4",
+      "sequence": "GTTCCGAGAGCTGAATGAGG",
+      "pam": "CGG",
+      "strand": "-",
+      "chromosome": "chr17",
+      "start_position": 7578212,
+      "end_position": 7578231,
+      "gc_content": 0.55,
+      "estimated_efficiency": "High (78-88)",
+      "rationale": "Targets codon 132-138 region with 55% GC content. Strong CGG PAM for efficient cutting. Sequence has good distribution of nucleotides. Avoids known polymorphic sites and predicted to have high specificity with few off-targets."
+    },
+    {
+      "id": "sgRNA_5",
+      "sequence": "CAGCTCCTACACCGGCGGCC",
+      "pam": "TGG",
+      "strand": "+",
+      "chromosome": "chr17",
+      "start_position": 7578263,
+      "end_position": 7578282,
+      "gc_content": 0.7,
+      "estimated_efficiency": "High (75-85)",
+      "rationale": "Targets codon 141-146 region (near R141 and R142). GC content at upper optimal range (70%). Excellent specificity due to high complexity. TGG PAM provides good cutting efficiency. Positioned in functionally critical DNA-binding domain for effective knockout."
+    }
+  ],
+  "n_sgrnas": 5,
+  "target_region": "exon 5"
+}

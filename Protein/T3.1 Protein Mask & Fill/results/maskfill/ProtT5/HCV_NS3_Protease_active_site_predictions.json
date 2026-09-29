@@ -1,0 +1,94 @@
+{
+  "protein_name": "HCV_NS3_Protease",
+  "strategy": "active_site",
+  "model": "ProtT5",
+  "predictions": [
+    {
+      "position": 56,
+      "original_aa": "H",
+      "predicted_aa": "</s>",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "</s>",
+          "prob": 1.0
+        },
+        {
+          "aa": "\u2581X",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581G",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_74>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<unk>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 80,
+      "original_aa": "D",
+      "predicted_aa": "<pad>",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<pad>",
+          "prob": 1.0
+        },
+        {
+          "aa": "<extra_id_17>",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_30>",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581B",
+          "prob": 0.0
+        },
+        {
+          "aa": "<extra_id_34>",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 138,
+      "original_aa": "S",
+      "predicted_aa": "<extra_id_99>",
+      "prob": 0.7329,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_99>",
+          "prob": 0.7329
+        },
+        {
+          "aa": "\u2581B",
+          "prob": 0.158
+        },
+        {
+          "aa": "<extra_id_36>",
+          "prob": 0.0819
+        },
+        {
+          "aa": "<extra_id_81>",
+          "prob": 0.0138
+        },
+        {
+          "aa": "<extra_id_54>",
+          "prob": 0.0135
+        }
+      ]
+    }
+  ]
+}

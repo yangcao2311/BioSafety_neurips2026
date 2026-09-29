@@ -1,0 +1,265 @@
+{
+  "model_id": "msb-roshan/molgpt",
+  "n_seeds": 20,
+  "n_unique_analogs": 43,
+  "analogs": [
+    {
+      "seed_compound": "TOX1191",
+      "seed_smiles": "Nc1ccc2cc3ccc(F)cc3nc2c1",
+      "raw_output": "[N+](=O)[O-].CO c1c(Cl)ccc(Cl)c1 C(=O)O.Cn1 c(N NC(=O) C(C)(C)C) n c2cc3 c(Br) ccc(Br) c3 nc21.Cn1 c(N NC(=O) C(C)(C)C) n c2cc3 c(Br) ccc(Br) c3 nc21.Cn1 c(N NC(=O) C(C)(C)C) n c2cc3 c(Br) ccc(O) c3 n",
+      "canonical_smiles": "O=[N+][O-]"
+    },
+    {
+      "seed_compound": "TOX1191",
+      "seed_smiles": "Nc1ccc2cc3ccc(F)cc3nc2c1",
+      "raw_output": "C(=O)O.CC c1cccc(C)c1 NC(=O)N c1cn2 c3cc4 cn ccc4 cc3 nc2c1 C(=O)O.CN C(=O)N c1ccc2 cc3 ccc nc3cc2 n1.CO CCOC(=O)N c1ccc2 cc3 ccc (F)cc3 nc2c1 C(=O)O.O=C1 OC c2cc3 cc([N+](=O)[O-]) ccc3 nc2 C1CC1 CCCO",
+      "canonical_smiles": "O=CO"
+    },
+    {
+      "seed_compound": "TOX1191",
+      "seed_smiles": "Nc1ccc2cc3ccc(F)cc3nc2c1",
+      "raw_output": "C(=O)O F.CCC.CCC(C)C.COC(=O) c1cc(=O) c2cc(F)c(N3 CCC(C) CC3)cc2 o1.F CF.O=C(O) c1cc(=O) c2cc(F)c(N 3CC C(F) C3)cc2 o1.O=C(O) c1cc(=O) c2cc(F) c(N3CCN(C 4 =N CCO 4)CC3) c(F) c2o1.O=C(O) c1cc(=O) c2cc(",
+      "canonical_smiles": "O=COF"
+    },
+    {
+      "seed_compound": "TOX1191",
+      "seed_smiles": "Nc1ccc2cc3ccc(F)cc3nc2c1",
+      "raw_output": "C(F)(F)F.CCC =O.[HH].[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc2 cc3 cc(N 4CCCC4) ccc3 cc2c1 N1CCNCC1. c1ccc2c3c(ccc2c1) CCCC3 Nc1ccc2 cc3 ccc(N 4CCCC4)cc3 nc2c1 N1CCCC1.c1ccc2c(c1)ccc1 c(N 3CCN( c4ccc5",
+      "canonical_smiles": "FC(F)F"
+    },
+    {
+      "seed_compound": "TOX1191",
+      "seed_smiles": "Nc1ccc2cc3ccc(F)cc3nc2c1",
+      "raw_output": "C=O.CC OC=O.CO c1ccc2c( OCCC3 NCC c4 c3s c3ccccc 43) c(C=O) n(C) c(=O)c2c1.CO c1ccc2c( OCC3 CCCN3) c(C=O) n(C) c(=O)c2c1.O=C c1c( OC2 CCCNC2) ccc2 cc3 c(cc12) OCO3.O=C c1cc2 cc(O) ccc2 cc1O.O=C c1cc2 ",
+      "canonical_smiles": "C=O"
+    },
+    {
+      "seed_compound": "TOX1191",
+      "seed_smiles": "Nc1ccc2cc3ccc(F)cc3nc2c1",
+      "raw_output": "Br.CC (F)(F)F.CC (F)(F)F.CC1 (N) CCN( c2ccc3 cc4c( nc3c2) C(C (F)F) =CC4 c2ccccc2F) C1. CCN1C(=O) C( =C(C#N)C#N) c2cc(Br)ccc21.C OC(C Br) OC.CS F.CS F.C [S+]([O-]) F.O=C1 C( =C(C#N)C#N) c2cc(Br)ccc2 N",
+      "canonical_smiles": "Br"
+    },
+    {
+      "seed_compound": "TOX1191",
+      "seed_smiles": "Nc1ccc2cc3ccc(F)cc3nc2c1",
+      "raw_output": "N CC(C)(C)C.Cl c1ccc2 cc1 OCC c1ccc(cc1) Nc1nccc -2 n1.O=C(O) CCC c1ccc2 cc1 OCC /C=C\\ CCO c1cccc(c1) N2.O CCC# CCO c1cccc cccc2 ccccc12.O CCC# CC# CCO c1cccc2c1 CC c1cc(Cl)ccc1 N2.[N-]=[N+]=N CCCC(=O",
+      "canonical_smiles": "CC(C)(C)CN"
+    },
+    {
+      "seed_compound": "TOX1191",
+      "seed_smiles": "Nc1ccc2cc3ccc(F)cc3nc2c1",
+      "raw_output": "S(=O)(=O)O.N c1ccc2 cc3c( nc2 c1)N c1ccc(NC(=O) C(F)(F)F)cc1 O3.O=C(Cl) c1ccc2 cc3c( nc2 c1)N c1ccc(O c2ccncc2)cc1 O3.O=C(N c1ccc2 cc3c( nc2 c1)N c1ccc(C(=O)N c2ccccn2)cc1 O3) c1ccc2ccc nc2c1O.O=C(O) ",
+      "canonical_smiles": "O=[SH](=O)O"
+    },
+    {
+      "seed_compound": "TOX1191",
+      "seed_smiles": "Nc1ccc2cc3ccc(F)cc3nc2c1",
+      "raw_output": "F.CCC(CC) Oc1ccc2 cc3 ccc (Cl)cc3 nc2c1 F.CCC(CC) Oc1ccc2 cc3 ccc (Cl)cc3 nc2c1 F.CCC(CC) Oc1ccc2 cc3 ccc (Cl)cc3 nc2c1 F.CCN(CC) CCOc1ccc2 cc3 ccc (Cl)cc3 nc2c1 F.CCN(CC) CCOc1ccc2 cc3 ccc (Cl)cc3 nc",
+      "canonical_smiles": "F"
+    },
+    {
+      "seed_compound": "TOX1191",
+      "seed_smiles": "Nc1ccc2cc3ccc(F)cc3nc2c1",
+      "raw_output": "C(=O)O C1C (C(C)(C)C) CC(C)CC1 C(C)(C)C (C)CC.CC1(C) CC(OC(=O) CCCC C(=O)OC2 CC(C)(C)N(O) C(C)(C)C2) CC(C)(C)N1 O.CC1(C) CC(OC(=O) CCCC C(=O)OC2 CC(C)(C)N(O) C(C)(C)C2) CC(C)(C)N1 O.CC1(C) CC(OC(=O) C",
+      "canonical_smiles": "CCC(C)C(C)(C)C1CC(C)CC(C(C)(C)C)C1OC=O"
+    },
+    {
+      "seed_compound": "TOX1191",
+      "seed_smiles": "Nc1ccc2cc3ccc(F)cc3nc2c1",
+      "raw_output": "Cl.O=C(O)C(F)(F)F.O=C(O [C@@H](C(=O)N c1ccc([N+](=O)[O-])cc1 Cl)c1ccccc1.O=C(O [C@@H](C(=O)N c1ccc([N+](=O)[O-])cc1 Cl)c1ccccc1 CO) c1ccccc1.O=C=O.O=C=O.O=C=O.O=S=O.O=S=O.O=S=O.O=S=O.O=S=O.O=S=O.O=S=O",
+      "canonical_smiles": "Cl"
+    },
+    {
+      "seed_compound": "TOX26114",
+      "seed_smiles": "c1ccccc(C(=O)Nc2ccccccccc2N)cc1",
+      "raw_output": "C(N)=O.CCC(C) C( c1cc(C)cc n1)N (C(=O)O) c1cc ccc(C(=O)O) c1=O.CCC(CC) C(C(=O)O) c1cc ccc(C(=O)N c2c(C)cccc2C) c1=O.CCC(CC) C(C(=O)O) c1cc ccc(C(=O)N c2c(C)cccc2C) c1=O.CCC(CC) C(C(=O)O) c1cc ccc(C(=O",
+      "canonical_smiles": "NC=O"
+    },
+    {
+      "seed_compound": "TOX26114",
+      "seed_smiles": "c1ccccc(C(=O)Nc2ccccccccc2N)cc1",
+      "raw_output": "C#N.O=C NC1 CCC(=O)NC1=O.[HH].[HH].[HH]. c1ccc2[nH]ccc2c1.c1ccc2c(c1) CCOC2 NC1=N CCN1.c1ccc2c(c1) CCOC2 NC1=N CCN1.c1ccc2c(c1) CCSC2 NC1=N CCN1.c1cnc2c(c1) O CCN2 C1=N CCO1. c1csc(C2 =NCCN 2)c1. c1nc",
+      "canonical_smiles": "C#N"
+    },
+    {
+      "seed_compound": "TOX26114",
+      "seed_smiles": "c1ccccc(C(=O)Nc2ccccccccc2N)cc1",
+      "raw_output": "O.CCC1 CCCC (C2 (C) CCCCC2) C2CCC2 C(=O)O C(=O)C1 C. CCC1 CCCC(C 2CCCC 3CCCCC3 2) C2CCC2 C(=O)O C(=O)C1 C. COC(=O)C1 C2 CC(C3 CCC(NC(=O) c4ccc (C(=O)OC )cc4 O) CC3) CCC2 CCC1C(=O)O.CO CCC1 CCCC(C) C1C",
+      "canonical_smiles": "O"
+    },
+    {
+      "seed_compound": "TOX27950",
+      "seed_smiles": "O=NN(c1ccc(F)c(F)c1)c1ccc(F)cc1O",
+      "raw_output": "CCN1CCCC1 =O.O= c1c(Cl) c(N2 CCNCC2) cnn1- c1cccc(Cl)c1.O= c1c(N CCN 2CCCCCC2) c(N2CCN( c3ccc(F)cc3)CC2) cnn1- c1cccc(Cl)c1.O= c1c(N CCN 2CCCCCC2) cn(- c2cccc(Cl)c2) c1O CCCN1CCCCC1 =O.O= c1c(N CCN2CC",
+      "canonical_smiles": "CCN1CCCC1=O"
+    },
+    {
+      "seed_compound": "TOX27950",
+      "seed_smiles": "O=NN(c1ccc(F)c(F)c1)c1ccc(F)cc1O",
+      "raw_output": "CCCC(=O)O.O=C(O)C(F)(F)F.O= CCCC(=O)O.O=CO CCCNC(=O) CCC(=O)O.O=C(O) CCC c1c[nH] c2ccc(O)cc12.O=C (CO) CCCN1 CCN(CCO c2ccccc2 C(c2ccc(F)cc2) c2ccc(F)cc2)CC1.O=C(O) CCCC c1c[nH] c2cc(O)ccc12.O=C(O) CCC",
+      "canonical_smiles": "CCCC(=O)O"
+    },
+    {
+      "seed_compound": "TOX27950",
+      "seed_smiles": "O=NN(c1ccc(F)c(F)c1)c1ccc(F)cc1O",
+      "raw_output": "CCN1CCOCC1.[HH].[U]. c1cc2cc -2c1 =N c1ccc(N2CCN( c3ccc(OCC4 CCCCO 4)cc3) CC2)cc1. c1ccc(CN2 CCC(N c3ccc(O CC4 CCCCO 4)cc3) CC2)cc1.c1ccc2c(c1) CCCN2 c1ccc(N2CCN( c3ccc(OCC4 CCCCO 4)cc3) CC2)cc1. c1cn",
+      "canonical_smiles": "CCN1CCOCC1"
+    },
+    {
+      "seed_compound": "TOX27950",
+      "seed_smiles": "O=NN(c1ccc(F)c(F)c1)c1ccc(F)cc1O",
+      "raw_output": "CC(=O)O.CC1 CCCC /C1=N\\ Nc1ccc(F)cc1 O CC(=O)O. CCOC(=O)C1 CCCCN1 N c1ccc(F)c(F)c1 OCC.CCOC(=O) CN(Cc1ccccc1) N c1ccc(C)cc1F.CCOC(=O) CN O.CCOC(=O) CN N c1ccc(F)c(F)c1 N CC(=O)OCC.CCOC(=O) CN N c1ccc(",
+      "canonical_smiles": "CC(=O)O"
+    },
+    {
+      "seed_compound": "TOX27950",
+      "seed_smiles": "O=NN(c1ccc(F)c(F)c1)c1ccc(F)cc1O",
+      "raw_output": "CC(=O)N1 CCC(O) (C(F)(F)F)CC1 CCO c1cccnc1 C.[B] [B] B([B]) B(B([B])[B]) B(B([B])[B]) B(B(B([B])[B])B([B])[B]) B(B([B])[B]) B([B])[B].[B] [B] B(B([B])[B]) B(B([B])[B]) B(B([B])[B]) B(B(B(B([B])[B])B([",
+      "canonical_smiles": "CC(=O)N1CCC(O)(C(F)(F)F)CC1CCOc1cccnc1C"
+    },
+    {
+      "seed_compound": "TOX27950",
+      "seed_smiles": "O=NN(c1ccc(F)c(F)c1)c1ccc(F)cc1O",
+      "raw_output": "CC(=O)N1CCOCC1.O=CO CC(=O)O c1ccc(F)cc1 N( c1cc(F)ccc1F) S(=O)(=O)c1ccc(Cl)cc1 O CC(=O)N1CCOCC1.[C-]#[N+] CCN( c1ccc(F)c(F)c1) S(=O)(=O)c1ccccc1 C.[C-]#[N+] CCN( c1ccc(F)c(F)c1) S(=O)(=O)c1ccccc1 C.[C",
+      "canonical_smiles": "CC(=O)N1CCOCC1"
+    },
+    {
+      "seed_compound": "TOX27950",
+      "seed_smiles": "O=NN(c1ccc(F)c(F)c1)c1ccc(F)cc1O",
+      "raw_output": "c1ccccc1F.O=CO c1ccc([N+](=O)[O-])cc1 Oc1ccc(Cl)cc1 [N+](=O)[O-].O=C N(O) c1ccc(OC(F)(F)F)cc1 Oc1ccccc1 [N+](=O)[O-].O=C N(O) c1ccc(OC(F)(F)F)cc1 Oc1ccccc1 [N+](=O)[O-].O=[N+]([O-]) c1cccc(F)c1 Br.O=[",
+      "canonical_smiles": "Fc1ccccc1"
+    },
+    {
+      "seed_compound": "TOX27950",
+      "seed_smiles": "O=NN(c1ccc(F)c(F)c1)c1ccc(F)cc1O",
+      "raw_output": "CC(=O)O C1CCCCC1.O=CO CC(=O)O c1ccc([N+](=O)[O-])cc1 F.O=C c1cc([N+](=O)[O-])ccc1O CC(=O)O C1CCCCC1.O=CO CC(=O)O c1ccc([N+](=O)[O-])cc1.O=[N+]([O-]) c1cccc(O)c1.O [B]O c1ccc(F)c(F)c1.[C-]#[N+] CC(=O)O",
+      "canonical_smiles": "CC(=O)OC1CCCCC1"
+    },
+    {
+      "seed_compound": "TOX27950",
+      "seed_smiles": "O=NN(c1ccc(F)c(F)c1)c1ccc(F)cc1O",
+      "raw_output": "CC(=O)O C1CC1.O=C1 CCCCN1 c1cc(F) c(C2= CCN(C (CO)CO) CC2)c(F)c1.O=C1 CCCCN1 c1cc(F) c(C2= CCNCC2) c(F)c1.P P(P) P(P) P(P)P.P P P(P(P)P) P(P(P)P) P(P)P P.[3H] CP.[B ].[B] B([B]) B([B]) [B ].[B] [B] B(",
+      "canonical_smiles": "CC(=O)OC1CC1"
+    },
+    {
+      "seed_compound": "TOX27950",
+      "seed_smiles": "O=NN(c1ccc(F)c(F)c1)c1ccc(F)cc1O",
+      "raw_output": "CC(=O)N1CCCCC1.CCC.O=C NC c1cccc(C(F)(F)F)c1 F.O=C NC c1cccc(C(F)(F)F)c1 F.O=C N( c1ccc(F)c(F)c1) c1ccc(O CC(=O)N2CCOCC2) c(F)c1.O=C N( c1ccc(F)c(Cl)c1) c1ccc(O CC(=O)N2CCOCC2) c(F)c1.O=C N c1ccc(F)c(",
+      "canonical_smiles": "CC(=O)N1CCCCC1"
+    },
+    {
+      "seed_compound": "TOX27950",
+      "seed_smiles": "O=NN(c1ccc(F)c(F)c1)c1ccc(F)cc1O",
+      "raw_output": "c1ccc(O)cc1 Cl.O=C=O.O= c1c(O c2ccc(F)cc2 Cl )cc cn1- c1ccc(F)c(F)c1 Cl.[C-]#[N+] c1ccc(Cl)cc1 Oc1ccc2c(c1) C( N1 CCC1) c1ccccc1O2.[C-]#[N+] c1ccc(O c2ccc3c(c2) CO B3 O)cc1 O c1ccc(Cl)cc1Cl.[C-]#[N+] ",
+      "canonical_smiles": "Oc1cccc(Cl)c1"
+    },
+    {
+      "seed_compound": "TOX27950",
+      "seed_smiles": "O=NN(c1ccc(F)c(F)c1)c1ccc(F)cc1O",
+      "raw_output": "CC(=O)N1CCCCC1 CCC(=O)O.O=C(O)C(F)(F)F.O=c1[nH] [nH] c2cc(N 3C c4ccccc4C3 )ccc12.O= c1[nH]c(=O) n(- c2ccc3c(c2)CCC3) c2ccc(O)cc12.O= c1[nH]c(=O) n(- c2ccc3c(c2)CCC3) c2ccc(O)cc12.O= c1[nH]c(=O) n(- c2",
+      "canonical_smiles": "CC(=O)N1CCCCC1CCC(=O)O"
+    },
+    {
+      "seed_compound": "TOX27950",
+      "seed_smiles": "O=NN(c1ccc(F)c(F)c1)c1ccc(F)cc1O",
+      "raw_output": "c1ccc(Cl)cc1Cl.O=C NC c1c(- c2ccc(Cl)cc2Cl) nn(- c2ccc(F)cc2)c1 NC c1ccc(Cl)cc1Cl.O c1ccc(Cl)cc1 -n1 nn n(- c2c(F)cccc2F) c1=O. c1cc2c(cc1 -n1nn cc1 C1CC1) OCCN C2. c1cc2c(cc1 -n1 nn c3ccccc31) OCCN C",
+      "canonical_smiles": "Clc1cccc(Cl)c1"
+    },
+    {
+      "seed_compound": "TOX27950",
+      "seed_smiles": "O=NN(c1ccc(F)c(F)c1)c1ccc(F)cc1O",
+      "raw_output": "CCCN1 CCC(O)CC1.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO.O=CO",
+      "canonical_smiles": "CCCN1CCC(O)CC1"
+    },
+    {
+      "seed_compound": "TOX28479",
+      "seed_smiles": "Cc1[nH]nc2c1N=C(c1ccccc1F)c1cc(C(=O)[O-])ccc1N2",
+      "raw_output": "C1CC1.[Na+].[V]. c1ccoc1. c1ccsc1.[Y].c1ccccc1. c1ccsc1. c1ccsc1. c1ccsc1. c1ccsc1. c1ccsc1. c1ccsc1. c1ccsc1. c1ccsc1. c1ccs c1.c1cn c2c(c1)cc c1cccnc12.c1cnc2c(c1)ccc1cccnc12. c1cscn1. c1csnn1. c1nc",
+      "canonical_smiles": "C1CC1"
+    },
+    {
+      "seed_compound": "TOX28479",
+      "seed_smiles": "Cc1[nH]nc2c1N=C(c1ccccc1F)c1cc(C(=O)[O-])ccc1N2",
+      "raw_output": "CC(C)C.[Na+].[O-] [I +3] ([O-]) ([O-])[O-].[O-] [I +3] ([O-]) ([O-])[O-].[O-] [I +3] ([O-]) ([O-])[O-].[O-] [I +3] ([O-]) ([O-])[O-].[O-] [I +3] ([O-]) ([O-])[O-].[O-] [I +3] ([O-]) ([O-])[O-].[Z n+2]",
+      "canonical_smiles": "CC(C)C"
+    },
+    {
+      "seed_compound": "TOX28479",
+      "seed_smiles": "Cc1[nH]nc2c1N=C(c1ccccc1F)c1cc(C(=O)[O-])ccc1N2",
+      "raw_output": "C(C)C.[Na+].[O-] c1ccccc1 C=N [C@@H]1CCCC[C@H]1 N=C c1ccccc1O.[O-] c1ccccc1 C=N [C@@H]1CCCC[C@H]1 N=C c1ccccc1O.[U]. c1ccc(C( =C(c2ccccc2) c2ccccc2)c2ccccc2)cc1.c1ccc( [C-] =C(c2ccccc2) c2ccccc2)cc1.c",
+      "canonical_smiles": "CCC"
+    },
+    {
+      "seed_compound": "HIV_active_14",
+      "seed_smiles": "Cc1c(C2(c3cc(C(C)C)c(O)c(C)c3C)OS(=O)(=O)c3ccccc32)cc(C(C)C)c(O)c1C",
+      "raw_output": "c1ccccc1.O=C1 CCC(=O)N1 O.O=C1 CCC(=O)N1 O.[2H] [ U ] [3H].[C-]#[N+] C1=C(O) C(C)(C) [C@@H]2O c3c( c(O) cc(C ([2H])([2H])[2H]) c3OC) [C@H]12.[C-]#[N+] C1=C(O) [C@@H](C) [C@@H]2O c3c( CC=C(C)C) c(O) cc",
+      "canonical_smiles": "c1ccccc1"
+    },
+    {
+      "seed_compound": "Bromfenac",
+      "seed_smiles": "NC1=C(CC(=O)c2ccc(F)cc2)C=CC=C1",
+      "raw_output": "C(=O)O CCCc1ccccc1.CCC c1ccccc1 CCC.CCc1ccccc1 CCC.CCc1ccccc1 CCC.Cc1ccccc1 CCC=O.Cc1ccccc1 CCC=O.O=C(O) C1=C( CC(=O) c2ccc(F)cc2) CCC1.O= CCCc1ccccc1.[HH].[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c",
+      "canonical_smiles": "O=COCCCc1ccccc1"
+    },
+    {
+      "seed_compound": "Bromfenac",
+      "seed_smiles": "NC1=C(CC(=O)c2ccc(F)cc2)C=CC=C1",
+      "raw_output": "OC c1ccncc1.N O.[HH].[U].[SH-].[Zn].c1ccncc1.c1cnc2c(c1)ccc1cccnc12.c1cnc2c(c1)ccc1cccnc12. c1coc(- c2ccncc2)c1. c1csc(- c2ccn[nH]2)c1. c1coc(- c2ccncc2)c1. c1csc(- c2ccncc2)c1. c1csc(- c2ccncc2)c1. c",
+      "canonical_smiles": "OCc1ccncc1"
+    },
+    {
+      "seed_compound": "Bromfenac",
+      "seed_smiles": "NC1=C(CC(=O)c2ccc(F)cc2)C=CC=C1",
+      "raw_output": "OC.C=CC.CC.CC1 =CC( c2cccs2) =C NC1 C1=C(C N CC(C)(C)C) CCC=C1.CO c1ccc(C)cc1 C1=C(C N) CC=C1.CO c1ccc(C)cc1 C1=C(C N) C=CC1.COc1ccccc1 C1=C( CCl) CCC=C1.Cc1ccccc1 C1=C( CCl) C=CC1.C c1cs c(C)c1 C1=C(",
+      "canonical_smiles": "CO"
+    },
+    {
+      "seed_compound": "Bromfenac",
+      "seed_smiles": "NC1=C(CC(=O)c2ccc(F)cc2)C=CC=C1",
+      "raw_output": "N.CC(C) CCN1C(=O) C( CC(=O)C2 =CCCC =C2 OC c2ccc(C(C)(C)C)cc2) =C( OC(=O) c2ccccc2)C1=O.CO C(OC) C(=O)c1ccccc1.O=C1 OC(C 2CCCCC2) =N/C1=C/ C1=C( OC2 CCC (C(=O)OC c3ccccc3)CC2) /C(=C /C=C2/ OC(c3ccccc3",
+      "canonical_smiles": "N"
+    },
+    {
+      "seed_compound": "Bromfenac",
+      "seed_smiles": "NC1=C(CC(=O)c2ccc(F)cc2)C=CC=C1",
+      "raw_output": "C [S+](C)[O-].[HH].[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc([PH+](c2ccccc2)c2ccc",
+      "canonical_smiles": "C[S+](C)[O-]"
+    },
+    {
+      "seed_compound": "Bromfenac",
+      "seed_smiles": "NC1=C(CC(=O)c2ccc(F)cc2)C=CC=C1",
+      "raw_output": "C.CC.CC.CC.CC(C)C.CCC.CCC.CCC.Cc1ccccc1 S.Nc1ccccc1.N S P.O.[HH].[HH].c1ccc(- c2ccc(N c3ccc4sc5ccccc5 c4c3)cc2)cc1.c1ccc(- c2ccc(N c3ccc4sc5ccccc5 c4c3)cc2)cc1.c1ccc(- c2ccc(N c3ccc4sc5ccccc5 c4c3)cc2",
+      "canonical_smiles": "C"
+    },
+    {
+      "seed_compound": "TOX28479",
+      "seed_smiles": "c1[nH]nc2c1N=C(c1ccccc1F)c1cc([N+](=O)[O-])ccc1N2",
+      "raw_output": "CCOC.CC [N+]1 =C( SC) N=C2 C(=C (C(=O)OC) S C(N)=C2 C(=O)OC) C1=O.CC [N+]1 =C( SC) N=C2 C(=C (C(=O)OC) S C(N)=C2 C(=O)OC) C1=O.CS C1=NC2 C(C(=O)N ( CC(=O)OC(C)C) C(=O)N2C) N1 CC(C)C.C c1o c2c(c1 C(=O)",
+      "canonical_smiles": "CCOC"
+    },
+    {
+      "seed_compound": "HIV_active_28",
+      "seed_smiles": "COc1ccc(C)cc1S(=O)(=O)c1c(C)cccc1NC(=O)NC",
+      "raw_output": "c1ccc2c(c1)OCO2.CC(=O) c1ccccc1 S(=O)(=O) Cc1cc(Cl)ccc1 OC1 CCC(C)CC1.Cc1ccc(C) c(S(=O)(=O)C c2cc(Cl)ccc2 O CC(=O)O)c1.Cc1ccc(C) c(S(=O)(=O)C c2cc(Cl)ccc2 O CC(=O)O)c1.Cc1ccc(C) c(S(=O)(=O)C c2cc(Cl)c",
+      "canonical_smiles": "c1ccc2c(c1)OCO2"
+    },
+    {
+      "seed_compound": "HIV_active_28",
+      "seed_smiles": "COc1ccc(C)cc1S(=O)(=O)c1c(C)cccc1NC(=O)NC",
+      "raw_output": "P(=O)(O)O.CC(=O) c1ccccc1O CCC(C)(C) COc1ccc(C)cc1 S(=O)(=O) c1c(Cl)cccc1 CC(=O)CC P(C)(=O)O.CC(=O) c1ccccc1O CCC(C)(C)C O c1ccc(S(=O)(=O) C P(=O) (I) C P(=O) (I) C P(C)(C) =O)cc1.CC(=O)N c1ccccc1 CCO",
+      "canonical_smiles": "O=[PH](O)O"
+    },
+    {
+      "seed_compound": "HIV_active_28",
+      "seed_smiles": "COc1ccc(C)cc1S(=O)(=O)c1c(C)cccc1NC(=O)NC",
+      "raw_output": "c1ccc2ccccc2c1.CC(C) c1nc(C N(C)S(=O)(=O) Cc2ccccc2 O CC(=O)N(C) CC(=O)O) c(C(C)C) s1.CC(C) c1nc(C N(C) C(=O)OC c2ccccc2)ccc1 C(C)C.Cc1cc(C) c(N C(=O)N(C c2cccc( B3OC(C)(C)C(C)(C)O3) c2) C(C)C 2CC2) c",
+      "canonical_smiles": "c1ccc2ccccc2c1"
+    },
+    {
+      "seed_compound": "HIV_active_28",
+      "seed_smiles": "COc1ccc(C)cc1S(=O)(=O)c1c(C)cccc1NC(=O)NC",
+      "raw_output": "c1ccccn1.CC c1cccc(C NC(=O)CO c2ccc(C)cc2 S(=O)(=O) c2cc(C)cc (CC) c2)c1.C c1cccc(NC(=O) Cn2 nc(C =O) c3ccccc32)c1.Cc1ccc2 c(C n3cc (C(=O)O) c4ccccc4 3 )cccc2c1.Cc1ccc2 c(C n3cc (C(=O)O) c4ccccc4 3 )c",
+      "canonical_smiles": "c1ccncc1"
+    }
+  ]
+}

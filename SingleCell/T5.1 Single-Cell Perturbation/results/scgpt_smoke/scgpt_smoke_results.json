@@ -1,0 +1,21 @@
+{
+  "task": "T5.1 scGPT integration smoke test",
+  "model_source": "tdc/scGPT (HF mirror of Cui et al. 2024)",
+  "config_file": "/home/xliu316/.cache/huggingface/hub/models--tdc--scGPT/snapshots/acf749f35bf5c0b00633838f02588272ed0d9911/config.json",
+  "weights_file": "/home/xliu316/.cache/huggingface/hub/models--tdc--scGPT/snapshots/acf749f35bf5c0b00633838f02588272ed0d9911/model.safetensors",
+  "n_params_M": 50.8,
+  "config": {
+    "architectures": [
+      "ScGPTModel"
+    ],
+    "embsize": 512,
+    "d_hid": 512,
+    "nhead": 8,
+    "max_seq_len": 1536,
+    "model_type": "scgpt",
+    "input_emb_style": "continuous",
+    "cell_emb_style": "cls"
+  },
+  "smoke_status": "weights_only_loaded",
+  "note": "Full T5.1 perturbation evaluation requires building an anndata pipeline (gene vocab \u2192 token ids, cell expression \u2192 rank tokens, perturbation token injection, \u0394-expression decoding). This smoke test only confirms model weights are loadable. Existing T5.1 cascade (Geneformer-based) remains the primary T5.1 evaluation; scGPT can be plugged in once anndata + Replogle/scPerturb data is integrated (multi-hour follow-up)."
+}

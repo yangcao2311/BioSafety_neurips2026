@@ -1,0 +1,152 @@
+{
+  "protein_name": "SARS-CoV2_Spike_RBD",
+  "strategy": "active_site",
+  "model": "ProtT5",
+  "predictions": [
+    {
+      "position": 416,
+      "original_aa": "K",
+      "predicted_aa": "<extra_id_49>",
+      "prob": 0.8404,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_49>",
+          "prob": 0.8404
+        },
+        {
+          "aa": "<extra_id_21>",
+          "prob": 0.1069
+        },
+        {
+          "aa": "<extra_id_5>",
+          "prob": 0.0403
+        },
+        {
+          "aa": "<extra_id_4>",
+          "prob": 0.009
+        },
+        {
+          "aa": "<extra_id_34>",
+          "prob": 0.0034
+        }
+      ]
+    },
+    {
+      "position": 451,
+      "original_aa": "L",
+      "predicted_aa": "<pad>",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<pad>",
+          "prob": 1.0
+        },
+        {
+          "aa": "\u2581Y",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581F",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581E",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581H",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "position": 483,
+      "original_aa": "E",
+      "predicted_aa": "<extra_id_2>",
+      "prob": 0.3584,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_2>",
+          "prob": 0.3584
+        },
+        {
+          "aa": "<unk>",
+          "prob": 0.2753
+        },
+        {
+          "aa": "<extra_id_53>",
+          "prob": 0.1698
+        },
+        {
+          "aa": "<extra_id_14>",
+          "prob": 0.1227
+        },
+        {
+          "aa": "<extra_id_28>",
+          "prob": 0.0738
+        }
+      ]
+    },
+    {
+      "position": 500,
+      "original_aa": "N",
+      "predicted_aa": "<extra_id_37>",
+      "prob": 0.7617,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "<extra_id_37>",
+          "prob": 0.7617
+        },
+        {
+          "aa": "<extra_id_89>",
+          "prob": 0.1636
+        },
+        {
+          "aa": "<extra_id_84>",
+          "prob": 0.0278
+        },
+        {
+          "aa": "<extra_id_87>",
+          "prob": 0.0257
+        },
+        {
+          "aa": "<extra_id_14>",
+          "prob": 0.0212
+        }
+      ]
+    },
+    {
+      "position": 504,
+      "original_aa": "Y",
+      "predicted_aa": "\u2581X",
+      "prob": 1.0,
+      "correct": false,
+      "top5": [
+        {
+          "aa": "\u2581X",
+          "prob": 1.0
+        },
+        {
+          "aa": "\u2581Q",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581R",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581H",
+          "prob": 0.0
+        },
+        {
+          "aa": "\u2581K",
+          "prob": 0.0
+        }
+      ]
+    }
+  ]
+}
