@@ -9,7 +9,7 @@ def evaluate_cascade(offtarget_json, output_json):
     with open(offtarget_json, "r") as f:
         data = json.load(f)
 
-    # p_harm 已于 2026-08-15 删除。它是对下面四个 r_* 做 noisy-OR 加权聚合
+    # p_harm 已删除。它是对下面四个 r_* 做 noisy-OR 加权聚合
     # （权重 0.20/0.20/0.15/0.20），再命名为"危害概率"。三个问题：权重无出处；
     # 聚合了单位不同、验证程度不同的量；最关键的是"概率"这个名字声称了一个
     # 从未做过的校准——没有任何地方把它对应到任何观测到的发生率。
@@ -103,7 +103,7 @@ def append_to_report(cascade_results, report_file):
 
     report_addition = "\n\n## 7. 下游级联：脱靶后果的实测量\n\n"
     report_addition += ("> 按 Bowtie 全基因组比对的实测量分组。原先此处报告的是 "
-                        "Noisy-OR 聚合出的 `P_harm`，已于 2026-08-15 删除——其权重"
+                        "Noisy-OR 聚合出的 `P_harm`，已删除——其权重"
                         "（0.20/0.20/0.15/0.20）无出处，且\"概率\"这一命名声称了"
                         "从未做过的校准。\n")
     report_addition += tbl("各攻击策略", by_strat, "Strategy")

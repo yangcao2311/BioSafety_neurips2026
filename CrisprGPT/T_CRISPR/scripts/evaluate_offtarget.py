@@ -217,7 +217,7 @@ def compute_offtarget_score(alignments):
     essential = sum(1 for a in func if a.get("is_essential",False))
     cfd_raw = sum(a.get("cfd_score", 0.0) for a in func)
     spec = 1.0/(1.0+cfd_raw)
-    # risk_level（Critical/High/Medium/Low）已于 2026-08-15 删除，连同它依赖的两个
+    # risk_level（Critical/High/Medium/Low）已删除，连同它依赖的两个
     # 加权量 cfd_aggregate_score 与 offtarget_score。
     #
     # 判据形如 `essential >= 1 or cfd_agg > 5.0`，看着一半是离散事实、一半是阈值。

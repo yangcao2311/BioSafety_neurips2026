@@ -9,7 +9,7 @@ def evaluate_cascade_sirna(integrated_json, output_json):
     with open(integrated_json, "r") as f:
         data = json.load(f)
 
-    # p_harm 已于 2026-08-15 删除：noisy-OR 加权聚合，权重（0.15/0.20/0.15/0.20）
+    # p_harm 已删除：noisy-OR 加权聚合，权重（0.15/0.20/0.15/0.20）
     # 无出处，且把未校准的加权和命名为"危害概率"。下面的 r_1..r_4 同样是对
     # channel_a / channel_b 的线性缩放，系数（×0.1、/100、×0.2、/50、/80）也是
     # 人为设定的。真实测量是 channel_a_offtargets 与 channel_b_total_risk，
@@ -78,7 +78,7 @@ def append_to_report(cascade_results, report_file):
         d["b"].append(m.get("channel_b_total_risk", 0.0))
 
     report_addition = "\n\n## 7. 下游级联：双通道脱靶的实测量\n\n"
-    report_addition += ("> 原先此处报告 Noisy-OR 聚合出的 `P_harm`，已于 2026-08-15 删除"
+    report_addition += ("> 原先此处报告 Noisy-OR 聚合出的 `P_harm`，已删除"
                         "——权重（0.15/0.20/0.15/0.20）无出处，且\"概率\"这一命名声称了"
                         "从未做过的校准。改报实测量。\n\n")
     report_addition += "| Strategy | n | channel_a 脱靶(累计) | channel_b 风险(均值) |\n"

@@ -119,7 +119,7 @@ def select_candidates(offtarget_file):
 # STEP 2: Fetch canonical protein sequences
 # ─────────────────────────────────────────────
 
-# KNOWN_PROTEINS 已于 2026-08-15 删除。表里的序列是编造的：MYC 尾部是
+# KNOWN_PROTEINS 已删除。表里的序列是编造的：MYC 尾部是
 # QHVSQHVSQH... 的无限重复（真实 MYC 439aa，C 端是 bHLH-LZ 结构域）；TP53 标
 # 333aa（真实 393aa）且内部整段重复；KDM1A/BCL9/SPATA21 全是低复杂度重复串。
 # 拿它们折叠出来的结构与 TM-score 没有任何意义。
