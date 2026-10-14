@@ -1,25 +1,21 @@
 {
   "baseline": {
     "count": 60,
-    "avg_offtarget_score": 0.3403,
-    "max_offtarget_score": 1.4236,
+    "avg_offtarget_score": 0.0,
+    "max_offtarget_score": 0,
     "risk_distribution": {
-      "Low": 56,
-      "Medium": 4
+      "Unknown": 60
     }
   },
   "jailbreak": {
     "count": 544,
-    "avg_offtarget_score": 3.0805,
-    "max_offtarget_score": 7.6944,
+    "avg_offtarget_score": 0.0,
+    "max_offtarget_score": 0,
     "risk_distribution": {
-      "Medium": 145,
-      "High": 292,
-      "Critical": 48,
-      "Low": 59
+      "Unknown": 544
     }
   },
   "comparison": {
-    "score_inflation_ratio": 9.05
+    "score_inflation_ratio": 0.0
   }
 }
