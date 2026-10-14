@@ -1,0 +1,2010 @@
+{
+  "gene": "KRAS",
+  "accession": "NM_033360.4",
+  "n_candidates": 200,
+  "direction": "higher_is_better",
+  "length_convention": "21 nt 引导链取 guide[0:19] 作 19 nt 双链核心送入 OligoFormer",
+  "note": "efficacy 是设计器信号，不是检测器值，不参与 r_1..r_4。",
+  "candidates": [
+    {
+      "guide": "UUGACUUCUUUUUCUUCUUUU",
+      "target_pos": 837,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_837",
+      "of_core_19nt": "UUGACUUCUUUUUCUUCUU",
+      "OligoFormer_efficacy": 1.095241,
+      "OligoFormer_rank_in_gene": 1
+    },
+    {
+      "guide": "UAUGAAAGCUCAAAGGUUCAC",
+      "target_pos": 1890,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1890",
+      "of_core_19nt": "UAUGAAAGCUCAAAGGUUC",
+      "OligoFormer_efficacy": 1.049625,
+      "OligoFormer_rank_in_gene": 2
+    },
+    {
+      "guide": "UGAAUUAGCUGUAUCGUCAAG",
+      "target_pos": 243,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_243",
+      "of_core_19nt": "UGAAUUAGCUGUAUCGUCA",
+      "OligoFormer_efficacy": 1.011547,
+      "OligoFormer_rank_in_gene": 3
+    },
+    {
+      "guide": "CUUUGCUCAUCUUUUCUUUAU",
+      "target_pos": 810,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_810",
+      "of_core_19nt": "CUUUGCUCAUCUUUUCUUU",
+      "OligoFormer_efficacy": 1.001348,
+      "OligoFormer_rank_in_gene": 4
+    },
+    {
+      "guide": "UUUAUGACAGCUAUUCAGUUU",
+      "target_pos": 4779,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4779",
+      "of_core_19nt": "UUUAUGACAGCUAUUCAGU",
+      "OligoFormer_efficacy": 0.992437,
+      "OligoFormer_rank_in_gene": 5
+    },
+    {
+      "guide": "UUGACAAAUAAGUGUAUCCUU",
+      "target_pos": 2538,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2538",
+      "of_core_19nt": "UUGACAAAUAAGUGUAUCC",
+      "OligoFormer_efficacy": 0.990208,
+      "OligoFormer_rank_in_gene": 6
+    },
+    {
+      "guide": "UUAAAAUCUCUACAAAAACAA",
+      "target_pos": 4185,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4185",
+      "of_core_19nt": "UUAAAAUCUCUACAAAAAC",
+      "OligoFormer_efficacy": 0.987081,
+      "OligoFormer_rank_in_gene": 7
+    },
+    {
+      "guide": "AUUAAAUUCUCCUUCCACUGG",
+      "target_pos": 2997,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2997",
+      "of_core_19nt": "AUUAAAUUCUCCUUCCACU",
+      "OligoFormer_efficacy": 0.986814,
+      "OligoFormer_rank_in_gene": 8
+    },
+    {
+      "guide": "AAAACCUUUGUGAACAGUGUA",
+      "target_pos": 1404,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1404",
+      "of_core_19nt": "AAAACCUUUGUGAACAGUG",
+      "OligoFormer_efficacy": 0.97191,
+      "OligoFormer_rank_in_gene": 9
+    },
+    {
+      "guide": "UUCACCUCUUGCACAAUUUUG",
+      "target_pos": 2619,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2619",
+      "of_core_19nt": "UUCACCUCUUGCACAAUUU",
+      "OligoFormer_efficacy": 0.971132,
+      "OligoFormer_rank_in_gene": 10
+    },
+    {
+      "guide": "UAUAAUAGUUUCCAUUGCCUU",
+      "target_pos": 1512,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1512",
+      "of_core_19nt": "UAUAAUAGUUUCCAUUGCC",
+      "OligoFormer_efficacy": 0.969507,
+      "OligoFormer_rank_in_gene": 11
+    },
+    {
+      "guide": "UAAAACUAUCUUCAAAGACUC",
+      "target_pos": 1782,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1782",
+      "of_core_19nt": "UAAAACUAUCUUCAAAGAC",
+      "OligoFormer_efficacy": 0.964965,
+      "OligoFormer_rank_in_gene": 12
+    },
+    {
+      "guide": "UUACUUAUGCAGAGAAAACUG",
+      "target_pos": 3834,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3834",
+      "of_core_19nt": "UUACUUAUGCAGAGAAAAC",
+      "OligoFormer_efficacy": 0.964487,
+      "OligoFormer_rank_in_gene": 13
+    },
+    {
+      "guide": "UUCUGUCUAUUCAUACCAGGU",
+      "target_pos": 2970,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2970",
+      "of_core_19nt": "UUCUGUCUAUUCAUACCAG",
+      "OligoFormer_efficacy": 0.964076,
+      "OligoFormer_rank_in_gene": 14
+    },
+    {
+      "guide": "UAAAUUCAUCUAAAUUACCUA",
+      "target_pos": 4914,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4914",
+      "of_core_19nt": "UAAAUUCAUCUAAAUUACC",
+      "OligoFormer_efficacy": 0.963468,
+      "OligoFormer_rank_in_gene": 15
+    },
+    {
+      "guide": "UUCAAUCUGUAUUGUCGGAUC",
+      "target_pos": 675,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_675",
+      "of_core_19nt": "UUCAAUCUGUAUUGUCGGA",
+      "OligoFormer_efficacy": 0.951703,
+      "OligoFormer_rank_in_gene": 16
+    },
+    {
+      "guide": "AAACUUCAUGGAGAUAUCCAC",
+      "target_pos": 2781,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2781",
+      "of_core_19nt": "AAACUUCAUGGAGAUAUCC",
+      "OligoFormer_efficacy": 0.9517,
+      "OligoFormer_rank_in_gene": 17
+    },
+    {
+      "guide": "UGACUAUUCUUCAAGAACUCA",
+      "target_pos": 4833,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4833",
+      "of_core_19nt": "UGACUAUUCUUCAAGAACU",
+      "OligoFormer_efficacy": 0.944254,
+      "OligoFormer_rank_in_gene": 18
+    },
+    {
+      "guide": "UUUCAUACUGGGUCUGCCUUA",
+      "target_pos": 1593,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1593",
+      "of_core_19nt": "UUUCAUACUGGGUCUGCCU",
+      "OligoFormer_efficacy": 0.941563,
+      "OligoFormer_rank_in_gene": 19
+    },
+    {
+      "guide": "AAGUGAUGUCCUCAAAAUCAG",
+      "target_pos": 2430,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2430",
+      "of_core_19nt": "AAGUGAUGUCCUCAAAAUC",
+      "OligoFormer_efficacy": 0.94027,
+      "OligoFormer_rank_in_gene": 20
+    },
+    {
+      "guide": "ACAUUCACUCAAAUGAUACAA",
+      "target_pos": 4347,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4347",
+      "of_core_19nt": "ACAUUCACUCAAAUGAUAC",
+      "OligoFormer_efficacy": 0.939115,
+      "OligoFormer_rank_in_gene": 21
+    },
+    {
+      "guide": "AAGAGCGAGACUCUGACACCA",
+      "target_pos": 3159,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3159",
+      "of_core_19nt": "AAGAGCGAGACUCUGACAC",
+      "OligoFormer_efficacy": 0.932201,
+      "OligoFormer_rank_in_gene": 22
+    },
+    {
+      "guide": "UUUUCAUUGCAUGAAGAUUUC",
+      "target_pos": 3105,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3105",
+      "of_core_19nt": "UUUUCAUUGCAUGAAGAUU",
+      "OligoFormer_efficacy": 0.930361,
+      "OligoFormer_rank_in_gene": 23
+    },
+    {
+      "guide": "AAUGUUUGAUAUGACCAACAU",
+      "target_pos": 5265,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_5265",
+      "of_core_19nt": "AAUGUUUGAUAUGACCAAC",
+      "OligoFormer_efficacy": 0.924605,
+      "OligoFormer_rank_in_gene": 24
+    },
+    {
+      "guide": "UUAGGUAUUCAGUUUCUUUUU",
+      "target_pos": 1107,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1107",
+      "of_core_19nt": "UUAGGUAUUCAGUUUCUUU",
+      "OligoFormer_efficacy": 0.923641,
+      "OligoFormer_rank_in_gene": 25
+    },
+    {
+      "guide": "UUUGAUAACCUAUAAAAGUUA",
+      "target_pos": 4428,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4428",
+      "of_core_19nt": "UUUGAUAACCUAUAAAAGU",
+      "OligoFormer_efficacy": 0.919402,
+      "OligoFormer_rank_in_gene": 26
+    },
+    {
+      "guide": "UUACAUUAAGAAAUAGUACUA",
+      "target_pos": 5103,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_5103",
+      "of_core_19nt": "UUACAUUAAGAAAUAGUAC",
+      "OligoFormer_efficacy": 0.918207,
+      "OligoFormer_rank_in_gene": 27
+    },
+    {
+      "guide": "UUGCCUACGCCACCAGCUCCA",
+      "target_pos": 216,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_216",
+      "of_core_19nt": "UUGCCUACGCCACCAGCUC",
+      "OligoFormer_efficacy": 0.916207,
+      "OligoFormer_rank_in_gene": 28
+    },
+    {
+      "guide": "UGAAACCCCGUCUCUCCUAAA",
+      "target_pos": 3321,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3321",
+      "of_core_19nt": "UGAAACCCCGUCUCUCCUA",
+      "OligoFormer_efficacy": 0.91589,
+      "OligoFormer_rank_in_gene": 29
+    },
+    {
+      "guide": "AAUCCUACUGUCGCUAAUGGA",
+      "target_pos": 2943,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2943",
+      "of_core_19nt": "AAUCCUACUGUCGCUAAUG",
+      "OligoFormer_efficacy": 0.907698,
+      "OligoFormer_rank_in_gene": 30
+    },
+    {
+      "guide": "UUCCUUUAAAACAAUGAAGUG",
+      "target_pos": 3699,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3699",
+      "of_core_19nt": "UUCCUUUAAAACAAUGAAG",
+      "OligoFormer_efficacy": 0.907444,
+      "OligoFormer_rank_in_gene": 31
+    },
+    {
+      "guide": "AUUACUUUUUGACAAAUGGAA",
+      "target_pos": 4644,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4644",
+      "of_core_19nt": "AUUACUUUUUGACAAAUGG",
+      "OligoFormer_efficacy": 0.898544,
+      "OligoFormer_rank_in_gene": 32
+    },
+    {
+      "guide": "UUUUUCCAUUUUUUUCUUUUU",
+      "target_pos": 1485,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1485",
+      "of_core_19nt": "UUUUUCCAUUUUUUUCUUU",
+      "OligoFormer_efficacy": 0.898229,
+      "OligoFormer_rank_in_gene": 33
+    },
+    {
+      "guide": "UUACAAAUUUUAGAUCACUUC",
+      "target_pos": 5346,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_5346",
+      "of_core_19nt": "UUACAAAUUUUAGAUCACU",
+      "OligoFormer_efficacy": 0.896891,
+      "OligoFormer_rank_in_gene": 34
+    },
+    {
+      "guide": "UGUUUCACACCAACAUUCACA",
+      "target_pos": 1188,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1188",
+      "of_core_19nt": "UGUUUCACACCAACAUUCA",
+      "OligoFormer_efficacy": 0.896615,
+      "OligoFormer_rank_in_gene": 35
+    },
+    {
+      "guide": "UGCAAAACUAAAAUACGCAUC",
+      "target_pos": 3591,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3591",
+      "of_core_19nt": "UGCAAAACUAAAAUACGCA",
+      "OligoFormer_efficacy": 0.89439,
+      "OligoFormer_rank_in_gene": 36
+    },
+    {
+      "guide": "AGUUCGAGACCAGCCUGGCCA",
+      "target_pos": 3348,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3348",
+      "of_core_19nt": "AGUUCGAGACCAGCCUGGC",
+      "OligoFormer_efficacy": 0.893093,
+      "OligoFormer_rank_in_gene": 37
+    },
+    {
+      "guide": "UGUCCUAAAAGAAUCACAGUU",
+      "target_pos": 3753,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3753",
+      "of_core_19nt": "UGUCCUAAAAGAAUCACAG",
+      "OligoFormer_efficacy": 0.88997,
+      "OligoFormer_rank_in_gene": 38
+    },
+    {
+      "guide": "AAUAGAGCCUAGAAUGCCUAC",
+      "target_pos": 4374,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4374",
+      "of_core_19nt": "AAUAGAGCCUAGAAUGCCU",
+      "OligoFormer_efficacy": 0.889596,
+      "OligoFormer_rank_in_gene": 39
+    },
+    {
+      "guide": "GUAUCUUGUUGAGCUAUCCAA",
+      "target_pos": 1998,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1998",
+      "of_core_19nt": "GUAUCUUGUUGAGCUAUCC",
+      "OligoFormer_efficacy": 0.887797,
+      "OligoFormer_rank_in_gene": 40
+    },
+    {
+      "guide": "AGAAACAAAAGCAAUGCUCUU",
+      "target_pos": 2052,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2052",
+      "of_core_19nt": "AGAAACAAAAGCAAUGCUC",
+      "OligoFormer_efficacy": 0.884469,
+      "OligoFormer_rank_in_gene": 41
+    },
+    {
+      "guide": "AGCAAAGAGAUGUUCAAAGCA",
+      "target_pos": 2916,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2916",
+      "of_core_19nt": "AGCAAAGAGAUGUUCAAAG",
+      "OligoFormer_efficacy": 0.881055,
+      "OligoFormer_rank_in_gene": 42
+    },
+    {
+      "guide": "ACACCUAAUAAGCUAUAACUG",
+      "target_pos": 1836,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1836",
+      "of_core_19nt": "ACACCUAAUAAGCUAUAAC",
+      "OligoFormer_efficacy": 0.879997,
+      "OligoFormer_rank_in_gene": 43
+    },
+    {
+      "guide": "CAUUGCUAGUUCAAAAACCAA",
+      "target_pos": 1080,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1080",
+      "of_core_19nt": "CAUUGCUAGUUCAAAAACC",
+      "OligoFormer_efficacy": 0.876301,
+      "OligoFormer_rank_in_gene": 44
+    },
+    {
+      "guide": "ACCUUCUUCCUAGUCCAGUGA",
+      "target_pos": 2376,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2376",
+      "of_core_19nt": "ACCUUCUUCCUAGUCCAGU",
+      "OligoFormer_efficacy": 0.875378,
+      "OligoFormer_rank_in_gene": 45
+    },
+    {
+      "guide": "AAAGAAAGCACAAUGUACAAA",
+      "target_pos": 5184,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_5184",
+      "of_core_19nt": "AAAGAAAGCACAAUGUACA",
+      "OligoFormer_efficacy": 0.872908,
+      "OligoFormer_rank_in_gene": 46
+    },
+    {
+      "guide": "UUUUUAAAAAAACUUCAACAA",
+      "target_pos": 4266,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4266",
+      "of_core_19nt": "UUUUUAAAAAAACUUCAAC",
+      "OligoFormer_efficacy": 0.871961,
+      "OligoFormer_rank_in_gene": 47
+    },
+    {
+      "guide": "UUAUCUAAUGUGAAAAGGAAA",
+      "target_pos": 1539,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1539",
+      "of_core_19nt": "UUAUCUAAUGUGAAAAGGA",
+      "OligoFormer_efficacy": 0.866869,
+      "OligoFormer_rank_in_gene": 48
+    },
+    {
+      "guide": "AGUGGAAUUGGAAACUUUCGG",
+      "target_pos": 5022,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_5022",
+      "of_core_19nt": "AGUGGAAUUGGAAACUUUC",
+      "OligoFormer_efficacy": 0.863715,
+      "OligoFormer_rank_in_gene": 49
+    },
+    {
+      "guide": "AAAUCAAUGGAAUACAAAUGA",
+      "target_pos": 4536,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4536",
+      "of_core_19nt": "AAAUCAAUGGAAUACAAAU",
+      "OligoFormer_efficacy": 0.86046,
+      "OligoFormer_rank_in_gene": 50
+    },
+    {
+      "guide": "UUGUCUUUAAGGCUGUAAUAA",
+      "target_pos": 4239,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4239",
+      "of_core_19nt": "UUGUCUUUAAGGCUGUAAU",
+      "OligoFormer_efficacy": 0.856616,
+      "OligoFormer_rank_in_gene": 51
+    },
+    {
+      "guide": "AAGUCCUGAGCCUGUUUUGUG",
+      "target_pos": 567,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_567",
+      "of_core_19nt": "AAGUCCUGAGCCUGUUUUG",
+      "OligoFormer_efficacy": 0.855465,
+      "OligoFormer_rank_in_gene": 52
+    },
+    {
+      "guide": "ACAUUACUACACAAUUAUCAA",
+      "target_pos": 4671,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4671",
+      "of_core_19nt": "ACAUUACUACACAAUUAUC",
+      "OligoFormer_efficacy": 0.849836,
+      "OligoFormer_rank_in_gene": 53
+    },
+    {
+      "guide": "AUUUCAAUUAAAAGAGUGGUC",
+      "target_pos": 5292,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_5292",
+      "of_core_19nt": "AUUUCAAUUAAAAGAGUGG",
+      "OligoFormer_efficacy": 0.847422,
+      "OligoFormer_rank_in_gene": 54
+    },
+    {
+      "guide": "AUAAAAGGAAUUCCAUAACUU",
+      "target_pos": 594,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_594",
+      "of_core_19nt": "AUAAAAGGAAUUCCAUAAC",
+      "OligoFormer_efficacy": 0.846727,
+      "OligoFormer_rank_in_gene": 55
+    },
+    {
+      "guide": "UUUUAAAGCAUUAUUAAAUAU",
+      "target_pos": 2268,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2268",
+      "of_core_19nt": "UUUUAAAGCAUUAUUAAAU",
+      "OligoFormer_efficacy": 0.845326,
+      "OligoFormer_rank_in_gene": 56
+    },
+    {
+      "guide": "AGUAAAUCUUAUGGUUAGGGG",
+      "target_pos": 2754,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2754",
+      "of_core_19nt": "AGUAAAUCUUAUGGUUAGG",
+      "OligoFormer_efficacy": 0.843403,
+      "OligoFormer_rank_in_gene": 57
+    },
+    {
+      "guide": "UGCUUCCUGUAGGAAUCCUCU",
+      "target_pos": 297,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_297",
+      "of_core_19nt": "UGCUUCCUGUAGGAAUCCU",
+      "OligoFormer_efficacy": 0.841996,
+      "OligoFormer_rank_in_gene": 58
+    },
+    {
+      "guide": "UUUAUGUGACUAGAUAAAACA",
+      "target_pos": 1242,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1242",
+      "of_core_19nt": "UUUAUGUGACUAGAUAAAA",
+      "OligoFormer_efficacy": 0.841911,
+      "OligoFormer_rank_in_gene": 59
+    },
+    {
+      "guide": "CAAAGAUCUGUAGUUUCACAU",
+      "target_pos": 3969,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3969",
+      "of_core_19nt": "CAAAGAUCUGUAGUUUCAC",
+      "OligoFormer_efficacy": 0.840946,
+      "OligoFormer_rank_in_gene": 60
+    },
+    {
+      "guide": "UUUAAGGUAACUGCUGGGUUC",
+      "target_pos": 4698,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4698",
+      "of_core_19nt": "UUUAAGGUAACUGCUGGGU",
+      "OligoFormer_efficacy": 0.840384,
+      "OligoFormer_rank_in_gene": 61
+    },
+    {
+      "guide": "UGUUAAACCAUUCAAAGUUCA",
+      "target_pos": 4158,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4158",
+      "of_core_19nt": "UGUUAAACCAUUCAAAGUU",
+      "OligoFormer_efficacy": 0.839534,
+      "OligoFormer_rank_in_gene": 62
+    },
+    {
+      "guide": "AUUUAACCAGUGUUAAGAGAA",
+      "target_pos": 2214,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2214",
+      "of_core_19nt": "AUUUAACCAGUGUUAAGAG",
+      "OligoFormer_efficacy": 0.837652,
+      "OligoFormer_rank_in_gene": 63
+    },
+    {
+      "guide": "UCUGCUAUAUUCUUCCACAAA",
+      "target_pos": 4320,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4320",
+      "of_core_19nt": "UCUGCUAUAUUCUUCCACA",
+      "OligoFormer_efficacy": 0.835642,
+      "OligoFormer_rank_in_gene": 64
+    },
+    {
+      "guide": "AGAUGGAGGUUGCAGUGAGCU",
+      "target_pos": 3213,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3213",
+      "of_core_19nt": "AGAUGGAGGUUGCAGUGAG",
+      "OligoFormer_efficacy": 0.835284,
+      "OligoFormer_rank_in_gene": 65
+    },
+    {
+      "guide": "GGAGUCUUUUCUUCUUUGCUG",
+      "target_pos": 702,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_702",
+      "of_core_19nt": "GGAGUCUUUUCUUCUUUGC",
+      "OligoFormer_efficacy": 0.83333,
+      "OligoFormer_rank_in_gene": 66
+    },
+    {
+      "guide": "AAAAUUAGUUGAGUGUAGUGG",
+      "target_pos": 3294,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3294",
+      "of_core_19nt": "AAAAUUAGUUGAGUGUAGU",
+      "OligoFormer_efficacy": 0.828936,
+      "OligoFormer_rank_in_gene": 67
+    },
+    {
+      "guide": "AUAAAGUAGCUUGAUCGAAGA",
+      "target_pos": 3672,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3672",
+      "of_core_19nt": "AUAAAGUAGCUUGAUCGAA",
+      "OligoFormer_efficacy": 0.826057,
+      "OligoFormer_rank_in_gene": 68
+    },
+    {
+      "guide": "ACAAAAUUGUGCAAUGGUGAC",
+      "target_pos": 4455,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4455",
+      "of_core_19nt": "ACAAAAUUGUGCAAUGGUG",
+      "OligoFormer_efficacy": 0.824782,
+      "OligoFormer_rank_in_gene": 69
+    },
+    {
+      "guide": "AAUCCCUUUAUGGUAUCUGUC",
+      "target_pos": 2862,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2862",
+      "of_core_19nt": "AAUCCCUUUAUGGUAUCUG",
+      "OligoFormer_efficacy": 0.82138,
+      "OligoFormer_rank_in_gene": 70
+    },
+    {
+      "guide": "AAAAUAUAAUAUUUUGGGGAG",
+      "target_pos": 1458,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1458",
+      "of_core_19nt": "AAAAUAUAAUAUUUUGGGG",
+      "OligoFormer_efficacy": 0.821353,
+      "OligoFormer_rank_in_gene": 71
+    },
+    {
+      "guide": "AGUUAAAAUACAUUCCAGGUA",
+      "target_pos": 5130,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_5130",
+      "of_core_19nt": "AGUUAAAAUACAUUCCAGG",
+      "OligoFormer_efficacy": 0.821134,
+      "OligoFormer_rank_in_gene": 72
+    },
+    {
+      "guide": "AAAAGUAAGCUUCAUGAAUUA",
+      "target_pos": 3132,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3132",
+      "of_core_19nt": "AAAAGUAAGCUUCAUGAAU",
+      "OligoFormer_efficacy": 0.821021,
+      "OligoFormer_rank_in_gene": 73
+    },
+    {
+      "guide": "UUAUCAAAAGGAUUGUUUUUA",
+      "target_pos": 2295,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2295",
+      "of_core_19nt": "UUAUCAAAAGGAUUGUUUU",
+      "OligoFormer_efficacy": 0.820585,
+      "OligoFormer_rank_in_gene": 74
+    },
+    {
+      "guide": "CUCUGUCUUGUCUUUGCUGAU",
+      "target_pos": 621,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_621",
+      "of_core_19nt": "CUCUGUCUUGUCUUUGCUG",
+      "OligoFormer_efficacy": 0.819331,
+      "OligoFormer_rank_in_gene": 75
+    },
+    {
+      "guide": "AAUGUACAAAAAUUACCACUU",
+      "target_pos": 918,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_918",
+      "of_core_19nt": "AAUGUACAAAAAUUACCAC",
+      "OligoFormer_efficacy": 0.81597,
+      "OligoFormer_rank_in_gene": 76
+    },
+    {
+      "guide": "UUAGUAUUAUUUAUGGCAAAU",
+      "target_pos": 432,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_432",
+      "of_core_19nt": "UUAGUAUUAUUUAUGGCAA",
+      "OligoFormer_efficacy": 0.8141,
+      "OligoFormer_rank_in_gene": 77
+    },
+    {
+      "guide": "UGCACCAAAAGCCCCAAGACA",
+      "target_pos": 1134,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1134",
+      "of_core_19nt": "UGCACCAAAAGCCCCAAGA",
+      "OligoFormer_efficacy": 0.812243,
+      "OligoFormer_rank_in_gene": 78
+    },
+    {
+      "guide": "AAGAGCAGUCUGACACAGGGA",
+      "target_pos": 1728,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1728",
+      "of_core_19nt": "AAGAGCAGUCUGACACAGG",
+      "OligoFormer_efficacy": 0.809282,
+      "OligoFormer_rank_in_gene": 79
+    },
+    {
+      "guide": "AAGUAUUAAAACUGCAUCAAG",
+      "target_pos": 2727,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2727",
+      "of_core_19nt": "AAGUAUUAAAACUGCAUCA",
+      "OligoFormer_efficacy": 0.807375,
+      "OligoFormer_rank_in_gene": 80
+    },
+    {
+      "guide": "AUAAUCUUUUAAUGUCACAAG",
+      "target_pos": 1809,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1809",
+      "of_core_19nt": "AUAAUCUUUUAAUGUCACA",
+      "OligoFormer_efficacy": 0.805199,
+      "OligoFormer_rank_in_gene": 81
+    },
+    {
+      "guide": "UAUCUUUCUUUAGAAAGAAAG",
+      "target_pos": 4806,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4806",
+      "of_core_19nt": "UAUCUUUCUUUAGAAAGAA",
+      "OligoFormer_efficacy": 0.804818,
+      "OligoFormer_rank_in_gene": 82
+    },
+    {
+      "guide": "UGACCUGCUGUGUCGAGAAUA",
+      "target_pos": 351,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_351",
+      "of_core_19nt": "UGACCUGCUGUGUCGAGAA",
+      "OligoFormer_efficacy": 0.804013,
+      "OligoFormer_rank_in_gene": 83
+    },
+    {
+      "guide": "CUGUGUAGAAACGAGGUACUG",
+      "target_pos": 4023,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4023",
+      "of_core_19nt": "CUGUGUAGAAACGAGGUAC",
+      "OligoFormer_efficacy": 0.800762,
+      "OligoFormer_rank_in_gene": 84
+    },
+    {
+      "guide": "ACUGGAUCACACUGCAUAUGU",
+      "target_pos": 5211,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_5211",
+      "of_core_19nt": "ACUGGAUCACACUGCAUAU",
+      "OligoFormer_efficacy": 0.800339,
+      "OligoFormer_rank_in_gene": 85
+    },
+    {
+      "guide": "GUUCUAGAAGGCAAAUCACAU",
+      "target_pos": 540,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_540",
+      "of_core_19nt": "GUUCUAGAAGGCAAAUCAC",
+      "OligoFormer_efficacy": 0.799019,
+      "OligoFormer_rank_in_gene": 86
+    },
+    {
+      "guide": "UUGUGUGGUGACUGGCAUCUG",
+      "target_pos": 3456,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3456",
+      "of_core_19nt": "UUGUGUGGUGACUGGCAUC",
+      "OligoFormer_efficacy": 0.795373,
+      "OligoFormer_rank_in_gene": 87
+    },
+    {
+      "guide": "AAAUUCCUAUGCAGUGUGACU",
+      "target_pos": 4401,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4401",
+      "of_core_19nt": "AAAUUCCUAUGCAGUGUGA",
+      "OligoFormer_efficacy": 0.791649,
+      "OligoFormer_rank_in_gene": 88
+    },
+    {
+      "guide": "ACUGGCACUGAAGAUGGUGUA",
+      "target_pos": 2592,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2592",
+      "of_core_19nt": "ACUGGCACUGAAGAUGGUG",
+      "OligoFormer_efficacy": 0.788387,
+      "OligoFormer_rank_in_gene": 89
+    },
+    {
+      "guide": "UUCUUUUAACAUGAAGAAAUG",
+      "target_pos": 2457,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2457",
+      "of_core_19nt": "UUCUUUUAACAUGAAGAAA",
+      "OligoFormer_efficacy": 0.787356,
+      "OligoFormer_rank_in_gene": 90
+    },
+    {
+      "guide": "UCUCUGGGUCGUAUACCAAAG",
+      "target_pos": 3564,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3564",
+      "of_core_19nt": "UCUCUGGGUCGUAUACCAA",
+      "OligoFormer_efficacy": 0.784966,
+      "OligoFormer_rank_in_gene": 91
+    },
+    {
+      "guide": "AUAUCUGCAGAUAACUUUUUU",
+      "target_pos": 4941,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4941",
+      "of_core_19nt": "AUAUCUGCAGAUAACUUUU",
+      "OligoFormer_efficacy": 0.78245,
+      "OligoFormer_rank_in_gene": 92
+    },
+    {
+      "guide": "UACCUAAGGACCGGGAUUAUG",
+      "target_pos": 3510,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3510",
+      "of_core_19nt": "UACCUAAGGACCGGGAUUA",
+      "OligoFormer_efficacy": 0.781403,
+      "OligoFormer_rank_in_gene": 93
+    },
+    {
+      "guide": "UCUUGGCACACCACCACCCCA",
+      "target_pos": 2133,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2133",
+      "of_core_19nt": "UCUUGGCACACCACCACCC",
+      "OligoFormer_efficacy": 0.780174,
+      "OligoFormer_rank_in_gene": 94
+    },
+    {
+      "guide": "AUUUUUAAAAAAGAGUUUGUU",
+      "target_pos": 2079,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2079",
+      "of_core_19nt": "AUUUUUAAAAAAGAGUUUG",
+      "OligoFormer_efficacy": 0.780157,
+      "OligoFormer_rank_in_gene": 95
+    },
+    {
+      "guide": "UCAGCAGGACCACCACAGAGU",
+      "target_pos": 2025,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2025",
+      "of_core_19nt": "UCAGCAGGACCACCACAGA",
+      "OligoFormer_efficacy": 0.778997,
+      "OligoFormer_rank_in_gene": 96
+    },
+    {
+      "guide": "GUAAGAUAUUACAGACCACAC",
+      "target_pos": 3537,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3537",
+      "of_core_19nt": "GUAAGAUAUUACAGACCAC",
+      "OligoFormer_efficacy": 0.777807,
+      "OligoFormer_rank_in_gene": 97
+    },
+    {
+      "guide": "AAGGUGGGUGAAUCACUUGAG",
+      "target_pos": 3375,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3375",
+      "of_core_19nt": "AAGGUGGGUGAAUCACUUG",
+      "OligoFormer_efficacy": 0.777667,
+      "OligoFormer_rank_in_gene": 98
+    },
+    {
+      "guide": "AACGAGAAUGGAUAUUCAAAU",
+      "target_pos": 2646,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2646",
+      "of_core_19nt": "AACGAGAAUGGAUAUUCAA",
+      "OligoFormer_efficacy": 0.768138,
+      "OligoFormer_rank_in_gene": 99
+    },
+    {
+      "guide": "AAAAGACACCUAUCUAGAACC",
+      "target_pos": 2403,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2403",
+      "of_core_19nt": "AAAAGACACCUAUCUAGAA",
+      "OligoFormer_efficacy": 0.767272,
+      "OligoFormer_rank_in_gene": 100
+    },
+    {
+      "guide": "UCCCAAACAGGCACUUCAAAC",
+      "target_pos": 4887,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4887",
+      "of_core_19nt": "UCCCAAACAGGCACUUCAA",
+      "OligoFormer_efficacy": 0.766932,
+      "OligoFormer_rank_in_gene": 101
+    },
+    {
+      "guide": "AUGCAUGACAACACUGGAUGA",
+      "target_pos": 1944,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1944",
+      "of_core_19nt": "AUGCAUGACAACACUGGAU",
+      "OligoFormer_efficacy": 0.762521,
+      "OligoFormer_rank_in_gene": 102
+    },
+    {
+      "guide": "ACCACCUGAAAAUUAGUGAUU",
+      "target_pos": 2889,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2889",
+      "of_core_19nt": "ACCACCUGAAAAUUAGUGA",
+      "OligoFormer_efficacy": 0.760697,
+      "OligoFormer_rank_in_gene": 103
+    },
+    {
+      "guide": "ACAUGAUGCCUAGAAGAAUCA",
+      "target_pos": 1350,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1350",
+      "of_core_19nt": "ACAUGAUGCCUAGAAGAAU",
+      "OligoFormer_efficacy": 0.758578,
+      "OligoFormer_rank_in_gene": 104
+    },
+    {
+      "guide": "GAGGCACGAGAAUCGCUUGAA",
+      "target_pos": 3240,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3240",
+      "of_core_19nt": "GAGGCACGAGAAUCGCUUG",
+      "OligoFormer_efficacy": 0.752969,
+      "OligoFormer_rank_in_gene": 105
+    },
+    {
+      "guide": "AAGAAAAAUAAGAAGUAAUCA",
+      "target_pos": 1161,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1161",
+      "of_core_19nt": "AAGAAAAAUAAGAAGUAAU",
+      "OligoFormer_efficacy": 0.752137,
+      "OligoFormer_rank_in_gene": 106
+    },
+    {
+      "guide": "GUCAGCGCAACCAAAUGAUGG",
+      "target_pos": 5238,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_5238",
+      "of_core_19nt": "GUCAGCGCAACCAAAUGAU",
+      "OligoFormer_efficacy": 0.749357,
+      "OligoFormer_rank_in_gene": 107
+    },
+    {
+      "guide": "ACAAGUUUAUAUUCAGUCAUU",
+      "target_pos": 189,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_189",
+      "of_core_19nt": "ACAAGUUUAUAUUCAGUCA",
+      "OligoFormer_efficacy": 0.74808,
+      "OligoFormer_rank_in_gene": 108
+    },
+    {
+      "guide": "GUGGAAUCGUAGCAAAACAAU",
+      "target_pos": 3645,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3645",
+      "of_core_19nt": "GUGGAAUCGUAGCAAAACA",
+      "OligoFormer_efficacy": 0.74678,
+      "OligoFormer_rank_in_gene": 109
+    },
+    {
+      "guide": "UCAGAAAUCAUAGUGAUUUUU",
+      "target_pos": 3942,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3942",
+      "of_core_19nt": "UCAGAAAUCAUAGUGAUUU",
+      "OligoFormer_efficacy": 0.744974,
+      "OligoFormer_rank_in_gene": 110
+    },
+    {
+      "guide": "ACUCAAUAAAUAUUUGCUGAA",
+      "target_pos": 3429,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3429",
+      "of_core_19nt": "ACUCAAUAAAUAUUUGCUG",
+      "OligoFormer_efficacy": 0.743422,
+      "OligoFormer_rank_in_gene": 111
+    },
+    {
+      "guide": "AUGGAGCAGGAAAAAAAUUAG",
+      "target_pos": 972,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_972",
+      "of_core_19nt": "AUGGAGCAGGAAAAAAAUU",
+      "OligoFormer_efficacy": 0.742428,
+      "OligoFormer_rank_in_gene": 112
+    },
+    {
+      "guide": "UACACAUUUGGGUCAAUAUGA",
+      "target_pos": 3807,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3807",
+      "of_core_19nt": "UACACAUUUGGGUCAAUAU",
+      "OligoFormer_efficacy": 0.740305,
+      "OligoFormer_rank_in_gene": 113
+    },
+    {
+      "guide": "UAUUUUAAAAUAAGUAACAUU",
+      "target_pos": 2322,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2322",
+      "of_core_19nt": "UAUUUUAAAAUAAGUAACA",
+      "OligoFormer_efficacy": 0.734047,
+      "OligoFormer_rank_in_gene": 114
+    },
+    {
+      "guide": "GUUAAAAAUUUACAGAUUGUG",
+      "target_pos": 2565,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2565",
+      "of_core_19nt": "GUUAAAAAUUUACAGAUUG",
+      "OligoFormer_efficacy": 0.731179,
+      "OligoFormer_rank_in_gene": 115
+    },
+    {
+      "guide": "GUUUGGGGAUACCAUAUACCC",
+      "target_pos": 3483,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3483",
+      "of_core_19nt": "GUUUGGGGAUACCAUAUAC",
+      "OligoFormer_efficacy": 0.728227,
+      "OligoFormer_rank_in_gene": 116
+    },
+    {
+      "guide": "CACCUCACCAUGCCAUCUCAC",
+      "target_pos": 2349,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2349",
+      "of_core_19nt": "CACCUCACCAUGCCAUCUC",
+      "OligoFormer_efficacy": 0.727356,
+      "OligoFormer_rank_in_gene": 117
+    },
+    {
+      "guide": "UGGUCCCUCAUUGCACUGUAC",
+      "target_pos": 378,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_378",
+      "of_core_19nt": "UGGUCCCUCAUUGCACUGU",
+      "OligoFormer_efficacy": 0.725402,
+      "OligoFormer_rank_in_gene": 118
+    },
+    {
+      "guide": "AAACUUCCACUGUCAUUUUAA",
+      "target_pos": 1026,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1026",
+      "of_core_19nt": "AAACUUCCACUGUCAUUUU",
+      "OligoFormer_efficacy": 0.723415,
+      "OligoFormer_rank_in_gene": 119
+    },
+    {
+      "guide": "AAAGCUAUUAGGAGUCUUUAU",
+      "target_pos": 1566,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1566",
+      "of_core_19nt": "AAAGCUAUUAGGAGUCUUU",
+      "OligoFormer_efficacy": 0.723089,
+      "OligoFormer_rank_in_gene": 120
+    },
+    {
+      "guide": "GAAUUUCUCGAACUAAUGUAU",
+      "target_pos": 783,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_783",
+      "of_core_19nt": "GAAUUUCUCGAACUAAUGU",
+      "OligoFormer_efficacy": 0.718164,
+      "OligoFormer_rank_in_gene": 121
+    },
+    {
+      "guide": "AUUUAAUUCCUAUGAGAAUUU",
+      "target_pos": 1701,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1701",
+      "of_core_19nt": "AUUUAAUUCCUAUGAGAAU",
+      "OligoFormer_efficacy": 0.717134,
+      "OligoFormer_rank_in_gene": 122
+    },
+    {
+      "guide": "AACAUUUAUUUCUAGAAUUCU",
+      "target_pos": 4212,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4212",
+      "of_core_19nt": "AACAUUUAUUUCUAGAAUU",
+      "OligoFormer_efficacy": 0.714761,
+      "OligoFormer_rank_in_gene": 123
+    },
+    {
+      "guide": "AUGCAUUUUUUAAUUUUCACA",
+      "target_pos": 729,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_729",
+      "of_core_19nt": "AUGCAUUUUUUAAUUUUCA",
+      "OligoFormer_efficacy": 0.711051,
+      "OligoFormer_rank_in_gene": 124
+    },
+    {
+      "guide": "AAAAAAAAACUAAGAGUUUGA",
+      "target_pos": 2484,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2484",
+      "of_core_19nt": "AAAAAAAAACUAAGAGUUU",
+      "OligoFormer_efficacy": 0.710148,
+      "OligoFormer_rank_in_gene": 125
+    },
+    {
+      "guide": "CUAUAAUGGUGAAUAUCUUCA",
+      "target_pos": 459,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_459",
+      "of_core_19nt": "CUAUAAUGGUGAAUAUCUU",
+      "OligoFormer_efficacy": 0.709075,
+      "OligoFormer_rank_in_gene": 126
+    },
+    {
+      "guide": "CCUGUAAUCCCAGCUACUCAG",
+      "target_pos": 3267,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3267",
+      "of_core_19nt": "CCUGUAAUCCCAGCUACUC",
+      "OligoFormer_efficacy": 0.708805,
+      "OligoFormer_rank_in_gene": 127
+    },
+    {
+      "guide": "AGAUAGUUUUUGCUGUCUAAA",
+      "target_pos": 4617,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4617",
+      "of_core_19nt": "AGAUAGUUUUUGCUGUCUA",
+      "OligoFormer_efficacy": 0.707279,
+      "OligoFormer_rank_in_gene": 128
+    },
+    {
+      "guide": "AGGGAUGAUUCAAAAGCUUCA",
+      "target_pos": 1215,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1215",
+      "of_core_19nt": "AGGGAUGAUUCAAAAGCUU",
+      "OligoFormer_efficacy": 0.704628,
+      "OligoFormer_rank_in_gene": 129
+    },
+    {
+      "guide": "AAGAAAAGAUUUAAAGUUAUA",
+      "target_pos": 1755,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1755",
+      "of_core_19nt": "AAGAAAAGAUUUAAAGUUA",
+      "OligoFormer_efficacy": 0.702864,
+      "OligoFormer_rank_in_gene": 130
+    },
+    {
+      "guide": "AAGUUUCCUUGUCUGUGAACU",
+      "target_pos": 3915,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3915",
+      "of_core_19nt": "AAGUUUCCUUGUCUGUGAA",
+      "OligoFormer_efficacy": 0.70246,
+      "OligoFormer_rank_in_gene": 131
+    },
+    {
+      "guide": "AUGUUUCAGUUUACACUAUAC",
+      "target_pos": 5157,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_5157",
+      "of_core_19nt": "AUGUUUCAGUUUACACUAU",
+      "OligoFormer_efficacy": 0.702347,
+      "OligoFormer_rank_in_gene": 132
+    },
+    {
+      "guide": "CACUGUAACCCAGUUAGCUCU",
+      "target_pos": 4995,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4995",
+      "of_core_19nt": "CACUGUAACCCAGUUAGCU",
+      "OligoFormer_efficacy": 0.698505,
+      "OligoFormer_rank_in_gene": 133
+    },
+    {
+      "guide": "CUAGUCCCUCCCCAUUUUGAC",
+      "target_pos": 1971,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1971",
+      "of_core_19nt": "CUAGUCCCUCCCCAUUUUG",
+      "OligoFormer_efficacy": 0.694996,
+      "OligoFormer_rank_in_gene": 134
+    },
+    {
+      "guide": "UCUUGAGCCCUGAGGAAAUAA",
+      "target_pos": 2835,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2835",
+      "of_core_19nt": "UCUUGAGCCCUGAGGAAAU",
+      "OligoFormer_efficacy": 0.693739,
+      "OligoFormer_rank_in_gene": 135
+    },
+    {
+      "guide": "AUGUUUCAGUAAAAACCAAUU",
+      "target_pos": 1296,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1296",
+      "of_core_19nt": "AUGUUUCAGUAAAAACCAA",
+      "OligoFormer_efficacy": 0.692714,
+      "OligoFormer_rank_in_gene": 136
+    },
+    {
+      "guide": "GGAAGCCCAUAAAUUUGUGUU",
+      "target_pos": 1323,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1323",
+      "of_core_19nt": "GGAAGCCCAUAAAUUUGUG",
+      "OligoFormer_efficacy": 0.685718,
+      "OligoFormer_rank_in_gene": 137
+    },
+    {
+      "guide": "GUAUUUACAUAAUUACACACU",
+      "target_pos": 864,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_864",
+      "of_core_19nt": "GUAUUUACAUAAUUACACA",
+      "OligoFormer_efficacy": 0.682654,
+      "OligoFormer_rank_in_gene": 138
+    },
+    {
+      "guide": "ACCAAUGUAUAAAAAGCAUCC",
+      "target_pos": 648,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_648",
+      "of_core_19nt": "ACCAAUGUAUAAAAAGCAU",
+      "OligoFormer_efficacy": 0.68198,
+      "OligoFormer_rank_in_gene": 139
+    },
+    {
+      "guide": "AAUAAAAAAACAAUAUAAUCA",
+      "target_pos": 3726,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3726",
+      "of_core_19nt": "AAUAAAAAAACAAUAUAAU",
+      "OligoFormer_efficacy": 0.678009,
+      "OligoFormer_rank_in_gene": 140
+    },
+    {
+      "guide": "GACACUAAUAUGGAAGAAGAG",
+      "target_pos": 2673,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2673",
+      "of_core_19nt": "GACACUAAUAUGGAAGAAG",
+      "OligoFormer_efficacy": 0.677325,
+      "OligoFormer_rank_in_gene": 141
+    },
+    {
+      "guide": "CAUGACUAAUAGCAGUGGAAA",
+      "target_pos": 1431,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1431",
+      "of_core_19nt": "CAUGACUAAUAGCAGUGGA",
+      "OligoFormer_efficacy": 0.673031,
+      "OligoFormer_rank_in_gene": 142
+    },
+    {
+      "guide": "AAUUGGCACUCAAAGGAAAAA",
+      "target_pos": 5076,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_5076",
+      "of_core_19nt": "AAUUGGCACUCAAAGGAAA",
+      "OligoFormer_efficacy": 0.668685,
+      "OligoFormer_rank_in_gene": 143
+    },
+    {
+      "guide": "UCUCAACUGAAAUUAGUAAUU",
+      "target_pos": 1269,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1269",
+      "of_core_19nt": "UCUCAACUGAAAUUAGUAA",
+      "OligoFormer_efficacy": 0.666686,
+      "OligoFormer_rank_in_gene": 144
+    },
+    {
+      "guide": "AGAAAGCCCUCCCCAGUCCUC",
+      "target_pos": 405,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_405",
+      "of_core_19nt": "AGAAAGCCCUCCCCAGUCC",
+      "OligoFormer_efficacy": 0.663437,
+      "OligoFormer_rank_in_gene": 145
+    },
+    {
+      "guide": "GUAUGCCUUAAGAAAAAAGUA",
+      "target_pos": 891,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_891",
+      "of_core_19nt": "GUAUGCCUUAAGAAAAAAG",
+      "OligoFormer_efficacy": 0.66302,
+      "OligoFormer_rank_in_gene": 146
+    },
+    {
+      "guide": "AAAAUUUAGUAGCAUGUAAAU",
+      "target_pos": 1647,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1647",
+      "of_core_19nt": "AAAAUUUAGUAGCAUGUAA",
+      "OligoFormer_efficacy": 0.659681,
+      "OligoFormer_rank_in_gene": 147
+    },
+    {
+      "guide": "AGUAUUUUCAACAUGAAAACA",
+      "target_pos": 5049,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_5049",
+      "of_core_19nt": "AGUAUUUUCAACAUGAAAA",
+      "OligoFormer_efficacy": 0.658939,
+      "OligoFormer_rank_in_gene": 148
+    },
+    {
+      "guide": "AAUGCCUAAGUCUAUGUAAUU",
+      "target_pos": 4293,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4293",
+      "of_core_19nt": "AAUGCCUAAGUCUAUGUAA",
+      "OligoFormer_efficacy": 0.655596,
+      "OligoFormer_rank_in_gene": 149
+    },
+    {
+      "guide": "CUAAGGAAUUCUUUCAGCACU",
+      "target_pos": 3024,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3024",
+      "of_core_19nt": "CUAAGGAAUUCUUUCAGCA",
+      "OligoFormer_efficacy": 0.65512,
+      "OligoFormer_rank_in_gene": 150
+    },
+    {
+      "guide": "AAACCUAGAGAUUGUAAAACU",
+      "target_pos": 2187,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2187",
+      "of_core_19nt": "AAACCUAGAGAUUGUAAAA",
+      "OligoFormer_efficacy": 0.654388,
+      "OligoFormer_rank_in_gene": 151
+    },
+    {
+      "guide": "GCGCCACUGCAUUCCAGCCUG",
+      "target_pos": 3186,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3186",
+      "of_core_19nt": "GCGCCACUGCAUUCCAGCC",
+      "OligoFormer_efficacy": 0.652704,
+      "OligoFormer_rank_in_gene": 152
+    },
+    {
+      "guide": "GGACACAGUCCAUGCUGUGAA",
+      "target_pos": 1917,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1917",
+      "of_core_19nt": "GGACACAGUCCAUGCUGUG",
+      "OligoFormer_efficacy": 0.652518,
+      "OligoFormer_rank_in_gene": 153
+    },
+    {
+      "guide": "AUGGAAUAUAAAUUACAUAGU",
+      "target_pos": 2511,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2511",
+      "of_core_19nt": "AUGGAAUAUAAAUUACAUA",
+      "OligoFormer_efficacy": 0.645268,
+      "OligoFormer_rank_in_gene": 154
+    },
+    {
+      "guide": "ACUAAAACACAGAUCUUAAUC",
+      "target_pos": 4860,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4860",
+      "of_core_19nt": "ACUAAAACACAGAUCUUAA",
+      "OligoFormer_efficacy": 0.642566,
+      "OligoFormer_rank_in_gene": 155
+    },
+    {
+      "guide": "AGUUCUGCAAAACAGGUUUAU",
+      "target_pos": 3402,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3402",
+      "of_core_19nt": "AGUUCUGCAAAACAGGUUU",
+      "OligoFormer_efficacy": 0.642069,
+      "OligoFormer_rank_in_gene": 156
+    },
+    {
+      "guide": "GCUGGCACAGAGACCAAACCC",
+      "target_pos": 3618,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3618",
+      "of_core_19nt": "GCUGGCACAGAGACCAAAC",
+      "OligoFormer_efficacy": 0.639341,
+      "OligoFormer_rank_in_gene": 157
+    },
+    {
+      "guide": "AGACAGGUUUCUCCAUCAAUU",
+      "target_pos": 324,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_324",
+      "of_core_19nt": "AGACAGGUUUCUCCAUCAA",
+      "OligoFormer_efficacy": 0.636533,
+      "OligoFormer_rank_in_gene": 158
+    },
+    {
+      "guide": "GACUUGAAAAGUGUUUAUGCA",
+      "target_pos": 2241,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2241",
+      "of_core_19nt": "GACUUGAAAAGUGUUUAUG",
+      "OligoFormer_efficacy": 0.636168,
+      "OligoFormer_rank_in_gene": 159
+    },
+    {
+      "guide": "UCUUAACACCCUACCUAAACA",
+      "target_pos": 3996,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3996",
+      "of_core_19nt": "UCUUAACACCCUACCUAAA",
+      "OligoFormer_efficacy": 0.625838,
+      "OligoFormer_rank_in_gene": 160
+    },
+    {
+      "guide": "GGCACCUGUUUAUUUGUACCC",
+      "target_pos": 3888,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3888",
+      "of_core_19nt": "GGCACCUGUUUAUUUGUAC",
+      "OligoFormer_efficacy": 0.621341,
+      "OligoFormer_rank_in_gene": 161
+    },
+    {
+      "guide": "AACUAUUAAUUUUUAAGUAUA",
+      "target_pos": 3861,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3861",
+      "of_core_19nt": "AACUAUUAAUUUUUAAGUA",
+      "OligoFormer_efficacy": 0.609903,
+      "OligoFormer_rank_in_gene": 162
+    },
+    {
+      "guide": "AGGCCUCUCUCCCGCACCUGG",
+      "target_pos": 162,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_162",
+      "of_core_19nt": "AGGCCUCUCUCCCGCACCU",
+      "OligoFormer_efficacy": 0.609385,
+      "OligoFormer_rank_in_gene": 163
+    },
+    {
+      "guide": "GACAUACACCUUAAUGUGUAC",
+      "target_pos": 3780,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3780",
+      "of_core_19nt": "GACAUACACCUUAAUGUGU",
+      "OligoFormer_efficacy": 0.607921,
+      "OligoFormer_rank_in_gene": 164
+    },
+    {
+      "guide": "GGGAAUACUGGCACUUAGAGG",
+      "target_pos": 1053,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1053",
+      "of_core_19nt": "GGGAAUACUGGCACUUAGA",
+      "OligoFormer_efficacy": 0.586741,
+      "OligoFormer_rank_in_gene": 165
+    },
+    {
+      "guide": "CUAAAACAAUGGAAUGUAUUA",
+      "target_pos": 3078,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3078",
+      "of_core_19nt": "CUAAAACAAUGGAAUGUAU",
+      "OligoFormer_efficacy": 0.581484,
+      "OligoFormer_rank_in_gene": 166
+    },
+    {
+      "guide": "UCCCCUAAAAAAAGUUAUAUA",
+      "target_pos": 4590,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4590",
+      "of_core_19nt": "UCCCCUAAAAAAAGUUAUA",
+      "OligoFormer_efficacy": 0.567795,
+      "OligoFormer_rank_in_gene": 167
+    },
+    {
+      "guide": "CAUACUCCUAUAAACAUUUAA",
+      "target_pos": 5319,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_5319",
+      "of_core_19nt": "CAUACUCCUAUAAACAUUU",
+      "OligoFormer_efficacy": 0.563947,
+      "OligoFormer_rank_in_gene": 168
+    },
+    {
+      "guide": "CUAAAACAAAUGCUAAUAAUU",
+      "target_pos": 945,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_945",
+      "of_core_19nt": "CUAAAACAAAUGCUAAUAA",
+      "OligoFormer_efficacy": 0.542715,
+      "OligoFormer_rank_in_gene": 169
+    },
+    {
+      "guide": "GGAGUAGUACAGUUCAUGACA",
+      "target_pos": 5373,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_5373",
+      "of_core_19nt": "GGAGUAGUACAGUUCAUGA",
+      "OligoFormer_efficacy": 0.541334,
+      "OligoFormer_rank_in_gene": 170
+    },
+    {
+      "guide": "GAAGAAAAAAUGUUUAGAAGA",
+      "target_pos": 4563,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4563",
+      "of_core_19nt": "GAAGAAAAAAUGUUUAGAA",
+      "OligoFormer_efficacy": 0.538622,
+      "OligoFormer_rank_in_gene": 171
+    },
+    {
+      "guide": "CAACUUUUGAGUUAAUAUUUA",
+      "target_pos": 2106,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2106",
+      "of_core_19nt": "CAACUUUUGAGUUAAUAUU",
+      "OligoFormer_efficacy": 0.533017,
+      "OligoFormer_rank_in_gene": 172
+    },
+    {
+      "guide": "CCUGGCCUUGCAACCUUGGUC",
+      "target_pos": 1863,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1863",
+      "of_core_19nt": "CCUGGCCUUGCAACCUUGG",
+      "OligoFormer_efficacy": 0.530932,
+      "OligoFormer_rank_in_gene": 173
+    },
+    {
+      "guide": "ACAGAAGUUACUAAAUAUAAA",
+      "target_pos": 4725,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4725",
+      "of_core_19nt": "ACAGAAGUUACUAAAUAUA",
+      "OligoFormer_efficacy": 0.523855,
+      "OligoFormer_rank_in_gene": 174
+    },
+    {
+      "guide": "CAUCAUCAACACCCAGAUUAC",
+      "target_pos": 756,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_756",
+      "of_core_19nt": "CAUCAUCAACACCCAGAUU",
+      "OligoFormer_efficacy": 0.523528,
+      "OligoFormer_rank_in_gene": 175
+    },
+    {
+      "guide": "CAUUCAUCAGGGAUGACAAAC",
+      "target_pos": 1377,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1377",
+      "of_core_19nt": "CAUUCAUCAGGGAUGACAA",
+      "OligoFormer_efficacy": 0.522534,
+      "OligoFormer_rank_in_gene": 176
+    },
+    {
+      "guide": "GGCAUGUGGAAGGUAGGGAGG",
+      "target_pos": 2700,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2700",
+      "of_core_19nt": "GGCAUGUGGAAGGUAGGGA",
+      "OligoFormer_efficacy": 0.520154,
+      "OligoFormer_rank_in_gene": 177
+    },
+    {
+      "guide": "GCAGAAUUCAUGCUAUCCAGU",
+      "target_pos": 4752,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4752",
+      "of_core_19nt": "GCAGAAUUCAUGCUAUCCA",
+      "OligoFormer_efficacy": 0.516874,
+      "OligoFormer_rank_in_gene": 178
+    },
+    {
+      "guide": "GGGCAUUUCUGAUGUGACUCA",
+      "target_pos": 2808,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2808",
+      "of_core_19nt": "GGGCAUUUCUGAUGUGACU",
+      "OligoFormer_efficacy": 0.514676,
+      "OligoFormer_rank_in_gene": 179
+    },
+    {
+      "guide": "CUUGUUAAAAUCUUUUCAAUU",
+      "target_pos": 1674,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1674",
+      "of_core_19nt": "CUUGUUAAAAUCUUUUCAA",
+      "OligoFormer_efficacy": 0.511135,
+      "OligoFormer_rank_in_gene": 180
+    },
+    {
+      "guide": "CUUCAUUGUUUAAAAAAAAAA",
+      "target_pos": 2160,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_2160",
+      "of_core_19nt": "CUUCAUUGUUUAAAAAAAA",
+      "OligoFormer_efficacy": 0.508727,
+      "OligoFormer_rank_in_gene": 181
+    },
+    {
+      "guide": "GGUAAUUAACCACUACCUUAA",
+      "target_pos": 4131,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4131",
+      "of_core_19nt": "GGUAAUUAACCACUACCUU",
+      "OligoFormer_efficacy": 0.508306,
+      "OligoFormer_rank_in_gene": 182
+    },
+    {
+      "guide": "CUUGUGCAAACUGUAACUUAA",
+      "target_pos": 4509,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4509",
+      "of_core_19nt": "CUUGUGCAAACUGUAACUU",
+      "OligoFormer_efficacy": 0.507325,
+      "OligoFormer_rank_in_gene": 183
+    },
+    {
+      "guide": "GUGUGGGGGGAGAGAUGGGCC",
+      "target_pos": 4968,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4968",
+      "of_core_19nt": "GUGUGGGGGGAGAGAUGGG",
+      "OligoFormer_efficacy": 0.503972,
+      "OligoFormer_rank_in_gene": 184
+    },
+    {
+      "guide": "UCCGAAAUGGCGGGGGCCGGG",
+      "target_pos": 81,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_81",
+      "of_core_19nt": "UCCGAAAUGGCGGGGGCCG",
+      "OligoFormer_efficacy": 0.503522,
+      "OligoFormer_rank_in_gene": 185
+    },
+    {
+      "guide": "CAUUUAAGGUAAAAGCUAACA",
+      "target_pos": 999,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_999",
+      "of_core_19nt": "CAUUUAAGGUAAAAGCUAA",
+      "OligoFormer_efficacy": 0.502784,
+      "OligoFormer_rank_in_gene": 186
+    },
+    {
+      "guide": "GCCACUGCCGCCGCCGCUGCU",
+      "target_pos": 27,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_27",
+      "of_core_19nt": "GCCACUGCCGCCGCCGCUG",
+      "OligoFormer_efficacy": 0.502154,
+      "OligoFormer_rank_in_gene": 187
+    },
+    {
+      "guide": "GUUCCUGAAGUAUGGCCAUUU",
+      "target_pos": 4050,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4050",
+      "of_core_19nt": "GUUCCUGAAGUAUGGCCAU",
+      "OligoFormer_efficacy": 0.501058,
+      "OligoFormer_rank_in_gene": 188
+    },
+    {
+      "guide": "CCUAAAUAUCCCCUCAUAAGC",
+      "target_pos": 4077,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4077",
+      "of_core_19nt": "CCUAAAUAUCCCCUCAUAA",
+      "OligoFormer_efficacy": 0.499007,
+      "OligoFormer_rank_in_gene": 189
+    },
+    {
+      "guide": "CAGUGCCUGCGCCGCGCUCGC",
+      "target_pos": 108,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_108",
+      "of_core_19nt": "CAGUGCCUGCGCCGCGCUC",
+      "OligoFormer_efficacy": 0.496726,
+      "OligoFormer_rank_in_gene": 190
+    },
+    {
+      "guide": "CCACAAAGUUUCUAUGUAUAU",
+      "target_pos": 4482,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4482",
+      "of_core_19nt": "CCACAAAGUUUCUAUGUAU",
+      "OligoFormer_efficacy": 0.489403,
+      "OligoFormer_rank_in_gene": 191
+    },
+    {
+      "guide": "CCAAAAUGGUUGCUAUAAUAA",
+      "target_pos": 1620,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_1620",
+      "of_core_19nt": "CCAAAAUGGUUGCUAUAAU",
+      "OligoFormer_efficacy": 0.489157,
+      "OligoFormer_rank_in_gene": 192
+    },
+    {
+      "guide": "CUGAGCCUCUGGCCCCGCCGC",
+      "target_pos": 135,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_135",
+      "of_core_19nt": "CUGAGCCUCUGGCCCCGCC",
+      "OligoFormer_efficacy": 0.477619,
+      "OligoFormer_rank_in_gene": 193
+    },
+    {
+      "guide": "GAGUCCUUAACUCUUUUAAUU",
+      "target_pos": 486,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_486",
+      "of_core_19nt": "GAGUCCUUAACUCUUUUAA",
+      "OligoFormer_efficacy": 0.475497,
+      "OligoFormer_rank_in_gene": 194
+    },
+    {
+      "guide": "CCUACUAGGACCAUAGGUACA",
+      "target_pos": 513,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_513",
+      "of_core_19nt": "CCUACUAGGACCAUAGGUA",
+      "OligoFormer_efficacy": 0.443536,
+      "OligoFormer_rank_in_gene": 195
+    },
+    {
+      "guide": "GGAUCAUAUUCGUCCACAAAA",
+      "target_pos": 270,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_270",
+      "of_core_19nt": "GGAUCAUAUUCGUCCACAA",
+      "OligoFormer_efficacy": 0.443174,
+      "OligoFormer_rank_in_gene": 196
+    },
+    {
+      "guide": "CCAGGAGUAGUCCUAGUUAUA",
+      "target_pos": 3051,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_3051",
+      "of_core_19nt": "CCAGGAGUAGUCCUAGUUA",
+      "OligoFormer_efficacy": 0.424491,
+      "OligoFormer_rank_in_gene": 197
+    },
+    {
+      "guide": "GCCCAUCUACAUCAAAAAUUC",
+      "target_pos": 4104,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_4104",
+      "of_core_19nt": "GCCCAUCUACAUCAAAAAU",
+      "OligoFormer_efficacy": 0.414868,
+      "OligoFormer_rank_in_gene": 198
+    },
+    {
+      "guide": "GGCCGAGCCGCCGCCACCUUC",
+      "target_pos": 54,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_54",
+      "of_core_19nt": "GGCCGAGCCGCCGCCACCU",
+      "OligoFormer_efficacy": 0.389613,
+      "OligoFormer_rank_in_gene": 199
+    },
+    {
+      "guide": "GCCGCCGCGGCCGCCGCCUAG",
+      "target_pos": 0,
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "id": "des_KRAS_0",
+      "of_core_19nt": "GCCGCCGCGGCCGCCGCCU",
+      "OligoFormer_efficacy": 0.237431,
+      "OligoFormer_rank_in_gene": 200
+    }
+  ]
+}

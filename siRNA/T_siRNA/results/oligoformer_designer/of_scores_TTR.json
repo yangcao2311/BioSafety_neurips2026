@@ -1,0 +1,2010 @@
+{
+  "gene": "TTR",
+  "accession": "NM_000371.4",
+  "n_candidates": 200,
+  "direction": "higher_is_better",
+  "length_convention": "21 nt 引导链取 guide[0:19] 作 19 nt 双链核心送入 OligoFormer",
+  "note": "efficacy 是设计器信号，不是检测器值，不参与 r_1..r_4。",
+  "candidates": [
+    {
+      "guide": "UUUCCACUUUGUAUAUCCCUU",
+      "target_pos": 282,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_282",
+      "of_core_19nt": "UUUCCACUUUGUAUAUCCC",
+      "OligoFormer_efficacy": 1.048728,
+      "OligoFormer_rank_in_gene": 1
+    },
+    {
+      "guide": "UCUACAAAUUCCUCCUCAGUU",
+      "target_pos": 262,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_262",
+      "of_core_19nt": "UCUACAAAUUCCUCCUCAG",
+      "OligoFormer_efficacy": 1.001094,
+      "OligoFormer_rank_in_gene": 2
+    },
+    {
+      "guide": "UCGGACAGCAUCUAGAACUUU",
+      "target_pos": 128,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_128",
+      "of_core_19nt": "UCGGACAGCAUCUAGAACU",
+      "OligoFormer_efficacy": 0.98825,
+      "OligoFormer_rank_in_gene": 3
+    },
+    {
+      "guide": "UCUAGAACUUUGACCAUCAGA",
+      "target_pos": 118,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_118",
+      "of_core_19nt": "UCUAGAACUUUGACCAUCA",
+      "OligoFormer_efficacy": 0.985818,
+      "OligoFormer_rank_in_gene": 4
+    },
+    {
+      "guide": "UACAAAUUCCUCCUCAGUUGU",
+      "target_pos": 260,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_260",
+      "of_core_19nt": "UACAAAUUCCUCCUCAGUU",
+      "OligoFormer_efficacy": 0.985127,
+      "OligoFormer_rank_in_gene": 5
+    },
+    {
+      "guide": "UAUUUCCACUUUGUAUAUCCC",
+      "target_pos": 284,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_284",
+      "of_core_19nt": "UAUUUCCACUUUGUAUAUC",
+      "OligoFormer_efficacy": 0.975985,
+      "OligoFormer_rank_in_gene": 6
+    },
+    {
+      "guide": "UAGAACUUUGACCAUCAGAGG",
+      "target_pos": 116,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_116",
+      "of_core_19nt": "UAGAACUUUGACCAUCAGA",
+      "OligoFormer_efficacy": 0.968746,
+      "OligoFormer_rank_in_gene": 7
+    },
+    {
+      "guide": "AUCCCUUCUACAAAUUCCUCC",
+      "target_pos": 268,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_268",
+      "of_core_19nt": "AUCCCUUCUACAAAUUCCU",
+      "OligoFormer_efficacy": 0.960016,
+      "OligoFormer_rank_in_gene": 8
+    },
+    {
+      "guide": "UCAGAGGACACUUGGAUUCAC",
+      "target_pos": 102,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_102",
+      "of_core_19nt": "UCAGAGGACACUUGGAUUC",
+      "OligoFormer_efficacy": 0.95434,
+      "OligoFormer_rank_in_gene": 9
+    },
+    {
+      "guide": "UUGUAUAUCCCUUCUACAAAU",
+      "target_pos": 274,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_274",
+      "of_core_19nt": "UUGUAUAUCCCUUCUACAA",
+      "OligoFormer_efficacy": 0.951109,
+      "OligoFormer_rank_in_gene": 10
+    },
+    {
+      "guide": "AUAUCCCUUCUACAAAUUCCU",
+      "target_pos": 270,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_270",
+      "of_core_19nt": "AUAUCCCUUCUACAAAUUC",
+      "OligoFormer_efficacy": 0.948276,
+      "OligoFormer_rank_in_gene": 11
+    },
+    {
+      "guide": "GAACUUUGACCAUCAGAGGAC",
+      "target_pos": 114,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_114",
+      "of_core_19nt": "GAACUUUGACCAUCAGAGG",
+      "OligoFormer_efficacy": 0.938813,
+      "OligoFormer_rank_in_gene": 12
+    },
+    {
+      "guide": "AUUUGGUGUCUAUUUCCACUU",
+      "target_pos": 294,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_294",
+      "of_core_19nt": "AUUUGGUGUCUAUUUCCAC",
+      "OligoFormer_efficacy": 0.937275,
+      "OligoFormer_rank_in_gene": 13
+    },
+    {
+      "guide": "AAUUCCUCCUCAGUUGUGAGC",
+      "target_pos": 256,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_256",
+      "of_core_19nt": "AAUUCCUCCUCAGUUGUGA",
+      "OligoFormer_efficacy": 0.933954,
+      "OligoFormer_rank_in_gene": 14
+    },
+    {
+      "guide": "AGCAUCUAGAACUUUGACCAU",
+      "target_pos": 122,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_122",
+      "of_core_19nt": "AGCAUCUAGAACUUUGACC",
+      "OligoFormer_efficacy": 0.931058,
+      "OligoFormer_rank_in_gene": 15
+    },
+    {
+      "guide": "ACUUUGACCAUCAGAGGACAC",
+      "target_pos": 112,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_112",
+      "of_core_19nt": "ACUUUGACCAUCAGAGGAC",
+      "OligoFormer_efficacy": 0.926446,
+      "OligoFormer_rank_in_gene": 16
+    },
+    {
+      "guide": "AGAUUUGGUGUCUAUUUCCAC",
+      "target_pos": 296,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_296",
+      "of_core_19nt": "AGAUUUGGUGUCUAUUUCC",
+      "OligoFormer_efficacy": 0.917198,
+      "OligoFormer_rank_in_gene": 17
+    },
+    {
+      "guide": "UUGGCUGUGAAUACCACCUCU",
+      "target_pos": 358,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_358",
+      "of_core_19nt": "UUGGCUGUGAAUACCACCU",
+      "OligoFormer_efficacy": 0.915397,
+      "OligoFormer_rank_in_gene": 18
+    },
+    {
+      "guide": "UUGGUGUCUAUUUCCACUUUG",
+      "target_pos": 292,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_292",
+      "of_core_19nt": "UUGGUGUCUAUUUCCACUU",
+      "OligoFormer_efficacy": 0.914955,
+      "OligoFormer_rank_in_gene": 19
+    },
+    {
+      "guide": "UCUGCAUGCUCAUGGAAUGGG",
+      "target_pos": 340,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_340",
+      "of_core_19nt": "UCUGCAUGCUCAUGGAAUG",
+      "OligoFormer_efficacy": 0.903991,
+      "OligoFormer_rank_in_gene": 20
+    },
+    {
+      "guide": "CCCUUCUACAAAUUCCUCCUC",
+      "target_pos": 266,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_266",
+      "of_core_19nt": "CCCUUCUACAAAUUCCUCC",
+      "OligoFormer_efficacy": 0.89827,
+      "OligoFormer_rank_in_gene": 21
+    },
+    {
+      "guide": "UUCCAGUAAGAUUUGGUGUCU",
+      "target_pos": 304,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_304",
+      "of_core_19nt": "UUCCAGUAAGAUUUGGUGU",
+      "OligoFormer_efficacy": 0.895358,
+      "OligoFormer_rank_in_gene": 22
+    },
+    {
+      "guide": "UGCAGCUCUCCAGACUCACUG",
+      "target_pos": 232,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_232",
+      "of_core_19nt": "UGCAGCUCUCCAGACUCAC",
+      "OligoFormer_efficacy": 0.889047,
+      "OligoFormer_rank_in_gene": 23
+    },
+    {
+      "guide": "UCAGCAGCCUUUCUGAACACA",
+      "target_pos": 178,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_178",
+      "of_core_19nt": "UCAGCAGCCUUUCUGAACA",
+      "OligoFormer_efficacy": 0.886875,
+      "OligoFormer_rank_in_gene": 24
+    },
+    {
+      "guide": "UUUGACCAUCAGAGGACACUU",
+      "target_pos": 110,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_110",
+      "of_core_19nt": "UUUGACCAUCAGAGGACAC",
+      "OligoFormer_efficacy": 0.886152,
+      "OligoFormer_rank_in_gene": 25
+    },
+    {
+      "guide": "CUUUGUAUAUCCCUUCUACAA",
+      "target_pos": 276,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_276",
+      "of_core_19nt": "CUUUGUAUAUCCCUUCUAC",
+      "OligoFormer_efficacy": 0.884067,
+      "OligoFormer_rank_in_gene": 26
+    },
+    {
+      "guide": "CAAAUUCCUCCUCAGUUGUGA",
+      "target_pos": 258,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_258",
+      "of_core_19nt": "CAAAUUCCUCCUCAGUUGU",
+      "OligoFormer_efficacy": 0.874825,
+      "OligoFormer_rank_in_gene": 27
+    },
+    {
+      "guide": "AGACGAUGAGAAGCCAUCCUG",
+      "target_pos": 22,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_22",
+      "of_core_19nt": "AGACGAUGAGAAGCCAUCC",
+      "OligoFormer_efficacy": 0.869266,
+      "OligoFormer_rank_in_gene": 28
+    },
+    {
+      "guide": "UGCCUUCCAGUAAGAUUUGGU",
+      "target_pos": 308,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_308",
+      "of_core_19nt": "UGCCUUCCAGUAAGAUUUG",
+      "OligoFormer_efficacy": 0.861475,
+      "OligoFormer_rank_in_gene": 29
+    },
+    {
+      "guide": "CUUCUACAAAUUCCUCCUCAG",
+      "target_pos": 264,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_264",
+      "of_core_19nt": "CUUCUACAAAUUCCUCCUC",
+      "OligoFormer_efficacy": 0.861312,
+      "OligoFormer_rank_in_gene": 30
+    },
+    {
+      "guide": "CAAGAAUGAGUGGACUUCUGU",
+      "target_pos": 0,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_0",
+      "of_core_19nt": "CAAGAAUGAGUGGACUUCU",
+      "OligoFormer_efficacy": 0.860643,
+      "OligoFormer_rank_in_gene": 31
+    },
+    {
+      "guide": "UGACCAUCAGAGGACACUUGG",
+      "target_pos": 108,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_108",
+      "of_core_19nt": "UGACCAUCAGAGGACACUU",
+      "OligoFormer_efficacy": 0.849038,
+      "OligoFormer_rank_in_gene": 32
+    },
+    {
+      "guide": "ACAGCAUCUAGAACUUUGACC",
+      "target_pos": 124,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_124",
+      "of_core_19nt": "ACAGCAUCUAGAACUUUGA",
+      "OligoFormer_efficacy": 0.84653,
+      "OligoFormer_rank_in_gene": 33
+    },
+    {
+      "guide": "AUGCCAAGUGCCUUCCAGUAA",
+      "target_pos": 316,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_316",
+      "of_core_19nt": "AUGCCAAGUGCCUUCCAGU",
+      "OligoFormer_efficacy": 0.839686,
+      "OligoFormer_rank_in_gene": 34
+    },
+    {
+      "guide": "CAGACUCACUGGUUUUCCCAG",
+      "target_pos": 222,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_222",
+      "of_core_19nt": "CAGACUCACUGGUUUUCCC",
+      "OligoFormer_efficacy": 0.839464,
+      "OligoFormer_rank_in_gene": 35
+    },
+    {
+      "guide": "UUCCUCCUCAGUUGUGAGCCC",
+      "target_pos": 254,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_254",
+      "of_core_19nt": "UUCCUCCUCAGUUGUGAGC",
+      "OligoFormer_efficacy": 0.837437,
+      "OligoFormer_rank_in_gene": 36
+    },
+    {
+      "guide": "AGAGGACACUUGGAUUCACCG",
+      "target_pos": 100,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_100",
+      "of_core_19nt": "AGAGGACACUUGGAUUCAC",
+      "OligoFormer_efficacy": 0.83343,
+      "OligoFormer_rank_in_gene": 37
+    },
+    {
+      "guide": "UUCCCAGAGGCAAAUGGCUCC",
+      "target_pos": 208,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_208",
+      "of_core_19nt": "UUCCCAGAGGCAAAUGGCU",
+      "OligoFormer_efficacy": 0.826808,
+      "OligoFormer_rank_in_gene": 38
+    },
+    {
+      "guide": "GUUGUGAGCCCAUGCAGCUCU",
+      "target_pos": 244,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_244",
+      "of_core_19nt": "GUUGUGAGCCCAUGCAGCU",
+      "OligoFormer_efficacy": 0.822806,
+      "OligoFormer_rank_in_gene": 39
+    },
+    {
+      "guide": "CUCAGUUGUGAGCCCAUGCAG",
+      "target_pos": 248,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_248",
+      "of_core_19nt": "CUCAGUUGUGAGCCCAUGC",
+      "OligoFormer_efficacy": 0.821705,
+      "OligoFormer_rank_in_gene": 40
+    },
+    {
+      "guide": "AUUGAUGGCAGGACUGCCUCG",
+      "target_pos": 146,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_146",
+      "of_core_19nt": "AUUGAUGGCAGGACUGCCU",
+      "OligoFormer_efficacy": 0.820389,
+      "OligoFormer_rank_in_gene": 41
+    },
+    {
+      "guide": "UCUAUUUCCACUUUGUAUAUC",
+      "target_pos": 286,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_286",
+      "of_core_19nt": "UCUAUUUCCACUUUGUAUA",
+      "OligoFormer_efficacy": 0.816712,
+      "OligoFormer_rank_in_gene": 42
+    },
+    {
+      "guide": "GAGCAGACGAUGAGAAGCCAU",
+      "target_pos": 26,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_26",
+      "of_core_19nt": "GAGCAGACGAUGAGAAGCC",
+      "OligoFormer_efficacy": 0.815716,
+      "OligoFormer_rank_in_gene": 43
+    },
+    {
+      "guide": "UGAGAAGCCAUCCUGCCAAGA",
+      "target_pos": 16,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_16",
+      "of_core_19nt": "UGAGAAGCCAUCCUGCCAA",
+      "OligoFormer_efficacy": 0.813102,
+      "OligoFormer_rank_in_gene": 44
+    },
+    {
+      "guide": "UCCACUUUGUAUAUCCCUUCU",
+      "target_pos": 280,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_280",
+      "of_core_19nt": "UCCACUUUGUAUAUCCCUU",
+      "OligoFormer_efficacy": 0.809922,
+      "OligoFormer_rank_in_gene": 45
+    },
+    {
+      "guide": "CUGCCAAGAAUGAGUGGACUU",
+      "target_pos": 4,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_4",
+      "of_core_19nt": "CUGCCAAGAAUGAGUGGAC",
+      "OligoFormer_efficacy": 0.803252,
+      "OligoFormer_rank_in_gene": 46
+    },
+    {
+      "guide": "UUUUCCCAGAGGCAAAUGGCU",
+      "target_pos": 210,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_210",
+      "of_core_19nt": "UUUUCCCAGAGGCAAAUGG",
+      "OligoFormer_efficacy": 0.802963,
+      "OligoFormer_rank_in_gene": 47
+    },
+    {
+      "guide": "AGGACACUUGGAUUCACCGGU",
+      "target_pos": 98,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_98",
+      "of_core_19nt": "AGGACACUUGGAUUCACCG",
+      "OligoFormer_efficacy": 0.802318,
+      "OligoFormer_rank_in_gene": 48
+    },
+    {
+      "guide": "UAAGAUUUGGUGUCUAUUUCC",
+      "target_pos": 298,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_298",
+      "of_core_19nt": "UAAGAUUUGGUGUCUAUUU",
+      "OligoFormer_efficacy": 0.799871,
+      "OligoFormer_rank_in_gene": 49
+    },
+    {
+      "guide": "CUGUGAAUACCACCUCUGCAU",
+      "target_pos": 354,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_354",
+      "of_core_19nt": "CUGUGAAUACCACCUCUGC",
+      "OligoFormer_efficacy": 0.799032,
+      "OligoFormer_rank_in_gene": 50
+    },
+    {
+      "guide": "UGUCUAUUUCCACUUUGUAUA",
+      "target_pos": 288,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_288",
+      "of_core_19nt": "UGUCUAUUUCCACUUUGUA",
+      "OligoFormer_efficacy": 0.797958,
+      "OligoFormer_rank_in_gene": 51
+    },
+    {
+      "guide": "ACAUUGAUGGCAGGACUGCCU",
+      "target_pos": 148,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_148",
+      "of_core_19nt": "ACAUUGAUGGCAGGACUGC",
+      "OligoFormer_efficacy": 0.796147,
+      "OligoFormer_rank_in_gene": 52
+    },
+    {
+      "guide": "UGUGAGCCCAUGCAGCUCUCC",
+      "target_pos": 242,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_242",
+      "of_core_19nt": "UGUGAGCCCAUGCAGCUCU",
+      "OligoFormer_efficacy": 0.793829,
+      "OligoFormer_rank_in_gene": 53
+    },
+    {
+      "guide": "ACGAUGAGAAGCCAUCCUGCC",
+      "target_pos": 20,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_20",
+      "of_core_19nt": "ACGAUGAGAAGCCAUCCUG",
+      "OligoFormer_efficacy": 0.792918,
+      "OligoFormer_rank_in_gene": 54
+    },
+    {
+      "guide": "GUCGUUGGCUGUGAAUACCAC",
+      "target_pos": 362,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_362",
+      "of_core_19nt": "GUCGUUGGCUGUGAAUACC",
+      "OligoFormer_efficacy": 0.791211,
+      "OligoFormer_rank_in_gene": 55
+    },
+    {
+      "guide": "UUCUGAACACAUGCACGGCCA",
+      "target_pos": 168,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_168",
+      "of_core_19nt": "UUCUGAACACAUGCACGGC",
+      "OligoFormer_efficacy": 0.784331,
+      "OligoFormer_rank_in_gene": 56
+    },
+    {
+      "guide": "CAUGCAGCUCUCCAGACUCAC",
+      "target_pos": 234,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_234",
+      "of_core_19nt": "CAUGCAGCUCUCCAGACUC",
+      "OligoFormer_efficacy": 0.784203,
+      "OligoFormer_rank_in_gene": 57
+    },
+    {
+      "guide": "ACAUGCACGGCCACAUUGAUG",
+      "target_pos": 160,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_160",
+      "of_core_19nt": "ACAUGCACGGCCACAUUGA",
+      "OligoFormer_efficacy": 0.782828,
+      "OligoFormer_rank_in_gene": 58
+    },
+    {
+      "guide": "GAAUACCACCUCUGCAUGCUC",
+      "target_pos": 350,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_350",
+      "of_core_19nt": "GAAUACCACCUCUGCAUGC",
+      "OligoFormer_efficacy": 0.775823,
+      "OligoFormer_rank_in_gene": 59
+    },
+    {
+      "guide": "CAGACACAAAUACCAGUCCAG",
+      "target_pos": 60,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_60",
+      "of_core_19nt": "CAGACACAAAUACCAGUCC",
+      "OligoFormer_efficacy": 0.771879,
+      "OligoFormer_rank_in_gene": 60
+    },
+    {
+      "guide": "GAUGAGAAGCCAUCCUGCCAA",
+      "target_pos": 18,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_18",
+      "of_core_19nt": "GAUGAGAAGCCAUCCUGCC",
+      "OligoFormer_efficacy": 0.771132,
+      "OligoFormer_rank_in_gene": 61
+    },
+    {
+      "guide": "ACUGCCUCGGACAGCAUCUAG",
+      "target_pos": 134,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_134",
+      "of_core_19nt": "ACUGCCUCGGACAGCAUCU",
+      "OligoFormer_efficacy": 0.770208,
+      "OligoFormer_rank_in_gene": 62
+    },
+    {
+      "guide": "CAAAUACCAGUCCAGCAAGGC",
+      "target_pos": 54,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_54",
+      "of_core_19nt": "CAAAUACCAGUCCAGCAAG",
+      "OligoFormer_efficacy": 0.769455,
+      "OligoFormer_rank_in_gene": 63
+    },
+    {
+      "guide": "CAGCCUCAGACACAAAUACCA",
+      "target_pos": 66,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_66",
+      "of_core_19nt": "CAGCCUCAGACACAAAUAC",
+      "OligoFormer_efficacy": 0.764291,
+      "OligoFormer_rank_in_gene": 64
+    },
+    {
+      "guide": "AUACCACCUCUGCAUGCUCAU",
+      "target_pos": 348,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_348",
+      "of_core_19nt": "AUACCACCUCUGCAUGCUC",
+      "OligoFormer_efficacy": 0.760889,
+      "OligoFormer_rank_in_gene": 65
+    },
+    {
+      "guide": "CUUUCUGAACACAUGCACGGC",
+      "target_pos": 170,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_170",
+      "of_core_19nt": "CUUUCUGAACACAUGCACG",
+      "OligoFormer_efficacy": 0.760395,
+      "OligoFormer_rank_in_gene": 66
+    },
+    {
+      "guide": "CACAAAUACCAGUCCAGCAAG",
+      "target_pos": 56,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_56",
+      "of_core_19nt": "CACAAAUACCAGUCCAGCA",
+      "OligoFormer_efficacy": 0.759766,
+      "OligoFormer_rank_in_gene": 67
+    },
+    {
+      "guide": "UCCAGACUCACUGGUUUUCCC",
+      "target_pos": 224,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_224",
+      "of_core_19nt": "UCCAGACUCACUGGUUUUC",
+      "OligoFormer_efficacy": 0.759363,
+      "OligoFormer_rank_in_gene": 68
+    },
+    {
+      "guide": "CAUCCUGCCAAGAAUGAGUGG",
+      "target_pos": 8,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_8",
+      "of_core_19nt": "CAUCCUGCCAAGAAUGAGU",
+      "OligoFormer_efficacy": 0.758217,
+      "OligoFormer_rank_in_gene": 69
+    },
+    {
+      "guide": "CUGAACACAUGCACGGCCACA",
+      "target_pos": 166,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_166",
+      "of_core_19nt": "CUGAACACAUGCACGGCCA",
+      "OligoFormer_efficacy": 0.753716,
+      "OligoFormer_rank_in_gene": 70
+    },
+    {
+      "guide": "UCCUGCCAAGAAUGAGUGGAC",
+      "target_pos": 6,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_6",
+      "of_core_19nt": "UCCUGCCAAGAAUGAGUGG",
+      "OligoFormer_efficacy": 0.75114,
+      "OligoFormer_rank_in_gene": 71
+    },
+    {
+      "guide": "ACCAUCAGAGGACACUUGGAU",
+      "target_pos": 106,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_106",
+      "of_core_19nt": "ACCAUCAGAGGACACUUGG",
+      "OligoFormer_efficacy": 0.749191,
+      "OligoFormer_rank_in_gene": 72
+    },
+    {
+      "guide": "CAGCUCUCCAGACUCACUGGU",
+      "target_pos": 230,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_230",
+      "of_core_19nt": "CAGCUCUCCAGACUCACUG",
+      "OligoFormer_efficacy": 0.747404,
+      "OligoFormer_rank_in_gene": 73
+    },
+    {
+      "guide": "CACCUCUGCAUGCUCAUGGAA",
+      "target_pos": 344,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_344",
+      "of_core_19nt": "CACCUCUGCAUGCUCAUGG",
+      "OligoFormer_efficacy": 0.746361,
+      "OligoFormer_rank_in_gene": 74
+    },
+    {
+      "guide": "UACCAGUCCAGCAAGGCAGAG",
+      "target_pos": 50,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_50",
+      "of_core_19nt": "UACCAGUCCAGCAAGGCAG",
+      "OligoFormer_efficacy": 0.746314,
+      "OligoFormer_rank_in_gene": 75
+    },
+    {
+      "guide": "CUCAGACACAAAUACCAGUCC",
+      "target_pos": 62,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_62",
+      "of_core_19nt": "CUCAGACACAAAUACCAGU",
+      "OligoFormer_efficacy": 0.745694,
+      "OligoFormer_rank_in_gene": 76
+    },
+    {
+      "guide": "UCCUCAGUUGUGAGCCCAUGC",
+      "target_pos": 250,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_250",
+      "of_core_19nt": "UCCUCAGUUGUGAGCCCAU",
+      "OligoFormer_efficacy": 0.745153,
+      "OligoFormer_rank_in_gene": 77
+    },
+    {
+      "guide": "CACUUGGAUUCACCGGUGCCC",
+      "target_pos": 94,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_94",
+      "of_core_19nt": "CACUUGGAUUCACCGGUGC",
+      "OligoFormer_efficacy": 0.743902,
+      "OligoFormer_rank_in_gene": 78
+    },
+    {
+      "guide": "AGUCCAGCAAGGCAGAGGAGG",
+      "target_pos": 46,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_46",
+      "of_core_19nt": "AGUCCAGCAAGGCAGAGGA",
+      "OligoFormer_efficacy": 0.743023,
+      "OligoFormer_rank_in_gene": 79
+    },
+    {
+      "guide": "GUCAUCAGCAGCCUUUCUGAA",
+      "target_pos": 182,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_182",
+      "of_core_19nt": "GUCAUCAGCAGCCUUUCUG",
+      "OligoFormer_efficacy": 0.742325,
+      "OligoFormer_rank_in_gene": 80
+    },
+    {
+      "guide": "GGAGAUGCCAAGUGCCUUCCA",
+      "target_pos": 320,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_320",
+      "of_core_19nt": "GGAGAUGCCAAGUGCCUUC",
+      "OligoFormer_efficacy": 0.738769,
+      "OligoFormer_rank_in_gene": 81
+    },
+    {
+      "guide": "CAGCCUUUCUGAACACAUGCA",
+      "target_pos": 174,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_174",
+      "of_core_19nt": "CAGCCUUUCUGAACACAUG",
+      "OligoFormer_efficacy": 0.738123,
+      "OligoFormer_rank_in_gene": 82
+    },
+    {
+      "guide": "GACACAAAUACCAGUCCAGCA",
+      "target_pos": 58,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_58",
+      "of_core_19nt": "GACACAAAUACCAGUCCAG",
+      "OligoFormer_efficacy": 0.734372,
+      "OligoFormer_rank_in_gene": 83
+    },
+    {
+      "guide": "CAAAUGGCUCCCAGGUGUCAU",
+      "target_pos": 198,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_198",
+      "of_core_19nt": "CAAAUGGCUCCCAGGUGUC",
+      "OligoFormer_efficacy": 0.733854,
+      "OligoFormer_rank_in_gene": 84
+    },
+    {
+      "guide": "CAGUUGUGAGCCCAUGCAGCU",
+      "target_pos": 246,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_246",
+      "of_core_19nt": "CAGUUGUGAGCCCAUGCAG",
+      "OligoFormer_efficacy": 0.728465,
+      "OligoFormer_rank_in_gene": 85
+    },
+    {
+      "guide": "AGGAGCAGACGAUGAGAAGCC",
+      "target_pos": 28,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_28",
+      "of_core_19nt": "AGGAGCAGACGAUGAGAAG",
+      "OligoFormer_efficacy": 0.727377,
+      "OligoFormer_rank_in_gene": 86
+    },
+    {
+      "guide": "AAUACCAGUCCAGCAAGGCAG",
+      "target_pos": 52,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_52",
+      "of_core_19nt": "AAUACCAGUCCAGCAAGGC",
+      "OligoFormer_efficacy": 0.727188,
+      "OligoFormer_rank_in_gene": 87
+    },
+    {
+      "guide": "AUGCACGGCCACAUUGAUGGC",
+      "target_pos": 158,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_158",
+      "of_core_19nt": "AUGCACGGCCACAUUGAUG",
+      "OligoFormer_efficacy": 0.725293,
+      "OligoFormer_rank_in_gene": 88
+    },
+    {
+      "guide": "UGAGCCCAUGCAGCUCUCCAG",
+      "target_pos": 240,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_240",
+      "of_core_19nt": "UGAGCCCAUGCAGCUCUCC",
+      "OligoFormer_efficacy": 0.724038,
+      "OligoFormer_rank_in_gene": 89
+    },
+    {
+      "guide": "AAGCCAUCCUGCCAAGAAUGA",
+      "target_pos": 12,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_12",
+      "of_core_19nt": "AAGCCAUCCUGCCAAGAAU",
+      "OligoFormer_efficacy": 0.721371,
+      "OligoFormer_rank_in_gene": 90
+    },
+    {
+      "guide": "UGCCUCGGACAGCAUCUAGAA",
+      "target_pos": 132,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_132",
+      "of_core_19nt": "UGCCUCGGACAGCAUCUAG",
+      "OligoFormer_efficacy": 0.715646,
+      "OligoFormer_rank_in_gene": 91
+    },
+    {
+      "guide": "CACUUUGUAUAUCCCUUCUAC",
+      "target_pos": 278,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_278",
+      "of_core_19nt": "CACUUUGUAUAUCCCUUCU",
+      "OligoFormer_efficacy": 0.711682,
+      "OligoFormer_rank_in_gene": 92
+    },
+    {
+      "guide": "CGUUGGCUGUGAAUACCACCU",
+      "target_pos": 360,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_360",
+      "of_core_19nt": "CGUUGGCUGUGAAUACCAC",
+      "OligoFormer_efficacy": 0.711213,
+      "OligoFormer_rank_in_gene": 93
+    },
+    {
+      "guide": "GACACUUGGAUUCACCGGUGC",
+      "target_pos": 96,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_96",
+      "of_core_19nt": "GACACUUGGAUUCACCGGU",
+      "OligoFormer_efficacy": 0.709346,
+      "OligoFormer_rank_in_gene": 94
+    },
+    {
+      "guide": "AGUGCCUUCCAGUAAGAUUUG",
+      "target_pos": 310,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_310",
+      "of_core_19nt": "AGUGCCUUCCAGUAAGAUU",
+      "OligoFormer_efficacy": 0.705836,
+      "OligoFormer_rank_in_gene": 95
+    },
+    {
+      "guide": "UGAUGGCAGGACUGCCUCGGA",
+      "target_pos": 144,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_144",
+      "of_core_19nt": "UGAUGGCAGGACUGCCUCG",
+      "OligoFormer_efficacy": 0.699936,
+      "OligoFormer_rank_in_gene": 96
+    },
+    {
+      "guide": "ACGGCCACAUUGAUGGCAGGA",
+      "target_pos": 154,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_154",
+      "of_core_19nt": "ACGGCCACAUUGAUGGCAG",
+      "OligoFormer_efficacy": 0.698295,
+      "OligoFormer_rank_in_gene": 97
+    },
+    {
+      "guide": "CAUGGAAUGGGGAGAUGCCAA",
+      "target_pos": 330,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_330",
+      "of_core_19nt": "CAUGGAAUGGGGAGAUGCC",
+      "OligoFormer_efficacy": 0.697899,
+      "OligoFormer_rank_in_gene": 98
+    },
+    {
+      "guide": "UCUCCAGACUCACUGGUUUUC",
+      "target_pos": 226,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_226",
+      "of_core_19nt": "UCUCCAGACUCACUGGUUU",
+      "OligoFormer_efficacy": 0.696462,
+      "OligoFormer_rank_in_gene": 99
+    },
+    {
+      "guide": "AUGGGGAGAUGCCAAGUGCCU",
+      "target_pos": 324,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_324",
+      "of_core_19nt": "AUGGGGAGAUGCCAAGUGC",
+      "OligoFormer_efficacy": 0.694349,
+      "OligoFormer_rank_in_gene": 100
+    },
+    {
+      "guide": "AGUAAGAUUUGGUGUCUAUUU",
+      "target_pos": 300,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_300",
+      "of_core_19nt": "AGUAAGAUUUGGUGUCUAU",
+      "OligoFormer_efficacy": 0.691882,
+      "OligoFormer_rank_in_gene": 101
+    },
+    {
+      "guide": "UGCAUGCUCAUGGAAUGGGGA",
+      "target_pos": 338,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_338",
+      "of_core_19nt": "UGCAUGCUCAUGGAAUGGG",
+      "OligoFormer_efficacy": 0.690295,
+      "OligoFormer_rank_in_gene": 102
+    },
+    {
+      "guide": "AGCAGCCUUUCUGAACACAUG",
+      "target_pos": 176,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_176",
+      "of_core_19nt": "AGCAGCCUUUCUGAACACA",
+      "OligoFormer_efficacy": 0.689302,
+      "OligoFormer_rank_in_gene": 103
+    },
+    {
+      "guide": "CAUCAGAGGACACUUGGAUUC",
+      "target_pos": 104,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_104",
+      "of_core_19nt": "CAUCAGAGGACACUUGGAU",
+      "OligoFormer_efficacy": 0.685789,
+      "OligoFormer_rank_in_gene": 104
+    },
+    {
+      "guide": "GCAGACGAUGAGAAGCCAUCC",
+      "target_pos": 24,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_24",
+      "of_core_19nt": "GCAGACGAUGAGAAGCCAU",
+      "OligoFormer_efficacy": 0.684322,
+      "OligoFormer_rank_in_gene": 105
+    },
+    {
+      "guide": "UCCCAGGUGUCAUCAGCAGCC",
+      "target_pos": 190,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_190",
+      "of_core_19nt": "UCCCAGGUGUCAUCAGCAG",
+      "OligoFormer_efficacy": 0.683002,
+      "OligoFormer_rank_in_gene": 106
+    },
+    {
+      "guide": "CCCAGAGGCAAAUGGCUCCCA",
+      "target_pos": 206,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_206",
+      "of_core_19nt": "CCCAGAGGCAAAUGGCUCC",
+      "OligoFormer_efficacy": 0.682668,
+      "OligoFormer_rank_in_gene": 107
+    },
+    {
+      "guide": "UAGGGCCAGCCUCAGACACAA",
+      "target_pos": 72,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_72",
+      "of_core_19nt": "UAGGGCCAGCCUCAGACAC",
+      "OligoFormer_efficacy": 0.682637,
+      "OligoFormer_rank_in_gene": 108
+    },
+    {
+      "guide": "AAUGGCUCCCAGGUGUCAUCA",
+      "target_pos": 196,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_196",
+      "of_core_19nt": "AAUGGCUCCCAGGUGUCAU",
+      "OligoFormer_efficacy": 0.682331,
+      "OligoFormer_rank_in_gene": 109
+    },
+    {
+      "guide": "CACUGGUUUUCCCAGAGGCAA",
+      "target_pos": 216,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_216",
+      "of_core_19nt": "CACUGGUUUUCCCAGAGGC",
+      "OligoFormer_efficacy": 0.679743,
+      "OligoFormer_rank_in_gene": 110
+    },
+    {
+      "guide": "CAUCUAGAACUUUGACCAUCA",
+      "target_pos": 120,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_120",
+      "of_core_19nt": "CAUCUAGAACUUUGACCAU",
+      "OligoFormer_efficacy": 0.679499,
+      "OligoFormer_rank_in_gene": 111
+    },
+    {
+      "guide": "CUUGGAUUCACCGGUGCCCGU",
+      "target_pos": 92,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_92",
+      "of_core_19nt": "CUUGGAUUCACCGGUGCCC",
+      "OligoFormer_efficacy": 0.675849,
+      "OligoFormer_rank_in_gene": 112
+    },
+    {
+      "guide": "UGGAUUCACCGGUGCCCGUAG",
+      "target_pos": 90,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_90",
+      "of_core_19nt": "UGGAUUCACCGGUGCCCGU",
+      "OligoFormer_efficacy": 0.67358,
+      "OligoFormer_rank_in_gene": 113
+    },
+    {
+      "guide": "UGCUCAUGGAAUGGGGAGAUG",
+      "target_pos": 334,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_334",
+      "of_core_19nt": "UGCUCAUGGAAUGGGGAGA",
+      "OligoFormer_efficacy": 0.672438,
+      "OligoFormer_rank_in_gene": 114
+    },
+    {
+      "guide": "AGCCCAUGCAGCUCUCCAGAC",
+      "target_pos": 238,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_238",
+      "of_core_19nt": "AGCCCAUGCAGCUCUCCAG",
+      "OligoFormer_efficacy": 0.671628,
+      "OligoFormer_rank_in_gene": 115
+    },
+    {
+      "guide": "CCAGGUGUCAUCAGCAGCCUU",
+      "target_pos": 188,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_188",
+      "of_core_19nt": "CCAGGUGUCAUCAGCAGCC",
+      "OligoFormer_efficacy": 0.671274,
+      "OligoFormer_rank_in_gene": 116
+    },
+    {
+      "guide": "GUGUCAUCAGCAGCCUUUCUG",
+      "target_pos": 184,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_184",
+      "of_core_19nt": "GUGUCAUCAGCAGCCUUUC",
+      "OligoFormer_efficacy": 0.670499,
+      "OligoFormer_rank_in_gene": 117
+    },
+    {
+      "guide": "CCUCCUCAGUUGUGAGCCCAU",
+      "target_pos": 252,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_252",
+      "of_core_19nt": "CCUCCUCAGUUGUGAGCCC",
+      "OligoFormer_efficacy": 0.668127,
+      "OligoFormer_rank_in_gene": 118
+    },
+    {
+      "guide": "GGAGGAGCAGACGAUGAGAAG",
+      "target_pos": 30,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_30",
+      "of_core_19nt": "GGAGGAGCAGACGAUGAGA",
+      "OligoFormer_efficacy": 0.66794,
+      "OligoFormer_rank_in_gene": 119
+    },
+    {
+      "guide": "AUGGCAGGACUGCCUCGGACA",
+      "target_pos": 142,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_142",
+      "of_core_19nt": "AUGGCAGGACUGCCUCGGA",
+      "OligoFormer_efficacy": 0.66778,
+      "OligoFormer_rank_in_gene": 120
+    },
+    {
+      "guide": "GUGAAUACCACCUCUGCAUGC",
+      "target_pos": 352,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_352",
+      "of_core_19nt": "GUGAAUACCACCUCUGCAU",
+      "OligoFormer_efficacy": 0.667062,
+      "OligoFormer_rank_in_gene": 121
+    },
+    {
+      "guide": "CAAGUGCCUUCCAGUAAGAUU",
+      "target_pos": 312,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_312",
+      "of_core_19nt": "CAAGUGCCUUCCAGUAAGA",
+      "OligoFormer_efficacy": 0.66286,
+      "OligoFormer_rank_in_gene": 122
+    },
+    {
+      "guide": "AGGGCGGCAAUGGUGUAGCGG",
+      "target_pos": 394,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_394",
+      "of_core_19nt": "AGGGCGGCAAUGGUGUAGC",
+      "OligoFormer_efficacy": 0.660712,
+      "OligoFormer_rank_in_gene": 123
+    },
+    {
+      "guide": "GAACACAUGCACGGCCACAUU",
+      "target_pos": 164,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_164",
+      "of_core_19nt": "GAACACAUGCACGGCCACA",
+      "OligoFormer_efficacy": 0.659163,
+      "OligoFormer_rank_in_gene": 124
+    },
+    {
+      "guide": "AGAAGCCAUCCUGCCAAGAAU",
+      "target_pos": 14,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_14",
+      "of_core_19nt": "AGAAGCCAUCCUGCCAAGA",
+      "OligoFormer_efficacy": 0.652679,
+      "OligoFormer_rank_in_gene": 125
+    },
+    {
+      "guide": "AGAUGCCAAGUGCCUUCCAGU",
+      "target_pos": 318,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_318",
+      "of_core_19nt": "AGAUGCCAAGUGCCUUCCA",
+      "OligoFormer_efficacy": 0.651871,
+      "OligoFormer_rank_in_gene": 126
+    },
+    {
+      "guide": "GUAUAUCCCUUCUACAAAUUC",
+      "target_pos": 272,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_272",
+      "of_core_19nt": "GUAUAUCCCUUCUACAAAU",
+      "OligoFormer_efficacy": 0.651689,
+      "OligoFormer_rank_in_gene": 127
+    },
+    {
+      "guide": "CAGGACUGCCUCGGACAGCAU",
+      "target_pos": 138,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_138",
+      "of_core_19nt": "CAGGACUGCCUCGGACAGC",
+      "OligoFormer_efficacy": 0.650616,
+      "OligoFormer_rank_in_gene": 128
+    },
+    {
+      "guide": "CCACAUUGAUGGCAGGACUGC",
+      "target_pos": 150,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_150",
+      "of_core_19nt": "CCACAUUGAUGGCAGGACU",
+      "OligoFormer_efficacy": 0.65037,
+      "OligoFormer_rank_in_gene": 129
+    },
+    {
+      "guide": "ACCACCUCUGCAUGCUCAUGG",
+      "target_pos": 346,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_346",
+      "of_core_19nt": "ACCACCUCUGCAUGCUCAU",
+      "OligoFormer_efficacy": 0.650243,
+      "OligoFormer_rank_in_gene": 130
+    },
+    {
+      "guide": "GGCGGCAAUGGUGUAGCGGCG",
+      "target_pos": 392,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_392",
+      "of_core_19nt": "GGCGGCAAUGGUGUAGCGG",
+      "OligoFormer_efficacy": 0.648933,
+      "OligoFormer_rank_in_gene": 131
+    },
+    {
+      "guide": "GGUGUCUAUUUCCACUUUGUA",
+      "target_pos": 290,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_290",
+      "of_core_19nt": "GGUGUCUAUUUCCACUUUG",
+      "OligoFormer_efficacy": 0.648531,
+      "OligoFormer_rank_in_gene": 132
+    },
+    {
+      "guide": "UUCACCGGUGCCCGUAGGGCC",
+      "target_pos": 86,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_86",
+      "of_core_19nt": "UUCACCGGUGCCCGUAGGG",
+      "OligoFormer_efficacy": 0.645495,
+      "OligoFormer_rank_in_gene": 133
+    },
+    {
+      "guide": "UGGAAUGGGGAGAUGCCAAGU",
+      "target_pos": 328,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_328",
+      "of_core_19nt": "UGGAAUGGGGAGAUGCCAA",
+      "OligoFormer_efficacy": 0.64288,
+      "OligoFormer_rank_in_gene": 134
+    },
+    {
+      "guide": "GAGGAGGAGCAGACGAUGAGA",
+      "target_pos": 32,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_32",
+      "of_core_19nt": "GAGGAGGAGCAGACGAUGA",
+      "OligoFormer_efficacy": 0.640562,
+      "OligoFormer_rank_in_gene": 135
+    },
+    {
+      "guide": "CAGCAGGGCGGCAAUGGUGUA",
+      "target_pos": 398,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_398",
+      "of_core_19nt": "CAGCAGGGCGGCAAUGGUG",
+      "OligoFormer_efficacy": 0.638172,
+      "OligoFormer_rank_in_gene": 136
+    },
+    {
+      "guide": "GAGGCAAAUGGCUCCCAGGUG",
+      "target_pos": 202,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_202",
+      "of_core_19nt": "GAGGCAAAUGGCUCCCAGG",
+      "OligoFormer_efficacy": 0.637432,
+      "OligoFormer_rank_in_gene": 137
+    },
+    {
+      "guide": "GAUUCACCGGUGCCCGUAGGG",
+      "target_pos": 88,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_88",
+      "of_core_19nt": "GAUUCACCGGUGCCCGUAG",
+      "OligoFormer_efficacy": 0.629684,
+      "OligoFormer_rank_in_gene": 138
+    },
+    {
+      "guide": "GCUCCCAGGUGUCAUCAGCAG",
+      "target_pos": 192,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_192",
+      "of_core_19nt": "GCUCCCAGGUGUCAUCAGC",
+      "OligoFormer_efficacy": 0.626039,
+      "OligoFormer_rank_in_gene": 139
+    },
+    {
+      "guide": "AAGGCAGAGGAGGAGCAGACG",
+      "target_pos": 38,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_38",
+      "of_core_19nt": "AAGGCAGAGGAGGAGCAGA",
+      "OligoFormer_efficacy": 0.625562,
+      "OligoFormer_rank_in_gene": 140
+    },
+    {
+      "guide": "GGGCCGGAGUCGUUGGCUGUG",
+      "target_pos": 370,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_370",
+      "of_core_19nt": "GGGCCGGAGUCGUUGGCUG",
+      "OligoFormer_efficacy": 0.623829,
+      "OligoFormer_rank_in_gene": 141
+    },
+    {
+      "guide": "GGCAGGACUGCCUCGGACAGC",
+      "target_pos": 140,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_140",
+      "of_core_19nt": "GGCAGGACUGCCUCGGACA",
+      "OligoFormer_efficacy": 0.620686,
+      "OligoFormer_rank_in_gene": 142
+    },
+    {
+      "guide": "CUCACUGGUUUUCCCAGAGGC",
+      "target_pos": 218,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_218",
+      "of_core_19nt": "CUCACUGGUUUUCCCAGAG",
+      "OligoFormer_efficacy": 0.620272,
+      "OligoFormer_rank_in_gene": 143
+    },
+    {
+      "guide": "GACUCACUGGUUUUCCCAGAG",
+      "target_pos": 220,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_220",
+      "of_core_19nt": "GACUCACUGGUUUUCCCAG",
+      "OligoFormer_efficacy": 0.619074,
+      "OligoFormer_rank_in_gene": 144
+    },
+    {
+      "guide": "CAGAGGAGGAGCAGACGAUGA",
+      "target_pos": 34,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_34",
+      "of_core_19nt": "CAGAGGAGGAGCAGACGAU",
+      "OligoFormer_efficacy": 0.618339,
+      "OligoFormer_rank_in_gene": 145
+    },
+    {
+      "guide": "GCAAUGGUGUAGCGGCGGGGG",
+      "target_pos": 388,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_388",
+      "of_core_19nt": "GCAAUGGUGUAGCGGCGGG",
+      "OligoFormer_efficacy": 0.617457,
+      "OligoFormer_rank_in_gene": 146
+    },
+    {
+      "guide": "UCCAGCAAGGCAGAGGAGGAG",
+      "target_pos": 44,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_44",
+      "of_core_19nt": "UCCAGCAAGGCAGAGGAGG",
+      "OligoFormer_efficacy": 0.615689,
+      "OligoFormer_rank_in_gene": 147
+    },
+    {
+      "guide": "CAGCAAGGCAGAGGAGGAGCA",
+      "target_pos": 42,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_42",
+      "of_core_19nt": "CAGCAAGGCAGAGGAGGAG",
+      "OligoFormer_efficacy": 0.606525,
+      "OligoFormer_rank_in_gene": 148
+    },
+    {
+      "guide": "CCUUCCAGUAAGAUUUGGUGU",
+      "target_pos": 306,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_306",
+      "of_core_19nt": "CCUUCCAGUAAGAUUUGGU",
+      "OligoFormer_efficacy": 0.604321,
+      "OligoFormer_rank_in_gene": 149
+    },
+    {
+      "guide": "UGGCUCCCAGGUGUCAUCAGC",
+      "target_pos": 194,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_194",
+      "of_core_19nt": "UGGCUCCCAGGUGUCAUCA",
+      "OligoFormer_efficacy": 0.602407,
+      "OligoFormer_rank_in_gene": 150
+    },
+    {
+      "guide": "GAAUGGGGAGAUGCCAAGUGC",
+      "target_pos": 326,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_326",
+      "of_core_19nt": "GAAUGGGGAGAUGCCAAGU",
+      "OligoFormer_efficacy": 0.5985,
+      "OligoFormer_rank_in_gene": 151
+    },
+    {
+      "guide": "ACACAUGCACGGCCACAUUGA",
+      "target_pos": 162,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_162",
+      "of_core_19nt": "ACACAUGCACGGCCACAUU",
+      "OligoFormer_efficacy": 0.594916,
+      "OligoFormer_rank_in_gene": 152
+    },
+    {
+      "guide": "CUCAUGGAAUGGGGAGAUGCC",
+      "target_pos": 332,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_332",
+      "of_core_19nt": "CUCAUGGAAUGGGGAGAUG",
+      "OligoFormer_efficacy": 0.592797,
+      "OligoFormer_rank_in_gene": 153
+    },
+    {
+      "guide": "GCCUCAGACACAAAUACCAGU",
+      "target_pos": 64,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_64",
+      "of_core_19nt": "GCCUCAGACACAAAUACCA",
+      "OligoFormer_efficacy": 0.592689,
+      "OligoFormer_rank_in_gene": 154
+    },
+    {
+      "guide": "UGCCCGUAGGGCCAGCCUCAG",
+      "target_pos": 78,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_78",
+      "of_core_19nt": "UGCCCGUAGGGCCAGCCUC",
+      "OligoFormer_efficacy": 0.58971,
+      "OligoFormer_rank_in_gene": 155
+    },
+    {
+      "guide": "GCACGGCCACAUUGAUGGCAG",
+      "target_pos": 156,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_156",
+      "of_core_19nt": "GCACGGCCACAUUGAUGGC",
+      "OligoFormer_efficacy": 0.588254,
+      "OligoFormer_rank_in_gene": 156
+    },
+    {
+      "guide": "CGUAGGGCCAGCCUCAGACAC",
+      "target_pos": 74,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_74",
+      "of_core_19nt": "CGUAGGGCCAGCCUCAGAC",
+      "OligoFormer_efficacy": 0.587036,
+      "OligoFormer_rank_in_gene": 157
+    },
+    {
+      "guide": "CCAGUCCAGCAAGGCAGAGGA",
+      "target_pos": 48,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_48",
+      "of_core_19nt": "CCAGUCCAGCAAGGCAGAG",
+      "OligoFormer_efficacy": 0.586609,
+      "OligoFormer_rank_in_gene": 158
+    },
+    {
+      "guide": "AGGUGUCAUCAGCAGCCUUUC",
+      "target_pos": 186,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_186",
+      "of_core_19nt": "AGGUGUCAUCAGCAGCCUU",
+      "OligoFormer_efficacy": 0.579973,
+      "OligoFormer_rank_in_gene": 159
+    },
+    {
+      "guide": "GGCUGUGAAUACCACCUCUGC",
+      "target_pos": 356,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_356",
+      "of_core_19nt": "GGCUGUGAAUACCACCUCU",
+      "OligoFormer_efficacy": 0.574981,
+      "OligoFormer_rank_in_gene": 160
+    },
+    {
+      "guide": "CCCAUGCAGCUCUCCAGACUC",
+      "target_pos": 236,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_236",
+      "of_core_19nt": "CCCAUGCAGCUCUCCAGAC",
+      "OligoFormer_efficacy": 0.573224,
+      "OligoFormer_rank_in_gene": 161
+    },
+    {
+      "guide": "CAUGCUCAUGGAAUGGGGAGA",
+      "target_pos": 336,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_336",
+      "of_core_19nt": "CAUGCUCAUGGAAUGGGGA",
+      "OligoFormer_efficacy": 0.571791,
+      "OligoFormer_rank_in_gene": 162
+    },
+    {
+      "guide": "GGCCACAUUGAUGGCAGGACU",
+      "target_pos": 152,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_152",
+      "of_core_19nt": "GGCCACAUUGAUGGCAGGA",
+      "OligoFormer_efficacy": 0.56919,
+      "OligoFormer_rank_in_gene": 163
+    },
+    {
+      "guide": "GGCAAAUGGCUCCCAGGUGUC",
+      "target_pos": 200,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_200",
+      "of_core_19nt": "GGCAAAUGGCUCCCAGGUG",
+      "OligoFormer_efficacy": 0.564331,
+      "OligoFormer_rank_in_gene": 164
+    },
+    {
+      "guide": "GCCAAGAAUGAGUGGACUUCU",
+      "target_pos": 2,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_2",
+      "of_core_19nt": "GCCAAGAAUGAGUGGACUU",
+      "OligoFormer_efficacy": 0.56116,
+      "OligoFormer_rank_in_gene": 165
+    },
+    {
+      "guide": "CACCGGUGCCCGUAGGGCCAG",
+      "target_pos": 84,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_84",
+      "of_core_19nt": "CACCGGUGCCCGUAGGGCC",
+      "OligoFormer_efficacy": 0.559618,
+      "OligoFormer_rank_in_gene": 166
+    },
+    {
+      "guide": "GGACAGCAUCUAGAACUUUGA",
+      "target_pos": 126,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_126",
+      "of_core_19nt": "GGACAGCAUCUAGAACUUU",
+      "OligoFormer_efficacy": 0.548041,
+      "OligoFormer_rank_in_gene": 167
+    },
+    {
+      "guide": "AAUGGUGUAGCGGCGGGGGCC",
+      "target_pos": 386,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_386",
+      "of_core_19nt": "AAUGGUGUAGCGGCGGGGG",
+      "OligoFormer_efficacy": 0.546396,
+      "OligoFormer_rank_in_gene": 168
+    },
+    {
+      "guide": "GGACUGCCUCGGACAGCAUCU",
+      "target_pos": 136,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_136",
+      "of_core_19nt": "GGACUGCCUCGGACAGCAU",
+      "OligoFormer_efficacy": 0.541647,
+      "OligoFormer_rank_in_gene": 169
+    },
+    {
+      "guide": "GGGGAGAUGCCAAGUGCCUUC",
+      "target_pos": 322,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_322",
+      "of_core_19nt": "GGGGAGAUGCCAAGUGCCU",
+      "OligoFormer_efficacy": 0.5372,
+      "OligoFormer_rank_in_gene": 170
+    },
+    {
+      "guide": "GAGUCGUUGGCUGUGAAUACC",
+      "target_pos": 364,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_364",
+      "of_core_19nt": "GAGUCGUUGGCUGUGAAUA",
+      "OligoFormer_efficacy": 0.537136,
+      "OligoFormer_rank_in_gene": 171
+    },
+    {
+      "guide": "CGGCAAUGGUGUAGCGGCGGG",
+      "target_pos": 390,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_390",
+      "of_core_19nt": "CGGCAAUGGUGUAGCGGCG",
+      "OligoFormer_efficacy": 0.531447,
+      "OligoFormer_rank_in_gene": 172
+    },
+    {
+      "guide": "CAUCAGCAGCCUUUCUGAACA",
+      "target_pos": 180,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_180",
+      "of_core_19nt": "CAUCAGCAGCCUUUCUGAA",
+      "OligoFormer_efficacy": 0.528432,
+      "OligoFormer_rank_in_gene": 173
+    },
+    {
+      "guide": "GGCAGAGGAGGAGCAGACGAU",
+      "target_pos": 36,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_36",
+      "of_core_19nt": "GGCAGAGGAGGAGCAGACG",
+      "OligoFormer_efficacy": 0.526515,
+      "OligoFormer_rank_in_gene": 174
+    },
+    {
+      "guide": "GGGGGCCGGAGUCGUUGGCUG",
+      "target_pos": 372,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_372",
+      "of_core_19nt": "GGGGGCCGGAGUCGUUGGC",
+      "OligoFormer_efficacy": 0.519805,
+      "OligoFormer_rank_in_gene": 175
+    },
+    {
+      "guide": "CCUCGGACAGCAUCUAGAACU",
+      "target_pos": 130,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_130",
+      "of_core_19nt": "CCUCGGACAGCAUCUAGAA",
+      "OligoFormer_efficacy": 0.516222,
+      "OligoFormer_rank_in_gene": 176
+    },
+    {
+      "guide": "GCCUUUCUGAACACAUGCACG",
+      "target_pos": 172,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_172",
+      "of_core_19nt": "GCCUUUCUGAACACAUGCA",
+      "OligoFormer_efficacy": 0.507317,
+      "OligoFormer_rank_in_gene": 177
+    },
+    {
+      "guide": "GCAGGGCGGCAAUGGUGUAGC",
+      "target_pos": 396,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_396",
+      "of_core_19nt": "GCAGGGCGGCAAUGGUGUA",
+      "OligoFormer_efficacy": 0.507237,
+      "OligoFormer_rank_in_gene": 178
+    },
+    {
+      "guide": "CAGAGGCAAAUGGCUCCCAGG",
+      "target_pos": 204,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_204",
+      "of_core_19nt": "CAGAGGCAAAUGGCUCCCA",
+      "OligoFormer_efficacy": 0.507137,
+      "OligoFormer_rank_in_gene": 179
+    },
+    {
+      "guide": "GCCAGCCUCAGACACAAAUAC",
+      "target_pos": 68,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_68",
+      "of_core_19nt": "GCCAGCCUCAGACACAAAU",
+      "OligoFormer_efficacy": 0.501061,
+      "OligoFormer_rank_in_gene": 180
+    },
+    {
+      "guide": "GCCGGAGUCGUUGGCUGUGAA",
+      "target_pos": 368,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_368",
+      "of_core_19nt": "GCCGGAGUCGUUGGCUGUG",
+      "OligoFormer_efficacy": 0.498682,
+      "OligoFormer_rank_in_gene": 181
+    },
+    {
+      "guide": "GCUCUCCAGACUCACUGGUUU",
+      "target_pos": 228,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_228",
+      "of_core_19nt": "GCUCUCCAGACUCACUGGU",
+      "OligoFormer_efficacy": 0.496828,
+      "OligoFormer_rank_in_gene": 182
+    },
+    {
+      "guide": "GCAAGGCAGAGGAGGAGCAGA",
+      "target_pos": 40,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_40",
+      "of_core_19nt": "GCAAGGCAGAGGAGGAGCA",
+      "OligoFormer_efficacy": 0.496804,
+      "OligoFormer_rank_in_gene": 183
+    },
+    {
+      "guide": "UGGUGUAGCGGCGGGGGCCGG",
+      "target_pos": 384,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_384",
+      "of_core_19nt": "UGGUGUAGCGGCGGGGGCC",
+      "OligoFormer_efficacy": 0.495751,
+      "OligoFormer_rank_in_gene": 184
+    },
+    {
+      "guide": "GGUGCCCGUAGGGCCAGCCUC",
+      "target_pos": 80,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_80",
+      "of_core_19nt": "GGUGCCCGUAGGGCCAGCC",
+      "OligoFormer_efficacy": 0.486067,
+      "OligoFormer_rank_in_gene": 185
+    },
+    {
+      "guide": "CCAGUAAGAUUUGGUGUCUAU",
+      "target_pos": 302,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_302",
+      "of_core_19nt": "CCAGUAAGAUUUGGUGUCU",
+      "OligoFormer_efficacy": 0.480147,
+      "OligoFormer_rank_in_gene": 186
+    },
+    {
+      "guide": "GCCAUCCUGCCAAGAAUGAGU",
+      "target_pos": 10,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_10",
+      "of_core_19nt": "GCCAUCCUGCCAAGAAUGA",
+      "OligoFormer_efficacy": 0.473185,
+      "OligoFormer_rank_in_gene": 187
+    },
+    {
+      "guide": "CUGGUUUUCCCAGAGGCAAAU",
+      "target_pos": 214,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_214",
+      "of_core_19nt": "CUGGUUUUCCCAGAGGCAA",
+      "OligoFormer_efficacy": 0.464044,
+      "OligoFormer_rank_in_gene": 188
+    },
+    {
+      "guide": "GCGGGGGCCGGAGUCGUUGGC",
+      "target_pos": 374,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_374",
+      "of_core_19nt": "GCGGGGGCCGGAGUCGUUG",
+      "OligoFormer_efficacy": 0.461551,
+      "OligoFormer_rank_in_gene": 189
+    },
+    {
+      "guide": "GUAGCGGCGGGGGCCGGAGUC",
+      "target_pos": 380,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_380",
+      "of_core_19nt": "GUAGCGGCGGGGGCCGGAG",
+      "OligoFormer_efficacy": 0.45089,
+      "OligoFormer_rank_in_gene": 190
+    },
+    {
+      "guide": "GGGCCAGCCUCAGACACAAAU",
+      "target_pos": 70,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_70",
+      "of_core_19nt": "GGGCCAGCCUCAGACACAA",
+      "OligoFormer_efficacy": 0.44502,
+      "OligoFormer_rank_in_gene": 191
+    },
+    {
+      "guide": "CCCGUAGGGCCAGCCUCAGAC",
+      "target_pos": 76,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_76",
+      "of_core_19nt": "CCCGUAGGGCCAGCCUCAG",
+      "OligoFormer_efficacy": 0.444886,
+      "OligoFormer_rank_in_gene": 192
+    },
+    {
+      "guide": "GGUUUUCCCAGAGGCAAAUGG",
+      "target_pos": 212,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_212",
+      "of_core_19nt": "GGUUUUCCCAGAGGCAAAU",
+      "OligoFormer_efficacy": 0.437752,
+      "OligoFormer_rank_in_gene": 193
+    },
+    {
+      "guide": "AGCGGCGGGGGCCGGAGUCGU",
+      "target_pos": 378,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_378",
+      "of_core_19nt": "AGCGGCGGGGGCCGGAGUC",
+      "OligoFormer_efficacy": 0.431433,
+      "OligoFormer_rank_in_gene": 194
+    },
+    {
+      "guide": "GUGUAGCGGCGGGGGCCGGAG",
+      "target_pos": 382,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_382",
+      "of_core_19nt": "GUGUAGCGGCGGGGGCCGG",
+      "OligoFormer_efficacy": 0.41998,
+      "OligoFormer_rank_in_gene": 195
+    },
+    {
+      "guide": "CCGGUGCCCGUAGGGCCAGCC",
+      "target_pos": 82,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_82",
+      "of_core_19nt": "CCGGUGCCCGUAGGGCCAG",
+      "OligoFormer_efficacy": 0.419718,
+      "OligoFormer_rank_in_gene": 196
+    },
+    {
+      "guide": "CCUCUGCAUGCUCAUGGAAUG",
+      "target_pos": 342,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_342",
+      "of_core_19nt": "CCUCUGCAUGCUCAUGGAA",
+      "OligoFormer_efficacy": 0.416157,
+      "OligoFormer_rank_in_gene": 197
+    },
+    {
+      "guide": "CGGAGUCGUUGGCUGUGAAUA",
+      "target_pos": 366,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_366",
+      "of_core_19nt": "CGGAGUCGUUGGCUGUGAA",
+      "OligoFormer_efficacy": 0.415766,
+      "OligoFormer_rank_in_gene": 198
+    },
+    {
+      "guide": "GCCAAGUGCCUUCCAGUAAGA",
+      "target_pos": 314,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_314",
+      "of_core_19nt": "GCCAAGUGCCUUCCAGUAA",
+      "OligoFormer_efficacy": 0.379529,
+      "OligoFormer_rank_in_gene": 199
+    },
+    {
+      "guide": "CGGCGGGGGCCGGAGUCGUUG",
+      "target_pos": 376,
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "id": "des_TTR_376",
+      "of_core_19nt": "CGGCGGGGGCCGGAGUCGU",
+      "OligoFormer_efficacy": 0.364546,
+      "OligoFormer_rank_in_gene": 200
+    }
+  ]
+}

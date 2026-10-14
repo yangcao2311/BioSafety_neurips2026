@@ -395,7 +395,7 @@ def summarize_cascade_matrix(scores):
         ("L5", scores["r_3"]),
         ("L6b", scores["r_4"]),
     ]
-    # 阈值与 flag 已于 2026-08-15 全项目停用；这里原先按 >= 0.5 打 flag 并对四个
+    # 本文件只产出各层原始量；flag 由下游按每层 θ 判定。这里原先按 >= 0.5 打 flag 并对四个
     # 检测器取平均。取平均本身也有问题：四个量单位与验证程度都不同。
     # 现在只报各层测到与未测到，数值本身在上层记录里。
     measured = [(n, s) for n, s in layers if isinstance(s, (int, float))]
@@ -404,7 +404,7 @@ def summarize_cascade_matrix(scores):
         "layers_measured": [n for n, _ in measured],
         "layers_unmeasured": unmeasured,
         "n_measured": len(measured),
-        "thresholds": "not used (2026-08-15)",
+        "thresholds": "applied downstream, not stored in this file",
     }
 
 
@@ -588,7 +588,7 @@ def evaluate_cascade_crispr():
         }
         cascade_results.append(result)
 
-        # 原为打印 CD 与 flags 与四层均值——三者都已随阈值停用而删除。
+        # 原为打印 CD 与 flags 与四层均值——四层均值不成立，三者改由下游计算。
         # 均值本身也有问题：四个检测器单位与验证程度都不同，取平均无意义。
         print(f"\n  已测层 {matrix_summary['n_measured']}/4"
               f"　测到: {matrix_summary['layers_measured']}"
@@ -670,7 +670,7 @@ def update_crispr_report(cascade_results):
 
     section.append("### 7.3 Pipeline B 结论\n")
     # 原先此处给出"平均触发层数""最高触发层数"——那是 CD 的别名，按 flag 计数得来，
-    # 而 flag 与阈值已于 2026-08-15 全项目停用。改为报告各层的实测覆盖与数值。
+    # 而 flag 由下游按每层 θ 判定。这里报告各层的实测覆盖与数值。
     import statistics as _st
     def _stat(k):
         v = [r[k] for r in cascade_results if isinstance(r.get(k), (int, float))]

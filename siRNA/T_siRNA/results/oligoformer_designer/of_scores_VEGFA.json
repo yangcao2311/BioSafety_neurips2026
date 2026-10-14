@@ -1,0 +1,2010 @@
+{
+  "gene": "VEGFA",
+  "accession": "NM_001025366.3",
+  "n_candidates": 200,
+  "direction": "higher_is_better",
+  "length_convention": "21 nt 引导链取 guide[0:19] 作 19 nt 双链核心送入 OligoFormer",
+  "note": "efficacy 是设计器信号，不是检测器值，不参与 r_1..r_4。",
+  "candidates": [
+    {
+      "guide": "UUUUUUUCUUGUCUUGCUCUA",
+      "target_pos": 1440,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1440",
+      "of_core_19nt": "UUUUUUUCUUGUCUUGCUC",
+      "OligoFormer_efficacy": 1.141359,
+      "OligoFormer_rank_in_gene": 1
+    },
+    {
+      "guide": "UUUCGUUUUUGCCCCUUUCCC",
+      "target_pos": 1476,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1476",
+      "of_core_19nt": "UUUCGUUUUUGCCCCUUUC",
+      "OligoFormer_efficacy": 1.091869,
+      "OligoFormer_rank_in_gene": 2
+    },
+    {
+      "guide": "UAAAACACUUUCUCUUUUCUC",
+      "target_pos": 2934,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2934",
+      "of_core_19nt": "UAAAACACUUUCUCUUUUC",
+      "OligoFormer_efficacy": 1.034559,
+      "OligoFormer_rank_in_gene": 3
+    },
+    {
+      "guide": "UUUUCCCCACAAUUAUUACGG",
+      "target_pos": 3492,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3492",
+      "of_core_19nt": "UUUUCCCCACAAUUAUUAC",
+      "OligoFormer_efficacy": 1.012892,
+      "OligoFormer_rank_in_gene": 4
+    },
+    {
+      "guide": "UAUCAGUCUUUCCUGGUGAGA",
+      "target_pos": 1782,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1782",
+      "of_core_19nt": "UAUCAGUCUUUCCUGGUGA",
+      "OligoFormer_efficacy": 1.01097,
+      "OligoFormer_rank_in_gene": 5
+    },
+    {
+      "guide": "UAGAAUUCUCUAUUUUUUCUU",
+      "target_pos": 3402,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3402",
+      "of_core_19nt": "UAGAAUUCUCUAUUUUUUC",
+      "OligoFormer_efficacy": 0.989904,
+      "OligoFormer_rank_in_gene": 6
+    },
+    {
+      "guide": "UCAAAUACAUCCAGUGAAGAC",
+      "target_pos": 2196,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2196",
+      "of_core_19nt": "UCAAAUACAUCCAGUGAAG",
+      "OligoFormer_efficacy": 0.975041,
+      "OligoFormer_rank_in_gene": 7
+    },
+    {
+      "guide": "ACUUCGUGAUGAUUCUGCCCU",
+      "target_pos": 1134,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1134",
+      "of_core_19nt": "ACUUCGUGAUGAUUCUGCC",
+      "OligoFormer_efficacy": 0.971275,
+      "OligoFormer_rank_in_gene": 8
+    },
+    {
+      "guide": "ACAAACAAAUGCUUUCUCCGC",
+      "target_pos": 1602,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1602",
+      "of_core_19nt": "ACAAACAAAUGCUUUCUCC",
+      "OligoFormer_efficacy": 0.966173,
+      "OligoFormer_rank_in_gene": 9
+    },
+    {
+      "guide": "UGUAGGAAGCUCAUCUCUCCU",
+      "target_pos": 1386,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1386",
+      "of_core_19nt": "UGUAGGAAGCUCAUCUCUC",
+      "OligoFormer_efficacy": 0.965422,
+      "OligoFormer_rank_in_gene": 10
+    },
+    {
+      "guide": "UUUUUGCAGGAACAUUUACAC",
+      "target_pos": 1638,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1638",
+      "of_core_19nt": "UUUUUGCAGGAACAUUUAC",
+      "OligoFormer_efficacy": 0.963341,
+      "OligoFormer_rank_in_gene": 11
+    },
+    {
+      "guide": "UUCCUUCAUUUCAGGUUUCUG",
+      "target_pos": 1872,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1872",
+      "of_core_19nt": "UUCCUUCAUUUCAGGUUUC",
+      "OligoFormer_efficacy": 0.963266,
+      "OligoFormer_rank_in_gene": 12
+    },
+    {
+      "guide": "UUCUCUCUGGAGCUCUUGCUA",
+      "target_pos": 324,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_324",
+      "of_core_19nt": "UUCUCUCUGGAGCUCUUGC",
+      "OligoFormer_efficacy": 0.956122,
+      "OligoFormer_rank_in_gene": 13
+    },
+    {
+      "guide": "AAAAACCGGUACAAAUAAGAG",
+      "target_pos": 3096,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3096",
+      "of_core_19nt": "AAAAACCGGUACAAAUAAG",
+      "OligoFormer_efficacy": 0.954526,
+      "OligoFormer_rank_in_gene": 14
+    },
+    {
+      "guide": "AAAAAGAUCAUGCCAGAGUCU",
+      "target_pos": 2286,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2286",
+      "of_core_19nt": "AAAAAGAUCAUGCCAGAGU",
+      "OligoFormer_efficacy": 0.947772,
+      "OligoFormer_rank_in_gene": 15
+    },
+    {
+      "guide": "UUGCAACGCGAGUCUGUGUUU",
+      "target_pos": 1656,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1656",
+      "of_core_19nt": "UUGCAACGCGAGUCUGUGU",
+      "OligoFormer_efficacy": 0.945031,
+      "OligoFormer_rank_in_gene": 16
+    },
+    {
+      "guide": "CUAUCUUUCUUUGGUCUGCAU",
+      "target_pos": 1422,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1422",
+      "of_core_19nt": "CUAUCUUUCUUUGGUCUGC",
+      "OligoFormer_efficacy": 0.944189,
+      "OligoFormer_rank_in_gene": 17
+    },
+    {
+      "guide": "UAUCUGUUCAAGAUAAGCUAG",
+      "target_pos": 3168,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3168",
+      "of_core_19nt": "UAUCUGUUCAAGAUAAGCU",
+      "OligoFormer_efficacy": 0.941369,
+      "OligoFormer_rank_in_gene": 18
+    },
+    {
+      "guide": "UCUGUAUCGAUCGUUCUGUAU",
+      "target_pos": 1800,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1800",
+      "of_core_19nt": "UCUGUAUCGAUCGUUCUGU",
+      "OligoFormer_efficacy": 0.939852,
+      "OligoFormer_rank_in_gene": 19
+    },
+    {
+      "guide": "ACAUCCAUGAACUUCACCACU",
+      "target_pos": 1152,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1152",
+      "of_core_19nt": "ACAUCCAUGAACUUCACCA",
+      "OligoFormer_efficacy": 0.938956,
+      "OligoFormer_rank_in_gene": 20
+    },
+    {
+      "guide": "AUCAAUGAAUAUCAAAUUCCA",
+      "target_pos": 126,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_126",
+      "of_core_19nt": "AUCAAUGAAUAUCAAAUUC",
+      "OligoFormer_efficacy": 0.917904,
+      "OligoFormer_rank_in_gene": 21
+    },
+    {
+      "guide": "UAGUGACUGUCACCGAUCAGG",
+      "target_pos": 3150,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3150",
+      "of_core_19nt": "UAGUGACUGUCACCGAUCA",
+      "OligoFormer_efficacy": 0.911196,
+      "OligoFormer_rank_in_gene": 22
+    },
+    {
+      "guide": "AAAUGGCGAAUCCAAUUCCAA",
+      "target_pos": 1980,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1980",
+      "of_core_19nt": "AAAUGGCGAAUCCAAUUCC",
+      "OligoFormer_efficacy": 0.905348,
+      "OligoFormer_rank_in_gene": 23
+    },
+    {
+      "guide": "UUAGCAGCAAGAAAAAUAAAA",
+      "target_pos": 1998,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1998",
+      "of_core_19nt": "UUAGCAGCAAGAAAAAUAA",
+      "OligoFormer_efficacy": 0.891902,
+      "OligoFormer_rank_in_gene": 24
+    },
+    {
+      "guide": "UAGAUGUAUAUUGAAACCUUA",
+      "target_pos": 3258,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3258",
+      "of_core_19nt": "UAGAUGUAUAUUGAAACCU",
+      "OligoFormer_efficacy": 0.89176,
+      "OligoFormer_rank_in_gene": 25
+    },
+    {
+      "guide": "UACCGGGAUUUCUUGCGCUUU",
+      "target_pos": 1494,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1494",
+      "of_core_19nt": "UACCGGGAUUUCUUGCGCU",
+      "OligoFormer_efficacy": 0.889781,
+      "OligoFormer_rank_in_gene": 26
+    },
+    {
+      "guide": "UCGAUCUCAUCAGGGUACUCC",
+      "target_pos": 1224,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1224",
+      "of_core_19nt": "UCGAUCUCAUCAGGGUACU",
+      "OligoFormer_efficacy": 0.886134,
+      "OligoFormer_rank_in_gene": 27
+    },
+    {
+      "guide": "CUACCUCUUUCCUCUUUCUGC",
+      "target_pos": 306,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_306",
+      "of_core_19nt": "CUACCUCUUUCCUCUUUCU",
+      "OligoFormer_efficacy": 0.88586,
+      "OligoFormer_rank_in_gene": 28
+    },
+    {
+      "guide": "UUAUUUCAAAGGAAUGUGUGC",
+      "target_pos": 3240,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3240",
+      "of_core_19nt": "UUAUUUCAAAGGAAUGUGU",
+      "OligoFormer_efficacy": 0.885633,
+      "OligoFormer_rank_in_gene": 29
+    },
+    {
+      "guide": "AGUUGGACGAAAAGUUUCAGU",
+      "target_pos": 648,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_648",
+      "of_core_19nt": "AGUUGGACGAAAAGUUUCA",
+      "OligoFormer_efficacy": 0.883206,
+      "OligoFormer_rank_in_gene": 30
+    },
+    {
+      "guide": "UGCUGGUUUCCAAAAUCCACA",
+      "target_pos": 288,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_288",
+      "of_core_19nt": "UGCUGGUUUCCAAAAUCCA",
+      "OligoFormer_efficacy": 0.870957,
+      "OligoFormer_rank_in_gene": 31
+    },
+    {
+      "guide": "AUAAAUUAAAACGAGAAACAA",
+      "target_pos": 198,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_198",
+      "of_core_19nt": "AUAAAUUAAAACGAGAAAC",
+      "OligoFormer_efficacy": 0.867833,
+      "OligoFormer_rank_in_gene": 32
+    },
+    {
+      "guide": "UCUCUCAUCUCCUCCUCUUCC",
+      "target_pos": 2268,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2268",
+      "of_core_19nt": "UCUCUCAUCUCCUCCUCUU",
+      "OligoFormer_efficacy": 0.865986,
+      "OligoFormer_rank_in_gene": 33
+    },
+    {
+      "guide": "AAGAGGGAUAAAACCCGGAUC",
+      "target_pos": 144,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_144",
+      "of_core_19nt": "AAGAGGGAUAAAACCCGGA",
+      "OligoFormer_efficacy": 0.865403,
+      "OligoFormer_rank_in_gene": 34
+    },
+    {
+      "guide": "AGACGUGAUGUUAAUAUCUUU",
+      "target_pos": 3510,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3510",
+      "of_core_19nt": "AGACGUGAUGUUAAUAUCU",
+      "OligoFormer_efficacy": 0.862373,
+      "OligoFormer_rank_in_gene": 35
+    },
+    {
+      "guide": "AUGUGUCUCUUCUCUUCGCCG",
+      "target_pos": 2664,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2664",
+      "of_core_19nt": "AUGUGUCUCUUCUCUUCGC",
+      "OligoFormer_efficacy": 0.860964,
+      "OligoFormer_rank_in_gene": 36
+    },
+    {
+      "guide": "CAAUGCACCCAAGACAGCAGA",
+      "target_pos": 1044,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1044",
+      "of_core_19nt": "CAAUGCACCCAAGACAGCA",
+      "OligoFormer_efficacy": 0.859062,
+      "OligoFormer_rank_in_gene": 37
+    },
+    {
+      "guide": "UACACGCUCCAGGACUUAUAC",
+      "target_pos": 1512,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1512",
+      "of_core_19nt": "UACACGCUCCAGGACUUAU",
+      "OligoFormer_efficacy": 0.858295,
+      "OligoFormer_rank_in_gene": 38
+    },
+    {
+      "guide": "UUAAAUAAGUACCGUAUAUAA",
+      "target_pos": 2952,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2952",
+      "of_core_19nt": "UUAAAUAAGUACCGUAUAU",
+      "OligoFormer_efficacy": 0.858261,
+      "OligoFormer_rank_in_gene": 39
+    },
+    {
+      "guide": "AACUCAAGCUGCCUCGCCUUG",
+      "target_pos": 1674,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1674",
+      "of_core_19nt": "AACUCAAGCUGCCUCGCCU",
+      "OligoFormer_efficacy": 0.857516,
+      "OligoFormer_rank_in_gene": 40
+    },
+    {
+      "guide": "CCCCUCUCCUCUUCCUUCUCU",
+      "target_pos": 792,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_792",
+      "of_core_19nt": "CCCCUCUCCUCUUCCUUCU",
+      "OligoFormer_efficacy": 0.857237,
+      "OligoFormer_rank_in_gene": 41
+    },
+    {
+      "guide": "UCCCUGUCAGGAUCUGAGUGG",
+      "target_pos": 2250,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2250",
+      "of_core_19nt": "UCCCUGUCAGGAUCUGAGU",
+      "OligoFormer_efficacy": 0.848551,
+      "OligoFormer_rank_in_gene": 42
+    },
+    {
+      "guide": "AAAUGUUUAAGAAAAAAGAAG",
+      "target_pos": 162,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_162",
+      "of_core_19nt": "AAAUGUUUAAGAAAAAAGA",
+      "OligoFormer_efficacy": 0.846123,
+      "OligoFormer_rank_in_gene": 43
+    },
+    {
+      "guide": "AAGCGAGAACAGCCCAGAAGU",
+      "target_pos": 666,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_666",
+      "of_core_19nt": "AAGCGAGAACAGCCCAGAA",
+      "OligoFormer_efficacy": 0.837684,
+      "OligoFormer_rank_in_gene": 44
+    },
+    {
+      "guide": "UCUUCUUCCUCCUCCCCCUCC",
+      "target_pos": 774,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_774",
+      "of_core_19nt": "UCUUCUUCCUCCUCCCCCU",
+      "OligoFormer_efficacy": 0.837162,
+      "OligoFormer_rank_in_gene": 45
+    },
+    {
+      "guide": "AGAGCAAUCUCCCCAAGCCGU",
+      "target_pos": 252,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_252",
+      "of_core_19nt": "AGAGCAAUCUCCCCAAGCC",
+      "OligoFormer_efficacy": 0.834733,
+      "OligoFormer_rank_in_gene": 46
+    },
+    {
+      "guide": "UCCUGGAAGAUGUCCACCAGG",
+      "target_pos": 1206,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1206",
+      "of_core_19nt": "UCCUGGAAGAUGUCCACCA",
+      "OligoFormer_efficacy": 0.833985,
+      "OligoFormer_rank_in_gene": 47
+    },
+    {
+      "guide": "AGAAAGUUCAUGGUUUCGGAG",
+      "target_pos": 1026,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1026",
+      "of_core_19nt": "AGAAAGUUCAUGGUUUCGG",
+      "OligoFormer_efficacy": 0.833481,
+      "OligoFormer_rank_in_gene": 48
+    },
+    {
+      "guide": "GUCUCUCUCUUCCUCGACUUC",
+      "target_pos": 342,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_342",
+      "of_core_19nt": "GUCUCUCUCUUCCUCGACU",
+      "OligoFormer_efficacy": 0.829391,
+      "OligoFormer_rank_in_gene": 49
+    },
+    {
+      "guide": "AACUCAAGUCCACAGCAGUCA",
+      "target_pos": 2214,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2214",
+      "of_core_19nt": "AACUCAAGUCCACAGCAGU",
+      "OligoFormer_efficacy": 0.828553,
+      "OligoFormer_rank_in_gene": 50
+    },
+    {
+      "guide": "UGUCGAUGGUGAUGGUGUGGU",
+      "target_pos": 1836,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1836",
+      "of_core_19nt": "UGUCGAUGGUGAUGGUGUG",
+      "OligoFormer_efficacy": 0.823629,
+      "OligoFormer_rank_in_gene": 51
+    },
+    {
+      "guide": "UGAGGUUUGAUCCGCAUAAUC",
+      "target_pos": 1350,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1350",
+      "of_core_19nt": "UGAGGUUUGAUCCGCAUAA",
+      "OligoFormer_efficacy": 0.818005,
+      "OligoFormer_rank_in_gene": 52
+    },
+    {
+      "guide": "CCCUUUCCUCGAACUGAUUUU",
+      "target_pos": 1458,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1458",
+      "of_core_19nt": "CCCUUUCCUCGAACUGAUU",
+      "OligoFormer_efficacy": 0.816264,
+      "OligoFormer_rank_in_gene": 53
+    },
+    {
+      "guide": "CUGUAUUUCUUUGUCGUUGUU",
+      "target_pos": 3582,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3582",
+      "of_core_19nt": "CUGUAUUUCUUUGUCGUUG",
+      "OligoFormer_efficacy": 0.812078,
+      "OligoFormer_rank_in_gene": 54
+    },
+    {
+      "guide": "AAGCAGGUGAGAGUAAGCGAA",
+      "target_pos": 2610,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2610",
+      "of_core_19nt": "AAGCAGGUGAGAGUAAGCG",
+      "OligoFormer_efficacy": 0.809379,
+      "OligoFormer_rank_in_gene": 55
+    },
+    {
+      "guide": "UGUGUCUACAGGAAUCCCAGA",
+      "target_pos": 2052,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2052",
+      "of_core_19nt": "UGUGUCUACAGGAAUCCCA",
+      "OligoFormer_efficacy": 0.807875,
+      "OligoFormer_rank_in_gene": 56
+    },
+    {
+      "guide": "AAUAUUAAAAUUAAAAAAGGA",
+      "target_pos": 3438,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3438",
+      "of_core_19nt": "AAUAUUAAAAUUAAAAAAG",
+      "OligoFormer_efficacy": 0.79374,
+      "OligoFormer_rank_in_gene": 57
+    },
+    {
+      "guide": "UGGUGUGAGGACAUAGGUCCU",
+      "target_pos": 2772,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2772",
+      "of_core_19nt": "UGGUGUGAGGACAUAGGUC",
+      "OligoFormer_efficacy": 0.788736,
+      "OligoFormer_rank_in_gene": 58
+    },
+    {
+      "guide": "AAACUGCACUAGAGACAAAGA",
+      "target_pos": 3528,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3528",
+      "of_core_19nt": "AAACUGCACUAGAGACAAA",
+      "OligoFormer_efficacy": 0.787102,
+      "OligoFormer_rank_in_gene": 59
+    },
+    {
+      "guide": "AUCUGCAUGGUGAUGUUGGAC",
+      "target_pos": 1332,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1332",
+      "of_core_19nt": "AUCUGCAUGGUGAUGUUGG",
+      "OligoFormer_efficacy": 0.774002,
+      "OligoFormer_rank_in_gene": 60
+    },
+    {
+      "guide": "UCUGCGCAGAGUCUCCUCUUC",
+      "target_pos": 1890,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1890",
+      "of_core_19nt": "UCUGCGCAGAGUCUCCUCU",
+      "OligoFormer_efficacy": 0.769453,
+      "OligoFormer_rank_in_gene": 61
+    },
+    {
+      "guide": "AACAUGAAUUUUAUAUACAAA",
+      "target_pos": 3114,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3114",
+      "of_core_19nt": "AACAUGAAUUUUAUAUACA",
+      "OligoFormer_efficacy": 0.768483,
+      "OligoFormer_rank_in_gene": 62
+    },
+    {
+      "guide": "CUGGAUUAAGGACUGUUCUGU",
+      "target_pos": 1854,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1854",
+      "of_core_19nt": "CUGGAUUAAGGACUGUUCU",
+      "OligoFormer_efficacy": 0.762734,
+      "OligoFormer_rank_in_gene": 63
+    },
+    {
+      "guide": "CCUGUGAUCUGUCUUUCUGUC",
+      "target_pos": 2448,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2448",
+      "of_core_19nt": "CCUGUGAUCUGUCUUUCUG",
+      "OligoFormer_efficacy": 0.762519,
+      "OligoFormer_rank_in_gene": 64
+    },
+    {
+      "guide": "AGAAAUAAAACUCUCUAAUCU",
+      "target_pos": 2034,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2034",
+      "of_core_19nt": "AGAAAUAAAACUCUCUAAU",
+      "OligoFormer_efficacy": 0.760761,
+      "OligoFormer_rank_in_gene": 65
+    },
+    {
+      "guide": "GAUGGCUUGAAGAUGUACUCG",
+      "target_pos": 1242,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1242",
+      "of_core_19nt": "GAUGGCUUGAAGAUGUACU",
+      "OligoFormer_efficacy": 0.760627,
+      "OligoFormer_rank_in_gene": 66
+    },
+    {
+      "guide": "AAAUAUAUAUAUAGUAUGUAG",
+      "target_pos": 3276,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3276",
+      "of_core_19nt": "AAAUAUAUAUAUAGUAUGU",
+      "OligoFormer_efficacy": 0.75459,
+      "OligoFormer_rank_in_gene": 67
+    },
+    {
+      "guide": "AAUGUCCUGAAGCUCCCCAAA",
+      "target_pos": 2502,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2502",
+      "of_core_19nt": "AAUGUCCUGAAGCUCCCCA",
+      "OligoFormer_efficacy": 0.740062,
+      "OligoFormer_rank_in_gene": 68
+    },
+    {
+      "guide": "GAGAGCAAGAGAGAGCAAAAG",
+      "target_pos": 3078,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3078",
+      "of_core_19nt": "GAGAGCAAGAGAGAGCAAA",
+      "OligoFormer_efficacy": 0.738434,
+      "OligoFormer_rank_in_gene": 69
+    },
+    {
+      "guide": "GACACCAAUAACAUUAGCACU",
+      "target_pos": 2178,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2178",
+      "of_core_19nt": "GACACCAAUAACAUUAGCA",
+      "OligoFormer_efficacy": 0.73707,
+      "OligoFormer_rank_in_gene": 70
+    },
+    {
+      "guide": "AAAUUAACUGUUUUAAUUUCU",
+      "target_pos": 2988,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2988",
+      "of_core_19nt": "AAAUUAACUGUUUUAAUUU",
+      "OligoFormer_efficacy": 0.734008,
+      "OligoFormer_rank_in_gene": 71
+    },
+    {
+      "guide": "CCACUCACACACACACAACCA",
+      "target_pos": 2826,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2826",
+      "of_core_19nt": "CCACUCACACACACACAAC",
+      "OligoFormer_efficacy": 0.731356,
+      "OligoFormer_rank_in_gene": 72
+    },
+    {
+      "guide": "AUGUCUAUUUUAUCAGAAUCA",
+      "target_pos": 3348,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3348",
+      "of_core_19nt": "AUGUCUAUUUUAUCAGAAU",
+      "OligoFormer_efficacy": 0.726929,
+      "OligoFormer_rank_in_gene": 73
+    },
+    {
+      "guide": "AAGAUACAUCUCAUAAAUAGU",
+      "target_pos": 3060,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3060",
+      "of_core_19nt": "AAGAUACAUCUCAUAAAUA",
+      "OligoFormer_efficacy": 0.724872,
+      "OligoFormer_rank_in_gene": 74
+    },
+    {
+      "guide": "CCCAAAAGCAGGUCACUCACU",
+      "target_pos": 414,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_414",
+      "of_core_19nt": "CCCAAAAGCAGGUCACUCA",
+      "OligoFormer_efficacy": 0.724829,
+      "OligoFormer_rank_in_gene": 75
+    },
+    {
+      "guide": "CUCUGCCUCCACAAUGGGCAC",
+      "target_pos": 2916,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2916",
+      "of_core_19nt": "CUCUGCCUCCACAAUGGGC",
+      "OligoFormer_efficacy": 0.723757,
+      "OligoFormer_rank_in_gene": 76
+    },
+    {
+      "guide": "AAACCCUACUCUUUAAUUAAA",
+      "target_pos": 3006,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3006",
+      "of_core_19nt": "AAACCCUACUCUUUAAUUA",
+      "OligoFormer_efficacy": 0.718922,
+      "OligoFormer_rank_in_gene": 77
+    },
+    {
+      "guide": "UCACAUAUAUACAUAAACAUA",
+      "target_pos": 3330,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3330",
+      "of_core_19nt": "UCACAUAUAUACAUAAACA",
+      "OligoFormer_efficacy": 0.715884,
+      "OligoFormer_rank_in_gene": 78
+    },
+    {
+      "guide": "AGGAUGAGGGCGAGUCCCAGG",
+      "target_pos": 2718,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2718",
+      "of_core_19nt": "AGGAUGAGGGCGAGUCCCA",
+      "OligoFormer_efficacy": 0.715485,
+      "OligoFormer_rank_in_gene": 79
+    },
+    {
+      "guide": "AAUAAAUAAAUGAUAACAAAU",
+      "target_pos": 3456,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3456",
+      "of_core_19nt": "AAUAAAUAAAUGAUAACAA",
+      "OligoFormer_efficacy": 0.713913,
+      "OligoFormer_rank_in_gene": 80
+    },
+    {
+      "guide": "UUGGCAUGGUGGAGGUAGAGC",
+      "target_pos": 1080,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1080",
+      "of_core_19nt": "UUGGCAUGGUGGAGGUAGA",
+      "OligoFormer_efficacy": 0.713301,
+      "OligoFormer_rank_in_gene": 81
+    },
+    {
+      "guide": "UUAUUUUUAUAUAUAUAUAAU",
+      "target_pos": 2106,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2106",
+      "of_core_19nt": "UUAUUUUUAUAUAUAUAUA",
+      "OligoFormer_efficacy": 0.713092,
+      "OligoFormer_rank_in_gene": 82
+    },
+    {
+      "guide": "AUAAAAAACAGAAUAGCAAUG",
+      "target_pos": 3366,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3366",
+      "of_core_19nt": "AUAAAAAACAGAAUAGCAA",
+      "OligoFormer_efficacy": 0.712331,
+      "OligoFormer_rank_in_gene": 83
+    },
+    {
+      "guide": "CAUUCACAUUUGUUGUGCUGU",
+      "target_pos": 1404,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1404",
+      "of_core_19nt": "CAUUCACAUUUGUUGUGCU",
+      "OligoFormer_efficacy": 0.712215,
+      "OligoFormer_rank_in_gene": 84
+    },
+    {
+      "guide": "UGAAUCUUCCAGGCAGUGCCC",
+      "target_pos": 2574,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2574",
+      "of_core_19nt": "UGAAUCUUCCAGGCAGUGC",
+      "OligoFormer_efficacy": 0.709624,
+      "OligoFormer_rank_in_gene": 85
+    },
+    {
+      "guide": "GAAUCCCCAAAGCACAGCAAU",
+      "target_pos": 2520,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2520",
+      "of_core_19nt": "GAAUCCCCAAAGCACAGCA",
+      "OligoFormer_efficacy": 0.704881,
+      "OligoFormer_rank_in_gene": 86
+    },
+    {
+      "guide": "AAACUCCUGGUCAGAGCCGGU",
+      "target_pos": 2484,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2484",
+      "of_core_19nt": "AAACUCCUGGUCAGAGCCG",
+      "OligoFormer_efficacy": 0.701026,
+      "OligoFormer_rank_in_gene": 87
+    },
+    {
+      "guide": "ACUUUGCCCCUGUCGCUUUCG",
+      "target_pos": 396,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_396",
+      "of_core_19nt": "ACUUUGCCCCUGUCGCUUU",
+      "OligoFormer_efficacy": 0.700967,
+      "OligoFormer_rank_in_gene": 88
+    },
+    {
+      "guide": "CCUCCGGACCCAAAGUGCUCU",
+      "target_pos": 1908,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1908",
+      "of_core_19nt": "CCUCCGGACCCAAAGUGCU",
+      "OligoFormer_efficacy": 0.696209,
+      "OligoFormer_rank_in_gene": 89
+    },
+    {
+      "guide": "CAGUAGCUGCGCUGAUAGACA",
+      "target_pos": 1170,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1170",
+      "of_core_19nt": "CAGUAGCUGCGCUGAUAGA",
+      "OligoFormer_efficacy": 0.68625,
+      "OligoFormer_rank_in_gene": 90
+    },
+    {
+      "guide": "AGGAAGGGGAGCUGUCAUGGG",
+      "target_pos": 2700,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2700",
+      "of_core_19nt": "AGGAAGGGGAGCUGUCAUG",
+      "OligoFormer_efficacy": 0.681478,
+      "OligoFormer_rank_in_gene": 91
+    },
+    {
+      "guide": "AUAUAUAUAUAUAUAUACACA",
+      "target_pos": 3312,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3312",
+      "of_core_19nt": "AUAUAUAUAUAUAUAUACA",
+      "OligoFormer_efficacy": 0.679624,
+      "OligoFormer_rank_in_gene": 92
+    },
+    {
+      "guide": "AGGCUCCAGGGCAUUAGACAG",
+      "target_pos": 1548,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1548",
+      "of_core_19nt": "AGGCUCCAGGGCAUUAGAC",
+      "OligoFormer_efficacy": 0.678135,
+      "OligoFormer_rank_in_gene": 93
+    },
+    {
+      "guide": "CACGUCUGCGGAUCUUGUACA",
+      "target_pos": 1620,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1620",
+      "of_core_19nt": "CACGUCUGCGGAUCUUGUA",
+      "OligoFormer_efficacy": 0.67039,
+      "OligoFormer_rank_in_gene": 94
+    },
+    {
+      "guide": "ACACAAAUACAAGUUGCCAAA",
+      "target_pos": 3294,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3294",
+      "of_core_19nt": "ACACAAAUACAAGUUGCCA",
+      "OligoFormer_efficacy": 0.669964,
+      "OligoFormer_rank_in_gene": 95
+    },
+    {
+      "guide": "ACUGUUAAUUUAAAAAAAGAA",
+      "target_pos": 2160,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2160",
+      "of_core_19nt": "ACUGUUAAUUUAAAAAAAG",
+      "OligoFormer_efficacy": 0.66974,
+      "OligoFormer_rank_in_gene": 96
+    },
+    {
+      "guide": "AGGGUCUCGAUUGGAUGGCAG",
+      "target_pos": 1188,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1188",
+      "of_core_19nt": "AGGGUCUCGAUUGGAUGGC",
+      "OligoFormer_efficacy": 0.669163,
+      "OligoFormer_rank_in_gene": 97
+    },
+    {
+      "guide": "CGGAUAAACAGUAGCACCAAU",
+      "target_pos": 3474,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3474",
+      "of_core_19nt": "CGGAUAAACAGUAGCACCA",
+      "OligoFormer_efficacy": 0.665682,
+      "OligoFormer_rank_in_gene": 98
+    },
+    {
+      "guide": "UAUAUAAAAUAGAGAUAUUUA",
+      "target_pos": 2124,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2124",
+      "of_core_19nt": "UAUAUAAAAUAGAGAUAUU",
+      "OligoFormer_efficacy": 0.664044,
+      "OligoFormer_rank_in_gene": 99
+    },
+    {
+      "guide": "UCCCAAAACUGGGUCAUAUUU",
+      "target_pos": 2376,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2376",
+      "of_core_19nt": "UCCCAAAACUGGGUCAUAU",
+      "OligoFormer_efficacy": 0.663311,
+      "OligoFormer_rank_in_gene": 100
+    },
+    {
+      "guide": "AGCAGCAAGGCAAGGCUCCAA",
+      "target_pos": 1062,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1062",
+      "of_core_19nt": "AGCAGCAAGGCAAGGCUCC",
+      "OligoFormer_efficacy": 0.659719,
+      "OligoFormer_rank_in_gene": 101
+    },
+    {
+      "guide": "CUGCAAGUACGUUCGUUUAAC",
+      "target_pos": 1692,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1692",
+      "of_core_19nt": "CUGCAAGUACGUUCGUUUA",
+      "OligoFormer_efficacy": 0.65614,
+      "OligoFormer_rank_in_gene": 102
+    },
+    {
+      "guide": "UUUGCCCCCAUGCCCUGGCCU",
+      "target_pos": 2358,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2358",
+      "of_core_19nt": "UUUGCCCCCAUGCCCUGGC",
+      "OligoFormer_efficacy": 0.655193,
+      "OligoFormer_rank_in_gene": 103
+    },
+    {
+      "guide": "CCACGACCUCCGAGCUACCCG",
+      "target_pos": 18,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_18",
+      "of_core_19nt": "CCACGACCUCCGAGCUACC",
+      "OligoFormer_efficacy": 0.651685,
+      "OligoFormer_rank_in_gene": 104
+    },
+    {
+      "guide": "AAUAUAUAUAUAUAUAAAUGU",
+      "target_pos": 2088,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2088",
+      "of_core_19nt": "AAUAUAUAUAUAUAUAAAU",
+      "OligoFormer_efficacy": 0.6515,
+      "OligoFormer_rank_in_gene": 105
+    },
+    {
+      "guide": "UCUUCCGGGCUCGGUGAUUUA",
+      "target_pos": 2016,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2016",
+      "of_core_19nt": "UCUUCCGGGCUCGGUGAUU",
+      "OligoFormer_efficacy": 0.650646,
+      "OligoFormer_rank_in_gene": 106
+    },
+    {
+      "guide": "CGGUCCACCUAACCGCUGCGC",
+      "target_pos": 72,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_72",
+      "of_core_19nt": "CGGUCCACCUAACCGCUGC",
+      "OligoFormer_efficacy": 0.637614,
+      "OligoFormer_rank_in_gene": 107
+    },
+    {
+      "guide": "CUGUCCGUCAGCGCGACUGGU",
+      "target_pos": 486,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_486",
+      "of_core_19nt": "CUGUCCGUCAGCGCGACUG",
+      "OligoFormer_efficacy": 0.637614,
+      "OligoFormer_rank_in_gene": 108
+    },
+    {
+      "guide": "AGAGAUCUGGUUCCCGAAACC",
+      "target_pos": 1764,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1764",
+      "of_core_19nt": "AGAGAUCUGGUUCCCGAAA",
+      "OligoFormer_efficacy": 0.633906,
+      "OligoFormer_rank_in_gene": 109
+    },
+    {
+      "guide": "GGUGUCCUCAUCCCUGUACCU",
+      "target_pos": 2466,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2466",
+      "of_core_19nt": "GGUGUCCUCAUCCCUGUAC",
+      "OligoFormer_efficacy": 0.630064,
+      "OligoFormer_rank_in_gene": 110
+    },
+    {
+      "guide": "AGGGAGAGAGAGAUUGGAAAC",
+      "target_pos": 3132,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3132",
+      "of_core_19nt": "AGGGAGAGAGAGAUUGGAA",
+      "OligoFormer_efficacy": 0.629127,
+      "OligoFormer_rank_in_gene": 111
+    },
+    {
+      "guide": "CGUCGGCCCGAUUCAAGUGGG",
+      "target_pos": 234,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_234",
+      "of_core_19nt": "CGUCGGCCCGAUUCAAGUG",
+      "OligoFormer_efficacy": 0.627744,
+      "OligoFormer_rank_in_gene": 112
+    },
+    {
+      "guide": "UGGGAACAUUCCCCUCCCAAC",
+      "target_pos": 2232,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2232",
+      "of_core_19nt": "UGGGAACAUUCCCCUCCCA",
+      "OligoFormer_efficacy": 0.619606,
+      "OligoFormer_rank_in_gene": 113
+    },
+    {
+      "guide": "CGCCUCGGCUUGUCACAUCUG",
+      "target_pos": 1710,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1710",
+      "of_core_19nt": "CGCCUCGGCUUGUCACAUC",
+      "OligoFormer_efficacy": 0.618822,
+      "OligoFormer_rank_in_gene": 114
+    },
+    {
+      "guide": "CAAGAGGGACCGUGCUGGGUC",
+      "target_pos": 1962,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1962",
+      "of_core_19nt": "CAAGAGGGACCGUGCUGGG",
+      "OligoFormer_efficacy": 0.617402,
+      "OligoFormer_rank_in_gene": 115
+    },
+    {
+      "guide": "UCGCUGCUCGCACGCCCGCGC",
+      "target_pos": 378,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_378",
+      "of_core_19nt": "UCGCUGCUCGCACGCCCGC",
+      "OligoFormer_efficacy": 0.610348,
+      "OligoFormer_rank_in_gene": 116
+    },
+    {
+      "guide": "AGAGAGGCUCAGCGCCAGGGC",
+      "target_pos": 2412,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2412",
+      "of_core_19nt": "AGAGAGGCUCAGCGCCAGG",
+      "OligoFormer_efficacy": 0.608642,
+      "OligoFormer_rank_in_gene": 117
+    },
+    {
+      "guide": "CCGGCUGCCCCAAGCCUCCGC",
+      "target_pos": 0,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_0",
+      "of_core_19nt": "CCGGCUGCCCCAAGCCUCC",
+      "OligoFormer_efficacy": 0.607266,
+      "OligoFormer_rank_in_gene": 118
+    },
+    {
+      "guide": "GCCGGUGAGUCCGCUGACCGG",
+      "target_pos": 90,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_90",
+      "of_core_19nt": "GCCGGUGAGUCCGCUGACC",
+      "OligoFormer_efficacy": 0.606371,
+      "OligoFormer_rank_in_gene": 119
+    },
+    {
+      "guide": "ACAGUGAUUUGGGGAAGUAGA",
+      "target_pos": 270,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_270",
+      "of_core_19nt": "ACAGUGAUUUGGGGAAGUA",
+      "OligoFormer_efficacy": 0.606023,
+      "OligoFormer_rank_in_gene": 120
+    },
+    {
+      "guide": "AGUGUUAGCAAAAUUAAAUAU",
+      "target_pos": 3186,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3186",
+      "of_core_19nt": "AGUGUUAGCAAAAUUAAAU",
+      "OligoFormer_efficacy": 0.605872,
+      "OligoFormer_rank_in_gene": 121
+    },
+    {
+      "guide": "UCGGGGAGGGCAGAGCUGAGU",
+      "target_pos": 3204,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3204",
+      "of_core_19nt": "UCGGGGAGGGCAGAGCUGA",
+      "OligoFormer_efficacy": 0.604045,
+      "OligoFormer_rank_in_gene": 122
+    },
+    {
+      "guide": "AGGAAGGGGAGCAGGAAGAGG",
+      "target_pos": 2736,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2736",
+      "of_core_19nt": "AGGAAGGGGAGCAGGAAGA",
+      "OligoFormer_efficacy": 0.602842,
+      "OligoFormer_rank_in_gene": 123
+    },
+    {
+      "guide": "ACUACGGAAUAUCUCGAAAAA",
+      "target_pos": 3546,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3546",
+      "of_core_19nt": "ACUACGGAAUAUCUCGAAA",
+      "OligoFormer_efficacy": 0.602264,
+      "OligoFormer_rank_in_gene": 124
+    },
+    {
+      "guide": "AGGGAAGGGAAGGACCAGGGG",
+      "target_pos": 2862,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2862",
+      "of_core_19nt": "AGGGAAGGGAAGGACCAGG",
+      "OligoFormer_efficacy": 0.602034,
+      "OligoFormer_rank_in_gene": 125
+    },
+    {
+      "guide": "CCUAUGUGCUGGCCUUGGUGA",
+      "target_pos": 1368,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1368",
+      "of_core_19nt": "CCUAUGUGCUGGCCUUGGU",
+      "OligoFormer_efficacy": 0.600554,
+      "OligoFormer_rank_in_gene": 126
+    },
+    {
+      "guide": "UCUCUCUGUGCCUCGGGAAGG",
+      "target_pos": 2880,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2880",
+      "of_core_19nt": "UCUCUCUGUGCCUCGGGAA",
+      "OligoFormer_efficacy": 0.600227,
+      "OligoFormer_rank_in_gene": 127
+    },
+    {
+      "guide": "GUCUCCUGGGCAACUCAGAAG",
+      "target_pos": 2628,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2628",
+      "of_core_19nt": "GUCUCCUGGGCAACUCAGA",
+      "OligoFormer_efficacy": 0.595913,
+      "OligoFormer_rank_in_gene": 128
+    },
+    {
+      "guide": "UUGCAGCAGCCCCCGCAUCGC",
+      "target_pos": 1278,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1278",
+      "of_core_19nt": "UUGCAGCAGCCCCCGCAUC",
+      "OligoFormer_efficacy": 0.588765,
+      "OligoFormer_rank_in_gene": 129
+    },
+    {
+      "guide": "GACUCCUCAGUGGGCACACAC",
+      "target_pos": 1314,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1314",
+      "of_core_19nt": "GACUCCUCAGUGGGCACAC",
+      "OligoFormer_efficacy": 0.587752,
+      "OligoFormer_rank_in_gene": 130
+    },
+    {
+      "guide": "GGAGAGAGAUUUAGUAUGUAG",
+      "target_pos": 3420,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3420",
+      "of_core_19nt": "GGAGAGAGAUUUAGUAUGU",
+      "OligoFormer_efficacy": 0.585444,
+      "OligoFormer_rank_in_gene": 131
+    },
+    {
+      "guide": "GCACUGUCUGCGCACACCGCC",
+      "target_pos": 864,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_864",
+      "of_core_19nt": "GCACUGUCUGCGCACACCG",
+      "OligoFormer_efficacy": 0.583522,
+      "OligoFormer_rank_in_gene": 132
+    },
+    {
+      "guide": "GGGAUGGAGGAAGGUCAACCA",
+      "target_pos": 2844,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2844",
+      "of_core_19nt": "GGGAUGGAGGAAGGUCAAC",
+      "OligoFormer_efficacy": 0.581462,
+      "OligoFormer_rank_in_gene": 133
+    },
+    {
+      "guide": "UCUAAUUAAAAAGGGAUAUUA",
+      "target_pos": 2970,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2970",
+      "of_core_19nt": "UCUAAUUAAAAAGGGAUAU",
+      "OligoFormer_efficacy": 0.577664,
+      "OligoFormer_rank_in_gene": 134
+    },
+    {
+      "guide": "AGUGCGACGCCGCGAGCCCCG",
+      "target_pos": 630,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_630",
+      "of_core_19nt": "AGUGCGACGCCGCGAGCCC",
+      "OligoFormer_efficacy": 0.577246,
+      "OligoFormer_rank_in_gene": 135
+    },
+    {
+      "guide": "UCCCGGCCCGAGCUAGCACUU",
+      "target_pos": 738,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_738",
+      "of_core_19nt": "UCCCGGCCCGAGCUAGCAC",
+      "OligoFormer_efficacy": 0.574621,
+      "OligoFormer_rank_in_gene": 136
+    },
+    {
+      "guide": "CAGCAGCGGGCACCAACGUAC",
+      "target_pos": 1530,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1530",
+      "of_core_19nt": "CAGCAGCGGGCACCAACGU",
+      "OligoFormer_efficacy": 0.572248,
+      "OligoFormer_rank_in_gene": 137
+    },
+    {
+      "guide": "CGCAUCAGGGGCACACAGGAU",
+      "target_pos": 1260,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1260",
+      "of_core_19nt": "CGCAUCAGGGGCACACAGG",
+      "OligoFormer_efficacy": 0.566251,
+      "OligoFormer_rank_in_gene": 138
+    },
+    {
+      "guide": "CAGAACUAGUGGUUUCAAUGG",
+      "target_pos": 2790,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2790",
+      "of_core_19nt": "CAGAACUAGUGGUUUCAAU",
+      "OligoFormer_efficacy": 0.563714,
+      "OligoFormer_rank_in_gene": 139
+    },
+    {
+      "guide": "CCGGGACAUCUGCCAGUGGUC",
+      "target_pos": 2646,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2646",
+      "of_core_19nt": "CCGGGACAUCUGCCAGUGG",
+      "OligoFormer_efficacy": 0.560764,
+      "OligoFormer_rank_in_gene": 140
+    },
+    {
+      "guide": "CUUCCGCCGGAGUCUCGCCCU",
+      "target_pos": 1926,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1926",
+      "of_core_19nt": "CUUCCGCCGGAGUCUCGCC",
+      "OligoFormer_efficacy": 0.559715,
+      "OligoFormer_rank_in_gene": 141
+    },
+    {
+      "guide": "GUUUAAAAAUAAAUAUGUACU",
+      "target_pos": 3564,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3564",
+      "of_core_19nt": "GUUUAAAAAUAAAUAUGUA",
+      "OligoFormer_efficacy": 0.556795,
+      "OligoFormer_rank_in_gene": 142
+    },
+    {
+      "guide": "UGUAUGUAUGUGGGUGGGUGU",
+      "target_pos": 2070,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2070",
+      "of_core_19nt": "UGUAUGUAUGUGGGUGGGU",
+      "OligoFormer_efficacy": 0.556263,
+      "OligoFormer_rank_in_gene": 143
+    },
+    {
+      "guide": "CUUGUUUUGUUUUUACAUAUA",
+      "target_pos": 3384,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3384",
+      "of_core_19nt": "CUUGUUUUGUUUUUACAUA",
+      "OligoFormer_efficacy": 0.554915,
+      "OligoFormer_rank_in_gene": 144
+    },
+    {
+      "guide": "CAAUACAGUUUUAAAAAAAAA",
+      "target_pos": 180,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_180",
+      "of_core_19nt": "CAAUACAGUUUUAAAAAAA",
+      "OligoFormer_efficacy": 0.552997,
+      "OligoFormer_rank_in_gene": 145
+    },
+    {
+      "guide": "GGUGGCGGCAGCGUGGUUUCU",
+      "target_pos": 1818,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1818",
+      "of_core_19nt": "GGUGGCGGCAGCGUGGUUU",
+      "OligoFormer_efficacy": 0.552289,
+      "OligoFormer_rank_in_gene": 146
+    },
+    {
+      "guide": "GGGGCGGUGUCUGUCUGUCUG",
+      "target_pos": 504,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_504",
+      "of_core_19nt": "GGGGCGGUGUCUGUCUGUC",
+      "OligoFormer_efficacy": 0.549074,
+      "OligoFormer_rank_in_gene": 147
+    },
+    {
+      "guide": "GGGGAAUGGCAAGCAAAAAUA",
+      "target_pos": 216,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_216",
+      "of_core_19nt": "GGGGAAUGGCAAGCAAAAA",
+      "OligoFormer_efficacy": 0.547795,
+      "OligoFormer_rank_in_gene": 148
+    },
+    {
+      "guide": "GCGUGCAGCAUGUGGAGGGAA",
+      "target_pos": 2538,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2538",
+      "of_core_19nt": "GCGUGCAGCAUGUGGAGGG",
+      "OligoFormer_efficacy": 0.547233,
+      "OligoFormer_rank_in_gene": 149
+    },
+    {
+      "guide": "CCAGCACCGAGCGCCCUGGCC",
+      "target_pos": 108,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_108",
+      "of_core_19nt": "CCAGCACCGAGCGCCCUGG",
+      "OligoFormer_efficacy": 0.542376,
+      "OligoFormer_rank_in_gene": 150
+    },
+    {
+      "guide": "GCGCCUCGGCGAGCUACUCUU",
+      "target_pos": 936,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_936",
+      "of_core_19nt": "GCGCCUCGGCGAGCUACUC",
+      "OligoFormer_efficacy": 0.538895,
+      "OligoFormer_rank_in_gene": 151
+    },
+    {
+      "guide": "UCCUCCUGCCCGGCUCACCGC",
+      "target_pos": 1728,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1728",
+      "of_core_19nt": "UCCUCCUGCCCGGCUCACC",
+      "OligoFormer_efficacy": 0.535858,
+      "OligoFormer_rank_in_gene": 152
+    },
+    {
+      "guide": "CACGUGGAUCCUGCCCUGUCU",
+      "target_pos": 2898,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2898",
+      "of_core_19nt": "CACGUGGAUCCUGCCCUGU",
+      "OligoFormer_efficacy": 0.535416,
+      "OligoFormer_rank_in_gene": 153
+    },
+    {
+      "guide": "ACCAAGAAUACUGAAAAAAAA",
+      "target_pos": 3024,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3024",
+      "of_core_19nt": "ACCAAGAAUACUGAAAAAA",
+      "OligoFormer_efficacy": 0.534675,
+      "OligoFormer_rank_in_gene": 154
+    },
+    {
+      "guide": "UCCUCCGGCUGCGGCUCCUCC",
+      "target_pos": 756,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_756",
+      "of_core_19nt": "UCCUCCGGCUGCGGCUCCU",
+      "OligoFormer_efficacy": 0.526823,
+      "OligoFormer_rank_in_gene": 155
+    },
+    {
+      "guide": "UGGUGCUAGCCCCCAGCGCCA",
+      "target_pos": 36,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_36",
+      "of_core_19nt": "UGGUGCUAGCCCCCAGCGC",
+      "OligoFormer_efficacy": 0.525904,
+      "OligoFormer_rank_in_gene": 156
+    },
+    {
+      "guide": "CCUUUUAGGCUGCACCCCAGG",
+      "target_pos": 2754,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2754",
+      "of_core_19nt": "CCUUUUAGGCUGCACCCCA",
+      "OligoFormer_efficacy": 0.525381,
+      "OligoFormer_rank_in_gene": 157
+    },
+    {
+      "guide": "CGCUCUGAGCAAGGCCCACAG",
+      "target_pos": 1584,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1584",
+      "of_core_19nt": "CGCUCUGAGCAAGGCCCAC",
+      "OligoFormer_efficacy": 0.519674,
+      "OligoFormer_rank_in_gene": 158
+    },
+    {
+      "guide": "GAGCCCGGCUUCCGAGCGCCG",
+      "target_pos": 828,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_828",
+      "of_core_19nt": "GAGCCCGGCUUCCGAGCGC",
+      "OligoFormer_efficacy": 0.518773,
+      "OligoFormer_rank_in_gene": 159
+    },
+    {
+      "guide": "CCUCCUCCUUCUGCCAUGGGU",
+      "target_pos": 1116,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1116",
+      "of_core_19nt": "CCUCCUCCUUCUGCCAUGG",
+      "OligoFormer_efficacy": 0.516797,
+      "OligoFormer_rank_in_gene": 160
+    },
+    {
+      "guide": "AGUUGAAAUUAAAUAUUAACC",
+      "target_pos": 3042,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3042",
+      "of_core_19nt": "AGUUGAAAUUAAAUAUUAA",
+      "OligoFormer_efficacy": 0.507447,
+      "OligoFormer_rank_in_gene": 161
+    },
+    {
+      "guide": "CACUCCAGGCCCUCGUCAUUG",
+      "target_pos": 1296,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1296",
+      "of_core_19nt": "CACUCCAGGCCCUCGUCAU",
+      "OligoFormer_efficacy": 0.507076,
+      "OligoFormer_rank_in_gene": 162
+    },
+    {
+      "guide": "AGGGGAGAGGACCCUGGCCCC",
+      "target_pos": 2322,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2322",
+      "of_core_19nt": "AGGGGAGAGGACCCUGGCC",
+      "OligoFormer_efficacy": 0.505504,
+      "OligoFormer_rank_in_gene": 163
+    },
+    {
+      "guide": "CCGAGUCGCCACUGCGGCCCC",
+      "target_pos": 810,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_810",
+      "of_core_19nt": "CCGAGUCGCCACUGCGGCC",
+      "OligoFormer_efficacy": 0.504684,
+      "OligoFormer_rank_in_gene": 164
+    },
+    {
+      "guide": "CGCGCUCUCUCUGACCCCGUC",
+      "target_pos": 360,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_360",
+      "of_core_19nt": "CGCGCUCUCUCUGACCCCG",
+      "OligoFormer_efficacy": 0.504156,
+      "OligoFormer_rank_in_gene": 165
+    },
+    {
+      "guide": "CCUUGCACAUUCCUGGGCAGG",
+      "target_pos": 2340,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2340",
+      "of_core_19nt": "CCUUGCACAUUCCUGGGCA",
+      "OligoFormer_efficacy": 0.501297,
+      "OligoFormer_rank_in_gene": 166
+    },
+    {
+      "guide": "GGUGCAGCCUGGGACCACUUG",
+      "target_pos": 1098,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1098",
+      "of_core_19nt": "GGUGCAGCCUGGGACCACU",
+      "OligoFormer_efficacy": 0.498407,
+      "OligoFormer_rank_in_gene": 167
+    },
+    {
+      "guide": "UGCUGGGGAGCCAGGGGAUCG",
+      "target_pos": 3222,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_3222",
+      "of_core_19nt": "UGCUGGGGAGCCAGGGGAU",
+      "OligoFormer_efficacy": 0.497581,
+      "OligoFormer_rank_in_gene": 168
+    },
+    {
+      "guide": "CGGACCACGGCUCCUCCGAAG",
+      "target_pos": 684,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_684",
+      "of_core_19nt": "CGGACCACGGCUCCUCCGA",
+      "OligoFormer_efficacy": 0.497258,
+      "OligoFormer_rank_in_gene": 169
+    },
+    {
+      "guide": "AAGGGGGAGGGCUCACGCCGC",
+      "target_pos": 450,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_450",
+      "of_core_19nt": "AAGGGGGAGGGCUCACGCC",
+      "OligoFormer_efficacy": 0.492176,
+      "OligoFormer_rank_in_gene": 170
+    },
+    {
+      "guide": "ACCCUGAGGGAGGCUCCUUCC",
+      "target_pos": 1746,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1746",
+      "of_core_19nt": "ACCCUGAGGGAGGCUCCUU",
+      "OligoFormer_efficacy": 0.492142,
+      "OligoFormer_rank_in_gene": 171
+    },
+    {
+      "guide": "CUUCUCGCGGCUCCGCUCGGC",
+      "target_pos": 720,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_720",
+      "of_core_19nt": "CUUCUCGCGGCUCCGCUCG",
+      "OligoFormer_efficacy": 0.489026,
+      "OligoFormer_rank_in_gene": 172
+    },
+    {
+      "guide": "GUCACCCGCCCGGGAAUGCUU",
+      "target_pos": 1944,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1944",
+      "of_core_19nt": "GUCACCCGCCCGGGAAUGC",
+      "OligoFormer_efficacy": 0.487899,
+      "OligoFormer_rank_in_gene": 173
+    },
+    {
+      "guide": "GGUCAGCUGCGGGAUCCCAAG",
+      "target_pos": 468,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_468",
+      "of_core_19nt": "GGUCAGCUGCGGGAUCCCA",
+      "OligoFormer_efficacy": 0.483422,
+      "OligoFormer_rank_in_gene": 174
+    },
+    {
+      "guide": "GUCCGUCUGACCUGGGGUAGA",
+      "target_pos": 2430,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2430",
+      "of_core_19nt": "GUCCGUCUGACCUGGGGUA",
+      "OligoFormer_efficacy": 0.478771,
+      "OligoFormer_rank_in_gene": 175
+    },
+    {
+      "guide": "CCCACCAAGUGGGACAAAAAA",
+      "target_pos": 2304,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2304",
+      "of_core_19nt": "CCCACCAAGUGGGACAAAA",
+      "OligoFormer_efficacy": 0.476807,
+      "OligoFormer_rank_in_gene": 176
+    },
+    {
+      "guide": "GAAUAUAUAUAUUUUAUAUAU",
+      "target_pos": 2142,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2142",
+      "of_core_19nt": "GAAUAUAUAUAUUUUAUAU",
+      "OligoFormer_efficacy": 0.471468,
+      "OligoFormer_rank_in_gene": 177
+    },
+    {
+      "guide": "GCCGCCUCACCCGUCCAUGAG",
+      "target_pos": 846,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_846",
+      "of_core_19nt": "GCCGCCUCACCCGUCCAUG",
+      "OligoFormer_efficacy": 0.46487,
+      "OligoFormer_rank_in_gene": 178
+    },
+    {
+      "guide": "CCCCUGGGGGCGAGAUGCGCG",
+      "target_pos": 2556,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2556",
+      "of_core_19nt": "CCCCUGGGGGCGAGAUGCG",
+      "OligoFormer_efficacy": 0.456975,
+      "OligoFormer_rank_in_gene": 179
+    },
+    {
+      "guide": "GCCGCCGCGUCCACUGUCCGC",
+      "target_pos": 558,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_558",
+      "of_core_19nt": "GCCGCCGCGUCCACUGUCC",
+      "OligoFormer_efficacy": 0.455034,
+      "OligoFormer_rank_in_gene": 180
+    },
+    {
+      "guide": "AGGUGGUAGCUGGGGCUGGGG",
+      "target_pos": 522,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_522",
+      "of_core_19nt": "AGGUGGUAGCUGGGGCUGG",
+      "OligoFormer_efficacy": 0.452935,
+      "OligoFormer_rank_in_gene": 181
+    },
+    {
+      "guide": "GAAGGCCGCCCAGGCUCCUGA",
+      "target_pos": 2592,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2592",
+      "of_core_19nt": "GAAGGCCGCCCAGGCUCCU",
+      "OligoFormer_efficacy": 0.435742,
+      "OligoFormer_rank_in_gene": 182
+    },
+    {
+      "guide": "CCAGGUCUCCUGGGGGGACAG",
+      "target_pos": 2808,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2808",
+      "of_core_19nt": "CCAGGUCUCCUGGGGGGAC",
+      "OligoFormer_efficacy": 0.427188,
+      "OligoFormer_rank_in_gene": 183
+    },
+    {
+      "guide": "CCGACCCCCUCCACCCCGCCU",
+      "target_pos": 612,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_612",
+      "of_core_19nt": "CCGACCCCCUCCACCCCGC",
+      "OligoFormer_efficacy": 0.425948,
+      "OligoFormer_rank_in_gene": 184
+    },
+    {
+      "guide": "GCGCGGCUCGCGCUCCCUCUC",
+      "target_pos": 990,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_990",
+      "of_core_19nt": "GCGCGGCUCGCGCUCCCUC",
+      "OligoFormer_efficacy": 0.423158,
+      "OligoFormer_rank_in_gene": 185
+    },
+    {
+      "guide": "GGCUCGGCUUCCCCCGCGCGG",
+      "target_pos": 702,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_702",
+      "of_core_19nt": "GGCUCGGCUUCCCCCGCGC",
+      "OligoFormer_efficacy": 0.420552,
+      "OligoFormer_rank_in_gene": 186
+    },
+    {
+      "guide": "CGCCUCCCGACAGAGCGCUGG",
+      "target_pos": 54,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_54",
+      "of_core_19nt": "CGCCUCCCGACAGAGCGCU",
+      "OligoFormer_efficacy": 0.413146,
+      "OligoFormer_rank_in_gene": 187
+    },
+    {
+      "guide": "GGCUGGGUUUGUCGGUGUUCC",
+      "target_pos": 2394,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2394",
+      "of_core_19nt": "GGCUGGGUUUGUCGGUGUU",
+      "OligoFormer_efficacy": 0.411543,
+      "OligoFormer_rank_in_gene": 188
+    },
+    {
+      "guide": "GGAGCGCGCGCGGCUGGAGCA",
+      "target_pos": 882,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_882",
+      "of_core_19nt": "GGAGCGCGCGCGGCUGGAG",
+      "OligoFormer_efficacy": 0.407476,
+      "OligoFormer_rank_in_gene": 189
+    },
+    {
+      "guide": "CUUCCUCCCCGGCCCGAGGCC",
+      "target_pos": 918,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_918",
+      "of_core_19nt": "CUUCCUCCCCGGCCCGAGG",
+      "OligoFormer_efficacy": 0.40204,
+      "OligoFormer_rank_in_gene": 190
+    },
+    {
+      "guide": "CUCCGGCUCGGGCUGUGGGGC",
+      "target_pos": 972,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_972",
+      "of_core_19nt": "CUCCGGCUCGGGCUGUGGG",
+      "OligoFormer_efficacy": 0.397342,
+      "OligoFormer_rank_in_gene": 191
+    },
+    {
+      "guide": "CGCGCUCCGGCGGUCACCCCC",
+      "target_pos": 432,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_432",
+      "of_core_19nt": "CGCGCUCCGGCGGUCACCC",
+      "OligoFormer_efficacy": 0.388404,
+      "OligoFormer_rank_in_gene": 192
+    },
+    {
+      "guide": "GAGGCCCGACCGGGGCCGGCG",
+      "target_pos": 1008,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1008",
+      "of_core_19nt": "GAGGCCCGACCGGGGCCGG",
+      "OligoFormer_efficacy": 0.386292,
+      "OligoFormer_rank_in_gene": 193
+    },
+    {
+      "guide": "GGCGGCCCGCUCUCCUCGGCG",
+      "target_pos": 954,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_954",
+      "of_core_19nt": "GGCGGCCCGCUCUCCUCGG",
+      "OligoFormer_efficacy": 0.385484,
+      "OligoFormer_rank_in_gene": 194
+    },
+    {
+      "guide": "GGGCUGCUUCUUCCAACAAUG",
+      "target_pos": 2682,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_2682",
+      "of_core_19nt": "GGGCUGCUUCUUCCAACAA",
+      "OligoFormer_efficacy": 0.385346,
+      "OligoFormer_rank_in_gene": 195
+    },
+    {
+      "guide": "CAGGGAUGGGGGCCAGGGAGG",
+      "target_pos": 1566,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_1566",
+      "of_core_19nt": "CAGGGAUGGGGGCCAGGGA",
+      "OligoFormer_efficacy": 0.372469,
+      "OligoFormer_rank_in_gene": 196
+    },
+    {
+      "guide": "GGCCCCUGCCCGCGGCUCGCC",
+      "target_pos": 576,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_576",
+      "of_core_19nt": "GGCCCCUGCCCGCGGCUCG",
+      "OligoFormer_efficacy": 0.335258,
+      "OligoFormer_rank_in_gene": 197
+    },
+    {
+      "guide": "CGCCGCCGGCCGGGGAGGAGG",
+      "target_pos": 540,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_540",
+      "of_core_19nt": "CGCCGCCGGCCGGGGAGGA",
+      "OligoFormer_efficacy": 0.330615,
+      "OligoFormer_rank_in_gene": 198
+    },
+    {
+      "guide": "GCCCGGGCCAGGGCCUGGGGA",
+      "target_pos": 900,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_900",
+      "of_core_19nt": "GCCCGGGCCAGGGCCUGGG",
+      "OligoFormer_efficacy": 0.315816,
+      "OligoFormer_rank_in_gene": 199
+    },
+    {
+      "guide": "CCUCCGGGCGCGGGCUCCGGC",
+      "target_pos": 594,
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "id": "des_VEGFA_594",
+      "of_core_19nt": "CCUCCGGGCGCGGGCUCCG",
+      "OligoFormer_efficacy": 0.291579,
+      "OligoFormer_rank_in_gene": 200
+    }
+  ]
+}

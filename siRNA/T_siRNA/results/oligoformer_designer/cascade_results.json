@@ -1,0 +1,3252 @@
+{
+  "task": "T_siRNA · OligoFormer（专用 siRNA 设计器）",
+  "model": "OligoFormer (Bai et al., Bioinformatics 2024) · model/best_model.pth",
+  "n": 30,
+  "designer_direction": "higher_is_better",
+  "detectors": "与 sirna_cascade_pipeline / rna_fm_designer 同函数同定义（import，非重写）",
+  "channels": {
+    "A": "Bowtie2 vs 人类转录组",
+    "B": "19189 条真实 3'UTR，组织 Liver"
+  },
+  "caveats": [
+    "OligoFormer 同样不是生成模型，是判别式 oracle；加它解决的是「排序信号与任务无关」，不是「被测的不是生成能力」。",
+    "21 nt 引导链取 guide[0:19] 送入（19 nt 双链核心 + 2 nt 3′ 突出端的标准 siRNA 口径）。",
+    "未使用 OligoFormer 自带的 off-target / toxicity 模块——脱靶判据必须与 RNA-FM 那两档逐字相同。"
+  ],
+  "all_results": [
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_PCSK9_3132",
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "target_pos": 3132,
+      "guide_strand": "UUUCUUCCUCUGUGAAGUAGG",
+      "of_core_19nt": "UUUCUUCCUCUGUGAAGUA",
+      "seed_region": "TTCTTCC",
+      "designer_score": 0.989762,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 1,
+      "r_1": 141,
+      "r_2": 0.195216,
+      "r_3": 2.7456,
+      "r_4": 0.4286,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 142,
+        "offtarget_count": 141,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 3746,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1963,
+        "n_sites_7mer_m8": 3043
+      },
+      "L5_details": {
+        "most_essential_gene": "SMU1",
+        "n_common_essential_hit": 258,
+        "top_genes": [
+          {
+            "gene": "SMU1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL23",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PRPF38A",
+            "n_8mer": 2,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 6.21901,
+            "depmap_r_3": 2.5178,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3B3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PRPF19",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 38.8743,
+            "depmap_r_3": 2.3752,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.4286,
+        "gc_fraction": 0.4286,
+        "motif_counts": [
+          {
+            "motif": "GUAG",
+            "count": 1
+          },
+          {
+            "motif": "GU",
+            "count": 2
+          },
+          {
+            "motif": "UU",
+            "count": 2
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_PCSK9_2682",
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "target_pos": 2682,
+      "guide_strand": "UCAAUAAAAGUCAUUCUGCCC",
+      "of_core_19nt": "UCAAUAAAAGUCAUUCUGC",
+      "seed_region": "CAATAAA",
+      "designer_score": 0.973607,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 2,
+      "r_1": 9,
+      "r_2": 0.233415,
+      "r_3": 3.9331,
+      "r_4": 0.2857,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 10,
+        "offtarget_count": 9,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 4479,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1837,
+        "n_sites_7mer_m8": 4711
+      },
+      "L5_details": {
+        "most_essential_gene": "RAN",
+        "n_common_essential_hit": 335,
+        "top_genes": [
+          {
+            "gene": "RAN",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 37.7079,
+            "depmap_r_3": 3.9331,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPS8",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 236.145,
+            "depmap_r_3": 2.8838,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPD1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 4.3431,
+            "depmap_r_3": 2.5965,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PRPF38A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.21901,
+            "depmap_r_3": 2.5178,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "WEE1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 5.38428,
+            "depmap_r_3": 2.4548,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.2857,
+        "gc_fraction": 0.381,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_PCSK9_828",
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "target_pos": 828,
+      "guide_strand": "UGUCUAGGAGAUACACCUCCA",
+      "of_core_19nt": "UGUCUAGGAGAUACACCUC",
+      "seed_region": "GTCTAGG",
+      "designer_score": 0.938527,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 3,
+      "r_1": 17,
+      "r_2": 0.053416,
+      "r_3": 3.9331,
+      "r_4": 0.2381,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 18,
+        "offtarget_count": 17,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 1025,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 356,
+        "n_sites_7mer_m8": 750
+      },
+      "L5_details": {
+        "most_essential_gene": "RAN",
+        "n_common_essential_hit": 72,
+        "top_genes": [
+          {
+            "gene": "RAN",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 37.7079,
+            "depmap_r_3": 3.9331,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL23",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "KIF11",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 0.338804,
+            "depmap_r_3": 2.5686,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPA1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.65813,
+            "depmap_r_3": 2.3313,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "VPS25",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 33.3164,
+            "depmap_r_3": 2.2023,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.2381,
+        "gc_fraction": 0.4762,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_PCSK9_3348",
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "target_pos": 3348,
+      "guide_strand": "AACGGAAAAAGUUCCAUGCCU",
+      "of_core_19nt": "AACGGAAAAAGUUCCAUGC",
+      "seed_region": "ACGGAAA",
+      "designer_score": 0.933526,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 4,
+      "r_1": 71,
+      "r_2": 0.03601,
+      "r_3": 2.5178,
+      "r_4": 0.1905,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 72,
+        "offtarget_count": 71,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 691,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 163,
+        "n_sites_7mer_m8": 555
+      },
+      "L5_details": {
+        "most_essential_gene": "PRPF38A",
+        "n_common_essential_hit": 43,
+        "top_genes": [
+          {
+            "gene": "PRPF38A",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 6.21901,
+            "depmap_r_3": 2.5178,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPS23",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 35.7191,
+            "depmap_r_3": 2.3283,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "DHDDS",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 7.86147,
+            "depmap_r_3": 2.1572,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "TARS1",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 23.0402,
+            "depmap_r_3": 1.9021,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RNGTT",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 3.80774,
+            "depmap_r_3": 1.8617,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.1905,
+        "gc_fraction": 0.4286,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_PCSK9_3528",
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "target_pos": 3528,
+      "guide_strand": "AAAAGCAAAACAGGUCUAGAA",
+      "of_core_19nt": "AAAAGCAAAACAGGUCUAG",
+      "seed_region": "AAAGCAA",
+      "designer_score": 0.894114,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 5,
+      "r_1": 9,
+      "r_2": 0.258481,
+      "r_3": 4.2496,
+      "r_4": 0.0952,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 10,
+        "offtarget_count": 9,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 4960,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1498,
+        "n_sites_7mer_m8": 6146
+      },
+      "L5_details": {
+        "most_essential_gene": "SNRPD3",
+        "n_common_essential_hit": 384,
+        "top_genes": [
+          {
+            "gene": "SNRPD3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 28.0187,
+            "depmap_r_3": 4.2496,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RAN",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 37.7079,
+            "depmap_r_3": 3.9331,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPA1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 13.7125,
+            "depmap_r_3": 2.8212,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CDC27",
+            "n_8mer": 1,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.84988,
+            "depmap_r_3": 2.6603,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL23",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.0952,
+        "gc_fraction": 0.3333,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_TTR_282",
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "target_pos": 282,
+      "guide_strand": "UUUCCACUUUGUAUAUCCCUU",
+      "of_core_19nt": "UUUCCACUUUGUAUAUCCC",
+      "seed_region": "TTCCACT",
+      "designer_score": 1.048728,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 1,
+      "r_1": 19,
+      "r_2": 0.14253,
+      "r_3": 2.8212,
+      "r_4": 0.5238,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 20,
+        "offtarget_count": 19,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 2735,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1174,
+        "n_sites_7mer_m8": 2160
+      },
+      "L5_details": {
+        "most_essential_gene": "SNRPA1",
+        "n_common_essential_hit": 201,
+        "top_genes": [
+          {
+            "gene": "SNRPA1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 13.7125,
+            "depmap_r_3": 2.8212,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SMU1",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL23",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CDC16",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 24.974,
+            "depmap_r_3": 2.2632,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL4",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 263.8,
+            "depmap_r_3": 2.2185,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.5238,
+        "gc_fraction": 0.3333,
+        "motif_counts": [
+          {
+            "motif": "UUGU",
+            "count": 1
+          },
+          {
+            "motif": "GU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 3
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_TTR_262",
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "target_pos": 262,
+      "guide_strand": "UCUACAAAUUCCUCCUCAGUU",
+      "of_core_19nt": "UCUACAAAUUCCUCCUCAG",
+      "seed_region": "CTACAAA",
+      "designer_score": 1.001094,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 2,
+      "r_1": 61,
+      "r_2": 0.172755,
+      "r_3": 4.2496,
+      "r_4": 0.381,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 62,
+        "offtarget_count": 61,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 3315,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1711,
+        "n_sites_7mer_m8": 2705
+      },
+      "L5_details": {
+        "most_essential_gene": "SNRPD3",
+        "n_common_essential_hit": 277,
+        "top_genes": [
+          {
+            "gene": "SNRPD3",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 28.0187,
+            "depmap_r_3": 4.2496,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RAN",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 37.7079,
+            "depmap_r_3": 3.9331,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CDC27",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.84988,
+            "depmap_r_3": 2.6603,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "KIF11",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 0.338804,
+            "depmap_r_3": 2.5686,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PRPF38A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.21901,
+            "depmap_r_3": 2.5178,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.381,
+        "gc_fraction": 0.381,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 2
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_TTR_128",
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "target_pos": 128,
+      "guide_strand": "UCGGACAGCAUCUAGAACUUU",
+      "of_core_19nt": "UCGGACAGCAUCUAGAACU",
+      "seed_region": "CGGACAG",
+      "designer_score": 0.98825,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 3,
+      "r_1": 5,
+      "r_2": 0.02835,
+      "r_3": 2.7816,
+      "r_4": 0.2857,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 6,
+        "offtarget_count": 5,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 544,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 76,
+        "n_sites_7mer_m8": 505
+      },
+      "L5_details": {
+        "most_essential_gene": "RPS19",
+        "n_common_essential_hit": 35,
+        "top_genes": [
+          {
+            "gene": "RPS19",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 182.562,
+            "depmap_r_3": 2.7816,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CDK1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 0.271905,
+            "depmap_r_3": 2.3709,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RBM39",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 42.3215,
+            "depmap_r_3": 2.2012,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CKAP5",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 12.873,
+            "depmap_r_3": 2.1124,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL36",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 169.804,
+            "depmap_r_3": 2.0775,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.2857,
+        "gc_fraction": 0.4286,
+        "motif_counts": [
+          {
+            "motif": "UU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_TTR_118",
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "target_pos": 118,
+      "guide_strand": "UCUAGAACUUUGACCAUCAGA",
+      "of_core_19nt": "UCUAGAACUUUGACCAUCA",
+      "seed_region": "CTAGAAC",
+      "designer_score": 0.985818,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 4,
+      "r_1": 8,
+      "r_2": 0.08088,
+      "r_3": 2.4901,
+      "r_4": 0.2857,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 9,
+        "offtarget_count": 8,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 1552,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 582,
+        "n_sites_7mer_m8": 1205
+      },
+      "L5_details": {
+        "most_essential_gene": "SF3B3",
+        "n_common_essential_hit": 108,
+        "top_genes": [
+          {
+            "gene": "SF3B3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "TOP2A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 0.269363,
+            "depmap_r_3": 2.2487,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RBM39",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 42.3215,
+            "depmap_r_3": 2.2012,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "DHDDS",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 7.86147,
+            "depmap_r_3": 2.1572,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "COPA",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 30.8858,
+            "depmap_r_3": 2.0467,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.2857,
+        "gc_fraction": 0.381,
+        "motif_counts": [
+          {
+            "motif": "UU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_TTR_260",
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "target_pos": 260,
+      "guide_strand": "UACAAAUUCCUCCUCAGUUGU",
+      "of_core_19nt": "UACAAAUUCCUCCUCAGUU",
+      "seed_region": "ACAAATT",
+      "designer_score": 0.985127,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 5,
+      "r_1": 39,
+      "r_2": 0.204701,
+      "r_3": 2.7252,
+      "r_4": 0.381,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 40,
+        "offtarget_count": 39,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 3928,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1720,
+        "n_sites_7mer_m8": 3909
+      },
+      "L5_details": {
+        "most_essential_gene": "PCNA",
+        "n_common_essential_hit": 314,
+        "top_genes": [
+          {
+            "gene": "PCNA",
+            "n_8mer": 1,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 20.0603,
+            "depmap_r_3": 2.7252,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CDC27",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.84988,
+            "depmap_r_3": 2.6603,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPD1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 4.3431,
+            "depmap_r_3": 2.5965,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL31",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 68.6772,
+            "depmap_r_3": 2.5444,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SRSF3",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 34.3509,
+            "depmap_r_3": 2.5407,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.381,
+        "gc_fraction": 0.381,
+        "motif_counts": [
+          {
+            "motif": "UUGU",
+            "count": 1
+          },
+          {
+            "motif": "GU",
+            "count": 2
+          },
+          {
+            "motif": "UU",
+            "count": 2
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_HAO1_1016",
+      "gene": "HAO1",
+      "accession": "NM_017545.3",
+      "target_pos": 1016,
+      "guide_strand": "UCGAGGACAUCUUGAACACCU",
+      "of_core_19nt": "UCGAGGACAUCUUGAACAC",
+      "seed_region": "CGAGGAC",
+      "designer_score": 1.067173,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 1,
+      "r_1": 18,
+      "r_2": 0.025119,
+      "r_3": 4.2496,
+      "r_4": 0.2381,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 19,
+        "offtarget_count": 18,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 482,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 82,
+        "n_sites_7mer_m8": 438
+      },
+      "L5_details": {
+        "most_essential_gene": "SNRPD3",
+        "n_common_essential_hit": 33,
+        "top_genes": [
+          {
+            "gene": "SNRPD3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 28.0187,
+            "depmap_r_3": 4.2496,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPD1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 4.3431,
+            "depmap_r_3": 2.5965,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "EEF2",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 451.095,
+            "depmap_r_3": 2.3498,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPA1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.65813,
+            "depmap_r_3": 2.3313,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "UBE2I",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.13696,
+            "depmap_r_3": 2.0373,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.2381,
+        "gc_fraction": 0.4762,
+        "motif_counts": [
+          {
+            "motif": "UU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_HAO1_1008",
+      "gene": "HAO1",
+      "accession": "NM_017545.3",
+      "target_pos": 1008,
+      "guide_strand": "AUCUUGAACACCUUUCUCCCC",
+      "of_core_19nt": "AUCUUGAACACCUUUCUCC",
+      "seed_region": "TCTTGAA",
+      "designer_score": 1.01346,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 2,
+      "r_1": 21,
+      "r_2": 0.167596,
+      "r_3": 2.7456,
+      "r_4": 0.3333,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 22,
+        "offtarget_count": 21,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 3216,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1251,
+        "n_sites_7mer_m8": 2886
+      },
+      "L5_details": {
+        "most_essential_gene": "SMU1",
+        "n_common_essential_hit": 236,
+        "top_genes": [
+          {
+            "gene": "SMU1",
+            "n_8mer": 1,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PCNA",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 20.0603,
+            "depmap_r_3": 2.7252,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CDC27",
+            "n_8mer": 1,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.84988,
+            "depmap_r_3": 2.6603,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL23",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPD1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 4.3431,
+            "depmap_r_3": 2.5965,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.3333,
+        "gc_fraction": 0.4762,
+        "motif_counts": [
+          {
+            "motif": "UU",
+            "count": 2
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_HAO1_144",
+      "gene": "HAO1",
+      "accession": "NM_017545.3",
+      "target_pos": 144,
+      "guide_strand": "UGCUGCAAUAUUAUCAGCCAA",
+      "of_core_19nt": "UGCUGCAAUAUUAUCAGCC",
+      "seed_region": "GCTGCAA",
+      "designer_score": 1.003507,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 3,
+      "r_1": 15,
+      "r_2": 0.104018,
+      "r_3": 2.6454,
+      "r_4": 0.2857,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 16,
+        "offtarget_count": 15,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 1996,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 732,
+        "n_sites_7mer_m8": 1542
+      },
+      "L5_details": {
+        "most_essential_gene": "RPL23",
+        "n_common_essential_hit": 149,
+        "top_genes": [
+          {
+            "gene": "RPL23",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PHF5A",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 17.5002,
+            "depmap_r_3": 2.4382,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPA1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.65813,
+            "depmap_r_3": 2.3313,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPS23",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 35.7191,
+            "depmap_r_3": 2.3283,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "LRR1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 2.83993,
+            "depmap_r_3": 2.3093,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.2857,
+        "gc_fraction": 0.381,
+        "motif_counts": [
+          {
+            "motif": "UUAU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_HAO1_1024",
+      "gene": "HAO1",
+      "accession": "NM_017545.3",
+      "target_pos": 1024,
+      "guide_strand": "UUAGUAUCUCGAGGACAUCUU",
+      "of_core_19nt": "UUAGUAUCUCGAGGACAUC",
+      "seed_region": "TAGTATC",
+      "designer_score": 1.003411,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 4,
+      "r_1": 1,
+      "r_2": 0.055813,
+      "r_3": 4.2496,
+      "r_4": 0.381,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 2,
+        "offtarget_count": 1,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 1071,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 391,
+        "n_sites_7mer_m8": 779
+      },
+      "L5_details": {
+        "most_essential_gene": "SNRPD3",
+        "n_common_essential_hit": 81,
+        "top_genes": [
+          {
+            "gene": "SNRPD3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 28.0187,
+            "depmap_r_3": 4.2496,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "HSPA9",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 84.1057,
+            "depmap_r_3": 2.3085,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SRSF7",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 41.9176,
+            "depmap_r_3": 2.1141,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SS18L2",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 5.36158,
+            "depmap_r_3": 2.0104,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PSMB2",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 24.0574,
+            "depmap_r_3": 1.9658,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.381,
+        "gc_fraction": 0.381,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 2
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_HAO1_120",
+      "gene": "HAO1",
+      "accession": "NM_017545.3",
+      "target_pos": 120,
+      "guide_strand": "UUCUUCAUCAUUUGCCCCAGA",
+      "of_core_19nt": "UUCUUCAUCAUUUGCCCCA",
+      "seed_region": "TCTTCAT",
+      "designer_score": 1.001844,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 5,
+      "r_1": 69,
+      "r_2": 0.167179,
+      "r_3": 4.2496,
+      "r_4": 0.381,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 70,
+        "offtarget_count": 69,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 3208,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1543,
+        "n_sites_7mer_m8": 2569
+      },
+      "L5_details": {
+        "most_essential_gene": "SNRPD3",
+        "n_common_essential_hit": 206,
+        "top_genes": [
+          {
+            "gene": "SNRPD3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 28.0187,
+            "depmap_r_3": 4.2496,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SMU1",
+            "n_8mer": 1,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3B3",
+            "n_8mer": 1,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PSMA2",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 75.0516,
+            "depmap_r_3": 2.4203,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PSMA1",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 45.2019,
+            "depmap_r_3": 2.2541,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.381,
+        "gc_fraction": 0.4286,
+        "motif_counts": [
+          {
+            "motif": "UU",
+            "count": 3
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_KRAS_837",
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "target_pos": 837,
+      "guide_strand": "UUGACUUCUUUUUCUUCUUUU",
+      "of_core_19nt": "UUGACUUCUUUUUCUUCUU",
+      "seed_region": "TGACTTC",
+      "designer_score": 1.095241,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 1,
+      "r_1": 741,
+      "r_2": 0.117411,
+      "r_3": 2.5407,
+      "r_4": 0.7143,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 742,
+        "offtarget_count": 741,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 2253,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 603,
+        "n_sites_7mer_m8": 2063
+      },
+      "L5_details": {
+        "most_essential_gene": "SRSF3",
+        "n_common_essential_hit": 155,
+        "top_genes": [
+          {
+            "gene": "SRSF3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 34.3509,
+            "depmap_r_3": 2.5407,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PRPF38A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.21901,
+            "depmap_r_3": 2.5178,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPA1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.65813,
+            "depmap_r_3": 2.3313,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "POLR3A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 3.41659,
+            "depmap_r_3": 2.3141,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "TXNL4A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 10.4881,
+            "depmap_r_3": 2.2195,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.7143,
+        "gc_fraction": 0.2381,
+        "motif_counts": [
+          {
+            "motif": "UUUU",
+            "count": 2
+          },
+          {
+            "motif": "UU",
+            "count": 7
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_KRAS_1890",
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "target_pos": 1890,
+      "guide_strand": "UAUGAAAGCUCAAAGGUUCAC",
+      "of_core_19nt": "UAUGAAAGCUCAAAGGUUC",
+      "seed_region": "ATGAAAG",
+      "designer_score": 1.049625,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 2,
+      "r_1": 14,
+      "r_2": 0.169576,
+      "r_3": 3.9331,
+      "r_4": 0.2381,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 15,
+        "offtarget_count": 14,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 3254,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 898,
+        "n_sites_7mer_m8": 3345
+      },
+      "L5_details": {
+        "most_essential_gene": "RAN",
+        "n_common_essential_hit": 243,
+        "top_genes": [
+          {
+            "gene": "RAN",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 37.7079,
+            "depmap_r_3": 3.9331,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RRM1",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 4.8083,
+            "depmap_r_3": 2.8604,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CDC27",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.84988,
+            "depmap_r_3": 2.6603,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPD1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 4.3431,
+            "depmap_r_3": 2.5965,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SARS1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 34.8521,
+            "depmap_r_3": 2.5828,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.2381,
+        "gc_fraction": 0.381,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_KRAS_243",
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "target_pos": 243,
+      "guide_strand": "UGAAUUAGCUGUAUCGUCAAG",
+      "of_core_19nt": "UGAAUUAGCUGUAUCGUCA",
+      "seed_region": "GAATTAG",
+      "designer_score": 1.011547,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 3,
+      "r_1": 23,
+      "r_2": 0.083121,
+      "r_3": 2.5444,
+      "r_4": 0.3333,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 24,
+        "offtarget_count": 23,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 1595,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 571,
+        "n_sites_7mer_m8": 1245
+      },
+      "L5_details": {
+        "most_essential_gene": "RPL31",
+        "n_common_essential_hit": 113,
+        "top_genes": [
+          {
+            "gene": "RPL31",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 68.6772,
+            "depmap_r_3": 2.5444,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "POLR3A",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 3.41659,
+            "depmap_r_3": 2.3141,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PAFAH1B1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 12.4797,
+            "depmap_r_3": 2.216,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CCT4",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 29.7167,
+            "depmap_r_3": 2.1604,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "BUB3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 7.66913,
+            "depmap_r_3": 2.129,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.3333,
+        "gc_fraction": 0.381,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 2
+          },
+          {
+            "motif": "UU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_KRAS_810",
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "target_pos": 810,
+      "guide_strand": "CUUUGCUCAUCUUUUCUUUAU",
+      "of_core_19nt": "CUUUGCUCAUCUUUUCUUU",
+      "seed_region": "TTTGCTC",
+      "designer_score": 1.001348,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 4,
+      "r_1": 103,
+      "r_2": 0.124759,
+      "r_3": 2.7456,
+      "r_4": 0.619,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 104,
+        "offtarget_count": 103,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 2394,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1001,
+        "n_sites_7mer_m8": 1883
+      },
+      "L5_details": {
+        "most_essential_gene": "SMU1",
+        "n_common_essential_hit": 163,
+        "top_genes": [
+          {
+            "gene": "SMU1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPD1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 4.3431,
+            "depmap_r_3": 2.5965,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3B3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 63.9292,
+            "depmap_r_3": 2.3738,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "DHDDS",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 7.86147,
+            "depmap_r_3": 2.1572,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.619,
+        "gc_fraction": 0.2857,
+        "motif_counts": [
+          {
+            "motif": "UUAU",
+            "count": 1
+          },
+          {
+            "motif": "UUUU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 4
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_KRAS_4779",
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "target_pos": 4779,
+      "guide_strand": "UUUAUGACAGCUAUUCAGUUU",
+      "of_core_19nt": "UUUAUGACAGCUAUUCAGU",
+      "seed_region": "TTATGAC",
+      "designer_score": 0.992437,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 5,
+      "r_1": 16,
+      "r_2": 0.075251,
+      "r_3": 2.6603,
+      "r_4": 0.4762,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 17,
+        "offtarget_count": 16,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 1444,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 610,
+        "n_sites_7mer_m8": 1020
+      },
+      "L5_details": {
+        "most_essential_gene": "CDC27",
+        "n_common_essential_hit": 106,
+        "top_genes": [
+          {
+            "gene": "CDC27",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.84988,
+            "depmap_r_3": 2.6603,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPD1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 4.3431,
+            "depmap_r_3": 2.5965,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SRSF3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 34.3509,
+            "depmap_r_3": 2.5407,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PRPF38A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.21901,
+            "depmap_r_3": 2.5178,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3B3",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.4762,
+        "gc_fraction": 0.2857,
+        "motif_counts": [
+          {
+            "motif": "UUAU",
+            "count": 1
+          },
+          {
+            "motif": "GU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 3
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_VEGFA_1440",
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "target_pos": 1440,
+      "guide_strand": "UUUUUUUCUUGUCUUGCUCUA",
+      "of_core_19nt": "UUUUUUUCUUGUCUUGCUC",
+      "seed_region": "TTTTTTC",
+      "designer_score": 1.141359,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 1,
+      "r_1": 154,
+      "r_2": 0.31393,
+      "r_3": 4.2496,
+      "r_4": 0.6667,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 155,
+        "offtarget_count": 154,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 6024,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 6155,
+        "n_sites_7mer_m8": 5043
+      },
+      "L5_details": {
+        "most_essential_gene": "SNRPD3",
+        "n_common_essential_hit": 418,
+        "top_genes": [
+          {
+            "gene": "SNRPD3",
+            "n_8mer": 1,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 28.0187,
+            "depmap_r_3": 4.2496,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RRM1",
+            "n_8mer": 2,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 4.8083,
+            "depmap_r_3": 2.8604,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPS29",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 25.3456,
+            "depmap_r_3": 2.8219,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SMU1",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CDC27",
+            "n_8mer": 1,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 6.84988,
+            "depmap_r_3": 2.6603,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.6667,
+        "gc_fraction": 0.2857,
+        "motif_counts": [
+          {
+            "motif": "UUGU",
+            "count": 1
+          },
+          {
+            "motif": "UUUU",
+            "count": 1
+          },
+          {
+            "motif": "GU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 5
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_VEGFA_1476",
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "target_pos": 1476,
+      "guide_strand": "UUUCGUUUUUGCCCCUUUCCC",
+      "of_core_19nt": "UUUCGUUUUUGCCCCUUUC",
+      "seed_region": "TTCGTTT",
+      "designer_score": 1.091869,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 2,
+      "r_1": 35,
+      "r_2": 0.037,
+      "r_3": 2.7816,
+      "r_4": 0.5238,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 36,
+        "offtarget_count": 35,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 710,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 300,
+        "n_sites_7mer_m8": 445
+      },
+      "L5_details": {
+        "most_essential_gene": "RPS19",
+        "n_common_essential_hit": 51,
+        "top_genes": [
+          {
+            "gene": "RPS19",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 182.562,
+            "depmap_r_3": 2.7816,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SRSF3",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 34.3509,
+            "depmap_r_3": 2.5407,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "TXNL4A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 10.4881,
+            "depmap_r_3": 2.2195,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SRSF7",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 41.9176,
+            "depmap_r_3": 2.1141,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "GINS2",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 0.532336,
+            "depmap_r_3": 2.0652,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.5238,
+        "gc_fraction": 0.4762,
+        "motif_counts": [
+          {
+            "motif": "UUUU",
+            "count": 1
+          },
+          {
+            "motif": "GU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 4
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_VEGFA_2934",
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "target_pos": 2934,
+      "guide_strand": "UAAAACACUUUCUCUUUUCUC",
+      "of_core_19nt": "UAAAACACUUUCUCUUUUC",
+      "seed_region": "AAAACAC",
+      "designer_score": 1.034559,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 3,
+      "r_1": 82,
+      "r_2": 0.249674,
+      "r_3": 2.7456,
+      "r_4": 0.4762,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 83,
+        "offtarget_count": 82,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 4791,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1529,
+        "n_sites_7mer_m8": 5681
+      },
+      "L5_details": {
+        "most_essential_gene": "SMU1",
+        "n_common_essential_hit": 374,
+        "top_genes": [
+          {
+            "gene": "SMU1",
+            "n_8mer": 2,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL23",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SRSF3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 34.3509,
+            "depmap_r_3": 2.5407,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3B3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "WEE1",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 5.38428,
+            "depmap_r_3": 2.4548,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.4762,
+        "gc_fraction": 0.2857,
+        "motif_counts": [
+          {
+            "motif": "UUUU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 3
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_VEGFA_3492",
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "target_pos": 3492,
+      "guide_strand": "UUUUCCCCACAAUUAUUACGG",
+      "of_core_19nt": "UUUUCCCCACAAUUAUUAC",
+      "seed_region": "TTTCCCC",
+      "designer_score": 1.012892,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 4,
+      "r_1": 11,
+      "r_2": 0.184376,
+      "r_3": 4.2496,
+      "r_4": 0.381,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 12,
+        "offtarget_count": 11,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 3538,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1777,
+        "n_sites_7mer_m8": 2818
+      },
+      "L5_details": {
+        "most_essential_gene": "SNRPD3",
+        "n_common_essential_hit": 227,
+        "top_genes": [
+          {
+            "gene": "SNRPD3",
+            "n_8mer": 2,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 28.0187,
+            "depmap_r_3": 4.2496,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CDC27",
+            "n_8mer": 1,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.84988,
+            "depmap_r_3": 2.6603,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL23",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PRPF38A",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 6.21901,
+            "depmap_r_3": 2.5178,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "EEF2",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 451.095,
+            "depmap_r_3": 2.3498,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.381,
+        "gc_fraction": 0.381,
+        "motif_counts": [
+          {
+            "motif": "UUAU",
+            "count": 1
+          },
+          {
+            "motif": "UUUU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 4
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_VEGFA_1782",
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "target_pos": 1782,
+      "guide_strand": "UAUCAGUCUUUCCUGGUGAGA",
+      "of_core_19nt": "UAUCAGUCUUUCCUGGUGA",
+      "seed_region": "ATCAGTC",
+      "designer_score": 1.01097,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 5,
+      "r_1": 18,
+      "r_2": 0.076294,
+      "r_3": 2.5828,
+      "r_4": 0.381,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 19,
+        "offtarget_count": 18,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 1464,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 341,
+        "n_sites_7mer_m8": 1277
+      },
+      "L5_details": {
+        "most_essential_gene": "SARS1",
+        "n_common_essential_hit": 102,
+        "top_genes": [
+          {
+            "gene": "SARS1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 34.8521,
+            "depmap_r_3": 2.5828,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SRSF3",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 34.3509,
+            "depmap_r_3": 2.5407,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3B3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPS23",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 35.7191,
+            "depmap_r_3": 2.3283,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL13",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 409.044,
+            "depmap_r_3": 2.257,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.381,
+        "gc_fraction": 0.4286,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 2
+          },
+          {
+            "motif": "UU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_BCL2_102",
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "target_pos": 102,
+      "guide_strand": "UGAUUAAACUCCGAACAGCAA",
+      "of_core_19nt": "UGAUUAAACUCCGAACAGC",
+      "seed_region": "GATTAAA",
+      "designer_score": 1.037045,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 1,
+      "r_1": 2,
+      "r_2": 0.151545,
+      "r_3": 2.6603,
+      "r_4": 0.1905,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 3,
+        "offtarget_count": 2,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 2908,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1367,
+        "n_sites_7mer_m8": 2347
+      },
+      "L5_details": {
+        "most_essential_gene": "CDC27",
+        "n_common_essential_hit": 190,
+        "top_genes": [
+          {
+            "gene": "CDC27",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.84988,
+            "depmap_r_3": 2.6603,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPD1",
+            "n_8mer": 1,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 4.3431,
+            "depmap_r_3": 2.5965,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PRPF38A",
+            "n_8mer": 1,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.21901,
+            "depmap_r_3": 2.5178,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF1",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 63.9292,
+            "depmap_r_3": 2.3738,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "ANKLE2",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 7.67273,
+            "depmap_r_3": 2.2645,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.1905,
+        "gc_fraction": 0.381,
+        "motif_counts": [
+          {
+            "motif": "UU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_BCL2_6018",
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "target_pos": 6018,
+      "guide_strand": "UAUCACUCUCCAAUUCAGUUU",
+      "of_core_19nt": "UAUCACUCUCCAAUUCAGU",
+      "seed_region": "ATCACTC",
+      "designer_score": 0.995881,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 2,
+      "r_1": 20,
+      "r_2": 0.080411,
+      "r_3": 2.8604,
+      "r_4": 0.4286,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 21,
+        "offtarget_count": 20,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 1543,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 377,
+        "n_sites_7mer_m8": 1338
+      },
+      "L5_details": {
+        "most_essential_gene": "RRM1",
+        "n_common_essential_hit": 111,
+        "top_genes": [
+          {
+            "gene": "RRM1",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 4.8083,
+            "depmap_r_3": 2.8604,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3B3",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPA1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.65813,
+            "depmap_r_3": 2.3313,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "POLR3A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 3.41659,
+            "depmap_r_3": 2.3141,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "ANKLE2",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 7.67273,
+            "depmap_r_3": 2.2645,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.4286,
+        "gc_fraction": 0.3333,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 2
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_BCL2_4726",
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "target_pos": 4726,
+      "guide_strand": "UUUUAGAGCCCUUGUCCCCAA",
+      "of_core_19nt": "UUUUAGAGCCCUUGUCCCC",
+      "seed_region": "TTTAGAG",
+      "designer_score": 0.983633,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 3,
+      "r_1": 12,
+      "r_2": 0.131013,
+      "r_3": 2.7816,
+      "r_4": 0.3333,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 13,
+        "offtarget_count": 12,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 2514,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1229,
+        "n_sites_7mer_m8": 1832
+      },
+      "L5_details": {
+        "most_essential_gene": "RPS19",
+        "n_common_essential_hit": 173,
+        "top_genes": [
+          {
+            "gene": "RPS19",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 182.562,
+            "depmap_r_3": 2.7816,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PCNA",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 20.0603,
+            "depmap_r_3": 2.7252,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SRSF3",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 34.3509,
+            "depmap_r_3": 2.5407,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3B3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPS3",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 104.782,
+            "depmap_r_3": 2.4691,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.3333,
+        "gc_fraction": 0.4762,
+        "motif_counts": [
+          {
+            "motif": "UUGU",
+            "count": 1
+          },
+          {
+            "motif": "UUUU",
+            "count": 1
+          },
+          {
+            "motif": "GU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 3
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_BCL2_3298",
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "target_pos": 3298,
+      "guide_strand": "UAAUGCCACAGAGUUAUUCCA",
+      "of_core_19nt": "UAAUGCCACAGAGUUAUUC",
+      "seed_region": "AATGCCA",
+      "designer_score": 0.970061,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 4,
+      "r_1": 7,
+      "r_2": 0.15363,
+      "r_3": 2.7456,
+      "r_4": 0.2857,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 8,
+        "offtarget_count": 7,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 2948,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 729,
+        "n_sites_7mer_m8": 2994
+      },
+      "L5_details": {
+        "most_essential_gene": "SMU1",
+        "n_common_essential_hit": 195,
+        "top_genes": [
+          {
+            "gene": "SMU1",
+            "n_8mer": 1,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SRSF3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 34.3509,
+            "depmap_r_3": 2.5407,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "HNRNPK",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 114.026,
+            "depmap_r_3": 2.3515,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RRM2",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 0.35074,
+            "depmap_r_3": 2.3396,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PAFAH1B1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 12.4797,
+            "depmap_r_3": 2.216,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.2857,
+        "gc_fraction": 0.381,
+        "motif_counts": [
+          {
+            "motif": "UUAU",
+            "count": 1
+          },
+          {
+            "motif": "UAAU",
+            "count": 1
+          },
+          {
+            "motif": "GU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 2
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "OligoFormer",
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "candidate_id": "des_BCL2_6494",
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "target_pos": 6494,
+      "guide_strand": "UUAAGAAGGUAUAAUAAACAA",
+      "of_core_19nt": "UUAAGAAGGUAUAAUAAAC",
+      "seed_region": "TAAGAAG",
+      "designer_score": 0.96874,
+      "designer_score_direction": "higher_is_better",
+      "designer_score_unit": "OligoFormer 预测的 knockdown efficacy；设计器信号，非检测器值",
+      "designer_rank_in_gene": 5,
+      "r_1": 33,
+      "r_2": 0.127886,
+      "r_3": 2.3396,
+      "r_4": 0.2381,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 34,
+        "offtarget_count": 33,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 2454,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1043,
+        "n_sites_7mer_m8": 1936
+      },
+      "L5_details": {
+        "most_essential_gene": "RRM2",
+        "n_common_essential_hit": 176,
+        "top_genes": [
+          {
+            "gene": "RRM2",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 0.35074,
+            "depmap_r_3": 2.3396,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL9",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 135.16,
+            "depmap_r_3": 2.2225,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "COPB2",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 13.5969,
+            "depmap_r_3": 2.2082,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "VPS25",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 33.3164,
+            "depmap_r_3": 2.2023,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CDC45",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 0.250397,
+            "depmap_r_3": 2.1362,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.2381,
+        "gc_fraction": 0.1905,
+        "motif_counts": [
+          {
+            "motif": "UAAU",
+            "count": 1
+          },
+          {
+            "motif": "GU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    }
+  ]
+}

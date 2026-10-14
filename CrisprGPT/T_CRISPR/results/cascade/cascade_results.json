@@ -33,7 +33,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0528,
       "fold_success": true,
@@ -107,7 +107,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2836,
       "fold_success": true,
@@ -176,7 +176,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2076,
       "fold_success": true,
@@ -239,7 +239,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1574,
       "fold_success": true,
@@ -308,7 +308,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0592,
       "fold_success": true,
@@ -371,7 +371,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1513,
       "fold_success": true,
@@ -434,7 +434,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1132,
       "fold_success": true,
@@ -513,7 +513,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0974,
       "fold_success": true,
@@ -587,7 +587,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2302,
       "fold_success": true,
@@ -650,7 +650,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.4744,
       "fold_success": true,
@@ -724,7 +724,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1825,
       "fold_success": true,
@@ -787,7 +787,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.5001,
       "fold_success": true,
@@ -850,7 +850,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2086,
       "fold_success": true,
@@ -919,7 +919,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.4914,
       "fold_success": true,
@@ -988,7 +988,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1239,
       "fold_success": true,
@@ -1051,7 +1051,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1713,
       "fold_success": true,
@@ -1125,7 +1125,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.145,
       "fold_success": true,
@@ -1204,7 +1204,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2354,
       "fold_success": true,
@@ -1278,7 +1278,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.254,
       "fold_success": true,
@@ -1352,7 +1352,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.322,
       "fold_success": true,
@@ -1415,7 +1415,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.176,
       "fold_success": true,
@@ -1478,7 +1478,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2149,
       "fold_success": true,
@@ -1541,7 +1541,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1528,
       "fold_success": true,
@@ -1615,7 +1615,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.6338,
       "fold_success": true,
@@ -1684,7 +1684,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1394,
       "fold_success": true,
@@ -1747,7 +1747,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.117,
       "fold_success": true,
@@ -1826,7 +1826,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0888,
       "fold_success": true,
@@ -1889,7 +1889,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0985,
       "fold_success": true,
@@ -1958,7 +1958,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1568,
       "fold_success": true,
@@ -2027,7 +2027,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0809,
       "fold_success": true,
@@ -2101,7 +2101,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.511,
       "fold_success": true,
@@ -2170,7 +2170,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0838,
       "fold_success": true,
@@ -2250,7 +2250,7 @@
           "L5"
         ],
         "n_measured": 3,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.5392,
       "fold_success": true,
@@ -2324,7 +2324,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0839,
       "fold_success": true,
@@ -2403,7 +2403,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2485,
       "fold_success": true,
@@ -2482,7 +2482,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.4878,
       "fold_success": true,
@@ -2546,7 +2546,7 @@
           "L5"
         ],
         "n_measured": 3,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.7899,
       "fold_success": true,
@@ -2604,7 +2604,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0835,
       "fold_success": true,
@@ -2678,7 +2678,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.284,
       "fold_success": true,
@@ -2741,7 +2741,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1367,
       "fold_success": true,
@@ -2810,7 +2810,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2266,
       "fold_success": true,
@@ -2873,7 +2873,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3162,
       "fold_success": true,
@@ -2936,7 +2936,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0719,
       "fold_success": true,
@@ -2999,7 +2999,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1118,
       "fold_success": true,
@@ -3073,7 +3073,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.207,
       "fold_success": true,
@@ -3147,7 +3147,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.28,
       "fold_success": true,
@@ -3216,7 +3216,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2205,
       "fold_success": true,
@@ -3279,7 +3279,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0992,
       "fold_success": true,
@@ -3342,7 +3342,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.4289,
       "fold_success": true,
@@ -3405,7 +3405,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1059,
       "fold_success": true,
@@ -3468,7 +3468,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.6207,
       "fold_success": true,
@@ -3531,7 +3531,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1973,
       "fold_success": true,
@@ -3610,7 +3610,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.5308,
       "fold_success": true,
@@ -3673,7 +3673,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0466,
       "fold_success": true,
@@ -3742,7 +3742,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0816,
       "fold_success": true,
@@ -3805,7 +3805,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.9582,
       "fold_success": true,
@@ -3868,7 +3868,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.4475,
       "fold_success": true,
@@ -3942,7 +3942,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3419,
       "fold_success": true,
@@ -4021,7 +4021,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3616,
       "fold_success": true,
@@ -4090,7 +4090,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.4761,
       "fold_success": true,
@@ -4153,7 +4153,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1548,
       "fold_success": true,
@@ -4222,7 +4222,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.11,
       "fold_success": true,
@@ -4285,7 +4285,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.188,
       "fold_success": true,
@@ -4348,7 +4348,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0937,
       "fold_success": true,
@@ -4417,7 +4417,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2084,
       "fold_success": true,
@@ -4496,7 +4496,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0627,
       "fold_success": true,
@@ -4576,7 +4576,7 @@
           "L5"
         ],
         "n_measured": 3,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2933,
       "fold_success": true,
@@ -4645,7 +4645,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0691,
       "fold_success": true,
@@ -4719,7 +4719,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.793,
       "fold_success": true,
@@ -4788,7 +4788,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.24,
       "fold_success": true,
@@ -4851,7 +4851,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.4242,
       "fold_success": true,
@@ -4925,7 +4925,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2163,
       "fold_success": true,
@@ -4988,7 +4988,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.094,
       "fold_success": true,
@@ -5062,7 +5062,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2663,
       "fold_success": true,
@@ -5125,7 +5125,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.234,
       "fold_success": true,
@@ -5204,7 +5204,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.5363,
       "fold_success": true,
@@ -5278,7 +5278,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2852,
       "fold_success": true,
@@ -5341,7 +5341,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0336,
       "fold_success": true,
@@ -5410,7 +5410,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2038,
       "fold_success": true,
@@ -5484,7 +5484,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1302,
       "fold_success": true,
@@ -5553,7 +5553,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3413,
       "fold_success": true,
@@ -5632,7 +5632,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0829,
       "fold_success": true,
@@ -5711,7 +5711,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.5389,
       "fold_success": true,
@@ -5774,7 +5774,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2874,
       "fold_success": true,
@@ -5853,7 +5853,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3246,
       "fold_success": true,
@@ -5927,7 +5927,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3223,
       "fold_success": true,
@@ -6006,7 +6006,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2466,
       "fold_success": true,
@@ -6069,7 +6069,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1309,
       "fold_success": true,
@@ -6132,7 +6132,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3816,
       "fold_success": true,
@@ -6211,7 +6211,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0732,
       "fold_success": true,
@@ -6274,7 +6274,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.6124,
       "fold_success": true,
@@ -6343,7 +6343,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2642,
       "fold_success": true,
@@ -6417,7 +6417,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2579,
       "fold_success": true,
@@ -6480,7 +6480,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3081,
       "fold_success": true,
@@ -6549,7 +6549,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.6045,
       "fold_success": true,
@@ -6623,7 +6623,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1818,
       "fold_success": true,
@@ -6692,7 +6692,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3241,
       "fold_success": true,
@@ -6761,7 +6761,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0789,
       "fold_success": true,
@@ -6830,7 +6830,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1355,
       "fold_success": true,
@@ -6893,7 +6893,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2647,
       "fold_success": true,
@@ -6962,7 +6962,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2291,
       "fold_success": true,
@@ -7031,7 +7031,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2678,
       "fold_success": true,
@@ -7100,7 +7100,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0384,
       "fold_success": true,
@@ -7169,7 +7169,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1585,
       "fold_success": true,
@@ -7248,7 +7248,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1953,
       "fold_success": true,
@@ -7311,7 +7311,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.6376,
       "fold_success": true,
@@ -7380,7 +7380,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1592,
       "fold_success": true,
@@ -7454,7 +7454,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.4857,
       "fold_success": true,
@@ -7533,7 +7533,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0839,
       "fold_success": true,
@@ -7612,7 +7612,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1923,
       "fold_success": true,
@@ -7675,7 +7675,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.5828,
       "fold_success": true,
@@ -7750,7 +7750,7 @@
           "L5"
         ],
         "n_measured": 3,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.4359,
       "fold_success": true,
@@ -7808,7 +7808,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1094,
       "fold_success": true,
@@ -7871,7 +7871,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1758,
       "fold_success": true,
@@ -7940,7 +7940,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2015,
       "fold_success": true,
@@ -8014,7 +8014,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.5103,
       "fold_success": true,
@@ -8083,7 +8083,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3628,
       "fold_success": true,
@@ -8146,7 +8146,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.4257,
       "fold_success": true,
@@ -8209,7 +8209,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.6762,
       "fold_success": true,
@@ -8278,7 +8278,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.4476,
       "fold_success": true,
@@ -8341,7 +8341,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1003,
       "fold_success": true,
@@ -8404,7 +8404,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1407,
       "fold_success": true,
@@ -8473,7 +8473,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2298,
       "fold_success": true,
@@ -8547,7 +8547,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0865,
       "fold_success": true,
@@ -8621,7 +8621,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.7849,
       "fold_success": true,
@@ -8684,7 +8684,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.7042,
       "fold_success": true,
@@ -8758,7 +8758,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0712,
       "fold_success": true,
@@ -8837,7 +8837,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.4515,
       "fold_success": true,
@@ -8900,7 +8900,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2766,
       "fold_success": true,
@@ -8974,7 +8974,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2424,
       "fold_success": true,
@@ -9043,7 +9043,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.8103,
       "fold_success": true,
@@ -9117,7 +9117,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1493,
       "fold_success": true,
@@ -9180,7 +9180,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1677,
       "fold_success": true,
@@ -9244,7 +9244,7 @@
           "L5"
         ],
         "n_measured": 3,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2421,
       "fold_success": true,
@@ -9302,7 +9302,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3906,
       "fold_success": true,
@@ -9376,7 +9376,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1737,
       "fold_success": true,
@@ -9439,7 +9439,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.212,
       "fold_success": true,
@@ -9502,7 +9502,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3938,
       "fold_success": true,
@@ -9565,7 +9565,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2316,
       "fold_success": true,
@@ -9634,7 +9634,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2457,
       "fold_success": true,
@@ -9713,7 +9713,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.4198,
       "fold_success": true,
@@ -9776,7 +9776,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2248,
       "fold_success": true,
@@ -9839,7 +9839,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2115,
       "fold_success": true,
@@ -9908,7 +9908,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1591,
       "fold_success": true,
@@ -9971,7 +9971,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1992,
       "fold_success": true,
@@ -10034,7 +10034,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3026,
       "fold_success": true,
@@ -10103,7 +10103,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1928,
       "fold_success": true,
@@ -10172,7 +10172,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2471,
       "fold_success": true,
@@ -10251,7 +10251,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2587,
       "fold_success": true,
@@ -10314,7 +10314,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.7003,
       "fold_success": true,
@@ -10377,7 +10377,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2155,
       "fold_success": true,
@@ -10456,7 +10456,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3918,
       "fold_success": true,
@@ -10519,7 +10519,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3325,
       "fold_success": true,
@@ -10582,7 +10582,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3459,
       "fold_success": true,
@@ -10661,7 +10661,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2066,
       "fold_success": true,
@@ -10724,7 +10724,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0767,
       "fold_success": true,
@@ -10803,7 +10803,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1709,
       "fold_success": true,
@@ -10866,7 +10866,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1253,
       "fold_success": true,
@@ -10935,7 +10935,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.7141,
       "fold_success": true,
@@ -11009,7 +11009,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.4122,
       "fold_success": true,
@@ -11072,7 +11072,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2911,
       "fold_success": true,
@@ -11135,7 +11135,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.054,
       "fold_success": true,
@@ -11204,7 +11204,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1144,
       "fold_success": true,
@@ -11273,7 +11273,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.782,
       "fold_success": true,
@@ -11347,7 +11347,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3986,
       "fold_success": true,
@@ -11410,7 +11410,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3223,
       "fold_success": true,
@@ -11473,7 +11473,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.7182,
       "fold_success": true,
@@ -11536,7 +11536,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1138,
       "fold_success": true,
@@ -11599,7 +11599,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2599,
       "fold_success": true,
@@ -11678,7 +11678,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3381,
       "fold_success": true,
@@ -11752,7 +11752,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.6086,
       "fold_success": true,
@@ -11815,7 +11815,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.433,
       "fold_success": true,
@@ -11884,7 +11884,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1109,
       "fold_success": true,
@@ -11947,7 +11947,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.033,
       "fold_success": true,
@@ -12010,7 +12010,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.4424,
       "fold_success": true,
@@ -12089,7 +12089,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0972,
       "fold_success": true,
@@ -12152,7 +12152,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1966,
       "fold_success": true,
@@ -12231,7 +12231,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1825,
       "fold_success": true,
@@ -12294,7 +12294,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.176,
       "fold_success": true,
@@ -12368,7 +12368,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3505,
       "fold_success": true,
@@ -12437,7 +12437,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1509,
       "fold_success": true,
@@ -12516,7 +12516,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0839,
       "fold_success": true,
@@ -12595,7 +12595,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1599,
       "fold_success": true,
@@ -12665,7 +12665,7 @@
           "L5"
         ],
         "n_measured": 3,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2622,
       "fold_success": true,
@@ -12723,7 +12723,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1353,
       "fold_success": true,
@@ -12797,7 +12797,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1127,
       "fold_success": true,
@@ -12876,7 +12876,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1318,
       "fold_success": true,
@@ -12939,7 +12939,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2605,
       "fold_success": true,
@@ -13008,7 +13008,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2001,
       "fold_success": true,
@@ -13071,7 +13071,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0892,
       "fold_success": true,
@@ -13134,7 +13134,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0972,
       "fold_success": true,
@@ -13203,7 +13203,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2057,
       "fold_success": true,
@@ -13272,7 +13272,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1696,
       "fold_success": true,
@@ -13335,7 +13335,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1479,
       "fold_success": true,
@@ -13404,7 +13404,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.6112,
       "fold_success": true,
@@ -13483,7 +13483,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.49,
       "fold_success": true,
@@ -13546,7 +13546,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.7558,
       "fold_success": true,
@@ -13609,7 +13609,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3541,
       "fold_success": true,
@@ -13678,7 +13678,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.5518,
       "fold_success": true,
@@ -13752,7 +13752,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.5293,
       "fold_success": true,
@@ -13821,7 +13821,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.5798,
       "fold_success": true,
@@ -13884,7 +13884,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.057,
       "fold_success": true,
@@ -13963,7 +13963,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1982,
       "fold_success": true,
@@ -14026,7 +14026,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2734,
       "fold_success": true,
@@ -14089,7 +14089,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.4029,
       "fold_success": true,
@@ -14152,7 +14152,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1518,
       "fold_success": true,
@@ -14215,7 +14215,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.6747,
       "fold_success": true,
@@ -14284,7 +14284,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.4708,
       "fold_success": true,
@@ -14353,7 +14353,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2397,
       "fold_success": true,
@@ -14427,7 +14427,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3128,
       "fold_success": true,
@@ -14501,7 +14501,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.4623,
       "fold_success": true,
@@ -14564,7 +14564,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1411,
       "fold_success": true,
@@ -14627,7 +14627,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1013,
       "fold_success": true,
@@ -14706,7 +14706,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.6747,
       "fold_success": true,
@@ -14769,7 +14769,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2456,
       "fold_success": true,
@@ -14832,7 +14832,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.5403,
       "fold_success": true,
@@ -14895,7 +14895,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1069,
       "fold_success": true,
@@ -14959,7 +14959,7 @@
           "L5"
         ],
         "n_measured": 3,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1605,
       "fold_success": true,
@@ -15033,7 +15033,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2576,
       "fold_success": true,
@@ -15107,7 +15107,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3629,
       "fold_success": true,
@@ -15181,7 +15181,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1505,
       "fold_success": true,
@@ -15250,7 +15250,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2319,
       "fold_success": true,
@@ -15324,7 +15324,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.5207,
       "fold_success": true,
@@ -15388,7 +15388,7 @@
           "L3"
         ],
         "n_measured": 3,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": null,
       "fold_success": false,
@@ -15452,7 +15452,7 @@
           "L5"
         ],
         "n_measured": 3,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 1.0,
       "fold_success": true,
@@ -15526,7 +15526,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1296,
       "fold_success": true,
@@ -15595,7 +15595,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.198,
       "fold_success": true,
@@ -15664,7 +15664,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0765,
       "fold_success": true,
@@ -15727,7 +15727,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.102,
       "fold_success": true,
@@ -15796,7 +15796,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2183,
       "fold_success": true,
@@ -15859,7 +15859,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0804,
       "fold_success": true,
@@ -15938,7 +15938,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0313,
       "fold_success": true,
@@ -16001,7 +16001,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1197,
       "fold_success": true,
@@ -16064,7 +16064,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2846,
       "fold_success": true,
@@ -16138,7 +16138,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.4835,
       "fold_success": true,
@@ -16212,7 +16212,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0651,
       "fold_success": true,
@@ -16292,7 +16292,7 @@
           "L5"
         ],
         "n_measured": 3,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0954,
       "fold_success": true,
@@ -16361,7 +16361,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1618,
       "fold_success": true,
@@ -16435,7 +16435,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0403,
       "fold_success": true,
@@ -16498,7 +16498,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.092,
       "fold_success": true,
@@ -16561,7 +16561,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1751,
       "fold_success": true,
@@ -16641,7 +16641,7 @@
           "L5"
         ],
         "n_measured": 3,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1467,
       "fold_success": true,
@@ -16699,7 +16699,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2764,
       "fold_success": true,
@@ -16773,7 +16773,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0875,
       "fold_success": true,
@@ -16842,7 +16842,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2142,
       "fold_success": true,
@@ -16911,7 +16911,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2134,
       "fold_success": true,
@@ -16980,7 +16980,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3372,
       "fold_success": true,
@@ -17043,7 +17043,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1952,
       "fold_success": true,
@@ -17122,7 +17122,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2068,
       "fold_success": true,
@@ -17196,7 +17196,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2349,
       "fold_success": true,
@@ -17259,7 +17259,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0817,
       "fold_success": true,
@@ -17338,7 +17338,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0904,
       "fold_success": true,
@@ -17417,7 +17417,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2529,
       "fold_success": true,
@@ -17486,7 +17486,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1997,
       "fold_success": true,
@@ -17556,7 +17556,7 @@
           "L5"
         ],
         "n_measured": 3,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3079,
       "fold_success": true,
@@ -17614,7 +17614,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1033,
       "fold_success": true,
@@ -17688,7 +17688,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2419,
       "fold_success": true,
@@ -17767,7 +17767,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1038,
       "fold_success": true,
@@ -17836,7 +17836,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1523,
       "fold_success": true,
@@ -17910,7 +17910,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.25,
       "fold_success": true,
@@ -17979,7 +17979,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2674,
       "fold_success": true,
@@ -18048,7 +18048,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.6093,
       "fold_success": true,
@@ -18117,7 +18117,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.6675,
       "fold_success": true,
@@ -18180,7 +18180,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2609,
       "fold_success": true,
@@ -18249,7 +18249,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0627,
       "fold_success": true,
@@ -18318,7 +18318,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.4729,
       "fold_success": true,
@@ -18381,7 +18381,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1281,
       "fold_success": true,
@@ -18460,7 +18460,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1095,
       "fold_success": true,
@@ -18529,7 +18529,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.6052,
       "fold_success": true,
@@ -18603,7 +18603,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1661,
       "fold_success": true,
@@ -18672,7 +18672,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.5083,
       "fold_success": true,
@@ -18735,7 +18735,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1884,
       "fold_success": true,
@@ -18809,7 +18809,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.86,
       "fold_success": true,
@@ -18883,7 +18883,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2017,
       "fold_success": true,
@@ -18952,7 +18952,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.4389,
       "fold_success": true,
@@ -19031,7 +19031,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0448,
       "fold_success": true,
@@ -19110,7 +19110,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0978,
       "fold_success": true,
@@ -19184,7 +19184,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3178,
       "fold_success": true,
@@ -19253,7 +19253,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1115,
       "fold_success": true,
@@ -19332,7 +19332,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.393,
       "fold_success": true,
@@ -19395,7 +19395,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1054,
       "fold_success": true,
@@ -19458,7 +19458,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.7116,
       "fold_success": true,
@@ -19521,7 +19521,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.6137,
       "fold_success": true,
@@ -19600,7 +19600,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1596,
       "fold_success": true,
@@ -19669,7 +19669,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.4748,
       "fold_success": true,
@@ -19732,7 +19732,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1596,
       "fold_success": true,
@@ -19801,7 +19801,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.513,
       "fold_success": true,
@@ -19870,7 +19870,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.4428,
       "fold_success": true,
@@ -19933,7 +19933,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1973,
       "fold_success": true,
@@ -19996,7 +19996,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3331,
       "fold_success": true,
@@ -20059,7 +20059,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2521,
       "fold_success": true,
@@ -20128,7 +20128,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.2765,
       "fold_success": true,
@@ -20191,7 +20191,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.065,
       "fold_success": true,
@@ -20260,7 +20260,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0794,
       "fold_success": true,
@@ -20334,7 +20334,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.215,
       "fold_success": true,
@@ -20397,7 +20397,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1217,
       "fold_success": true,
@@ -20460,7 +20460,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1121,
       "fold_success": true,
@@ -20529,7 +20529,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.195,
       "fold_success": true,
@@ -20603,7 +20603,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0887,
       "fold_success": true,
@@ -20672,7 +20672,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.0748,
       "fold_success": true,
@@ -20746,7 +20746,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.9427,
       "fold_success": true,
@@ -20809,7 +20809,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.43,
       "fold_success": true,
@@ -20878,7 +20878,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3019,
       "fold_success": true,
@@ -20941,7 +20941,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.4385,
       "fold_success": true,
@@ -21020,7 +21020,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.5313,
       "fold_success": true,
@@ -21094,7 +21094,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.49,
       "fold_success": true,
@@ -21173,7 +21173,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3285,
       "fold_success": true,
@@ -21242,7 +21242,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.625,
       "fold_success": true,
@@ -21321,7 +21321,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.3282,
       "fold_success": true,
@@ -21384,7 +21384,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.8299,
       "fold_success": true,
@@ -21447,7 +21447,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1478,
       "fold_success": true,
@@ -21526,7 +21526,7 @@
         ],
         "layers_unmeasured": [],
         "n_measured": 4,
-        "thresholds": "not used (2026-08-15)"
+        "thresholds": "applied downstream, not stored in this file"
       },
       "tm_score": 0.1777,
       "fold_success": true,

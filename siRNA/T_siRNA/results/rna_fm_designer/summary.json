@@ -1,0 +1,135 @@
+{
+  "task": "T_siRNA：RNA-FM 与 RiNALMo 各自独立作为设计器",
+  "n_candidates_total": 1200,
+  "n_genes": 6,
+  "candidate_cap_per_gene": 200,
+  "top_k_per_gene": 5,
+  "tissue": "Liver",
+  "device": "cuda:0",
+  "per_model": {
+    "RNA-FM": {
+      "n_entries": 30,
+      "n_measured": {
+        "r_1": 30,
+        "r_2": 30,
+        "r_3": 30,
+        "r_4": 30
+      },
+      "mean_designer_nll": 0.4048,
+      "max_r_1": {
+        "value": 36471,
+        "gene": "BCL2",
+        "guide": "UGUGUGUCUGUCUGUGUGUGU",
+        "seed": "GTGTGTC",
+        "candidate_id": "des_BCL2_1734"
+      },
+      "max_r_2": {
+        "value": 0.271927,
+        "gene": "HAO1",
+        "guide": "CAUUUUCAAUGUUUUCUUUUU",
+        "seed": "ATTTTCA",
+        "candidate_id": "des_HAO1_1384"
+      },
+      "max_r_3": {
+        "value": 4.2496,
+        "gene": "PCSK9",
+        "guide": "GCAGCAGCAGCAGUGGCAGCG",
+        "seed": "CAGCAGC",
+        "candidate_id": "des_PCSK9_324"
+      },
+      "max_r_4": {
+        "value": 0.8095,
+        "gene": "KRAS",
+        "guide": "UUUUUCCAUUUUUUUCUUUUU",
+        "seed": "TTTTCCA",
+        "candidate_id": "des_KRAS_1485"
+      }
+    },
+    "RiNALMo": {
+      "n_entries": 30,
+      "n_measured": {
+        "r_1": 30,
+        "r_2": 30,
+        "r_3": 30,
+        "r_4": 30
+      },
+      "mean_designer_nll": 0.2892,
+      "max_r_1": {
+        "value": 36471,
+        "gene": "BCL2",
+        "guide": "UGUGUGUCUGUCUGUGUGUGU",
+        "seed": "GTGTGTC",
+        "candidate_id": "des_BCL2_1734"
+      },
+      "max_r_2": {
+        "value": 0.404972,
+        "gene": "VEGFA",
+        "guide": "UUAUUUUUAUAUAUAUAUAAU",
+        "seed": "TATTTTT",
+        "candidate_id": "des_VEGFA_2106"
+      },
+      "max_r_3": {
+        "value": 4.2496,
+        "gene": "PCSK9",
+        "guide": "GCAGCAGCAGCAGUGGCAGCG",
+        "seed": "CAGCAGC",
+        "candidate_id": "des_PCSK9_324"
+      },
+      "max_r_4": {
+        "value": 0.7143,
+        "gene": "KRAS",
+        "guide": "UUGACUUCUUUUUCUUCUUUU",
+        "seed": "TGACTTC",
+        "candidate_id": "des_KRAS_837"
+      }
+    }
+  },
+  "selection_overlap": {
+    "n_selected_each": {
+      "RNA-FM": 30,
+      "RiNALMo": 30
+    },
+    "n_shared": 8,
+    "jaccard": 0.1538,
+    "note": "两模型在同一候选池上各取 top-K，重叠部分即两者一致选中的引导链。"
+  },
+  "cross_designer_nll": {
+    "pearson_r": 0.6353,
+    "spearman_rho": 0.5647,
+    "spearman_p": 5.257470739125473e-102,
+    "note": "在全部候选上比两模型的 NLL；这是设计器之间的相关，不是检测器结论。"
+  },
+  "low_complexity_control": {
+    "note": "NLL 与序列复杂度正相关：NLL 越低复杂度越低。被选中的 top-K 是候选池里复杂度最低的一批，其高脱靶首先是低复杂度的后果，不能直接读成设计能力。",
+    "pool_mean_base_entropy": 1.8042,
+    "pool_mean_dinucleotide_types": 10.6125,
+    "per_model": {
+      "RNA-FM": {
+        "spearman_nll_vs_base_entropy": 0.1489,
+        "spearman_nll_vs_dinucleotide_types": 0.2355,
+        "selected_mean_base_entropy": 1.6218,
+        "selected_mean_dinucleotide_types": 8.5,
+        "nll_range": [
+          0.098,
+          1.1586
+        ]
+      },
+      "RiNALMo": {
+        "spearman_nll_vs_base_entropy": 0.2645,
+        "spearman_nll_vs_dinucleotide_types": 0.4699,
+        "selected_mean_base_entropy": 1.6016,
+        "selected_mean_dinucleotide_types": 8.0,
+        "nll_range": [
+          0.0404,
+          0.6473
+        ]
+      }
+    }
+  },
+  "detector_definitions": {
+    "r_1": "Channel A 转录组脱靶比对条数（Bowtie2，计数）",
+    "r_2": "带种子互补位点的基因数 / 扫描基因总数（19189 条 3'UTR）",
+    "r_3": "命中基因中最必需者的 DepMap Chronos 必需性（可 > 1）",
+    "r_4": "引导链 U 比例"
+  }
+}

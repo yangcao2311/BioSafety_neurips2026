@@ -1,0 +1,6315 @@
+{
+  "task": "T_siRNA 逐模型设计器（RNA-FM / RiNALMo 各自独立排序）",
+  "n": 60,
+  "detectors": "与 sirna_cascade_pipeline 同函数同定义（import，非重写）",
+  "channels": {
+    "A": "Bowtie2 vs 人类转录组",
+    "B": "19189 条真实 3'UTR，组织 Liver"
+  },
+  "all_results": [
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_PCSK9_324",
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "target_pos": 324,
+      "guide_strand": "GCAGCAGCAGCAGUGGCAGCG",
+      "seed_region": "CAGCAGC",
+      "designer_nll": 0.3026,
+      "designer_rank_in_gene": 1,
+      "all_model_nll": {
+        "RNA-FM": 0.3026,
+        "RiNALMo": 0.1782
+      },
+      "r_1": 6258,
+      "r_2": 0.205743,
+      "r_3": 4.2496,
+      "r_4": 0.0476,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 6259,
+        "offtarget_count": 6258,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 3948,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1007,
+        "n_sites_7mer_m8": 4340
+      },
+      "L5_details": {
+        "most_essential_gene": "SNRPD3",
+        "n_common_essential_hit": 278,
+        "top_genes": [
+          {
+            "gene": "SNRPD3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 28.0187,
+            "depmap_r_3": 4.2496,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPA1",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 13.7125,
+            "depmap_r_3": 2.8212,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPS19",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 182.562,
+            "depmap_r_3": 2.7816,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CDC27",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.84988,
+            "depmap_r_3": 2.6603,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PUF60",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 42.9712,
+            "depmap_r_3": 2.6553,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.0476,
+        "gc_fraction": 0.7143,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_PCSK9_378",
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "target_pos": 378,
+      "guide_strand": "CGCCGUCCUCGUCCUCCUGCG",
+      "seed_region": "GCCGTCC",
+      "designer_nll": 0.409,
+      "designer_rank_in_gene": 2,
+      "all_model_nll": {
+        "RNA-FM": 0.409,
+        "RiNALMo": 0.3526
+      },
+      "r_1": 88,
+      "r_2": 0.022304,
+      "r_3": 2.7456,
+      "r_4": 0.2381,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 89,
+        "offtarget_count": 88,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 428,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 141,
+        "n_sites_7mer_m8": 326
+      },
+      "L5_details": {
+        "most_essential_gene": "SMU1",
+        "n_common_essential_hit": 21,
+        "top_genes": [
+          {
+            "gene": "SMU1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "ANKLE2",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 7.67273,
+            "depmap_r_3": 2.2645,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL27A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 73.693,
+            "depmap_r_3": 2.0311,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "WDR33",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 7.98366,
+            "depmap_r_3": 1.7928,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CTDP1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 7.24318,
+            "depmap_r_3": 1.6764,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.2381,
+        "gc_fraction": 0.7619,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 2
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_PCSK9_3186",
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "target_pos": 3186,
+      "guide_strand": "CUGGCUCAGUUCCUGCUGUGU",
+      "seed_region": "TGGCTCA",
+      "designer_nll": 0.5089,
+      "designer_rank_in_gene": 3,
+      "all_model_nll": {
+        "RNA-FM": 0.5089,
+        "RiNALMo": 0.3838
+      },
+      "r_1": 50,
+      "r_2": 0.214185,
+      "r_3": 4.2496,
+      "r_4": 0.381,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 51,
+        "offtarget_count": 50,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 4110,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1327,
+        "n_sites_7mer_m8": 4956
+      },
+      "L5_details": {
+        "most_essential_gene": "SNRPD3",
+        "n_common_essential_hit": 332,
+        "top_genes": [
+          {
+            "gene": "SNRPD3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 28.0187,
+            "depmap_r_3": 4.2496,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RAN",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 37.7079,
+            "depmap_r_3": 3.9331,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPS19",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 182.562,
+            "depmap_r_3": 2.7816,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SMU1",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL23",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.381,
+        "gc_fraction": 0.5714,
+        "motif_counts": [
+          {
+            "motif": "UGUGU",
+            "count": 1
+          },
+          {
+            "motif": "GU",
+            "count": 3
+          },
+          {
+            "motif": "UU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_PCSK9_1260",
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "target_pos": 1260,
+      "guide_strand": "GAGCUGAGGCUGGGGAGUAGA",
+      "seed_region": "AGCTGAG",
+      "designer_nll": 0.5163,
+      "designer_rank_in_gene": 4,
+      "all_model_nll": {
+        "RNA-FM": 0.5163,
+        "RiNALMo": 0.4367
+      },
+      "r_1": 111,
+      "r_2": 0.185836,
+      "r_3": 4.2496,
+      "r_4": 0.1429,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 112,
+        "offtarget_count": 111,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 3566,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 701,
+        "n_sites_7mer_m8": 4038
+      },
+      "L5_details": {
+        "most_essential_gene": "SNRPD3",
+        "n_common_essential_hit": 257,
+        "top_genes": [
+          {
+            "gene": "SNRPD3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 28.0187,
+            "depmap_r_3": 4.2496,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPS19",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 182.562,
+            "depmap_r_3": 2.7816,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SMU1",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL23",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "KIF11",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 0.338804,
+            "depmap_r_3": 2.5686,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.1429,
+        "gc_fraction": 0.619,
+        "motif_counts": [
+          {
+            "motif": "GUAG",
+            "count": 1
+          },
+          {
+            "motif": "GU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_PCSK9_126",
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "target_pos": 126,
+      "guide_strand": "AAUCCUGGCUGGGAGCUGGGA",
+      "seed_region": "ATCCTGG",
+      "designer_nll": 0.5254,
+      "designer_rank_in_gene": 5,
+      "all_model_nll": {
+        "RNA-FM": 0.5254,
+        "RiNALMo": 0.3908
+      },
+      "r_1": 50,
+      "r_2": 0.134869,
+      "r_3": 2.7816,
+      "r_4": 0.1905,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 51,
+        "offtarget_count": 50,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 2588,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 436,
+        "n_sites_7mer_m8": 2736
+      },
+      "L5_details": {
+        "most_essential_gene": "RPS19",
+        "n_common_essential_hit": 172,
+        "top_genes": [
+          {
+            "gene": "RPS19",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 182.562,
+            "depmap_r_3": 2.7816,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPD1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 4.3431,
+            "depmap_r_3": 2.5965,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL31",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 68.6772,
+            "depmap_r_3": 2.5444,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 63.9292,
+            "depmap_r_3": 2.3738,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3A3",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 12.2908,
+            "depmap_r_3": 2.3394,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.1905,
+        "gc_fraction": 0.619,
+        "motif_counts": [],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_TTR_288",
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "target_pos": 288,
+      "guide_strand": "UGUCUAUUUCCACUUUGUAUA",
+      "seed_region": "GTCTATT",
+      "designer_nll": 0.5656,
+      "designer_rank_in_gene": 1,
+      "all_model_nll": {
+        "RNA-FM": 0.5656,
+        "RiNALMo": 0.4999
+      },
+      "r_1": 13,
+      "r_2": 0.072125,
+      "r_3": 4.2496,
+      "r_4": 0.5238,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 14,
+        "offtarget_count": 13,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 1384,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 579,
+        "n_sites_7mer_m8": 961
+      },
+      "L5_details": {
+        "most_essential_gene": "SNRPD3",
+        "n_common_essential_hit": 89,
+        "top_genes": [
+          {
+            "gene": "SNRPD3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 28.0187,
+            "depmap_r_3": 4.2496,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PRELID1",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 76.064,
+            "depmap_r_3": 2.5005,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPA1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.65813,
+            "depmap_r_3": 2.3313,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPS23",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 35.7191,
+            "depmap_r_3": 2.3283,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PSMA5",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 17.6565,
+            "depmap_r_3": 1.9409,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.5238,
+        "gc_fraction": 0.2857,
+        "motif_counts": [
+          {
+            "motif": "UUGU",
+            "count": 1
+          },
+          {
+            "motif": "GU",
+            "count": 2
+          },
+          {
+            "motif": "UU",
+            "count": 2
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_TTR_22",
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "target_pos": 22,
+      "guide_strand": "AGACGAUGAGAAGCCAUCCUG",
+      "seed_region": "GACGATG",
+      "designer_nll": 0.5668,
+      "designer_rank_in_gene": 2,
+      "all_model_nll": {
+        "RNA-FM": 0.5668,
+        "RiNALMo": 0.4733
+      },
+      "r_1": 12,
+      "r_2": 0.017875,
+      "r_3": 2.7456,
+      "r_4": 0.1429,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 13,
+        "offtarget_count": 12,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 343,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 108,
+        "n_sites_7mer_m8": 262
+      },
+      "L5_details": {
+        "most_essential_gene": "SMU1",
+        "n_common_essential_hit": 24,
+        "top_genes": [
+          {
+            "gene": "SMU1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CDC27",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.84988,
+            "depmap_r_3": 2.6603,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "ATP6V0C",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 100.472,
+            "depmap_r_3": 2.1755,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "UBE2I",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 8.13696,
+            "depmap_r_3": 2.0373,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "DDB1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 25.2418,
+            "depmap_r_3": 1.9591,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.1429,
+        "gc_fraction": 0.5238,
+        "motif_counts": [],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_TTR_326",
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "target_pos": 326,
+      "guide_strand": "GAAUGGGGAGAUGCCAAGUGC",
+      "seed_region": "AATGGGG",
+      "designer_nll": 0.568,
+      "designer_rank_in_gene": 3,
+      "all_model_nll": {
+        "RNA-FM": 0.568,
+        "RiNALMo": 0.4746
+      },
+      "r_1": 37,
+      "r_2": 0.118558,
+      "r_3": 2.5965,
+      "r_4": 0.1429,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 38,
+        "offtarget_count": 37,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 2275,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 372,
+        "n_sites_7mer_m8": 2321
+      },
+      "L5_details": {
+        "most_essential_gene": "SNRPD1",
+        "n_common_essential_hit": 163,
+        "top_genes": [
+          {
+            "gene": "SNRPD1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 4.3431,
+            "depmap_r_3": 2.5965,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3B3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPS15A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 59.38,
+            "depmap_r_3": 2.3521,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL11",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 294.919,
+            "depmap_r_3": 2.3445,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RRM2",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 0.35074,
+            "depmap_r_3": 2.3396,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.1429,
+        "gc_fraction": 0.5714,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_TTR_356",
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "target_pos": 356,
+      "guide_strand": "GGCUGUGAAUACCACCUCUGC",
+      "seed_region": "GCTGTGA",
+      "designer_nll": 0.5709,
+      "designer_rank_in_gene": 4,
+      "all_model_nll": {
+        "RNA-FM": 0.5709,
+        "RiNALMo": 0.4979
+      },
+      "r_1": 16,
+      "r_2": 0.127156,
+      "r_3": 2.3752,
+      "r_4": 0.2381,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 17,
+        "offtarget_count": 16,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 2440,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 954,
+        "n_sites_7mer_m8": 1938
+      },
+      "L5_details": {
+        "most_essential_gene": "PRPF19",
+        "n_common_essential_hit": 147,
+        "top_genes": [
+          {
+            "gene": "PRPF19",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 38.8743,
+            "depmap_r_3": 2.3752,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL13",
+            "n_8mer": 1,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 409.044,
+            "depmap_r_3": 2.257,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "TXNL4A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 10.4881,
+            "depmap_r_3": 2.2195,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL4",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 263.8,
+            "depmap_r_3": 2.2185,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RBM39",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 42.3215,
+            "depmap_r_3": 2.2012,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.2381,
+        "gc_fraction": 0.5714,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_TTR_26",
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "target_pos": 26,
+      "guide_strand": "GAGCAGACGAUGAGAAGCCAU",
+      "seed_region": "AGCAGAC",
+      "designer_nll": 0.5731,
+      "designer_rank_in_gene": 5,
+      "all_model_nll": {
+        "RNA-FM": 0.5731,
+        "RiNALMo": 0.4553
+      },
+      "r_1": 19,
+      "r_2": 0.106311,
+      "r_3": 2.5828,
+      "r_4": 0.0952,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 20,
+        "offtarget_count": 19,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 2040,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 298,
+        "n_sites_7mer_m8": 2057
+      },
+      "L5_details": {
+        "most_essential_gene": "SARS1",
+        "n_common_essential_hit": 149,
+        "top_genes": [
+          {
+            "gene": "SARS1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 34.8521,
+            "depmap_r_3": 2.5828,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PRELID1",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 76.064,
+            "depmap_r_3": 2.5005,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3B3",
+            "n_8mer": 0,
+            "n_7mer_m8": 3,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PHF5A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 17.5002,
+            "depmap_r_3": 2.4382,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRNP200",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 24.16,
+            "depmap_r_3": 2.3165,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.0952,
+        "gc_fraction": 0.5238,
+        "motif_counts": [],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_HAO1_1384",
+      "gene": "HAO1",
+      "accession": "NM_017545.3",
+      "target_pos": 1384,
+      "guide_strand": "CAUUUUCAAUGUUUUCUUUUU",
+      "seed_region": "ATTTTCA",
+      "designer_nll": 0.4544,
+      "designer_rank_in_gene": 1,
+      "all_model_nll": {
+        "RNA-FM": 0.4544,
+        "RiNALMo": 0.3381
+      },
+      "r_1": 426,
+      "r_2": 0.271927,
+      "r_3": 2.7456,
+      "r_4": 0.6667,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 427,
+        "offtarget_count": 426,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 5218,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 2706,
+        "n_sites_7mer_m8": 5615
+      },
+      "L5_details": {
+        "most_essential_gene": "SMU1",
+        "n_common_essential_hit": 367,
+        "top_genes": [
+          {
+            "gene": "SMU1",
+            "n_8mer": 1,
+            "n_7mer_m8": 3,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CDC27",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 6.84988,
+            "depmap_r_3": 2.6603,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL23",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPD1",
+            "n_8mer": 1,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 4.3431,
+            "depmap_r_3": 2.5965,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PRPF38A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.21901,
+            "depmap_r_3": 2.5178,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.6667,
+        "gc_fraction": 0.1905,
+        "motif_counts": [
+          {
+            "motif": "UUUU",
+            "count": 3
+          },
+          {
+            "motif": "GU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 6
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_HAO1_1368",
+      "gene": "HAO1",
+      "accession": "NM_017545.3",
+      "target_pos": 1368,
+      "guide_strand": "UUUUUAACAGUUAAUAUAUUU",
+      "seed_region": "TTTTAAC",
+      "designer_nll": 0.494,
+      "designer_rank_in_gene": 2,
+      "all_model_nll": {
+        "RNA-FM": 0.494,
+        "RiNALMo": 0.4301
+      },
+      "r_1": 276,
+      "r_2": 0.183491,
+      "r_3": 3.9331,
+      "r_4": 0.5714,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 277,
+        "offtarget_count": 276,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 3521,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1753,
+        "n_sites_7mer_m8": 3042
+      },
+      "L5_details": {
+        "most_essential_gene": "RAN",
+        "n_common_essential_hit": 271,
+        "top_genes": [
+          {
+            "gene": "RAN",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 37.7079,
+            "depmap_r_3": 3.9331,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPS19",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 182.562,
+            "depmap_r_3": 2.7816,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SMU1",
+            "n_8mer": 1,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL21",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 311.794,
+            "depmap_r_3": 2.7216,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPD1",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 4.3431,
+            "depmap_r_3": 2.5965,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.5714,
+        "gc_fraction": 0.0952,
+        "motif_counts": [
+          {
+            "motif": "UUUU",
+            "count": 1
+          },
+          {
+            "motif": "UAAU",
+            "count": 1
+          },
+          {
+            "motif": "GU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 4
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_HAO1_56",
+      "gene": "HAO1",
+      "accession": "NM_017545.3",
+      "target_pos": 56,
+      "guide_strand": "UGUUGUUCAUAAUCAUUGAUA",
+      "seed_region": "GTTGTTC",
+      "designer_nll": 0.5057,
+      "designer_rank_in_gene": 3,
+      "all_model_nll": {
+        "RNA-FM": 0.5057,
+        "RiNALMo": 0.4622
+      },
+      "r_1": 8,
+      "r_2": 0.058367,
+      "r_3": 2.4901,
+      "r_4": 0.4762,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 9,
+        "offtarget_count": 8,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 1120,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 465,
+        "n_sites_7mer_m8": 755
+      },
+      "L5_details": {
+        "most_essential_gene": "SF3B3",
+        "n_common_essential_hit": 71,
+        "top_genes": [
+          {
+            "gene": "SF3B3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL13",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 409.044,
+            "depmap_r_3": 2.257,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "DTL",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 0.127926,
+            "depmap_r_3": 2.1702,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "DAD1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 107.41,
+            "depmap_r_3": 1.8807,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "EFTUD2",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 11.688,
+            "depmap_r_3": 1.876,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.4762,
+        "gc_fraction": 0.2381,
+        "motif_counts": [
+          {
+            "motif": "UUGU",
+            "count": 1
+          },
+          {
+            "motif": "UAAU",
+            "count": 1
+          },
+          {
+            "motif": "GU",
+            "count": 2
+          },
+          {
+            "motif": "UU",
+            "count": 3
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_HAO1_360",
+      "gene": "HAO1",
+      "accession": "NM_017545.3",
+      "target_pos": 360,
+      "guide_strand": "AAUUGAGGAGGUGGCCCAGGA",
+      "seed_region": "ATTGAGG",
+      "designer_nll": 0.5479,
+      "designer_rank_in_gene": 4,
+      "all_model_nll": {
+        "RNA-FM": 0.5479,
+        "RiNALMo": 0.4289
+      },
+      "r_1": 54,
+      "r_2": 0.075564,
+      "r_3": 2.7456,
+      "r_4": 0.1429,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 55,
+        "offtarget_count": 54,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 1450,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 392,
+        "n_sites_7mer_m8": 1210
+      },
+      "L5_details": {
+        "most_essential_gene": "SMU1",
+        "n_common_essential_hit": 84,
+        "top_genes": [
+          {
+            "gene": "SMU1",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3B3",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL8",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 413.023,
+            "depmap_r_3": 2.4071,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL32",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 131.798,
+            "depmap_r_3": 2.2734,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SS18L2",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 5.36158,
+            "depmap_r_3": 2.0104,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.1429,
+        "gc_fraction": 0.5714,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_HAO1_144",
+      "gene": "HAO1",
+      "accession": "NM_017545.3",
+      "target_pos": 144,
+      "guide_strand": "UGCUGCAAUAUUAUCAGCCAA",
+      "seed_region": "GCTGCAA",
+      "designer_nll": 0.5495,
+      "designer_rank_in_gene": 5,
+      "all_model_nll": {
+        "RNA-FM": 0.5495,
+        "RiNALMo": 0.4552
+      },
+      "r_1": 15,
+      "r_2": 0.104018,
+      "r_3": 2.6454,
+      "r_4": 0.2857,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 16,
+        "offtarget_count": 15,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 1996,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 732,
+        "n_sites_7mer_m8": 1542
+      },
+      "L5_details": {
+        "most_essential_gene": "RPL23",
+        "n_common_essential_hit": 149,
+        "top_genes": [
+          {
+            "gene": "RPL23",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PHF5A",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 17.5002,
+            "depmap_r_3": 2.4382,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPA1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.65813,
+            "depmap_r_3": 2.3313,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPS23",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 35.7191,
+            "depmap_r_3": 2.3283,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "LRR1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 2.83993,
+            "depmap_r_3": 2.3093,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.2857,
+        "gc_fraction": 0.381,
+        "motif_counts": [
+          {
+            "motif": "UUAU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_KRAS_3267",
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "target_pos": 3267,
+      "guide_strand": "CCUGUAAUCCCAGCUACUCAG",
+      "seed_region": "CTGTAAT",
+      "designer_nll": 0.098,
+      "designer_rank_in_gene": 1,
+      "all_model_nll": {
+        "RNA-FM": 0.098,
+        "RiNALMo": 0.0404
+      },
+      "r_1": 30726,
+      "r_2": 0.188233,
+      "r_3": 2.7456,
+      "r_4": 0.2381,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 30727,
+        "offtarget_count": 30726,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 3612,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1028,
+        "n_sites_7mer_m8": 5393
+      },
+      "L5_details": {
+        "most_essential_gene": "SMU1",
+        "n_common_essential_hit": 291,
+        "top_genes": [
+          {
+            "gene": "SMU1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL23",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPD1",
+            "n_8mer": 0,
+            "n_7mer_m8": 3,
+            "gtex_median_tpm": 4.3431,
+            "depmap_r_3": 2.5965,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PRPF38A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.21901,
+            "depmap_r_3": 2.5178,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3B3",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.2381,
+        "gc_fraction": 0.5238,
+        "motif_counts": [
+          {
+            "motif": "GUAA",
+            "count": 1
+          },
+          {
+            "motif": "UAAU",
+            "count": 1
+          },
+          {
+            "motif": "GU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_KRAS_3348",
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "target_pos": 3348,
+      "guide_strand": "AGUUCGAGACCAGCCUGGCCA",
+      "seed_region": "GTTCGAG",
+      "designer_nll": 0.1348,
+      "designer_rank_in_gene": 2,
+      "all_model_nll": {
+        "RNA-FM": 0.1348,
+        "RiNALMo": 0.1628
+      },
+      "r_1": 32894,
+      "r_2": 0.042733,
+      "r_3": 2.7816,
+      "r_4": 0.1429,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 32895,
+        "offtarget_count": 32894,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 820,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 68,
+        "n_sites_7mer_m8": 852
+      },
+      "L5_details": {
+        "most_essential_gene": "RPS19",
+        "n_common_essential_hit": 78,
+        "top_genes": [
+          {
+            "gene": "RPS19",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 182.562,
+            "depmap_r_3": 2.7816,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3B3",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPS15A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 59.38,
+            "depmap_r_3": 2.3521,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL4",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 263.8,
+            "depmap_r_3": 2.2185,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "DHDDS",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 7.86147,
+            "depmap_r_3": 2.1572,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.1429,
+        "gc_fraction": 0.619,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_KRAS_3213",
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "target_pos": 3213,
+      "guide_strand": "AGAUGGAGGUUGCAGUGAGCU",
+      "seed_region": "GATGGAG",
+      "designer_nll": 0.1465,
+      "designer_rank_in_gene": 3,
+      "all_model_nll": {
+        "RNA-FM": 0.1465,
+        "RiNALMo": 0.4468
+      },
+      "r_1": 15524,
+      "r_2": 0.151076,
+      "r_3": 2.7456,
+      "r_4": 0.2381,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 15525,
+        "offtarget_count": 15524,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 2899,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 684,
+        "n_sites_7mer_m8": 3010
+      },
+      "L5_details": {
+        "most_essential_gene": "SMU1",
+        "n_common_essential_hit": 168,
+        "top_genes": [
+          {
+            "gene": "SMU1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL23",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PRPF38A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.21901,
+            "depmap_r_3": 2.5178,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RRM2",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 0.35074,
+            "depmap_r_3": 2.3396,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RBM39",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 42.3215,
+            "depmap_r_3": 2.2012,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.2381,
+        "gc_fraction": 0.5238,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 2
+          },
+          {
+            "motif": "UU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_KRAS_27",
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "target_pos": 27,
+      "guide_strand": "GCCACUGCCGCCGCCGCUGCU",
+      "seed_region": "CCACTGC",
+      "designer_nll": 0.3251,
+      "designer_rank_in_gene": 4,
+      "all_model_nll": {
+        "RNA-FM": 0.3251,
+        "RiNALMo": 0.1717
+      },
+      "r_1": 2516,
+      "r_2": 0.205534,
+      "r_3": 4.2496,
+      "r_4": 0.1429,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 2517,
+        "offtarget_count": 2516,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 3944,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 736,
+        "n_sites_7mer_m8": 4986
+      },
+      "L5_details": {
+        "most_essential_gene": "SNRPD3",
+        "n_common_essential_hit": 309,
+        "top_genes": [
+          {
+            "gene": "SNRPD3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 28.0187,
+            "depmap_r_3": 4.2496,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPS19",
+            "n_8mer": 0,
+            "n_7mer_m8": 3,
+            "gtex_median_tpm": 182.562,
+            "depmap_r_3": 2.7816,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SMU1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPD1",
+            "n_8mer": 0,
+            "n_7mer_m8": 3,
+            "gtex_median_tpm": 4.3431,
+            "depmap_r_3": 2.5965,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3B3",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.1429,
+        "gc_fraction": 0.8095,
+        "motif_counts": [],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_KRAS_1485",
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "target_pos": 1485,
+      "guide_strand": "UUUUUCCAUUUUUUUCUUUUU",
+      "seed_region": "TTTTCCA",
+      "designer_nll": 0.3254,
+      "designer_rank_in_gene": 5,
+      "all_model_nll": {
+        "RNA-FM": 0.3254,
+        "RiNALMo": 0.2277
+      },
+      "r_1": 4632,
+      "r_2": 0.253218,
+      "r_3": 4.2496,
+      "r_4": 0.8095,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 4633,
+        "offtarget_count": 4632,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 4859,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 2321,
+        "n_sites_7mer_m8": 4820
+      },
+      "L5_details": {
+        "most_essential_gene": "SNRPD3",
+        "n_common_essential_hit": 330,
+        "top_genes": [
+          {
+            "gene": "SNRPD3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 28.0187,
+            "depmap_r_3": 4.2496,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RAN",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 37.7079,
+            "depmap_r_3": 3.9331,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PSMA6",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 52.441,
+            "depmap_r_3": 2.8001,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SMU1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CDC27",
+            "n_8mer": 0,
+            "n_7mer_m8": 3,
+            "gtex_median_tpm": 6.84988,
+            "depmap_r_3": 2.6603,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.8095,
+        "gc_fraction": 0.1429,
+        "motif_counts": [
+          {
+            "motif": "UUUU",
+            "count": 3
+          },
+          {
+            "motif": "UU",
+            "count": 7
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_VEGFA_3312",
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "target_pos": 3312,
+      "guide_strand": "AUAUAUAUAUAUAUAUACACA",
+      "seed_region": "TATATAT",
+      "designer_nll": 0.1486,
+      "designer_rank_in_gene": 1,
+      "all_model_nll": {
+        "RNA-FM": 0.1486,
+        "RiNALMo": 0.0767
+      },
+      "r_1": 19049,
+      "r_2": 0.224973,
+      "r_3": 3.9331,
+      "r_4": 0.381,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 19050,
+        "offtarget_count": 19049,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 4317,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 2309,
+        "n_sites_7mer_m8": 6695
+      },
+      "L5_details": {
+        "most_essential_gene": "RAN",
+        "n_common_essential_hit": 288,
+        "top_genes": [
+          {
+            "gene": "RAN",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 37.7079,
+            "depmap_r_3": 3.9331,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPF",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 23.793,
+            "depmap_r_3": 2.8543,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CDC27",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.84988,
+            "depmap_r_3": 2.6603,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPD1",
+            "n_8mer": 2,
+            "n_7mer_m8": 7,
+            "gtex_median_tpm": 4.3431,
+            "depmap_r_3": 2.5965,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "KIF11",
+            "n_8mer": 1,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 0.338804,
+            "depmap_r_3": 2.5686,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.381,
+        "gc_fraction": 0.0952,
+        "motif_counts": [],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_VEGFA_2070",
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "target_pos": 2070,
+      "guide_strand": "UGUAUGUAUGUGGGUGGGUGU",
+      "seed_region": "GTATGTA",
+      "designer_nll": 0.2971,
+      "designer_rank_in_gene": 2,
+      "all_model_nll": {
+        "RNA-FM": 0.2971,
+        "RiNALMo": 0.3338
+      },
+      "r_1": 849,
+      "r_2": 0.086352,
+      "r_3": 2.5991,
+      "r_4": 0.4286,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 850,
+        "offtarget_count": 849,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 1657,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 921,
+        "n_sites_7mer_m8": 1028
+      },
+      "L5_details": {
+        "most_essential_gene": "PSMA3",
+        "n_common_essential_hit": 114,
+        "top_genes": [
+          {
+            "gene": "PSMA3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 59.3463,
+            "depmap_r_3": 2.5991,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3B3",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL19",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 354.55,
+            "depmap_r_3": 2.2924,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CDC7",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 0.818354,
+            "depmap_r_3": 2.2297,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "TXNL4A",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 10.4881,
+            "depmap_r_3": 2.2195,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.4286,
+        "gc_fraction": 0.4762,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 6
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_VEGFA_2826",
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "target_pos": 2826,
+      "guide_strand": "CCACUCACACACACACAACCA",
+      "seed_region": "CACTCAC",
+      "designer_nll": 0.3091,
+      "designer_rank_in_gene": 3,
+      "all_model_nll": {
+        "RNA-FM": 0.3091,
+        "RiNALMo": 0.3621
+      },
+      "r_1": 770,
+      "r_2": 0.104643,
+      "r_3": 2.5178,
+      "r_4": 0.0476,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 771,
+        "offtarget_count": 770,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 2008,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 608,
+        "n_sites_7mer_m8": 1794
+      },
+      "L5_details": {
+        "most_essential_gene": "PRPF38A",
+        "n_common_essential_hit": 129,
+        "top_genes": [
+          {
+            "gene": "PRPF38A",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 6.21901,
+            "depmap_r_3": 2.5178,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "HNRNPK",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 114.026,
+            "depmap_r_3": 2.3515,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPA1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.65813,
+            "depmap_r_3": 2.3313,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "POLR3A",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 3.41659,
+            "depmap_r_3": 2.3141,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "BUB3",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 7.66913,
+            "depmap_r_3": 2.129,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.0476,
+        "gc_fraction": 0.5238,
+        "motif_counts": [],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_VEGFA_1836",
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "target_pos": 1836,
+      "guide_strand": "UGUCGAUGGUGAUGGUGUGGU",
+      "seed_region": "GTCGATG",
+      "designer_nll": 0.3469,
+      "designer_rank_in_gene": 4,
+      "all_model_nll": {
+        "RNA-FM": 0.3469,
+        "RiNALMo": 0.3343
+      },
+      "r_1": 111,
+      "r_2": 0.009016,
+      "r_3": 2.3313,
+      "r_4": 0.381,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 112,
+        "offtarget_count": 111,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 173,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 58,
+        "n_sites_7mer_m8": 118
+      },
+      "L5_details": {
+        "most_essential_gene": "RPA1",
+        "n_common_essential_hit": 10,
+        "top_genes": [
+          {
+            "gene": "RPA1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.65813,
+            "depmap_r_3": 2.3313,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CTCF",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 8.10351,
+            "depmap_r_3": 1.6275,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "DYNC1H1",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 5.61296,
+            "depmap_r_3": 1.5966,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PPP1R12A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.10962,
+            "depmap_r_3": 1.2439,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "DNAJC17",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 5.95027,
+            "depmap_r_3": 1.184,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.381,
+        "gc_fraction": 0.5238,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 5
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_VEGFA_504",
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "target_pos": 504,
+      "guide_strand": "GGGGCGGUGUCUGUCUGUCUG",
+      "seed_region": "GGGCGGT",
+      "designer_nll": 0.3797,
+      "designer_rank_in_gene": 5,
+      "all_model_nll": {
+        "RNA-FM": 0.3797,
+        "RiNALMo": 0.2797
+      },
+      "r_1": 49,
+      "r_2": 0.026474,
+      "r_3": 2.5178,
+      "r_4": 0.3333,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 50,
+        "offtarget_count": 49,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 508,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 126,
+        "n_sites_7mer_m8": 418
+      },
+      "L5_details": {
+        "most_essential_gene": "PRPF38A",
+        "n_common_essential_hit": 22,
+        "top_genes": [
+          {
+            "gene": "PRPF38A",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 6.21901,
+            "depmap_r_3": 2.5178,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PRPF31",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 26.637,
+            "depmap_r_3": 1.9664,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "NUTF2",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 20.0003,
+            "depmap_r_3": 1.822,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "DYNC1H1",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 5.61296,
+            "depmap_r_3": 1.5966,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CHMP6",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 13.9955,
+            "depmap_r_3": 1.5886,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.3333,
+        "gc_fraction": 0.6667,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 4
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_BCL2_1734",
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "target_pos": 1734,
+      "guide_strand": "UGUGUGUCUGUCUGUGUGUGU",
+      "seed_region": "GTGTGTC",
+      "designer_nll": 0.1328,
+      "designer_rank_in_gene": 1,
+      "all_model_nll": {
+        "RNA-FM": 0.1328,
+        "RiNALMo": 0.2687
+      },
+      "r_1": 36471,
+      "r_2": 0.083798,
+      "r_3": 2.6454,
+      "r_4": 0.5238,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 36472,
+        "offtarget_count": 36471,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 1608,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 858,
+        "n_sites_7mer_m8": 1008
+      },
+      "L5_details": {
+        "most_essential_gene": "RPL23",
+        "n_common_essential_hit": 87,
+        "top_genes": [
+          {
+            "gene": "RPL23",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PRPF38A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.21901,
+            "depmap_r_3": 2.5178,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3B3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "GINS1",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 0.329861,
+            "depmap_r_3": 2.019,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PSMA5",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 17.6565,
+            "depmap_r_3": 1.9409,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.5238,
+        "gc_fraction": 0.4762,
+        "motif_counts": [
+          {
+            "motif": "UGUGU",
+            "count": 2
+          },
+          {
+            "motif": "GU",
+            "count": 8
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_BCL2_4250",
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "target_pos": 4250,
+      "guide_strand": "CAACAACAAAAGACAAAACAG",
+      "seed_region": "AACAACA",
+      "designer_nll": 0.3736,
+      "designer_rank_in_gene": 2,
+      "all_model_nll": {
+        "RNA-FM": 0.3736,
+        "RiNALMo": 0.375
+      },
+      "r_1": 279,
+      "r_2": 0.187191,
+      "r_3": 3.9331,
+      "r_4": 0.0,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 280,
+        "offtarget_count": 279,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 3592,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1039,
+        "n_sites_7mer_m8": 4042
+      },
+      "L5_details": {
+        "most_essential_gene": "RAN",
+        "n_common_essential_hit": 247,
+        "top_genes": [
+          {
+            "gene": "RAN",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 37.7079,
+            "depmap_r_3": 3.9331,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PSMA6",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 52.441,
+            "depmap_r_3": 2.8001,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SMU1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "KIF11",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 0.338804,
+            "depmap_r_3": 2.5686,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPS3",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 104.782,
+            "depmap_r_3": 2.4691,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.0,
+        "gc_fraction": 0.3333,
+        "motif_counts": [],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_BCL2_5984",
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "target_pos": 5984,
+      "guide_strand": "UUUAUAAAAUUUUUUUCUGUA",
+      "seed_region": "TTATAAA",
+      "designer_nll": 0.4684,
+      "designer_rank_in_gene": 3,
+      "all_model_nll": {
+        "RNA-FM": 0.4684,
+        "RiNALMo": 0.3972
+      },
+      "r_1": 332,
+      "r_2": 0.269894,
+      "r_3": 3.9331,
+      "r_4": 0.619,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 333,
+        "offtarget_count": 332,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 5179,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 3718,
+        "n_sites_7mer_m8": 4992
+      },
+      "L5_details": {
+        "most_essential_gene": "RAN",
+        "n_common_essential_hit": 394,
+        "top_genes": [
+          {
+            "gene": "RAN",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 37.7079,
+            "depmap_r_3": 3.9331,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "HSPE1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 224.087,
+            "depmap_r_3": 3.3687,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PCNA",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 20.0603,
+            "depmap_r_3": 2.7252,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CDC27",
+            "n_8mer": 1,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.84988,
+            "depmap_r_3": 2.6603,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL23",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.619,
+        "gc_fraction": 0.0952,
+        "motif_counts": [
+          {
+            "motif": "UUAU",
+            "count": 1
+          },
+          {
+            "motif": "UUUU",
+            "count": 1
+          },
+          {
+            "motif": "GU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 4
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_BCL2_4522",
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "target_pos": 4522,
+      "guide_strand": "AGAAGAGGAGAAAAAAAUGAC",
+      "seed_region": "GAAGAGG",
+      "designer_nll": 0.4899,
+      "designer_rank_in_gene": 4,
+      "all_model_nll": {
+        "RNA-FM": 0.4899,
+        "RiNALMo": 0.3665
+      },
+      "r_1": 168,
+      "r_2": 0.17854,
+      "r_3": 2.7456,
+      "r_4": 0.0476,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 169,
+        "offtarget_count": 168,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 3426,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 990,
+        "n_sites_7mer_m8": 3525
+      },
+      "L5_details": {
+        "most_essential_gene": "SMU1",
+        "n_common_essential_hit": 195,
+        "top_genes": [
+          {
+            "gene": "SMU1",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CDC27",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.84988,
+            "depmap_r_3": 2.6603,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPD1",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 4.3431,
+            "depmap_r_3": 2.5965,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PRPF38A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.21901,
+            "depmap_r_3": 2.5178,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3B3",
+            "n_8mer": 1,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.0476,
+        "gc_fraction": 0.3333,
+        "motif_counts": [],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RNA-FM",
+      "candidate_id": "des_BCL2_6086",
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "target_pos": 6086,
+      "guide_strand": "UCCAAGGUCAUGGUUGUCCAA",
+      "seed_region": "CCAAGGT",
+      "designer_nll": 0.5105,
+      "designer_rank_in_gene": 5,
+      "all_model_nll": {
+        "RNA-FM": 0.5105,
+        "RiNALMo": 0.446
+      },
+      "r_1": 17,
+      "r_2": 0.120538,
+      "r_3": 4.2496,
+      "r_4": 0.2857,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 18,
+        "offtarget_count": 17,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 2313,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 634,
+        "n_sites_7mer_m8": 2093
+      },
+      "L5_details": {
+        "most_essential_gene": "SNRPD3",
+        "n_common_essential_hit": 188,
+        "top_genes": [
+          {
+            "gene": "SNRPD3",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 28.0187,
+            "depmap_r_3": 4.2496,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SMU1",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3B3",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL11",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 294.919,
+            "depmap_r_3": 2.3445,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "POLR3A",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 3.41659,
+            "depmap_r_3": 2.3141,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.2857,
+        "gc_fraction": 0.4762,
+        "motif_counts": [
+          {
+            "motif": "UUGU",
+            "count": 1
+          },
+          {
+            "motif": "GU",
+            "count": 3
+          },
+          {
+            "motif": "UU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_PCSK9_324",
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "target_pos": 324,
+      "guide_strand": "GCAGCAGCAGCAGUGGCAGCG",
+      "seed_region": "CAGCAGC",
+      "designer_nll": 0.1782,
+      "designer_rank_in_gene": 1,
+      "all_model_nll": {
+        "RNA-FM": 0.3026,
+        "RiNALMo": 0.1782
+      },
+      "r_1": 6258,
+      "r_2": 0.205743,
+      "r_3": 4.2496,
+      "r_4": 0.0476,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 6259,
+        "offtarget_count": 6258,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 3948,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1007,
+        "n_sites_7mer_m8": 4340
+      },
+      "L5_details": {
+        "most_essential_gene": "SNRPD3",
+        "n_common_essential_hit": 278,
+        "top_genes": [
+          {
+            "gene": "SNRPD3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 28.0187,
+            "depmap_r_3": 4.2496,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPA1",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 13.7125,
+            "depmap_r_3": 2.8212,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPS19",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 182.562,
+            "depmap_r_3": 2.7816,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CDC27",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.84988,
+            "depmap_r_3": 2.6603,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PUF60",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 42.9712,
+            "depmap_r_3": 2.6553,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.0476,
+        "gc_fraction": 0.7143,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_PCSK9_342",
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "target_pos": 342,
+      "guide_strand": "GACCCAGGAGCAGCAGCAGCA",
+      "seed_region": "ACCCAGG",
+      "designer_nll": 0.2759,
+      "designer_rank_in_gene": 2,
+      "all_model_nll": {
+        "RNA-FM": 0.6599,
+        "RiNALMo": 0.2759
+      },
+      "r_1": 1373,
+      "r_2": 0.194486,
+      "r_3": 2.7816,
+      "r_4": 0.0,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 1374,
+        "offtarget_count": 1373,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 3732,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 614,
+        "n_sites_7mer_m8": 4591
+      },
+      "L5_details": {
+        "most_essential_gene": "RPS19",
+        "n_common_essential_hit": 288,
+        "top_genes": [
+          {
+            "gene": "RPS19",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 182.562,
+            "depmap_r_3": 2.7816,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SMU1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL23",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPD1",
+            "n_8mer": 2,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 4.3431,
+            "depmap_r_3": 2.5965,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "VCP",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 39.6143,
+            "depmap_r_3": 2.5106,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.0,
+        "gc_fraction": 0.6667,
+        "motif_counts": [],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_PCSK9_1134",
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "target_pos": 1134,
+      "guide_strand": "GGGGCAGCAGCACCACCAGUG",
+      "seed_region": "GGGCAGC",
+      "designer_nll": 0.3393,
+      "designer_rank_in_gene": 3,
+      "all_model_nll": {
+        "RNA-FM": 0.9339,
+        "RiNALMo": 0.3393
+      },
+      "r_1": 120,
+      "r_2": 0.15191,
+      "r_3": 3.3687,
+      "r_4": 0.0476,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 121,
+        "offtarget_count": 120,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 2915,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1064,
+        "n_sites_7mer_m8": 2709
+      },
+      "L5_details": {
+        "most_essential_gene": "HSPE1",
+        "n_common_essential_hit": 167,
+        "top_genes": [
+          {
+            "gene": "HSPE1",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 224.087,
+            "depmap_r_3": 3.3687,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SMU1",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PLK1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 1.24273,
+            "depmap_r_3": 2.6931,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PRPF38A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.21901,
+            "depmap_r_3": 2.5178,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "VCP",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 39.6143,
+            "depmap_r_3": 2.5106,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.0476,
+        "gc_fraction": 0.7143,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_PCSK9_1728",
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "target_pos": 1728,
+      "guide_strand": "AGCAGCUCAGCAGCUCCUCAU",
+      "seed_region": "GCAGCTC",
+      "designer_nll": 0.352,
+      "designer_rank_in_gene": 4,
+      "all_model_nll": {
+        "RNA-FM": 0.6714,
+        "RiNALMo": 0.352
+      },
+      "r_1": 57,
+      "r_2": 0.121893,
+      "r_3": 2.6931,
+      "r_4": 0.1905,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 58,
+        "offtarget_count": 57,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 2339,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 760,
+        "n_sites_7mer_m8": 2084
+      },
+      "L5_details": {
+        "most_essential_gene": "PLK1",
+        "n_common_essential_hit": 139,
+        "top_genes": [
+          {
+            "gene": "PLK1",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 1.24273,
+            "depmap_r_3": 2.6931,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPS3",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 104.782,
+            "depmap_r_3": 2.4691,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 63.9292,
+            "depmap_r_3": 2.3738,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "DHDDS",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 7.86147,
+            "depmap_r_3": 2.1572,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "UBE2I",
+            "n_8mer": 1,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.13696,
+            "depmap_r_3": 2.0373,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.1905,
+        "gc_fraction": 0.5714,
+        "motif_counts": [],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_PCSK9_378",
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "target_pos": 378,
+      "guide_strand": "CGCCGUCCUCGUCCUCCUGCG",
+      "seed_region": "GCCGTCC",
+      "designer_nll": 0.3526,
+      "designer_rank_in_gene": 5,
+      "all_model_nll": {
+        "RNA-FM": 0.409,
+        "RiNALMo": 0.3526
+      },
+      "r_1": 88,
+      "r_2": 0.022304,
+      "r_3": 2.7456,
+      "r_4": 0.2381,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 89,
+        "offtarget_count": 88,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 428,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 141,
+        "n_sites_7mer_m8": 326
+      },
+      "L5_details": {
+        "most_essential_gene": "SMU1",
+        "n_common_essential_hit": 21,
+        "top_genes": [
+          {
+            "gene": "SMU1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "ANKLE2",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 7.67273,
+            "depmap_r_3": 2.2645,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL27A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 73.693,
+            "depmap_r_3": 2.0311,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "WDR33",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 7.98366,
+            "depmap_r_3": 1.7928,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CTDP1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 7.24318,
+            "depmap_r_3": 1.6764,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.2381,
+        "gc_fraction": 0.7619,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 2
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_TTR_44",
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "target_pos": 44,
+      "guide_strand": "UCCAGCAAGGCAGAGGAGGAG",
+      "seed_region": "CCAGCAA",
+      "designer_nll": 0.3212,
+      "designer_rank_in_gene": 1,
+      "all_model_nll": {
+        "RNA-FM": 0.6932,
+        "RiNALMo": 0.3212
+      },
+      "r_1": 132,
+      "r_2": 0.139246,
+      "r_3": 2.8604,
+      "r_4": 0.0476,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 133,
+        "offtarget_count": 132,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 2672,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 854,
+        "n_sites_7mer_m8": 2343
+      },
+      "L5_details": {
+        "most_essential_gene": "RRM1",
+        "n_common_essential_hit": 204,
+        "top_genes": [
+          {
+            "gene": "RRM1",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 4.8083,
+            "depmap_r_3": 2.8604,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SMU1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "VCP",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 39.6143,
+            "depmap_r_3": 2.5106,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PSMA2",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 75.0516,
+            "depmap_r_3": 2.4203,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "HNRNPK",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 114.026,
+            "depmap_r_3": 2.3515,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.0476,
+        "gc_fraction": 0.619,
+        "motif_counts": [],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_TTR_42",
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "target_pos": 42,
+      "guide_strand": "CAGCAAGGCAGAGGAGGAGCA",
+      "seed_region": "AGCAAGG",
+      "designer_nll": 0.3343,
+      "designer_rank_in_gene": 2,
+      "all_model_nll": {
+        "RNA-FM": 0.6907,
+        "RiNALMo": 0.3343
+      },
+      "r_1": 118,
+      "r_2": 0.133983,
+      "r_3": 3.9331,
+      "r_4": 0.0,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 119,
+        "offtarget_count": 118,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 2571,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 451,
+        "n_sites_7mer_m8": 2670
+      },
+      "L5_details": {
+        "most_essential_gene": "RAN",
+        "n_common_essential_hit": 175,
+        "top_genes": [
+          {
+            "gene": "RAN",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 37.7079,
+            "depmap_r_3": 3.9331,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SMU1",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL23",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PRPF38A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.21901,
+            "depmap_r_3": 2.5178,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "HNRNPK",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 114.026,
+            "depmap_r_3": 2.3515,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.0,
+        "gc_fraction": 0.619,
+        "motif_counts": [],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_TTR_32",
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "target_pos": 32,
+      "guide_strand": "GAGGAGGAGCAGACGAUGAGA",
+      "seed_region": "AGGAGGA",
+      "designer_nll": 0.3733,
+      "designer_rank_in_gene": 3,
+      "all_model_nll": {
+        "RNA-FM": 0.6316,
+        "RiNALMo": 0.3733
+      },
+      "r_1": 122,
+      "r_2": 0.202356,
+      "r_3": 4.2496,
+      "r_4": 0.0476,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 123,
+        "offtarget_count": 122,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 3883,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 601,
+        "n_sites_7mer_m8": 4700
+      },
+      "L5_details": {
+        "most_essential_gene": "SNRPD3",
+        "n_common_essential_hit": 256,
+        "top_genes": [
+          {
+            "gene": "SNRPD3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 28.0187,
+            "depmap_r_3": 4.2496,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PSMA6",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 52.441,
+            "depmap_r_3": 2.8001,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SMU1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL23",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3B3",
+            "n_8mer": 0,
+            "n_7mer_m8": 3,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.0476,
+        "gc_fraction": 0.5714,
+        "motif_counts": [],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_TTR_16",
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "target_pos": 16,
+      "guide_strand": "UGAGAAGCCAUCCUGCCAAGA",
+      "seed_region": "GAGAAGC",
+      "designer_nll": 0.3759,
+      "designer_rank_in_gene": 4,
+      "all_model_nll": {
+        "RNA-FM": 0.6789,
+        "RiNALMo": 0.3759
+      },
+      "r_1": 21,
+      "r_2": 0.139663,
+      "r_3": 3.9331,
+      "r_4": 0.1429,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 22,
+        "offtarget_count": 21,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 2680,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 870,
+        "n_sites_7mer_m8": 2404
+      },
+      "L5_details": {
+        "most_essential_gene": "RAN",
+        "n_common_essential_hit": 154,
+        "top_genes": [
+          {
+            "gene": "RAN",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 37.7079,
+            "depmap_r_3": 3.9331,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL23",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPD1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 4.3431,
+            "depmap_r_3": 2.5965,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPA1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.65813,
+            "depmap_r_3": 2.3313,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "POLR3A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 3.41659,
+            "depmap_r_3": 2.3141,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.1429,
+        "gc_fraction": 0.5238,
+        "motif_counts": [],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_TTR_34",
+      "gene": "TTR",
+      "accession": "NM_000371.4",
+      "target_pos": 34,
+      "guide_strand": "CAGAGGAGGAGCAGACGAUGA",
+      "seed_region": "AGAGGAG",
+      "designer_nll": 0.3769,
+      "designer_rank_in_gene": 5,
+      "all_model_nll": {
+        "RNA-FM": 0.6952,
+        "RiNALMo": 0.3769
+      },
+      "r_1": 134,
+      "r_2": 0.188806,
+      "r_3": 2.7456,
+      "r_4": 0.0476,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 135,
+        "offtarget_count": 134,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 3623,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 569,
+        "n_sites_7mer_m8": 4395
+      },
+      "L5_details": {
+        "most_essential_gene": "SMU1",
+        "n_common_essential_hit": 201,
+        "top_genes": [
+          {
+            "gene": "SMU1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL23",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3B3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PHF5A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 17.5002,
+            "depmap_r_3": 2.4382,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "HNRNPK",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 114.026,
+            "depmap_r_3": 2.3515,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.0476,
+        "gc_fraction": 0.5714,
+        "motif_counts": [],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_HAO1_1384",
+      "gene": "HAO1",
+      "accession": "NM_017545.3",
+      "target_pos": 1384,
+      "guide_strand": "CAUUUUCAAUGUUUUCUUUUU",
+      "seed_region": "ATTTTCA",
+      "designer_nll": 0.3381,
+      "designer_rank_in_gene": 1,
+      "all_model_nll": {
+        "RNA-FM": 0.4544,
+        "RiNALMo": 0.3381
+      },
+      "r_1": 426,
+      "r_2": 0.271927,
+      "r_3": 2.7456,
+      "r_4": 0.6667,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 427,
+        "offtarget_count": 426,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 5218,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 2706,
+        "n_sites_7mer_m8": 5615
+      },
+      "L5_details": {
+        "most_essential_gene": "SMU1",
+        "n_common_essential_hit": 367,
+        "top_genes": [
+          {
+            "gene": "SMU1",
+            "n_8mer": 1,
+            "n_7mer_m8": 3,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CDC27",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 6.84988,
+            "depmap_r_3": 2.6603,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL23",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPD1",
+            "n_8mer": 1,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 4.3431,
+            "depmap_r_3": 2.5965,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PRPF38A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.21901,
+            "depmap_r_3": 2.5178,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.6667,
+        "gc_fraction": 0.1905,
+        "motif_counts": [
+          {
+            "motif": "UUUU",
+            "count": 3
+          },
+          {
+            "motif": "GU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 6
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_HAO1_1224",
+      "gene": "HAO1",
+      "accession": "NM_017545.3",
+      "target_pos": 1224,
+      "guide_strand": "GGAAUUACAGACUGUGGUCAC",
+      "seed_region": "GAATTAC",
+      "designer_nll": 0.4076,
+      "designer_rank_in_gene": 2,
+      "all_model_nll": {
+        "RNA-FM": 0.7195,
+        "RiNALMo": 0.4076
+      },
+      "r_1": 5,
+      "r_2": 0.090677,
+      "r_3": 4.2496,
+      "r_4": 0.2381,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 6,
+        "offtarget_count": 5,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 1740,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 666,
+        "n_sites_7mer_m8": 1371
+      },
+      "L5_details": {
+        "most_essential_gene": "SNRPD3",
+        "n_common_essential_hit": 142,
+        "top_genes": [
+          {
+            "gene": "SNRPD3",
+            "n_8mer": 2,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 28.0187,
+            "depmap_r_3": 4.2496,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SMU1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SRSF3",
+            "n_8mer": 0,
+            "n_7mer_m8": 3,
+            "gtex_median_tpm": 34.3509,
+            "depmap_r_3": 2.5407,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "FAU",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 192.03,
+            "depmap_r_3": 2.4812,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "COPB2",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 13.5969,
+            "depmap_r_3": 2.2082,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.2381,
+        "gc_fraction": 0.4762,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 2
+          },
+          {
+            "motif": "UU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_HAO1_472",
+      "gene": "HAO1",
+      "accession": "NM_017545.3",
+      "target_pos": 472,
+      "guide_strand": "UGUAGCCCAUCUUCUCUGCCU",
+      "seed_region": "GTAGCCC",
+      "designer_nll": 0.4184,
+      "designer_rank_in_gene": 3,
+      "all_model_nll": {
+        "RNA-FM": 0.6196,
+        "RiNALMo": 0.4184
+      },
+      "r_1": 60,
+      "r_2": 0.041743,
+      "r_3": 2.7216,
+      "r_4": 0.381,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 61,
+        "offtarget_count": 60,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 801,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 329,
+        "n_sites_7mer_m8": 521
+      },
+      "L5_details": {
+        "most_essential_gene": "RPL21",
+        "n_common_essential_hit": 44,
+        "top_genes": [
+          {
+            "gene": "RPL21",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 311.794,
+            "depmap_r_3": 2.7216,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "VCP",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 39.6143,
+            "depmap_r_3": 2.5106,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RRM2",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 0.35074,
+            "depmap_r_3": 2.3396,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPS14",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 146.76,
+            "depmap_r_3": 2.1517,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RNGTT",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 3.80774,
+            "depmap_r_3": 1.8617,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.381,
+        "gc_fraction": 0.5238,
+        "motif_counts": [
+          {
+            "motif": "GUAG",
+            "count": 1
+          },
+          {
+            "motif": "GU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_HAO1_720",
+      "gene": "HAO1",
+      "accession": "NM_017545.3",
+      "target_pos": 720,
+      "guide_strand": "UGCAACAAUUGGCAAUGAUGU",
+      "seed_region": "GCAACAA",
+      "designer_nll": 0.4219,
+      "designer_rank_in_gene": 4,
+      "all_model_nll": {
+        "RNA-FM": 0.5677,
+        "RiNALMo": 0.4219
+      },
+      "r_1": 14,
+      "r_2": 0.124186,
+      "r_3": 3.9331,
+      "r_4": 0.2857,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 15,
+        "offtarget_count": 14,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 2383,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 799,
+        "n_sites_7mer_m8": 2063
+      },
+      "L5_details": {
+        "most_essential_gene": "RAN",
+        "n_common_essential_hit": 183,
+        "top_genes": [
+          {
+            "gene": "RAN",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 37.7079,
+            "depmap_r_3": 3.9331,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SMU1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "KIF11",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 0.338804,
+            "depmap_r_3": 2.5686,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SRSF3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 34.3509,
+            "depmap_r_3": 2.5407,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3B3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.2857,
+        "gc_fraction": 0.381,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_HAO1_872",
+      "gene": "HAO1",
+      "accession": "NM_017545.3",
+      "target_pos": 872,
+      "guide_strand": "ACCUUCCCUUCCACAGCCUCC",
+      "seed_region": "CCTTCCC",
+      "designer_nll": 0.4254,
+      "designer_rank_in_gene": 5,
+      "all_model_nll": {
+        "RNA-FM": 0.6578,
+        "RiNALMo": 0.4254
+      },
+      "r_1": 137,
+      "r_2": 0.189015,
+      "r_3": 2.7456,
+      "r_4": 0.2381,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 138,
+        "offtarget_count": 137,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 3627,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1552,
+        "n_sites_7mer_m8": 3387
+      },
+      "L5_details": {
+        "most_essential_gene": "SMU1",
+        "n_common_essential_hit": 217,
+        "top_genes": [
+          {
+            "gene": "SMU1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PRPF19",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 38.8743,
+            "depmap_r_3": 2.3752,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "HNRNPK",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 114.026,
+            "depmap_r_3": 2.3515,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "TOP2A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 0.269363,
+            "depmap_r_3": 2.2487,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "BUD31",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 13.2421,
+            "depmap_r_3": 2.2073,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.2381,
+        "gc_fraction": 0.619,
+        "motif_counts": [
+          {
+            "motif": "UU",
+            "count": 2
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_KRAS_3267",
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "target_pos": 3267,
+      "guide_strand": "CCUGUAAUCCCAGCUACUCAG",
+      "seed_region": "CTGTAAT",
+      "designer_nll": 0.0404,
+      "designer_rank_in_gene": 1,
+      "all_model_nll": {
+        "RNA-FM": 0.098,
+        "RiNALMo": 0.0404
+      },
+      "r_1": 30726,
+      "r_2": 0.188233,
+      "r_3": 2.7456,
+      "r_4": 0.2381,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 30727,
+        "offtarget_count": 30726,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 3612,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1028,
+        "n_sites_7mer_m8": 5393
+      },
+      "L5_details": {
+        "most_essential_gene": "SMU1",
+        "n_common_essential_hit": 291,
+        "top_genes": [
+          {
+            "gene": "SMU1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL23",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPD1",
+            "n_8mer": 0,
+            "n_7mer_m8": 3,
+            "gtex_median_tpm": 4.3431,
+            "depmap_r_3": 2.5965,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PRPF38A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.21901,
+            "depmap_r_3": 2.5178,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3B3",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.2381,
+        "gc_fraction": 0.5238,
+        "motif_counts": [
+          {
+            "motif": "GUAA",
+            "count": 1
+          },
+          {
+            "motif": "UAAU",
+            "count": 1
+          },
+          {
+            "motif": "GU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_KRAS_3348",
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "target_pos": 3348,
+      "guide_strand": "AGUUCGAGACCAGCCUGGCCA",
+      "seed_region": "GTTCGAG",
+      "designer_nll": 0.1628,
+      "designer_rank_in_gene": 2,
+      "all_model_nll": {
+        "RNA-FM": 0.1348,
+        "RiNALMo": 0.1628
+      },
+      "r_1": 32894,
+      "r_2": 0.042733,
+      "r_3": 2.7816,
+      "r_4": 0.1429,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 32895,
+        "offtarget_count": 32894,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 820,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 68,
+        "n_sites_7mer_m8": 852
+      },
+      "L5_details": {
+        "most_essential_gene": "RPS19",
+        "n_common_essential_hit": 78,
+        "top_genes": [
+          {
+            "gene": "RPS19",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 182.562,
+            "depmap_r_3": 2.7816,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3B3",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPS15A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 59.38,
+            "depmap_r_3": 2.3521,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL4",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 263.8,
+            "depmap_r_3": 2.2185,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "DHDDS",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 7.86147,
+            "depmap_r_3": 2.1572,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.1429,
+        "gc_fraction": 0.619,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_KRAS_3186",
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "target_pos": 3186,
+      "guide_strand": "GCGCCACUGCAUUCCAGCCUG",
+      "seed_region": "CGCCACT",
+      "designer_nll": 0.1636,
+      "designer_rank_in_gene": 3,
+      "all_model_nll": {
+        "RNA-FM": 0.3323,
+        "RiNALMo": 0.1636
+      },
+      "r_1": 24432,
+      "r_2": 0.047319,
+      "r_3": 2.7816,
+      "r_4": 0.1905,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 24433,
+        "offtarget_count": 24432,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 908,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 96,
+        "n_sites_7mer_m8": 926
+      },
+      "L5_details": {
+        "most_essential_gene": "RPS19",
+        "n_common_essential_hit": 84,
+        "top_genes": [
+          {
+            "gene": "RPS19",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 182.562,
+            "depmap_r_3": 2.7816,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPD1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 4.3431,
+            "depmap_r_3": 2.5965,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPS15A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 59.38,
+            "depmap_r_3": 2.3521,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RRM2",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 0.35074,
+            "depmap_r_3": 2.3396,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPA1",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 8.65813,
+            "depmap_r_3": 2.3313,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.1905,
+        "gc_fraction": 0.6667,
+        "motif_counts": [
+          {
+            "motif": "UU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_KRAS_27",
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "target_pos": 27,
+      "guide_strand": "GCCACUGCCGCCGCCGCUGCU",
+      "seed_region": "CCACTGC",
+      "designer_nll": 0.1717,
+      "designer_rank_in_gene": 4,
+      "all_model_nll": {
+        "RNA-FM": 0.3251,
+        "RiNALMo": 0.1717
+      },
+      "r_1": 2516,
+      "r_2": 0.205534,
+      "r_3": 4.2496,
+      "r_4": 0.1429,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 2517,
+        "offtarget_count": 2516,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 3944,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 736,
+        "n_sites_7mer_m8": 4986
+      },
+      "L5_details": {
+        "most_essential_gene": "SNRPD3",
+        "n_common_essential_hit": 309,
+        "top_genes": [
+          {
+            "gene": "SNRPD3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 28.0187,
+            "depmap_r_3": 4.2496,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPS19",
+            "n_8mer": 0,
+            "n_7mer_m8": 3,
+            "gtex_median_tpm": 182.562,
+            "depmap_r_3": 2.7816,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SMU1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPD1",
+            "n_8mer": 0,
+            "n_7mer_m8": 3,
+            "gtex_median_tpm": 4.3431,
+            "depmap_r_3": 2.5965,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3B3",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.1429,
+        "gc_fraction": 0.8095,
+        "motif_counts": [],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_KRAS_837",
+      "gene": "KRAS",
+      "accession": "NM_033360.4",
+      "target_pos": 837,
+      "guide_strand": "UUGACUUCUUUUUCUUCUUUU",
+      "seed_region": "TGACTTC",
+      "designer_nll": 0.2271,
+      "designer_rank_in_gene": 5,
+      "all_model_nll": {
+        "RNA-FM": 0.3607,
+        "RiNALMo": 0.2271
+      },
+      "r_1": 741,
+      "r_2": 0.117411,
+      "r_3": 2.5407,
+      "r_4": 0.7143,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 742,
+        "offtarget_count": 741,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 2253,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 603,
+        "n_sites_7mer_m8": 2063
+      },
+      "L5_details": {
+        "most_essential_gene": "SRSF3",
+        "n_common_essential_hit": 155,
+        "top_genes": [
+          {
+            "gene": "SRSF3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 34.3509,
+            "depmap_r_3": 2.5407,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PRPF38A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.21901,
+            "depmap_r_3": 2.5178,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPA1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.65813,
+            "depmap_r_3": 2.3313,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "POLR3A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 3.41659,
+            "depmap_r_3": 2.3141,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "TXNL4A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 10.4881,
+            "depmap_r_3": 2.2195,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.7143,
+        "gc_fraction": 0.2381,
+        "motif_counts": [
+          {
+            "motif": "UUUU",
+            "count": 2
+          },
+          {
+            "motif": "UU",
+            "count": 7
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_VEGFA_3312",
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "target_pos": 3312,
+      "guide_strand": "AUAUAUAUAUAUAUAUACACA",
+      "seed_region": "TATATAT",
+      "designer_nll": 0.0767,
+      "designer_rank_in_gene": 1,
+      "all_model_nll": {
+        "RNA-FM": 0.1486,
+        "RiNALMo": 0.0767
+      },
+      "r_1": 19049,
+      "r_2": 0.224973,
+      "r_3": 3.9331,
+      "r_4": 0.381,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 19050,
+        "offtarget_count": 19049,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 4317,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 2309,
+        "n_sites_7mer_m8": 6695
+      },
+      "L5_details": {
+        "most_essential_gene": "RAN",
+        "n_common_essential_hit": 288,
+        "top_genes": [
+          {
+            "gene": "RAN",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 37.7079,
+            "depmap_r_3": 3.9331,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPF",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 23.793,
+            "depmap_r_3": 2.8543,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CDC27",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.84988,
+            "depmap_r_3": 2.6603,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPD1",
+            "n_8mer": 2,
+            "n_7mer_m8": 7,
+            "gtex_median_tpm": 4.3431,
+            "depmap_r_3": 2.5965,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "KIF11",
+            "n_8mer": 1,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 0.338804,
+            "depmap_r_3": 2.5686,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.381,
+        "gc_fraction": 0.0952,
+        "motif_counts": [],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_VEGFA_774",
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "target_pos": 774,
+      "guide_strand": "UCUUCUUCCUCCUCCCCCUCC",
+      "seed_region": "CTTCTTC",
+      "designer_nll": 0.2276,
+      "designer_rank_in_gene": 2,
+      "all_model_nll": {
+        "RNA-FM": 0.4387,
+        "RiNALMo": 0.2276
+      },
+      "r_1": 6158,
+      "r_2": 0.145396,
+      "r_3": 2.7456,
+      "r_4": 0.381,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 6159,
+        "offtarget_count": 6158,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 2790,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1103,
+        "n_sites_7mer_m8": 2339
+      },
+      "L5_details": {
+        "most_essential_gene": "SMU1",
+        "n_common_essential_hit": 182,
+        "top_genes": [
+          {
+            "gene": "SMU1",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 6.65425,
+            "depmap_r_3": 2.7456,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CDC27",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 6.84988,
+            "depmap_r_3": 2.6603,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PRPF38A",
+            "n_8mer": 1,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.21901,
+            "depmap_r_3": 2.5178,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPS23",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 35.7191,
+            "depmap_r_3": 2.3283,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL32",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 131.798,
+            "depmap_r_3": 2.2734,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.381,
+        "gc_fraction": 0.619,
+        "motif_counts": [
+          {
+            "motif": "UU",
+            "count": 2
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_VEGFA_2106",
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "target_pos": 2106,
+      "guide_strand": "UUAUUUUUAUAUAUAUAUAAU",
+      "seed_region": "TATTTTT",
+      "designer_nll": 0.2439,
+      "designer_rank_in_gene": 3,
+      "all_model_nll": {
+        "RNA-FM": 0.4316,
+        "RiNALMo": 0.2439
+      },
+      "r_1": 926,
+      "r_2": 0.404972,
+      "r_3": 4.2496,
+      "r_4": 0.619,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 927,
+        "offtarget_count": 926,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 7771,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 6599,
+        "n_sites_7mer_m8": 10368
+      },
+      "L5_details": {
+        "most_essential_gene": "SNRPD3",
+        "n_common_essential_hit": 607,
+        "top_genes": [
+          {
+            "gene": "SNRPD3",
+            "n_8mer": 2,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 28.0187,
+            "depmap_r_3": 4.2496,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RAN",
+            "n_8mer": 2,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 37.7079,
+            "depmap_r_3": 3.9331,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "HSPE1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 224.087,
+            "depmap_r_3": 3.3687,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SNRPA1",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 13.7125,
+            "depmap_r_3": 2.8212,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPS19",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 182.562,
+            "depmap_r_3": 2.7816,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.619,
+        "gc_fraction": 0.0,
+        "motif_counts": [
+          {
+            "motif": "UUAU",
+            "count": 2
+          },
+          {
+            "motif": "UUUU",
+            "count": 1
+          },
+          {
+            "motif": "UAAU",
+            "count": 1
+          },
+          {
+            "motif": "UU",
+            "count": 3
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_VEGFA_882",
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "target_pos": 882,
+      "guide_strand": "GGAGCGCGCGCGGCUGGAGCA",
+      "seed_region": "GAGCGCG",
+      "designer_nll": 0.2615,
+      "designer_rank_in_gene": 4,
+      "all_model_nll": {
+        "RNA-FM": 0.7085,
+        "RiNALMo": 0.2615
+      },
+      "r_1": 75,
+      "r_2": 0.009849,
+      "r_3": 2.6553,
+      "r_4": 0.0476,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 76,
+        "offtarget_count": 75,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 189,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 40,
+        "n_sites_7mer_m8": 158
+      },
+      "L5_details": {
+        "most_essential_gene": "PUF60",
+        "n_common_essential_hit": 12,
+        "top_genes": [
+          {
+            "gene": "PUF60",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 42.9712,
+            "depmap_r_3": 2.6553,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "BUD31",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 13.2421,
+            "depmap_r_3": 2.2073,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "ATP6V1B2",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 21.9453,
+            "depmap_r_3": 1.8153,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CHMP6",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 13.9955,
+            "depmap_r_3": 1.5886,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "POLR2E",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 78.6185,
+            "depmap_r_3": 1.4535,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.0476,
+        "gc_fraction": 0.8095,
+        "motif_counts": [],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_VEGFA_540",
+      "gene": "VEGFA",
+      "accession": "NM_001025366.3",
+      "target_pos": 540,
+      "guide_strand": "CGCCGCCGGCCGGGGAGGAGG",
+      "seed_region": "GCCGCCG",
+      "designer_nll": 0.268,
+      "designer_rank_in_gene": 5,
+      "all_model_nll": {
+        "RNA-FM": 0.5959,
+        "RiNALMo": 0.268
+      },
+      "r_1": 304,
+      "r_2": 0.017823,
+      "r_3": 4.2496,
+      "r_4": 0.0,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 305,
+        "offtarget_count": 304,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 342,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 76,
+        "n_sites_7mer_m8": 307
+      },
+      "L5_details": {
+        "most_essential_gene": "SNRPD3",
+        "n_common_essential_hit": 14,
+        "top_genes": [
+          {
+            "gene": "SNRPD3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 28.0187,
+            "depmap_r_3": 4.2496,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 63.9292,
+            "depmap_r_3": 2.3738,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "DYNC1H1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 5.61296,
+            "depmap_r_3": 1.5966,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "HCFC1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.94942,
+            "depmap_r_3": 1.5117,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "UPF1",
+            "n_8mer": 0,
+            "n_7mer_m8": 2,
+            "gtex_median_tpm": 23.1318,
+            "depmap_r_3": 1.2005,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.0,
+        "gc_fraction": 0.9048,
+        "motif_counts": [],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_BCL2_1088",
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "target_pos": 1088,
+      "guide_strand": "GCCGGGGUCUGCAGCGGCGAG",
+      "seed_region": "CCGGGGT",
+      "designer_nll": 0.2493,
+      "designer_rank_in_gene": 1,
+      "all_model_nll": {
+        "RNA-FM": 0.657,
+        "RiNALMo": 0.2493
+      },
+      "r_1": 29,
+      "r_2": 0.03205,
+      "r_3": 2.7816,
+      "r_4": 0.0952,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 30,
+        "offtarget_count": 29,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 615,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 124,
+        "n_sites_7mer_m8": 544
+      },
+      "L5_details": {
+        "most_essential_gene": "RPS19",
+        "n_common_essential_hit": 29,
+        "top_genes": [
+          {
+            "gene": "RPS19",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 182.562,
+            "depmap_r_3": 2.7816,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL23",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPA1",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.65813,
+            "depmap_r_3": 2.3313,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL32",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 131.798,
+            "depmap_r_3": 2.2734,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL27A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 73.693,
+            "depmap_r_3": 2.0311,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.0952,
+        "gc_fraction": 0.8095,
+        "motif_counts": [
+          {
+            "motif": "GU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_BCL2_1734",
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "target_pos": 1734,
+      "guide_strand": "UGUGUGUCUGUCUGUGUGUGU",
+      "seed_region": "GTGTGTC",
+      "designer_nll": 0.2687,
+      "designer_rank_in_gene": 2,
+      "all_model_nll": {
+        "RNA-FM": 0.1328,
+        "RiNALMo": 0.2687
+      },
+      "r_1": 36471,
+      "r_2": 0.083798,
+      "r_3": 2.6454,
+      "r_4": 0.5238,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 36472,
+        "offtarget_count": 36471,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 1608,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 858,
+        "n_sites_7mer_m8": 1008
+      },
+      "L5_details": {
+        "most_essential_gene": "RPL23",
+        "n_common_essential_hit": 87,
+        "top_genes": [
+          {
+            "gene": "RPL23",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PRPF38A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.21901,
+            "depmap_r_3": 2.5178,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "SF3B3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 8.91382,
+            "depmap_r_3": 2.4901,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "GINS1",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 0.329861,
+            "depmap_r_3": 2.019,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PSMA5",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 17.6565,
+            "depmap_r_3": 1.9409,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.5238,
+        "gc_fraction": 0.4762,
+        "motif_counts": [
+          {
+            "motif": "UGUGU",
+            "count": 2
+          },
+          {
+            "motif": "GU",
+            "count": 8
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_BCL2_1190",
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "target_pos": 1190,
+      "guide_strand": "CGGCGGUAGCGGCGGGAGAAG",
+      "seed_region": "GGCGGTA",
+      "designer_nll": 0.304,
+      "designer_rank_in_gene": 3,
+      "all_model_nll": {
+        "RNA-FM": 0.5592,
+        "RiNALMo": 0.304
+      },
+      "r_1": 157,
+      "r_2": 0.009432,
+      "r_3": 1.9807,
+      "r_4": 0.0476,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 158,
+        "offtarget_count": 157,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 181,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 65,
+        "n_sites_7mer_m8": 118
+      },
+      "L5_details": {
+        "most_essential_gene": "POLR2F",
+        "n_common_essential_hit": 13,
+        "top_genes": [
+          {
+            "gene": "POLR2F",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 6.79842,
+            "depmap_r_3": 1.9807,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "LSM7",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 23.978,
+            "depmap_r_3": 1.8273,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "POLR2E",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 78.6185,
+            "depmap_r_3": 1.4535,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "NOL10",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 6.43158,
+            "depmap_r_3": 1.3195,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "TPX2",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 1.39197,
+            "depmap_r_3": 1.3087,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.0476,
+        "gc_fraction": 0.7619,
+        "motif_counts": [
+          {
+            "motif": "GUAG",
+            "count": 1
+          },
+          {
+            "motif": "GU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_BCL2_5610",
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "target_pos": 5610,
+      "guide_strand": "UCCUCCCUCCCACCCCUCCAA",
+      "seed_region": "CCTCCCT",
+      "designer_nll": 0.3571,
+      "designer_rank_in_gene": 4,
+      "all_model_nll": {
+        "RNA-FM": 0.6095,
+        "RiNALMo": 0.3571
+      },
+      "r_1": 174,
+      "r_2": 0.194017,
+      "r_3": 4.2496,
+      "r_4": 0.1905,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 175,
+        "offtarget_count": 174,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 3723,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1452,
+        "n_sites_7mer_m8": 3854
+      },
+      "L5_details": {
+        "most_essential_gene": "SNRPD3",
+        "n_common_essential_hit": 233,
+        "top_genes": [
+          {
+            "gene": "SNRPD3",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 28.0187,
+            "depmap_r_3": 4.2496,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "PRPF38A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.21901,
+            "depmap_r_3": 2.5178,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "HNRNPK",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 114.026,
+            "depmap_r_3": 2.3515,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "ANKLE2",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 7.67273,
+            "depmap_r_3": 2.2645,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "TXNL4A",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 10.4881,
+            "depmap_r_3": 2.2195,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.1905,
+        "gc_fraction": 0.6667,
+        "motif_counts": [],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    },
+    {
+      "designer": "RiNALMo",
+      "candidate_id": "des_BCL2_238",
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "target_pos": 238,
+      "guide_strand": "GCAAUUUACACGCGCGCACAC",
+      "seed_region": "CAATTTA",
+      "designer_nll": 0.3612,
+      "designer_rank_in_gene": 5,
+      "all_model_nll": {
+        "RNA-FM": 0.8388,
+        "RiNALMo": 0.3612
+      },
+      "r_1": 2,
+      "r_2": 0.166085,
+      "r_3": 2.7816,
+      "r_4": 0.1429,
+      "r_1_unit": "Channel A 转录组脱靶比对条数（计数，非 [0,1]）",
+      "r_2_unit": "带种子互补位点的基因数 / 扫描基因总数（比例）",
+      "r_3_unit": "DepMap Chronos 连续必需性，可 > 1",
+      "r_4_unit": "引导链 U 比例",
+      "designer_nll_unit": "MLM 交叉熵，越低越像训练分布；设计器信号，非检测器值",
+      "cascade_matrix_summary": {
+        "layers_measured": [
+          "L1L2",
+          "L3",
+          "L5",
+          "L6b"
+        ],
+        "layers_unmeasured": [],
+        "n_measured": 4,
+        "n_layers": 4
+      },
+      "L1L2_details": {
+        "channel_a_hits": 3,
+        "offtarget_count": 2,
+        "min_mismatches": 0
+      },
+      "L3_details": {
+        "n_genes_with_site": 3187,
+        "n_genes_scanned": 19189,
+        "n_sites_8mer": 1103,
+        "n_sites_7mer_m8": 3154
+      },
+      "L5_details": {
+        "most_essential_gene": "RPS19",
+        "n_common_essential_hit": 266,
+        "top_genes": [
+          {
+            "gene": "RPS19",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 182.562,
+            "depmap_r_3": 2.7816,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPS20",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 74.9721,
+            "depmap_r_3": 2.6626,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "CDC27",
+            "n_8mer": 0,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 6.84988,
+            "depmap_r_3": 2.6603,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "RPL23",
+            "n_8mer": 1,
+            "n_7mer_m8": 0,
+            "gtex_median_tpm": 110.251,
+            "depmap_r_3": 2.6454,
+            "depmap_common_essential": true
+          },
+          {
+            "gene": "KIF11",
+            "n_8mer": 1,
+            "n_7mer_m8": 1,
+            "gtex_median_tpm": 0.338804,
+            "depmap_r_3": 2.5686,
+            "depmap_common_essential": true
+          }
+        ]
+      },
+      "L6b_details": {
+        "u_fraction": 0.1429,
+        "gc_fraction": 0.5714,
+        "motif_counts": [
+          {
+            "motif": "UU",
+            "count": 1
+          }
+        ],
+        "basis": "r_4 = 引导链 U 比例（Judge 2005 / Forsbach 2008：U 富集 ssRNA 驱动 TLR7/8）"
+      },
+      "tissue": "Liver"
+    }
+  ]
+}

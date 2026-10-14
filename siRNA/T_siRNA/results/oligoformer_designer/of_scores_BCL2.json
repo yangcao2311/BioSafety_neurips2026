@@ -1,0 +1,2010 @@
+{
+  "gene": "BCL2",
+  "accession": "NM_000633.3",
+  "n_candidates": 200,
+  "direction": "higher_is_better",
+  "length_convention": "21 nt 引导链取 guide[0:19] 作 19 nt 双链核心送入 OligoFormer",
+  "note": "efficacy 是设计器信号，不是检测器值，不参与 r_1..r_4。",
+  "candidates": [
+    {
+      "guide": "UGAUUAAACUCCGAACAGCAA",
+      "target_pos": 102,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_102",
+      "of_core_19nt": "UGAUUAAACUCCGAACAGC",
+      "OligoFormer_efficacy": 1.037045,
+      "OligoFormer_rank_in_gene": 1
+    },
+    {
+      "guide": "UAUCACUCUCCAAUUCAGUUU",
+      "target_pos": 6018,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_6018",
+      "of_core_19nt": "UAUCACUCUCCAAUUCAGU",
+      "OligoFormer_efficacy": 0.995881,
+      "OligoFormer_rank_in_gene": 2
+    },
+    {
+      "guide": "UUUUAGAGCCCUUGUCCCCAA",
+      "target_pos": 4726,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4726",
+      "of_core_19nt": "UUUUAGAGCCCUUGUCCCC",
+      "OligoFormer_efficacy": 0.983633,
+      "OligoFormer_rank_in_gene": 3
+    },
+    {
+      "guide": "UAAUGCCACAGAGUUAUUCCA",
+      "target_pos": 3298,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3298",
+      "of_core_19nt": "UAAUGCCACAGAGUUAUUC",
+      "OligoFormer_efficacy": 0.970061,
+      "OligoFormer_rank_in_gene": 4
+    },
+    {
+      "guide": "UUAAGAAGGUAUAAUAAACAA",
+      "target_pos": 6494,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_6494",
+      "of_core_19nt": "UUAAGAAGGUAUAAUAAAC",
+      "OligoFormer_efficacy": 0.96874,
+      "OligoFormer_rank_in_gene": 5
+    },
+    {
+      "guide": "UUCUGGUUAUUCUGAAAACUU",
+      "target_pos": 5678,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5678",
+      "of_core_19nt": "UUCUGGUUAUUCUGAAAAC",
+      "OligoFormer_efficacy": 0.968493,
+      "OligoFormer_rank_in_gene": 6
+    },
+    {
+      "guide": "UUCCAAAAGGUUUAGGUGCAU",
+      "target_pos": 6358,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_6358",
+      "of_core_19nt": "UUCCAAAAGGUUUAGGUGC",
+      "OligoFormer_efficacy": 0.9576,
+      "OligoFormer_rank_in_gene": 7
+    },
+    {
+      "guide": "CUCCUCUCGAUUUAUAAUCAC",
+      "target_pos": 5100,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5100",
+      "of_core_19nt": "CUCCUCUCGAUUUAUAAUC",
+      "OligoFormer_efficacy": 0.953795,
+      "OligoFormer_rank_in_gene": 8
+    },
+    {
+      "guide": "AUAGAUUUGAAUCUGCUGGUC",
+      "target_pos": 3808,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3808",
+      "of_core_19nt": "AUAGAUUUGAAUCUGCUGG",
+      "OligoFormer_efficacy": 0.951619,
+      "OligoFormer_rank_in_gene": 9
+    },
+    {
+      "guide": "UUCAACUGACUCCCUAAUUUC",
+      "target_pos": 5406,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5406",
+      "of_core_19nt": "UUCAACUGACUCCCUAAUU",
+      "OligoFormer_efficacy": 0.948422,
+      "OligoFormer_rank_in_gene": 10
+    },
+    {
+      "guide": "UCCUUUUUCCAUCCGUCUGCU",
+      "target_pos": 2006,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2006",
+      "of_core_19nt": "UCCUUUUUCCAUCCGUCUG",
+      "OligoFormer_efficacy": 0.943377,
+      "OligoFormer_rank_in_gene": 11
+    },
+    {
+      "guide": "UUCGCAGAAGUCCUGUGAUGU",
+      "target_pos": 272,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_272",
+      "of_core_19nt": "UUCGCAGAAGUCCUGUGAU",
+      "OligoFormer_efficacy": 0.940367,
+      "OligoFormer_rank_in_gene": 12
+    },
+    {
+      "guide": "AAAGCUGCUGGAUAAAUGAAG",
+      "target_pos": 68,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_68",
+      "of_core_19nt": "AAAGCUGCUGGAUAAAUGA",
+      "OligoFormer_efficacy": 0.939883,
+      "OligoFormer_rank_in_gene": 13
+    },
+    {
+      "guide": "UAUAUACAUUCAUUGCUUCUA",
+      "target_pos": 4488,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4488",
+      "of_core_19nt": "UAUAUACAUUCAUUGCUUC",
+      "OligoFormer_efficacy": 0.93684,
+      "OligoFormer_rank_in_gene": 14
+    },
+    {
+      "guide": "UGUGACCCUCUCCAAAGUCAU",
+      "target_pos": 2992,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2992",
+      "of_core_19nt": "UGUGACCCUCUCCAAAGUC",
+      "OligoFormer_efficacy": 0.928688,
+      "OligoFormer_rank_in_gene": 15
+    },
+    {
+      "guide": "UGACUUGGUUGAAACAAAGCU",
+      "target_pos": 3604,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3604",
+      "of_core_19nt": "UGACUUGGUUGAAACAAAG",
+      "OligoFormer_efficacy": 0.926932,
+      "OligoFormer_rank_in_gene": 16
+    },
+    {
+      "guide": "UUCAUGGUACAUCACUGACAA",
+      "target_pos": 1666,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1666",
+      "of_core_19nt": "UUCAUGGUACAUCACUGAC",
+      "OligoFormer_efficacy": 0.923241,
+      "OligoFormer_rank_in_gene": 17
+    },
+    {
+      "guide": "AAACAAGGUCAAAGGGACAAC",
+      "target_pos": 3672,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3672",
+      "of_core_19nt": "AAACAAGGUCAAAGGGACA",
+      "OligoFormer_efficacy": 0.92084,
+      "OligoFormer_rank_in_gene": 18
+    },
+    {
+      "guide": "UCUUGCAAAUUCUACCUUGGA",
+      "target_pos": 6426,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_6426",
+      "of_core_19nt": "UCUUGCAAAUUCUACCUUG",
+      "OligoFormer_efficacy": 0.91772,
+      "OligoFormer_rank_in_gene": 19
+    },
+    {
+      "guide": "AAGCUUCCCCAAAAGAAAUGC",
+      "target_pos": 6460,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_6460",
+      "of_core_19nt": "AAGCUUCCCCAAAAGAAAU",
+      "OligoFormer_efficacy": 0.915169,
+      "OligoFormer_rank_in_gene": 20
+    },
+    {
+      "guide": "CAGAAAUGUCAAUCCGCAGGA",
+      "target_pos": 374,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_374",
+      "of_core_19nt": "CAGAAAUGUCAAUCCGCAG",
+      "OligoFormer_efficacy": 0.914502,
+      "OligoFormer_rank_in_gene": 21
+    },
+    {
+      "guide": "AUGCAGAACAACCUUGUUGUU",
+      "target_pos": 6222,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_6222",
+      "of_core_19nt": "AUGCAGAACAACCUUGUUG",
+      "OligoFormer_efficacy": 0.91427,
+      "OligoFormer_rank_in_gene": 22
+    },
+    {
+      "guide": "AUUUUUAACUGAAUGAAUCUC",
+      "target_pos": 3774,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3774",
+      "of_core_19nt": "AUUUUUAACUGAAUGAAUC",
+      "OligoFormer_efficacy": 0.913742,
+      "OligoFormer_rank_in_gene": 23
+    },
+    {
+      "guide": "CAUUUGUCACACAAGGUUCUU",
+      "target_pos": 5746,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5746",
+      "of_core_19nt": "CAUUUGUCACACAAGGUUC",
+      "OligoFormer_efficacy": 0.91304,
+      "OligoFormer_rank_in_gene": 24
+    },
+    {
+      "guide": "UUUAUAAAAUUUUUUUCUGUA",
+      "target_pos": 5984,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5984",
+      "of_core_19nt": "UUUAUAAAAUUUUUUUCUG",
+      "OligoFormer_efficacy": 0.911745,
+      "OligoFormer_rank_in_gene": 25
+    },
+    {
+      "guide": "UAAUGCCCCAGGAUGUACAGA",
+      "target_pos": 3162,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3162",
+      "of_core_19nt": "UAAUGCCCCAGGAUGUACA",
+      "OligoFormer_efficacy": 0.909336,
+      "OligoFormer_rank_in_gene": 26
+    },
+    {
+      "guide": "AGACUUACUUUACCUUAACCA",
+      "target_pos": 6732,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_6732",
+      "of_core_19nt": "AGACUUACUUUACCUUAAC",
+      "OligoFormer_efficacy": 0.905573,
+      "OligoFormer_rank_in_gene": 27
+    },
+    {
+      "guide": "UAAGUAUUGUUAAUAUCAGUC",
+      "target_pos": 612,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_612",
+      "of_core_19nt": "UAAGUAUUGUUAAUAUCAG",
+      "OligoFormer_efficacy": 0.903806,
+      "OligoFormer_rank_in_gene": 28
+    },
+    {
+      "guide": "CUUCUUUAUAGUUCCCCACCA",
+      "target_pos": 3196,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3196",
+      "of_core_19nt": "CUUCUUUAUAGUUCCCCAC",
+      "OligoFormer_efficacy": 0.902042,
+      "OligoFormer_rank_in_gene": 29
+    },
+    {
+      "guide": "UAUACUCUAUUUAACUCUGAC",
+      "target_pos": 4692,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4692",
+      "of_core_19nt": "UAUACUCUAUUUAACUCUG",
+      "OligoFormer_efficacy": 0.895373,
+      "OligoFormer_rank_in_gene": 30
+    },
+    {
+      "guide": "AUCUCAAGAGCUCGAGAAAAA",
+      "target_pos": 340,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_340",
+      "of_core_19nt": "AUCUCAAGAGCUCGAGAAA",
+      "OligoFormer_efficacy": 0.894764,
+      "OligoFormer_rank_in_gene": 31
+    },
+    {
+      "guide": "AAGAGGAGUACAUACAGAGGA",
+      "target_pos": 4658,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4658",
+      "of_core_19nt": "AAGAGGAGUACAUACAGAG",
+      "OligoFormer_efficacy": 0.890097,
+      "OligoFormer_rank_in_gene": 32
+    },
+    {
+      "guide": "AAUAAAACCAAACUACAGUGA",
+      "target_pos": 3094,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3094",
+      "of_core_19nt": "AAUAAAACCAAACUACAGU",
+      "OligoFormer_efficacy": 0.888659,
+      "OligoFormer_rank_in_gene": 33
+    },
+    {
+      "guide": "UACAUGUAAUUCCAUAGACAG",
+      "target_pos": 3060,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3060",
+      "of_core_19nt": "UACAUGUAAUUCCAUAGAC",
+      "OligoFormer_efficacy": 0.887251,
+      "OligoFormer_rank_in_gene": 34
+    },
+    {
+      "guide": "UUGCAUUCUUGGACGAGGGGG",
+      "target_pos": 748,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_748",
+      "of_core_19nt": "UUGCAUUCUUGGACGAGGG",
+      "OligoFormer_efficacy": 0.887104,
+      "OligoFormer_rank_in_gene": 35
+    },
+    {
+      "guide": "CCCACCGAACUCAAAGAAGGC",
+      "target_pos": 1326,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1326",
+      "of_core_19nt": "CCCACCGAACUCAAAGAAG",
+      "OligoFormer_efficacy": 0.887026,
+      "OligoFormer_rank_in_gene": 36
+    },
+    {
+      "guide": "UCUUCAAUACAAAAUAGGGAU",
+      "target_pos": 4590,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4590",
+      "of_core_19nt": "UCUUCAAUACAAAAUAGGG",
+      "OligoFormer_efficacy": 0.884769,
+      "OligoFormer_rank_in_gene": 37
+    },
+    {
+      "guide": "UCAUACCACAGGUUUCCUGCU",
+      "target_pos": 3978,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3978",
+      "of_core_19nt": "UCAUACCACAGGUUUCCUG",
+      "OligoFormer_efficacy": 0.883137,
+      "OligoFormer_rank_in_gene": 38
+    },
+    {
+      "guide": "UCUGAGCUCCAUCAGCUUCCA",
+      "target_pos": 2686,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2686",
+      "of_core_19nt": "UCUGAGCUCCAUCAGCUUC",
+      "OligoFormer_efficacy": 0.881308,
+      "OligoFormer_rank_in_gene": 39
+    },
+    {
+      "guide": "AAAUCAAACAGAGGCCGCAUG",
+      "target_pos": 1496,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1496",
+      "of_core_19nt": "AAAUCAAACAGAGGCCGCA",
+      "OligoFormer_efficacy": 0.879987,
+      "OligoFormer_rank_in_gene": 40
+    },
+    {
+      "guide": "AACCACAGCAUUAAACAUUGA",
+      "target_pos": 3366,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3366",
+      "of_core_19nt": "AACCACAGCAUUAAACAUU",
+      "OligoFormer_efficacy": 0.878582,
+      "OligoFormer_rank_in_gene": 41
+    },
+    {
+      "guide": "UACCGUAUUUUUUAUGUGUAC",
+      "target_pos": 6698,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_6698",
+      "of_core_19nt": "UACCGUAUUUUUUAUGUGU",
+      "OligoFormer_efficacy": 0.877905,
+      "OligoFormer_rank_in_gene": 42
+    },
+    {
+      "guide": "GAUGUACUUCAUCACUAUCUC",
+      "target_pos": 918,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_918",
+      "of_core_19nt": "GAUGUACUUCAUCACUAUC",
+      "OligoFormer_efficacy": 0.877397,
+      "OligoFormer_rank_in_gene": 43
+    },
+    {
+      "guide": "AAGGGCAUUUUUCCCAUCGCU",
+      "target_pos": 2278,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2278",
+      "of_core_19nt": "AAGGGCAUUUUUCCCAUCG",
+      "OligoFormer_efficacy": 0.87457,
+      "OligoFormer_rank_in_gene": 44
+    },
+    {
+      "guide": "CAAACUGAGCAGAGUCUUCAG",
+      "target_pos": 1530,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1530",
+      "of_core_19nt": "CAAACUGAGCAGAGUCUUC",
+      "OligoFormer_efficacy": 0.871894,
+      "OligoFormer_rank_in_gene": 45
+    },
+    {
+      "guide": "AGAAGAGGAGAAAAAAAUGAC",
+      "target_pos": 4522,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4522",
+      "of_core_19nt": "AGAAGAGGAGAAAAAAAUG",
+      "OligoFormer_efficacy": 0.871608,
+      "OligoFormer_rank_in_gene": 46
+    },
+    {
+      "guide": "ACAUUUUUCAAAUACUCUGUG",
+      "target_pos": 4284,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4284",
+      "of_core_19nt": "ACAUUUUUCAAAUACUCUG",
+      "OligoFormer_efficacy": 0.869909,
+      "OligoFormer_rank_in_gene": 47
+    },
+    {
+      "guide": "AGGUUCUCAGAUGUUCUUCUC",
+      "target_pos": 4760,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4760",
+      "of_core_19nt": "AGGUUCUCAGAUGUUCUUC",
+      "OligoFormer_efficacy": 0.868551,
+      "OligoFormer_rank_in_gene": 48
+    },
+    {
+      "guide": "GAAUUUUCUUGAUUGAGCGAG",
+      "target_pos": 6290,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_6290",
+      "of_core_19nt": "GAAUUUUCUUGAUUGAGCG",
+      "OligoFormer_efficacy": 0.865354,
+      "OligoFormer_rank_in_gene": 49
+    },
+    {
+      "guide": "CAUCGACCCCAAUACAGGUCC",
+      "target_pos": 5712,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5712",
+      "of_core_19nt": "CAUCGACCCCAAUACAGGU",
+      "OligoFormer_efficacy": 0.862995,
+      "OligoFormer_rank_in_gene": 50
+    },
+    {
+      "guide": "AGUCACCGAAAUGUUCACUUC",
+      "target_pos": 2482,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2482",
+      "of_core_19nt": "AGUCACCGAAAUGUUCACU",
+      "OligoFormer_efficacy": 0.85754,
+      "OligoFormer_rank_in_gene": 51
+    },
+    {
+      "guide": "AAUGAUUCACUGGGUAAGACU",
+      "target_pos": 6052,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_6052",
+      "of_core_19nt": "AAUGAUUCACUGGGUAAGA",
+      "OligoFormer_efficacy": 0.856127,
+      "OligoFormer_rank_in_gene": 52
+    },
+    {
+      "guide": "UGAAAUGAGCUAUCUGGAGGG",
+      "target_pos": 6392,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_6392",
+      "of_core_19nt": "UGAAAUGAGCUAUCUGGAG",
+      "OligoFormer_efficacy": 0.854966,
+      "OligoFormer_rank_in_gene": 53
+    },
+    {
+      "guide": "UUAAACUCACAGGUGGGCCAA",
+      "target_pos": 2958,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2958",
+      "of_core_19nt": "UUAAACUCACAGGUGGGCC",
+      "OligoFormer_efficacy": 0.854859,
+      "OligoFormer_rank_in_gene": 54
+    },
+    {
+      "guide": "UGUCCUUCUGAUAGGAAGGGC",
+      "target_pos": 2856,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2856",
+      "of_core_19nt": "UGUCCUUCUGAUAGGAAGG",
+      "OligoFormer_efficacy": 0.851308,
+      "OligoFormer_rank_in_gene": 55
+    },
+    {
+      "guide": "AUCAGCCACCUCUUAAAAGUA",
+      "target_pos": 6664,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_6664",
+      "of_core_19nt": "AUCAGCCACCUCUUAAAAG",
+      "OligoFormer_efficacy": 0.848101,
+      "OligoFormer_rank_in_gene": 56
+    },
+    {
+      "guide": "AUGCAAGUGAAUGAACACCUU",
+      "target_pos": 2074,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2074",
+      "of_core_19nt": "AUGCAAGUGAAUGAACACC",
+      "OligoFormer_efficacy": 0.847941,
+      "OligoFormer_rank_in_gene": 57
+    },
+    {
+      "guide": "AUAAGGCAACGAUCCCAUCAA",
+      "target_pos": 510,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_510",
+      "of_core_19nt": "AUAAGGCAACGAUCCCAUC",
+      "OligoFormer_efficacy": 0.846555,
+      "OligoFormer_rank_in_gene": 58
+    },
+    {
+      "guide": "ACAUUUAGAAACAGAUGUCCC",
+      "target_pos": 5950,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5950",
+      "of_core_19nt": "ACAUUUAGAAACAGAUGUC",
+      "OligoFormer_efficacy": 0.845524,
+      "OligoFormer_rank_in_gene": 59
+    },
+    {
+      "guide": "AACUGACUCCAUUAAAAUGAU",
+      "target_pos": 4148,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4148",
+      "of_core_19nt": "AACUGACUCCAUUAAAAUG",
+      "OligoFormer_efficacy": 0.845161,
+      "OligoFormer_rank_in_gene": 60
+    },
+    {
+      "guide": "CUUGAAGUUAUUUUUCUGGGG",
+      "target_pos": 6188,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_6188",
+      "of_core_19nt": "CUUGAAGUUAUUUUUCUGG",
+      "OligoFormer_efficacy": 0.844147,
+      "OligoFormer_rank_in_gene": 61
+    },
+    {
+      "guide": "UAACUCAAAACAAAAGCAAAC",
+      "target_pos": 6528,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_6528",
+      "of_core_19nt": "UAACUCAAAACAAAAGCAA",
+      "OligoFormer_efficacy": 0.838012,
+      "OligoFormer_rank_in_gene": 62
+    },
+    {
+      "guide": "UGACAAUGUAAACCUUUCAUA",
+      "target_pos": 4080,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4080",
+      "of_core_19nt": "UGACAAUGUAAACCUUUCA",
+      "OligoFormer_efficacy": 0.836755,
+      "OligoFormer_rank_in_gene": 63
+    },
+    {
+      "guide": "GUAAGCACCACUGCAUUUCAG",
+      "target_pos": 3944,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3944",
+      "of_core_19nt": "GUAAGCACCACUGCAUUUC",
+      "OligoFormer_efficacy": 0.829514,
+      "OligoFormer_rank_in_gene": 64
+    },
+    {
+      "guide": "GAAUCAAGAGAUAAAAAUCUC",
+      "target_pos": 3502,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3502",
+      "of_core_19nt": "GAAUCAAGAGAUAAAAAUC",
+      "OligoFormer_efficacy": 0.828221,
+      "OligoFormer_rank_in_gene": 65
+    },
+    {
+      "guide": "GUAUUUCGAGCCUUUCCUGUU",
+      "target_pos": 5372,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5372",
+      "of_core_19nt": "GUAUUUCGAGCCUUUCCUG",
+      "OligoFormer_efficacy": 0.825526,
+      "OligoFormer_rank_in_gene": 66
+    },
+    {
+      "guide": "AUGCUCUGGGUAACUCUAGCC",
+      "target_pos": 2516,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2516",
+      "of_core_19nt": "AUGCUCUGGGUAACUCUAG",
+      "OligoFormer_efficacy": 0.824322,
+      "OligoFormer_rank_in_gene": 67
+    },
+    {
+      "guide": "AACGUCCACGUUCUUCAUUGU",
+      "target_pos": 4216,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4216",
+      "of_core_19nt": "AACGUCCACGUUCUUCAUU",
+      "OligoFormer_efficacy": 0.823544,
+      "OligoFormer_rank_in_gene": 68
+    },
+    {
+      "guide": "ACAAUAAACAAUUCUGUUGAC",
+      "target_pos": 3638,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3638",
+      "of_core_19nt": "ACAAUAAACAAUUCUGUUG",
+      "OligoFormer_efficacy": 0.817781,
+      "OligoFormer_rank_in_gene": 69
+    },
+    {
+      "guide": "UUGUAUAAAUUGCUAAAAUGC",
+      "target_pos": 2346,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2346",
+      "of_core_19nt": "UUGUAUAAAUUGCUAAAAU",
+      "OligoFormer_efficacy": 0.816923,
+      "OligoFormer_rank_in_gene": 70
+    },
+    {
+      "guide": "AGGGCUUAUCUCACCUUCUCA",
+      "target_pos": 3536,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3536",
+      "of_core_19nt": "AGGGCUUAUCUCACCUUCU",
+      "OligoFormer_efficacy": 0.81522,
+      "OligoFormer_rank_in_gene": 71
+    },
+    {
+      "guide": "AGUUUAUUUGCUGAAGAUGUC",
+      "target_pos": 3230,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3230",
+      "of_core_19nt": "AGUUUAUUUGCUGAAGAUG",
+      "OligoFormer_efficacy": 0.81478,
+      "OligoFormer_rank_in_gene": 72
+    },
+    {
+      "guide": "AACAUGCAUGUAAUCCUGAAU",
+      "target_pos": 3740,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3740",
+      "of_core_19nt": "AACAUGCAUGUAAUCCUGA",
+      "OligoFormer_efficacy": 0.812317,
+      "OligoFormer_rank_in_gene": 73
+    },
+    {
+      "guide": "AUCUACACUACAGUCUUAUUU",
+      "target_pos": 6324,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_6324",
+      "of_core_19nt": "AUCUACACUACAGUCUUAU",
+      "OligoFormer_efficacy": 0.809384,
+      "OligoFormer_rank_in_gene": 74
+    },
+    {
+      "guide": "UCCAAGGUCAUGGUUGUCCAA",
+      "target_pos": 6086,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_6086",
+      "of_core_19nt": "UCCAAGGUCAUGGUUGUCC",
+      "OligoFormer_efficacy": 0.80395,
+      "OligoFormer_rank_in_gene": 75
+    },
+    {
+      "guide": "GGCAUGAAUCUCUAUCCACGG",
+      "target_pos": 204,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_204",
+      "of_core_19nt": "GGCAUGAAUCUCUAUCCAC",
+      "OligoFormer_efficacy": 0.803528,
+      "OligoFormer_rank_in_gene": 76
+    },
+    {
+      "guide": "UACUGCUUUAGUGAACCUUUU",
+      "target_pos": 1632,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1632",
+      "of_core_19nt": "UACUGCUUUAGUGAACCUU",
+      "OligoFormer_efficacy": 0.801599,
+      "OligoFormer_rank_in_gene": 77
+    },
+    {
+      "guide": "CACCAGUGUUCCCAUCUUCUG",
+      "target_pos": 6256,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_6256",
+      "of_core_19nt": "CACCAGUGUUCCCAUCUUC",
+      "OligoFormer_efficacy": 0.800559,
+      "OligoFormer_rank_in_gene": 78
+    },
+    {
+      "guide": "AUGAGAUGCAGGAAAUUUUUA",
+      "target_pos": 680,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_680",
+      "of_core_19nt": "AUGAGAUGCAGGAAAUUUU",
+      "OligoFormer_efficacy": 0.796819,
+      "OligoFormer_rank_in_gene": 79
+    },
+    {
+      "guide": "CCUCUGUUAAUAUCACAGCCC",
+      "target_pos": 2108,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2108",
+      "of_core_19nt": "CCUCUGUUAAUAUCACAGC",
+      "OligoFormer_efficacy": 0.793117,
+      "OligoFormer_rank_in_gene": 80
+    },
+    {
+      "guide": "AAUAAGGAAAAUGCAACAUCA",
+      "target_pos": 4454,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4454",
+      "of_core_19nt": "AAUAAGGAAAAUGCAACAU",
+      "OligoFormer_efficacy": 0.789278,
+      "OligoFormer_rank_in_gene": 81
+    },
+    {
+      "guide": "AGUCUAAAAACAGCCACUGCC",
+      "target_pos": 5304,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5304",
+      "of_core_19nt": "AGUCUAAAAACAGCCACUG",
+      "OligoFormer_efficacy": 0.788263,
+      "OligoFormer_rank_in_gene": 82
+    },
+    {
+      "guide": "ACAGGCACAGAACAUCCAGGU",
+      "target_pos": 1938,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1938",
+      "of_core_19nt": "ACAGGCACAGAACAUCCAG",
+      "OligoFormer_efficacy": 0.788238,
+      "OligoFormer_rank_in_gene": 83
+    },
+    {
+      "guide": "CUUUGCAUCCAGUGAGAUGCA",
+      "target_pos": 6120,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_6120",
+      "of_core_19nt": "CUUUGCAUCCAGUGAGAUG",
+      "OligoFormer_efficacy": 0.787288,
+      "OligoFormer_rank_in_gene": 84
+    },
+    {
+      "guide": "CAUUUAUUGUUUAAAUACCCA",
+      "target_pos": 5882,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5882",
+      "of_core_19nt": "CAUUUAUUGUUUAAAUACC",
+      "OligoFormer_efficacy": 0.779979,
+      "OligoFormer_rank_in_gene": 85
+    },
+    {
+      "guide": "GGAUUUCCAGAUCGAUUCCCA",
+      "target_pos": 408,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_408",
+      "of_core_19nt": "GGAUUUCCAGAUCGAUUCC",
+      "OligoFormer_efficacy": 0.775413,
+      "OligoFormer_rank_in_gene": 86
+    },
+    {
+      "guide": "GUUGUCAUUAAAUAUCCUGUU",
+      "target_pos": 5916,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5916",
+      "of_core_19nt": "GUUGUCAUUAAAUAUCCUG",
+      "OligoFormer_efficacy": 0.774934,
+      "OligoFormer_rank_in_gene": 87
+    },
+    {
+      "guide": "UGUGUGUCUGUCUGUGUGUGU",
+      "target_pos": 1734,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1734",
+      "of_core_19nt": "UGUGUGUCUGUCUGUGUGU",
+      "OligoFormer_efficacy": 0.771827,
+      "OligoFormer_rank_in_gene": 88
+    },
+    {
+      "guide": "AUUGGUAGCUUAAAAAAAUAC",
+      "target_pos": 2312,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2312",
+      "of_core_19nt": "AUUGGUAGCUUAAAAAAAU",
+      "OligoFormer_efficacy": 0.771712,
+      "OligoFormer_rank_in_gene": 89
+    },
+    {
+      "guide": "CAACAACAAAAGACAAAACAG",
+      "target_pos": 4250,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4250",
+      "of_core_19nt": "CAACAACAAAAGACAAAAC",
+      "OligoFormer_efficacy": 0.770492,
+      "OligoFormer_rank_in_gene": 90
+    },
+    {
+      "guide": "GUAGGUGUACAUUACUAACUA",
+      "target_pos": 5338,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5338",
+      "of_core_19nt": "GUAGGUGUACAUUACUAAC",
+      "OligoFormer_efficacy": 0.769457,
+      "OligoFormer_rank_in_gene": 91
+    },
+    {
+      "guide": "UGCGGAAUUGCCCAGGGACGA",
+      "target_pos": 3706,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3706",
+      "of_core_19nt": "UGCGGAAUUGCCCAGGGAC",
+      "OligoFormer_efficacy": 0.769368,
+      "OligoFormer_rank_in_gene": 92
+    },
+    {
+      "guide": "CUGUGGAGAGAAUGUUGGCGU",
+      "target_pos": 4964,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4964",
+      "of_core_19nt": "CUGUGGAGAGAAUGUUGGC",
+      "OligoFormer_efficacy": 0.768283,
+      "OligoFormer_rank_in_gene": 93
+    },
+    {
+      "guide": "GAGACUAUUUGCAAUUCUGUU",
+      "target_pos": 5202,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5202",
+      "of_core_19nt": "GAGACUAUUUGCAAUUCUG",
+      "OligoFormer_efficacy": 0.768037,
+      "OligoFormer_rank_in_gene": 94
+    },
+    {
+      "guide": "UGACAUCCAGGUUUUUCUUAG",
+      "target_pos": 3570,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3570",
+      "of_core_19nt": "UGACAUCCAGGUUUUUCUU",
+      "OligoFormer_efficacy": 0.766688,
+      "OligoFormer_rank_in_gene": 95
+    },
+    {
+      "guide": "AUCCAAAUUGAAUAACAAUAA",
+      "target_pos": 5542,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5542",
+      "of_core_19nt": "AUCCAAAUUGAAUAACAAU",
+      "OligoFormer_efficacy": 0.764553,
+      "OligoFormer_rank_in_gene": 96
+    },
+    {
+      "guide": "AACAAAAGCUUUCAAUACAAA",
+      "target_pos": 6596,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_6596",
+      "of_core_19nt": "AACAAAAGCUUUCAAUACA",
+      "OligoFormer_efficacy": 0.762904,
+      "OligoFormer_rank_in_gene": 97
+    },
+    {
+      "guide": "CAAGUGCAGCCACAAUACUGU",
+      "target_pos": 4420,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4420",
+      "of_core_19nt": "CAAGUGCAGCCACAAUACU",
+      "OligoFormer_efficacy": 0.76125,
+      "OligoFormer_rank_in_gene": 98
+    },
+    {
+      "guide": "GAGCCAUGGAAGGUAAAAGUA",
+      "target_pos": 6630,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_6630",
+      "of_core_19nt": "GAGCCAUGGAAGGUAAAAG",
+      "OligoFormer_efficacy": 0.757472,
+      "OligoFormer_rank_in_gene": 99
+    },
+    {
+      "guide": "CGGUCUCCUAAAAGCAGGCAC",
+      "target_pos": 2550,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2550",
+      "of_core_19nt": "CGGUCUCCUAAAAGCAGGC",
+      "OligoFormer_efficacy": 0.741696,
+      "OligoFormer_rank_in_gene": 100
+    },
+    {
+      "guide": "CUGGAGGUGAAAGCUAGACAU",
+      "target_pos": 5168,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5168",
+      "of_core_19nt": "CUGGAGGUGAAAGCUAGAC",
+      "OligoFormer_efficacy": 0.741174,
+      "OligoFormer_rank_in_gene": 101
+    },
+    {
+      "guide": "AGGUAACAAAACCCCACAGCA",
+      "target_pos": 4352,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4352",
+      "of_core_19nt": "AGGUAACAAAACCCCACAG",
+      "OligoFormer_efficacy": 0.737706,
+      "OligoFormer_rank_in_gene": 102
+    },
+    {
+      "guide": "GCUUGGAGGAUCUUACCACGU",
+      "target_pos": 4182,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4182",
+      "of_core_19nt": "GCUUGGAGGAUCUUACCAC",
+      "OligoFormer_efficacy": 0.737145,
+      "OligoFormer_rank_in_gene": 103
+    },
+    {
+      "guide": "GACAGCCAUGAGAAAGCCCCC",
+      "target_pos": 3910,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3910",
+      "of_core_19nt": "GACAGCCAUGAGAAAGCCC",
+      "OligoFormer_efficacy": 0.736797,
+      "OligoFormer_rank_in_gene": 104
+    },
+    {
+      "guide": "UAUACACAAUCAGGGCUUAAG",
+      "target_pos": 2380,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2380",
+      "of_core_19nt": "UAUACACAAUCAGGGCUUA",
+      "OligoFormer_efficacy": 0.735253,
+      "OligoFormer_rank_in_gene": 105
+    },
+    {
+      "guide": "UCACCUUUGCUCACAAAUAGU",
+      "target_pos": 3468,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3468",
+      "of_core_19nt": "UCACCUUUGCUCACAAAUA",
+      "OligoFormer_efficacy": 0.732231,
+      "OligoFormer_rank_in_gene": 106
+    },
+    {
+      "guide": "GCCAAAUCUUCGGAGACGACC",
+      "target_pos": 4862,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4862",
+      "of_core_19nt": "GCCAAAUCUUCGGAGACGA",
+      "OligoFormer_efficacy": 0.730703,
+      "OligoFormer_rank_in_gene": 107
+    },
+    {
+      "guide": "GAUCCAGGUGUGCAGGUGCCG",
+      "target_pos": 1428,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1428",
+      "of_core_19nt": "GAUCCAGGUGUGCAGGUGC",
+      "OligoFormer_efficacy": 0.723723,
+      "OligoFormer_rank_in_gene": 108
+    },
+    {
+      "guide": "AUGUUGUAUUUUUUAAGUACA",
+      "target_pos": 578,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_578",
+      "of_core_19nt": "AUGUUGUAUUUUUUAAGUA",
+      "OligoFormer_efficacy": 0.717566,
+      "OligoFormer_rank_in_gene": 109
+    },
+    {
+      "guide": "GCGGAACACUUGAUUCUGGUG",
+      "target_pos": 714,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_714",
+      "of_core_19nt": "GCGGAACACUUGAUUCUGG",
+      "OligoFormer_efficacy": 0.71526,
+      "OligoFormer_rank_in_gene": 110
+    },
+    {
+      "guide": "ACAUCUCCCGGUUGACGCUCU",
+      "target_pos": 1360,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1360",
+      "of_core_19nt": "ACAUCUCCCGGUUGACGCU",
+      "OligoFormer_efficacy": 0.711682,
+      "OligoFormer_rank_in_gene": 111
+    },
+    {
+      "guide": "UCAAGUUUCCUUUUUGUAAAA",
+      "target_pos": 544,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_544",
+      "of_core_19nt": "UCAAGUUUCCUUUUUGUAA",
+      "OligoFormer_efficacy": 0.706016,
+      "OligoFormer_rank_in_gene": 112
+    },
+    {
+      "guide": "GAAGGCCACAUCUGAACACAG",
+      "target_pos": 4998,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4998",
+      "of_core_19nt": "GAAGGCCACAUCUGAACAC",
+      "OligoFormer_efficacy": 0.702591,
+      "OligoFormer_rank_in_gene": 113
+    },
+    {
+      "guide": "UCUGUUCCCUGAGGCCCGCCG",
+      "target_pos": 4012,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4012",
+      "of_core_19nt": "UCUGUUCCCUGAGGCCCGC",
+      "OligoFormer_efficacy": 0.700247,
+      "OligoFormer_rank_in_gene": 114
+    },
+    {
+      "guide": "CAAAAGACACCACAGAAUAAG",
+      "target_pos": 5440,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5440",
+      "of_core_19nt": "CAAAAGACACCACAGAAUA",
+      "OligoFormer_efficacy": 0.696434,
+      "OligoFormer_rank_in_gene": 115
+    },
+    {
+      "guide": "AAAUCUUUUUUUCUUAAUAAU",
+      "target_pos": 1836,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1836",
+      "of_core_19nt": "AAAUCUUUUUUUCUUAAUA",
+      "OligoFormer_efficacy": 0.695048,
+      "OligoFormer_rank_in_gene": 116
+    },
+    {
+      "guide": "UCCAAGCUGGGACACAGGCAG",
+      "target_pos": 2584,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2584",
+      "of_core_19nt": "UCCAAGCUGGGACACAGGC",
+      "OligoFormer_efficacy": 0.691639,
+      "OligoFormer_rank_in_gene": 117
+    },
+    {
+      "guide": "CAGUUCACCCCGUCCCUGAAG",
+      "target_pos": 1292,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1292",
+      "of_core_19nt": "CAGUUCACCCCGUCCCUGA",
+      "OligoFormer_efficacy": 0.691393,
+      "OligoFormer_rank_in_gene": 118
+    },
+    {
+      "guide": "GUGAGUCAUAUGCAAAGAGUC",
+      "target_pos": 2176,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2176",
+      "of_core_19nt": "GUGAGUCAUAUGCAAAGAG",
+      "OligoFormer_efficacy": 0.689102,
+      "OligoFormer_rank_in_gene": 119
+    },
+    {
+      "guide": "AGCAGCCAGAAAGCCAGCUUC",
+      "target_pos": 2040,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2040",
+      "of_core_19nt": "AGCAGCCAGAAAGCCAGCU",
+      "OligoFormer_efficacy": 0.688323,
+      "OligoFormer_rank_in_gene": 120
+    },
+    {
+      "guide": "GUAUUUGUGCAGCGAGGGACU",
+      "target_pos": 4794,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4794",
+      "of_core_19nt": "GUAUUUGUGCAGCGAGGGA",
+      "OligoFormer_efficacy": 0.687827,
+      "OligoFormer_rank_in_gene": 121
+    },
+    {
+      "guide": "CUCCCCAGGAGAGAGACAGGG",
+      "target_pos": 170,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_170",
+      "of_core_19nt": "CUCCCCAGGAGAGAGACAG",
+      "OligoFormer_efficacy": 0.686847,
+      "OligoFormer_rank_in_gene": 122
+    },
+    {
+      "guide": "CUAAAUACAAUUAAAAACAAA",
+      "target_pos": 3434,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3434",
+      "of_core_19nt": "CUAAAUACAAUUAAAAACA",
+      "OligoFormer_efficacy": 0.683311,
+      "OligoFormer_rank_in_gene": 123
+    },
+    {
+      "guide": "GCAAUUUACACGCGCGCACAC",
+      "target_pos": 238,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_238",
+      "of_core_19nt": "GCAAUUUACACGCGCGCAC",
+      "OligoFormer_efficacy": 0.683164,
+      "OligoFormer_rank_in_gene": 124
+    },
+    {
+      "guide": "CACACUGCCCUGUUGAUCAUC",
+      "target_pos": 2652,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2652",
+      "of_core_19nt": "CACACUGCCCUGUUGAUCA",
+      "OligoFormer_efficacy": 0.682498,
+      "OligoFormer_rank_in_gene": 125
+    },
+    {
+      "guide": "CUUAAAAAGUGUGUAACCACA",
+      "target_pos": 5474,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5474",
+      "of_core_19nt": "CUUAAAAAGUGUGUAACCA",
+      "OligoFormer_efficacy": 0.680888,
+      "OligoFormer_rank_in_gene": 126
+    },
+    {
+      "guide": "CGGAUCUUUAUUUCAUGAGGC",
+      "target_pos": 646,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_646",
+      "of_core_19nt": "CGGAUCUUUAUUUCAUGAG",
+      "OligoFormer_efficacy": 0.678592,
+      "OligoFormer_rank_in_gene": 127
+    },
+    {
+      "guide": "GAUAUUUCCCUUUGGCAGUAA",
+      "target_pos": 1802,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1802",
+      "of_core_19nt": "GAUAUUUCCCUUUGGCAGU",
+      "OligoFormer_efficacy": 0.675701,
+      "OligoFormer_rank_in_gene": 128
+    },
+    {
+      "guide": "UCCGGCCAACAACAUGGAAAG",
+      "target_pos": 1972,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1972",
+      "of_core_19nt": "UCCGGCCAACAACAUGGAA",
+      "OligoFormer_efficacy": 0.6722,
+      "OligoFormer_rank_in_gene": 129
+    },
+    {
+      "guide": "ACCUUCAUAAGCUUGACAAUG",
+      "target_pos": 5508,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5508",
+      "of_core_19nt": "ACCUUCAUAAGCUUGACAA",
+      "OligoFormer_efficacy": 0.672185,
+      "OligoFormer_rank_in_gene": 130
+    },
+    {
+      "guide": "UCCUCCCUCCCACCCCUCCAA",
+      "target_pos": 5610,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5610",
+      "of_core_19nt": "UCCUCCCUCCCACCCCUCC",
+      "OligoFormer_efficacy": 0.6669,
+      "OligoFormer_rank_in_gene": 131
+    },
+    {
+      "guide": "GCAUGUAUUUUUUUAAAGCAG",
+      "target_pos": 3400,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3400",
+      "of_core_19nt": "GCAUGUAUUUUUUUAAAGC",
+      "OligoFormer_efficacy": 0.6653,
+      "OligoFormer_rank_in_gene": 132
+    },
+    {
+      "guide": "GUGUUAUUUUUUCUUAAACAG",
+      "target_pos": 1700,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1700",
+      "of_core_19nt": "GUGUUAUUUUUUCUUAAAC",
+      "OligoFormer_efficacy": 0.663574,
+      "OligoFormer_rank_in_gene": 133
+    },
+    {
+      "guide": "AAUUGAGGUGCUUCCUUAAUU",
+      "target_pos": 4930,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4930",
+      "of_core_19nt": "AAUUGAGGUGCUUCCUUAA",
+      "OligoFormer_efficacy": 0.650874,
+      "OligoFormer_rank_in_gene": 134
+    },
+    {
+      "guide": "GAAAAGCAACGGGGGCCAACG",
+      "target_pos": 850,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_850",
+      "of_core_19nt": "GAAAAGCAACGGGGGCCAA",
+      "OligoFormer_efficacy": 0.647321,
+      "OligoFormer_rank_in_gene": 135
+    },
+    {
+      "guide": "UCCUUCCCUCUACAGUGAUAC",
+      "target_pos": 2822,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2822",
+      "of_core_19nt": "UCCUUCCCUCUACAGUGAU",
+      "OligoFormer_efficacy": 0.644849,
+      "OligoFormer_rank_in_gene": 136
+    },
+    {
+      "guide": "AGGGAGGCAUGGACUUCCCCC",
+      "target_pos": 2142,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2142",
+      "of_core_19nt": "AGGGAGGCAUGGACUUCCC",
+      "OligoFormer_efficacy": 0.641662,
+      "OligoFormer_rank_in_gene": 137
+    },
+    {
+      "guide": "GCUGCACUUUGAGCCAUGCUG",
+      "target_pos": 5814,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5814",
+      "of_core_19nt": "GCUGCACUUUGAGCCAUGC",
+      "OligoFormer_efficacy": 0.637879,
+      "OligoFormer_rank_in_gene": 138
+    },
+    {
+      "guide": "CAUGACACCUCACUUCAAUGC",
+      "target_pos": 3026,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3026",
+      "of_core_19nt": "CAUGACACCUCACUUCAAU",
+      "OligoFormer_efficacy": 0.633586,
+      "OligoFormer_rank_in_gene": 139
+    },
+    {
+      "guide": "CGGCGGCAGAUGAAUUACAAU",
+      "target_pos": 306,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_306",
+      "of_core_19nt": "CGGCGGCAGAUGAAUUACA",
+      "OligoFormer_efficacy": 0.633202,
+      "OligoFormer_rank_in_gene": 140
+    },
+    {
+      "guide": "CCACGUAAAGCAACUCUCUAA",
+      "target_pos": 3842,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3842",
+      "of_core_19nt": "CCACGUAAAGCAACUCUCU",
+      "OligoFormer_efficacy": 0.627312,
+      "OligoFormer_rank_in_gene": 141
+    },
+    {
+      "guide": "ACACCCCUCUACUGCUCUUUC",
+      "target_pos": 2720,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2720",
+      "of_core_19nt": "ACACCCCUCUACUGCUCUU",
+      "OligoFormer_efficacy": 0.62614,
+      "OligoFormer_rank_in_gene": 142
+    },
+    {
+      "guide": "ACGUGCCAUGUGCUACAGCCA",
+      "target_pos": 2924,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2924",
+      "of_core_19nt": "ACGUGCCAUGUGCUACAGC",
+      "OligoFormer_efficacy": 0.614276,
+      "OligoFormer_rank_in_gene": 143
+    },
+    {
+      "guide": "GUCAUCCACAGGGCGAUGUUG",
+      "target_pos": 1394,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1394",
+      "of_core_19nt": "GUCAUCCACAGGGCGAUGU",
+      "OligoFormer_efficacy": 0.611974,
+      "OligoFormer_rank_in_gene": 144
+    },
+    {
+      "guide": "CGUUUUGCCUGAAGACUGUUA",
+      "target_pos": 1768,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1768",
+      "of_core_19nt": "CGUUUUGCCUGAAGACUGU",
+      "OligoFormer_efficacy": 0.610735,
+      "OligoFormer_rank_in_gene": 145
+    },
+    {
+      "guide": "GAAAUCUCAGUGGGUACUAGG",
+      "target_pos": 2244,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2244",
+      "of_core_19nt": "GAAAUCUCAGUGGGUACUA",
+      "OligoFormer_efficacy": 0.607283,
+      "OligoFormer_rank_in_gene": 146
+    },
+    {
+      "guide": "GCUGAUUCUAAACUGGAAGAA",
+      "target_pos": 3264,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3264",
+      "of_core_19nt": "GCUGAUUCUAAACUGGAAG",
+      "OligoFormer_efficacy": 0.605591,
+      "OligoFormer_rank_in_gene": 147
+    },
+    {
+      "guide": "UGGAAUUAAUUAGAGUUUAAG",
+      "target_pos": 5270,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5270",
+      "of_core_19nt": "UGGAAUUAAUUAGAGUUUA",
+      "OligoFormer_efficacy": 0.604313,
+      "OligoFormer_rank_in_gene": 148
+    },
+    {
+      "guide": "CCAACUGCAAAAUAAUUAGAU",
+      "target_pos": 4556,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4556",
+      "of_core_19nt": "CCAACUGCAAAAUAAUUAG",
+      "OligoFormer_efficacy": 0.603514,
+      "OligoFormer_rank_in_gene": 149
+    },
+    {
+      "guide": "CUUAAAAAUUAGAAUCAUUCA",
+      "target_pos": 4046,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4046",
+      "of_core_19nt": "CUUAAAAAUUAGAAUCAUU",
+      "OligoFormer_efficacy": 0.60164,
+      "OligoFormer_rank_in_gene": 150
+    },
+    {
+      "guide": "CAAAGUGCCAUUAUAGCUAAU",
+      "target_pos": 6766,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_6766",
+      "of_core_19nt": "CAAAGUGCCAUUAUAGCUA",
+      "OligoFormer_efficacy": 0.601346,
+      "OligoFormer_rank_in_gene": 151
+    },
+    {
+      "guide": "GGUCGUGGCUCCCAUGCUCCA",
+      "target_pos": 2788,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2788",
+      "of_core_19nt": "GGUCGUGGCUCCCAUGCUC",
+      "OligoFormer_efficacy": 0.600332,
+      "OligoFormer_rank_in_gene": 152
+    },
+    {
+      "guide": "CAGGAGUCGCGGGGAGAGGGA",
+      "target_pos": 442,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_442",
+      "of_core_19nt": "CAGGAGUCGCGGGGAGAGG",
+      "OligoFormer_efficacy": 0.596873,
+      "OligoFormer_rank_in_gene": 153
+    },
+    {
+      "guide": "GGGCAGGCAUGUUGACUUCAC",
+      "target_pos": 1598,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1598",
+      "of_core_19nt": "GGGCAGGCAUGUUGACUUC",
+      "OligoFormer_efficacy": 0.596014,
+      "OligoFormer_rank_in_gene": 154
+    },
+    {
+      "guide": "UCCCAUAAUAAUUUAAAAAAA",
+      "target_pos": 5576,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5576",
+      "of_core_19nt": "UCCCAUAAUAAUUUAAAAA",
+      "OligoFormer_efficacy": 0.594751,
+      "OligoFormer_rank_in_gene": 155
+    },
+    {
+      "guide": "CUAAAGGUCGUACCACAAACU",
+      "target_pos": 5780,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5780",
+      "of_core_19nt": "CUAAAGGUCGUACCACAAA",
+      "OligoFormer_efficacy": 0.589196,
+      "OligoFormer_rank_in_gene": 156
+    },
+    {
+      "guide": "GGAUUCUGUUUCUUACUCAGA",
+      "target_pos": 2448,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2448",
+      "of_core_19nt": "GGAUUCUGUUUCUUACUCA",
+      "OligoFormer_efficacy": 0.583833,
+      "OligoFormer_rank_in_gene": 157
+    },
+    {
+      "guide": "GACAGGAGUUUUGAUGGGACU",
+      "target_pos": 1870,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1870",
+      "of_core_19nt": "GACAGGAGUUUUGAUGGGA",
+      "OligoFormer_efficacy": 0.578285,
+      "OligoFormer_rank_in_gene": 158
+    },
+    {
+      "guide": "CCUGUUCUCCCAGCGUGCGCC",
+      "target_pos": 884,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_884",
+      "of_core_19nt": "CCUGUUCUCCCAGCGUGCG",
+      "OligoFormer_efficacy": 0.5759,
+      "OligoFormer_rank_in_gene": 159
+    },
+    {
+      "guide": "GUUCCACAAAGGCAUCCCAGC",
+      "target_pos": 1462,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1462",
+      "of_core_19nt": "GUUCCACAAAGGCAUCCCA",
+      "OligoFormer_efficacy": 0.575527,
+      "OligoFormer_rank_in_gene": 160
+    },
+    {
+      "guide": "CCCACUCGUAGCCCCUCUGCG",
+      "target_pos": 952,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_952",
+      "of_core_19nt": "CCCACUCGUAGCCCCUCUG",
+      "OligoFormer_efficacy": 0.568864,
+      "OligoFormer_rank_in_gene": 161
+    },
+    {
+      "guide": "GAAGGAGCCGGGGACGGAGGC",
+      "target_pos": 136,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_136",
+      "of_core_19nt": "GAAGGAGCCGGGGACGGAG",
+      "OligoFormer_efficacy": 0.561618,
+      "OligoFormer_rank_in_gene": 162
+    },
+    {
+      "guide": "CAGGUGCAGCUGGCUGGACAU",
+      "target_pos": 1224,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1224",
+      "of_core_19nt": "CAGGUGCAGCUGGCUGGAC",
+      "OligoFormer_efficacy": 0.560841,
+      "OligoFormer_rank_in_gene": 163
+    },
+    {
+      "guide": "CCCAACUCUUUUCCUCCCACC",
+      "target_pos": 2210,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2210",
+      "of_core_19nt": "CCCAACUCUUUUCCUCCCA",
+      "OligoFormer_efficacy": 0.558956,
+      "OligoFormer_rank_in_gene": 164
+    },
+    {
+      "guide": "CCAGUUAUAGCUGAUUUGAAA",
+      "target_pos": 476,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_476",
+      "of_core_19nt": "CCAGUUAUAGCUGAUUUGA",
+      "OligoFormer_efficacy": 0.556616,
+      "OligoFormer_rank_in_gene": 165
+    },
+    {
+      "guide": "CCCUGUCAGCUGUCAUUCUGG",
+      "target_pos": 4828,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4828",
+      "of_core_19nt": "CCCUGUCAGCUGUCAUUCU",
+      "OligoFormer_efficacy": 0.555253,
+      "OligoFormer_rank_in_gene": 166
+    },
+    {
+      "guide": "CAUAAAGAGCAGUUAAGAUGC",
+      "target_pos": 4624,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4624",
+      "of_core_19nt": "CAUAAAGAGCAGUUAAGAU",
+      "OligoFormer_efficacy": 0.550187,
+      "OligoFormer_rank_in_gene": 167
+    },
+    {
+      "guide": "CAGCAAUUAGCCCCCGUGACC",
+      "target_pos": 4318,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4318",
+      "of_core_19nt": "CAGCAAUUAGCCCCCGUGA",
+      "OligoFormer_efficacy": 0.54975,
+      "OligoFormer_rank_in_gene": 168
+    },
+    {
+      "guide": "CCAUUGCCUCUCCUCACGUUC",
+      "target_pos": 2890,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2890",
+      "of_core_19nt": "CCAUUGCCUCUCCUCACGU",
+      "OligoFormer_efficacy": 0.54597,
+      "OligoFormer_rank_in_gene": 169
+    },
+    {
+      "guide": "CCAAAUCUUAAGCCUGCCAGA",
+      "target_pos": 4896,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4896",
+      "of_core_19nt": "CCAAAUCUUAAGCCUGCCA",
+      "OligoFormer_efficacy": 0.545931,
+      "OligoFormer_rank_in_gene": 170
+    },
+    {
+      "guide": "CCGGUACAGUACCAUUCAUGC",
+      "target_pos": 6154,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_6154",
+      "of_core_19nt": "CCGGUACAGUACCAUUCAU",
+      "OligoFormer_efficacy": 0.535265,
+      "OligoFormer_rank_in_gene": 171
+    },
+    {
+      "guide": "ACUAUUUGUUUUAGGAUAAGU",
+      "target_pos": 5236,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5236",
+      "of_core_19nt": "ACUAUUUGUUUUAGGAUAA",
+      "OligoFormer_efficacy": 0.524379,
+      "OligoFormer_rank_in_gene": 172
+    },
+    {
+      "guide": "GGAGUUAUAAUCCAGCUAUUU",
+      "target_pos": 782,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_782",
+      "of_core_19nt": "GGAGUUAUAAUCCAGCUAU",
+      "OligoFormer_efficacy": 0.522772,
+      "OligoFormer_rank_in_gene": 173
+    },
+    {
+      "guide": "GUGUGUGGUGCGGCGAGGGGU",
+      "target_pos": 0,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_0",
+      "of_core_19nt": "GUGUGUGGUGCGGCGAGGG",
+      "OligoFormer_efficacy": 0.512891,
+      "OligoFormer_rank_in_gene": 174
+    },
+    {
+      "guide": "GGCGGAGGGUCAGGUGGACCA",
+      "target_pos": 1156,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1156",
+      "of_core_19nt": "GGCGGAGGGUCAGGUGGAC",
+      "OligoFormer_efficacy": 0.510424,
+      "OligoFormer_rank_in_gene": 175
+    },
+    {
+      "guide": "GCGGUGCUUGGCAAUUAGUGG",
+      "target_pos": 1904,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1904",
+      "of_core_19nt": "GCGGUGCUUGGCAAUUAGU",
+      "OligoFormer_efficacy": 0.510208,
+      "OligoFormer_rank_in_gene": 176
+    },
+    {
+      "guide": "AGUGAGGGCCCCGGCUCAGUU",
+      "target_pos": 2618,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2618",
+      "of_core_19nt": "AGUGAGGGCCCCGGCUCAG",
+      "OligoFormer_efficacy": 0.510101,
+      "OligoFormer_rank_in_gene": 177
+    },
+    {
+      "guide": "CUACCUGGAGGGCCCCAGGGU",
+      "target_pos": 2754,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2754",
+      "of_core_19nt": "CUACCUGGAGGGCCCCAGG",
+      "OligoFormer_efficacy": 0.508164,
+      "OligoFormer_rank_in_gene": 178
+    },
+    {
+      "guide": "AGGCACCCAGGGUGAUGCAAG",
+      "target_pos": 1564,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1564",
+      "of_core_19nt": "AGGCACCCAGGGUGAUGCA",
+      "OligoFormer_efficacy": 0.498034,
+      "OligoFormer_rank_in_gene": 179
+    },
+    {
+      "guide": "CAAGAGGCUGGGCACAUUUAC",
+      "target_pos": 4386,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4386",
+      "of_core_19nt": "CAAGAGGCUGGGCACAUUU",
+      "OligoFormer_efficacy": 0.496433,
+      "OligoFormer_rank_in_gene": 180
+    },
+    {
+      "guide": "CCGUGGCAAAGCGUCCCCGCG",
+      "target_pos": 1258,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1258",
+      "of_core_19nt": "CCGUGGCAAAGCGUCCCCG",
+      "OligoFormer_efficacy": 0.49411,
+      "OligoFormer_rank_in_gene": 181
+    },
+    {
+      "guide": "CCACUGGGCCAGAGCUACAUC",
+      "target_pos": 5066,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5066",
+      "of_core_19nt": "CCACUGGGCCAGAGCUACA",
+      "OligoFormer_efficacy": 0.493432,
+      "OligoFormer_rank_in_gene": 182
+    },
+    {
+      "guide": "CAAAGUUAAUACAGAUAAAUG",
+      "target_pos": 3332,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3332",
+      "of_core_19nt": "CAAAGUUAAUACAGAUAAA",
+      "OligoFormer_efficacy": 0.491375,
+      "OligoFormer_rank_in_gene": 183
+    },
+    {
+      "guide": "CAUUUACUAAUAAAACAAAGA",
+      "target_pos": 5032,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5032",
+      "of_core_19nt": "CAUUUACUAAUAAAACAAA",
+      "OligoFormer_efficacy": 0.491238,
+      "OligoFormer_rank_in_gene": 184
+    },
+    {
+      "guide": "CAGCACAGGAUUGGAUAUUCC",
+      "target_pos": 4114,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_4114",
+      "of_core_19nt": "CAGCACAGGAUUGGAUAUU",
+      "OligoFormer_efficacy": 0.490035,
+      "OligoFormer_rank_in_gene": 185
+    },
+    {
+      "guide": "GGGCUGGGAGGAGAAGAUGCC",
+      "target_pos": 1020,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1020",
+      "of_core_19nt": "GGGCUGGGAGGAGAAGAUG",
+      "OligoFormer_efficacy": 0.489663,
+      "OligoFormer_rank_in_gene": 186
+    },
+    {
+      "guide": "GCUUGAAAUUUAUACCAUUGC",
+      "target_pos": 5848,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5848",
+      "of_core_19nt": "GCUUGAAAUUUAUACCAUU",
+      "OligoFormer_efficacy": 0.460396,
+      "OligoFormer_rank_in_gene": 187
+    },
+    {
+      "guide": "CCAAACUUGGGAAUGUUUUAC",
+      "target_pos": 5644,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5644",
+      "of_core_19nt": "CCAAACUUGGGAAUGUUUU",
+      "OligoFormer_efficacy": 0.454794,
+      "OligoFormer_rank_in_gene": 188
+    },
+    {
+      "guide": "CACUUAUUUUUAUUUAAAACA",
+      "target_pos": 6562,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_6562",
+      "of_core_19nt": "CACUUAUUUUUAUUUAAAA",
+      "OligoFormer_efficacy": 0.450891,
+      "OligoFormer_rank_in_gene": 189
+    },
+    {
+      "guide": "GGUCCCGGGAUGCGGCUGGAU",
+      "target_pos": 1054,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1054",
+      "of_core_19nt": "GGUCCCGGGAUGCGGCUGG",
+      "OligoFormer_efficacy": 0.450529,
+      "OligoFormer_rank_in_gene": 190
+    },
+    {
+      "guide": "CCACACCUGGAACUUUUUUUU",
+      "target_pos": 3128,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3128",
+      "of_core_19nt": "CCACACCUGGAACUUUUUU",
+      "OligoFormer_efficacy": 0.449778,
+      "OligoFormer_rank_in_gene": 191
+    },
+    {
+      "guide": "GGCCCGCCGGUGCCGAGCGCU",
+      "target_pos": 34,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_34",
+      "of_core_19nt": "GGCCCGCCGGUGCCGAGCG",
+      "OligoFormer_efficacy": 0.446721,
+      "OligoFormer_rank_in_gene": 192
+    },
+    {
+      "guide": "AGGAGGGCUCUGGGUGGGUCU",
+      "target_pos": 3876,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_3876",
+      "of_core_19nt": "AGGAGGGCUCUGGGUGGGU",
+      "OligoFormer_efficacy": 0.432262,
+      "OligoFormer_rank_in_gene": 193
+    },
+    {
+      "guide": "CGGCGGUAGCGGCGGGAGAAG",
+      "target_pos": 1190,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1190",
+      "of_core_19nt": "CGGCGGUAGCGGCGGGAGA",
+      "OligoFormer_efficacy": 0.421933,
+      "OligoFormer_rank_in_gene": 194
+    },
+    {
+      "guide": "GCCGGGGUCUGCAGCGGCGAG",
+      "target_pos": 1088,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1088",
+      "of_core_19nt": "GCCGGGGUCUGCAGCGGCG",
+      "OligoFormer_efficacy": 0.4193,
+      "OligoFormer_rank_in_gene": 195
+    },
+    {
+      "guide": "CAGCUCCCACCCCACGGCCCC",
+      "target_pos": 816,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_816",
+      "of_core_19nt": "CAGCUCCCACCCCACGGCC",
+      "OligoFormer_efficacy": 0.39293,
+      "OligoFormer_rank_in_gene": 196
+    },
+    {
+      "guide": "CCUGAUUAUUUACAUUUAAUC",
+      "target_pos": 5134,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_5134",
+      "of_core_19nt": "CCUGAUUAUUUACAUUUAA",
+      "OligoFormer_efficacy": 0.390663,
+      "OligoFormer_rank_in_gene": 197
+    },
+    {
+      "guide": "GCUGAGCGCAGGCCCCGCGGC",
+      "target_pos": 1122,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_1122",
+      "of_core_19nt": "GCUGAGCGCAGGCCCCGCG",
+      "OligoFormer_efficacy": 0.370409,
+      "OligoFormer_rank_in_gene": 198
+    },
+    {
+      "guide": "GGGAGUUGGGGGGUGCGUAUC",
+      "target_pos": 2414,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_2414",
+      "of_core_19nt": "GGGAGUUGGGGGGUGCGUA",
+      "OligoFormer_efficacy": 0.36472,
+      "OligoFormer_rank_in_gene": 199
+    },
+    {
+      "guide": "GCCCCCGGGGGCGCGGCGCCC",
+      "target_pos": 986,
+      "gene": "BCL2",
+      "accession": "NM_000633.3",
+      "id": "des_BCL2_986",
+      "of_core_19nt": "GCCCCCGGGGGCGCGGCGC",
+      "OligoFormer_efficacy": 0.277861,
+      "OligoFormer_rank_in_gene": 200
+    }
+  ]
+}

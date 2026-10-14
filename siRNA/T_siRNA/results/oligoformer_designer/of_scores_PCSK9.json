@@ -1,0 +1,2010 @@
+{
+  "gene": "PCSK9",
+  "accession": "NM_174936.4",
+  "n_candidates": 200,
+  "direction": "higher_is_better",
+  "length_convention": "21 nt 引导链取 guide[0:19] 作 19 nt 双链核心送入 OligoFormer",
+  "note": "efficacy 是设计器信号，不是检测器值，不参与 r_1..r_4。",
+  "candidates": [
+    {
+      "guide": "UUUCUUCCUCUGUGAAGUAGG",
+      "target_pos": 3132,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3132",
+      "of_core_19nt": "UUUCUUCCUCUGUGAAGUA",
+      "OligoFormer_efficacy": 0.989762,
+      "OligoFormer_rank_in_gene": 1
+    },
+    {
+      "guide": "UCAAUAAAAGUCAUUCUGCCC",
+      "target_pos": 2682,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2682",
+      "of_core_19nt": "UCAAUAAAAGUCAUUCUGC",
+      "OligoFormer_efficacy": 0.973607,
+      "OligoFormer_rank_in_gene": 2
+    },
+    {
+      "guide": "UGUCUAGGAGAUACACCUCCA",
+      "target_pos": 828,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_828",
+      "of_core_19nt": "UGUCUAGGAGAUACACCUC",
+      "OligoFormer_efficacy": 0.938527,
+      "OligoFormer_rank_in_gene": 3
+    },
+    {
+      "guide": "AACGGAAAAAGUUCCAUGCCU",
+      "target_pos": 3348,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3348",
+      "of_core_19nt": "AACGGAAAAAGUUCCAUGC",
+      "OligoFormer_efficacy": 0.933526,
+      "OligoFormer_rank_in_gene": 4
+    },
+    {
+      "guide": "AAAAGCAAAACAGGUCUAGAA",
+      "target_pos": 3528,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3528",
+      "of_core_19nt": "AAAAGCAAAACAGGUCUAG",
+      "OligoFormer_efficacy": 0.894114,
+      "OligoFormer_rank_in_gene": 5
+    },
+    {
+      "guide": "AACCAUUUUAAAGCUCAGCCC",
+      "target_pos": 2412,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2412",
+      "of_core_19nt": "AACCAUUUUAAAGCUCAGC",
+      "OligoFormer_efficacy": 0.882425,
+      "OligoFormer_rank_in_gene": 6
+    },
+    {
+      "guide": "UCAUCUUCACCAGGAAGCCAG",
+      "target_pos": 648,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_648",
+      "of_core_19nt": "UCAUCUUCACCAGGAAGCC",
+      "OligoFormer_efficacy": 0.876561,
+      "OligoFormer_rank_in_gene": 7
+    },
+    {
+      "guide": "UAAAUAUCUUCAAGUUACAAA",
+      "target_pos": 3546,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3546",
+      "of_core_19nt": "UAAAUAUCUUCAAGUUACA",
+      "OligoFormer_efficacy": 0.87005,
+      "OligoFormer_rank_in_gene": 8
+    },
+    {
+      "guide": "UAAACUCCAGGCCUAUGAGGG",
+      "target_pos": 1080,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1080",
+      "of_core_19nt": "UAAACUCCAGGCCUAUGAG",
+      "OligoFormer_efficacy": 0.868159,
+      "OligoFormer_rank_in_gene": 9
+    },
+    {
+      "guide": "CUAGAUGCCAUCCAGAAAGCU",
+      "target_pos": 2898,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2898",
+      "of_core_19nt": "CUAGAUGCCAUCCAGAAAG",
+      "OligoFormer_efficacy": 0.854034,
+      "OligoFormer_rank_in_gene": 10
+    },
+    {
+      "guide": "CCAUCACUCACCGAGCUUCCU",
+      "target_pos": 3312,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3312",
+      "of_core_19nt": "CCAUCACUCACCGAGCUUC",
+      "OligoFormer_efficacy": 0.839298,
+      "OligoFormer_rank_in_gene": 11
+    },
+    {
+      "guide": "CCUCGGAACGCAAGGCUAGCA",
+      "target_pos": 414,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_414",
+      "of_core_19nt": "CCUCGGAACGCAAGGCUAG",
+      "OligoFormer_efficacy": 0.836173,
+      "OligoFormer_rank_in_gene": 12
+    },
+    {
+      "guide": "AACGAUGUUUGUCCCUGCAGC",
+      "target_pos": 2790,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2790",
+      "of_core_19nt": "AACGAUGUUUGUCCCUGCA",
+      "OligoFormer_efficacy": 0.828453,
+      "OligoFormer_rank_in_gene": 13
+    },
+    {
+      "guide": "GACCUGAGGAUUGAAUGCCUG",
+      "target_pos": 2718,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2718",
+      "of_core_19nt": "GACCUGAGGAUUGAAUGCC",
+      "OligoFormer_efficacy": 0.818585,
+      "OligoFormer_rank_in_gene": 14
+    },
+    {
+      "guide": "GUCUCUGCCUCAACUCGGCCA",
+      "target_pos": 1512,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1512",
+      "of_core_19nt": "GUCUCUGCCUCAACUCGGC",
+      "OligoFormer_efficacy": 0.815037,
+      "OligoFormer_rank_in_gene": 15
+    },
+    {
+      "guide": "CACUCCUGGAGAAACUGGAGC",
+      "target_pos": 1746,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1746",
+      "of_core_19nt": "CACUCCUGGAGAAACUGGA",
+      "OligoFormer_efficacy": 0.813516,
+      "OligoFormer_rank_in_gene": 16
+    },
+    {
+      "guide": "CAAAGACAGAGGAGUCCUCCU",
+      "target_pos": 720,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_720",
+      "of_core_19nt": "CAAAGACAGAGGAGUCCUC",
+      "OligoFormer_efficacy": 0.812271,
+      "OligoFormer_rank_in_gene": 17
+    },
+    {
+      "guide": "CCUCGAUGUAGUCGACAUGGG",
+      "target_pos": 702,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_702",
+      "of_core_19nt": "CCUCGAUGUAGUCGACAUG",
+      "OligoFormer_efficacy": 0.809791,
+      "OligoFormer_rank_in_gene": 18
+    },
+    {
+      "guide": "UGGCAGAGAAGUGGAUCAGUC",
+      "target_pos": 1530,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1530",
+      "of_core_19nt": "UGGCAGAGAAGUGGAUCAG",
+      "OligoFormer_efficacy": 0.801931,
+      "OligoFormer_rank_in_gene": 19
+    },
+    {
+      "guide": "ACCCAAAAGAUAAAUGUCUGC",
+      "target_pos": 3474,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3474",
+      "of_core_19nt": "ACCCAAAAGAUAAAUGUCU",
+      "OligoFormer_efficacy": 0.801263,
+      "OligoFormer_rank_in_gene": 20
+    },
+    {
+      "guide": "AGGGGUGCGAAUGUGUACCCU",
+      "target_pos": 3114,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3114",
+      "of_core_19nt": "AGGGGUGCGAAUGUGUACC",
+      "OligoFormer_efficacy": 0.790763,
+      "OligoFormer_rank_in_gene": 21
+    },
+    {
+      "guide": "CCGACCAUGCCUUAGAAGCAU",
+      "target_pos": 3402,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3402",
+      "of_core_19nt": "CCGACCAUGCCUUAGAAGC",
+      "OligoFormer_efficacy": 0.780942,
+      "OligoFormer_rank_in_gene": 22
+    },
+    {
+      "guide": "AGAGGCUUGGCUUCAGAGCCA",
+      "target_pos": 3222,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3222",
+      "of_core_19nt": "AGAGGCUUGGCUUCAGAGC",
+      "OligoFormer_efficacy": 0.772535,
+      "OligoFormer_rank_in_gene": 23
+    },
+    {
+      "guide": "AAAACAGCUGCCAACCUGCCC",
+      "target_pos": 1638,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1638",
+      "of_core_19nt": "AAAACAGCUGCCAACCUGC",
+      "OligoFormer_efficacy": 0.768374,
+      "OligoFormer_rank_in_gene": 24
+    },
+    {
+      "guide": "CUGUUUGAAUGGUGAAAUGCC",
+      "target_pos": 2610,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2610",
+      "of_core_19nt": "CUGUUUGAAUGGUGAAAUG",
+      "OligoFormer_efficacy": 0.767052,
+      "OligoFormer_rank_in_gene": 25
+    },
+    {
+      "guide": "CACACGUGUUGUCUACGGCGU",
+      "target_pos": 2232,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2232",
+      "of_core_19nt": "CACACGUGUUGUCUACGGC",
+      "OligoFormer_efficacy": 0.76017,
+      "OligoFormer_rank_in_gene": 26
+    },
+    {
+      "guide": "UGCUGCCUGUAGUGCUGACGU",
+      "target_pos": 2268,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2268",
+      "of_core_19nt": "UGCUGCCUGUAGUGCUGAC",
+      "OligoFormer_efficacy": 0.755872,
+      "OligoFormer_rank_in_gene": 27
+    },
+    {
+      "guide": "AUGCUACAAAACCCAGAAUAA",
+      "target_pos": 3564,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3564",
+      "of_core_19nt": "AUGCUACAAAACCCAGAAU",
+      "OligoFormer_efficacy": 0.747643,
+      "OligoFormer_rank_in_gene": 28
+    },
+    {
+      "guide": "ACUUGCUGGCCUGUCUGUGGA",
+      "target_pos": 936,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_936",
+      "of_core_19nt": "ACUUGCUGGCCUGUCUGUG",
+      "OligoFormer_efficacy": 0.743894,
+      "OligoFormer_rank_in_gene": 29
+    },
+    {
+      "guide": "AGACAUGCAGGAUCUUGGUGA",
+      "target_pos": 612,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_612",
+      "of_core_19nt": "AGACAUGCAGGAUCUUGGU",
+      "OligoFormer_efficacy": 0.743226,
+      "OligoFormer_rank_in_gene": 30
+    },
+    {
+      "guide": "CUGGCACGGAACAAGAGCUCA",
+      "target_pos": 2700,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2700",
+      "of_core_19nt": "CUGGCACGGAACAAGAGCU",
+      "OligoFormer_efficacy": 0.742775,
+      "OligoFormer_rank_in_gene": 31
+    },
+    {
+      "guide": "CAGACCCUGAACUGAACGGCG",
+      "target_pos": 36,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_36",
+      "of_core_19nt": "CAGACCCUGAACUGAACGG",
+      "OligoFormer_efficacy": 0.742395,
+      "OligoFormer_rank_in_gene": 32
+    },
+    {
+      "guide": "GCACCAGCUCCUCGUAGUCGC",
+      "target_pos": 396,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_396",
+      "of_core_19nt": "GCACCAGCUCCUCGUAGUC",
+      "OligoFormer_efficacy": 0.734161,
+      "OligoFormer_rank_in_gene": 33
+    },
+    {
+      "guide": "ACCUUUGGGUGUUGCUAGCAC",
+      "target_pos": 3006,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3006",
+      "of_core_19nt": "ACCUUUGGGUGUUGCUAGC",
+      "OligoFormer_efficacy": 0.732274,
+      "OligoFormer_rank_in_gene": 34
+    },
+    {
+      "guide": "CAACUGUGAUGACCUCGGGAG",
+      "target_pos": 1278,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1278",
+      "of_core_19nt": "CAACUGUGAUGACCUCGGG",
+      "OligoFormer_efficacy": 0.721573,
+      "OligoFormer_rank_in_gene": 35
+    },
+    {
+      "guide": "UGGAGGCACCAAUGAUGUCCU",
+      "target_pos": 1386,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1386",
+      "of_core_19nt": "UGGAGGCACCAAUGAUGUC",
+      "OligoFormer_efficacy": 0.721315,
+      "OligoFormer_rank_in_gene": 36
+    },
+    {
+      "guide": "AGUUGGUCCCCAAAGUCCCCA",
+      "target_pos": 1332,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1332",
+      "of_core_19nt": "AGUUGGUCCCCAAAGUCCC",
+      "OligoFormer_efficacy": 0.717704,
+      "OligoFormer_rank_in_gene": 37
+    },
+    {
+      "guide": "GGGGCAACUUCAAGGCCAGCU",
+      "target_pos": 684,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_684",
+      "of_core_19nt": "GGGGCAACUUCAAGGCCAG",
+      "OligoFormer_efficacy": 0.71686,
+      "OligoFormer_rank_in_gene": 38
+    },
+    {
+      "guide": "AGCAGCUCAGCAGCUCCUCAU",
+      "target_pos": 1728,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1728",
+      "of_core_19nt": "AGCAGCUCAGCAGCUCCUC",
+      "OligoFormer_efficacy": 0.71372,
+      "OligoFormer_rank_in_gene": 39
+    },
+    {
+      "guide": "UUGGGAGCAGCUGGCAGCACC",
+      "target_pos": 2646,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2646",
+      "of_core_19nt": "UUGGGAGCAGCUGGCAGCA",
+      "OligoFormer_efficacy": 0.70966,
+      "OligoFormer_rank_in_gene": 40
+    },
+    {
+      "guide": "CCCCAAAAGCGUUGUGGGCCC",
+      "target_pos": 1818,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1818",
+      "of_core_19nt": "CCCCAAAAGCGUUGUGGGC",
+      "OligoFormer_efficacy": 0.70594,
+      "OligoFormer_rank_in_gene": 41
+    },
+    {
+      "guide": "AGUCGGUGACCAUGACCCUGC",
+      "target_pos": 882,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_882",
+      "of_core_19nt": "AGUCGGUGACCAUGACCCU",
+      "OligoFormer_efficacy": 0.705392,
+      "OligoFormer_rank_in_gene": 42
+    },
+    {
+      "guide": "CCGUAAAAAUGAGGAGCCCAG",
+      "target_pos": 3258,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3258",
+      "of_core_19nt": "CCGUAAAAAUGAGGAGCCC",
+      "OligoFormer_efficacy": 0.704479,
+      "OligoFormer_rank_in_gene": 43
+    },
+    {
+      "guide": "UCCCAGCCUCACUGUUACCCG",
+      "target_pos": 3276,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3276",
+      "of_core_19nt": "UCCCAGCCUCACUGUUACC",
+      "OligoFormer_efficacy": 0.702905,
+      "OligoFormer_rank_in_gene": 44
+    },
+    {
+      "guide": "UGCCCUCGAUUUCCCGGUGGU",
+      "target_pos": 864,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_864",
+      "of_core_19nt": "UGCCCUCGAUUUCCCGGUG",
+      "OligoFormer_efficacy": 0.696028,
+      "OligoFormer_rank_in_gene": 45
+    },
+    {
+      "guide": "AGAGUAAAGGUGGCUCAGGAA",
+      "target_pos": 2970,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2970",
+      "of_core_19nt": "AGAGUAAAGGUGGCUCAGG",
+      "OligoFormer_efficacy": 0.694333,
+      "OligoFormer_rank_in_gene": 46
+    },
+    {
+      "guide": "AGCAGAUGGCAACGGCUGUCA",
+      "target_pos": 2304,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2304",
+      "of_core_19nt": "AGCAGAUGGCAACGGCUGU",
+      "OligoFormer_efficacy": 0.684996,
+      "OligoFormer_rank_in_gene": 47
+    },
+    {
+      "guide": "CCUGCAGGCAUCGUUCUGCCA",
+      "target_pos": 3330,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3330",
+      "of_core_19nt": "CCUGCAGGCAUCGUUCUGC",
+      "OligoFormer_efficacy": 0.684177,
+      "OligoFormer_rank_in_gene": 48
+    },
+    {
+      "guide": "UCUCCACAGUUAGCUGGAGAU",
+      "target_pos": 2844,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2844",
+      "of_core_19nt": "UCUCCACAGUUAGCUGGAG",
+      "OligoFormer_efficacy": 0.68338,
+      "OligoFormer_rank_in_gene": 49
+    },
+    {
+      "guide": "GAUGAGGGCCAUCAGCACCUU",
+      "target_pos": 2826,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2826",
+      "of_core_19nt": "GAUGAGGGCCAUCAGCACC",
+      "OligoFormer_efficacy": 0.681671,
+      "OligoFormer_rank_in_gene": 50
+    },
+    {
+      "guide": "CAGAGUGAGUGAGUUCCAGGC",
+      "target_pos": 2538,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2538",
+      "of_core_19nt": "CAGAGUGAGUGAGUUCCAG",
+      "OligoFormer_efficacy": 0.680745,
+      "OligoFormer_rank_in_gene": 51
+    },
+    {
+      "guide": "GAAGUUCAGGAGCAGGGCGCG",
+      "target_pos": 162,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_162",
+      "of_core_19nt": "GAAGUUCAGGAGCAGGGCG",
+      "OligoFormer_efficacy": 0.678992,
+      "OligoFormer_rank_in_gene": 52
+    },
+    {
+      "guide": "AGCAGGUGCUGCAGUCGCUGG",
+      "target_pos": 1404,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1404",
+      "of_core_19nt": "AGCAGGUGCUGCAGUCGCU",
+      "OligoFormer_efficacy": 0.677357,
+      "OligoFormer_rank_in_gene": 53
+    },
+    {
+      "guide": "UGGCGUAGACACCCUCACCCC",
+      "target_pos": 1836,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1836",
+      "of_core_19nt": "UGGCGUAGACACCCUCACC",
+      "OligoFormer_efficacy": 0.676465,
+      "OligoFormer_rank_in_gene": 54
+    },
+    {
+      "guide": "UGGUGCUCAAGGAGGGACAGU",
+      "target_pos": 3438,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3438",
+      "of_core_19nt": "UGGUGCUCAAGGAGGGACA",
+      "OligoFormer_efficacy": 0.674128,
+      "OligoFormer_rank_in_gene": 55
+    },
+    {
+      "guide": "AGUUGUUGGCCCUCUCCCCCG",
+      "target_pos": 3420,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3420",
+      "of_core_19nt": "AGUUGUUGGCCCUCUCCCC",
+      "OligoFormer_efficacy": 0.671349,
+      "OligoFormer_rank_in_gene": 56
+    },
+    {
+      "guide": "CCUCCUUCAGCACCACCACGU",
+      "target_pos": 522,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_522",
+      "of_core_19nt": "CCUCCUUCAGCACCACCAC",
+      "OligoFormer_efficacy": 0.666899,
+      "OligoFormer_rank_in_gene": 57
+    },
+    {
+      "guide": "CCUGUCUCCAGCCUCUGGCUA",
+      "target_pos": 2916,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2916",
+      "of_core_19nt": "CCUGUCUCCAGCCUCUGGC",
+      "OligoFormer_efficacy": 0.664359,
+      "OligoFormer_rank_in_gene": 58
+    },
+    {
+      "guide": "GAGCCAGUCUCACUGCCUGGC",
+      "target_pos": 72,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_72",
+      "of_core_19nt": "GAGCCAGUCUCACUGCCUG",
+      "OligoFormer_efficacy": 0.662953,
+      "OligoFormer_rank_in_gene": 59
+    },
+    {
+      "guide": "CUGACCAUACAGUCCUGCAAA",
+      "target_pos": 1656,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1656",
+      "of_core_19nt": "CUGACCAUACAGUCCUGCA",
+      "OligoFormer_efficacy": 0.660615,
+      "OligoFormer_rank_in_gene": 60
+    },
+    {
+      "guide": "GGAAGUUGCCGGCAGCGGUGA",
+      "target_pos": 1224,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1224",
+      "of_core_19nt": "GGAAGUUGCCGGCAGCGGU",
+      "OligoFormer_efficacy": 0.65575,
+      "OligoFormer_rank_in_gene": 61
+    },
+    {
+      "guide": "UGUGAGCUUGGCAGGCACGCC",
+      "target_pos": 3168,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3168",
+      "of_core_19nt": "UGUGAGCUUGGCAGGCACG",
+      "OligoFormer_efficacy": 0.655686,
+      "OligoFormer_rank_in_gene": 62
+    },
+    {
+      "guide": "ACCCGAGCACAGCUCGACCUG",
+      "target_pos": 2628,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2628",
+      "of_core_19nt": "ACCCGAGCACAGCUCGACC",
+      "OligoFormer_efficacy": 0.654012,
+      "OligoFormer_rank_in_gene": 63
+    },
+    {
+      "guide": "UUGCUGUCCUGGCGAGGAGAC",
+      "target_pos": 252,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_252",
+      "of_core_19nt": "UUGCUGUCCUGGCGAGGAG",
+      "OligoFormer_efficacy": 0.651422,
+      "OligoFormer_rank_in_gene": 64
+    },
+    {
+      "guide": "CUGCAAUGCCAGCCACGUGGG",
+      "target_pos": 1458,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1458",
+      "of_core_19nt": "CUGCAAUGCCAGCCACGUG",
+      "OligoFormer_efficacy": 0.650329,
+      "OligoFormer_rank_in_gene": 65
+    },
+    {
+      "guide": "GAAACCAAGGCACAGCCUGUG",
+      "target_pos": 2952,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2952",
+      "of_core_19nt": "GAAACCAAGGCACAGCCUG",
+      "OligoFormer_efficacy": 0.65021,
+      "OligoFormer_rank_in_gene": 66
+    },
+    {
+      "guide": "GGGUUGGCUGAGACAGUGCAU",
+      "target_pos": 3078,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3078",
+      "of_core_19nt": "GGGUUGGCUGAGACAGUGC",
+      "OligoFormer_efficacy": 0.641792,
+      "OligoFormer_rank_in_gene": 67
+    },
+    {
+      "guide": "CUGGCUCAGUUCCUGCUGUGU",
+      "target_pos": 3186,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3186",
+      "of_core_19nt": "CUGGCUCAGUUCCUGCUGU",
+      "OligoFormer_efficacy": 0.637726,
+      "OligoFormer_rank_in_gene": 68
+    },
+    {
+      "guide": "AGGCAACAGAGAGGACAGACC",
+      "target_pos": 3492,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3492",
+      "of_core_19nt": "AGGCAACAGAGAGGACAGA",
+      "OligoFormer_efficacy": 0.637295,
+      "OligoFormer_rank_in_gene": 69
+    },
+    {
+      "guide": "CGGCAGACAGCAUCAUGGCUG",
+      "target_pos": 1476,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1476",
+      "of_core_19nt": "CGGCAGACAGCAUCAUGGC",
+      "OligoFormer_efficacy": 0.636877,
+      "OligoFormer_rank_in_gene": 70
+    },
+    {
+      "guide": "GGGUGCCGCUAACCGUGCCCU",
+      "target_pos": 1062,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1062",
+      "of_core_19nt": "GGGUGCCGCUAACCGUGCC",
+      "OligoFormer_efficacy": 0.632895,
+      "OligoFormer_rank_in_gene": 71
+    },
+    {
+      "guide": "GGAGCCGCUGCUGCAACGACG",
+      "target_pos": 108,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_108",
+      "of_core_19nt": "GGAGCCGCUGCUGCAACGA",
+      "OligoFormer_efficacy": 0.623964,
+      "OligoFormer_rank_in_gene": 72
+    },
+    {
+      "guide": "GGAAGCGGGUCCCGUCCUCCU",
+      "target_pos": 918,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_918",
+      "of_core_19nt": "GGAAGCGGGUCCCGUCCUC",
+      "OligoFormer_efficacy": 0.62118,
+      "OligoFormer_rank_in_gene": 73
+    },
+    {
+      "guide": "CCCGGCAGACCAGCUUGCCCC",
+      "target_pos": 1800,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1800",
+      "of_core_19nt": "CCCGGCAGACCAGCUUGCC",
+      "OligoFormer_efficacy": 0.618373,
+      "OligoFormer_rank_in_gene": 74
+    },
+    {
+      "guide": "CAGCCGGGUGAAGUAAGAAGA",
+      "target_pos": 3240,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3240",
+      "of_core_19nt": "CAGCCGGGUGAAGUAAGAA",
+      "OligoFormer_efficacy": 0.615176,
+      "OligoFormer_rank_in_gene": 75
+    },
+    {
+      "guide": "UGGUUCCGUGCUCGGGUGCUU",
+      "target_pos": 450,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_450",
+      "of_core_19nt": "UGGUUCCGUGCUCGGGUGC",
+      "OligoFormer_efficacy": 0.613644,
+      "OligoFormer_rank_in_gene": 76
+    },
+    {
+      "guide": "UCCACGGAUCCUUGGCGCAGC",
+      "target_pos": 486,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_486",
+      "of_core_19nt": "UCCACGGAUCCUUGGCGCA",
+      "OligoFormer_efficacy": 0.61299,
+      "OligoFormer_rank_in_gene": 77
+    },
+    {
+      "guide": "CUCGUGGCCUCAGCACAGGCG",
+      "target_pos": 2016,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2016",
+      "of_core_19nt": "CUCGUGGCCUCAGCACAGG",
+      "OligoFormer_efficacy": 0.612629,
+      "OligoFormer_rank_in_gene": 78
+    },
+    {
+      "guide": "GGUCACUCUGUAUGCUGGUGU",
+      "target_pos": 846,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_846",
+      "of_core_19nt": "GGUCACUCUGUAUGCUGGU",
+      "OligoFormer_efficacy": 0.612604,
+      "OligoFormer_rank_in_gene": 79
+    },
+    {
+      "guide": "UGGGGGUCAGUACCCGCUGGU",
+      "target_pos": 1584,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1584",
+      "of_core_19nt": "UGGGGGUCAGUACCCGCUG",
+      "OligoFormer_efficacy": 0.6099,
+      "OligoFormer_rank_in_gene": 80
+    },
+    {
+      "guide": "UCCCACUCUGUGACACAAAGC",
+      "target_pos": 1422,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1422",
+      "of_core_19nt": "UCCCACUCUGUGACACAAA",
+      "OligoFormer_efficacy": 0.606139,
+      "OligoFormer_rank_in_gene": 81
+    },
+    {
+      "guide": "GGGAGCUGCAGCCUGUGAGGA",
+      "target_pos": 1962,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1962",
+      "of_core_19nt": "GGGAGCUGCAGCCUGUGAG",
+      "OligoFormer_efficacy": 0.605666,
+      "OligoFormer_rank_in_gene": 82
+    },
+    {
+      "guide": "GUGUAGGCCCCGAGUGUGCUG",
+      "target_pos": 1674,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1674",
+      "of_core_19nt": "GUGUAGGCCCCGAGUGUGC",
+      "OligoFormer_efficacy": 0.604858,
+      "OligoFormer_rank_in_gene": 83
+    },
+    {
+      "guide": "UCCUGCCUCCUUGGUGGAGAC",
+      "target_pos": 2736,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2736",
+      "of_core_19nt": "UCCUGCCUCCUUGGUGGAG",
+      "OligoFormer_efficacy": 0.604723,
+      "OligoFormer_rank_in_gene": 84
+    },
+    {
+      "guide": "CUUUCACACUCACCCCCCAAC",
+      "target_pos": 2808,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2808",
+      "of_core_19nt": "CUUUCACACUCACCCCCCA",
+      "OligoFormer_efficacy": 0.602732,
+      "OligoFormer_rank_in_gene": 85
+    },
+    {
+      "guide": "UCCACGGGAUGCUCUGGGCAA",
+      "target_pos": 738,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_738",
+      "of_core_19nt": "UCCACGGGAUGCUCUGGGC",
+      "OligoFormer_efficacy": 0.600107,
+      "OligoFormer_rank_in_gene": 86
+    },
+    {
+      "guide": "GCCGAGUCAGUCCUAGGUGAU",
+      "target_pos": 3042,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3042",
+      "of_core_19nt": "GCCGAGUCAGUCCUAGGUG",
+      "OligoFormer_efficacy": 0.598066,
+      "OligoFormer_rank_in_gene": 87
+    },
+    {
+      "guide": "AGCAGGAAGCGUGGAUGCUGG",
+      "target_pos": 2070,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2070",
+      "of_core_19nt": "AGCAGGAAGCGUGGAUGCU",
+      "OligoFormer_efficacy": 0.596728,
+      "OligoFormer_rank_in_gene": 88
+    },
+    {
+      "guide": "CGGGGGGCUGGUAUUCAUCCG",
+      "target_pos": 792,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_792",
+      "of_core_19nt": "CGGGGGGCUGGUAUUCAUC",
+      "OligoFormer_efficacy": 0.594127,
+      "OligoFormer_rank_in_gene": 89
+    },
+    {
+      "guide": "CCAGCCCAAUCUGCGUUUCUG",
+      "target_pos": 3204,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3204",
+      "of_core_19nt": "CCAGCCCAAUCUGCGUUUC",
+      "OligoFormer_efficacy": 0.593543,
+      "OligoFormer_rank_in_gene": 90
+    },
+    {
+      "guide": "ACUGCGAGAGGUGGGUCUCCU",
+      "target_pos": 540,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_540",
+      "of_core_19nt": "ACUGCGAGAGGUGGGUCUC",
+      "OligoFormer_efficacy": 0.592524,
+      "OligoFormer_rank_in_gene": 91
+    },
+    {
+      "guide": "GGUCCUCAGGGAACCAGGCCU",
+      "target_pos": 1566,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1566",
+      "of_core_19nt": "GGUCCUCAGGGAACCAGGC",
+      "OligoFormer_efficacy": 0.591965,
+      "OligoFormer_rank_in_gene": 92
+    },
+    {
+      "guide": "AGCGGUGGAAGGUGGCUGUGG",
+      "target_pos": 468,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_468",
+      "of_core_19nt": "AGCGGUGGAAGGUGGCUGU",
+      "OligoFormer_efficacy": 0.590128,
+      "OligoFormer_rank_in_gene": 93
+    },
+    {
+      "guide": "AGAGGCAGGCAUCGUCCCGGA",
+      "target_pos": 1242,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1242",
+      "of_core_19nt": "AGAGGCAGGCAUCGUCCCG",
+      "OligoFormer_efficacy": 0.58958,
+      "OligoFormer_rank_in_gene": 94
+    },
+    {
+      "guide": "UGCUGGCACCCUUGGCCACGC",
+      "target_pos": 1008,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1008",
+      "of_core_19nt": "UGCUGGCACCCUUGGCCAC",
+      "OligoFormer_efficacy": 0.587226,
+      "OligoFormer_rank_in_gene": 95
+    },
+    {
+      "guide": "CACAGCCUGGCAUAGAGCAGA",
+      "target_pos": 2988,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2988",
+      "of_core_19nt": "CACAGCCUGGCAUAGAGCA",
+      "OligoFormer_efficacy": 0.585911,
+      "OligoFormer_rank_in_gene": 96
+    },
+    {
+      "guide": "GAAAAGUUGGCUGUAAAAAGG",
+      "target_pos": 3510,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3510",
+      "of_core_19nt": "GAAAAGUUGGCUGUAAAAA",
+      "OligoFormer_efficacy": 0.583006,
+      "OligoFormer_rank_in_gene": 97
+    },
+    {
+      "guide": "CGCACUGGUUGGGCUGACCUC",
+      "target_pos": 2034,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2034",
+      "of_core_19nt": "CGCACUGGUUGGGCUGACC",
+      "OligoFormer_efficacy": 0.58145,
+      "OligoFormer_rank_in_gene": 98
+    },
+    {
+      "guide": "GAGGACUGUGCAGGAGCUGAA",
+      "target_pos": 180,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_180",
+      "of_core_19nt": "GAGGACUGUGCAGGAGCUG",
+      "OligoFormer_efficacy": 0.579234,
+      "OligoFormer_rank_in_gene": 99
+    },
+    {
+      "guide": "AAUCCUGGCUGGGAGCUGGGA",
+      "target_pos": 126,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_126",
+      "of_core_19nt": "AAUCCUGGCUGGGAGCUGG",
+      "OligoFormer_efficacy": 0.576642,
+      "OligoFormer_rank_in_gene": 100
+    },
+    {
+      "guide": "GAGAGAGGGACAAGUCGGAAC",
+      "target_pos": 2430,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2430",
+      "of_core_19nt": "GAGAGAGGGACAAGUCGGA",
+      "OligoFormer_efficacy": 0.573028,
+      "OligoFormer_rank_in_gene": 101
+    },
+    {
+      "guide": "UGACCACCCCUGCCAGGUGGG",
+      "target_pos": 972,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_972",
+      "of_core_19nt": "UGACCACCCCUGCCAGGUG",
+      "OligoFormer_efficacy": 0.571071,
+      "OligoFormer_rank_in_gene": 102
+    },
+    {
+      "guide": "CCACCAGGCUGCCUCCGUCGG",
+      "target_pos": 810,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_810",
+      "of_core_19nt": "CCACCAGGCUGCCUCCGUC",
+      "OligoFormer_efficacy": 0.5692,
+      "OligoFormer_rank_in_gene": 103
+    },
+    {
+      "guide": "UGAGGUAUCCCCGGCGGGCAG",
+      "target_pos": 594,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_594",
+      "of_core_19nt": "UGAGGUAUCCCCGGCGGGC",
+      "OligoFormer_efficacy": 0.565886,
+      "OligoFormer_rank_in_gene": 104
+    },
+    {
+      "guide": "CCUGCCGGGUAGUGGAGCGGG",
+      "target_pos": 3096,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3096",
+      "of_core_19nt": "CCUGCCGGGUAGUGGAGCG",
+      "OligoFormer_efficacy": 0.565136,
+      "OligoFormer_rank_in_gene": 105
+    },
+    {
+      "guide": "CAUGCACCACUGCACACUGCC",
+      "target_pos": 3060,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3060",
+      "of_core_19nt": "CAUGCACCACUGCACACUG",
+      "OligoFormer_efficacy": 0.564062,
+      "OligoFormer_rank_in_gene": 106
+    },
+    {
+      "guide": "GAAUCAGGCCUGGGUGAUAAC",
+      "target_pos": 3366,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3366",
+      "of_core_19nt": "GAAUCAGGCCUGGGUGAUA",
+      "OligoFormer_efficacy": 0.564041,
+      "OligoFormer_rank_in_gene": 107
+    },
+    {
+      "guide": "UGGAGCUGACGGUGCCCAUGA",
+      "target_pos": 288,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_288",
+      "of_core_19nt": "UGGAGCUGACGGUGCCCAU",
+      "OligoFormer_efficacy": 0.563392,
+      "OligoFormer_rank_in_gene": 108
+    },
+    {
+      "guide": "CACUGCAGCCAGUCAGGGUCC",
+      "target_pos": 2178,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2178",
+      "of_core_19nt": "CACUGCAGCCAGUCAGGGU",
+      "OligoFormer_efficacy": 0.562884,
+      "OligoFormer_rank_in_gene": 109
+    },
+    {
+      "guide": "CCUUCCCUUGGCAGUUGAGCA",
+      "target_pos": 1044,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1044",
+      "of_core_19nt": "CCUUCCCUUGGCAGUUGAG",
+      "OligoFormer_efficacy": 0.561034,
+      "OligoFormer_rank_in_gene": 110
+    },
+    {
+      "guide": "GCUAAGCCUCCAUUAAUCAGG",
+      "target_pos": 2880,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2880",
+      "of_core_19nt": "GCUAAGCCUCCAUUAAUCA",
+      "OligoFormer_efficacy": 0.560149,
+      "OligoFormer_rank_in_gene": 111
+    },
+    {
+      "guide": "GCGGCUUGUGGGUGCCAAGGU",
+      "target_pos": 1998,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1998",
+      "of_core_19nt": "GCGGCUUGUGGGUGCCAAG",
+      "OligoFormer_efficacy": 0.559223,
+      "OligoFormer_rank_in_gene": 112
+    },
+    {
+      "guide": "UGCAGUUGGCCUGGGGUAGCA",
+      "target_pos": 1872,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1872",
+      "of_core_19nt": "UGCAGUUGGCCUGGGGUAG",
+      "OligoFormer_efficacy": 0.559214,
+      "OligoFormer_rank_in_gene": 113
+    },
+    {
+      "guide": "CCUCAUUGAUGACAUCUUUGG",
+      "target_pos": 1548,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1548",
+      "of_core_19nt": "CCUCAUUGAUGACAUCUUU",
+      "OligoFormer_efficacy": 0.559207,
+      "OligoFormer_rank_in_gene": 114
+    },
+    {
+      "guide": "GACCUAGAGGCCGUGCGCGGU",
+      "target_pos": 234,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_234",
+      "of_core_19nt": "GACCUAGAGGCCGUGCGCG",
+      "OligoFormer_efficacy": 0.558313,
+      "OligoFormer_rank_in_gene": 115
+    },
+    {
+      "guide": "GCUCCUUGACUUUGCAUUCCA",
+      "target_pos": 2106,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2106",
+      "of_core_19nt": "GCUCCUUGACUUUGCAUUC",
+      "OligoFormer_efficacy": 0.557229,
+      "OligoFormer_rank_in_gene": 116
+    },
+    {
+      "guide": "UGCUUGCUUGGGUGGGGCUGG",
+      "target_pos": 3456,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3456",
+      "of_core_19nt": "UGCUUGCUUGGGUGGGGCU",
+      "OligoFormer_efficacy": 0.557072,
+      "OligoFormer_rank_in_gene": 117
+    },
+    {
+      "guide": "GGCUGUACCCACCCGCCAGGG",
+      "target_pos": 1152,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1152",
+      "of_core_19nt": "GGCUGUACCCACCCGCCAG",
+      "OligoFormer_efficacy": 0.555302,
+      "OligoFormer_rank_in_gene": 118
+    },
+    {
+      "guide": "UGACCAGCACGACCCCAGCCC",
+      "target_pos": 1206,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1206",
+      "of_core_19nt": "UGACCAGCACGACCCCAGC",
+      "OligoFormer_efficacy": 0.554265,
+      "OligoFormer_rank_in_gene": 119
+    },
+    {
+      "guide": "UCACGGCCCCUUCGCUGGUGC",
+      "target_pos": 2286,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2286",
+      "of_core_19nt": "UCACGGCCCCUUCGCUGGU",
+      "OligoFormer_efficacy": 0.553653,
+      "OligoFormer_rank_in_gene": 120
+    },
+    {
+      "guide": "AGCCCCGGAAAGGCGGAAGCA",
+      "target_pos": 2484,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2484",
+      "of_core_19nt": "AGCCCCGGAAAGGCGGAAG",
+      "OligoFormer_efficacy": 0.550288,
+      "OligoFormer_rank_in_gene": 121
+    },
+    {
+      "guide": "CCAGGGUGAGCUCCGGCUCGG",
+      "target_pos": 1494,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1494",
+      "of_core_19nt": "CCAGGGUGAGCUCCGGCUC",
+      "OligoFormer_efficacy": 0.549367,
+      "OligoFormer_rank_in_gene": 122
+    },
+    {
+      "guide": "GGCAGUGGACACGGGUCCCCA",
+      "target_pos": 1926,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1926",
+      "of_core_19nt": "GGCAGUGGACACGGGUCCC",
+      "OligoFormer_efficacy": 0.548395,
+      "OligoFormer_rank_in_gene": 123
+    },
+    {
+      "guide": "CGUAGGUGCCAGGCAACCUCC",
+      "target_pos": 504,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_504",
+      "of_core_19nt": "CGUAGGUGCCAGGCAACCU",
+      "OligoFormer_efficacy": 0.54548,
+      "OligoFormer_rank_in_gene": 124
+    },
+    {
+      "guide": "CGUCCCGGCUCCUGACUACAC",
+      "target_pos": 2250,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2250",
+      "of_core_19nt": "CGUCCCGGCUCCUGACUAC",
+      "OligoFormer_efficacy": 0.544239,
+      "OligoFormer_rank_in_gene": 125
+    },
+    {
+      "guide": "GGCAAGGAGGCUGCCCCACUC",
+      "target_pos": 2520,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2520",
+      "of_core_19nt": "GGCAAGGAGGCUGCCCCAC",
+      "OligoFormer_efficacy": 0.54132,
+      "OligoFormer_rank_in_gene": 126
+    },
+    {
+      "guide": "GGCUCACUCCUCCAGGCUCAG",
+      "target_pos": 54,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_54",
+      "of_core_19nt": "GGCUCACUCCUCCAGGCUC",
+      "OligoFormer_efficacy": 0.5363,
+      "OligoFormer_rank_in_gene": 127
+    },
+    {
+      "guide": "GAGGGGCCGGGAUUCCAUGCU",
+      "target_pos": 2124,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2124",
+      "of_core_19nt": "GAGGGGCCGGGAUUCCAUG",
+      "OligoFormer_efficacy": 0.536295,
+      "OligoFormer_rank_in_gene": 128
+    },
+    {
+      "guide": "GUGGAGCUGUGUGGACGCUGC",
+      "target_pos": 1890,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1890",
+      "of_core_19nt": "GUGGAGCUGUGUGGACGCU",
+      "OligoFormer_efficacy": 0.530021,
+      "OligoFormer_rank_in_gene": 129
+    },
+    {
+      "guide": "GGGUGCCAUGACUGUCACACU",
+      "target_pos": 954,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_954",
+      "of_core_19nt": "GGGUGCCAUGACUGUCACA",
+      "OligoFormer_efficacy": 0.529984,
+      "OligoFormer_rank_in_gene": 130
+    },
+    {
+      "guide": "GCGUGAAGGGGCGCGCGGAAU",
+      "target_pos": 144,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_144",
+      "of_core_19nt": "GCGUGAAGGGGCGCGCGGA",
+      "OligoFormer_efficacy": 0.527808,
+      "OligoFormer_rank_in_gene": 131
+    },
+    {
+      "guide": "CAGGAAGAAGGCCAUGGAAGA",
+      "target_pos": 630,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_630",
+      "of_core_19nt": "CAGGAAGAAGGCCAUGGAA",
+      "OligoFormer_efficacy": 0.524421,
+      "OligoFormer_rank_in_gene": 132
+    },
+    {
+      "guide": "CUCAAGGGCCAGGCCAGCAGC",
+      "target_pos": 2502,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2502",
+      "of_core_19nt": "CUCAAGGGCCAGGCCAGCA",
+      "OligoFormer_efficacy": 0.523479,
+      "OligoFormer_rank_in_gene": 133
+    },
+    {
+      "guide": "CCUCGGGCACAUUCUCGAAGU",
+      "target_pos": 900,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_900",
+      "of_core_19nt": "CCUCGGGCACAUUCUCGAA",
+      "OligoFormer_efficacy": 0.522698,
+      "OligoFormer_rank_in_gene": 134
+    },
+    {
+      "guide": "CUUGGGCAUUGGUGGCCCCAA",
+      "target_pos": 1296,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1296",
+      "of_core_19nt": "CUUGGGCAUUGGUGGCCCC",
+      "OligoFormer_efficacy": 0.522189,
+      "OligoFormer_rank_in_gene": 135
+    },
+    {
+      "guide": "GCUCCUGGGAGGCCUGCGCCA",
+      "target_pos": 2340,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2340",
+      "of_core_19nt": "GCUCCUGGGAGGCCUGCGC",
+      "OligoFormer_efficacy": 0.521184,
+      "OligoFormer_rank_in_gene": 136
+    },
+    {
+      "guide": "CAUCUCCGCCAGGCCAGUGAA",
+      "target_pos": 3384,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3384",
+      "of_core_19nt": "CAUCUCCGCCAGGCCAGUG",
+      "OligoFormer_efficacy": 0.520983,
+      "OligoFormer_rank_in_gene": 137
+    },
+    {
+      "guide": "GCUCCAGCAGGUCGCCACUCA",
+      "target_pos": 666,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_666",
+      "of_core_19nt": "GCUCCAGCAGGUCGCCACU",
+      "OligoFormer_efficacy": 0.520931,
+      "OligoFormer_rank_in_gene": 138
+    },
+    {
+      "guide": "CAUGAGCGCCUCGACGUCGCU",
+      "target_pos": 0,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_0",
+      "of_core_19nt": "CAUGAGCGCCUCGACGUCG",
+      "OligoFormer_efficacy": 0.52065,
+      "OligoFormer_rank_in_gene": 139
+    },
+    {
+      "guide": "GUGACCACCAGGGGCGCACCU",
+      "target_pos": 2934,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2934",
+      "of_core_19nt": "GUGACCACCAGGGGCGCAC",
+      "OligoFormer_efficacy": 0.519675,
+      "OligoFormer_rank_in_gene": 140
+    },
+    {
+      "guide": "GGGUAAUCCGCUCCAGGUUCC",
+      "target_pos": 756,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_756",
+      "of_core_19nt": "GGGUAAUCCGCUCCAGGUU",
+      "OligoFormer_efficacy": 0.516479,
+      "OligoFormer_rank_in_gene": 141
+    },
+    {
+      "guide": "CCACGGUCACCUGCUCCUGAG",
+      "target_pos": 2142,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2142",
+      "of_core_19nt": "CCACGGUCACCUGCUCCUG",
+      "OligoFormer_efficacy": 0.515679,
+      "OligoFormer_rank_in_gene": 142
+    },
+    {
+      "guide": "CCCCAGCCCUUGACCCUCCCC",
+      "target_pos": 2394,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2394",
+      "of_core_19nt": "CCCCAGCCCUUGACCCUCC",
+      "OligoFormer_efficacy": 0.512548,
+      "OligoFormer_rank_in_gene": 143
+    },
+    {
+      "guide": "GAUGGGGCUGUCACUGGAGCU",
+      "target_pos": 2358,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2358",
+      "of_core_19nt": "GAUGGGGCUGUCACUGGAG",
+      "OligoFormer_efficacy": 0.511877,
+      "OligoFormer_rank_in_gene": 144
+    },
+    {
+      "guide": "GACCCAGGAGCAGCAGCAGCA",
+      "target_pos": 342,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_342",
+      "of_core_19nt": "GACCCAGGAGCAGCAGCAG",
+      "OligoFormer_efficacy": 0.510478,
+      "OligoFormer_rank_in_gene": 145
+    },
+    {
+      "guide": "CUUCGGCCAGGCCGUCCUCCU",
+      "target_pos": 432,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_432",
+      "of_core_19nt": "CUUCGGCCAGGCCGUCCUC",
+      "OligoFormer_efficacy": 0.508643,
+      "OligoFormer_rank_in_gene": 146
+    },
+    {
+      "guide": "CUUGAGCCUUGCGGUGGGGAG",
+      "target_pos": 198,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_198",
+      "of_core_19nt": "CUUGAGCCUUGCGGUGGGG",
+      "OligoFormer_efficacy": 0.506207,
+      "OligoFormer_rank_in_gene": 147
+    },
+    {
+      "guide": "UGGCCUCCCUGUGGCCCACGC",
+      "target_pos": 2052,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2052",
+      "of_core_19nt": "UGGCCUCCCUGUGGCCCAC",
+      "OligoFormer_efficacy": 0.505641,
+      "OligoFormer_rank_in_gene": 148
+    },
+    {
+      "guide": "GAGCUGAGGCUGGGGAGUAGA",
+      "target_pos": 1260,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1260",
+      "of_core_19nt": "GAGCUGAGGCUGGGGAGUA",
+      "OligoFormer_efficacy": 0.500647,
+      "OligoFormer_rank_in_gene": 149
+    },
+    {
+      "guide": "CCAUGCUGGCCUCAGCUGGUG",
+      "target_pos": 1908,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1908",
+      "of_core_19nt": "CCAUGCUGGCCUCAGCUGG",
+      "OligoFormer_efficacy": 0.499836,
+      "OligoFormer_rank_in_gene": 150
+    },
+    {
+      "guide": "GGGGCAGCAGCACCACCAGUG",
+      "target_pos": 1134,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1134",
+      "of_core_19nt": "GGGGCAGCAGCACCACCAG",
+      "OligoFormer_efficacy": 0.499515,
+      "OligoFormer_rank_in_gene": 151
+    },
+    {
+      "guide": "GCAGCAGCAGCAGUGGCAGCG",
+      "target_pos": 324,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_324",
+      "of_core_19nt": "GCAGCAGCAGCAGUGGCAG",
+      "OligoFormer_efficacy": 0.494854,
+      "OligoFormer_rank_in_gene": 152
+    },
+    {
+      "guide": "CCUGGUCUGUGUUCCCCUUCC",
+      "target_pos": 3294,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3294",
+      "of_core_19nt": "CCUGGUCUGUGUUCCCCUU",
+      "OligoFormer_efficacy": 0.494214,
+      "OligoFormer_rank_in_gene": 153
+    },
+    {
+      "guide": "CCCUAUCCAUGGGAAGAAUCC",
+      "target_pos": 2754,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2754",
+      "of_core_19nt": "CCCUAUCCAUGGGAAGAAU",
+      "OligoFormer_efficacy": 0.493244,
+      "OligoFormer_rank_in_gene": 154
+    },
+    {
+      "guide": "UCCAGCCCUCCUCGCAGGCCA",
+      "target_pos": 2160,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2160",
+      "of_core_19nt": "UCCAGCCCUCCUCGCAGGC",
+      "OligoFormer_efficacy": 0.492327,
+      "OligoFormer_rank_in_gene": 155
+    },
+    {
+      "guide": "CCCACGGACAUCGGCACAUUG",
+      "target_pos": 2664,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2664",
+      "of_core_19nt": "CCCACGGACAUCGGCACAU",
+      "OligoFormer_efficacy": 0.488807,
+      "OligoFormer_rank_in_gene": 156
+    },
+    {
+      "guide": "GCGGCGCCCGCCUGCAACCAU",
+      "target_pos": 18,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_18",
+      "of_core_19nt": "GCGGCGCCCGCCUGCAACC",
+      "OligoFormer_efficacy": 0.488475,
+      "OligoFormer_rank_in_gene": 157
+    },
+    {
+      "guide": "CAUCUGGGGCGCAGCGGGCGA",
+      "target_pos": 1710,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1710",
+      "of_core_19nt": "CAUCUGGGGCGCAGCGGGC",
+      "OligoFormer_efficacy": 0.487587,
+      "OligoFormer_rank_in_gene": 158
+    },
+    {
+      "guide": "GGACGUGGCCCUGUUGGUGGC",
+      "target_pos": 1944,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1944",
+      "of_core_19nt": "GGACGUGGCCCUGUUGGUG",
+      "OligoFormer_efficacy": 0.487065,
+      "OligoFormer_rank_in_gene": 159
+    },
+    {
+      "guide": "CCGCCCGGUACCGUGGAGGGG",
+      "target_pos": 774,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_774",
+      "of_core_19nt": "CCGCCCGGUACCGUGGAGG",
+      "OligoFormer_efficacy": 0.483139,
+      "OligoFormer_rank_in_gene": 160
+    },
+    {
+      "guide": "CCAGGUGCCGGCUCCGGCAGC",
+      "target_pos": 2322,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2322",
+      "of_core_19nt": "CCAGGUGCCGGCUCCGGCA",
+      "OligoFormer_efficacy": 0.48243,
+      "OligoFormer_rank_in_gene": 161
+    },
+    {
+      "guide": "CCAGCUGGCUUUUCCGAAUAA",
+      "target_pos": 1098,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1098",
+      "of_core_19nt": "CCAGCUGGCUUUUCCGAAU",
+      "OligoFormer_efficacy": 0.478193,
+      "OligoFormer_rank_in_gene": 162
+    },
+    {
+      "guide": "CCCAGACACCCAUCCUGGGAU",
+      "target_pos": 2376,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2376",
+      "of_core_19nt": "CCCAGACACCCAUCCUGGG",
+      "OligoFormer_efficacy": 0.476121,
+      "OligoFormer_rank_in_gene": 163
+    },
+    {
+      "guide": "GGGAGGUCCCAGGGAGGGCAC",
+      "target_pos": 2196,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2196",
+      "of_core_19nt": "GGGAGGUCCCAGGGAGGGC",
+      "OligoFormer_efficacy": 0.475932,
+      "OligoFormer_rank_in_gene": 164
+    },
+    {
+      "guide": "CCUCCCCUGGGGCAAAGAGGU",
+      "target_pos": 1368,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1368",
+      "of_core_19nt": "CCUCCCCUGGGGCAAAGAG",
+      "OligoFormer_efficacy": 0.475793,
+      "OligoFormer_rank_in_gene": 165
+    },
+    {
+      "guide": "AGCCCCUACCGCCCCCUCCCC",
+      "target_pos": 2772,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2772",
+      "of_core_19nt": "AGCCCCUACCGCCCCCUCC",
+      "OligoFormer_efficacy": 0.474194,
+      "OligoFormer_rank_in_gene": 166
+    },
+    {
+      "guide": "UGAGGGCCAGGGGAGAGGUUG",
+      "target_pos": 270,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_270",
+      "of_core_19nt": "UGAGGGCCAGGGGAGAGGU",
+      "OligoFormer_efficacy": 0.473592,
+      "OligoFormer_rank_in_gene": 167
+    },
+    {
+      "guide": "ACCUGGGGAGGAGGCACCCAG",
+      "target_pos": 2556,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2556",
+      "of_core_19nt": "ACCUGGGGAGGAGGCACCC",
+      "OligoFormer_efficacy": 0.472198,
+      "OligoFormer_rank_in_gene": 168
+    },
+    {
+      "guide": "GCAGGCAGCACCUGGCAAUGG",
+      "target_pos": 1854,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1854",
+      "of_core_19nt": "GCAGGCAGCACCUGGCAAU",
+      "OligoFormer_efficacy": 0.471226,
+      "OligoFormer_rank_in_gene": 169
+    },
+    {
+      "guide": "GCACGCGCAGGCUGCGCAUGC",
+      "target_pos": 1026,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1026",
+      "of_core_19nt": "GCACGCGCAGGCUGCGCAU",
+      "OligoFormer_efficacy": 0.469295,
+      "OligoFormer_rank_in_gene": 170
+    },
+    {
+      "guide": "GUCACCAUAUUAAUAAAAAUG",
+      "target_pos": 3582,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3582",
+      "of_core_19nt": "GUCACCAUAUUAAUAAAAA",
+      "OligoFormer_efficacy": 0.468927,
+      "OligoFormer_rank_in_gene": 171
+    },
+    {
+      "guide": "GCGGCCACCAGGACCGCCUGG",
+      "target_pos": 306,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_306",
+      "of_core_19nt": "GCGGCCACCAGGACCGCCU",
+      "OligoFormer_efficacy": 0.465028,
+      "OligoFormer_rank_in_gene": 172
+    },
+    {
+      "guide": "GGGCAGCAGCCUGUGAUGUCC",
+      "target_pos": 1440,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1440",
+      "of_core_19nt": "GGGCAGCAGCCUGUGAUGU",
+      "OligoFormer_efficacy": 0.464858,
+      "OligoFormer_rank_in_gene": 173
+    },
+    {
+      "guide": "GGCGGGCAGUGCGCUCUGACU",
+      "target_pos": 558,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_558",
+      "of_core_19nt": "GGCGGGCAGUGCGCUCUGA",
+      "OligoFormer_efficacy": 0.461354,
+      "OligoFormer_rank_in_gene": 174
+    },
+    {
+      "guide": "GUGGCCCCACAGGCUGGACCA",
+      "target_pos": 1116,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1116",
+      "of_core_19nt": "GUGGCCCCACAGGCUGGAC",
+      "OligoFormer_efficacy": 0.4596,
+      "OligoFormer_rank_in_gene": 175
+    },
+    {
+      "guide": "GAGCUUCCUGGCACCUCCACC",
+      "target_pos": 2574,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2574",
+      "of_core_19nt": "GAGCUUCCUGGCACCUCCA",
+      "OligoFormer_efficacy": 0.452656,
+      "OligoFormer_rank_in_gene": 176
+    },
+    {
+      "guide": "GGUCCUCCACCUCCCAGUGGG",
+      "target_pos": 1980,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1980",
+      "of_core_19nt": "GGUCCUCCACCUCCCAGUG",
+      "OligoFormer_efficacy": 0.448825,
+      "OligoFormer_rank_in_gene": 177
+    },
+    {
+      "guide": "GAUGGCUCCCCGCAGGCCACC",
+      "target_pos": 3024,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3024",
+      "of_core_19nt": "GAUGGCUCCCCGCAGGCCA",
+      "OligoFormer_efficacy": 0.447321,
+      "OligoFormer_rank_in_gene": 178
+    },
+    {
+      "guide": "AGGCGGCGUUGAGGACGCGGC",
+      "target_pos": 1170,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1170",
+      "of_core_19nt": "AGGCGGCGUUGAGGACGCG",
+      "OligoFormer_efficacy": 0.444125,
+      "OligoFormer_rank_in_gene": 179
+    },
+    {
+      "guide": "GGUCCACGCCGGCGGCGCCUU",
+      "target_pos": 216,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_216",
+      "of_core_19nt": "GGUCCACGCCGGCGGCGCC",
+      "OligoFormer_efficacy": 0.438126,
+      "OligoFormer_rank_in_gene": 180
+    },
+    {
+      "guide": "CCCCUUGGGCCUCCAUGCGCU",
+      "target_pos": 1782,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1782",
+      "of_core_19nt": "CCCCUUGGGCCUCCAUGCG",
+      "OligoFormer_efficacy": 0.437752,
+      "OligoFormer_rank_in_gene": 181
+    },
+    {
+      "guide": "GCCAGGCCAUGGAGGGCUGAG",
+      "target_pos": 2448,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2448",
+      "of_core_19nt": "GCCAGGCCAUGGAGGGCUG",
+      "OligoFormer_efficacy": 0.436216,
+      "OligoFormer_rank_in_gene": 182
+    },
+    {
+      "guide": "CGACGGCUGUGGCCAUCCGUG",
+      "target_pos": 1692,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1692",
+      "of_core_19nt": "CGACGGCUGUGGCCAUCCG",
+      "OligoFormer_efficacy": 0.435595,
+      "OligoFormer_rank_in_gene": 183
+    },
+    {
+      "guide": "GCCCCCUCUGGUUCCAGGUUU",
+      "target_pos": 3150,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_3150",
+      "of_core_19nt": "GCCCCCUCUGGUUCCAGGU",
+      "OligoFormer_efficacy": 0.435208,
+      "OligoFormer_rank_in_gene": 184
+    },
+    {
+      "guide": "CCAGGGUCACCGGCUGGUCUU",
+      "target_pos": 1314,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1314",
+      "of_core_19nt": "CCAGGGUCACCGGCUGGUC",
+      "OligoFormer_efficacy": 0.433805,
+      "OligoFormer_rank_in_gene": 185
+    },
+    {
+      "guide": "GCCCCACAGUGAGGGAGGGAG",
+      "target_pos": 2592,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2592",
+      "of_core_19nt": "GCCCCACAGUGAGGGAGGG",
+      "OligoFormer_efficacy": 0.430164,
+      "OligoFormer_rank_in_gene": 186
+    },
+    {
+      "guide": "GCUCGCCCCGCCGCUUCCCAC",
+      "target_pos": 1764,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1764",
+      "of_core_19nt": "GCUCGCCCCGCCGCUUCCC",
+      "OligoFormer_efficacy": 0.42153,
+      "OligoFormer_rank_in_gene": 187
+    },
+    {
+      "guide": "GGUCCACACAGCGGCCAAAGU",
+      "target_pos": 1350,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1350",
+      "of_core_19nt": "GGUCCACACAGCGGCCAAA",
+      "OligoFormer_efficacy": 0.417592,
+      "OligoFormer_rank_in_gene": 188
+    },
+    {
+      "guide": "GCAUCCCCAUCCCCUCGUGCC",
+      "target_pos": 2466,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2466",
+      "of_core_19nt": "GCAUCCCCAUCCCCUCGUG",
+      "OligoFormer_efficacy": 0.408012,
+      "OligoFormer_rank_in_gene": 189
+    },
+    {
+      "guide": "CCAGACCUGGGGCAUGGCAGC",
+      "target_pos": 2088,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2088",
+      "of_core_19nt": "CCAGACCUGGGGCAUGGCA",
+      "OligoFormer_efficacy": 0.404876,
+      "OligoFormer_rank_in_gene": 190
+    },
+    {
+      "guide": "CCCCAUGGGUGCUGGGGGGCA",
+      "target_pos": 1620,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1620",
+      "of_core_19nt": "CCCCAUGGGUGCUGGGGGG",
+      "OligoFormer_efficacy": 0.399158,
+      "OligoFormer_rank_in_gene": 191
+    },
+    {
+      "guide": "CGUAGGCCCCCAGGACGUGGG",
+      "target_pos": 2214,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2214",
+      "of_core_19nt": "CGUAGGCCCCCAGGACGUG",
+      "OligoFormer_efficacy": 0.397691,
+      "OligoFormer_rank_in_gene": 192
+    },
+    {
+      "guide": "CAGCCUGGGCCUGCAGGCGGC",
+      "target_pos": 576,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_576",
+      "of_core_19nt": "CAGCCUGGGCCUGCAGGCG",
+      "OligoFormer_efficacy": 0.396922,
+      "OligoFormer_rank_in_gene": 193
+    },
+    {
+      "guide": "GCGCACGGGCGCCCGCGGGAC",
+      "target_pos": 360,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_360",
+      "of_core_19nt": "GCGCACGGGCGCCCGCGGG",
+      "OligoFormer_efficacy": 0.388759,
+      "OligoFormer_rank_in_gene": 194
+    },
+    {
+      "guide": "CGCCGUCCUCGUCCUCCUGCG",
+      "target_pos": 378,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_378",
+      "of_core_19nt": "CGCCGUCCUCGUCCUCCUG",
+      "OligoFormer_efficacy": 0.374544,
+      "OligoFormer_rank_in_gene": 195
+    },
+    {
+      "guide": "CGCCGGCAUCCCGGCCGCUGA",
+      "target_pos": 990,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_990",
+      "of_core_19nt": "CGCCGGCAUCCCGGCCGCU",
+      "OligoFormer_efficacy": 0.372803,
+      "OligoFormer_rank_in_gene": 196
+    },
+    {
+      "guide": "AGGGAGCCCCCAGGGGCUUCU",
+      "target_pos": 2862,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_2862",
+      "of_core_19nt": "AGGGAGCCCCCAGGGGCUU",
+      "OligoFormer_efficacy": 0.371476,
+      "OligoFormer_rank_in_gene": 197
+    },
+    {
+      "guide": "CCCUCGCCAGGCGCUGGCAGG",
+      "target_pos": 1188,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1188",
+      "of_core_19nt": "CCCUCGCCAGGCGCUGGCA",
+      "OligoFormer_efficacy": 0.3599,
+      "OligoFormer_rank_in_gene": 198
+    },
+    {
+      "guide": "GCAGGGCGGCCACCAGGUUGG",
+      "target_pos": 1602,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_1602",
+      "of_core_19nt": "GCAGGGCGGCCACCAGGUU",
+      "OligoFormer_efficacy": 0.344262,
+      "OligoFormer_rank_in_gene": 199
+    },
+    {
+      "guide": "ACGCGUCCCGGCCCGCCCGAG",
+      "target_pos": 90,
+      "gene": "PCSK9",
+      "accession": "NM_174936.4",
+      "id": "des_PCSK9_90",
+      "of_core_19nt": "ACGCGUCCCGGCCCGCCCG",
+      "OligoFormer_efficacy": 0.311586,
+      "OligoFormer_rank_in_gene": 200
+    }
+  ]
+}
