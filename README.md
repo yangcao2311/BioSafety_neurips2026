@@ -82,7 +82,6 @@ weights and are not directly comparable.
 | `siRNA/` | Pipeline B siRNA off-target evaluation |
 | `analysis/` | Threshold sensitivity sweep and loss-of-function negative control, with their result JSON |
 | `tools/` | Detector registry, threshold-sweep driver, L4 record materialization, coverage smoke runs |
-| `pipeline_figures/` | Figure builders, including the deterministic per-level concern heatmaps |
 
 Docstrings and comments in the probe scripts cite section numbers of an internal
 specification document (`BioSafety_Benchmark.md`), which is not part of this release; the

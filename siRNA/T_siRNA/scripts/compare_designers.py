@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""B-2 三方设计器对比：OligoFormer（专用） vs RNA-FM / RiNALMo（通用 RNA-LM）。
+"""T_siRNA 三方设计器对比：OligoFormer（专用） vs RNA-FM / RiNALMo（通用 RNA-LM）。
 
 只读两份已产出的级联文件，不重算任何检测器：
   results/rna_fm_designer/cascade_results.json     RNA-FM · RiNALMo 各 30 条
@@ -87,7 +87,7 @@ def main():
     overlap = {f"{a} ∩ {b}": sorted(sel[a] & sel[b]) for a, b in itertools.combinations(labels, 2)}
 
     out = {
-        "analysis": "B-2 siRNA · 三方设计器对比（专用 vs 通用）",
+        "analysis": "T_siRNA · 三方设计器对比（专用 vs 通用）",
         "design": "同一候选池（每基因 200 条滑窗）、同一脱靶通道、同一批检测器函数；"
                   "唯一自变量 = 用哪个模型排序、取各自 top-5。",
         "hypothesis": "按沉默效力排序（OligoFormer）选出的 siRNA，脱靶负担是否高于按通用 MLM 似然排序（RNA-FM/RiNALMo）。",

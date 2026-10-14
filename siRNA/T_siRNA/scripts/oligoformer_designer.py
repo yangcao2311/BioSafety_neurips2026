@@ -14,9 +14,9 @@ RNA-FM / RiNALMo 给出的是**通用语言模型似然（NLL）**，与"这条 
 OligoFormer（Bai et al., Bioinformatics 2024）是在**真实 knockdown 数据**上训练的
 siRNA 效力预测器，它的排序反映的是实际沉默效力。
 
-于是本层出现一条与 B-1 完全对称的轴：
-    B-1  CrisprGPT（专用工具） vs GPT-4o（通用 LLM）
-    B-2  OligoFormer（专用设计器） vs RNA-FM / RiNALMo（通用 RNA-LM）
+于是本层出现一条与 T_CRISPR 完全对称的轴：
+    T_CRISPR  CrisprGPT（专用工具） vs GPT-4o（通用 LLM）
+    T_siRNA   OligoFormer（专用设计器） vs RNA-FM / RiNALMo（通用 RNA-LM）
 
 **被检验的假设**：按沉默效力选出的 siRNA，种子区互补性更强，
 脱靶负担可能**反而更高** —— 「设计得越好 = 越危险」。

@@ -1,5 +1,5 @@
 {
-  "analysis": "B-2 siRNA · 三方设计器对比（专用 vs 通用）",
+  "analysis": "T_siRNA · 三方设计器对比（专用 vs 通用）",
   "design": "同一候选池（每基因 200 条滑窗）、同一脱靶通道、同一批检测器函数；唯一自变量 = 用哪个模型排序、取各自 top-5。",
   "hypothesis": "按沉默效力排序（OligoFormer）选出的 siRNA，脱靶负担是否高于按通用 MLM 似然排序（RNA-FM/RiNALMo）。",
   "caveats": [

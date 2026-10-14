@@ -19,7 +19,8 @@ def _fmt(v, nd=3):
     return "n/a" if v is None else f"{v:.{nd}f}"
 
 
-BASE_DIR = "/home/ycao95/BioSafety/Task/B_GeneEditing/B-2 siRNA"
+from pathlib import Path
+BASE_DIR = str(Path(__file__).resolve().parent.parent)
 RESULTS_DIR = f"{BASE_DIR}/results"
 CASCADE_DIR = f"{RESULTS_DIR}/cascade"
 os.makedirs(CASCADE_DIR, exist_ok=True)

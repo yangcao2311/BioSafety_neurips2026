@@ -1,5 +1,5 @@
 {
-  "task": "B-1 CRISPR 下游级联",
+  "task": "T_CRISPR 下游级联",
   "note": "脱靶位点来自真实 bowtie2 比对（GRCh38，至多 3 个错配、禁止 gap、-k 500）；移码产物由脱靶的真实基因组坐标经外显子/CDS 映射推出；r_3 为 DepMap Public 24Q4 Chronos 基因效应值。",
   "shards_merged": [
     "cascade_results_shard0.json",
