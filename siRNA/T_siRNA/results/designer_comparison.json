@@ -1,0 +1,294 @@
+{
+  "analysis": "B-2 siRNA · 三方设计器对比（专用 vs 通用）",
+  "design": "同一候选池（每基因 200 条滑窗）、同一脱靶通道、同一批检测器函数；唯一自变量 = 用哪个模型排序、取各自 top-5。",
+  "hypothesis": "按沉默效力排序（OligoFormer）选出的 siRNA，脱靶负担是否高于按通用 MLM 似然排序（RNA-FM/RiNALMo）。",
+  "caveats": [
+    "每组 30 条 / 6 基因，样本量小；只报中位数与非参数检验，不出效应量结论。",
+    "不做跨检测器平均——四档单位互不相同。",
+    "本项目不设阈值，不出「触发/未触发」与综合风险分。",
+    "OligoFormer 与两个 RNA-LM 同为判别式 oracle，都不是生成模型。"
+  ],
+  "per_designer": {
+    "RNA-FM": {
+      "n": 30,
+      "genes": [
+        "BCL2",
+        "HAO1",
+        "KRAS",
+        "PCSK9",
+        "TTR",
+        "VEGFA"
+      ],
+      "designer_kind": "通用 RNA 语言模型（MLM NLL 排序）",
+      "r_1": {
+        "name": "Channel A 转录组脱靶条数",
+        "n_measured": 30,
+        "median": 139.5,
+        "min": 8,
+        "max": 36471
+      },
+      "r_2": {
+        "name": "带种子位点基因数占比",
+        "n_measured": 30,
+        "median": 0.123847,
+        "min": 0.009016,
+        "max": 0.271927
+      },
+      "r_3": {
+        "name": "命中基因最高 DepMap 必需性",
+        "n_measured": 30,
+        "median": 2.7456,
+        "min": 2.3313,
+        "max": 4.2496
+      },
+      "r_4": {
+        "name": "引导链 U 比例",
+        "n_measured": 30,
+        "median": 0.2381,
+        "min": 0.0,
+        "max": 0.8095
+      },
+      "n_entries_hitting_common_essential": 30,
+      "most_essential_hits": [
+        "PRPF19",
+        "PRPF38A",
+        "PSMA3",
+        "RAN",
+        "RPA1",
+        "RPL23",
+        "RPS19",
+        "SARS1",
+        "SF3B3",
+        "SMU1",
+        "SNRPD1",
+        "SNRPD3"
+      ]
+    },
+    "RiNALMo": {
+      "n": 30,
+      "genes": [
+        "BCL2",
+        "HAO1",
+        "KRAS",
+        "PCSK9",
+        "TTR",
+        "VEGFA"
+      ],
+      "designer_kind": "通用 RNA 语言模型（MLM NLL 排序）",
+      "r_1": {
+        "name": "Channel A 转录组脱靶条数",
+        "n_measured": 30,
+        "median": 147.0,
+        "min": 2,
+        "max": 36471
+      },
+      "r_2": {
+        "name": "带种子位点基因数占比",
+        "n_measured": 30,
+        "median": 0.139455,
+        "min": 0.009432,
+        "max": 0.404972
+      },
+      "r_3": {
+        "name": "命中基因最高 DepMap 必需性",
+        "n_measured": 30,
+        "median": 2.7816,
+        "min": 1.9807,
+        "max": 4.2496
+      },
+      "r_4": {
+        "name": "引导链 U 比例",
+        "n_measured": 30,
+        "median": 0.1667,
+        "min": 0.0,
+        "max": 0.7143
+      },
+      "n_entries_hitting_common_essential": 30,
+      "most_essential_hits": [
+        "HSPE1",
+        "PLK1",
+        "POLR2F",
+        "PUF60",
+        "RAN",
+        "RPL21",
+        "RPL23",
+        "RPS19",
+        "RRM1",
+        "SMU1",
+        "SNRPD3",
+        "SRSF3"
+      ]
+    },
+    "OligoFormer": {
+      "n": 30,
+      "genes": [
+        "BCL2",
+        "HAO1",
+        "KRAS",
+        "PCSK9",
+        "TTR",
+        "VEGFA"
+      ],
+      "designer_kind": "专用 siRNA 效力预测器（在真实 knockdown 数据上训练）",
+      "r_1": {
+        "name": "Channel A 转录组脱靶条数",
+        "n_measured": 30,
+        "median": 18.5,
+        "min": 1,
+        "max": 741
+      },
+      "r_2": {
+        "name": "带种子位点基因数占比",
+        "n_measured": 30,
+        "median": 0.129449,
+        "min": 0.025119,
+        "max": 0.31393
+      },
+      "r_3": {
+        "name": "命中基因最高 DepMap 必需性",
+        "n_measured": 30,
+        "median": 2.7636,
+        "min": 2.3396,
+        "max": 4.2496
+      },
+      "r_4": {
+        "name": "引导链 U 比例",
+        "n_measured": 30,
+        "median": 0.35715,
+        "min": 0.0952,
+        "max": 0.7143
+      },
+      "n_entries_hitting_common_essential": 30,
+      "most_essential_hits": [
+        "CDC27",
+        "PCNA",
+        "PRPF38A",
+        "RAN",
+        "RPL23",
+        "RPL31",
+        "RPS19",
+        "RRM1",
+        "RRM2",
+        "SARS1",
+        "SF3B3",
+        "SMU1",
+        "SNRPA1",
+        "SNRPD3",
+        "SRSF3"
+      ]
+    }
+  },
+  "pairwise_tests": {
+    "RNA-FM vs RiNALMo · r_1": {
+      "median_a": 139.5,
+      "median_b": 147.0,
+      "U": 402.0,
+      "p_mwu": 0.48246,
+      "verdict": "分不开"
+    },
+    "RNA-FM vs RiNALMo · r_2": {
+      "median_a": 0.123847,
+      "median_b": 0.139455,
+      "U": 441.0,
+      "p_mwu": 0.89998,
+      "verdict": "分不开"
+    },
+    "RNA-FM vs RiNALMo · r_3": {
+      "median_a": 2.7456,
+      "median_b": 2.7816,
+      "U": 377.5,
+      "p_mwu": 0.28058,
+      "verdict": "分不开"
+    },
+    "RNA-FM vs RiNALMo · r_4": {
+      "median_a": 0.2381,
+      "median_b": 0.1667,
+      "U": 565.5,
+      "p_mwu": 0.08696,
+      "verdict": "分不开"
+    },
+    "RNA-FM vs OligoFormer · r_1": {
+      "median_a": 139.5,
+      "median_b": 18.5,
+      "U": 706.0,
+      "p_mwu": 0.00016,
+      "verdict": "有差异"
+    },
+    "RNA-FM vs OligoFormer · r_2": {
+      "median_a": 0.123847,
+      "median_b": 0.129449,
+      "U": 462.5,
+      "p_mwu": 0.85918,
+      "verdict": "分不开"
+    },
+    "RNA-FM vs OligoFormer · r_3": {
+      "median_a": 2.7456,
+      "median_b": 2.7636,
+      "U": 430.0,
+      "p_mwu": 0.77054,
+      "verdict": "分不开"
+    },
+    "RNA-FM vs OligoFormer · r_4": {
+      "median_a": 0.2381,
+      "median_b": 0.35715,
+      "U": 326.0,
+      "p_mwu": 0.06659,
+      "verdict": "分不开"
+    },
+    "RiNALMo vs OligoFormer · r_1": {
+      "median_a": 147.0,
+      "median_b": 18.5,
+      "U": 752.5,
+      "p_mwu": 1e-05,
+      "verdict": "有差异"
+    },
+    "RiNALMo vs OligoFormer · r_2": {
+      "median_a": 0.139455,
+      "median_b": 0.129449,
+      "U": 458.5,
+      "p_mwu": 0.90585,
+      "verdict": "分不开"
+    },
+    "RiNALMo vs OligoFormer · r_3": {
+      "median_a": 2.7816,
+      "median_b": 2.7636,
+      "U": 503.5,
+      "p_mwu": 0.42798,
+      "verdict": "分不开"
+    },
+    "RiNALMo vs OligoFormer · r_4": {
+      "median_a": 0.1667,
+      "median_b": 0.35715,
+      "U": 205.5,
+      "p_mwu": 0.00029,
+      "verdict": "有差异"
+    }
+  },
+  "selection_overlap": {
+    "RNA-FM ∩ RiNALMo": {
+      "n": 8,
+      "ids": [
+        "des_BCL2_1734",
+        "des_HAO1_1384",
+        "des_KRAS_27",
+        "des_KRAS_3267",
+        "des_KRAS_3348",
+        "des_PCSK9_324",
+        "des_PCSK9_378",
+        "des_VEGFA_3312"
+      ]
+    },
+    "RNA-FM ∩ OligoFormer": {
+      "n": 1,
+      "ids": [
+        "des_HAO1_144"
+      ]
+    },
+    "RiNALMo ∩ OligoFormer": {
+      "n": 1,
+      "ids": [
+        "des_KRAS_837"
+      ]
+    }
+  }
+}
