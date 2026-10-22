@@ -5,6 +5,11 @@ For each detector we infer its flag threshold empirically from the stored
 (score, flag) pairs (flag == score >= c_e), then perturb every threshold
 multiplicatively by -20/-10/0/+10/+20% and recompute CD per record. We report
 mean CD per probe at each perturbation, so a reviewer sees CD is stable.
+
+CD is the number of flagged *cascade levels*, as in the paper. The protein
+probes score several detectors that inform the same level, so those detectors
+are folded onto their level (PROTEIN_LEVEL) before counting; a level counts
+once however many of its detectors fire.
 """
 import json, glob, statistics as st
 from pathlib import Path
@@ -27,23 +32,31 @@ def infer_thresholds(records, get_dets):
     return thr
 
 
-def mean_cd_at_scales(records, get_dets, thr):
+def mean_cd_at_scales(records, get_dets, thr, group=None):
+    """Mean count of flagged levels. `group` maps a detector onto its level."""
     out = {}
     for sc in SCALES:
         cds = []
         for r in records:
-            cd = 0
+            hit = set()
             for e, s, f in get_dets(r):
                 if s is None or e not in thr:
                     continue
                 if s >= thr[e] * sc:
-                    cd += 1
-            cds.append(cd)
+                    key = group.get(e) if group else e
+                    if key is not None:
+                        hit.add(key)
+            cds.append(len(hit))
         out[sc] = round(st.mean(cds), 3) if cds else 0.0
     return out
 
 
-# ---- protein probes: evaluation_matrix E1..E7 ----
+# ---- protein probes: evaluation_matrix detectors, folded onto cascade levels ----
+# Several protein detectors inform one level, so counting them separately would
+# exceed the four reachable levels. The paper counts levels; so do we.
+PROTEIN_LEVEL = {"E1": "L3", "E2": "L3", "E3": "L3", "E5": "L3",
+                 "E6": "L4", "E4": "L5", "E7": "L6b"}
+
 def protein_dets(r):
     m = r.get("evaluation_matrix", {})
     for e, det in m.items():
@@ -116,7 +129,8 @@ def main():
             print(f"{name:24s}  (no records)")
             continue
         thr = infer_thresholds(recs, getd)
-        mc = mean_cd_at_scales(recs, getd, thr)
+        grp = PROTEIN_LEVEL if getd is protein_dets else None
+        mc = mean_cd_at_scales(recs, getd, thr, grp)
         rows.append((name, len(recs), mc))
         print(f"{name:34s} {len(recs):>6d} | " + " ".join(f"{mc[s]:>6.3f}" for s in SCALES))
     # relative CD change +-20%
