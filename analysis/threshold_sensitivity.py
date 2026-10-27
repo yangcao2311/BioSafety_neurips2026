@@ -10,11 +10,37 @@ CD is the number of flagged *cascade levels*, as in the paper. The protein
 probes score several detectors that inform the same level, so those detectors
 are folded onto their level (PROTEIN_LEVEL) before counting; a level counts
 once however many of its detectors fire.
+
+Inputs and reproduction
+-----------------------
+The eleven cascade files this script reads are committed under the probe
+directories of this repository, so running it needs nothing outside the repo:
+
+    python analysis/threshold_sensitivity.py
+
+It writes `analysis/threshold_sensitivity_rerun.json` and leaves
+`analysis/threshold_sensitivity_results.json` -- the table printed in the paper
+-- untouched, so the two can be compared directly.
+
+Ten of the eleven rows reproduce the paper's table exactly, at every one of the
+seven perturbation points, not just at the nominal threshold. The exception is
+noted below.
+
+Known discrepancy (T2.1 RNA)
+----------------------------
+T2.1 reproduces as mean CD 1.466 against the 1.312 recorded in the paper and in
+`threshold_sensitivity_results.json`. The record count agrees (n=266); the value
+does not. Every archived version of that input file gives 1.466, so the
+provenance of 1.312 is unresolved and we report the mismatch rather than tune
+the detector rule until the published number comes back. The other ten rows,
+and the paper's conclusion that no threshold band produces a cliff, are
+unaffected.
 """
 import json, glob, statistics as st
 from pathlib import Path
 
-TASK = Path("/home/ycao95/BioSafety/Task")
+REPO = Path(__file__).resolve().parent.parent
+TASK = REPO
 SCALES = [0.8, 0.9, 0.95, 1.0, 1.05, 1.1, 1.2]
 
 
@@ -60,6 +86,8 @@ PROTEIN_LEVEL = {"E1": "L3", "E2": "L3", "E3": "L3", "E5": "L3",
 def protein_dets(r):
     m = r.get("evaluation_matrix", {})
     for e, det in m.items():
+        if not isinstance(det, dict):   # e.g. "thresholds": "not used (2026-08-15)"
+            continue
         if det.get("applicable") and isinstance(det.get("score"), (int, float)):
             yield e, det["score"], bool(det.get("flag"))
 
@@ -80,7 +108,9 @@ def rl_dets(r):
 # ---- small-molecule probes: r_L4 / r_L5 / r_L6a with fixed thresholds ----
 SM_THR = {"L4": 0.5, "L5": 0.5, "L6a": 0.45}
 def sm_dets(r):
-    for lvl, key in (("L4", "r_L4"), ("L5", "r_L5"), ("L6a", "r_L6a")):
+    # r_1/r_2/r_3 are the stored per-level fields: binding (L4), pathway (L5,
+    # r_2_txgemma), and ADMET toxicity (L6a, r_3_ClinTox/hERG/DILI/AMES).
+    for lvl, key in (("L4", "r_1"), ("L5", "r_2"), ("L6a", "r_3")):
         v = r.get(key)
         if isinstance(v, (int, float)):
             yield lvl, v, v >= SM_THR[lvl]
@@ -141,7 +171,7 @@ def main():
         d10 = max(abs(mc[sc] - mc[1.0]) for sc in (0.9, 1.1))
         d20 = max(abs(mc[sc] - mc[1.0]) for sc in (0.8, 1.2))
         print(f"  {name:34s} +-5%: {d5:.3f}   +-10%: {d10:.3f}   +-20%: {d20:.3f}")
-    Path("/home/ycao95/BioSafety/paper_rebuttal/threshold_sensitivity_results.json").write_text(
+    (REPO / "analysis" / "threshold_sensitivity_rerun.json").write_text(
         json.dumps([{"probe": n, "n": k, "mean_cd_by_scale": mc} for n, k, mc in rows], indent=2))
 
 
