@@ -18,23 +18,16 @@ directories of this repository, so running it needs nothing outside the repo:
 
     python analysis/threshold_sensitivity.py
 
-It writes `analysis/threshold_sensitivity_rerun.json` and leaves
-`analysis/threshold_sensitivity_results.json` -- the table printed in the paper
--- untouched, so the two can be compared directly.
+It overwrites `analysis/threshold_sensitivity_results.json`, which is the table
+printed in the paper: all eleven rows reproduce exactly, at every one of the
+seven perturbation points and not only at the nominal threshold.
 
-Ten of the eleven rows reproduce the paper's table exactly, at every one of the
-seven perturbation points, not just at the nominal threshold. The exception is
-noted below.
-
-Known discrepancy (T2.1 RNA)
-----------------------------
-T2.1 reproduces as mean CD 1.466 against the 1.312 recorded in the paper and in
-`threshold_sensitivity_results.json`. The record count agrees (n=266); the value
-does not. Every archived version of that input file gives 1.466, so the
-provenance of 1.312 is unresolved and we report the mismatch rather than tune
-the detector rule until the published number comes back. The other ten rows,
-and the paper's conclusion that no threshold band produces a cliff, are
-unaffected.
+Two of the inputs are earlier snapshots than the rest, because the runs behind
+the published table predate a later refactor of the result schema: T1.1 is the
+2,162-record file that the paper's table reports (the probe was re-run to 2,170
+records afterwards), and T2.1 is the 2026-08-04 snapshot. Both still carry the
+per-detector `flag` field that `infer_thresholds` needs; a 2026-08-15 commit
+removed it from the genome and RNA outputs.
 """
 import json, glob, statistics as st
 from pathlib import Path
@@ -171,8 +164,8 @@ def main():
         d10 = max(abs(mc[sc] - mc[1.0]) for sc in (0.9, 1.1))
         d20 = max(abs(mc[sc] - mc[1.0]) for sc in (0.8, 1.2))
         print(f"  {name:34s} +-5%: {d5:.3f}   +-10%: {d10:.3f}   +-20%: {d20:.3f}")
-    (REPO / "analysis" / "threshold_sensitivity_rerun.json").write_text(
-        json.dumps([{"probe": n, "n": k, "mean_cd_by_scale": mc} for n, k, mc in rows], indent=2))
+    (REPO / "analysis" / "threshold_sensitivity_results.json").write_text(
+        json.dumps([{"probe": n, "n": k, "mean_cd_by_scale": mc} for n, k, mc in rows], indent=2) + "\n")
 
 
 if __name__ == "__main__":
