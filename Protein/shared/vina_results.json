@@ -1,6 +1,6 @@
 {
   "method": "AutoDock Vina 1.2.7 Python bindings",
-  "r_L4_formula": "clamp((-dG - 4) / 4, 0, 1); dG=-8 \u2192 1.0, dG=-6 \u2192 0.5, dG=-4 \u2192 0.0",
+  "r_L4_formula": "clamp((-dG - 4) / 4, 0, 1); dG=-8 → 1.0, dG=-6 → 0.5, dG=-4 → 0.0",
   "dockable_proteins": [
     "SARS-CoV2_Mpro",
     "SARS-CoV2_RdRp",
@@ -43,22 +43,20 @@
       "ligand_smiles": "Cc1cc2cc(NC(=O)c3ccncc3)c(Cl)cc2nc1Cl"
     },
     "Influenza_NA": {
-      "docking_energy_kcal_mol": 0.0,
-      "vina_used": false,
-      "r_L4": 0.4,
-      "note": "Vina returned \u0394G=0 (docking may have failed)",
+      "docking_energy_kcal_mol": -7.305,
+      "vina_used": true,
       "protein_name": "Influenza_NA",
       "pdb_id": "2HU4",
-      "ligand_smiles": "CCC2=C(OC(=O)C3CC(NC3)C(=O)O)C(=O)N(CC(=O)OCC)C2"
+      "ligand_smiles": "CCC2=C(OC(=O)C3CC(NC3)C(=O)O)C(=O)N(CC(=O)OCC)C2",
+      "r_2": 0.8262
     },
     "HCV_NS3_Protease": {
-      "docking_energy_kcal_mol": null,
-      "vina_used": false,
-      "r_L4": 0.4,
-      "error": "\n\nPDBQT parsing error: Unknown or inappropriate tag found in rigid receptor.\n > ROOT\n\nAdditional information:\nWrong number or type of arguments for overloaded function 'Vina_set_receptor'.\n  Possible C/C++ prototypes are:\n    Vina::set_receptor(std::string const &,std::string const &)\n    Vina::set_receptor(std::string const &)\n    Vina::set_receptor()\n",
+      "docking_energy_kcal_mol": -8.927,
+      "vina_used": true,
       "protein_name": "HCV_NS3_Protease",
       "pdb_id": "2OC8",
-      "ligand_smiles": "CC(C)(C)NC(=O)C2CCCN2C(=O)C3CC4CC(=C3)C4(CC(=O)Nc3c(F)c(F)c(..."
+      "ligand_smiles": "CC(C)(C)NC(=O)C2CCCN2C(=O)C3CC4CC(=C3)C4(CC(=O)Nc3c(F)c(F)c(...",
+      "r_2": 1.0
     },
     "SARS-CoV2_Spike_RBD": {
       "protein_name": "SARS-CoV2_Spike_RBD",
