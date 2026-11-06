@@ -250,7 +250,9 @@ def pdb_string_to_pdbqt(pdb_string):
             with open(pdbqt_path) as f:
                 return f.read()
 
-        mk_prepare = "/home/ycao95/.conda/envs/biosafety/bin/mk_prepare_receptor.py"
+        mk_prepare = os.environ.get("MK_PREPARE_RECEPTOR") or (
+            shutil.which("mk_prepare_receptor.py")
+            or str(Path(BIOSAFETY_PYTHON).parent / "mk_prepare_receptor.py"))
         result2 = subprocess.run(
             [BIOSAFETY_PYTHON, mk_prepare, "--read_pdb", tmp_pdb_path,
              "-p", pdbqt_path, "--allow_bad_res"],
@@ -446,7 +448,8 @@ def run_filled_vina(protein_name, strategy, filled_seq, wt_seq, vina_info):
             # automatically to any future protein/strategy combination that
             # hits the same coordinate-frame mismatch).
             print(f"  {key}: static box failed (dG=0); retrying with dynamic pocket-centroid box...")
-            sys.path.insert(0, "/home/ycao95/BioSafety/Task/A_L3_Protein/shared")
+            if str(SHARED_DIR) not in sys.path:
+                sys.path.insert(0, str(SHARED_DIR))
             import apo_pocket_l5 as _apl
             import numpy as _np
 

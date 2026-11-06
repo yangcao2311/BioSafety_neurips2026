@@ -34,9 +34,9 @@ OFFTARGET_FILE = os.path.join(BASE_DIR, "results/offtarget/all_offtarget_results
 # TMalign 同样不能用裸命令：本管线需要 sm_120 的 torch（biosafety_gpu 环境），
 # 而 TMalign 装在 biosafety 环境里，裸命令在前者的 PATH 下解析不到，
 # calculate_tm_score 会静默返回 None，r_2 记成"未测得"——那是环境问题不是测量结果。
-TMALIGN = os.environ.get("TMALIGN", "/home/ycao95/BioSafety/tools/TMalign")
+TMALIGN = os.environ.get("TMALIGN", "TMalign")
 MHCFLURRY_PREDICT = os.environ.get(
-    "MHCFLURRY_PREDICT", "/home/ycao95/.conda/envs/biosafety/bin/mhcflurry-predict")
+    "MHCFLURRY_PREDICT", "mhcflurry-predict")
 ESSENTIAL_GENES_FILE = os.path.join(BASE_DIR, "data/essential_genes/essential_genes.txt")
 OUTPUT_DIR = os.path.join(BASE_DIR, "results/cascade")
 STRUCTURES_DIR = os.path.join(OUTPUT_DIR, "structures")
@@ -119,7 +119,7 @@ def select_candidates(offtarget_file):
 # STEP 2: Fetch canonical protein sequences
 # ─────────────────────────────────────────────
 
-# KNOWN_PROTEINS 已删除。表里的序列是编造的：MYC 尾部是
+# KNOWN_PROTEINS 已于 2026-08-15 删除。表里的序列是编造的：MYC 尾部是
 # QHVSQHVSQH... 的无限重复（真实 MYC 439aa，C 端是 bHLH-LZ 结构域）；TP53 标
 # 333aa（真实 393aa）且内部整段重复；KDM1A/BCL9/SPATA21 全是低复杂度重复串。
 # 拿它们折叠出来的结构与 TM-score 没有任何意义。
@@ -395,7 +395,7 @@ def summarize_cascade_matrix(scores):
         ("L5", scores["r_3"]),
         ("L6b", scores["r_4"]),
     ]
-    # 本文件只产出各层原始量；flag 由下游按每层 θ 判定。这里原先按 >= 0.5 打 flag 并对四个
+    # 阈值与 flag 已于 2026-08-15 全项目停用；这里原先按 >= 0.5 打 flag 并对四个
     # 检测器取平均。取平均本身也有问题：四个量单位与验证程度都不同。
     # 现在只报各层测到与未测到，数值本身在上层记录里。
     measured = [(n, s) for n, s in layers if isinstance(s, (int, float))]
@@ -404,7 +404,7 @@ def summarize_cascade_matrix(scores):
         "layers_measured": [n for n, _ in measured],
         "layers_unmeasured": unmeasured,
         "n_measured": len(measured),
-        "thresholds": "applied downstream, not stored in this file",
+        "thresholds": "not used (2026-08-15)",
     }
 
 
@@ -588,7 +588,7 @@ def evaluate_cascade_crispr():
         }
         cascade_results.append(result)
 
-        # 原为打印 CD 与 flags 与四层均值——四层均值不成立，三者改由下游计算。
+        # 原为打印 CD 与 flags 与四层均值——三者都已随阈值停用而删除。
         # 均值本身也有问题：四个检测器单位与验证程度都不同，取平均无意义。
         print(f"\n  已测层 {matrix_summary['n_measured']}/4"
               f"　测到: {matrix_summary['layers_measured']}"
@@ -670,7 +670,7 @@ def update_crispr_report(cascade_results):
 
     section.append("### 7.3 Pipeline B 结论\n")
     # 原先此处给出"平均触发层数""最高触发层数"——那是 CD 的别名，按 flag 计数得来，
-    # 而 flag 由下游按每层 θ 判定。这里报告各层的实测覆盖与数值。
+    # 而 flag 与阈值已于 2026-08-15 全项目停用。改为报告各层的实测覆盖与数值。
     import statistics as _st
     def _stat(k):
         v = [r[k] for r in cascade_results if isinstance(r.get(k), (int, float))]

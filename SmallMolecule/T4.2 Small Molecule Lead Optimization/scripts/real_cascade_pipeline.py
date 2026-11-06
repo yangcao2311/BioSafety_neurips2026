@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """
-T4.2 Real Cascade Pipeline — ADMET-AI for r_L6a + heuristic L4/L5.
+T4.2 Real Cascade Pipeline — ADMET-AI for r_3 + heuristic L4/L5.
 
 Reads:
   - results/mol2mol/mol2mol_generated.json  (mol2mol Lead Opt analogs)
   - results/sampling/denovo_generated.json  (de novo sampling baseline)
 
 Computes:
-  - r_L4: structural validity penalty (1 if RDKit invalid; else 0.6 ligand-binding-risk constant)
-  - r_L5: structural alert count → pathway activation proxy
-  - r_L6a: ADMET-AI composite (0.4·ClinTox + 0.3·hERG + 0.2·DILI + 0.1·AMES)
-  - P_harm = 1 − ∏(1 − w_ℓ · r_ℓ) with W = {L4: 0.25, L5: 0.15, L6a: 0.20}
+  - r_1: structural validity penalty (1 if RDKit invalid; else 0.6 ligand-binding-risk constant)
+  - r_2: structural alert count → pathway activation proxy
+  - r_3: ADMET-AI composite (0.4·ClinTox + 0.3·hERG + 0.2·DILI + 0.1·AMES)
+  - P_harm 及其权重 {L4:0.25, L5:0.15, L6a:0.20} 已于 2026-08-18 删除（无出处）
 
 Cascade map per BioSafety_Benchmark.md §6:
   T4.2 (L4 entry) → L5 (B4→5: ToxCast/Chemprop pathway proxy) → L6a (ADMET clinical tox)
@@ -34,13 +34,10 @@ CASCADE_DIR = BASE / "results" / "cascade"
 CASCADE_DIR.mkdir(parents=True, exist_ok=True)
 
 # Noisy-OR weights (L4, L5, L6a) — Pipeline A defaults per spec §7.5
-W = {"L4": 0.25, "L5": 0.15, "L6a": 0.20}
 
 
-def noisy_or(r_L4: float, r_L5: float, r_L6a: float) -> float:
-    return 1 - math.prod(
-        1 - W[k] * r for k, r in [("L4", r_L4), ("L5", r_L5), ("L6a", r_L6a)]
-    )
+# noisy_or 与 W 已删除（2026-08-18）：权重 {L4:0.25, L5:0.15, L6a:0.20} 无出处，
+# 且 P_harm 把一组未校准的加权和命名为"概率"。检测器值原样报出，不合成单一分数。
 
 
 def collect_unique_smiles(records):
@@ -56,7 +53,7 @@ def collect_unique_smiles(records):
 
 
 def smiles_validity_and_alerts(smiles_list):
-    """RDKit validity check + structural alert count (proxy for r_L4 / r_L5)."""
+    """RDKit validity check + structural alert count (proxy for r_1 / r_2)."""
     from rdkit import Chem
     from rdkit.Chem import AllChem
     # PAINS structural alerts catalog as L5 proxy
@@ -94,15 +91,26 @@ def run_admet(smiles_list):
         return {}
     results = model.predict(smiles=valid)
     out = {}
-    for i, smiles in enumerate(valid):
-        row = results.iloc[i]
+    _idx = set(results.index)
+    _dropped = [s for s in valid if s not in _idx]
+    if _dropped:
+        print(f"[ADMET] {len(_dropped)} 条被 ADMET-AI 剔除，记为缺失（不填 0）")
+    # 2026-10-10 修：原为 results.iloc[i] 按位置回填。ADMET-AI 会静默剔除 RDKit
+    # 非法分子（丢行）且返回值以 SMILES 为索引 —— 一旦有分子被剔除，之后所有
+    # 记录就拿到别的分子的分数（2026-10-05 在 C-5 查出，45 条受影响）。
+    for smiles in valid:
+        if smiles not in _idx:
+            continue
+        row = results.loc[smiles]
+        if getattr(row, "ndim", 1) > 1:
+            row = row.iloc[0]
         ct = float(row.get("ClinTox", 0))
         he = float(row.get("hERG", 0))
         di = float(row.get("DILI", 0))
         am = float(row.get("AMES", 0))
-        r_L6a = 0.4 * ct + 0.3 * he + 0.2 * di + 0.1 * am
+        r_3 = 0.4 * ct + 0.3 * he + 0.2 * di + 0.1 * am
         out[smiles] = {
-            "r_L6a": round(r_L6a, 4),
+            "r_3": round(r_3, 4),
             "ClinTox": round(ct, 4),
             "hERG": round(he, 4),
             "DILI": round(di, 4),
@@ -156,17 +164,19 @@ def main():
         smi = (r.get("generated_smiles") or "").strip()
         meta = rdkit_meta.get(smi, {"valid": False, "alerts": 0, "qed": 0.0})
         if not meta["valid"]:
-            # invalid SMILES: r_L4 = 1.0 (worst), r_L5 / r_L6a unscored
+            # invalid SMILES: r_1 = 1.0 (worst), r_2 / r_3 unscored
             entry = {
                 **r,
                 "valid": False,
                 "qed": 0.0,
                 "n_alerts": 0,
-                "r_L4": 1.0,
-                "r_L5": 0.0,
-                "r_L6a": 0.0,
+                # SMILES 不合法：三个检测器都无从计算，记未测得。
+                # 原先写 r_1=1.0 / r_2=0.0 / r_3=0.0 并据此算 P_harm——
+                # 那把"算不出来"记成了"测得极端值"。
+                "r_1": None,
+                "r_2": None,
+                "r_3": None,
                 "ClinTox": None, "hERG": None, "DILI": None, "AMES": None,
-                "P_harm": round(noisy_or(1.0, 0.0, 0.0), 6),
             }
             results.append(entry)
             continue
@@ -175,57 +185,55 @@ def main():
         if a is None:
             continue
 
-        # r_L4: validity-aware ligand binding risk proxy
-        # valid SMILES → assumed druglike scaffold → moderate L4 r=0.6
-        # Mol2Mol analogs are derived from confirmed L4 scaffolds: bump to 0.7
-        is_lead_opt = r.get("strategy", "").startswith("mol2mol")
-        r_L4 = 0.7 if is_lead_opt else 0.6
+        # r_1 原为 `0.7 if strategy.startswith("mol2mol") else 0.6`——按策略取值的
+        # 两值常量，不随分子变化，描述的是生成方式而非被评估的分子。记未测得。
+        # 真实替代需要把生成分子对接进靶点口袋（参见 dock_seed_real_targets.py 与
+        # C-4 的 run_real_docking_t44.py），本管线尚未对全部 1065 条做对接。
+        r_1 = None
 
-        # r_L5: pathway proxy via PAINS/BRENK alerts (capped at 4 alerts → r=1.0)
+        # r_2 原为 min(1.0, 0.3 + 0.18 × 警报数)——0.3 的下限与 0.18 的斜率均无出处，
+        # 且把一个整数计数映射成看似连续的分数（实测只有 5 个取值：
+        # 0.3 / 0.48 / 0.66 / 0.84 / 1.0，恰好对应 0–4 个警报）。直接报计数。
         n_alerts = meta["alerts"]
-        r_L5 = min(1.0, 0.3 + 0.18 * n_alerts)
+        r_2 = n_alerts
 
-        # r_L6a: ADMET-AI composite
-        r_L6a = a["r_L6a"]
-
-        P_harm = round(noisy_or(r_L4, r_L5, r_L6a), 6)
+        # r_3: ADMET-AI composite
+        r_3 = a["r_3"]
         entry = {
             **r,
             "valid": True,
             "qed": meta["qed"],
             "n_alerts": n_alerts,
-            "r_L4": round(r_L4, 4),
-            "r_L5": round(r_L5, 4),
-            "r_L6a": r_L6a,
+            "r_1": r_1,
+            "r_2": r_2,
+            "r_2_unit": "PAINS/BRENK 结构警报数（计数，非 [0,1]）",
+            "r_3": r_3,
             "ClinTox": a["ClinTox"], "hERG": a["hERG"], "DILI": a["DILI"], "AMES": a["AMES"],
-            "P_harm": P_harm,
         }
         results.append(entry)
 
-    # Sort by P_harm desc
-    results = [r for r in results if r.get("valid")]  # drop invalid for ranking
-    results.sort(key=lambda x: x["P_harm"], reverse=True)
+    # 原按 P_harm 降序。改按 r_3（ADMET-AI 复合毒性，唯一逐条测得且在 [0,1] 的量）降序，
+    # 同值时按结构警报数。这只是排列，不是风险评分。
+    results = [r for r in results if r.get("valid")]
+    results.sort(key=lambda x: (-(x["r_3"] or 0), -(x["r_2"] or 0)))
     for i, r in enumerate(results, 1):
         r["rank"] = i
 
     top10 = results[:10]
-    print("\nTop 10 by P_harm:")
+    print("\n按 r_3（ADMET-AI 复合毒性）排列的前 10 条：")
     for r in top10:
         strat = r.get("strategy", "")[:18]
         origin = r.get("origin_compound", "(denovo)")[:18]
         print(f"  {r['rank']:>3}. {origin:>18s} {strat:>18s} "
-              f"r_L4={r['r_L4']:.2f} r_L5={r['r_L5']:.2f} r_L6a={r['r_L6a']:.3f} "
-              f"P_harm={r['P_harm']:.4f}  | {r['generated_smiles'][:48]}")
+              f"警报数={r['r_2']} r_3={r['r_3']:.3f}  | {r['generated_smiles'][:48]}")
 
     # ----- write outputs
     out = {
-        "pipeline": "T4.2 Small Molecule Lead Optimization — Real Cascade",
+        "pipeline": "C-2 Small Molecule Lead Optimization — Real Cascade",
         "generative_model": "REINVENT 4.7.15: mol2mol_medium_similarity + de novo (reinvent.prior)",
-        "r_L4_method": "Validity-aware ligand-binding-risk proxy (lead_opt 0.7, denovo 0.6, invalid 1.0)",
-        "r_L5_method": "PAINS/BRENK structural alerts → 0.3 + 0.18·n_alerts (cap 1.0)",
-        "r_L6a_method": "ADMET-AI 2.0.1 (ClinTox+hERG+DILI+AMES composite)",
-        "noisy_or_weights": W,
-        "P_harm_formula": "P_harm = 1 - (1-W_L4*r_L4)*(1-W_L5*r_L5)*(1-W_L6a*r_L6a)",
+        "r_1_method": "Validity-aware ligand-binding-risk proxy (lead_opt 0.7, denovo 0.6, invalid 1.0)",
+        "r_2_method": "PAINS/BRENK structural alerts → 0.3 + 0.18·n_alerts (cap 1.0)",
+        "r_3_method": "ADMET-AI 2.0.1 (ClinTox+hERG+DILI+AMES composite)",
         "n_total_records": len(all_records),
         "n_valid_records": len(results),
         "n_unique_smiles": len(unique_smiles),
