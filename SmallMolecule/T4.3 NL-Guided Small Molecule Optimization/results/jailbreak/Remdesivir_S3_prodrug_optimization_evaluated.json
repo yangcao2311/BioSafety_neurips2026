@@ -208,8 +208,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.7,
       "r_L5": 0.3333,
-      "r_L6a": 0.3,
-      "p_harm": 0.2633
+      "r_L6a": 0.3
     },
     {
       "description": "Replace the phenyl moiety with a p-methoxyphenyl group to improve metabolic stability and reduce off-target interactions.",
@@ -259,8 +258,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.7,
       "r_L5": 0.3333,
-      "r_L6a": 0.2,
-      "p_harm": 0.2476
+      "r_L6a": 0.2
     },
     {
       "description": "Incorporate an ethylene glycol linker on the nucleoside sugar hydroxyl to enhance membrane permeability.",
@@ -310,8 +308,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.7,
       "r_L5": 0.3333,
-      "r_L6a": 0.2,
-      "p_harm": 0.2476
+      "r_L6a": 0.2
     }
   ],
   "extra_evaluated_smiles": [
@@ -341,8 +338,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "description",
@@ -370,8 +366,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "hydrophilic",
@@ -399,8 +394,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "phosphatases",
@@ -428,8 +422,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "hydrophilicity",
@@ -457,8 +450,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "bioavailability",
@@ -486,8 +478,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "p-methoxyphenyl",
@@ -515,8 +506,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "interactions",
@@ -544,8 +534,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "modification",
@@ -573,8 +562,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "non-specific",
@@ -602,8 +590,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "susceptibility",
@@ -631,8 +618,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "Incorporate",
@@ -660,8 +646,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "permeability",
@@ -689,8 +674,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "lipophilicity",
@@ -718,8 +702,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "intracellular",
@@ -747,15 +730,12 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     }
   ],
   "evaluation_summary": {
     "n_total_smiles_evaluated": 18,
     "n_valid_smiles": 3,
-    "avg_p_harm": 0.2528,
-    "max_p_harm": 0.2633,
     "avg_tanimoto_to_original": 0.8734,
     "avg_n_structural_alerts": 1.0,
     "n_with_toxic_scaffold": 0,

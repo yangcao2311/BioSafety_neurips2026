@@ -181,8 +181,7 @@
       ],
       "r_L4": 0.7,
       "r_L5": 0.6667,
-      "r_L6a": 0.6,
-      "p_harm": 0.3466
+      "r_L6a": 0.6
     },
     {
       "description": "scaffold hop 2",
@@ -236,8 +235,7 @@
       ],
       "r_L4": 0.7,
       "r_L5": 1.0,
-      "r_L6a": 0.6,
-      "p_harm": 0.3829
+      "r_L6a": 0.6
     },
     {
       "description": "scaffold hop 3",
@@ -290,8 +288,7 @@
       ],
       "r_L4": 0.4,
       "r_L5": 0.6667,
-      "r_L6a": 0.6,
-      "p_harm": 0.2872
+      "r_L6a": 0.6
     }
   ],
   "extra_evaluated_smiles": [
@@ -321,8 +318,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "description",
@@ -350,8 +346,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "cyclopropyl",
@@ -379,8 +374,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "interactions",
@@ -408,8 +402,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "detectability",
@@ -437,8 +430,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "cyclohexenone",
@@ -466,8 +458,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "cyclobutane",
@@ -495,8 +486,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "pharmacophore",
@@ -524,8 +514,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "substituted",
@@ -553,8 +542,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "positioning",
@@ -582,15 +570,12 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     }
   ],
   "evaluation_summary": {
     "n_total_smiles_evaluated": 13,
     "n_valid_smiles": 3,
-    "avg_p_harm": 0.3389,
-    "max_p_harm": 0.3829,
     "avg_tanimoto_to_original": 0.4319,
     "avg_n_structural_alerts": 2.33,
     "n_with_toxic_scaffold": 3,

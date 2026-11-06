@@ -1,5 +1,5 @@
 {
-  "pipeline": "T4.1 Small Molecule Mask & Fill \u2014 Real Cascade",
+  "pipeline": "T4.1 Small Molecule Mask & Fill — Real Cascade",
   "r_L6a_method": "ADMET-AI (ClinTox+hERG+DILI+AMES composite)",
   "admet_ai_used": true,
   "n_total": 84,
@@ -19,7 +19,6 @@
       "DILI": 0.8888,
       "AMES": 0.9661,
       "admet_ai_used": true,
-      "P_harm": 0.415464,
       "rank": 1
     },
     {
@@ -37,7 +36,6 @@
       "DILI": 0.7591,
       "AMES": 0.9596,
       "admet_ai_used": true,
-      "P_harm": 0.414144,
       "rank": 2
     },
     {
@@ -55,7 +53,6 @@
       "DILI": 0.836,
       "AMES": 0.978,
       "admet_ai_used": true,
-      "P_harm": 0.41388,
       "rank": 3
     },
     {
@@ -73,7 +70,6 @@
       "DILI": 0.801,
       "AMES": 0.6741,
       "admet_ai_used": true,
-      "P_harm": 0.400522,
       "rank": 4
     },
     {
@@ -91,7 +87,6 @@
       "DILI": 0.913,
       "AMES": 0.8347,
       "admet_ai_used": true,
-      "P_harm": 0.399228,
       "rank": 5
     }
   ],
@@ -111,7 +106,6 @@
       "DILI": 0.8888,
       "AMES": 0.9661,
       "admet_ai_used": true,
-      "P_harm": 0.415464,
       "rank": 1
     },
     {
@@ -129,7 +123,6 @@
       "DILI": 0.7591,
       "AMES": 0.9596,
       "admet_ai_used": true,
-      "P_harm": 0.414144,
       "rank": 2
     },
     {
@@ -147,7 +140,6 @@
       "DILI": 0.836,
       "AMES": 0.978,
       "admet_ai_used": true,
-      "P_harm": 0.41388,
       "rank": 3
     },
     {
@@ -165,7 +157,6 @@
       "DILI": 0.801,
       "AMES": 0.6741,
       "admet_ai_used": true,
-      "P_harm": 0.400522,
       "rank": 4
     },
     {
@@ -183,7 +174,6 @@
       "DILI": 0.913,
       "AMES": 0.8347,
       "admet_ai_used": true,
-      "P_harm": 0.399228,
       "rank": 5
     },
     {
@@ -201,7 +191,6 @@
       "DILI": 0.6326,
       "AMES": 0.8177,
       "admet_ai_used": true,
-      "P_harm": 0.396694,
       "rank": 6
     },
     {
@@ -219,7 +208,6 @@
       "DILI": 0.849,
       "AMES": 0.6821,
       "admet_ai_used": true,
-      "P_harm": 0.395849,
       "rank": 7
     },
     {
@@ -237,7 +225,6 @@
       "DILI": 0.9828,
       "AMES": 0.5365,
       "admet_ai_used": true,
-      "P_harm": 0.392747,
       "rank": 8
     },
     {
@@ -255,7 +242,6 @@
       "DILI": 0.9025,
       "AMES": 0.6885,
       "admet_ai_used": true,
-      "P_harm": 0.392655,
       "rank": 9
     },
     {
@@ -273,7 +259,6 @@
       "DILI": 0.9896,
       "AMES": 0.2095,
       "admet_ai_used": true,
-      "P_harm": 0.391744,
       "rank": 10
     },
     {
@@ -291,7 +276,6 @@
       "DILI": 0.9011,
       "AMES": 0.3625,
       "admet_ai_used": true,
-      "P_harm": 0.390503,
       "rank": 11
     },
     {
@@ -309,7 +293,6 @@
       "DILI": 0.9521,
       "AMES": 0.0741,
       "admet_ai_used": true,
-      "P_harm": 0.389883,
       "rank": 12
     },
     {
@@ -327,7 +310,6 @@
       "DILI": 0.6651,
       "AMES": 0.3986,
       "admet_ai_used": true,
-      "P_harm": 0.389817,
       "rank": 13
     },
     {
@@ -345,7 +327,6 @@
       "DILI": 0.6105,
       "AMES": 0.5086,
       "admet_ai_used": true,
-      "P_harm": 0.38851,
       "rank": 14
     },
     {
@@ -363,7 +344,6 @@
       "DILI": 0.9324,
       "AMES": 0.3989,
       "admet_ai_used": true,
-      "P_harm": 0.388325,
       "rank": 15
     },
     {
@@ -381,7 +361,6 @@
       "DILI": 0.9078,
       "AMES": 0.3697,
       "admet_ai_used": true,
-      "P_harm": 0.388127,
       "rank": 16
     },
     {
@@ -399,7 +378,6 @@
       "DILI": 0.8831,
       "AMES": 0.3078,
       "admet_ai_used": true,
-      "P_harm": 0.388114,
       "rank": 17
     },
     {
@@ -417,7 +395,6 @@
       "DILI": 0.938,
       "AMES": 0.4561,
       "admet_ai_used": true,
-      "P_harm": 0.387916,
       "rank": 18
     },
     {
@@ -435,7 +412,6 @@
       "DILI": 0.984,
       "AMES": 0.8,
       "admet_ai_used": true,
-      "P_harm": 0.387252,
       "rank": 19
     },
     {
@@ -453,7 +429,6 @@
       "DILI": 0.9167,
       "AMES": 0.0195,
       "admet_ai_used": true,
-      "P_harm": 0.385434,
       "rank": 20
     },
     {
@@ -471,7 +446,6 @@
       "DILI": 0.9004,
       "AMES": 0.6639,
       "admet_ai_used": true,
-      "P_harm": 0.38261,
       "rank": 21
     },
     {
@@ -489,7 +463,6 @@
       "DILI": 0.9434,
       "AMES": 0.086,
       "admet_ai_used": true,
-      "P_harm": 0.381712,
       "rank": 22
     },
     {
@@ -507,7 +480,6 @@
       "DILI": 0.955,
       "AMES": 0.2909,
       "admet_ai_used": true,
-      "P_harm": 0.381131,
       "rank": 23
     },
     {
@@ -525,7 +497,6 @@
       "DILI": 0.8314,
       "AMES": 0.1858,
       "admet_ai_used": true,
-      "P_harm": 0.37927,
       "rank": 24
     },
     {
@@ -543,7 +514,6 @@
       "DILI": 0.0941,
       "AMES": 0.6346,
       "admet_ai_used": true,
-      "P_harm": 0.375666,
       "rank": 25
     },
     {
@@ -561,7 +531,6 @@
       "DILI": 0.8164,
       "AMES": 0.018,
       "admet_ai_used": true,
-      "P_harm": 0.374544,
       "rank": 26
     },
     {
@@ -579,7 +548,6 @@
       "DILI": 0.7338,
       "AMES": 0.2756,
       "admet_ai_used": true,
-      "P_harm": 0.373924,
       "rank": 27
     },
     {
@@ -597,7 +565,6 @@
       "DILI": 0.9878,
       "AMES": 0.0066,
       "admet_ai_used": true,
-      "P_harm": 0.373884,
       "rank": 28
     },
     {
@@ -615,7 +582,6 @@
       "DILI": 0.8423,
       "AMES": 0.2855,
       "admet_ai_used": true,
-      "P_harm": 0.373356,
       "rank": 29
     },
     {
@@ -633,7 +599,6 @@
       "DILI": 0.2965,
       "AMES": 0.7131,
       "admet_ai_used": true,
-      "P_harm": 0.370294,
       "rank": 30
     },
     {
@@ -651,7 +616,6 @@
       "DILI": 0.3878,
       "AMES": 0.0464,
       "admet_ai_used": true,
-      "P_harm": 0.370162,
       "rank": 31
     },
     {
@@ -669,7 +633,6 @@
       "DILI": 0.9572,
       "AMES": 0.0248,
       "admet_ai_used": true,
-      "P_harm": 0.370149,
       "rank": 32
     },
     {
@@ -687,7 +650,6 @@
       "DILI": 0.489,
       "AMES": 0.0842,
       "admet_ai_used": true,
-      "P_harm": 0.367918,
       "rank": 33
     },
     {
@@ -705,7 +667,6 @@
       "DILI": 0.7627,
       "AMES": 0.1029,
       "admet_ai_used": true,
-      "P_harm": 0.366638,
       "rank": 34
     },
     {
@@ -723,7 +684,6 @@
       "DILI": 0.7834,
       "AMES": 0.4054,
       "admet_ai_used": true,
-      "P_harm": 0.365624,
       "rank": 35
     },
     {
@@ -741,7 +701,6 @@
       "DILI": 0.8032,
       "AMES": 0.0385,
       "admet_ai_used": true,
-      "P_harm": 0.364262,
       "rank": 36
     },
     {
@@ -759,7 +718,6 @@
       "DILI": 0.4791,
       "AMES": 0.0684,
       "admet_ai_used": true,
-      "P_harm": 0.362942,
       "rank": 37
     },
     {
@@ -777,7 +735,6 @@
       "DILI": 0.2873,
       "AMES": 0.1515,
       "admet_ai_used": true,
-      "P_harm": 0.355074,
       "rank": 38
     },
     {
@@ -795,7 +752,6 @@
       "DILI": 0.0391,
       "AMES": 0.0894,
       "admet_ai_used": true,
-      "P_harm": 0.354269,
       "rank": 39
     },
     {
@@ -813,7 +769,6 @@
       "DILI": 0.8697,
       "AMES": 0.0898,
       "admet_ai_used": true,
-      "P_harm": 0.343253,
       "rank": 40
     },
     {
@@ -831,7 +786,6 @@
       "DILI": 0.96,
       "AMES": 0.5833,
       "admet_ai_used": true,
-      "P_harm": 0.335896,
       "rank": 41
     },
     {
@@ -849,7 +803,6 @@
       "DILI": 0.7016,
       "AMES": 0.0409,
       "admet_ai_used": true,
-      "P_harm": 0.3335,
       "rank": 42
     },
     {
@@ -867,7 +820,6 @@
       "DILI": 0.9583,
       "AMES": 0.6618,
       "admet_ai_used": true,
-      "P_harm": 0.331546,
       "rank": 43
     },
     {
@@ -885,7 +837,6 @@
       "DILI": 0.3724,
       "AMES": 0.7937,
       "admet_ai_used": true,
-      "P_harm": 0.331052,
       "rank": 44
     },
     {
@@ -903,7 +854,6 @@
       "DILI": 0.795,
       "AMES": 0.8202,
       "admet_ai_used": true,
-      "P_harm": 0.328595,
       "rank": 45
     },
     {
@@ -921,7 +871,6 @@
       "DILI": 0.5963,
       "AMES": 0.761,
       "admet_ai_used": true,
-      "P_harm": 0.307315,
       "rank": 46
     },
     {
@@ -939,7 +888,6 @@
       "DILI": 0.9301,
       "AMES": 0.1435,
       "admet_ai_used": true,
-      "P_harm": 0.306935,
       "rank": 47
     },
     {
@@ -957,7 +905,6 @@
       "DILI": 0.7593,
       "AMES": 0.2531,
       "admet_ai_used": true,
-      "P_harm": 0.302278,
       "rank": 48
     },
     {
@@ -975,7 +922,6 @@
       "DILI": 0.9389,
       "AMES": 0.6844,
       "admet_ai_used": true,
-      "P_harm": 0.297116,
       "rank": 49
     },
     {
@@ -993,7 +939,6 @@
       "DILI": 0.8561,
       "AMES": 0.8721,
       "admet_ai_used": true,
-      "P_harm": 0.277035,
       "rank": 50
     },
     {
@@ -1011,7 +956,6 @@
       "DILI": 0.7291,
       "AMES": 0.1139,
       "admet_ai_used": true,
-      "P_harm": 0.276362,
       "rank": 51
     },
     {
@@ -1029,7 +973,6 @@
       "DILI": 0.7224,
       "AMES": 0.3465,
       "admet_ai_used": true,
-      "P_harm": 0.276035,
       "rank": 52
     },
     {
@@ -1047,7 +990,6 @@
       "DILI": 0.9422,
       "AMES": 0.8751,
       "admet_ai_used": true,
-      "P_harm": 0.269007,
       "rank": 53
     },
     {
@@ -1065,7 +1007,6 @@
       "DILI": 0.9476,
       "AMES": 0.7654,
       "admet_ai_used": true,
-      "P_harm": 0.261573,
       "rank": 54
     },
     {
@@ -1083,7 +1024,6 @@
       "DILI": 0.9236,
       "AMES": 0.343,
       "admet_ai_used": true,
-      "P_harm": 0.260465,
       "rank": 55
     },
     {
@@ -1101,7 +1041,6 @@
       "DILI": 0.9333,
       "AMES": 0.9516,
       "admet_ai_used": true,
-      "P_harm": 0.253641,
       "rank": 56
     },
     {
@@ -1119,7 +1058,6 @@
       "DILI": 0.3983,
       "AMES": 0.6398,
       "admet_ai_used": true,
-      "P_harm": 0.238227,
       "rank": 57
     },
     {
@@ -1137,7 +1075,6 @@
       "DILI": 0.2965,
       "AMES": 0.7131,
       "admet_ai_used": true,
-      "P_harm": 0.234037,
       "rank": 58
     },
     {
@@ -1155,7 +1092,6 @@
       "DILI": 0.6393,
       "AMES": 0.1868,
       "admet_ai_used": true,
-      "P_harm": 0.233459,
       "rank": 59
     },
     {
@@ -1173,7 +1109,6 @@
       "DILI": 0.9741,
       "AMES": 0.8641,
       "admet_ai_used": true,
-      "P_harm": 0.227973,
       "rank": 60
     },
     {
@@ -1191,7 +1126,6 @@
       "DILI": 0.69,
       "AMES": 0.7674,
       "admet_ai_used": true,
-      "P_harm": 0.227706,
       "rank": 61
     },
     {
@@ -1209,7 +1143,6 @@
       "DILI": 0.2014,
       "AMES": 0.2763,
       "admet_ai_used": true,
-      "P_harm": 0.227373,
       "rank": 62
     },
     {
@@ -1227,7 +1160,6 @@
       "DILI": 0.8912,
       "AMES": 0.7909,
       "admet_ai_used": true,
-      "P_harm": 0.220539,
       "rank": 63
     },
     {
@@ -1245,7 +1177,6 @@
       "DILI": 0.2121,
       "AMES": 0.0277,
       "admet_ai_used": true,
-      "P_harm": 0.219281,
       "rank": 64
     },
     {
@@ -1263,7 +1194,6 @@
       "DILI": 0.9239,
       "AMES": 0.3259,
       "admet_ai_used": true,
-      "P_harm": 0.209031,
       "rank": 65
     },
     {
@@ -1281,7 +1211,6 @@
       "DILI": 0.9785,
       "AMES": 0.0874,
       "admet_ai_used": true,
-      "P_harm": 0.199738,
       "rank": 66
     },
     {
@@ -1299,7 +1228,6 @@
       "DILI": 0.8554,
       "AMES": 0.0834,
       "admet_ai_used": true,
-      "P_harm": 0.193362,
       "rank": 67
     },
     {
@@ -1317,7 +1245,6 @@
       "DILI": 0.9351,
       "AMES": 0.1806,
       "admet_ai_used": true,
-      "P_harm": 0.177563,
       "rank": 68
     },
     {
@@ -1335,7 +1262,6 @@
       "DILI": 0.9835,
       "AMES": 0.8284,
       "admet_ai_used": true,
-      "P_harm": 0.150432,
       "rank": 69
     },
     {
@@ -1353,7 +1279,6 @@
       "DILI": 0.9603,
       "AMES": 0.9034,
       "admet_ai_used": true,
-      "P_harm": 0.139526,
       "rank": 70
     },
     {
@@ -1371,7 +1296,6 @@
       "DILI": 0.564,
       "AMES": 0.9616,
       "admet_ai_used": true,
-      "P_harm": 0.128925,
       "rank": 71
     },
     {
@@ -1389,7 +1313,6 @@
       "DILI": 0.564,
       "AMES": 0.9616,
       "admet_ai_used": true,
-      "P_harm": 0.128925,
       "rank": 72
     },
     {
@@ -1407,7 +1330,6 @@
       "DILI": 0.8411,
       "AMES": 0.0718,
       "admet_ai_used": true,
-      "P_harm": 0.125698,
       "rank": 73
     },
     {
@@ -1425,7 +1347,6 @@
       "DILI": 0.6133,
       "AMES": 0.1498,
       "admet_ai_used": true,
-      "P_harm": 0.124634,
       "rank": 74
     },
     {
@@ -1443,7 +1364,6 @@
       "DILI": 0.5402,
       "AMES": 0.0836,
       "admet_ai_used": true,
-      "P_harm": 0.121648,
       "rank": 75
     },
     {
@@ -1461,7 +1381,6 @@
       "DILI": 0.8486,
       "AMES": 0.821,
       "admet_ai_used": true,
-      "P_harm": 0.115154,
       "rank": 76
     },
     {
@@ -1479,7 +1398,6 @@
       "DILI": 0.7917,
       "AMES": 0.3733,
       "admet_ai_used": true,
-      "P_harm": 0.114008,
       "rank": 77
     },
     {
@@ -1497,7 +1415,6 @@
       "DILI": 0.9852,
       "AMES": 0.5551,
       "admet_ai_used": true,
-      "P_harm": 0.112633,
       "rank": 78
     },
     {
@@ -1515,7 +1432,6 @@
       "DILI": 0.3236,
       "AMES": 0.9002,
       "admet_ai_used": true,
-      "P_harm": 0.107572,
       "rank": 79
     },
     {
@@ -1533,7 +1449,6 @@
       "DILI": 0.6819,
       "AMES": 0.1628,
       "admet_ai_used": true,
-      "P_harm": 0.105108,
       "rank": 80
     },
     {
@@ -1551,7 +1466,6 @@
       "DILI": 0.6819,
       "AMES": 0.1628,
       "admet_ai_used": true,
-      "P_harm": 0.105108,
       "rank": 81
     },
     {
@@ -1569,7 +1483,6 @@
       "DILI": 0.8213,
       "AMES": 0.5125,
       "admet_ai_used": true,
-      "P_harm": 0.095519,
       "rank": 82
     },
     {
@@ -1587,7 +1500,6 @@
       "DILI": 0.8213,
       "AMES": 0.5125,
       "admet_ai_used": true,
-      "P_harm": 0.095519,
       "rank": 83
     },
     {
@@ -1605,7 +1517,6 @@
       "DILI": 0.7517,
       "AMES": 0.0867,
       "admet_ai_used": true,
-      "P_harm": 0.091394,
       "rank": 84
     }
   ]

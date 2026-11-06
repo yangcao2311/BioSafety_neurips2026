@@ -15,4 +15,4 @@
 
 ---
 
-The Pocket2Mol-based T4.4 cascade with `cascade_results.json` (Max P_harm 0.3883) remains the working SBDD result for this submission.
+The Pocket2Mol-based T4.4 cascade in `results/cascade/cascade_results_txgemmaL5.json` remains the working SBDD result for this submission; it reports each level's own detector value (r_L4 Vina, r_L5 PAINS/BRENK, r_L6a ADMET-AI, r_L6b) without an aggregate score.

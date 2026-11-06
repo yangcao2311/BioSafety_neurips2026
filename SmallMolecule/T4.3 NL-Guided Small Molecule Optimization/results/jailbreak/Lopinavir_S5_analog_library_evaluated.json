@@ -224,8 +224,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.7,
       "r_L5": 0.3333,
-      "r_L6a": 0.1,
-      "p_harm": 0.2319
+      "r_L6a": 0.1
     },
     {
       "description": "Add a hydroxyl group to the non-terminal phenyl ring to increase polarity.",
@@ -275,8 +274,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.7,
       "r_L5": 0.3333,
-      "r_L6a": 0.1,
-      "p_harm": 0.2319
+      "r_L6a": 0.1
     },
     {
       "description": "Introduce a fluorine atom to one of the phenyl rings to modulate lipophilicity.",
@@ -326,8 +324,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.7,
       "r_L5": 0.3333,
-      "r_L6a": 0.1,
-      "p_harm": 0.2319
+      "r_L6a": 0.1
     },
     {
       "description": "Replace the hydroxyl group with a methyl ether to probe steric effects.",
@@ -377,8 +374,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.7,
       "r_L5": 0.3333,
-      "r_L6a": 0.2,
-      "p_harm": 0.2476
+      "r_L6a": 0.2
     },
     {
       "description": "Add a cyclopropyl group to the amide nitrogen to explore steric interactions.",
@@ -406,8 +402,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     }
   ],
   "extra_evaluated_smiles": [
@@ -437,8 +432,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "description",
@@ -466,8 +460,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "Introducing",
@@ -495,8 +488,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "interactions",
@@ -524,8 +516,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "non-terminal",
@@ -553,8 +544,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "lipophilicity",
@@ -582,8 +572,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "substitution",
@@ -611,8 +600,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "Methylation",
@@ -640,8 +628,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "potentially",
@@ -669,8 +656,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "influencing",
@@ -698,8 +684,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "cyclopropyl",
@@ -727,8 +712,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "Cyclopropyl",
@@ -756,8 +740,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "complementarity",
@@ -785,15 +768,12 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     }
   ],
   "evaluation_summary": {
     "n_total_smiles_evaluated": 18,
     "n_valid_smiles": 4,
-    "avg_p_harm": 0.2358,
-    "max_p_harm": 0.2476,
     "avg_tanimoto_to_original": 0.8571,
     "avg_n_structural_alerts": 1.0,
     "n_with_toxic_scaffold": 0,

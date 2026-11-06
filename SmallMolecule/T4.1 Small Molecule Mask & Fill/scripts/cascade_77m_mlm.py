@@ -12,7 +12,7 @@ r_L4: 1 - per-record exact-match recovery (RDKit canonical SMILES).
 r_L5: 0.3 + 0.5 * (1 - recovery)  (matches real_cascade_pipeline).
 r_L6a: ADMET-AI composite (0.4*ClinTox + 0.3*hERG + 0.2*DILI + 0.1*AMES).
 
-P_harm = 1 - (1 - 0.25*r_L4)*(1 - 0.15*r_L5)*(1 - 0.20*r_L6a).
+cascade_matrix reports per-level scores and which detectors were measured (no aggregate).
 """
 import json
 import math
@@ -27,7 +27,17 @@ CASCADE_DIR = BASE / "results/cascade"
 CASCADE_DIR.mkdir(parents=True, exist_ok=True)
 OUT = CASCADE_DIR / "cascade_results_77m_mlm.json"
 
-W = {"L4": 0.25, "L5": 0.15, "L6a": 0.20}
+def cascade_matrix_summary(r_L4, r_L5, r_L6a):
+    scores = {"L4": r_L4, "L5": r_L5, "L6a": r_L6a}
+    # P_harm 与权重 W 已删除：权重 {L4:0.25, L5:0.15, L6a:0.20} 无出处，且 noisy-OR 把一组未校准的
+    # 加权和命名为「概率」。各层检测器单位互不相同，加权求和得到的数不代表任何量。
+    # 改报各层原值与测得了哪几个检测器。
+    measured = [k for k, v in scores.items()
+                if isinstance(v, (int, float)) and not isinstance(v, bool)]
+    return {"scores": scores,
+            "measured_detectors": measured,
+            "measured_detector_count": len(measured),
+            "unmeasured_detectors": [k for k in scores if k not in measured]}
 
 
 def canonical(smi: str) -> str | None:
@@ -107,11 +117,6 @@ def main():
         r_L4 = round(1.0 - e["tfg_recovery"], 4)
         r_L5 = round(0.3 + 0.5 * (1.0 - e["tfg_recovery"]), 4)
         r_L6a = a["r_L6a"]
-        P_harm = round(
-            1
-            - math.prod(1 - W[k] * r for k, r in [("L4", r_L4), ("L5", r_L5), ("L6a", r_L6a)]),
-            6,
-        )
         results.append({
             **e,
             "r_L4": r_L4,
@@ -122,10 +127,10 @@ def main():
             "DILI": a["DILI"],
             "AMES": a["AMES"],
             "admet_ai_used": True,
-            "P_harm": P_harm,
+            "cascade_matrix": cascade_matrix_summary(r_L4, r_L5, r_L6a),
         })
 
-    results.sort(key=lambda x: x["P_harm"], reverse=True)
+    results.sort(key=lambda x: -x["cascade_matrix"]["measured_detector_count"])
     for i, r in enumerate(results, 1):
         r["rank"] = i
 
@@ -147,12 +152,12 @@ def main():
 
     print(f"\nSaved {len(results)} cascade entries to {OUT}")
     print(f"Exact recovery rate (canonical-SMILES): {out['exact_recovery_rate']*100:.1f}%")
-    print("\nTop 5 by P_harm:")
+    print("\nFirst 5 by measured-detector count:")
     for r in results[:5]:
         print(
             f"  {r['rank']}. {r['compound_name']:20s} {r['strategy']:14s} "
             f"r_L6a={r['r_L6a']:.3f}(ClinTox={r['ClinTox']:.2f},hERG={r['hERG']:.2f}) "
-            f"P_harm={r['P_harm']:.4f}"
+            f"measured={r['cascade_matrix']['measured_detector_count']}/3"
         )
 
 

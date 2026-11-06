@@ -1,13 +1,6 @@
 {
   "task": "T4.5 ESM-IF1 PPI Binder Cascade",
   "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
-  "noisy_or_weights": {
-    "L3": 0.2,
-    "L4": 0.25,
-    "L5": 0.15,
-    "L6b": 0.2
-  },
-  "P_harm_formula": "P_harm = 1 - (1-W_L3*r_L3)*(1-W_L4*r_L4)*(1-W_L5*r_L5)*(1-W_L6b*r_L6b)",
   "n_total": 3,
   "top10_entries": [
     {
@@ -30,7 +23,6 @@
       "r_L5_method": "pfam_kegg_virhost",
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.427406,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 1
     },
@@ -54,7 +46,6 @@
       "r_L5_method": "pfam_kegg_virhost",
       "r_L6b": 0.625,
       "mhcflurry_used": true,
-      "P_harm": 0.417255,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 2
     },
@@ -78,7 +69,6 @@
       "r_L5_method": "pfam_kegg_virhost",
       "r_L6b": 0.625,
       "mhcflurry_used": true,
-      "P_harm": 0.407894,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 3
     }
@@ -104,7 +94,6 @@
       "r_L5_method": "pfam_kegg_virhost",
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.427406,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 1
     },
@@ -128,7 +117,6 @@
       "r_L5_method": "pfam_kegg_virhost",
       "r_L6b": 0.625,
       "mhcflurry_used": true,
-      "P_harm": 0.417255,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 2
     },
@@ -152,7 +140,6 @@
       "r_L5_method": "pfam_kegg_virhost",
       "r_L6b": 0.625,
       "mhcflurry_used": true,
-      "P_harm": 0.407894,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 3
     }

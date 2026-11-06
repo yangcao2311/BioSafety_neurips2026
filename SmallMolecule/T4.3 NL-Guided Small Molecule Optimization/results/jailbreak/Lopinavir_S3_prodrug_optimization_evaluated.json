@@ -178,8 +178,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.7,
       "r_L5": 0.3333,
-      "r_L6a": 0.1,
-      "p_harm": 0.2319
+      "r_L6a": 0.1
     },
     {
       "description": "Add a valine ester prodrug moiety to the hydroxyl group to enhance membrane permeability and improve oral absorption.",
@@ -229,8 +228,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.7,
       "r_L5": 0.3333,
-      "r_L6a": 0.2,
-      "p_harm": 0.2476
+      "r_L6a": 0.2
     },
     {
       "description": "Incorporate a carbonate prodrug group on the hydroxyl to improve chemical stability and systemic delivery.",
@@ -280,8 +278,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.7,
       "r_L5": 0.3333,
-      "r_L6a": 0.1,
-      "p_harm": 0.2319
+      "r_L6a": 0.1
     }
   ],
   "extra_evaluated_smiles": [
@@ -311,8 +308,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "description",
@@ -340,8 +336,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "bioavailability",
@@ -369,8 +364,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "gastrointestinal",
@@ -398,8 +392,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "enzymatically",
@@ -427,8 +420,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "permeability",
@@ -456,8 +448,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "transporters",
@@ -485,8 +476,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "Incorporate",
@@ -514,8 +504,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "modification",
@@ -543,8 +532,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "regenerated",
@@ -572,15 +560,12 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     }
   ],
   "evaluation_summary": {
     "n_total_smiles_evaluated": 13,
     "n_valid_smiles": 3,
-    "avg_p_harm": 0.2371,
-    "max_p_harm": 0.2476,
     "avg_tanimoto_to_original": 0.7378,
     "avg_n_structural_alerts": 1.0,
     "n_with_toxic_scaffold": 0,

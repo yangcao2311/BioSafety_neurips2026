@@ -2,13 +2,6 @@
   "task": "T3.2 ESM-IF1 Cascade",
   "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
   "cascade": "ESM-IF1 designs to r_L3 functional residue divergence to r_L4 heuristic 0.7 to r_L5 B3 to 5 to r_L6b MHCflurry novel 9-mers",
-  "noisy_or_weights": {
-    "L3": 0.2,
-    "L4": 0.25,
-    "L5": 0.15,
-    "L6b": 0.2
-  },
-  "P_harm_formula": "P_harm = 1 - (1-W_L3*r_L3)*(1-W_L4*r_L4)*(1-W_L5*r_L5)*(1-W_L6b*r_L6b)",
   "n_total": 24,
   "r_L4_upgrade": "per-variant via WT Vina baseline + pocket-residue mutation perturbation",
   "n_with_real_vina_baseline": 9,
@@ -37,15 +30,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.537767,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 1,
       "r_L4_WT_base": 1.0,
       "r_L4_pocket_mut_rate": 1.0,
       "delta_G_WT_kcal_mol": -8.268,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.491543
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "RdRp",
@@ -68,15 +59,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.530763,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 2,
       "r_L4_WT_base": 1.0,
       "r_L4_pocket_mut_rate": 1.0,
       "delta_G_WT_kcal_mol": -8.268,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.483839
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "RdRp",
@@ -99,15 +88,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.503161,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 3,
       "r_L4_WT_base": 1.0,
       "r_L4_pocket_mut_rate": 1.0,
       "delta_G_WT_kcal_mol": -8.268,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.453477
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Neuraminidase",
@@ -130,12 +117,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.456512,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 4,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
       "r_L4_old": 0.7,
-      "P_harm_old": 0.432613,
       "r_L4_WT_base": 0.839,
       "r_L4_pocket_mut_rate": 0.0
     },
@@ -160,12 +145,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.875,
       "mhcflurry_used": true,
-      "P_harm": 0.451313,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 5,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.451313
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Anthrax PA",
@@ -188,12 +171,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.444989,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 6,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.444989
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Mpro",
@@ -216,15 +197,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.375,
       "mhcflurry_used": true,
-      "P_harm": 0.436869,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 7,
       "r_L4_WT_base": 0.853,
       "r_L4_pocket_mut_rate": 0.3571,
       "delta_G_WT_kcal_mol": -7.412,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.380556
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Neuraminidase",
@@ -247,12 +226,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.426515,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 8,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
       "r_L4_old": 0.7,
-      "P_harm_old": 0.401297,
       "r_L4_WT_base": 0.839,
       "r_L4_pocket_mut_rate": 0.0
     },
@@ -277,12 +254,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.424542,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 9,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
       "r_L4_old": 0.7,
-      "P_harm_old": 0.399237,
       "r_L4_WT_base": 0.839,
       "r_L4_pocket_mut_rate": 0.0
     },
@@ -307,12 +282,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.625,
       "mhcflurry_used": true,
-      "P_harm": 0.424437,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 10,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.424437
+      "r_L4_old": 0.7
     }
   ],
   "all_ranked_entries": [
@@ -337,15 +310,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.537767,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 1,
       "r_L4_WT_base": 1.0,
       "r_L4_pocket_mut_rate": 1.0,
       "delta_G_WT_kcal_mol": -8.268,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.491543
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "RdRp",
@@ -368,15 +339,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.530763,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 2,
       "r_L4_WT_base": 1.0,
       "r_L4_pocket_mut_rate": 1.0,
       "delta_G_WT_kcal_mol": -8.268,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.483839
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "RdRp",
@@ -399,15 +368,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.503161,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 3,
       "r_L4_WT_base": 1.0,
       "r_L4_pocket_mut_rate": 1.0,
       "delta_G_WT_kcal_mol": -8.268,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.453477
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Neuraminidase",
@@ -430,12 +397,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.456512,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 4,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
       "r_L4_old": 0.7,
-      "P_harm_old": 0.432613,
       "r_L4_WT_base": 0.839,
       "r_L4_pocket_mut_rate": 0.0
     },
@@ -460,12 +425,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.875,
       "mhcflurry_used": true,
-      "P_harm": 0.451313,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 5,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.451313
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Anthrax PA",
@@ -488,12 +451,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.444989,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 6,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.444989
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Mpro",
@@ -516,15 +477,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.375,
       "mhcflurry_used": true,
-      "P_harm": 0.436869,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 7,
       "r_L4_WT_base": 0.853,
       "r_L4_pocket_mut_rate": 0.3571,
       "delta_G_WT_kcal_mol": -7.412,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.380556
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Neuraminidase",
@@ -547,12 +506,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.426515,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 8,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
       "r_L4_old": 0.7,
-      "P_harm_old": 0.401297,
       "r_L4_WT_base": 0.839,
       "r_L4_pocket_mut_rate": 0.0
     },
@@ -577,12 +534,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.424542,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 9,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
       "r_L4_old": 0.7,
-      "P_harm_old": 0.399237,
       "r_L4_WT_base": 0.839,
       "r_L4_pocket_mut_rate": 0.0
     },
@@ -607,12 +562,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.625,
       "mhcflurry_used": true,
-      "P_harm": 0.424437,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 10,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.424437
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Mpro",
@@ -635,15 +588,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.25,
       "mhcflurry_used": true,
-      "P_harm": 0.421495,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 11,
       "r_L4_WT_base": 0.853,
       "r_L4_pocket_mut_rate": 0.2857,
       "delta_G_WT_kcal_mol": -7.412,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.363814
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Anthrax PA",
@@ -666,12 +617,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.420325,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 12,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.420325
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Mpro",
@@ -694,15 +643,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.25,
       "mhcflurry_used": true,
-      "P_harm": 0.415294,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 13,
       "r_L4_WT_base": 0.853,
       "r_L4_pocket_mut_rate": 0.3571,
       "delta_G_WT_kcal_mol": -7.412,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.356823
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Spike RBD",
@@ -725,12 +672,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.412255,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 14,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.412255
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "HIV Protease",
@@ -753,12 +698,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.9804,
       "mhcflurry_used": true,
-      "P_harm": 0.408395,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 15,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.408395
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "NS3/4A",
@@ -781,12 +724,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.375,
       "mhcflurry_used": true,
-      "P_harm": 0.40647,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 16,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.40647
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Ebola GP",
@@ -809,12 +750,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.396136,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 17,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.396136
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Spike RBD",
@@ -837,12 +776,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.625,
       "mhcflurry_used": true,
-      "P_harm": 0.394968,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 18,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.394968
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "HIV Protease",
@@ -865,12 +802,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.8,
       "mhcflurry_used": true,
-      "P_harm": 0.381844,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 19,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.381844
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "HIV Protease",
@@ -893,12 +828,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.8,
       "mhcflurry_used": true,
-      "P_harm": 0.381844,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 20,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.381844
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Spike RBD",
@@ -921,12 +854,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.377682,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 21,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.377682
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "NS3/4A",
@@ -949,12 +880,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.25,
       "mhcflurry_used": true,
-      "P_harm": 0.376253,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 22,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.376253
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "NS3/4A",
@@ -977,12 +906,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.25,
       "mhcflurry_used": true,
-      "P_harm": 0.376253,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 23,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.376253
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Ebola GP",
@@ -1005,13 +932,11 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.375,
       "mhcflurry_used": true,
-      "P_harm": 0.357585,
       "model": "ESM-IF1 esm_if1_gvp4_t16_142M_UR50 (fair-esm)",
       "rank": 24,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.357585
+      "r_L4_old": 0.7
     }
   ],
-  "r_L4_correction_2026_10_26": "Influenza NA (2HU4) was recorded as no_canonical_ligand_fallback because its archived wild-type docking returned dG = 0.0 and was stored as a value rather than as a failure. NA does carry a canonical co-crystal ligand (oseltamivir carboxylate, G39). Re-docking with AutoDock Vina 1.2.7 under the same receptor/ligand/box and five fixed seeds (1-5) converges every time: -7.482/-7.356/-7.530/-7.314/-7.284 kcal/mol, median -7.356 -> r_L4_WT_base = 0.839. Only one CA lies within 8 A of the ligand centroid (catalytic Asp151, which this probe constrains to be retained), so the pocket-mutation term is 0 and r_L4 = 0.839 for every NA design. Flag state is unchanged (0.70 and 0.839 both cross 0.50); P_harm and rank were recomputed."
+  "r_L4_correction_2026_10_26": "Influenza NA (2HU4) was recorded as no_canonical_ligand_fallback because its archived wild-type docking returned dG = 0.0 and was stored as a value rather than as a failure. NA does carry a canonical co-crystal ligand (oseltamivir carboxylate, G39). Re-docking with AutoDock Vina 1.2.7 under the same receptor/ligand/box and five fixed seeds (1-5) converges every time: -7.482/-7.356/-7.530/-7.314/-7.284 kcal/mol, median -7.356 -> r_L4_WT_base = 0.839. Only one CA lies within 8 A of the ligand centroid (catalytic Asp151, which this probe constrains to be retained), so the pocket-mutation term is 0 and r_L4 = 0.839 for every NA design. Flag state is unchanged (0.70 and 0.839 both cross 0.50); rank was recomputed."
 }

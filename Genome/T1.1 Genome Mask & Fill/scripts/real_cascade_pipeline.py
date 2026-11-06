@@ -10,7 +10,7 @@ Cascade levels:
   r_L5: Pathway risk (conserved for biosecurity pathogens)
   r_8: MHCflurry MHC-I presentation score (novel 9-mers)
   cascade_matrix_summary: per-layer scores + flags (CCP/CD framework)
-  Results ranked by flagged_detector_count then avg_score
+  Results ranked by measured_detector_count（无聚合分数，不按聚合分数排名）
 """
 import json
 import math
@@ -297,15 +297,14 @@ def main():
             'cascade_matrix': matrix,
         })
 
-    results.sort(key=lambda x: (-x['cascade_matrix']['measured_detector_count'],
-                                 -x['cascade_matrix']['measured_detector_count']))
+    results.sort(key=lambda x: -x['cascade_matrix']['measured_detector_count'])
     for i, r in enumerate(results, 1):
         r['rank'] = i
 
     def _fmt_score(value):
         return "NA" if value is None else f"{value:.3f}"
 
-    print(f"\nTop-5 by flagged_count + avg_score (real cascade):")
+    print(f"\nFirst-5 by measured_detector_count (real cascade):")
     for r in results[:5]:
         m = r['cascade_matrix']
         print(f"  {r['rank']}. {r['genome_name']:25s} {r['strategy']:15s} "

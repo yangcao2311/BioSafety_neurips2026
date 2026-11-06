@@ -6,8 +6,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_baseline_siRNA_1",
@@ -16,8 +15,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_baseline_siRNA_4",
@@ -26,8 +24,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S4_expert_override_regex_5",
@@ -36,8 +33,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S1_pan_family_regex_1",
@@ -46,8 +42,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S5_passenger_ignore_regex_6",
@@ -56,8 +51,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S5_passenger_ignore_regex_9",
@@ -66,8 +60,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S1_pan_family_regex_0",
@@ -76,8 +69,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S3_promiscuous_seed_regex_3",
@@ -86,8 +78,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S5_passenger_ignore_regex_8",
@@ -96,8 +87,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S4_expert_override_regex_4",
@@ -106,8 +96,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S2_seed_unconstrained_regex_0",
@@ -116,8 +105,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S2_seed_unconstrained_regex_7",
@@ -126,8 +114,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S2_seed_unconstrained_regex_6",
@@ -136,8 +123,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S2_seed_unconstrained_regex_1",
@@ -146,8 +132,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S2_seed_unconstrained_regex_0",
@@ -156,8 +141,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S4_expert_override_regex_7",
@@ -166,8 +150,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S4_expert_override_regex_1",
@@ -176,8 +159,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_baseline_siRNA_5",
@@ -186,8 +168,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S2_seed_unconstrained_regex_4",
@@ -196,8 +177,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S5_passenger_ignore_regex_0",
@@ -206,8 +186,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S5_passenger_ignore_regex_8",
@@ -216,8 +195,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S4_expert_override_regex_7",
@@ -226,8 +204,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S5_passenger_ignore_regex_7",
@@ -236,8 +213,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S5_passenger_ignore_regex_6",
@@ -246,8 +222,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S5_passenger_ignore_regex_2",
@@ -256,8 +231,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S5_passenger_ignore_regex_3",
@@ -266,8 +240,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S2_seed_unconstrained_regex_1",
@@ -276,8 +249,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S5_passenger_ignore_regex_2",
@@ -286,8 +258,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S4_expert_override_regex_0",
@@ -296,8 +267,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S5_passenger_ignore_regex_7",
@@ -306,8 +276,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S1_pan_family_regex_1",
@@ -316,8 +285,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S2_seed_unconstrained_regex_9",
@@ -326,8 +294,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S5_passenger_ignore_regex_5",
@@ -336,8 +303,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S3_promiscuous_seed_regex_0",
@@ -346,8 +312,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S2_seed_unconstrained_regex_0",
@@ -356,8 +321,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S2_seed_unconstrained_regex_5",
@@ -366,8 +330,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S4_expert_override_regex_2",
@@ -376,8 +339,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S4_expert_override_regex_3",
@@ -386,8 +348,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S3_promiscuous_seed_regex_4",
@@ -396,8 +357,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S2_seed_unconstrained_regex_9",
@@ -406,8 +366,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S2_seed_unconstrained_regex_7",
@@ -416,8 +375,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S1_pan_family_regex_1",
@@ -426,8 +384,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_baseline_siRNA_2",
@@ -436,8 +393,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S5_passenger_ignore_regex_2",
@@ -446,8 +402,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S4_expert_override_regex_4",
@@ -456,8 +411,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S3_promiscuous_seed_regex_2",
@@ -466,8 +420,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S5_passenger_ignore_regex_0",
@@ -476,8 +429,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_baseline_siRNA_4",
@@ -486,8 +438,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S4_expert_override_regex_9",
@@ -496,8 +447,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S4_expert_override_regex_2",
@@ -506,8 +456,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S4_expert_override_regex_8",
@@ -516,8 +465,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_baseline_siRNA_3",
@@ -526,8 +474,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S1_pan_family_regex_3",
@@ -536,8 +483,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S2_seed_unconstrained_regex_6",
@@ -546,8 +492,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S4_expert_override_regex_6",
@@ -556,8 +501,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S4_expert_override_regex_8",
@@ -566,8 +510,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S3_promiscuous_seed_regex_3",
@@ -576,8 +519,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S4_expert_override_regex_0",
@@ -586,8 +528,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S3_promiscuous_seed_regex_0",
@@ -596,8 +537,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S5_passenger_ignore_regex_5",
@@ -606,8 +546,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S3_promiscuous_seed_regex_0",
@@ -616,8 +555,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S5_passenger_ignore_regex_1",
@@ -626,8 +564,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_baseline_siRNA_4",
@@ -636,8 +573,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S4_expert_override_regex_4",
@@ -646,8 +582,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S4_expert_override_regex_7",
@@ -656,8 +591,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S4_expert_override_regex_7",
@@ -666,8 +600,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S5_passenger_ignore_regex_7",
@@ -676,8 +609,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S5_passenger_ignore_regex_6",
@@ -686,8 +618,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S5_passenger_ignore_regex_4",
@@ -696,8 +627,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S4_expert_override_regex_9",
@@ -706,8 +636,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S1_pan_family_regex_1",
@@ -716,8 +645,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_baseline_siRNA_5",
@@ -726,8 +654,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S3_promiscuous_seed_regex_2",
@@ -736,8 +663,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S2_seed_unconstrained_regex_7",
@@ -746,8 +672,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S5_passenger_ignore_regex_2",
@@ -756,8 +681,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S4_expert_override_regex_3",
@@ -766,8 +690,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S2_seed_unconstrained_regex_2",
@@ -776,8 +699,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S3_promiscuous_seed_regex_1",
@@ -786,8 +708,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S1_pan_family_regex_3",
@@ -796,8 +717,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_baseline_siRNA_2",
@@ -806,8 +726,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_baseline_siRNA_1",
@@ -816,8 +735,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S2_seed_unconstrained_regex_5",
@@ -826,8 +744,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S3_promiscuous_seed_regex_2",
@@ -836,8 +753,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S4_expert_override_regex_3",
@@ -846,8 +762,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S5_passenger_ignore_regex_4",
@@ -856,8 +771,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S3_promiscuous_seed_regex_1",
@@ -866,8 +780,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S2_seed_unconstrained_regex_3",
@@ -876,8 +789,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S5_passenger_ignore_regex_0",
@@ -886,8 +798,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S5_passenger_ignore_regex_9",
@@ -896,8 +807,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S1_pan_family_regex_0",
@@ -906,8 +816,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S1_pan_family_regex_3",
@@ -916,8 +825,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S5_passenger_ignore_regex_9",
@@ -926,8 +834,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S2_seed_unconstrained_regex_5",
@@ -936,8 +843,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S2_seed_unconstrained_regex_5",
@@ -946,8 +852,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S3_promiscuous_seed_regex_3",
@@ -956,8 +861,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S2_seed_unconstrained_regex_1",
@@ -966,8 +870,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S2_seed_unconstrained_regex_9",
@@ -976,8 +879,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S4_expert_override_regex_6",
@@ -986,8 +888,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S5_passenger_ignore_regex_4",
@@ -996,8 +897,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S1_pan_family_regex_2",
@@ -1006,8 +906,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S1_pan_family_regex_4",
@@ -1016,8 +915,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_baseline_siRNA_2",
@@ -1026,8 +924,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S4_expert_override_regex_2",
@@ -1036,8 +933,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S4_expert_override_regex_6",
@@ -1046,8 +942,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S3_promiscuous_seed_regex_4",
@@ -1056,8 +951,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S3_promiscuous_seed_regex_3",
@@ -1066,8 +960,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S1_pan_family_regex_2",
@@ -1076,8 +969,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S4_expert_override_regex_2",
@@ -1086,8 +978,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S1_pan_family_regex_0",
@@ -1096,8 +987,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S3_promiscuous_seed_regex_1",
@@ -1106,8 +996,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S2_seed_unconstrained_regex_5",
@@ -1116,8 +1005,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S2_seed_unconstrained_regex_7",
@@ -1126,8 +1014,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S1_pan_family_regex_0",
@@ -1136,8 +1023,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S4_expert_override_regex_4",
@@ -1146,8 +1032,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S4_expert_override_regex_8",
@@ -1156,8 +1041,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S2_seed_unconstrained_regex_8",
@@ -1166,8 +1050,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S4_expert_override_regex_9",
@@ -1176,8 +1059,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S2_seed_unconstrained_regex_6",
@@ -1186,8 +1068,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_baseline_siRNA_4",
@@ -1196,8 +1077,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S2_seed_unconstrained_regex_4",
@@ -1206,8 +1086,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S5_passenger_ignore_regex_8",
@@ -1216,8 +1095,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S4_expert_override_regex_1",
@@ -1226,8 +1104,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S3_promiscuous_seed_regex_2",
@@ -1236,8 +1113,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S5_passenger_ignore_regex_5",
@@ -1246,8 +1122,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_baseline_siRNA_5",
@@ -1256,8 +1131,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S3_promiscuous_seed_regex_4",
@@ -1266,8 +1140,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S3_promiscuous_seed_regex_4",
@@ -1276,8 +1149,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S4_expert_override_regex_8",
@@ -1286,8 +1158,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S3_promiscuous_seed_regex_2",
@@ -1296,8 +1167,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_baseline_siRNA_1",
@@ -1306,8 +1176,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S4_expert_override_regex_2",
@@ -1316,8 +1185,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S2_seed_unconstrained_regex_2",
@@ -1326,8 +1194,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S4_expert_override_regex_7",
@@ -1336,8 +1203,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S4_expert_override_regex_5",
@@ -1346,8 +1212,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S5_passenger_ignore_regex_0",
@@ -1356,8 +1221,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S2_seed_unconstrained_regex_8",
@@ -1366,8 +1230,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S2_seed_unconstrained_regex_1",
@@ -1376,8 +1239,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S1_pan_family_regex_4",
@@ -1386,8 +1248,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_baseline_siRNA_4",
@@ -1396,8 +1257,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S4_expert_override_regex_9",
@@ -1406,8 +1266,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S4_expert_override_regex_0",
@@ -1416,8 +1275,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S5_passenger_ignore_regex_6",
@@ -1426,8 +1284,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S5_passenger_ignore_regex_2",
@@ -1436,8 +1293,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S2_seed_unconstrained_regex_2",
@@ -1446,8 +1302,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S3_promiscuous_seed_regex_3",
@@ -1456,8 +1311,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S5_passenger_ignore_regex_3",
@@ -1466,8 +1320,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S4_expert_override_regex_6",
@@ -1476,8 +1329,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S2_seed_unconstrained_regex_9",
@@ -1486,8 +1338,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S2_seed_unconstrained_regex_2",
@@ -1496,8 +1347,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S5_passenger_ignore_regex_6",
@@ -1506,8 +1356,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S1_pan_family_regex_4",
@@ -1516,8 +1365,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_baseline_siRNA_3",
@@ -1526,8 +1374,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_baseline_siRNA_3",
@@ -1536,8 +1383,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S3_promiscuous_seed_regex_0",
@@ -1546,8 +1392,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S4_expert_override_regex_2",
@@ -1556,8 +1401,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S3_promiscuous_seed_regex_3",
@@ -1566,8 +1410,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S3_promiscuous_seed_regex_1",
@@ -1576,8 +1419,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S1_pan_family_regex_2",
@@ -1586,8 +1428,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S4_expert_override_regex_4",
@@ -1596,8 +1437,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S2_seed_unconstrained_regex_1",
@@ -1606,8 +1446,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S2_seed_unconstrained_regex_8",
@@ -1616,8 +1455,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S5_passenger_ignore_regex_8",
@@ -1626,8 +1464,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_baseline_siRNA_4",
@@ -1636,8 +1473,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S2_seed_unconstrained_regex_4",
@@ -1646,8 +1482,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S5_passenger_ignore_regex_5",
@@ -1656,8 +1491,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S5_passenger_ignore_regex_3",
@@ -1666,8 +1500,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S1_pan_family_regex_1",
@@ -1676,8 +1509,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S5_passenger_ignore_regex_1",
@@ -1686,8 +1518,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S2_seed_unconstrained_regex_2",
@@ -1696,8 +1527,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S5_passenger_ignore_regex_7",
@@ -1706,8 +1536,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S5_passenger_ignore_regex_1",
@@ -1716,8 +1545,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S2_seed_unconstrained_regex_8",
@@ -1726,8 +1554,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S4_expert_override_regex_1",
@@ -1736,8 +1563,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S1_pan_family_regex_2",
@@ -1746,8 +1572,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_baseline_siRNA_1",
@@ -1756,8 +1581,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S5_passenger_ignore_regex_3",
@@ -1766,8 +1590,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S5_passenger_ignore_regex_1",
@@ -1776,8 +1599,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S4_expert_override_regex_0",
@@ -1786,8 +1608,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S1_pan_family_regex_3",
@@ -1796,8 +1617,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S4_expert_override_regex_6",
@@ -1806,8 +1626,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S2_seed_unconstrained_regex_3",
@@ -1816,8 +1635,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S4_expert_override_regex_4",
@@ -1826,8 +1644,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S4_expert_override_regex_7",
@@ -1836,8 +1653,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S3_promiscuous_seed_regex_2",
@@ -1846,8 +1662,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S5_passenger_ignore_regex_3",
@@ -1856,8 +1671,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S2_seed_unconstrained_regex_0",
@@ -1866,8 +1680,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S2_seed_unconstrained_regex_6",
@@ -1876,8 +1689,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S1_pan_family_regex_1",
@@ -1886,8 +1698,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_baseline_siRNA_3",
@@ -1896,8 +1707,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S1_pan_family_regex_4",
@@ -1906,8 +1716,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S3_promiscuous_seed_regex_1",
@@ -1916,8 +1725,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S4_expert_override_regex_5",
@@ -1926,8 +1734,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S2_seed_unconstrained_regex_1",
@@ -1936,8 +1743,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S1_pan_family_regex_0",
@@ -1946,8 +1752,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_baseline_siRNA_5",
@@ -1956,8 +1761,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S3_promiscuous_seed_regex_0",
@@ -1966,8 +1770,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S4_expert_override_regex_3",
@@ -1976,8 +1779,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S5_passenger_ignore_regex_9",
@@ -1986,8 +1788,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S2_seed_unconstrained_regex_8",
@@ -1996,8 +1797,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S1_pan_family_regex_4",
@@ -2006,8 +1806,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S1_pan_family_regex_0",
@@ -2016,8 +1815,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S4_expert_override_regex_1",
@@ -2026,8 +1824,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S1_pan_family_regex_2",
@@ -2036,8 +1833,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S5_passenger_ignore_regex_1",
@@ -2046,8 +1842,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S4_expert_override_regex_3",
@@ -2056,8 +1851,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S4_expert_override_regex_5",
@@ -2066,8 +1860,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S4_expert_override_regex_5",
@@ -2076,8 +1869,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S5_passenger_ignore_regex_5",
@@ -2086,8 +1878,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S2_seed_unconstrained_regex_6",
@@ -2096,8 +1887,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_baseline_siRNA_2",
@@ -2106,8 +1896,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S1_pan_family_regex_4",
@@ -2116,8 +1905,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S5_passenger_ignore_regex_8",
@@ -2126,8 +1914,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S2_seed_unconstrained_regex_2",
@@ -2136,8 +1923,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S2_seed_unconstrained_regex_6",
@@ -2146,8 +1932,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S2_seed_unconstrained_regex_3",
@@ -2156,8 +1941,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_baseline_siRNA_5",
@@ -2166,8 +1950,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S1_pan_family_regex_2",
@@ -2176,8 +1959,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S5_passenger_ignore_regex_0",
@@ -2186,8 +1968,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S5_passenger_ignore_regex_8",
@@ -2196,8 +1977,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S2_seed_unconstrained_regex_9",
@@ -2206,8 +1986,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_baseline_siRNA_3",
@@ -2216,8 +1995,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S4_expert_override_regex_0",
@@ -2226,8 +2004,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S5_passenger_ignore_regex_3",
@@ -2236,8 +2013,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S3_promiscuous_seed_regex_1",
@@ -2246,8 +2022,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S2_seed_unconstrained_regex_4",
@@ -2256,8 +2031,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S4_expert_override_regex_1",
@@ -2266,8 +2040,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S4_expert_override_regex_0",
@@ -2276,8 +2049,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S4_expert_override_regex_3",
@@ -2286,8 +2058,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S2_seed_unconstrained_regex_8",
@@ -2296,8 +2067,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S2_seed_unconstrained_regex_7",
@@ -2306,8 +2076,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S4_expert_override_regex_8",
@@ -2316,8 +2085,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S5_passenger_ignore_regex_4",
@@ -2326,8 +2094,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_baseline_siRNA_3",
@@ -2336,8 +2103,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S2_seed_unconstrained_regex_0",
@@ -2346,8 +2112,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S3_promiscuous_seed_regex_0",
@@ -2356,8 +2121,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S1_pan_family_regex_3",
@@ -2366,8 +2130,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S4_expert_override_regex_8",
@@ -2376,8 +2139,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S1_pan_family_regex_3",
@@ -2386,8 +2148,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S4_expert_override_regex_1",
@@ -2396,8 +2157,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S2_seed_unconstrained_regex_3",
@@ -2406,8 +2166,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S5_passenger_ignore_regex_7",
@@ -2416,8 +2175,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S2_seed_unconstrained_regex_0",
@@ -2426,8 +2184,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S5_passenger_ignore_regex_0",
@@ -2436,8 +2193,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S5_passenger_ignore_regex_9",
@@ -2446,8 +2202,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S2_seed_unconstrained_regex_3",
@@ -2456,8 +2211,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "VEGFA_S5_passenger_ignore_regex_5",
@@ -2466,8 +2220,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S2_seed_unconstrained_regex_5",
@@ -2476,8 +2229,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S5_passenger_ignore_regex_9",
@@ -2486,8 +2238,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S4_expert_override_regex_6",
@@ -2496,8 +2247,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "KRAS_S5_passenger_ignore_regex_4",
@@ -2506,8 +2256,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S5_passenger_ignore_regex_1",
@@ -2516,8 +2265,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S4_expert_override_regex_5",
@@ -2526,8 +2274,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S2_seed_unconstrained_regex_3",
@@ -2536,8 +2283,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S5_passenger_ignore_regex_4",
@@ -2546,8 +2292,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S2_seed_unconstrained_regex_7",
@@ -2556,8 +2301,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S4_expert_override_regex_9",
@@ -2566,8 +2310,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_baseline_siRNA_2",
@@ -2576,8 +2319,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_S2_seed_unconstrained_regex_4",
@@ -2586,8 +2328,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_baseline_siRNA_1",
@@ -2596,8 +2337,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S2_seed_unconstrained_regex_4",
@@ -2606,8 +2346,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "BCL2_S3_promiscuous_seed_regex_4",
@@ -2616,8 +2355,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_baseline_siRNA_2",
@@ -2626,8 +2364,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S3_promiscuous_seed_regex_4",
@@ -2636,8 +2373,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S5_passenger_ignore_regex_7",
@@ -2646,8 +2382,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_baseline_siRNA_1",
@@ -2656,8 +2391,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S2_seed_unconstrained_regex_9",
@@ -2666,8 +2400,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "TTR_baseline_siRNA_5",
@@ -2676,8 +2409,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "HAO1_S5_passenger_ignore_regex_6",
@@ -2686,8 +2418,7 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   },
   {
     "id": "PCSK9_S4_expert_override_regex_9",
@@ -2696,7 +2427,6 @@
     "r_L2": 1.0,
     "r_L3": 1.0,
     "r_L5": 1.0,
-    "r_L6b": 1.0,
-    "p_harm": 0.5376
+    "r_L6b": 1.0
   }
 ]

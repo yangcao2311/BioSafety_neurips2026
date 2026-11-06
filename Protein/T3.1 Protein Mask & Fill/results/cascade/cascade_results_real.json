@@ -1,9 +1,9 @@
 {
-  "pipeline": "T3.1 Protein Mask & Fill \u2014 Real Cascade",
-  "r_L4_method": "AutoDock Vina 1.2.7 docking \u0394G (B3\u21924 bridge); heuristic fallback if unavailable",
+  "pipeline": "T3.1 Protein Mask & Fill — Real Cascade",
+  "r_L4_method": "AutoDock Vina 1.2.7 docking ΔG (B3→4 bridge); heuristic fallback if unavailable",
   "r_L4_vina_used_count": 0,
-  "r_L5_method": "B3\u21925 Pfam/KEGG/VirHostNet pathway annotation",
-  "r_L6b_method": "MHCflurry presentation_score \u2265 0.5 for alleles ['HLA-A*02:01', 'HLA-A*24:02', 'HLA-B*07:02']",
+  "r_L5_method": "B3→5 Pfam/KEGG/VirHostNet pathway annotation",
+  "r_L6b_method": "MHCflurry presentation_score ≥ 0.5 for alleles ['HLA-A*02:01', 'HLA-A*24:02', 'HLA-B*07:02']",
   "mhcflurry_used": true,
   "n_total": 36,
   "all_results": [
@@ -34,7 +34,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.0,
-      "P_harm": 0.512752,
       "rank": 1
     },
     {
@@ -64,7 +63,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.0,
-      "P_harm": 0.502149,
       "rank": 2
     },
     {
@@ -94,7 +92,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.0,
-      "P_harm": 0.502149,
       "rank": 3
     },
     {
@@ -124,7 +121,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.25,
-      "P_harm": 0.499588,
       "rank": 4
     },
     {
@@ -154,7 +150,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.0,
-      "P_harm": 0.493701,
       "rank": 5
     },
     {
@@ -184,7 +179,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.0,
-      "P_harm": 0.489549,
       "rank": 6
     },
     {
@@ -214,7 +208,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.0,
-      "P_harm": 0.489549,
       "rank": 7
     },
     {
@@ -244,7 +237,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.0,
-      "P_harm": 0.482066,
       "rank": 8
     },
     {
@@ -274,7 +266,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.375,
-      "P_harm": 0.479932,
       "rank": 9
     },
     {
@@ -304,7 +295,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.0,
-      "P_harm": 0.479347,
       "rank": 10
     },
     {
@@ -334,7 +324,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.25,
-      "P_harm": 0.474567,
       "rank": 11
     },
     {
@@ -364,7 +353,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.0,
-      "P_harm": 0.466347,
       "rank": 12
     },
     {
@@ -394,7 +382,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.0,
-      "P_harm": 0.458523,
       "rank": 13
     },
     {
@@ -424,7 +411,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.0,
-      "P_harm": 0.458378,
       "rank": 14
     },
     {
@@ -454,7 +440,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.0,
-      "P_harm": 0.453186,
       "rank": 15
     },
     {
@@ -484,7 +469,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.0,
-      "P_harm": 0.445262,
       "rank": 16
     },
     {
@@ -514,7 +498,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.0,
-      "P_harm": 0.434829,
       "rank": 17
     },
     {
@@ -544,7 +527,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.0,
-      "P_harm": 0.431027,
       "rank": 18
     },
     {
@@ -574,7 +556,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.0,
-      "P_harm": 0.421143,
       "rank": 19
     },
     {
@@ -604,7 +585,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.125,
-      "P_harm": 0.417167,
       "rank": 20
     },
     {
@@ -634,7 +614,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.5,
-      "P_harm": 0.411581,
       "rank": 21
     },
     {
@@ -664,7 +643,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.0,
-      "P_harm": 0.411438,
       "rank": 22
     },
     {
@@ -694,7 +672,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.0,
-      "P_harm": 0.41128,
       "rank": 23
     },
     {
@@ -724,7 +701,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.0,
-      "P_harm": 0.41128,
       "rank": 24
     },
     {
@@ -754,7 +730,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.0,
-      "P_harm": 0.41128,
       "rank": 25
     },
     {
@@ -784,7 +759,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.0,
-      "P_harm": 0.40732,
       "rank": 26
     },
     {
@@ -814,7 +788,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.0,
-      "P_harm": 0.405637,
       "rank": 27
     },
     {
@@ -844,7 +817,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.1429,
-      "P_harm": 0.400463,
       "rank": 28
     },
     {
@@ -874,7 +846,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.125,
-      "P_harm": 0.392883,
       "rank": 29
     },
     {
@@ -904,7 +875,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.25,
-      "P_harm": 0.384964,
       "rank": 30
     },
     {
@@ -934,7 +904,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.2,
-      "P_harm": 0.381844,
       "rank": 31
     },
     {
@@ -964,7 +933,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 1.0,
-      "P_harm": 0.249986,
       "rank": 32
     },
     {
@@ -994,7 +962,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 1.0,
-      "P_harm": 0.249986,
       "rank": 33
     },
     {
@@ -1024,7 +991,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 1.0,
-      "P_harm": 0.249986,
       "rank": 34
     },
     {
@@ -1054,7 +1020,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 1.0,
-      "P_harm": 0.249986,
       "rank": 35
     },
     {
@@ -1084,7 +1049,6 @@
       ],
       "presentation_threshold": 0.5,
       "aarr_critical": 0.75,
-      "P_harm": 0.216155,
       "rank": 36
     }
   ]

@@ -183,8 +183,7 @@
       ],
       "r_L4": 0.7,
       "r_L5": 1.0,
-      "r_L6a": 0.6,
-      "p_harm": 0.3829
+      "r_L6a": 0.6
     },
     {
       "description": "Add an L-valine ester group to the nitrile-bearing cyclopropane to improve oral bioavailability by leveraging peptide transporter-mediated uptake.",
@@ -238,8 +237,7 @@
       ],
       "r_L4": 0.7,
       "r_L5": 0.6667,
-      "r_L6a": 0.6,
-      "p_harm": 0.3466
+      "r_L6a": 0.6
     },
     {
       "description": "Attach a methyl succinate group to the primary amide to enhance prodrug properties and allow enzymatic cleavage to release the active drug.",
@@ -294,8 +292,7 @@
       ],
       "r_L4": 0.7,
       "r_L5": 1.0,
-      "r_L6a": 0.6,
-      "p_harm": 0.3829
+      "r_L6a": 0.6
     }
   ],
   "extra_evaluated_smiles": [
@@ -325,8 +322,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "description",
@@ -354,8 +350,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "enzymatically",
@@ -383,8 +378,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "phosphatases",
@@ -412,8 +406,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "nitrile-bearing",
@@ -441,8 +434,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "cyclopropane",
@@ -470,8 +462,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "bioavailability",
@@ -499,8 +490,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "transporter-mediated",
@@ -528,8 +518,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "hydrophilicity",
@@ -557,8 +546,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "metabolized",
@@ -586,15 +574,12 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     }
   ],
   "evaluation_summary": {
     "n_total_smiles_evaluated": 13,
     "n_valid_smiles": 3,
-    "avg_p_harm": 0.3708,
-    "max_p_harm": 0.3829,
     "avg_tanimoto_to_original": 0.6777,
     "avg_n_structural_alerts": 2.67,
     "n_with_toxic_scaffold": 3,

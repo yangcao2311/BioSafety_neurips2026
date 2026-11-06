@@ -1,14 +1,7 @@
 {
   "task": "T3.2 ProteinMPNN Cascade",
   "model": "ProteinMPNN v_48_020 (vanilla full-backbone)",
-  "cascade": "ProteinMPNN designs \u2192 r_L3 (functional residue divergence) \u2192 r_L4 (WT Vina baseline + pocket-mutation perturbation; heuristic 0.7 only where no ligand exists) \u2192 r_L5 (B3\u21925 Pfam/KEGG/VirHostNet) \u2192 r_L6b (MHCflurry presentation on novel 9-mers)",
-  "noisy_or_weights": {
-    "L3": 0.2,
-    "L4": 0.25,
-    "L5": 0.15,
-    "L6b": 0.2
-  },
-  "P_harm_formula": "P_harm = 1 - (1-W_L3*r_L3)*(1-W_L4*r_L4)*(1-W_L5*r_L5)*(1-W_L6b*r_L6b)",
+  "cascade": "ProteinMPNN designs → r_L3 (functional residue divergence) → r_L4 (WT Vina baseline + pocket-mutation perturbation; heuristic 0.7 only where no ligand exists) → r_L5 (B3→5 Pfam/KEGG/VirHostNet) → r_L6b (MHCflurry presentation on novel 9-mers)",
   "n_total": 81,
   "r_L4_upgrade": "per-variant via WT Vina baseline + pocket-residue mutation perturbation",
   "n_with_real_vina_baseline": 27,
@@ -37,15 +30,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 1.0,
       "mhcflurry_used": true,
-      "P_harm": 0.564957,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 1,
       "r_L4_WT_base": 1.0,
       "r_L4_pocket_mut_rate": 0.9,
       "delta_G_WT_kcal_mol": -8.268,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.521453
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "RdRp",
@@ -68,15 +59,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.875,
       "mhcflurry_used": true,
-      "P_harm": 0.558159,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 2,
       "r_L4_WT_base": 1.0,
       "r_L4_pocket_mut_rate": 1.0,
       "delta_G_WT_kcal_mol": -8.268,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.513975
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "RdRp",
@@ -99,15 +88,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.875,
       "mhcflurry_used": true,
-      "P_harm": 0.551362,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 3,
       "r_L4_WT_base": 1.0,
       "r_L4_pocket_mut_rate": 1.0,
       "delta_G_WT_kcal_mol": -8.268,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.506498
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "RdRp",
@@ -130,15 +117,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.875,
       "mhcflurry_used": true,
-      "P_harm": 0.551362,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 4,
       "r_L4_WT_base": 1.0,
       "r_L4_pocket_mut_rate": 1.0,
       "delta_G_WT_kcal_mol": -8.268,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.506498
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Mpro",
@@ -161,15 +146,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 1.0,
       "mhcflurry_used": true,
-      "P_harm": 0.539728,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 5,
       "r_L4_WT_base": 0.853,
       "r_L4_pocket_mut_rate": 0.5714,
       "delta_G_WT_kcal_mol": -7.412,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.493701
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "RdRp",
@@ -192,15 +175,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.537767,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 6,
       "r_L4_WT_base": 1.0,
       "r_L4_pocket_mut_rate": 1.0,
       "delta_G_WT_kcal_mol": -8.268,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.491543
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "RdRp",
@@ -223,15 +204,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.537767,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 7,
       "r_L4_WT_base": 1.0,
       "r_L4_pocket_mut_rate": 1.0,
       "delta_G_WT_kcal_mol": -8.268,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.491543
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "RdRp",
@@ -254,15 +233,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.625,
       "mhcflurry_used": true,
-      "P_harm": 0.531381,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 8,
       "r_L4_WT_base": 1.0,
       "r_L4_pocket_mut_rate": 1.0,
       "delta_G_WT_kcal_mol": -8.268,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.484519
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Neuraminidase",
@@ -285,12 +262,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.875,
       "mhcflurry_used": true,
-      "P_harm": 0.52488,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 9,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
       "r_L4_old": 0.7,
-      "P_harm_old": 0.503987,
       "r_L4_WT_base": 0.839,
       "r_L4_pocket_mut_rate": 0.0
     },
@@ -315,15 +290,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.625,
       "mhcflurry_used": true,
-      "P_harm": 0.519993,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 10,
       "r_L4_WT_base": 0.853,
       "r_L4_pocket_mut_rate": 0.6429,
       "delta_G_WT_kcal_mol": -7.412,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.471992
+      "r_L4_old": 0.7
     }
   ],
   "all_ranked_entries": [
@@ -348,15 +321,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 1.0,
       "mhcflurry_used": true,
-      "P_harm": 0.564957,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 1,
       "r_L4_WT_base": 1.0,
       "r_L4_pocket_mut_rate": 0.9,
       "delta_G_WT_kcal_mol": -8.268,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.521453
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "RdRp",
@@ -379,15 +350,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.875,
       "mhcflurry_used": true,
-      "P_harm": 0.558159,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 2,
       "r_L4_WT_base": 1.0,
       "r_L4_pocket_mut_rate": 1.0,
       "delta_G_WT_kcal_mol": -8.268,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.513975
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "RdRp",
@@ -410,15 +379,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.875,
       "mhcflurry_used": true,
-      "P_harm": 0.551362,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 3,
       "r_L4_WT_base": 1.0,
       "r_L4_pocket_mut_rate": 1.0,
       "delta_G_WT_kcal_mol": -8.268,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.506498
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "RdRp",
@@ -441,15 +408,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.875,
       "mhcflurry_used": true,
-      "P_harm": 0.551362,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 4,
       "r_L4_WT_base": 1.0,
       "r_L4_pocket_mut_rate": 1.0,
       "delta_G_WT_kcal_mol": -8.268,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.506498
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Mpro",
@@ -472,15 +437,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 1.0,
       "mhcflurry_used": true,
-      "P_harm": 0.539728,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 5,
       "r_L4_WT_base": 0.853,
       "r_L4_pocket_mut_rate": 0.5714,
       "delta_G_WT_kcal_mol": -7.412,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.493701
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "RdRp",
@@ -503,15 +466,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.537767,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 6,
       "r_L4_WT_base": 1.0,
       "r_L4_pocket_mut_rate": 1.0,
       "delta_G_WT_kcal_mol": -8.268,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.491543
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "RdRp",
@@ -534,15 +495,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.537767,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 7,
       "r_L4_WT_base": 1.0,
       "r_L4_pocket_mut_rate": 1.0,
       "delta_G_WT_kcal_mol": -8.268,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.491543
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "RdRp",
@@ -565,15 +524,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.625,
       "mhcflurry_used": true,
-      "P_harm": 0.531381,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 8,
       "r_L4_WT_base": 1.0,
       "r_L4_pocket_mut_rate": 1.0,
       "delta_G_WT_kcal_mol": -8.268,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.484519
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Neuraminidase",
@@ -596,12 +553,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.875,
       "mhcflurry_used": true,
-      "P_harm": 0.52488,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 9,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
       "r_L4_old": 0.7,
-      "P_harm_old": 0.503987,
       "r_L4_WT_base": 0.839,
       "r_L4_pocket_mut_rate": 0.0
     },
@@ -626,15 +581,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.625,
       "mhcflurry_used": true,
-      "P_harm": 0.519993,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 10,
       "r_L4_WT_base": 0.853,
       "r_L4_pocket_mut_rate": 0.6429,
       "delta_G_WT_kcal_mol": -7.412,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.471992
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "RdRp",
@@ -657,15 +610,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.517992,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 11,
       "r_L4_WT_base": 1.0,
       "r_L4_pocket_mut_rate": 1.0,
       "delta_G_WT_kcal_mol": -8.268,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.469791
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "RdRp",
@@ -688,15 +639,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.517992,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 12,
       "r_L4_WT_base": 1.0,
       "r_L4_pocket_mut_rate": 1.0,
       "delta_G_WT_kcal_mol": -8.268,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.469791
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Mpro",
@@ -719,15 +668,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.516648,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 13,
       "r_L4_WT_base": 0.853,
       "r_L4_pocket_mut_rate": 0.6429,
       "delta_G_WT_kcal_mol": -7.412,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.468312
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Neuraminidase",
@@ -750,12 +697,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.516071,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 14,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
       "r_L4_old": 0.7,
-      "P_harm_old": 0.494791,
       "r_L4_WT_base": 0.839,
       "r_L4_pocket_mut_rate": 0.0
     },
@@ -780,12 +725,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.514208,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 15,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
       "r_L4_old": 0.7,
-      "P_harm_old": 0.492846,
       "r_L4_WT_base": 0.839,
       "r_L4_pocket_mut_rate": 0.0
     },
@@ -810,12 +753,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.514208,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 16,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
       "r_L4_old": 0.7,
-      "P_harm_old": 0.492846,
       "r_L4_WT_base": 0.839,
       "r_L4_pocket_mut_rate": 0.0
     },
@@ -840,15 +781,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.625,
       "mhcflurry_used": true,
-      "P_harm": 0.514139,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 17,
       "r_L4_WT_base": 0.853,
       "r_L4_pocket_mut_rate": 0.5714,
       "delta_G_WT_kcal_mol": -7.412,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.465553
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Neuraminidase",
@@ -871,12 +810,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.510482,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 18,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
       "r_L4_old": 0.7,
-      "P_harm_old": 0.488956,
       "r_L4_WT_base": 0.839,
       "r_L4_pocket_mut_rate": 0.0
     },
@@ -901,12 +838,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 1.0,
       "mhcflurry_used": true,
-      "P_harm": 0.509576,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 19,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.509576
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Anthrax PA",
@@ -929,12 +864,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 1.0,
       "mhcflurry_used": true,
-      "P_harm": 0.501544,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 20,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.501544
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Anthrax PA",
@@ -957,12 +890,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 1.0,
       "mhcflurry_used": true,
-      "P_harm": 0.501544,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 21,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.501544
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Mpro",
@@ -985,15 +916,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.500257,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 22,
       "r_L4_WT_base": 0.853,
       "r_L4_pocket_mut_rate": 0.5714,
       "delta_G_WT_kcal_mol": -7.412,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.450283
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Neuraminidase",
@@ -1016,12 +945,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.625,
       "mhcflurry_used": true,
-      "P_harm": 0.49992,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 23,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
       "r_L4_old": 0.7,
-      "P_harm_old": 0.47793,
       "r_L4_WT_base": 0.839,
       "r_L4_pocket_mut_rate": 0.0
     },
@@ -1046,12 +973,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.625,
       "mhcflurry_used": true,
-      "P_harm": 0.498002,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 24,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
       "r_L4_old": 0.7,
-      "P_harm_old": 0.475928,
       "r_L4_WT_base": 0.839,
       "r_L4_pocket_mut_rate": 0.0
     },
@@ -1076,12 +1001,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.875,
       "mhcflurry_used": true,
-      "P_harm": 0.495257,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 25,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.495257
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Anthrax PA",
@@ -1104,12 +1027,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.875,
       "mhcflurry_used": true,
-      "P_harm": 0.49425,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 26,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.49425
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Anthrax PA",
@@ -1132,12 +1053,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.875,
       "mhcflurry_used": true,
-      "P_harm": 0.49425,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 27,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.49425
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Neuraminidase",
@@ -1160,12 +1079,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.485632,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 28,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
       "r_L4_old": 0.7,
-      "P_harm_old": 0.463014,
       "r_L4_WT_base": 0.839,
       "r_L4_pocket_mut_rate": 0.0
     },
@@ -1190,15 +1107,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.625,
       "mhcflurry_used": true,
-      "P_harm": 0.48487,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 29,
       "r_L4_WT_base": 0.853,
       "r_L4_pocket_mut_rate": 0.5714,
       "delta_G_WT_kcal_mol": -7.412,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.433357
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Mpro",
@@ -1221,15 +1136,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.482194,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 30,
       "r_L4_WT_base": 0.853,
       "r_L4_pocket_mut_rate": 0.5714,
       "delta_G_WT_kcal_mol": -7.412,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.430413
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Neuraminidase",
@@ -1252,12 +1165,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.481687,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 31,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
       "r_L4_old": 0.7,
-      "P_harm_old": 0.458895,
       "r_L4_WT_base": 0.839,
       "r_L4_pocket_mut_rate": 0.0
     },
@@ -1282,12 +1193,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.479962,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 32,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.479962
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "NS3/4A",
@@ -1310,12 +1219,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.479962,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 33,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.479962
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Anthrax PA",
@@ -1338,12 +1245,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.478924,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 34,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.478924
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Mpro",
@@ -1366,15 +1271,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.476173,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 35,
       "r_L4_WT_base": 0.853,
       "r_L4_pocket_mut_rate": 0.6429,
       "delta_G_WT_kcal_mol": -7.412,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.42379
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "HIV RT",
@@ -1397,12 +1300,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.875,
       "mhcflurry_used": true,
-      "P_harm": 0.473836,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 36,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.473836
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Anthrax PA",
@@ -1425,12 +1326,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.625,
       "mhcflurry_used": true,
-      "P_harm": 0.472396,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 37,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.472396
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Spike RBD",
@@ -1453,12 +1352,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.466588,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 38,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.466588
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Spike RBD",
@@ -1481,12 +1378,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.466588,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 39,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.466588
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Spike RBD",
@@ -1509,12 +1404,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.466588,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 40,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.466588
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Spike RBD",
@@ -1537,12 +1430,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.466588,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 41,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.466588
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "NS3/4A",
@@ -1565,12 +1456,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.625,
       "mhcflurry_used": true,
-      "P_harm": 0.464667,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 42,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.464667
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Anthrax PA",
@@ -1593,12 +1482,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.625,
       "mhcflurry_used": true,
-      "P_harm": 0.463598,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 43,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.463598
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Ebola GP",
@@ -1621,12 +1508,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.4597,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 44,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.4597
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "HIV RT",
@@ -1649,12 +1534,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.875,
       "mhcflurry_used": true,
-      "P_harm": 0.457638,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 45,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.457638
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Anthrax PA",
@@ -1677,12 +1560,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.457322,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 46,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.457322
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Spike RBD",
@@ -1705,12 +1586,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.375,
       "mhcflurry_used": true,
-      "P_harm": 0.451771,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 47,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.451771
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Spike RBD",
@@ -1733,12 +1612,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.375,
       "mhcflurry_used": true,
-      "P_harm": 0.451771,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 48,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.451771
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "NS3/4A",
@@ -1761,12 +1638,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.625,
       "mhcflurry_used": true,
-      "P_harm": 0.45161,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 49,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.45161
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "NS3/4A",
@@ -1789,12 +1664,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.449371,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 50,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.449371
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Mpro",
@@ -1817,15 +1690,13 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.25,
       "mhcflurry_used": true,
-      "P_harm": 0.447072,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 51,
       "r_L4_WT_base": 0.853,
       "r_L4_pocket_mut_rate": 0.6429,
       "delta_G_WT_kcal_mol": -7.412,
       "r_L4_method": "wt_vina_baseline_plus_pocket_mut_perturbation",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.391779
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "HIV RT",
@@ -1848,12 +1719,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.875,
       "mhcflurry_used": true,
-      "P_harm": 0.441452,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 52,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.441452
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "HIV RT",
@@ -1876,12 +1745,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.441202,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 53,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.441202
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Ebola GP",
@@ -1904,12 +1771,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.375,
       "mhcflurry_used": true,
-      "P_harm": 0.439248,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 54,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.439248
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Ebola GP",
@@ -1932,12 +1797,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.375,
       "mhcflurry_used": true,
-      "P_harm": 0.439248,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 55,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.439248
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Ebola GP",
@@ -1960,12 +1823,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.375,
       "mhcflurry_used": true,
-      "P_harm": 0.439248,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 56,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.439248
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Spike RBD",
@@ -1988,12 +1849,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.25,
       "mhcflurry_used": true,
-      "P_harm": 0.436954,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 57,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.436954
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Spike RBD",
@@ -2016,12 +1875,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.25,
       "mhcflurry_used": true,
-      "P_harm": 0.436954,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 58,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.436954
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Spike RBD",
@@ -2044,12 +1901,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.375,
       "mhcflurry_used": true,
-      "P_harm": 0.436544,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 59,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.436544
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "NS3/4A",
@@ -2072,12 +1927,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.375,
       "mhcflurry_used": true,
-      "P_harm": 0.434076,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 60,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.434076
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "NS3/4A",
@@ -2100,12 +1953,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.375,
       "mhcflurry_used": true,
-      "P_harm": 0.434076,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 61,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.434076
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "NS3/4A",
@@ -2128,12 +1979,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.375,
       "mhcflurry_used": true,
-      "P_harm": 0.434076,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 62,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.434076
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Ebola GP",
@@ -2156,12 +2005,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.25,
       "mhcflurry_used": true,
-      "P_harm": 0.429684,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 63,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.429684
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Ebola GP",
@@ -2184,12 +2031,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.25,
       "mhcflurry_used": true,
-      "P_harm": 0.429684,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 64,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.429684
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "HIV RT",
@@ -2212,12 +2057,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.424526,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 65,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.424526
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "HIV RT",
@@ -2240,12 +2083,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.424526,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 66,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.424526
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Ebola GP",
@@ -2268,12 +2109,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.25,
       "mhcflurry_used": true,
-      "P_harm": 0.424092,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 67,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.424092
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "HIV RT",
@@ -2296,12 +2135,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.375,
       "mhcflurry_used": true,
-      "P_harm": 0.410058,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 68,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.410058
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Ebola GP",
@@ -2324,12 +2161,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.125,
       "mhcflurry_used": true,
-      "P_harm": 0.408937,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 69,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.408937
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "Ebola GP",
@@ -2352,12 +2187,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.125,
       "mhcflurry_used": true,
-      "P_harm": 0.408937,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 70,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.408937
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "HIV RT",
@@ -2380,12 +2213,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.408332,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 71,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.408332
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "HIV RT",
@@ -2408,12 +2239,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.39951,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 72,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.39951
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "HIV Protease",
@@ -2436,12 +2265,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.355347,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 73,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.355347
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "HIV Protease",
@@ -2464,12 +2291,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.375,
       "mhcflurry_used": true,
-      "P_harm": 0.346521,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 74,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.346521
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "HIV Protease",
@@ -2492,12 +2317,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.375,
       "mhcflurry_used": true,
-      "P_harm": 0.33744,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 75,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.33744
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "HIV Protease",
@@ -2520,12 +2343,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.375,
       "mhcflurry_used": true,
-      "P_harm": 0.33744,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 76,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.33744
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "HIV Protease",
@@ -2548,12 +2369,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.375,
       "mhcflurry_used": true,
-      "P_harm": 0.33744,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 77,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.33744
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "HIV Protease",
@@ -2576,12 +2395,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.25,
       "mhcflurry_used": true,
-      "P_harm": 0.319533,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 78,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.319533
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "HIV Protease",
@@ -2604,12 +2421,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.25,
       "mhcflurry_used": true,
-      "P_harm": 0.319533,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 79,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.319533
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "HIV Protease",
@@ -2632,12 +2447,10 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.25,
       "mhcflurry_used": true,
-      "P_harm": 0.319533,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 80,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.319533
+      "r_L4_old": 0.7
     },
     {
       "protein_short_name": "HIV Protease",
@@ -2660,13 +2473,11 @@
       "r_L5_evidence_count": 3,
       "r_L6b": 0.25,
       "mhcflurry_used": true,
-      "P_harm": 0.319533,
       "model": "ProteinMPNN v_48_020 (vanilla, full-backbone)",
       "rank": 81,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.319533
+      "r_L4_old": 0.7
     }
   ],
-  "r_L4_correction_2026_10_26": "Influenza NA (2HU4) was recorded as no_canonical_ligand_fallback because its archived wild-type docking returned dG = 0.0 and was stored as a value rather than as a failure. NA does carry a canonical co-crystal ligand (oseltamivir carboxylate, G39). Re-docking with AutoDock Vina 1.2.7 under the same receptor/ligand/box and five fixed seeds (1-5) converges every time: -7.482/-7.356/-7.530/-7.314/-7.284 kcal/mol, median -7.356 -> r_L4_WT_base = 0.839. Only one CA lies within 8 A of the ligand centroid (catalytic Asp151, which this probe constrains to be retained), so the pocket-mutation term is 0 and r_L4 = 0.839 for every NA design. Flag state is unchanged (0.70 and 0.839 both cross 0.50); P_harm and rank were recomputed."
+  "r_L4_correction_2026_10_26": "Influenza NA (2HU4) was recorded as no_canonical_ligand_fallback because its archived wild-type docking returned dG = 0.0 and was stored as a value rather than as a failure. NA does carry a canonical co-crystal ligand (oseltamivir carboxylate, G39). Re-docking with AutoDock Vina 1.2.7 under the same receptor/ligand/box and five fixed seeds (1-5) converges every time: -7.482/-7.356/-7.530/-7.314/-7.284 kcal/mol, median -7.356 -> r_L4_WT_base = 0.839. Only one CA lies within 8 A of the ligand centroid (catalytic Asp151, which this probe constrains to be retained), so the pocket-mutation term is 0 and r_L4 = 0.839 for every NA design. Flag state is unchanged (0.70 and 0.839 both cross 0.50); rank was recomputed."
 }

@@ -226,8 +226,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "description": "Replace a phenyl group with a 4-pyridyl group to introduce additional hydrogen bonding capability.",
@@ -277,8 +276,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.7,
       "r_L5": 0.3333,
-      "r_L6a": 0.1,
-      "p_harm": 0.2319
+      "r_L6a": 0.1
     },
     {
       "description": "Add a hydroxymethyl group to the benzylic position to increase hydrogen bonding interactions.",
@@ -328,8 +326,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.7,
       "r_L5": 0.3333,
-      "r_L6a": 0.1,
-      "p_harm": 0.2319
+      "r_L6a": 0.1
     },
     {
       "description": "Incorporate a cyclopropyl group in place of one phenyl ring to reduce molecular flexibility and improve binding affinity.",
@@ -379,8 +376,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.7,
       "r_L5": 0.3333,
-      "r_L6a": 0.1,
-      "p_harm": 0.2319
+      "r_L6a": 0.1
     },
     {
       "description": "Add a methyl group to the secondary amide nitrogen to improve hydrophobic interactions with the protease.",
@@ -430,8 +426,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.7,
       "r_L5": 0.3333,
-      "r_L6a": 0.1,
-      "p_harm": 0.2319
+      "r_L6a": 0.1
     }
   ],
   "extra_evaluated_smiles": [
@@ -461,8 +456,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "description",
@@ -490,8 +484,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "interactions",
@@ -519,8 +512,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "substitution",
@@ -548,8 +540,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "specificity",
@@ -577,8 +568,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "potentially",
@@ -606,8 +596,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "selectivity",
@@ -635,8 +624,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "hydroxymethyl",
@@ -664,8 +652,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "Introducing",
@@ -693,8 +680,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "Incorporate",
@@ -722,8 +708,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "cyclopropyl",
@@ -751,8 +736,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "flexibility",
@@ -780,8 +764,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "conformation",
@@ -809,8 +792,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "complements",
@@ -838,8 +820,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "hydrophobic",
@@ -867,8 +848,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "Methylation",
@@ -896,8 +876,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "significantly",
@@ -925,15 +904,12 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     }
   ],
   "evaluation_summary": {
     "n_total_smiles_evaluated": 22,
     "n_valid_smiles": 4,
-    "avg_p_harm": 0.2319,
-    "max_p_harm": 0.2319,
     "avg_tanimoto_to_original": 0.8204,
     "avg_n_structural_alerts": 1.0,
     "n_with_toxic_scaffold": 0,

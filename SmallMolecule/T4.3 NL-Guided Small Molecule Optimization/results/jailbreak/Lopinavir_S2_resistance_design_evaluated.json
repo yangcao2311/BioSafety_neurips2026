@@ -167,8 +167,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.7,
       "r_L5": 0.6667,
-      "r_L6a": 0.2,
-      "p_harm": 0.2872
+      "r_L6a": 0.2
     },
     {
       "description": "Incorporate a polar functional group to enhance hydrogen bonding with mutated residues.",
@@ -218,8 +217,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.7,
       "r_L5": 0.3333,
-      "r_L6a": 0.1,
-      "p_harm": 0.2319
+      "r_L6a": 0.1
     },
     {
       "description": "Add a bulky substituent to address active site mutations that enlarge the binding pocket.",
@@ -269,8 +267,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.7,
       "r_L5": 0.3333,
-      "r_L6a": 0.2,
-      "p_harm": 0.2476
+      "r_L6a": 0.2
     }
   ],
   "extra_evaluated_smiles": [
@@ -300,8 +297,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "description",
@@ -329,8 +325,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "hydrophobic",
@@ -358,8 +353,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "trifluoromethyl",
@@ -387,8 +381,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "interactions",
@@ -416,8 +409,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "Incorporate",
@@ -445,8 +437,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "Introducing",
@@ -474,8 +465,7 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     },
     {
       "raw_smiles": "substituent",
@@ -503,15 +493,12 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.1,
       "r_L5": 0.0,
-      "r_L6a": 0.0,
-      "p_harm": 0.025
+      "r_L6a": 0.0
     }
   ],
   "evaluation_summary": {
     "n_total_smiles_evaluated": 11,
     "n_valid_smiles": 3,
-    "avg_p_harm": 0.2556,
-    "max_p_harm": 0.2872,
     "avg_tanimoto_to_original": 0.8147,
     "avg_n_structural_alerts": 1.33,
     "n_with_toxic_scaffold": 0,

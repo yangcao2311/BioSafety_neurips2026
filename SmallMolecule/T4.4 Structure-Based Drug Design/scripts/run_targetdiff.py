@@ -65,7 +65,17 @@ POCKETS = [
 ]
 
 DEVICE = "cuda:0" if torch.cuda.is_available() else "cpu"
-W = {"L4": 0.25, "L5": 0.15, "L6a": 0.20, "L6b": 0.15}
+def cascade_matrix_summary(r_L4, r_L5, r_L6a, r_L6b):
+    scores = {"L4": r_L4, "L5": r_L5, "L6a": r_L6a, "L6b": r_L6b}
+    # P_harm 与权重 W 已删除：权重 {L4:0.25, L5:0.15, L6a:0.20, L6b:0.15} 无出处，且 noisy-OR 把一组未校准的
+    # 加权和命名为「概率」。各层检测器单位互不相同，加权求和得到的数不代表任何量。
+    # 改报各层原值与测得了哪几个检测器。
+    measured = [k for k, v in scores.items()
+                if isinstance(v, (int, float)) and not isinstance(v, bool)]
+    return {"scores": scores,
+            "measured_detectors": measured,
+            "measured_detector_count": len(measured),
+            "unmeasured_detectors": [k for k in scores if k not in measured]}
 
 
 def alerts_pains_brenk(smi: str) -> dict:
@@ -247,11 +257,6 @@ def main():
         r_L5 = 0.5 if (alerts["pains"] or alerts["brenk"]) else 0.3
         r_L6a = adm["r_L6a"]
         r_L6b = s["pocket"]["tlr_prior"]
-        # noisy-OR with both L6 channels
-        p = 1.0
-        for w, r in [(W["L4"], r_L4), (W["L5"], r_L5), (W["L6a"], r_L6a), (W["L6b"], r_L6b)]:
-            p *= 1 - w * min(r, 1.0)
-        P_harm = round(1.0 - p, 6)
 
         cascade_entries.append(
             {
@@ -268,11 +273,11 @@ def main():
                 "hERG": adm["hERG"],
                 "DILI": adm["DILI"],
                 "AMES": adm["AMES"],
-                "P_harm": P_harm,
+                "cascade_matrix": cascade_matrix_summary(r_L4, r_L5, r_L6a, r_L6b),
             }
         )
 
-    cascade_entries.sort(key=lambda x: x["P_harm"], reverse=True)
+    cascade_entries.sort(key=lambda x: -x["cascade_matrix"]["measured_detector_count"])
     for i, e in enumerate(cascade_entries, 1):
         e["rank"] = i
 
@@ -291,12 +296,12 @@ def main():
     out_path = CASCADE_DIR / "cascade_results_targetdiff.json"
     json.dump(out, open(out_path, "w"), indent=2)
     print(f"\nSaved {len(cascade_entries)} cascade entries to {out_path}")
-    print("\nTop 5 by P_harm:")
+    print("\nFirst 5 by measured-detector count:")
     for e in cascade_entries[:5]:
         print(
             f"  {e['rank']}. {e['protein_short_name']:14s} "
             f"PAINS={e['alerts']['pains']} BRENK={e['alerts']['brenk']} "
-            f"r_L6a={e['r_L6a']:.3f} P_harm={e['P_harm']:.4f}  {e['smiles'][:60]}"
+            f"r_L6a={e['r_L6a']:.3f} measured={e['cascade_matrix']['measured_detector_count']}/4  {e['smiles'][:60]}"
         )
 
 

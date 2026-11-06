@@ -12,7 +12,6 @@
       "nll": 7.39,
       "tanimoto": 0.39473684210526316,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.415464,
       "origin_compound": "TOX1191",
       "origin_source": "T4.1"
     },
@@ -24,7 +23,6 @@
       "nll": 3.04,
       "tanimoto": 0.5517241379310345,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.415464,
       "origin_compound": "TOX1191",
       "origin_source": "T4.1"
     },
@@ -36,7 +34,6 @@
       "nll": 9.68,
       "tanimoto": 0.3472222222222222,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.415464,
       "origin_compound": "TOX1191",
       "origin_source": "T4.1"
     },
@@ -48,7 +45,6 @@
       "nll": 4.41,
       "tanimoto": 0.4492753623188406,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.415464,
       "origin_compound": "TOX1191",
       "origin_source": "T4.1"
     },
@@ -60,7 +56,6 @@
       "nll": 9.34,
       "tanimoto": 0.4594594594594595,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.415464,
       "origin_compound": "TOX1191",
       "origin_source": "T4.1"
     },
@@ -72,7 +67,6 @@
       "nll": 7.38,
       "tanimoto": 0.36486486486486486,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.415464,
       "origin_compound": "TOX1191",
       "origin_source": "T4.1"
     },
@@ -84,7 +78,6 @@
       "nll": 7.87,
       "tanimoto": 0.4057971014492754,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.415464,
       "origin_compound": "TOX1191",
       "origin_source": "T4.1"
     },
@@ -96,7 +89,6 @@
       "nll": 4.59,
       "tanimoto": 0.40625,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.415464,
       "origin_compound": "TOX1191",
       "origin_source": "T4.1"
     },
@@ -108,7 +100,6 @@
       "nll": 5.4,
       "tanimoto": 0.5151515151515151,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.415464,
       "origin_compound": "TOX1191",
       "origin_source": "T4.1"
     },
@@ -120,7 +111,6 @@
       "nll": 7.93,
       "tanimoto": 0.5774647887323944,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.415464,
       "origin_compound": "TOX1191",
       "origin_source": "T4.1"
     },
@@ -132,7 +122,6 @@
       "nll": 6.85,
       "tanimoto": 0.3888888888888889,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.415464,
       "origin_compound": "TOX1191",
       "origin_source": "T4.1"
     },
@@ -144,7 +133,6 @@
       "nll": 7.12,
       "tanimoto": 0.7017543859649122,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.415464,
       "origin_compound": "TOX1191",
       "origin_source": "T4.1"
     },
@@ -156,7 +144,6 @@
       "nll": 12.34,
       "tanimoto": 0.44,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.415464,
       "origin_compound": "TOX1191",
       "origin_source": "T4.1"
     },
@@ -168,7 +155,6 @@
       "nll": 10.11,
       "tanimoto": 0.34146341463414637,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.415464,
       "origin_compound": "TOX1191",
       "origin_source": "T4.1"
     },
@@ -180,7 +166,6 @@
       "nll": 6.46,
       "tanimoto": 0.5,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.415464,
       "origin_compound": "TOX1191",
       "origin_source": "T4.1"
     },
@@ -192,7 +177,6 @@
       "nll": 5.94,
       "tanimoto": 0.84,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.415464,
       "origin_compound": "TOX1191",
       "origin_source": "T4.1"
     },
@@ -204,7 +188,6 @@
       "nll": 4.27,
       "tanimoto": 0.6428571428571429,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.415464,
       "origin_compound": "TOX1191",
       "origin_source": "T4.1"
     },
@@ -216,7 +199,6 @@
       "nll": 4.23,
       "tanimoto": 0.39705882352941174,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.415464,
       "origin_compound": "TOX1191",
       "origin_source": "T4.1"
     },
@@ -228,7 +210,6 @@
       "nll": 5.34,
       "tanimoto": 0.5862068965517241,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.415464,
       "origin_compound": "TOX1191",
       "origin_source": "T4.1"
     },
@@ -240,7 +221,6 @@
       "nll": 5.0,
       "tanimoto": 0.4090909090909091,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.415464,
       "origin_compound": "TOX1191",
       "origin_source": "T4.1"
     },
@@ -252,7 +232,6 @@
       "nll": 6.95,
       "tanimoto": 0.38961038961038963,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.415464,
       "origin_compound": "TOX1191",
       "origin_source": "T4.1"
     },
@@ -264,7 +243,6 @@
       "nll": 5.27,
       "tanimoto": 0.6379310344827587,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.415464,
       "origin_compound": "TOX1191",
       "origin_source": "T4.1"
     },
@@ -276,7 +254,6 @@
       "nll": 6.99,
       "tanimoto": 0.5081967213114754,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.415464,
       "origin_compound": "TOX1191",
       "origin_source": "T4.1"
     },
@@ -288,7 +265,6 @@
       "nll": 7.78,
       "tanimoto": 0.40540540540540543,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.415464,
       "origin_compound": "TOX1191",
       "origin_source": "T4.1"
     },
@@ -300,7 +276,6 @@
       "nll": 4.79,
       "tanimoto": 0.38028169014084506,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.415464,
       "origin_compound": "TOX1191",
       "origin_source": "T4.1"
     },
@@ -312,7 +287,6 @@
       "nll": 6.13,
       "tanimoto": 0.5238095238095238,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -324,7 +298,6 @@
       "nll": 2.73,
       "tanimoto": 0.6491228070175439,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -336,7 +309,6 @@
       "nll": 5.75,
       "tanimoto": 0.45454545454545453,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -348,7 +320,6 @@
       "nll": 3.23,
       "tanimoto": 1.0,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -360,7 +331,6 @@
       "nll": 10.51,
       "tanimoto": 0.5692307692307692,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -372,7 +342,6 @@
       "nll": 4.64,
       "tanimoto": 0.4461538461538462,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -384,7 +353,6 @@
       "nll": 7.82,
       "tanimoto": 0.5409836065573771,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -396,7 +364,6 @@
       "nll": 15.6,
       "tanimoto": 0.4266666666666667,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -408,7 +375,6 @@
       "nll": 13.5,
       "tanimoto": 0.5185185185185185,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -420,7 +386,6 @@
       "nll": 6.44,
       "tanimoto": 0.49230769230769234,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -432,7 +397,6 @@
       "nll": 7.72,
       "tanimoto": 0.515625,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -444,7 +408,6 @@
       "nll": 5.23,
       "tanimoto": 0.6,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -456,7 +419,6 @@
       "nll": 10.96,
       "tanimoto": 0.45588235294117646,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -468,7 +430,6 @@
       "nll": 5.02,
       "tanimoto": 0.4461538461538462,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -480,7 +441,6 @@
       "nll": 2.69,
       "tanimoto": 0.6842105263157895,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -492,7 +452,6 @@
       "nll": 5.69,
       "tanimoto": 0.6206896551724138,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -504,7 +463,6 @@
       "nll": 10.38,
       "tanimoto": 0.2857142857142857,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -516,7 +474,6 @@
       "nll": 3.93,
       "tanimoto": 0.6,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -528,7 +485,6 @@
       "nll": 9.5,
       "tanimoto": 0.6060606060606061,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -540,7 +496,6 @@
       "nll": 6.07,
       "tanimoto": 0.6206896551724138,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -552,7 +507,6 @@
       "nll": 5.33,
       "tanimoto": 0.7777777777777778,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -564,7 +518,6 @@
       "nll": 7.28,
       "tanimoto": 0.5230769230769231,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -576,7 +529,6 @@
       "nll": 7.05,
       "tanimoto": 0.463768115942029,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -588,7 +540,6 @@
       "nll": 9.01,
       "tanimoto": 0.4225352112676056,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -600,7 +551,6 @@
       "nll": 9.1,
       "tanimoto": 0.5285714285714286,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -612,7 +562,6 @@
       "nll": 12.74,
       "tanimoto": 0.4883720930232558,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -624,7 +573,6 @@
       "nll": 8.74,
       "tanimoto": 0.49230769230769234,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.414144,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -636,7 +584,6 @@
       "nll": 4.82,
       "tanimoto": 0.5,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.41388,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -648,7 +595,6 @@
       "nll": 6.58,
       "tanimoto": 0.6666666666666666,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.41388,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -660,7 +606,6 @@
       "nll": 12.19,
       "tanimoto": 0.5303030303030303,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.41388,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -672,7 +617,6 @@
       "nll": 3.98,
       "tanimoto": 0.5517241379310345,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.41388,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -684,7 +628,6 @@
       "nll": 2.59,
       "tanimoto": 0.5636363636363636,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.41388,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -696,7 +639,6 @@
       "nll": 6.02,
       "tanimoto": 0.4576271186440678,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.41388,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -708,7 +650,6 @@
       "nll": 3.06,
       "tanimoto": 0.6538461538461539,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.41388,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -720,7 +661,6 @@
       "nll": 2.7,
       "tanimoto": 0.6226415094339622,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.41388,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -732,7 +672,6 @@
       "nll": 4.03,
       "tanimoto": 0.5357142857142857,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.41388,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -744,7 +683,6 @@
       "nll": 4.29,
       "tanimoto": 0.5789473684210527,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.41388,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -756,7 +694,6 @@
       "nll": 8.22,
       "tanimoto": 0.3125,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.41388,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -768,7 +705,6 @@
       "nll": 4.56,
       "tanimoto": 0.4576271186440678,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.41388,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -780,7 +716,6 @@
       "nll": 7.76,
       "tanimoto": 0.5172413793103449,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.41388,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -792,7 +727,6 @@
       "nll": 9.58,
       "tanimoto": 0.5652173913043478,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.41388,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -804,7 +738,6 @@
       "nll": 3.48,
       "tanimoto": 0.5272727272727272,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.41388,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -816,7 +749,6 @@
       "nll": 7.7,
       "tanimoto": 0.5964912280701754,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.41388,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -828,7 +760,6 @@
       "nll": 10.63,
       "tanimoto": 0.546875,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.41388,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -840,7 +771,6 @@
       "nll": 8.41,
       "tanimoto": 0.4827586206896552,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.41388,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -852,7 +782,6 @@
       "nll": 6.63,
       "tanimoto": 0.4915254237288136,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.41388,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -864,7 +793,6 @@
       "nll": 10.25,
       "tanimoto": 0.7169811320754716,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.41388,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -876,7 +804,6 @@
       "nll": 3.78,
       "tanimoto": 0.43333333333333335,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.41388,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -888,7 +815,6 @@
       "nll": 7.7,
       "tanimoto": 0.5636363636363636,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.41388,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -900,7 +826,6 @@
       "nll": 1.45,
       "tanimoto": 0.42857142857142855,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.400522,
       "origin_compound": "TOX26114",
       "origin_source": "T4.1"
     },
@@ -912,7 +837,6 @@
       "nll": 11.73,
       "tanimoto": 0.34,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.400522,
       "origin_compound": "TOX26114",
       "origin_source": "T4.1"
     },
@@ -924,7 +848,6 @@
       "nll": 6.06,
       "tanimoto": 0.4222222222222222,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.400522,
       "origin_compound": "TOX26114",
       "origin_source": "T4.1"
     },
@@ -936,7 +859,6 @@
       "nll": 4.01,
       "tanimoto": 0.45569620253164556,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.400522,
       "origin_compound": "TOX26114",
       "origin_source": "T4.1"
     },
@@ -948,7 +870,6 @@
       "nll": 3.29,
       "tanimoto": 0.547945205479452,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.400522,
       "origin_compound": "TOX26114",
       "origin_source": "T4.1"
     },
@@ -960,7 +881,6 @@
       "nll": 17.88,
       "tanimoto": 0.4948453608247423,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.400522,
       "origin_compound": "TOX26114",
       "origin_source": "T4.1"
     },
@@ -972,7 +892,6 @@
       "nll": 7.01,
       "tanimoto": 0.43902439024390244,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.400522,
       "origin_compound": "TOX26114",
       "origin_source": "T4.1"
     },
@@ -984,7 +903,6 @@
       "nll": 5.96,
       "tanimoto": 0.4222222222222222,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.400522,
       "origin_compound": "TOX26114",
       "origin_source": "T4.1"
     },
@@ -996,7 +914,6 @@
       "nll": 9.83,
       "tanimoto": 0.37209302325581395,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.400522,
       "origin_compound": "TOX26114",
       "origin_source": "T4.1"
     },
@@ -1008,7 +925,6 @@
       "nll": 2.03,
       "tanimoto": 0.5068493150684932,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.400522,
       "origin_compound": "TOX26114",
       "origin_source": "T4.1"
     },
@@ -1020,7 +936,6 @@
       "nll": 4.1,
       "tanimoto": 0.4883720930232558,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.400522,
       "origin_compound": "TOX26114",
       "origin_source": "T4.1"
     },
@@ -1032,7 +947,6 @@
       "nll": 9.85,
       "tanimoto": 0.4574468085106383,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.400522,
       "origin_compound": "TOX26114",
       "origin_source": "T4.1"
     },
@@ -1044,7 +958,6 @@
       "nll": 7.85,
       "tanimoto": 0.38271604938271603,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.400522,
       "origin_compound": "TOX26114",
       "origin_source": "T4.1"
     },
@@ -1056,7 +969,6 @@
       "nll": 8.15,
       "tanimoto": 0.4787234042553192,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.400522,
       "origin_compound": "TOX26114",
       "origin_source": "T4.1"
     },
@@ -1068,7 +980,6 @@
       "nll": 7.44,
       "tanimoto": 0.41237113402061853,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.400522,
       "origin_compound": "TOX26114",
       "origin_source": "T4.1"
     },
@@ -1080,7 +991,6 @@
       "nll": 10.77,
       "tanimoto": 0.2857142857142857,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.400522,
       "origin_compound": "TOX26114",
       "origin_source": "T4.1"
     },
@@ -1092,7 +1002,6 @@
       "nll": 6.14,
       "tanimoto": 0.4024390243902439,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.400522,
       "origin_compound": "TOX26114",
       "origin_source": "T4.1"
     },
@@ -1104,7 +1013,6 @@
       "nll": 5.8,
       "tanimoto": 0.4177215189873418,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.400522,
       "origin_compound": "TOX26114",
       "origin_source": "T4.1"
     },
@@ -1116,7 +1024,6 @@
       "nll": 7.69,
       "tanimoto": 0.36585365853658536,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.400522,
       "origin_compound": "TOX26114",
       "origin_source": "T4.1"
     },
@@ -1128,7 +1035,6 @@
       "nll": 13.17,
       "tanimoto": 0.5,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.399228,
       "origin_compound": "TOX510",
       "origin_source": "T4.1"
     },
@@ -1140,7 +1046,6 @@
       "nll": 6.48,
       "tanimoto": 0.4146341463414634,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.399228,
       "origin_compound": "TOX510",
       "origin_source": "T4.1"
     },
@@ -1152,7 +1057,6 @@
       "nll": 6.94,
       "tanimoto": 0.6493506493506493,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.399228,
       "origin_compound": "TOX510",
       "origin_source": "T4.1"
     },
@@ -1164,7 +1068,6 @@
       "nll": 6.36,
       "tanimoto": 0.803030303030303,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.399228,
       "origin_compound": "TOX510",
       "origin_source": "T4.1"
     },
@@ -1176,7 +1079,6 @@
       "nll": 6.06,
       "tanimoto": 0.3835616438356164,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.399228,
       "origin_compound": "TOX510",
       "origin_source": "T4.1"
     },
@@ -1188,7 +1090,6 @@
       "nll": 6.96,
       "tanimoto": 0.4533333333333333,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.399228,
       "origin_compound": "TOX510",
       "origin_source": "T4.1"
     },
@@ -1200,7 +1101,6 @@
       "nll": 11.32,
       "tanimoto": 0.38095238095238093,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.399228,
       "origin_compound": "TOX510",
       "origin_source": "T4.1"
     },
@@ -1212,7 +1112,6 @@
       "nll": 2.36,
       "tanimoto": 0.5522388059701493,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.399228,
       "origin_compound": "TOX510",
       "origin_source": "T4.1"
     },
@@ -1224,7 +1123,6 @@
       "nll": 11.88,
       "tanimoto": 0.3707865168539326,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.399228,
       "origin_compound": "TOX510",
       "origin_source": "T4.1"
     },
@@ -1236,7 +1134,6 @@
       "nll": 4.81,
       "tanimoto": 0.5277777777777778,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.399228,
       "origin_compound": "TOX510",
       "origin_source": "T4.1"
     },
@@ -1248,7 +1145,6 @@
       "nll": 8.71,
       "tanimoto": 0.49382716049382713,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.399228,
       "origin_compound": "TOX510",
       "origin_source": "T4.1"
     },
@@ -1260,7 +1156,6 @@
       "nll": 6.71,
       "tanimoto": 0.6619718309859155,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.399228,
       "origin_compound": "TOX510",
       "origin_source": "T4.1"
     },
@@ -1272,7 +1167,6 @@
       "nll": 5.0,
       "tanimoto": 0.42105263157894735,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.399228,
       "origin_compound": "TOX510",
       "origin_source": "T4.1"
     },
@@ -1284,7 +1178,6 @@
       "nll": 7.66,
       "tanimoto": 0.4358974358974359,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.399228,
       "origin_compound": "TOX510",
       "origin_source": "T4.1"
     },
@@ -1296,7 +1189,6 @@
       "nll": 7.81,
       "tanimoto": 0.375,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.399228,
       "origin_compound": "TOX510",
       "origin_source": "T4.1"
     },
@@ -1308,7 +1200,6 @@
       "nll": 4.84,
       "tanimoto": 0.4430379746835443,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.399228,
       "origin_compound": "TOX510",
       "origin_source": "T4.1"
     },
@@ -1320,7 +1211,6 @@
       "nll": 4.62,
       "tanimoto": 0.6774193548387096,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.399228,
       "origin_compound": "TOX510",
       "origin_source": "T4.1"
     },
@@ -1332,7 +1222,6 @@
       "nll": 11.79,
       "tanimoto": 0.6753246753246753,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.399228,
       "origin_compound": "TOX510",
       "origin_source": "T4.1"
     },
@@ -1344,7 +1233,6 @@
       "nll": 5.86,
       "tanimoto": 0.5142857142857142,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.399228,
       "origin_compound": "TOX510",
       "origin_source": "T4.1"
     },
@@ -1356,7 +1244,6 @@
       "nll": 4.15,
       "tanimoto": 0.56,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.399228,
       "origin_compound": "TOX510",
       "origin_source": "T4.1"
     },
@@ -1368,7 +1255,6 @@
       "nll": 7.15,
       "tanimoto": 0.5277777777777778,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.399228,
       "origin_compound": "TOX510",
       "origin_source": "T4.1"
     },
@@ -1380,7 +1266,6 @@
       "nll": 6.87,
       "tanimoto": 0.5569620253164557,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.399228,
       "origin_compound": "TOX510",
       "origin_source": "T4.1"
     },
@@ -1392,7 +1277,6 @@
       "nll": 6.54,
       "tanimoto": 0.8709677419354839,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.399228,
       "origin_compound": "TOX510",
       "origin_source": "T4.1"
     },
@@ -1404,7 +1288,6 @@
       "nll": 5.23,
       "tanimoto": 0.4605263157894737,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.399228,
       "origin_compound": "TOX510",
       "origin_source": "T4.1"
     },
@@ -1416,7 +1299,6 @@
       "nll": 3.61,
       "tanimoto": 0.6119402985074627,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.396694,
       "origin_compound": "TOX54",
       "origin_source": "T4.1"
     },
@@ -1428,7 +1310,6 @@
       "nll": 9.16,
       "tanimoto": 0.5070422535211268,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.396694,
       "origin_compound": "TOX54",
       "origin_source": "T4.1"
     },
@@ -1440,7 +1321,6 @@
       "nll": 11.23,
       "tanimoto": 0.532258064516129,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.396694,
       "origin_compound": "TOX54",
       "origin_source": "T4.1"
     },
@@ -1452,7 +1332,6 @@
       "nll": 5.55,
       "tanimoto": 0.4605263157894737,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.396694,
       "origin_compound": "TOX54",
       "origin_source": "T4.1"
     },
@@ -1464,7 +1343,6 @@
       "nll": 7.6,
       "tanimoto": 0.6379310344827587,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.396694,
       "origin_compound": "TOX54",
       "origin_source": "T4.1"
     },
@@ -1476,7 +1354,6 @@
       "nll": 6.5,
       "tanimoto": 0.5333333333333333,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.396694,
       "origin_compound": "TOX54",
       "origin_source": "T4.1"
     },
@@ -1488,7 +1365,6 @@
       "nll": 4.81,
       "tanimoto": 0.5942028985507246,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.396694,
       "origin_compound": "TOX54",
       "origin_source": "T4.1"
     },
@@ -1500,7 +1376,6 @@
       "nll": 6.79,
       "tanimoto": 0.6379310344827587,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.396694,
       "origin_compound": "TOX54",
       "origin_source": "T4.1"
     },
@@ -1512,7 +1387,6 @@
       "nll": 7.2,
       "tanimoto": 0.6065573770491803,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.396694,
       "origin_compound": "TOX54",
       "origin_source": "T4.1"
     },
@@ -1524,7 +1398,6 @@
       "nll": 8.87,
       "tanimoto": 0.5303030303030303,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.396694,
       "origin_compound": "TOX54",
       "origin_source": "T4.1"
     },
@@ -1536,7 +1409,6 @@
       "nll": 3.52,
       "tanimoto": 0.5263157894736842,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.396694,
       "origin_compound": "TOX54",
       "origin_source": "T4.1"
     },
@@ -1548,7 +1420,6 @@
       "nll": 8.61,
       "tanimoto": 0.6333333333333333,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.396694,
       "origin_compound": "TOX54",
       "origin_source": "T4.1"
     },
@@ -1560,7 +1431,6 @@
       "nll": 5.83,
       "tanimoto": 0.6785714285714286,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.396694,
       "origin_compound": "TOX54",
       "origin_source": "T4.1"
     },
@@ -1572,7 +1442,6 @@
       "nll": 4.9,
       "tanimoto": 0.6666666666666666,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.396694,
       "origin_compound": "TOX54",
       "origin_source": "T4.1"
     },
@@ -1584,7 +1453,6 @@
       "nll": 9.14,
       "tanimoto": 0.5645161290322581,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.396694,
       "origin_compound": "TOX54",
       "origin_source": "T4.1"
     },
@@ -1596,7 +1464,6 @@
       "nll": 5.38,
       "tanimoto": 0.38461538461538464,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.396694,
       "origin_compound": "TOX54",
       "origin_source": "T4.1"
     },
@@ -1608,7 +1475,6 @@
       "nll": 5.15,
       "tanimoto": 0.7592592592592593,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.396694,
       "origin_compound": "TOX54",
       "origin_source": "T4.1"
     },
@@ -1620,7 +1486,6 @@
       "nll": 2.89,
       "tanimoto": 0.7450980392156863,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.396694,
       "origin_compound": "TOX54",
       "origin_source": "T4.1"
     },
@@ -1632,7 +1497,6 @@
       "nll": 4.59,
       "tanimoto": 0.6551724137931034,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.396694,
       "origin_compound": "TOX54",
       "origin_source": "T4.1"
     },
@@ -1644,7 +1508,6 @@
       "nll": 12.61,
       "tanimoto": 0.4069767441860465,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.396694,
       "origin_compound": "TOX54",
       "origin_source": "T4.1"
     },
@@ -1656,7 +1519,6 @@
       "nll": 6.29,
       "tanimoto": 0.47692307692307695,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.396694,
       "origin_compound": "TOX54",
       "origin_source": "T4.1"
     },
@@ -1668,7 +1530,6 @@
       "nll": 7.41,
       "tanimoto": 0.53125,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.396694,
       "origin_compound": "TOX54",
       "origin_source": "T4.1"
     },
@@ -1680,7 +1541,6 @@
       "nll": 7.04,
       "tanimoto": 0.5932203389830508,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.396694,
       "origin_compound": "TOX54",
       "origin_source": "T4.1"
     },
@@ -1692,7 +1552,6 @@
       "nll": 7.17,
       "tanimoto": 0.7818181818181819,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.396694,
       "origin_compound": "TOX54",
       "origin_source": "T4.1"
     },
@@ -1704,7 +1563,6 @@
       "nll": 3.64,
       "tanimoto": 0.6226415094339622,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.395849,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -1716,7 +1574,6 @@
       "nll": 2.75,
       "tanimoto": 0.6226415094339622,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.395849,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -1728,7 +1585,6 @@
       "nll": 9.19,
       "tanimoto": 0.4696969696969697,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.395849,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -1740,7 +1596,6 @@
       "nll": 3.32,
       "tanimoto": 0.4,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.395849,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -1752,7 +1607,6 @@
       "nll": 3.08,
       "tanimoto": 0.6538461538461539,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.395849,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -1764,7 +1618,6 @@
       "nll": 4.9,
       "tanimoto": 0.43333333333333335,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.395849,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -1776,7 +1629,6 @@
       "nll": 6.57,
       "tanimoto": 0.5245901639344263,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.395849,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -1788,7 +1640,6 @@
       "nll": 8.61,
       "tanimoto": 0.6551724137931034,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.395849,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -1800,7 +1651,6 @@
       "nll": 4.92,
       "tanimoto": 0.4915254237288136,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.395849,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -1812,7 +1662,6 @@
       "nll": 7.6,
       "tanimoto": 0.5483870967741935,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.395849,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -1824,7 +1673,6 @@
       "nll": 8.28,
       "tanimoto": 0.5671641791044776,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.395849,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -1836,7 +1684,6 @@
       "nll": 7.39,
       "tanimoto": 0.34328358208955223,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.395849,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -1848,7 +1695,6 @@
       "nll": 8.09,
       "tanimoto": 0.5,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.395849,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -1860,7 +1706,6 @@
       "nll": 4.7,
       "tanimoto": 0.49206349206349204,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.395849,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -1872,7 +1717,6 @@
       "nll": 8.56,
       "tanimoto": 0.6129032258064516,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.395849,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -1884,7 +1728,6 @@
       "nll": 3.86,
       "tanimoto": 0.5636363636363636,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.395849,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -1896,7 +1739,6 @@
       "nll": 7.11,
       "tanimoto": 0.5423728813559322,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.395849,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -1908,7 +1750,6 @@
       "nll": 11.23,
       "tanimoto": 0.5245901639344263,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.395849,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -1920,7 +1761,6 @@
       "nll": 4.05,
       "tanimoto": 0.5636363636363636,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.395849,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -1932,7 +1772,6 @@
       "nll": 10.71,
       "tanimoto": 0.546875,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.395849,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -1944,7 +1783,6 @@
       "nll": 7.17,
       "tanimoto": 0.543859649122807,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.395849,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -1956,7 +1794,6 @@
       "nll": 11.83,
       "tanimoto": 0.4634146341463415,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.395849,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -1968,7 +1805,6 @@
       "nll": 6.63,
       "tanimoto": 0.576271186440678,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.395849,
       "origin_compound": "TOX433",
       "origin_source": "T4.1"
     },
@@ -1980,7 +1816,6 @@
       "nll": 11.2,
       "tanimoto": 0.3717948717948718,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392747,
       "origin_compound": "HIV_active_5",
       "origin_source": "T4.1"
     },
@@ -1992,7 +1827,6 @@
       "nll": 6.14,
       "tanimoto": 0.36619718309859156,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392747,
       "origin_compound": "HIV_active_5",
       "origin_source": "T4.1"
     },
@@ -2004,7 +1838,6 @@
       "nll": 12.56,
       "tanimoto": 0.3028571428571429,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392747,
       "origin_compound": "HIV_active_5",
       "origin_source": "T4.1"
     },
@@ -2016,7 +1849,6 @@
       "nll": 6.19,
       "tanimoto": 0.3006134969325153,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392747,
       "origin_compound": "HIV_active_5",
       "origin_source": "T4.1"
     },
@@ -2028,7 +1860,6 @@
       "nll": 3.91,
       "tanimoto": 0.4794520547945205,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392747,
       "origin_compound": "HIV_active_5",
       "origin_source": "T4.1"
     },
@@ -2040,7 +1871,6 @@
       "nll": 5.96,
       "tanimoto": 0.34810126582278483,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392747,
       "origin_compound": "HIV_active_5",
       "origin_source": "T4.1"
     },
@@ -2052,7 +1882,6 @@
       "nll": 9.58,
       "tanimoto": 0.5343511450381679,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392747,
       "origin_compound": "HIV_active_5",
       "origin_source": "T4.1"
     },
@@ -2064,7 +1893,6 @@
       "nll": 9.88,
       "tanimoto": 0.4768211920529801,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392747,
       "origin_compound": "HIV_active_5",
       "origin_source": "T4.1"
     },
@@ -2076,7 +1904,6 @@
       "nll": 8.13,
       "tanimoto": 0.36774193548387096,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392747,
       "origin_compound": "HIV_active_5",
       "origin_source": "T4.1"
     },
@@ -2088,7 +1915,6 @@
       "nll": 6.28,
       "tanimoto": 0.43478260869565216,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392747,
       "origin_compound": "HIV_active_5",
       "origin_source": "T4.1"
     },
@@ -2100,7 +1926,6 @@
       "nll": 5.96,
       "tanimoto": 0.4230769230769231,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392747,
       "origin_compound": "HIV_active_5",
       "origin_source": "T4.1"
     },
@@ -2112,7 +1937,6 @@
       "nll": 8.25,
       "tanimoto": 0.43478260869565216,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392747,
       "origin_compound": "HIV_active_5",
       "origin_source": "T4.1"
     },
@@ -2124,7 +1948,6 @@
       "nll": 5.29,
       "tanimoto": 0.44,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392747,
       "origin_compound": "HIV_active_5",
       "origin_source": "T4.1"
     },
@@ -2136,7 +1959,6 @@
       "nll": 10.57,
       "tanimoto": 0.28402366863905326,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392747,
       "origin_compound": "HIV_active_5",
       "origin_source": "T4.1"
     },
@@ -2148,7 +1970,6 @@
       "nll": 9.46,
       "tanimoto": 0.34375,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392747,
       "origin_compound": "HIV_active_5",
       "origin_source": "T4.1"
     },
@@ -2160,7 +1981,6 @@
       "nll": 16.71,
       "tanimoto": 0.45962732919254656,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392747,
       "origin_compound": "HIV_active_5",
       "origin_source": "T4.1"
     },
@@ -2172,7 +1992,6 @@
       "nll": 6.23,
       "tanimoto": 0.36024844720496896,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392747,
       "origin_compound": "HIV_active_5",
       "origin_source": "T4.1"
     },
@@ -2184,7 +2003,6 @@
       "nll": 5.67,
       "tanimoto": 0.5,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392747,
       "origin_compound": "HIV_active_5",
       "origin_source": "T4.1"
     },
@@ -2196,7 +2014,6 @@
       "nll": 4.1,
       "tanimoto": 0.4304635761589404,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392747,
       "origin_compound": "HIV_active_5",
       "origin_source": "T4.1"
     },
@@ -2208,7 +2025,6 @@
       "nll": 6.08,
       "tanimoto": 0.46308724832214765,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392747,
       "origin_compound": "HIV_active_5",
       "origin_source": "T4.1"
     },
@@ -2220,7 +2036,6 @@
       "nll": 17.02,
       "tanimoto": 0.33783783783783783,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392747,
       "origin_compound": "HIV_active_5",
       "origin_source": "T4.1"
     },
@@ -2232,7 +2047,6 @@
       "nll": 6.34,
       "tanimoto": 0.391025641025641,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392747,
       "origin_compound": "HIV_active_5",
       "origin_source": "T4.1"
     },
@@ -2244,7 +2058,6 @@
       "nll": 10.26,
       "tanimoto": 0.44966442953020136,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392747,
       "origin_compound": "HIV_active_5",
       "origin_source": "T4.1"
     },
@@ -2256,7 +2069,6 @@
       "nll": 8.57,
       "tanimoto": 0.31901840490797545,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392747,
       "origin_compound": "HIV_active_5",
       "origin_source": "T4.1"
     },
@@ -2268,7 +2080,6 @@
       "nll": 9.23,
       "tanimoto": 0.2755102040816326,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392655,
       "origin_compound": "TOX27950",
       "origin_source": "T4.1"
     },
@@ -2280,7 +2091,6 @@
       "nll": 4.37,
       "tanimoto": 0.4246575342465753,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392655,
       "origin_compound": "TOX27950",
       "origin_source": "T4.1"
     },
@@ -2292,7 +2102,6 @@
       "nll": 9.32,
       "tanimoto": 0.5774647887323944,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392655,
       "origin_compound": "TOX27950",
       "origin_source": "T4.1"
     },
@@ -2304,7 +2113,6 @@
       "nll": 12.92,
       "tanimoto": 0.34177215189873417,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392655,
       "origin_compound": "TOX27950",
       "origin_source": "T4.1"
     },
@@ -2316,7 +2124,6 @@
       "nll": 4.39,
       "tanimoto": 0.4647887323943662,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392655,
       "origin_compound": "TOX27950",
       "origin_source": "T4.1"
     },
@@ -2328,7 +2135,6 @@
       "nll": 11.2,
       "tanimoto": 0.5294117647058824,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392655,
       "origin_compound": "TOX27950",
       "origin_source": "T4.1"
     },
@@ -2340,7 +2146,6 @@
       "nll": 8.55,
       "tanimoto": 0.42528735632183906,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392655,
       "origin_compound": "TOX27950",
       "origin_source": "T4.1"
     },
@@ -2352,7 +2157,6 @@
       "nll": 8.14,
       "tanimoto": 0.34,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392655,
       "origin_compound": "TOX27950",
       "origin_source": "T4.1"
     },
@@ -2364,7 +2168,6 @@
       "nll": 13.47,
       "tanimoto": 0.547945205479452,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392655,
       "origin_compound": "TOX27950",
       "origin_source": "T4.1"
     },
@@ -2376,7 +2179,6 @@
       "nll": 3.13,
       "tanimoto": 0.3684210526315789,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392655,
       "origin_compound": "TOX27950",
       "origin_source": "T4.1"
     },
@@ -2388,7 +2190,6 @@
       "nll": 6.07,
       "tanimoto": 0.38461538461538464,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392655,
       "origin_compound": "TOX27950",
       "origin_source": "T4.1"
     },
@@ -2400,7 +2201,6 @@
       "nll": 11.09,
       "tanimoto": 0.44086021505376344,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392655,
       "origin_compound": "TOX27950",
       "origin_source": "T4.1"
     },
@@ -2412,7 +2212,6 @@
       "nll": 5.24,
       "tanimoto": 0.40540540540540543,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392655,
       "origin_compound": "TOX27950",
       "origin_source": "T4.1"
     },
@@ -2424,7 +2223,6 @@
       "nll": 9.47,
       "tanimoto": 0.36046511627906974,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392655,
       "origin_compound": "TOX27950",
       "origin_source": "T4.1"
     },
@@ -2436,7 +2234,6 @@
       "nll": 4.07,
       "tanimoto": 0.4583333333333333,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392655,
       "origin_compound": "TOX27950",
       "origin_source": "T4.1"
     },
@@ -2448,7 +2245,6 @@
       "nll": 6.41,
       "tanimoto": 0.3333333333333333,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392655,
       "origin_compound": "TOX27950",
       "origin_source": "T4.1"
     },
@@ -2460,7 +2256,6 @@
       "nll": 13.69,
       "tanimoto": 0.36607142857142855,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392655,
       "origin_compound": "TOX27950",
       "origin_source": "T4.1"
     },
@@ -2472,7 +2267,6 @@
       "nll": 15.55,
       "tanimoto": 0.37037037037037035,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392655,
       "origin_compound": "TOX27950",
       "origin_source": "T4.1"
     },
@@ -2484,7 +2278,6 @@
       "nll": 7.22,
       "tanimoto": 0.4111111111111111,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392655,
       "origin_compound": "TOX27950",
       "origin_source": "T4.1"
     },
@@ -2496,7 +2289,6 @@
       "nll": 4.18,
       "tanimoto": 0.5757575757575758,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392655,
       "origin_compound": "TOX27950",
       "origin_source": "T4.1"
     },
@@ -2508,7 +2300,6 @@
       "nll": 4.96,
       "tanimoto": 0.36,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392655,
       "origin_compound": "TOX27950",
       "origin_source": "T4.1"
     },
@@ -2520,7 +2311,6 @@
       "nll": 6.28,
       "tanimoto": 0.6190476190476191,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392655,
       "origin_compound": "TOX27950",
       "origin_source": "T4.1"
     },
@@ -2532,7 +2322,6 @@
       "nll": 5.32,
       "tanimoto": 0.345679012345679,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392655,
       "origin_compound": "TOX27950",
       "origin_source": "T4.1"
     },
@@ -2544,7 +2333,6 @@
       "nll": 6.71,
       "tanimoto": 0.3541666666666667,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392655,
       "origin_compound": "TOX27950",
       "origin_source": "T4.1"
     },
@@ -2556,7 +2344,6 @@
       "nll": 9.85,
       "tanimoto": 0.36082474226804123,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.392655,
       "origin_compound": "TOX27950",
       "origin_source": "T4.1"
     },
@@ -2568,7 +2355,6 @@
       "nll": 4.49,
       "tanimoto": 0.4742268041237113,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2580,7 +2366,6 @@
       "nll": 1.92,
       "tanimoto": 0.5217391304347826,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2592,7 +2377,6 @@
       "nll": 6.59,
       "tanimoto": 0.5882352941176471,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2604,7 +2388,6 @@
       "nll": 7.8,
       "tanimoto": 0.4857142857142857,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2616,7 +2399,6 @@
       "nll": 9.8,
       "tanimoto": 0.3577981651376147,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2628,7 +2410,6 @@
       "nll": 3.2,
       "tanimoto": 0.5192307692307693,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2640,7 +2421,6 @@
       "nll": 4.84,
       "tanimoto": 0.5192307692307693,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2652,7 +2432,6 @@
       "nll": 3.23,
       "tanimoto": 0.4583333333333333,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2664,7 +2443,6 @@
       "nll": 11.32,
       "tanimoto": 0.46,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2676,7 +2454,6 @@
       "nll": 5.19,
       "tanimoto": 0.46296296296296297,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2688,7 +2465,6 @@
       "nll": 7.41,
       "tanimoto": 0.5384615384615384,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2700,7 +2476,6 @@
       "nll": 4.32,
       "tanimoto": 0.627906976744186,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2712,7 +2487,6 @@
       "nll": 7.89,
       "tanimoto": 0.6666666666666666,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2724,7 +2498,6 @@
       "nll": 6.62,
       "tanimoto": 0.5192307692307693,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2736,7 +2509,6 @@
       "nll": 4.17,
       "tanimoto": 0.775,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2748,7 +2520,6 @@
       "nll": 9.0,
       "tanimoto": 0.47368421052631576,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2760,7 +2531,6 @@
       "nll": 8.3,
       "tanimoto": 0.6292134831460674,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2772,7 +2542,6 @@
       "nll": 11.04,
       "tanimoto": 0.5,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2784,7 +2553,6 @@
       "nll": 6.81,
       "tanimoto": 0.45263157894736844,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2796,7 +2564,6 @@
       "nll": 4.66,
       "tanimoto": 0.5051546391752577,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2808,7 +2575,6 @@
       "nll": 3.86,
       "tanimoto": 0.5268817204301075,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2820,7 +2586,6 @@
       "nll": 11.32,
       "tanimoto": 0.3118279569892473,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2832,7 +2597,6 @@
       "nll": 4.64,
       "tanimoto": 0.4375,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2844,7 +2608,6 @@
       "nll": 4.54,
       "tanimoto": 0.5212765957446809,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2856,7 +2619,6 @@
       "nll": 3.16,
       "tanimoto": 0.5909090909090909,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2868,7 +2630,6 @@
       "nll": 5.51,
       "tanimoto": 0.6122448979591837,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.391744,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -2880,7 +2641,6 @@
       "nll": 2.88,
       "tanimoto": 0.6575342465753424,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.390503,
       "origin_compound": "TOX1219",
       "origin_source": "T4.1"
     },
@@ -2892,7 +2652,6 @@
       "nll": 9.97,
       "tanimoto": 0.41379310344827586,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.390503,
       "origin_compound": "TOX1219",
       "origin_source": "T4.1"
     },
@@ -2904,7 +2663,6 @@
       "nll": 6.81,
       "tanimoto": 0.5915492957746479,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.390503,
       "origin_compound": "TOX1219",
       "origin_source": "T4.1"
     },
@@ -2916,7 +2674,6 @@
       "nll": 2.12,
       "tanimoto": 0.6338028169014085,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.390503,
       "origin_compound": "TOX1219",
       "origin_source": "T4.1"
     },
@@ -2928,7 +2685,6 @@
       "nll": 8.91,
       "tanimoto": 0.5,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.390503,
       "origin_compound": "TOX1219",
       "origin_source": "T4.1"
     },
@@ -2940,7 +2696,6 @@
       "nll": 5.27,
       "tanimoto": 0.6133333333333333,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.390503,
       "origin_compound": "TOX1219",
       "origin_source": "T4.1"
     },
@@ -2952,7 +2707,6 @@
       "nll": 2.93,
       "tanimoto": 0.5714285714285714,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.390503,
       "origin_compound": "TOX1219",
       "origin_source": "T4.1"
     },
@@ -2964,7 +2718,6 @@
       "nll": 6.22,
       "tanimoto": 0.4936708860759494,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.390503,
       "origin_compound": "TOX1219",
       "origin_source": "T4.1"
     },
@@ -2976,7 +2729,6 @@
       "nll": 6.16,
       "tanimoto": 0.575,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.390503,
       "origin_compound": "TOX1219",
       "origin_source": "T4.1"
     },
@@ -2988,7 +2740,6 @@
       "nll": 7.13,
       "tanimoto": 0.3902439024390244,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.390503,
       "origin_compound": "TOX1219",
       "origin_source": "T4.1"
     },
@@ -3000,7 +2751,6 @@
       "nll": 5.08,
       "tanimoto": 0.6619718309859155,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.390503,
       "origin_compound": "TOX1219",
       "origin_source": "T4.1"
     },
@@ -3012,7 +2762,6 @@
       "nll": 2.62,
       "tanimoto": 0.6351351351351351,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.390503,
       "origin_compound": "TOX1219",
       "origin_source": "T4.1"
     },
@@ -3024,7 +2773,6 @@
       "nll": 5.83,
       "tanimoto": 0.5974025974025974,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.390503,
       "origin_compound": "TOX1219",
       "origin_source": "T4.1"
     },
@@ -3036,7 +2784,6 @@
       "nll": 11.9,
       "tanimoto": 0.5,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.390503,
       "origin_compound": "TOX1219",
       "origin_source": "T4.1"
     },
@@ -3048,7 +2795,6 @@
       "nll": 3.87,
       "tanimoto": 0.5945945945945946,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.390503,
       "origin_compound": "TOX1219",
       "origin_source": "T4.1"
     },
@@ -3060,7 +2806,6 @@
       "nll": 5.89,
       "tanimoto": 0.6460176991150443,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389883,
       "origin_compound": "HIV_active_14",
       "origin_source": "T4.1"
     },
@@ -3072,7 +2817,6 @@
       "nll": 4.99,
       "tanimoto": 0.6203703703703703,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389883,
       "origin_compound": "HIV_active_14",
       "origin_source": "T4.1"
     },
@@ -3084,7 +2828,6 @@
       "nll": 2.63,
       "tanimoto": 0.6371681415929203,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389883,
       "origin_compound": "HIV_active_14",
       "origin_source": "T4.1"
     },
@@ -3096,7 +2839,6 @@
       "nll": 3.12,
       "tanimoto": 0.5689655172413793,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389883,
       "origin_compound": "HIV_active_14",
       "origin_source": "T4.1"
     },
@@ -3108,7 +2850,6 @@
       "nll": 3.64,
       "tanimoto": 0.48333333333333334,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389883,
       "origin_compound": "HIV_active_14",
       "origin_source": "T4.1"
     },
@@ -3120,7 +2861,6 @@
       "nll": 3.38,
       "tanimoto": 0.6055045871559633,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389883,
       "origin_compound": "HIV_active_14",
       "origin_source": "T4.1"
     },
@@ -3132,7 +2872,6 @@
       "nll": 6.38,
       "tanimoto": 0.5811965811965812,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389883,
       "origin_compound": "HIV_active_14",
       "origin_source": "T4.1"
     },
@@ -3144,7 +2883,6 @@
       "nll": 4.38,
       "tanimoto": 0.4645669291338583,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389883,
       "origin_compound": "HIV_active_14",
       "origin_source": "T4.1"
     },
@@ -3156,7 +2894,6 @@
       "nll": 7.74,
       "tanimoto": 0.6396396396396397,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389883,
       "origin_compound": "HIV_active_14",
       "origin_source": "T4.1"
     },
@@ -3168,7 +2905,6 @@
       "nll": 8.74,
       "tanimoto": 0.45454545454545453,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389883,
       "origin_compound": "HIV_active_14",
       "origin_source": "T4.1"
     },
@@ -3180,7 +2916,6 @@
       "nll": 3.07,
       "tanimoto": 0.7169811320754716,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389883,
       "origin_compound": "HIV_active_14",
       "origin_source": "T4.1"
     },
@@ -3192,7 +2927,6 @@
       "nll": 4.16,
       "tanimoto": 0.5,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389883,
       "origin_compound": "HIV_active_14",
       "origin_source": "T4.1"
     },
@@ -3204,7 +2938,6 @@
       "nll": 9.35,
       "tanimoto": 0.488,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389883,
       "origin_compound": "HIV_active_14",
       "origin_source": "T4.1"
     },
@@ -3216,7 +2949,6 @@
       "nll": 5.29,
       "tanimoto": 0.5862068965517241,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389883,
       "origin_compound": "HIV_active_14",
       "origin_source": "T4.1"
     },
@@ -3228,7 +2960,6 @@
       "nll": 3.23,
       "tanimoto": 0.5210084033613446,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389883,
       "origin_compound": "HIV_active_14",
       "origin_source": "T4.1"
     },
@@ -3240,7 +2971,6 @@
       "nll": 3.87,
       "tanimoto": 0.5126050420168067,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389883,
       "origin_compound": "HIV_active_14",
       "origin_source": "T4.1"
     },
@@ -3252,7 +2982,6 @@
       "nll": 4.36,
       "tanimoto": 0.5245901639344263,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389883,
       "origin_compound": "HIV_active_14",
       "origin_source": "T4.1"
     },
@@ -3264,7 +2993,6 @@
       "nll": 5.24,
       "tanimoto": 0.603448275862069,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389883,
       "origin_compound": "HIV_active_14",
       "origin_source": "T4.1"
     },
@@ -3276,7 +3004,6 @@
       "nll": 5.74,
       "tanimoto": 0.5454545454545454,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389883,
       "origin_compound": "HIV_active_14",
       "origin_source": "T4.1"
     },
@@ -3288,7 +3015,6 @@
       "nll": 4.49,
       "tanimoto": 0.6517857142857143,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389883,
       "origin_compound": "HIV_active_14",
       "origin_source": "T4.1"
     },
@@ -3300,7 +3026,6 @@
       "nll": 9.23,
       "tanimoto": 0.704225352112676,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389817,
       "origin_compound": "Trovafloxacin",
       "origin_source": "T4.1"
     },
@@ -3312,7 +3037,6 @@
       "nll": 6.65,
       "tanimoto": 0.367816091954023,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389817,
       "origin_compound": "Trovafloxacin",
       "origin_source": "T4.1"
     },
@@ -3324,7 +3048,6 @@
       "nll": 4.02,
       "tanimoto": 0.32978723404255317,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389817,
       "origin_compound": "Trovafloxacin",
       "origin_source": "T4.1"
     },
@@ -3336,7 +3059,6 @@
       "nll": 5.51,
       "tanimoto": 0.422680412371134,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389817,
       "origin_compound": "Trovafloxacin",
       "origin_source": "T4.1"
     },
@@ -3348,7 +3070,6 @@
       "nll": 11.96,
       "tanimoto": 0.5357142857142857,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389817,
       "origin_compound": "Trovafloxacin",
       "origin_source": "T4.1"
     },
@@ -3360,7 +3081,6 @@
       "nll": 5.67,
       "tanimoto": 0.6527777777777778,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389817,
       "origin_compound": "Trovafloxacin",
       "origin_source": "T4.1"
     },
@@ -3372,7 +3092,6 @@
       "nll": 4.7,
       "tanimoto": 0.45454545454545453,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389817,
       "origin_compound": "Trovafloxacin",
       "origin_source": "T4.1"
     },
@@ -3384,7 +3103,6 @@
       "nll": 5.44,
       "tanimoto": 0.5466666666666666,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389817,
       "origin_compound": "Trovafloxacin",
       "origin_source": "T4.1"
     },
@@ -3396,7 +3114,6 @@
       "nll": 5.81,
       "tanimoto": 0.43373493975903615,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389817,
       "origin_compound": "Trovafloxacin",
       "origin_source": "T4.1"
     },
@@ -3408,7 +3125,6 @@
       "nll": 6.88,
       "tanimoto": 0.7246376811594203,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389817,
       "origin_compound": "Trovafloxacin",
       "origin_source": "T4.1"
     },
@@ -3420,7 +3136,6 @@
       "nll": 6.75,
       "tanimoto": 0.5384615384615384,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389817,
       "origin_compound": "Trovafloxacin",
       "origin_source": "T4.1"
     },
@@ -3432,7 +3147,6 @@
       "nll": 4.53,
       "tanimoto": 0.38636363636363635,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389817,
       "origin_compound": "Trovafloxacin",
       "origin_source": "T4.1"
     },
@@ -3444,7 +3158,6 @@
       "nll": 5.89,
       "tanimoto": 0.5833333333333334,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389817,
       "origin_compound": "Trovafloxacin",
       "origin_source": "T4.1"
     },
@@ -3456,7 +3169,6 @@
       "nll": 4.42,
       "tanimoto": 0.4567901234567901,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389817,
       "origin_compound": "Trovafloxacin",
       "origin_source": "T4.1"
     },
@@ -3468,7 +3180,6 @@
       "nll": 7.9,
       "tanimoto": 0.4186046511627907,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389817,
       "origin_compound": "Trovafloxacin",
       "origin_source": "T4.1"
     },
@@ -3480,7 +3191,6 @@
       "nll": 8.33,
       "tanimoto": 0.36792452830188677,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389817,
       "origin_compound": "Trovafloxacin",
       "origin_source": "T4.1"
     },
@@ -3492,7 +3202,6 @@
       "nll": 11.36,
       "tanimoto": 0.4588235294117647,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389817,
       "origin_compound": "Trovafloxacin",
       "origin_source": "T4.1"
     },
@@ -3504,7 +3213,6 @@
       "nll": 10.27,
       "tanimoto": 0.36904761904761907,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389817,
       "origin_compound": "Trovafloxacin",
       "origin_source": "T4.1"
     },
@@ -3516,7 +3224,6 @@
       "nll": 9.55,
       "tanimoto": 0.3786407766990291,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389817,
       "origin_compound": "Trovafloxacin",
       "origin_source": "T4.1"
     },
@@ -3528,7 +3235,6 @@
       "nll": 8.29,
       "tanimoto": 0.5189873417721519,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389817,
       "origin_compound": "Trovafloxacin",
       "origin_source": "T4.1"
     },
@@ -3540,7 +3246,6 @@
       "nll": 7.05,
       "tanimoto": 0.4430379746835443,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389817,
       "origin_compound": "Trovafloxacin",
       "origin_source": "T4.1"
     },
@@ -3552,7 +3257,6 @@
       "nll": 10.7,
       "tanimoto": 0.6190476190476191,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389817,
       "origin_compound": "Trovafloxacin",
       "origin_source": "T4.1"
     },
@@ -3564,7 +3268,6 @@
       "nll": 5.28,
       "tanimoto": 0.4567901234567901,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389817,
       "origin_compound": "Trovafloxacin",
       "origin_source": "T4.1"
     },
@@ -3576,7 +3279,6 @@
       "nll": 9.05,
       "tanimoto": 0.42528735632183906,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389817,
       "origin_compound": "Trovafloxacin",
       "origin_source": "T4.1"
     },
@@ -3588,7 +3290,6 @@
       "nll": 5.4,
       "tanimoto": 0.367816091954023,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.389817,
       "origin_compound": "Trovafloxacin",
       "origin_source": "T4.1"
     },
@@ -3600,7 +3301,6 @@
       "nll": 5.34,
       "tanimoto": 0.6,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.38851,
       "origin_compound": "Bromfenac",
       "origin_source": "T4.1"
     },
@@ -3612,7 +3312,6 @@
       "nll": 1.78,
       "tanimoto": 0.6491228070175439,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.38851,
       "origin_compound": "Bromfenac",
       "origin_source": "T4.1"
     },
@@ -3624,7 +3323,6 @@
       "nll": 8.39,
       "tanimoto": 0.45588235294117646,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.38851,
       "origin_compound": "Bromfenac",
       "origin_source": "T4.1"
     },
@@ -3636,7 +3334,6 @@
       "nll": 12.0,
       "tanimoto": 0.6,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.38851,
       "origin_compound": "Bromfenac",
       "origin_source": "T4.1"
     },
@@ -3648,7 +3345,6 @@
       "nll": 8.09,
       "tanimoto": 0.53125,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.38851,
       "origin_compound": "Bromfenac",
       "origin_source": "T4.1"
     },
@@ -3660,7 +3356,6 @@
       "nll": 3.38,
       "tanimoto": 0.6271186440677966,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.38851,
       "origin_compound": "Bromfenac",
       "origin_source": "T4.1"
     },
@@ -3672,7 +3367,6 @@
       "nll": 3.13,
       "tanimoto": 0.7777777777777778,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.38851,
       "origin_compound": "Bromfenac",
       "origin_source": "T4.1"
     },
@@ -3684,7 +3378,6 @@
       "nll": 4.44,
       "tanimoto": 1.0,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.38851,
       "origin_compound": "Bromfenac",
       "origin_source": "T4.1"
     },
@@ -3696,7 +3389,6 @@
       "nll": 3.95,
       "tanimoto": 0.546875,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.38851,
       "origin_compound": "Bromfenac",
       "origin_source": "T4.1"
     },
@@ -3708,7 +3400,6 @@
       "nll": 6.42,
       "tanimoto": 0.7368421052631579,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.38851,
       "origin_compound": "Bromfenac",
       "origin_source": "T4.1"
     },
@@ -3720,7 +3411,6 @@
       "nll": 4.34,
       "tanimoto": 0.6825396825396826,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.38851,
       "origin_compound": "Bromfenac",
       "origin_source": "T4.1"
     },
@@ -3732,7 +3422,6 @@
       "nll": 5.04,
       "tanimoto": 0.5,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.38851,
       "origin_compound": "Bromfenac",
       "origin_source": "T4.1"
     },
@@ -3744,7 +3433,6 @@
       "nll": 5.05,
       "tanimoto": 0.7777777777777778,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.38851,
       "origin_compound": "Bromfenac",
       "origin_source": "T4.1"
     },
@@ -3756,7 +3444,6 @@
       "nll": 3.06,
       "tanimoto": 0.6,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.38851,
       "origin_compound": "Bromfenac",
       "origin_source": "T4.1"
     },
@@ -3768,7 +3455,6 @@
       "nll": 3.66,
       "tanimoto": 0.7142857142857143,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.38851,
       "origin_compound": "Bromfenac",
       "origin_source": "T4.1"
     },
@@ -3780,7 +3466,6 @@
       "nll": 6.02,
       "tanimoto": 0.5588235294117647,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.38851,
       "origin_compound": "Bromfenac",
       "origin_source": "T4.1"
     },
@@ -3792,7 +3477,6 @@
       "nll": 5.46,
       "tanimoto": 0.4857142857142857,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.38851,
       "origin_compound": "Bromfenac",
       "origin_source": "T4.1"
     },
@@ -3804,7 +3488,6 @@
       "nll": 4.98,
       "tanimoto": 0.6271186440677966,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.38851,
       "origin_compound": "Bromfenac",
       "origin_source": "T4.1"
     },
@@ -3816,7 +3499,6 @@
       "nll": 5.37,
       "tanimoto": 0.4675324675324675,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -3828,7 +3510,6 @@
       "nll": 10.02,
       "tanimoto": 0.5487804878048781,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -3840,7 +3521,6 @@
       "nll": 5.28,
       "tanimoto": 0.5128205128205128,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -3852,7 +3532,6 @@
       "nll": 13.46,
       "tanimoto": 0.5189873417721519,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -3864,7 +3543,6 @@
       "nll": 3.71,
       "tanimoto": 0.6388888888888888,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -3876,7 +3554,6 @@
       "nll": 5.73,
       "tanimoto": 0.5342465753424658,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -3888,7 +3565,6 @@
       "nll": 3.72,
       "tanimoto": 0.5915492957746479,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -3900,7 +3576,6 @@
       "nll": 4.92,
       "tanimoto": 0.5972222222222222,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -3912,7 +3587,6 @@
       "nll": 3.1,
       "tanimoto": 0.5733333333333334,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -3924,7 +3598,6 @@
       "nll": 10.23,
       "tanimoto": 0.6027397260273972,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -3936,7 +3609,6 @@
       "nll": 4.56,
       "tanimoto": 0.5555555555555556,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -3948,7 +3620,6 @@
       "nll": 11.69,
       "tanimoto": 0.4634146341463415,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -3960,7 +3631,6 @@
       "nll": 10.9,
       "tanimoto": 0.5057471264367817,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -3972,7 +3642,6 @@
       "nll": 4.44,
       "tanimoto": 0.49382716049382713,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -3984,7 +3653,6 @@
       "nll": 6.0,
       "tanimoto": 0.5694444444444444,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -3996,7 +3664,6 @@
       "nll": 4.49,
       "tanimoto": 0.4634146341463415,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -4008,7 +3675,6 @@
       "nll": 4.74,
       "tanimoto": 0.6470588235294118,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -4020,7 +3686,6 @@
       "nll": 7.11,
       "tanimoto": 0.5066666666666667,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -4032,7 +3697,6 @@
       "nll": 10.08,
       "tanimoto": 0.5068493150684932,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -4044,7 +3708,6 @@
       "nll": 6.88,
       "tanimoto": 0.5068493150684932,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -4056,7 +3719,6 @@
       "nll": 8.11,
       "tanimoto": 0.5277777777777778,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -4068,7 +3730,6 @@
       "nll": 5.97,
       "tanimoto": 0.4473684210526316,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -4080,7 +3741,6 @@
       "nll": 4.57,
       "tanimoto": 0.44871794871794873,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -4092,7 +3752,6 @@
       "nll": 6.96,
       "tanimoto": 0.48148148148148145,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -4104,7 +3763,6 @@
       "nll": 11.24,
       "tanimoto": 0.5135135135135135,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -4116,7 +3774,6 @@
       "nll": 7.63,
       "tanimoto": 0.5056179775280899,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -4128,7 +3785,6 @@
       "nll": 7.07,
       "tanimoto": 0.6470588235294118,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388325,
       "origin_compound": "TOX2391",
       "origin_source": "T4.1"
     },
@@ -4140,7 +3796,6 @@
       "nll": 7.12,
       "tanimoto": 0.44,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388127,
       "origin_compound": "TOX2396",
       "origin_source": "T4.1"
     },
@@ -4152,7 +3807,6 @@
       "nll": 5.13,
       "tanimoto": 0.5205479452054794,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388127,
       "origin_compound": "TOX2396",
       "origin_source": "T4.1"
     },
@@ -4164,7 +3818,6 @@
       "nll": 2.89,
       "tanimoto": 0.5797101449275363,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388127,
       "origin_compound": "TOX2396",
       "origin_source": "T4.1"
     },
@@ -4176,7 +3829,6 @@
       "nll": 2.98,
       "tanimoto": 0.5294117647058824,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388127,
       "origin_compound": "TOX2396",
       "origin_source": "T4.1"
     },
@@ -4188,7 +3840,6 @@
       "nll": 3.7,
       "tanimoto": 0.6521739130434783,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388127,
       "origin_compound": "TOX2396",
       "origin_source": "T4.1"
     },
@@ -4200,7 +3851,6 @@
       "nll": 11.7,
       "tanimoto": 0.6447368421052632,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388127,
       "origin_compound": "TOX2396",
       "origin_source": "T4.1"
     },
@@ -4212,7 +3862,6 @@
       "nll": 5.4,
       "tanimoto": 0.547945205479452,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388127,
       "origin_compound": "TOX2396",
       "origin_source": "T4.1"
     },
@@ -4224,7 +3873,6 @@
       "nll": 4.77,
       "tanimoto": 0.65625,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388127,
       "origin_compound": "TOX2396",
       "origin_source": "T4.1"
     },
@@ -4236,7 +3884,6 @@
       "nll": 3.81,
       "tanimoto": 0.5263157894736842,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388127,
       "origin_compound": "TOX2396",
       "origin_source": "T4.1"
     },
@@ -4248,7 +3895,6 @@
       "nll": 3.55,
       "tanimoto": 0.5571428571428572,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388127,
       "origin_compound": "TOX2396",
       "origin_source": "T4.1"
     },
@@ -4260,7 +3906,6 @@
       "nll": 4.55,
       "tanimoto": 0.71875,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388127,
       "origin_compound": "TOX2396",
       "origin_source": "T4.1"
     },
@@ -4272,7 +3917,6 @@
       "nll": 6.19,
       "tanimoto": 0.52,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388127,
       "origin_compound": "TOX2396",
       "origin_source": "T4.1"
     },
@@ -4284,7 +3928,6 @@
       "nll": 7.97,
       "tanimoto": 0.4794520547945205,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388127,
       "origin_compound": "TOX2396",
       "origin_source": "T4.1"
     },
@@ -4296,7 +3939,6 @@
       "nll": 6.56,
       "tanimoto": 0.5949367088607594,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388127,
       "origin_compound": "TOX2396",
       "origin_source": "T4.1"
     },
@@ -4308,7 +3950,6 @@
       "nll": 6.29,
       "tanimoto": 0.5802469135802469,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388127,
       "origin_compound": "TOX2396",
       "origin_source": "T4.1"
     },
@@ -4320,7 +3961,6 @@
       "nll": 6.86,
       "tanimoto": 0.5466666666666666,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388127,
       "origin_compound": "TOX2396",
       "origin_source": "T4.1"
     },
@@ -4332,7 +3972,6 @@
       "nll": 6.13,
       "tanimoto": 0.6164383561643836,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388127,
       "origin_compound": "TOX2396",
       "origin_source": "T4.1"
     },
@@ -4344,7 +3983,6 @@
       "nll": 3.63,
       "tanimoto": 0.5588235294117647,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388127,
       "origin_compound": "TOX2396",
       "origin_source": "T4.1"
     },
@@ -4356,7 +3994,6 @@
       "nll": 6.68,
       "tanimoto": 0.5135135135135135,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388127,
       "origin_compound": "TOX2396",
       "origin_source": "T4.1"
     },
@@ -4368,7 +4005,6 @@
       "nll": 6.4,
       "tanimoto": 0.5833333333333334,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388127,
       "origin_compound": "TOX2396",
       "origin_source": "T4.1"
     },
@@ -4380,7 +4016,6 @@
       "nll": 5.94,
       "tanimoto": 0.4794520547945205,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388127,
       "origin_compound": "TOX2396",
       "origin_source": "T4.1"
     },
@@ -4392,7 +4027,6 @@
       "nll": 10.45,
       "tanimoto": 0.42105263157894735,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388127,
       "origin_compound": "TOX2396",
       "origin_source": "T4.1"
     },
@@ -4404,7 +4038,6 @@
       "nll": 3.92,
       "tanimoto": 0.5588235294117647,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388127,
       "origin_compound": "TOX2396",
       "origin_source": "T4.1"
     },
@@ -4416,7 +4049,6 @@
       "nll": 2.8,
       "tanimoto": 0.6307692307692307,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388127,
       "origin_compound": "TOX2396",
       "origin_source": "T4.1"
     },
@@ -4428,7 +4060,6 @@
       "nll": 5.02,
       "tanimoto": 0.6388888888888888,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388127,
       "origin_compound": "TOX2396",
       "origin_source": "T4.1"
     },
@@ -4440,7 +4071,6 @@
       "nll": 4.8,
       "tanimoto": 0.5932203389830508,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4452,7 +4082,6 @@
       "nll": 7.48,
       "tanimoto": 0.4461538461538462,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4464,7 +4093,6 @@
       "nll": 7.89,
       "tanimoto": 0.4375,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4476,7 +4104,6 @@
       "nll": 5.73,
       "tanimoto": 0.6461538461538462,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4488,7 +4115,6 @@
       "nll": 11.03,
       "tanimoto": 0.36231884057971014,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4500,7 +4126,6 @@
       "nll": 4.64,
       "tanimoto": 0.6206896551724138,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4512,7 +4137,6 @@
       "nll": 5.22,
       "tanimoto": 0.6031746031746031,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4524,7 +4148,6 @@
       "nll": 13.51,
       "tanimoto": 0.4027777777777778,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4536,7 +4159,6 @@
       "nll": 13.47,
       "tanimoto": 0.5633802816901409,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4548,7 +4170,6 @@
       "nll": 13.43,
       "tanimoto": 0.5138888888888888,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4560,7 +4181,6 @@
       "nll": 10.81,
       "tanimoto": 0.4864864864864865,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4572,7 +4192,6 @@
       "nll": 6.39,
       "tanimoto": 0.4142857142857143,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4584,7 +4203,6 @@
       "nll": 7.3,
       "tanimoto": 0.7777777777777778,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4596,7 +4214,6 @@
       "nll": 4.34,
       "tanimoto": 0.7777777777777778,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4608,7 +4225,6 @@
       "nll": 20.23,
       "tanimoto": 0.35802469135802467,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4620,7 +4236,6 @@
       "nll": 18.79,
       "tanimoto": 0.4,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4632,7 +4247,6 @@
       "nll": 13.44,
       "tanimoto": 0.4691358024691358,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4644,7 +4258,6 @@
       "nll": 9.56,
       "tanimoto": 0.6031746031746031,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4656,7 +4269,6 @@
       "nll": 13.58,
       "tanimoto": 0.40789473684210525,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4668,7 +4280,6 @@
       "nll": 8.82,
       "tanimoto": 0.5189873417721519,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4680,7 +4291,6 @@
       "nll": 9.0,
       "tanimoto": 0.5189873417721519,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4692,7 +4302,6 @@
       "nll": 11.55,
       "tanimoto": 0.6,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4704,7 +4313,6 @@
       "nll": 7.11,
       "tanimoto": 0.5,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4716,7 +4324,6 @@
       "nll": 12.57,
       "tanimoto": 0.4457831325301205,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4728,7 +4335,6 @@
       "nll": 7.16,
       "tanimoto": 0.47692307692307695,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4740,7 +4346,6 @@
       "nll": 9.41,
       "tanimoto": 0.4931506849315068,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4752,7 +4357,6 @@
       "nll": 2.96,
       "tanimoto": 0.6491228070175439,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4764,7 +4368,6 @@
       "nll": 21.69,
       "tanimoto": 0.29333333333333333,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4776,7 +4379,6 @@
       "nll": 7.03,
       "tanimoto": 0.49206349206349204,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.388114,
       "origin_compound": "TOX1314",
       "origin_source": "T4.1"
     },
@@ -4788,7 +4390,6 @@
       "nll": 4.55,
       "tanimoto": 0.4473684210526316,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -4800,7 +4401,6 @@
       "nll": 4.66,
       "tanimoto": 0.5066666666666667,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -4812,7 +4412,6 @@
       "nll": 7.59,
       "tanimoto": 0.5256410256410257,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -4824,7 +4423,6 @@
       "nll": 5.05,
       "tanimoto": 0.48148148148148145,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -4836,7 +4434,6 @@
       "nll": 10.91,
       "tanimoto": 0.5232558139534884,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -4848,7 +4445,6 @@
       "nll": 6.18,
       "tanimoto": 0.33695652173913043,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -4860,7 +4456,6 @@
       "nll": 10.23,
       "tanimoto": 0.4939759036144578,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -4872,7 +4467,6 @@
       "nll": 8.65,
       "tanimoto": 0.4578313253012048,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -4884,7 +4478,6 @@
       "nll": 3.61,
       "tanimoto": 0.4473684210526316,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -4896,7 +4489,6 @@
       "nll": 3.13,
       "tanimoto": 0.5714285714285714,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -4908,7 +4500,6 @@
       "nll": 4.34,
       "tanimoto": 0.6176470588235294,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -4920,7 +4511,6 @@
       "nll": 8.42,
       "tanimoto": 0.5,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -4932,7 +4522,6 @@
       "nll": 6.26,
       "tanimoto": 0.42105263157894735,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -4944,7 +4533,6 @@
       "nll": 16.38,
       "tanimoto": 0.42168674698795183,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -4956,7 +4544,6 @@
       "nll": 5.34,
       "tanimoto": 0.5584415584415584,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -4968,7 +4555,6 @@
       "nll": 3.49,
       "tanimoto": 0.5694444444444444,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -4980,7 +4566,6 @@
       "nll": 6.59,
       "tanimoto": 0.3950617283950617,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -4992,7 +4577,6 @@
       "nll": 10.99,
       "tanimoto": 0.47674418604651164,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -5004,7 +4588,6 @@
       "nll": 3.83,
       "tanimoto": 0.44871794871794873,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -5016,7 +4599,6 @@
       "nll": 7.32,
       "tanimoto": 0.44871794871794873,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -5028,7 +4610,6 @@
       "nll": 3.86,
       "tanimoto": 0.5128205128205128,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -5040,7 +4621,6 @@
       "nll": 9.64,
       "tanimoto": 0.5942028985507246,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -5052,7 +4632,6 @@
       "nll": 7.83,
       "tanimoto": 0.44047619047619047,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -5064,7 +4643,6 @@
       "nll": 7.89,
       "tanimoto": 0.48148148148148145,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -5076,7 +4654,6 @@
       "nll": 6.03,
       "tanimoto": 0.4594594594594595,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -5088,7 +4665,6 @@
       "nll": 7.39,
       "tanimoto": 0.5569620253164557,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -5100,7 +4676,6 @@
       "nll": 5.79,
       "tanimoto": 0.6666666666666666,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387916,
       "origin_compound": "TOX2308",
       "origin_source": "T4.1"
     },
@@ -5112,7 +4687,6 @@
       "nll": 3.97,
       "tanimoto": 0.6419753086419753,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387252,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -5124,7 +4698,6 @@
       "nll": 5.47,
       "tanimoto": 0.7012987012987013,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387252,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -5136,7 +4709,6 @@
       "nll": 6.14,
       "tanimoto": 0.5783132530120482,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387252,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -5148,7 +4720,6 @@
       "nll": 5.95,
       "tanimoto": 0.4803921568627451,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387252,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -5160,7 +4731,6 @@
       "nll": 4.91,
       "tanimoto": 0.7733333333333333,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387252,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -5172,7 +4742,6 @@
       "nll": 3.64,
       "tanimoto": 0.5517241379310345,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387252,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -5184,7 +4753,6 @@
       "nll": 2.4,
       "tanimoto": 0.6190476190476191,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387252,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -5196,7 +4764,6 @@
       "nll": 13.32,
       "tanimoto": 0.43,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387252,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -5208,7 +4775,6 @@
       "nll": 3.22,
       "tanimoto": 0.6419753086419753,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387252,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -5220,7 +4786,6 @@
       "nll": 3.66,
       "tanimoto": 0.5581395348837209,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387252,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -5232,7 +4797,6 @@
       "nll": 4.48,
       "tanimoto": 0.6091954022988506,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387252,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -5244,7 +4808,6 @@
       "nll": 2.92,
       "tanimoto": 0.5760869565217391,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387252,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -5256,7 +4819,6 @@
       "nll": 7.13,
       "tanimoto": 0.5783132530120482,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387252,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -5268,7 +4830,6 @@
       "nll": 3.09,
       "tanimoto": 0.7435897435897436,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387252,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -5280,7 +4841,6 @@
       "nll": 5.39,
       "tanimoto": 0.422680412371134,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387252,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -5292,7 +4852,6 @@
       "nll": 11.86,
       "tanimoto": 0.425531914893617,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387252,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -5304,7 +4863,6 @@
       "nll": 3.33,
       "tanimoto": 0.686046511627907,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387252,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -5316,7 +4874,6 @@
       "nll": 8.04,
       "tanimoto": 0.3723404255319149,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387252,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -5328,7 +4885,6 @@
       "nll": 8.54,
       "tanimoto": 0.43434343434343436,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387252,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -5340,7 +4896,6 @@
       "nll": 12.54,
       "tanimoto": 0.5204081632653061,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387252,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -5352,7 +4907,6 @@
       "nll": 7.87,
       "tanimoto": 0.4895833333333333,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387252,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -5364,7 +4918,6 @@
       "nll": 3.1,
       "tanimoto": 0.7283950617283951,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.387252,
       "origin_compound": "TOX28479",
       "origin_source": "T4.1"
     },
@@ -5376,7 +4929,6 @@
       "nll": 7.42,
       "tanimoto": 0.45,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5388,7 +4940,6 @@
       "nll": 3.77,
       "tanimoto": 0.5238095238095238,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5400,7 +4951,6 @@
       "nll": 5.77,
       "tanimoto": 0.47474747474747475,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5412,7 +4962,6 @@
       "nll": 4.76,
       "tanimoto": 0.6818181818181818,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5424,7 +4973,6 @@
       "nll": 14.18,
       "tanimoto": 0.42342342342342343,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5436,7 +4984,6 @@
       "nll": 5.82,
       "tanimoto": 0.5208333333333334,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5448,7 +4995,6 @@
       "nll": 7.78,
       "tanimoto": 0.5208333333333334,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5460,7 +5006,6 @@
       "nll": 3.8,
       "tanimoto": 0.6705882352941176,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5472,7 +5017,6 @@
       "nll": 7.15,
       "tanimoto": 0.5365853658536586,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5484,7 +5028,6 @@
       "nll": 10.18,
       "tanimoto": 0.5977011494252874,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5496,7 +5039,6 @@
       "nll": 9.58,
       "tanimoto": 0.6666666666666666,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5508,7 +5050,6 @@
       "nll": 6.41,
       "tanimoto": 0.6818181818181818,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5520,7 +5061,6 @@
       "nll": 8.82,
       "tanimoto": 0.5869565217391305,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5532,7 +5072,6 @@
       "nll": 6.94,
       "tanimoto": 0.6447368421052632,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5544,7 +5083,6 @@
       "nll": 8.59,
       "tanimoto": 0.5164835164835165,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5556,7 +5094,6 @@
       "nll": 4.61,
       "tanimoto": 0.6976744186046512,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5568,7 +5105,6 @@
       "nll": 9.92,
       "tanimoto": 0.6987951807228916,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5580,7 +5116,6 @@
       "nll": 9.3,
       "tanimoto": 0.49056603773584906,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5592,7 +5127,6 @@
       "nll": 7.6,
       "tanimoto": 0.5060240963855421,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5604,7 +5138,6 @@
       "nll": 3.93,
       "tanimoto": 0.5157894736842106,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5616,7 +5149,6 @@
       "nll": 8.96,
       "tanimoto": 0.5764705882352941,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5628,7 +5160,6 @@
       "nll": 10.8,
       "tanimoto": 0.5,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5640,7 +5171,6 @@
       "nll": 8.82,
       "tanimoto": 0.5154639175257731,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5652,7 +5182,6 @@
       "nll": 6.62,
       "tanimoto": 0.6,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5664,7 +5193,6 @@
       "nll": 5.9,
       "tanimoto": 0.4838709677419355,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5676,7 +5204,6 @@
       "nll": 3.44,
       "tanimoto": 0.6219512195121951,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5688,7 +5215,6 @@
       "nll": 4.22,
       "tanimoto": 0.5319148936170213,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     },
@@ -5700,7 +5226,6 @@
       "nll": 6.68,
       "tanimoto": 0.5543478260869565,
       "model": "mol2mol_medium_similarity",
-      "origin_P_harm": 0.385434,
       "origin_compound": "HIV_active_28",
       "origin_source": "T4.1"
     }

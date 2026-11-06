@@ -79,16 +79,13 @@
       ],
       "r_L4": 0.7,
       "r_L5": 0.6667,
-      "r_L6a": 0.6,
-      "p_harm": 0.3466
+      "r_L6a": 0.6
     }
   ],
   "extra_evaluated_smiles": [],
   "evaluation_summary": {
     "n_total_smiles_evaluated": 1,
     "n_valid_smiles": 1,
-    "avg_p_harm": 0.3466,
-    "max_p_harm": 0.3466,
     "avg_tanimoto_to_original": 0.4928,
     "avg_n_structural_alerts": 2.0,
     "n_with_toxic_scaffold": 1,

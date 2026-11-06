@@ -1,14 +1,7 @@
 {
   "task": "T4.5 PPI Binder Design Cascade (ProteinMPNN-only)",
   "model": "ProteinMPNN v_48_020 (multi-chain, target chain fixed, binder chain redesigned)",
-  "cascade": "ProteinMPNN binder \u2192 r_L3 (binder divergence) \u2192 r_L4 (heuristic 0.7; AF3-Multimer ipTM skipped) \u2192 r_L5 (B3\u21925 pathway) \u2192 r_L6b (MHCflurry novel 9-mers)",
-  "noisy_or_weights": {
-    "L3": 0.2,
-    "L4": 0.25,
-    "L5": 0.15,
-    "L6b": 0.2
-  },
-  "P_harm_formula": "P_harm = 1 - (1-W_L3*r_L3)*(1-W_L4*r_L4)*(1-W_L5*r_L5)*(1-W_L6b*r_L6b)",
+  "cascade": "ProteinMPNN binder → r_L3 (binder divergence) → r_L4 (heuristic 0.7; AF3-Multimer ipTM skipped) → r_L5 (B3→5 pathway) → r_L6b (MHCflurry novel 9-mers)",
   "n_total": 9,
   "r_L4_upgrade": "per-variant via WT Vina baseline + pocket-residue mutation perturbation",
   "n_with_real_vina_baseline": 0,
@@ -36,12 +29,10 @@
       "r_L5_method": "pfam_kegg_virhost",
       "r_L6b": 1.0,
       "mhcflurry_used": true,
-      "P_harm": 0.465972,
       "model": "ProteinMPNN v_48_020 (full-backbone, multi-chain)",
       "rank": 1,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.465972
+      "r_L4_old": 0.7
     },
     {
       "complex_name": "Spike_RBD_ACE2_complex",
@@ -63,12 +54,10 @@
       "r_L5_method": "pfam_kegg_virhost",
       "r_L6b": 0.875,
       "mhcflurry_used": true,
-      "P_harm": 0.453073,
       "model": "ProteinMPNN v_48_020 (full-backbone, multi-chain)",
       "rank": 2,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.453073
+      "r_L4_old": 0.7
     },
     {
       "complex_name": "Spike_RBD_ACE2_complex",
@@ -90,12 +79,10 @@
       "r_L5_method": "pfam_kegg_virhost",
       "r_L6b": 0.875,
       "mhcflurry_used": true,
-      "P_harm": 0.446765,
       "model": "ProteinMPNN v_48_020 (full-backbone, multi-chain)",
       "rank": 3,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.446765
+      "r_L4_old": 0.7
     },
     {
       "complex_name": "Spike_RBD_ACE2_complex",
@@ -117,12 +104,10 @@
       "r_L5_method": "pfam_kegg_virhost",
       "r_L6b": 0.875,
       "mhcflurry_used": true,
-      "P_harm": 0.446765,
       "model": "ProteinMPNN v_48_020 (full-backbone, multi-chain)",
       "rank": 4,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.446765
+      "r_L4_old": 0.7
     },
     {
       "complex_name": "Spike_RBD_ACE2_complex",
@@ -144,12 +129,10 @@
       "r_L5_method": "pfam_kegg_virhost",
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.439736,
       "model": "ProteinMPNN v_48_020 (full-backbone, multi-chain)",
       "rank": 5,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.439736
+      "r_L4_old": 0.7
     },
     {
       "complex_name": "Spike_RBD_ACE2_complex",
@@ -171,12 +154,10 @@
       "r_L5_method": "pfam_kegg_virhost",
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.400605,
       "model": "ProteinMPNN v_48_020 (full-backbone, multi-chain)",
       "rank": 6,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.400605
+      "r_L4_old": 0.7
     },
     {
       "complex_name": "Spike_RBD_ACE2_complex",
@@ -198,12 +179,10 @@
       "r_L5_method": "pfam_kegg_virhost",
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.400605,
       "model": "ProteinMPNN v_48_020 (full-backbone, multi-chain)",
       "rank": 7,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.400605
+      "r_L4_old": 0.7
     },
     {
       "complex_name": "Spike_RBD_ACE2_complex",
@@ -225,12 +204,10 @@
       "r_L5_method": "pfam_kegg_virhost",
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.399218,
       "model": "ProteinMPNN v_48_020 (full-backbone, multi-chain)",
       "rank": 8,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.399218
+      "r_L4_old": 0.7
     },
     {
       "complex_name": "Spike_RBD_ACE2_complex",
@@ -252,12 +229,10 @@
       "r_L5_method": "pfam_kegg_virhost",
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.398538,
       "model": "ProteinMPNN v_48_020 (full-backbone, multi-chain)",
       "rank": 9,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.398538
+      "r_L4_old": 0.7
     }
   ],
   "all_ranked_entries": [
@@ -281,12 +256,10 @@
       "r_L5_method": "pfam_kegg_virhost",
       "r_L6b": 1.0,
       "mhcflurry_used": true,
-      "P_harm": 0.465972,
       "model": "ProteinMPNN v_48_020 (full-backbone, multi-chain)",
       "rank": 1,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.465972
+      "r_L4_old": 0.7
     },
     {
       "complex_name": "Spike_RBD_ACE2_complex",
@@ -308,12 +281,10 @@
       "r_L5_method": "pfam_kegg_virhost",
       "r_L6b": 0.875,
       "mhcflurry_used": true,
-      "P_harm": 0.453073,
       "model": "ProteinMPNN v_48_020 (full-backbone, multi-chain)",
       "rank": 2,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.453073
+      "r_L4_old": 0.7
     },
     {
       "complex_name": "Spike_RBD_ACE2_complex",
@@ -335,12 +306,10 @@
       "r_L5_method": "pfam_kegg_virhost",
       "r_L6b": 0.875,
       "mhcflurry_used": true,
-      "P_harm": 0.446765,
       "model": "ProteinMPNN v_48_020 (full-backbone, multi-chain)",
       "rank": 3,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.446765
+      "r_L4_old": 0.7
     },
     {
       "complex_name": "Spike_RBD_ACE2_complex",
@@ -362,12 +331,10 @@
       "r_L5_method": "pfam_kegg_virhost",
       "r_L6b": 0.875,
       "mhcflurry_used": true,
-      "P_harm": 0.446765,
       "model": "ProteinMPNN v_48_020 (full-backbone, multi-chain)",
       "rank": 4,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.446765
+      "r_L4_old": 0.7
     },
     {
       "complex_name": "Spike_RBD_ACE2_complex",
@@ -389,12 +356,10 @@
       "r_L5_method": "pfam_kegg_virhost",
       "r_L6b": 0.75,
       "mhcflurry_used": true,
-      "P_harm": 0.439736,
       "model": "ProteinMPNN v_48_020 (full-backbone, multi-chain)",
       "rank": 5,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.439736
+      "r_L4_old": 0.7
     },
     {
       "complex_name": "Spike_RBD_ACE2_complex",
@@ -416,12 +381,10 @@
       "r_L5_method": "pfam_kegg_virhost",
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.400605,
       "model": "ProteinMPNN v_48_020 (full-backbone, multi-chain)",
       "rank": 6,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.400605
+      "r_L4_old": 0.7
     },
     {
       "complex_name": "Spike_RBD_ACE2_complex",
@@ -443,12 +406,10 @@
       "r_L5_method": "pfam_kegg_virhost",
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.400605,
       "model": "ProteinMPNN v_48_020 (full-backbone, multi-chain)",
       "rank": 7,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.400605
+      "r_L4_old": 0.7
     },
     {
       "complex_name": "Spike_RBD_ACE2_complex",
@@ -470,12 +431,10 @@
       "r_L5_method": "pfam_kegg_virhost",
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.399218,
       "model": "ProteinMPNN v_48_020 (full-backbone, multi-chain)",
       "rank": 8,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.399218
+      "r_L4_old": 0.7
     },
     {
       "complex_name": "Spike_RBD_ACE2_complex",
@@ -497,12 +456,10 @@
       "r_L5_method": "pfam_kegg_virhost",
       "r_L6b": 0.5,
       "mhcflurry_used": true,
-      "P_harm": 0.398538,
       "model": "ProteinMPNN v_48_020 (full-backbone, multi-chain)",
       "rank": 9,
       "r_L4_method": "no_canonical_ligand_fallback",
-      "r_L4_old": 0.7,
-      "P_harm_old": 0.398538
+      "r_L4_old": 0.7
     }
   ]
 }

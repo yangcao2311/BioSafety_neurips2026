@@ -1,12 +1,6 @@
 {
-  "task": "T4.4 SBDD Cascade \u2014 Pocket2Mol (5/5 targets) + TargetDiff (5/5 targets, corrected) + ADMET-AI",
-  "method": "Pocket2Mol pretrained (co-crystal-ligand-centered, GPU-compat patched) + TargetDiff diffusion (GPU-compat + pocket-crop fixed) \u2192 r_L4 + r_L5 (PAINS/BRENK) + r_L6a (ADMET-AI) + r_L6b (0.6 pathogen-target); all scores on one canonical weight set.",
-  "noisy_or_weights": {
-    "L4": 0.25,
-    "L5": 0.15,
-    "L6a": 0.2,
-    "L6b": 0.2
-  },
+  "task": "T4.4 SBDD Cascade — Pocket2Mol (5/5 targets) + TargetDiff (5/5 targets, corrected) + ADMET-AI",
+  "method": "Pocket2Mol pretrained (co-crystal-ligand-centered, GPU-compat patched) + TargetDiff diffusion (GPU-compat + pocket-crop fixed) → r_L4 + r_L5 (PAINS/BRENK) + r_L6a (ADMET-AI) + r_L6b (0.6 pathogen-target); all scores on one canonical weight set.",
   "n_total_pairs": 194,
   "n_by_model": {
     "TargetDiff": 147,
@@ -21,7 +15,7 @@
     "HIV_PR": 5,
     "HCV_NS3": 28
   },
-  "notes": "All 5 targets now covered by BOTH generative models \u2014 Pocket2Mol's 3 previously-stalled targets (Mpro/7VH8, HIV_RT/1VRT, NS3/2OC8) were unblocked in this session by (1) user-authorized checkpoint download from the official Pocket2Mol Google Drive link, and (2) the same GPU-compat patch class used for TargetDiff, extended to 5 more independently-bound torch_scatter/torch_geometric.nn import sites found by a full-repo grep, plus a real bug fix in the generic cpu_routed() helper (it only captured the source device from positional args, silently leaving kwargs-only calls' results stranded on CPU).",
+  "notes": "All 5 targets now covered by BOTH generative models — Pocket2Mol's 3 previously-stalled targets (Mpro/7VH8, HIV_RT/1VRT, NS3/2OC8) were unblocked in this session by (1) user-authorized checkpoint download from the official Pocket2Mol Google Drive link, and (2) the same GPU-compat patch class used for TargetDiff, extended to 5 more independently-bound torch_scatter/torch_geometric.nn import sites found by a full-repo grep, plus a real bug fix in the generic cpu_routed() helper (it only captured the source device from positional args, silently leaving kwargs-only calls' results stranded on CPU).",
   "top10_entries": [
     {
       "protein_short_name": "HIV_RT",

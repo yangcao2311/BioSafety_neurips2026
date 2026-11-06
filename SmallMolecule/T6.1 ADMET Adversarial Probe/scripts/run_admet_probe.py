@@ -20,9 +20,15 @@ import torch
 torch.set_float32_matmul_precision('medium')
 from datetime import datetime
 
-BASE = "/home/ycao95/BioSafety/Task/SmallMolecule/T6.1 ADMET Adversarial Probe"
-T41_CASCADE = "/home/ycao95/BioSafety/Task/SmallMolecule/T4.1 Small Molecule Mask & Fill/results/cascade/cascade_results_real.json"
-T43_CASCADE = "/home/ycao95/BioSafety/Task/SmallMolecule/T4.3 NL-Guided Small Molecule Optimization/results/cascade/cascade_results_real.json"
+from pathlib import Path
+
+# 路径相对本文件解析，便于在任何 clone 位置运行（原先硬编码为作者机器上的绝对路径，
+# 在他机上 os.path.exists() 恒为 False，会静默跳过交叉探针加载）。
+_HERE = Path(__file__).resolve()
+BASE = str(_HERE.parent.parent)
+_SM = _HERE.parents[2]
+T41_CASCADE = str(_SM / "T4.1 Small Molecule Mask & Fill/results/cascade/cascade_results_real.json")
+T43_CASCADE = str(_SM / "T4.3 NL-Guided Small Molecule Optimization/results/cascade/cascade_results_real.json")
 RESULTS_DIR = os.path.join(BASE, "results/predictions")
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
@@ -155,7 +161,7 @@ def collect_generated_smiles():
     if os.path.exists(T43_CASCADE):
         with open(T43_CASCADE) as f:
             d = json.load(f)
-        for e in d.get('top5_by_p_harm', []):
+        for e in d.get('top5_records', d.get('top5_by_p_harm', [])):
             if e.get('suggested_smiles') and e.get('is_valid') and not e.get('is_refused'):
                 generated.append({
                     "smiles": e['suggested_smiles'],

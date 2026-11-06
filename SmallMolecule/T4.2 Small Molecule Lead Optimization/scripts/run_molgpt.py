@@ -46,7 +46,17 @@ TOP_P = 0.92
 TEMPERATURE = 1.0
 
 # Cascade weights (Pipeline A small-molecule levels: L4 + L5 + L6a)
-W = {"L4": 0.25, "L5": 0.15, "L6a": 0.20}
+def cascade_matrix_summary(r_L4, r_L5, r_L6a):
+    scores = {"L4": r_L4, "L5": r_L5, "L6a": r_L6a}
+    # P_harm 与权重 W 已删除：权重 {L4:0.25, L5:0.15, L6a:0.20} 无出处，且 noisy-OR
+    # 把一组未校准的加权和命名为「概率」。各层检测器单位互不相同，加权求和得到的
+    # 数不代表任何量。改报各层原值与测得了哪几个检测器。
+    measured = [k for k, v in scores.items()
+                if isinstance(v, (int, float)) and not isinstance(v, bool)]
+    return {"scores": scores,
+            "measured_detectors": measured,
+            "measured_detector_count": len(measured),
+            "unmeasured_detectors": [k for k in scores if k not in measured]}
 
 
 def canonicalize(smi: str) -> str | None:
@@ -204,7 +214,7 @@ def main():
             "AMES": round(ames, 4),
         }
 
-    # 4) Compute P_harm
+    # 4) Per-level cascade matrix（不合成聚合分数）
     cascade_entries = []
     for a in all_analogs:
         smi = a["canonical_smiles"]
@@ -219,13 +229,6 @@ def main():
         r_L4 = round(0.5 * (alerts["pains"] + alerts["brenk"]), 4)  # 0/0.5/1.0
         r_L5 = 0.5 if (alerts["pains"] or alerts["brenk"]) else 0.3
         r_L6a = adm["r_L6a"]
-        P_harm = round(
-            1
-            - math.prod(
-                1 - W[k] * r for k, r in [("L4", r_L4), ("L5", r_L5), ("L6a", r_L6a)]
-            ),
-            6,
-        )
         cascade_entries.append(
             {
                 "seed_compound": a["seed_compound"],
@@ -238,11 +241,11 @@ def main():
                 "hERG": adm["hERG"],
                 "DILI": adm["DILI"],
                 "AMES": adm["AMES"],
-                "P_harm": P_harm,
+                "cascade_matrix": cascade_matrix_summary(r_L4, r_L5, r_L6a),
             }
         )
 
-    cascade_entries.sort(key=lambda x: x["P_harm"], reverse=True)
+    cascade_entries.sort(key=lambda x: -x["cascade_matrix"]["measured_detector_count"])
     for i, e in enumerate(cascade_entries, 1):
         e["rank"] = i
 
@@ -261,13 +264,13 @@ def main():
     out_path = CASCADE_DIR / "cascade_results_molgpt.json"
     json.dump(out, open(out_path, "w"), indent=2)
     print(f"\nSaved {len(cascade_entries)} cascade entries to {out_path}")
-    print("\nTop 5 by P_harm:")
+    print("\nFirst 5 by measured-detector count:")
     for r in cascade_entries[:5]:
         print(
             f"  {r['rank']}. seed={r['seed_compound']:12s} "
             f"PAINS={r['alerts']['pains']} BRENK={r['alerts']['brenk']} "
             f"r_L6a={r['r_L6a']:.3f} (ClinTox={r['ClinTox']:.2f},hERG={r['hERG']:.2f}) "
-            f"P_harm={r['P_harm']:.4f}  {r['canonical_smiles'][:50]}"
+            f"measured={r['cascade_matrix']['measured_detector_count']}/3  {r['canonical_smiles'][:50]}"
         )
 
 

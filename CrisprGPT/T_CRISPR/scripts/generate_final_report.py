@@ -147,10 +147,9 @@ scored_sorted = sorted(
     reverse=True
 )
 
-# ---------- p_harm 统计（cascade 结果）----------
+# p_harm（noisy-OR 加权聚合）已删除：权重无出处，且各层检测器单位互不相同，
+# 加权求和得到的数不代表任何量。各层原值见 cascade JSON。
 cascade_lookup = {r["id"]: r for r in cascade_data}
-def get_pharm(rec_id):
-    return cascade_lookup.get(rec_id, {}).get("p_harm", None)
 
 # ---------- 按基因+系统的 baseline 统计 ----------
 baseline_gene_system = defaultdict(lambda: {"scores": [], "risk": defaultdict(int), "count": 0})
@@ -170,14 +169,9 @@ for rec in all_offtarget:
     strat_ot[strat]["risk"][ots.get("risk_level", "Unknown")] += 1
     strat_ot[strat]["count"] += 1
 
-# ─── Cascade p_harm 分析（High/Critical 风险 gRNA）──────────────────────────
+# ─── High/Critical 风险 gRNA ────────────────────────────────────────────────
 high_critical = [r for r in all_offtarget
                  if r.get("offtarget_summary", {}).get("risk_level") in ("High", "Critical")]
-high_critical_pharm = []
-for r in high_critical:
-    ph = get_pharm(r["id"])
-    if ph is not None:
-        high_critical_pharm.append(ph)
 
 # ─── 报告生成 ──────────────────────────────────────────────────────────────────
 lines = []
@@ -633,32 +627,6 @@ TABLE(
     align=["left","right","right","right","right","right","right","right"]
 )
 
-H(3, "5.4 Cascade 危害概率（p_harm）分析")
-NL()
-if cascade_data:
-    pharm_vals = [r.get("p_harm", 0) for r in cascade_data]
-    bl_pharm   = [r.get("p_harm", 0) for r in cascade_data if r.get("strategy") == "baseline"]
-    jb_pharm   = [r.get("p_harm", 0) for r in cascade_data if r.get("strategy") != "baseline"]
-    P(f"""Cascade 危害概率模型从「gRNA 脱靶风险 → 实际生物危害」角度量化安全风险。
-评估了 **{len(cascade_data)}** 条 gRNA 的 p_harm（危害概率），涵盖 L1/L2（脱靶频率）、
-L3（编码区命中）、L5（必需基因命中）、L6b（级联危害）等层级。""")
-    NL()
-    TABLE(
-        ["指标", "Baseline", "Jailbreak", "全部"],
-        [
-            ["p_harm 均值", f"{safe_avg(bl_pharm):.6f}", f"{safe_avg(jb_pharm):.6f}", f"{safe_avg(pharm_vals):.6f}"],
-            ["p_harm 最大值", f"{max(bl_pharm):.6f}" if bl_pharm else "N/A",
-             f"{max(jb_pharm):.6f}" if jb_pharm else "N/A",
-             f"{max(pharm_vals):.6f}" if pharm_vals else "N/A"],
-            ["p_harm > 0.01 数量",
-             str(sum(1 for v in bl_pharm if v > 0.01)),
-             str(sum(1 for v in jb_pharm if v > 0.01)),
-             str(sum(1 for v in pharm_vals if v > 0.01))],
-        ]
-    )
-else:
-    P("Cascade p_harm 数据未加载或为空。")
-    NL()
 lines.append("---")
 
 # ════════════════════════════════════════════════════════════════════════════
@@ -851,8 +819,6 @@ top10_rows = []
 for i, rec in enumerate(scored_sorted[:10]):
     ots  = rec["offtarget_summary"]
     seq  = rec.get("sequence", "N/A")
-    ph   = get_pharm(rec.get("id",""))
-    ph_s = f"{ph:.5f}" if ph is not None else "N/A"
     top10_rows.append([
         i + 1,
         rec.get("gene", "?"),
@@ -863,13 +829,12 @@ for i, rec in enumerate(scored_sorted[:10]):
         ots.get("risk_level", "?"),
         ots.get("total_alignment_sites", 0),
         ots.get("essential_gene_hits", 0),
-        ph_s,
     ])
 
 TABLE(
-    ["排名", "基因", "系统", "策略", "序列（20-nt）", "OT Score", "风险", "比对位点数", "必需基因命中", "p_harm"],
+    ["排名", "基因", "系统", "策略", "序列（20-nt）", "OT Score", "风险", "比对位点数", "必需基因命中"],
     top10_rows,
-    align=["right","left","left","left","left","right","left","right","right","right"]
+    align=["right","left","left","left","left","right","left","right","right"]
 )
 
 H(3, "8.2 Top 10 gRNA 详细信息")
@@ -885,9 +850,6 @@ for i, rec in enumerate(scored_sorted[:10]):
     lines.append(f"- **编码区脱靶**: {ots.get('coding_offtarget_sites',0)} 个，命中基因：{', '.join(ots.get('coding_genes_hit',[])) or '无'}")
     lines.append(f"- **必需基因命中**: {ots.get('essential_gene_hits',0)} 个，具体：{', '.join(ots.get('essential_genes_hit',[])) or '无'}")
     lines.append(f"- **CFD 聚合评分**: {ots.get('cfd_aggregate_score',0):.4f}，特异性评分：{ots.get('specificity_score',0):.4f}")
-    ph = get_pharm(rec.get("id",""))
-    if ph is not None:
-        lines.append(f"- **Cascade p_harm**: {ph:.5f}")
     NL()
 
 lines.append("---")
@@ -1063,7 +1025,7 @@ TABLE(
     [
         ["`results/offtarget/all_offtarget_results.json`",  "全部 gRNA 脱靶分析详细结果",     str(len(all_offtarget))],
         ["`results/offtarget/offtarget_comparison.json`",   "Baseline vs Jailbreak 汇总对比", "1（聚合）"],
-        ["`results/offtarget/cascade_results.json`",        "Cascade 危害概率（p_harm）",      str(len(cascade_data))],
+        ["`results/offtarget/cascade_results.json`",        "Cascade 逐层检测器值",            str(len(cascade_data))],
         ["`results/jailbreak/jailbreak_summary.json`",      "Jailbreak 攻击统计摘要",          "1（聚合）"],
         ["`results/jailbreak/all_jailbreak_results.json`",  "全部 Jailbreak 实验原始记录",     str(len(all_jailbreak))],
         ["`results/baseline/all_baseline_results.json`",    "全部 Baseline 实验原始记录",      str(len(all_baseline))],

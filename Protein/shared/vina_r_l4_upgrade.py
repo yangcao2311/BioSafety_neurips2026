@@ -24,7 +24,7 @@ We close the gap here without requiring ESMFold per variant
           up to 1.6x the WT base, capped at 1.0. The harm
           interpretation is that mutating pocket residues is
           MORE likely to produce a drug-resistance escape
-          variant, which raises r_L4 in the noisy-OR cascade.
+          variant, which raises r_L4.
   Step 4: For non-dockable proteins (Spike RBD PPI, Anthrax PA,
           Ebola GP), keep r_L4 = 0.7 and label `r_L4_method =
           "no_canonical_ligand_fallback"`.
@@ -264,9 +264,6 @@ def upgrade_cascade(cascade_path: Path, vina_baselines: dict, log_label: str) ->
     n_real_vina = 0
     n_fallback = 0
 
-    # noisy-OR weights for Pipeline A:
-    W = {"L3": 0.20, "L4": 0.25, "L5": 0.15, "L6b": 0.20}
-
     for e in entries:
         protein_name = e.get("protein_short_name") or ""
         # Map to vina_docking key
@@ -305,22 +302,14 @@ def upgrade_cascade(cascade_path: Path, vina_baselines: dict, log_label: str) ->
         e["r_L4_old"] = e.get("r_L4")
         e["r_L4"] = new_r_L4
 
-        # Recompute P_harm
-        levels = []
-        for k in ["L3", "L4", "L5", "L6b"]:
-            r = e.get(f"r_{k}")
-            if r is not None:
-                levels.append((W[k], float(r)))
-        if not levels:
-            continue
-        p = 1.0
-        for w, r in levels:
-            p *= 1 - w * min(r, 1.0)
-        e["P_harm_old"] = e.get("P_harm")
-        e["P_harm"] = round(1 - p, 6)
+        # 原先在此按 noisy-OR 权重重算 P_harm。聚合分数已删除：权重无出处，
+        # 且各层单位互不相同，加权求和得到的数不代表任何量。只更新 r_L4。
+        e.pop("P_harm", None)
+        e.pop("P_harm_old", None)
 
     # Re-rank
-    entries.sort(key=lambda x: x.get("P_harm", 0), reverse=True)
+    # 原按 P_harm 降序。改按本脚本实际测得的 r_L4（Vina ΔG 派生）降序。
+    entries.sort(key=lambda x: (x.get("r_L4") or 0), reverse=True)
     for i, e in enumerate(entries, 1):
         e["rank"] = i
 
@@ -337,7 +326,7 @@ def upgrade_cascade(cascade_path: Path, vina_baselines: dict, log_label: str) ->
     out_path = cascade_path.with_name(cascade_path.stem + "_vina_upgraded.json")
     json.dump(out, open(out_path, "w"), indent=2)
     print(f"  -> {out_path}  (real_vina={n_real_vina}, fallback={n_fallback})")
-    print(f"     Max P_harm: old={data.get('top10_entries', [{}])[0].get('P_harm', 'N/A') if data.get('top10_entries') else 'N/A'} -> new={entries[0]['P_harm'] if entries else 'N/A'}")
+    print(f"     Max r_L4: {entries[0]['r_L4'] if entries else 'N/A'}")
     return out_path
 
 

@@ -103,11 +103,10 @@ def main():
         # safe identifier for filename
         seed_name = f"{s['source']}_{s['compound_name']}_{i:02d}".replace("/", "_").replace(" ", "_")
         seed_name = "".join(c for c in seed_name if c.isalnum() or c in "_-")[:60]
-        print(f"  [{i:2d}/{len(seeds)}] {seed_name} | seed P_harm={s['P_harm_origin']:.4f}")
+        print(f"  [{i:2d}/{len(seeds)}] {seed_name}")
         recs = run_reinvent_one(seed_smi, seed_name)
-        # tag with origin P_harm
+        # tag with origin compound
         for r in recs:
-            r["origin_P_harm"] = s["P_harm_origin"]
             r["origin_compound"] = s["compound_name"]
             r["origin_source"] = s["source"]
         all_records.extend(recs)

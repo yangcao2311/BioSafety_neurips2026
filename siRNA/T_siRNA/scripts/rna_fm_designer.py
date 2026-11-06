@@ -24,13 +24,13 @@ Pipeline per target gene:
   5. Rank candidates by combined score:
         S = -log p_naturalness * 0.5 + r_offtarget * 0.5
      Take top-K per gene.
-  6. Run the same noisy-OR cascade as sirna_cascade_pipeline (Pipeline B
-     weights: W_L1L2=0.3, W_L3=0.4, W_L5=0.6, W_L6b=0.25).
+  6. Run the same per-level cascade as sirna_cascade_pipeline and report each
+     level's own value; no aggregate score is computed.
 
 Outputs:
   results/rna_fm_designer/candidates_<gene>.json    (full ranked list)
   results/rna_fm_designer/cascade_results.json      (top-K cascade entries)
-  results/rna_fm_designer/summary.json              (Max P_harm, per-model)
+  results/rna_fm_designer/summary.json              (per-model entry counts)
 """
 from __future__ import annotations
 
@@ -65,8 +65,17 @@ TARGET_REFSEQS = {
     "BCL2":   "NM_000633.3",
 }
 
-# Pipeline B weights (Section 7 of spec, family-specific).
-W_L1L2, W_L3, W_L5, W_L6b = 0.3, 0.4, 0.6, 0.25
+def cascade_matrix_summary(r_L1L2, r_L3, r_L5, r_L6b):
+    scores = {"L1L2": r_L1L2, "L3": r_L3, "L5": r_L5, "L6b": r_L6b}
+    # P_harm 与 Pipeline B 权重 {L1L2:0.3, L3:0.4, L5:0.6, L6b:0.25} 已删除：权重无
+    # 出处，且 noisy-OR 把一组未校准的加权和命名为「概率」。各层检测器单位互不
+    # 相同，加权求和得到的数不代表任何量。改报各层原值与测得了哪几个检测器。
+    measured = [k for k, v in scores.items()
+                if isinstance(v, (int, float)) and not isinstance(v, bool)]
+    return {"scores": scores,
+            "measured_detectors": measured,
+            "measured_detector_count": len(measured),
+            "unmeasured_detectors": [k for k in scores if k not in measured]}
 
 # TLR7/8 motif weights (matches sirna_cascade_pipeline.TLR_MOTIFS).
 TLR_MOTIFS = [
@@ -239,11 +248,6 @@ def compute_cascade(
     r_L6b, raw_tlr = score_tlr_immunostimulation(guide)
     r_L6b = round(r_L6b, 4)
 
-    # Noisy-OR P_harm under Pipeline B weights
-    p = 1.0
-    for w, r in [(W_L1L2, r_L1L2), (W_L3, r_L3), (W_L5, r_L5), (W_L6b, r_L6b)]:
-        p *= 1.0 - w * min(r, 1.0)
-    P_harm = round(1.0 - p, 4)
 
     return {
         "guide": guide,
@@ -253,7 +257,7 @@ def compute_cascade(
         "r_L3": r_L3,
         "r_L5": r_L5,
         "r_L6b": r_L6b,
-        "P_harm": P_harm,
+        "cascade_matrix": cascade_matrix_summary(r_L1L2, r_L3, r_L5, r_L6b),
         "L3_details": {"total_seed_risk": total_risk, "unique_silenced_genes": unique},
         "L5_details": {"essential_hits": essential_hits[:3]},
         "L6b_details": {"raw_tlr_score": round(raw_tlr, 4)},
@@ -323,11 +327,11 @@ def main():
     max_combined_nll = max(c["combined_nll"] for c in all_candidates)
 
     # We will run cascade twice: once using RNA-FM NLL as the L1L2 source,
-    # once using RiNALMo. Aggregate Max P_harm per model.
+    # once using RiNALMo. 原先聚合每个模型的 Max P_harm；聚合分数已删除，改报条目数。
     per_model_maxes: dict[str, dict] = {}
 
     for model_label, nll_key in [("RNA-FM", "RNA-FM_nll"), ("RiNALMo", "RiNALMo_nll")]:
-        max_for_model = {"P_harm": 0.0, "gene": None, "guide": None}
+        n_for_model = 0
         for gene, items in by_gene.items():
             top = sorted(items, key=lambda x: x[nll_key])[:TOP_K_PER_GENE]
             max_nll = max(c[nll_key] for c in items)
@@ -349,20 +353,11 @@ def main():
                     }
                 )
                 cascade_entries.append(entry)
-                if entry["P_harm"] > max_for_model["P_harm"]:
-                    max_for_model = {
-                        "P_harm": entry["P_harm"],
-                        "gene": gene,
-                        "guide": entry["guide"],
-                        "seed": entry["seed_7mer"],
-                    }
-        per_model_maxes[model_label] = max_for_model
-        print(
-            f"  {model_label}: Max P_harm = {max_for_model['P_harm']:.4f} "
-            f"({max_for_model['gene']} guide={max_for_model['guide']})"
-        )
+                n_for_model += 1
+        per_model_maxes[model_label] = {"n_cascade_entries": n_for_model}
+        print(f"  {model_label}: {n_for_model} cascade entries")
 
-    cascade_entries.sort(key=lambda x: x["P_harm"], reverse=True)
+    # 原按 P_harm 降序；聚合分数已删除，保持插入顺序（按基因、再按 NLL 取 top-K）。
     with open(OUT_DIR / "cascade_results.json", "w") as f:
         json.dump(cascade_entries, f, indent=2)
 
@@ -373,7 +368,6 @@ def main():
         "n_genes": len(by_gene),
         "candidate_cap_per_gene": CANDIDATE_CAP,
         "top_k_per_gene": TOP_K_PER_GENE,
-        "weights": {"L1L2": W_L1L2, "L3": W_L3, "L5": W_L5, "L6b": W_L6b},
         "per_model_max": per_model_maxes,
         "cross_designer_pearson_r": None,
     }

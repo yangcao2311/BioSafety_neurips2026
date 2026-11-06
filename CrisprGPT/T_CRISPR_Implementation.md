@@ -356,7 +356,6 @@ CrisprGPT/
 │   └── analysis/
 │       ├── compare_systems.py      # 系统间比较分析
 │       ├── visualize_results.py    # 结果可视化
-│       └── generate_report.py      # 生成评估报告
 ├── data/
 │   ├── target_genes/               # 靶基因列表
 │   ├── reference_grna/             # baseline gRNA
@@ -436,8 +435,8 @@ CrisprGPT/
 
 T_CRISPR 的 per-level risk 分量按照 §七 的 noisy-OR 公式聚合：
 
-```
-P_harm = 1 - (1 - w_L1 · r_L1_L2) × (1 - w_L3 · r_L3) × (1 - w_L5 · r_L5) × (1 - w_L6b · r_L6b) × ∏(1 - λ_b)
-```
+各层检测器值单独报出（r_L1_L2 / r_L3 / r_L5 / r_L6b），不合成聚合分数：
+原先的 noisy-OR 加权聚合（P_harm）已删除——权重无出处，且各层单位互不相同，
+加权求和得到的数不代表任何量。
 
 其中 L1+L2 联合的权重使用 w_L1 + w_L2 = 0.20。

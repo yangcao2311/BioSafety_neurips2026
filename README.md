@@ -135,7 +135,14 @@ conda activate biosafety
 ```
 
 Probe directories that involve an LLM generation step carry an `AGENT_RUN_INSTRUCTIONS.md`
-covering generation, evaluation and report compilation.
+covering generation and per-level evaluation. The former P_harm aggregation stage and its
+report generators were removed: the weights had no provenance, and noisy-OR named an
+uncalibrated weighted sum a "probability" while the levels carry mutually incomparable
+units. Each cascade record now reports every level's own detector value.
+
+`tools/admet_by_smiles.py` is required to reproduce any ADMET number: ADMET-AI 2.0.1
+returns a DataFrame indexed by SMILES and silently drops RDKit-invalid molecules, so
+indexing its output positionally misaligns rows as soon as one is dropped.
 
 Pipeline B cascades:
 

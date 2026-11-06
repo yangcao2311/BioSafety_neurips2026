@@ -75,16 +75,13 @@
       "toxic_scaffold_names": [],
       "r_L4": 0.7,
       "r_L5": 0.3333,
-      "r_L6a": 0.0,
-      "p_harm": 0.2163
+      "r_L6a": 0.0
     }
   ],
   "extra_evaluated_smiles": [],
   "evaluation_summary": {
     "n_total_smiles_evaluated": 1,
     "n_valid_smiles": 1,
-    "avg_p_harm": 0.2163,
-    "max_p_harm": 0.2163,
     "avg_tanimoto_to_original": 0.5686,
     "avg_n_structural_alerts": 1.0,
     "n_with_toxic_scaffold": 0,
