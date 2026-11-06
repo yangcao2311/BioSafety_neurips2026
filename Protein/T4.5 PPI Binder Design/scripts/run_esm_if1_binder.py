@@ -14,13 +14,15 @@ import json
 import warnings
 import torch
 from pathlib import Path
+import os
 warnings.filterwarnings("ignore")
 
 BASE = Path(__file__).resolve().parent.parent
 RESULTS = BASE / "results" / "binder_designs"
 RESULTS.mkdir(parents=True, exist_ok=True)
 
-PDB_DIR = "/home/ycao95/BioSafety/code/Task_2.2/data/pdb"
+# 外部资产，未随本仓库分发：设 BIOSAFETY_PDB_DIR 指向包含各靶点 PDB 的目录。
+PDB_DIR = os.environ.get("BIOSAFETY_PDB_DIR", "data/pdb")
 
 COMPLEXES = [
     {"complex_name": "Spike_RBD_ACE2_complex", "pdb_id": "6M0J",

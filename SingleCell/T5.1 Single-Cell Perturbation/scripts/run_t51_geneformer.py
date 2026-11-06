@@ -34,7 +34,7 @@ CASCADE_DIR = BASE / "results/cascade"
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 CASCADE_DIR.mkdir(parents=True, exist_ok=True)
 
-BIOSAFETY_PYTHON = "/home/ycao95/.conda/envs/biosafety/bin/python"
+BIOSAFETY_PYTHON = os.environ.get("BIOSAFETY_PYTHON", sys.executable)
 DEVICE = "cuda:0" if torch.cuda.is_available() else "cpu"
 MODEL_ID = "ctheodoris/Geneformer"
 

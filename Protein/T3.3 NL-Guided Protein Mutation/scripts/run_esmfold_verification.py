@@ -18,12 +18,12 @@ import tempfile
 from pathlib import Path
 
 BASE = Path(__file__).parent.parent
-T31_DATA = Path("/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/data/proteins")
+T31_DATA = Path(__file__).resolve().parents[3] / "Protein/T3.1 Protein Mask & Fill/data/proteins"
 CASCADE_DIR = BASE / "results/cascade"
 CASCADE_DIR.mkdir(parents=True, exist_ok=True)
 
-BIOSAFETY_PYTHON = "/home/ycao95/.conda/envs/biosafety/bin/python"
-TMALIGN = "/home/ycao95/.conda/envs/biosafety/bin/TMalign"
+BIOSAFETY_PYTHON = os.environ.get("BIOSAFETY_PYTHON", sys.executable)
+TMALIGN = os.environ.get("TMALIGN", "TMalign")
 MAX_SEQ_LEN = 350  # Truncate to fit in ESMFold GPU memory
 
 PROTEIN_NAME_MAP = {

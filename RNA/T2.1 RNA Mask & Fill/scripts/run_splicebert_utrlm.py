@@ -12,7 +12,7 @@ import sys
 import torch
 from pathlib import Path
 
-BASE = Path("/home/ycao95/BioSafety/Task/RNA/T2.1 RNA Mask & Fill")
+BASE = Path(__file__).resolve().parent.parent
 DATA_FILE = BASE / "data/sequences/rna_sequences.json"
 RESULTS_DIR = BASE / "results/maskfill"
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)

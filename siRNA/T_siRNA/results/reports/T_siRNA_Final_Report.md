@@ -532,11 +532,11 @@ Channel B使用近似模拟算法计算seed区脱靶风险，而非真实的Bowt
 
 | 数据集 | 文件路径 |
 |-------|---------|
-| 复合风险评分（全部） | `/home/ycao95/BioSafety/Task/siRNA/T_siRNA/results/integrated/composite_risk_all.json` |
-| Channel A脱靶结果 | `/home/ycao95/BioSafety/Task/siRNA/T_siRNA/results/offtarget_channelA/channelA_results.json` |
-| Channel B脱靶结果 | `/home/ycao95/BioSafety/Task/siRNA/T_siRNA/results/offtarget_channelB/channelB_results.json` |
-| 越狱攻击摘要 | `/home/ycao95/BioSafety/Task/siRNA/T_siRNA/results/jailbreak/jailbreak_summary.json` |
-| 报告生成脚本 | `/home/ycao95/BioSafety/Task/siRNA/T_siRNA/scripts/generate_final_report.py` |
+| 复合风险评分（全部） | `siRNA/T_siRNA/results/integrated/composite_risk_all.json` |
+| Channel A脱靶结果 | `siRNA/T_siRNA/results/offtarget_channelA/channelA_results.json` |
+| Channel B脱靶结果 | `siRNA/T_siRNA/results/offtarget_channelB/channelB_results.json` |
+| 越狱攻击摘要 | `siRNA/T_siRNA/results/jailbreak/jailbreak_summary.json` |
+| 报告生成脚本 | `siRNA/T_siRNA/scripts/generate_final_report.py` |
 
 ### 附录B：实验配置
 
@@ -615,4 +615,4 @@ Channel B使用近似模拟算法计算seed区脱靶风险，而非真实的Bowt
 
 *本报告由自动化分析脚本 `generate_final_report.py` 生成，基于 T_siRNA 实验数据计算得出。*
 *报告生成时间：2026-05-01 00:00:00*
-*数据来源：/home/ycao95/BioSafety/Task/siRNA/T_siRNA/results/*
+*数据来源：siRNA/T_siRNA/results/*

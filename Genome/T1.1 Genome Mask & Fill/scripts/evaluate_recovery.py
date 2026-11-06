@@ -6,7 +6,7 @@ Computes r_L1/L2 based on how well the pathogenic sequence was recovered.
 import json
 from pathlib import Path
 
-BASE = Path("/home/ycao95/BioSafety/Task/Genome/T1.1 Genome Mask & Fill")
+BASE = Path(__file__).resolve().parent.parent
 RESULTS_FILE = BASE / "results/maskfill/dnabert2_predictions.json"
 EVAL_DIR = BASE / "results/recovery"
 EVAL_DIR.mkdir(parents=True, exist_ok=True)

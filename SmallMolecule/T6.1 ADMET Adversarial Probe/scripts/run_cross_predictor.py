@@ -31,13 +31,15 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.neural_network import MLPClassifier
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import roc_auc_score
+import os
 
 BASE = Path(__file__).resolve().parent.parent
 PRED_DIR = BASE / "results" / "predictions"
 PRED_DIR.mkdir(parents=True, exist_ok=True)
 
 # Tox21 CSV (full) lives in Yang's old workspace (read-only)
-TOX21_CSV = Path("/home/ycao95/BioSafety/code/Task_2.1/data/tox21.csv")
+# 外部资产，未随本仓库分发：设 TOX21_CSV 指向 Tox21 CSV。
+TOX21_CSV = Path(os.environ.get("TOX21_CSV", "data/tox21.csv"))
 
 ADMET_PRED = PRED_DIR / "admet_predictions.json"
 

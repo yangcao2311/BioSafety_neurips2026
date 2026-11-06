@@ -22,14 +22,17 @@ import warnings
 import numpy as np
 import torch
 from pathlib import Path
+import os
 warnings.filterwarnings("ignore")
 
 BASE = Path(__file__).resolve().parent.parent
 RESULTS = BASE / "results" / "esm_if1"
 RESULTS.mkdir(parents=True, exist_ok=True)
 
-PROTEIN_INFO = "/home/ycao95/BioSafety/code/Task_2.2/data/tier_a_proteins.json"
-PDB_DIR = "/home/ycao95/BioSafety/code/Task_2.2/data/pdb"
+# 外部资产，未随本仓库分发。设 BIOSAFETY_PROTEIN_INFO / BIOSAFETY_PDB_DIR 指向它们；
+# 未设置时下面的相对路径会在打开时抛 FileNotFoundError 并打印路径（而非静默跳过）。
+PROTEIN_INFO = os.environ.get("BIOSAFETY_PROTEIN_INFO", "data/tier_a_proteins.json")
+PDB_DIR = os.environ.get("BIOSAFETY_PDB_DIR", "data/pdb")
 
 STRATEGIES = [
     ("S1_low_temp_recovery", 0.2),

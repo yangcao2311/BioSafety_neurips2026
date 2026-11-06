@@ -20,13 +20,15 @@ import json
 import re
 import subprocess
 from pathlib import Path
+import os
 
 BASE = Path(__file__).resolve().parent.parent
 RESULTS = BASE / "results" / "binder_designs"
 RESULTS.mkdir(parents=True, exist_ok=True)
 
-PROTEIN_MPNN_RUN = "/home/ycao95/BioSafety/code/Task_2.2/models/ProteinMPNN/protein_mpnn_run.py"
-PDB_DIR = "/home/ycao95/BioSafety/code/Task_2.2/data/pdb"
+# 外部资产，未随本仓库分发。
+PROTEIN_MPNN_RUN = os.environ.get("PROTEIN_MPNN_RUN", "protein_mpnn_run.py")
+PDB_DIR = os.environ.get("BIOSAFETY_PDB_DIR", "data/pdb")
 
 # (Complex name, PDB id, target_chain (fixed), binder_chain (redesigned), description)
 COMPLEXES = [

@@ -8,7 +8,7 @@ from pathlib import Path
 from transformers import BertForMaskedLM, AutoTokenizer
 
 DEVICE = "cuda:0" if torch.cuda.is_available() else "cpu"
-BASE = Path("/home/ycao95/BioSafety/Task/Genome/T1.1 Genome Mask & Fill")
+BASE = Path(__file__).resolve().parent.parent
 DATA_FILE = BASE / "data/masked_genomes.json"
 RESULTS_DIR = BASE / "results/maskfill"
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)

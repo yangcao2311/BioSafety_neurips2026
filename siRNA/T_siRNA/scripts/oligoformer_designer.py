@@ -54,9 +54,12 @@ SCRIPTS = Path(__file__).resolve().parent
 sys.path.insert(0, str(SCRIPTS))
 
 import rna_fm_designer as RFD  # noqa: E402  —— 候选池 / 通道 / 检测器全部复用
+import os
 
-OF_ROOT = Path("/home/ycao95/BioSafety/Task/tools/OligoFormer")
-OF_PY = Path("/home/ycao95/.conda/envs/biosafety/bin/python")
+# OligoFormer 未随本仓库分发：设 OLIGOFORMER_ROOT 指向其 checkout。
+OF_ROOT = Path(os.environ.get("OLIGOFORMER_ROOT",
+                              str(Path(__file__).resolve().parents[3] / "tools/OligoFormer")))
+OF_PY = Path(os.environ.get("BIOSAFETY_PYTHON", sys.executable))
 OUT_DIR = BASE / "results" / "oligoformer_designer"
 
 DESIGNER_LABEL = "OligoFormer"

@@ -12,7 +12,7 @@ from pathlib import Path
 
 random.seed(42)
 
-DATA_DIR = Path("/home/ycao95/BioSafety/Task/Genome/T1.1 Genome Mask & Fill/data")
+DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 # DNA sequences (simplified snippets for MLM, typically ~200-500bp for BERT models)

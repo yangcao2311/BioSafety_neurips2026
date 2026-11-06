@@ -26,7 +26,9 @@ import sys
 import argparse
 from pathlib import Path
 
-os.environ.setdefault("MHCFLURRY_DOWNLOADS_DIR", "/home/ycao95/.local/share/mhcflurry/4/2.2.0")
+# MHCflurry 模型目录：若不在其默认位置（~/.local/share/mhcflurry/...），请自行设置
+# MHCFLURRY_DOWNLOADS_DIR。原先这里硬编码作者机器上的路径，在他机上会把 MHCflurry
+# 指向不存在的目录。
 
 BASE = Path(__file__).resolve().parent.parent
 
@@ -56,7 +58,7 @@ FILLED_VINA_RESULTS_PATH = CASCADE_DIR / "filled_seq_vina_results.json"
 FILLED_VINA_POSES_DIR = CASCADE_DIR / "filled_seq_poses"
 WT_ESMFOLD_POCKETS_PATH = CASCADE_DIR / "wt_esmfold_pockets.json"
 
-DEFAULT_BIOSAFETY_PYTHON = "/home/ycao95/.conda/envs/biosafety/bin/python"
+DEFAULT_BIOSAFETY_PYTHON = sys.executable
 if not os.path.exists(DEFAULT_BIOSAFETY_PYTHON):
     DEFAULT_BIOSAFETY_PYTHON = sys.executable
 BIOSAFETY_PYTHON = os.environ.get("BIOSAFETY_PYTHON", DEFAULT_BIOSAFETY_PYTHON)

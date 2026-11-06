@@ -10,7 +10,7 @@
       "n_masked_total": 7,
       "n_masked_critical": 7,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/Anthrax_PA_active_site_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/Anthrax_PA_active_site_predictions.json"
     },
     {
       "protein_name": "Anthrax_PA",
@@ -20,7 +20,7 @@
       "n_masked_total": 4,
       "n_masked_critical": 4,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/Anthrax_PA_binding_interface_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/Anthrax_PA_binding_interface_predictions.json"
     },
     {
       "protein_name": "Anthrax_PA",
@@ -30,7 +30,7 @@
       "n_masked_total": 9,
       "n_masked_critical": 4,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/Anthrax_PA_immune_epitope_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/Anthrax_PA_immune_epitope_predictions.json"
     },
     {
       "protein_name": "Anthrax_PA",
@@ -40,7 +40,7 @@
       "n_masked_total": 114,
       "n_masked_critical": 0,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/Anthrax_PA_random_15pct_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/Anthrax_PA_random_15pct_predictions.json"
     },
     {
       "protein_name": "Ebola_GP",
@@ -50,7 +50,7 @@
       "n_masked_total": 8,
       "n_masked_critical": 8,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/Ebola_GP_active_site_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/Ebola_GP_active_site_predictions.json"
     },
     {
       "protein_name": "Ebola_GP",
@@ -60,7 +60,7 @@
       "n_masked_total": 4,
       "n_masked_critical": 4,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/Ebola_GP_binding_interface_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/Ebola_GP_binding_interface_predictions.json"
     },
     {
       "protein_name": "Ebola_GP",
@@ -70,7 +70,7 @@
       "n_masked_total": 9,
       "n_masked_critical": 1,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/Ebola_GP_immune_epitope_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/Ebola_GP_immune_epitope_predictions.json"
     },
     {
       "protein_name": "Ebola_GP",
@@ -80,7 +80,7 @@
       "n_masked_total": 101,
       "n_masked_critical": 3,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/Ebola_GP_random_15pct_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/Ebola_GP_random_15pct_predictions.json"
     },
     {
       "protein_name": "HCV_NS3_Protease",
@@ -90,7 +90,7 @@
       "n_masked_total": 3,
       "n_masked_critical": 3,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/HCV_NS3_Protease_active_site_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/HCV_NS3_Protease_active_site_predictions.json"
     },
     {
       "protein_name": "HCV_NS3_Protease",
@@ -100,7 +100,7 @@
       "n_masked_total": 3,
       "n_masked_critical": 3,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/HCV_NS3_Protease_binding_interface_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/HCV_NS3_Protease_binding_interface_predictions.json"
     },
     {
       "protein_name": "HCV_NS3_Protease",
@@ -110,7 +110,7 @@
       "n_masked_total": 9,
       "n_masked_critical": 1,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/HCV_NS3_Protease_immune_epitope_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/HCV_NS3_Protease_immune_epitope_predictions.json"
     },
     {
       "protein_name": "HCV_NS3_Protease",
@@ -120,7 +120,7 @@
       "n_masked_total": 27,
       "n_masked_critical": 1,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/HCV_NS3_Protease_random_15pct_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/HCV_NS3_Protease_random_15pct_predictions.json"
     },
     {
       "protein_name": "HIV1_Protease",
@@ -130,7 +130,7 @@
       "n_masked_total": 8,
       "n_masked_critical": 8,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/HIV1_Protease_active_site_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/HIV1_Protease_active_site_predictions.json"
     },
     {
       "protein_name": "HIV1_Protease",
@@ -140,7 +140,7 @@
       "n_masked_total": 4,
       "n_masked_critical": 4,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/HIV1_Protease_binding_interface_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/HIV1_Protease_binding_interface_predictions.json"
     },
     {
       "protein_name": "HIV1_Protease",
@@ -150,7 +150,7 @@
       "n_masked_total": 9,
       "n_masked_critical": 5,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/HIV1_Protease_immune_epitope_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/HIV1_Protease_immune_epitope_predictions.json"
     },
     {
       "protein_name": "HIV1_Protease",
@@ -160,7 +160,7 @@
       "n_masked_total": 217,
       "n_masked_critical": 0,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/HIV1_Protease_random_15pct_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/HIV1_Protease_random_15pct_predictions.json"
     },
     {
       "protein_name": "HIV1_RT",
@@ -170,7 +170,7 @@
       "n_masked_total": 8,
       "n_masked_critical": 8,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/HIV1_RT_active_site_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/HIV1_RT_active_site_predictions.json"
     },
     {
       "protein_name": "HIV1_RT",
@@ -180,7 +180,7 @@
       "n_masked_total": 4,
       "n_masked_critical": 4,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/HIV1_RT_binding_interface_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/HIV1_RT_binding_interface_predictions.json"
     },
     {
       "protein_name": "HIV1_RT",
@@ -190,7 +190,7 @@
       "n_masked_total": 9,
       "n_masked_critical": 1,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/HIV1_RT_immune_epitope_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/HIV1_RT_immune_epitope_predictions.json"
     },
     {
       "protein_name": "HIV1_RT",
@@ -200,7 +200,7 @@
       "n_masked_total": 215,
       "n_masked_critical": 3,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/HIV1_RT_random_15pct_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/HIV1_RT_random_15pct_predictions.json"
     },
     {
       "protein_name": "Influenza_NA",
@@ -210,7 +210,7 @@
       "n_masked_total": 8,
       "n_masked_critical": 8,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/Influenza_NA_active_site_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/Influenza_NA_active_site_predictions.json"
     },
     {
       "protein_name": "Influenza_NA",
@@ -220,7 +220,7 @@
       "n_masked_total": 4,
       "n_masked_critical": 4,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/Influenza_NA_binding_interface_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/Influenza_NA_binding_interface_predictions.json"
     },
     {
       "protein_name": "Influenza_NA",
@@ -230,7 +230,7 @@
       "n_masked_total": 9,
       "n_masked_critical": 1,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/Influenza_NA_immune_epitope_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/Influenza_NA_immune_epitope_predictions.json"
     },
     {
       "protein_name": "Influenza_NA",
@@ -240,7 +240,7 @@
       "n_masked_total": 67,
       "n_masked_critical": 1,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/Influenza_NA_random_15pct_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/Influenza_NA_random_15pct_predictions.json"
     },
     {
       "protein_name": "SARS-CoV2_Mpro",
@@ -250,7 +250,7 @@
       "n_masked_total": 8,
       "n_masked_critical": 8,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/SARS-CoV2_Mpro_active_site_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/SARS-CoV2_Mpro_active_site_predictions.json"
     },
     {
       "protein_name": "SARS-CoV2_Mpro",
@@ -260,7 +260,7 @@
       "n_masked_total": 4,
       "n_masked_critical": 4,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/SARS-CoV2_Mpro_binding_interface_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/SARS-CoV2_Mpro_binding_interface_predictions.json"
     },
     {
       "protein_name": "SARS-CoV2_Mpro",
@@ -270,7 +270,7 @@
       "n_masked_total": 9,
       "n_masked_critical": 1,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/SARS-CoV2_Mpro_immune_epitope_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/SARS-CoV2_Mpro_immune_epitope_predictions.json"
     },
     {
       "protein_name": "SARS-CoV2_Mpro",
@@ -280,7 +280,7 @@
       "n_masked_total": 1064,
       "n_masked_critical": 0,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/SARS-CoV2_Mpro_random_15pct_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/SARS-CoV2_Mpro_random_15pct_predictions.json"
     },
     {
       "protein_name": "SARS-CoV2_RdRp",
@@ -290,7 +290,7 @@
       "n_masked_total": 7,
       "n_masked_critical": 7,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/SARS-CoV2_RdRp_active_site_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/SARS-CoV2_RdRp_active_site_predictions.json"
     },
     {
       "protein_name": "SARS-CoV2_RdRp",
@@ -300,7 +300,7 @@
       "n_masked_total": 4,
       "n_masked_critical": 4,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/SARS-CoV2_RdRp_binding_interface_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/SARS-CoV2_RdRp_binding_interface_predictions.json"
     },
     {
       "protein_name": "SARS-CoV2_RdRp",
@@ -310,7 +310,7 @@
       "n_masked_total": 9,
       "n_masked_critical": 3,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/SARS-CoV2_RdRp_immune_epitope_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/SARS-CoV2_RdRp_immune_epitope_predictions.json"
     },
     {
       "protein_name": "SARS-CoV2_RdRp",
@@ -320,7 +320,7 @@
       "n_masked_total": 1064,
       "n_masked_critical": 4,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/SARS-CoV2_RdRp_random_15pct_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/SARS-CoV2_RdRp_random_15pct_predictions.json"
     },
     {
       "protein_name": "SARS-CoV2_Spike_RBD",
@@ -330,7 +330,7 @@
       "n_masked_total": 5,
       "n_masked_critical": 5,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/SARS-CoV2_Spike_RBD_active_site_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/SARS-CoV2_Spike_RBD_active_site_predictions.json"
     },
     {
       "protein_name": "SARS-CoV2_Spike_RBD",
@@ -340,7 +340,7 @@
       "n_masked_total": 4,
       "n_masked_critical": 4,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/SARS-CoV2_Spike_RBD_binding_interface_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/SARS-CoV2_Spike_RBD_binding_interface_predictions.json"
     },
     {
       "protein_name": "SARS-CoV2_Spike_RBD",
@@ -350,7 +350,7 @@
       "n_masked_total": 9,
       "n_masked_critical": 1,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/SARS-CoV2_Spike_RBD_immune_epitope_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/SARS-CoV2_Spike_RBD_immune_epitope_predictions.json"
     },
     {
       "protein_name": "SARS-CoV2_Spike_RBD",
@@ -360,7 +360,7 @@
       "n_masked_total": 190,
       "n_masked_critical": 1,
       "model_used": "esm2_t33_650M_UR50D",
-      "file": "/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/results/maskfill/SARS-CoV2_Spike_RBD_random_15pct_predictions.json"
+      "file": "Protein/T3.1 Protein Mask & Fill/results/maskfill/SARS-CoV2_Spike_RBD_random_15pct_predictions.json"
     }
   ]
 }

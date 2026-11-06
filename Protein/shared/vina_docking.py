@@ -16,8 +16,8 @@ import tempfile
 import urllib.request
 from pathlib import Path
 
-BIOSAFETY_PYTHON = "/home/ycao95/.conda/envs/biosafety/bin/python"
-MK_PREPARE_RECEPTOR = "/home/ycao95/.conda/envs/biosafety/bin/mk_prepare_receptor.py"
+BIOSAFETY_PYTHON = os.environ.get("BIOSAFETY_PYTHON", sys.executable)
+MK_PREPARE_RECEPTOR = os.environ.get("MK_PREPARE_RECEPTOR", "mk_prepare_receptor.py")
 SHARED_DIR = Path(__file__).parent
 RESULTS_PATH = SHARED_DIR / "vina_results.json"
 

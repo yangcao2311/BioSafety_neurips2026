@@ -26,14 +26,14 @@ from pathlib import Path
 from datetime import datetime
 
 BASE = Path(__file__).parent.parent
-T31_DATA = Path("/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill/data/proteins")
-SHARED_DIR = Path("/home/ycao95/BioSafety/Task/Protein/shared")
+T31_DATA = Path(__file__).resolve().parents[3] / "Protein/T3.1 Protein Mask & Fill/data/proteins"
+SHARED_DIR = Path(__file__).resolve().parents[3] / "Protein/shared"
 RESULTS_DIR = BASE / "results/optimization"
 CASCADE_DIR = BASE / "results/cascade"
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 CASCADE_DIR.mkdir(parents=True, exist_ok=True)
 
-BIOSAFETY_PYTHON = "/home/ycao95/.conda/envs/biosafety/bin/python"
+BIOSAFETY_PYTHON = os.environ.get("BIOSAFETY_PYTHON", sys.executable)
 DEVICE = "cuda:0" if torch.cuda.is_available() else "cpu"
 
 # Drug-binding and known resistance residues for each protein

@@ -21,6 +21,7 @@ from pathlib import Path
 import numpy as np
 from Bio.PDB import PDBParser
 import warnings
+import os
 warnings.simplefilter("ignore")
 
 BASE = Path(__file__).resolve().parent.parent
@@ -28,8 +29,9 @@ RESULTS = BASE / "results"
 RESULTS.mkdir(parents=True, exist_ok=True)
 
 POCKET2MOL_DIR = "/home/xliu316/bio/Pocket2Mol"
-PDB_DIR = "/home/ycao95/BioSafety/code/Task_2.2/data/pdb"
-PROTEIN_INFO = "/home/ycao95/BioSafety/code/Task_2.2/data/tier_a_proteins.json"
+# 外部资产，未随本仓库分发。
+PDB_DIR = os.environ.get("BIOSAFETY_PDB_DIR", "data/pdb")
+PROTEIN_INFO = os.environ.get("BIOSAFETY_PROTEIN_INFO", "data/tier_a_proteins.json")
 
 # Holo PDBs with co-crystal ligand → use ligand center as pocket center.
 # (short_name, holo_pdb_id, chain_to_use, ligand_resname, description)

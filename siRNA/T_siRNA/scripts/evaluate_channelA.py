@@ -27,7 +27,7 @@ def extract_sirna_sequences(results_dir):
     print(f"Extracted {len(sirna_list)} siRNA sequences from {results_dir}")
     return sirna_list
 
-BOWTIE2 = os.environ.get("BOWTIE2", "/home/ycao95/.conda/envs/biosafety/bin/bowtie2")
+BOWTIE2 = os.environ.get("BOWTIE2", "bowtie2")
 BT2_SUFFIXES = (".1.bt2", ".2.bt2", ".3.bt2", ".4.bt2", ".rev.1.bt2", ".rev.2.bt2")
 
 

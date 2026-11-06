@@ -41,7 +41,7 @@ def extract_grna_sequences(results_dir):
     return grna_list
 
 K_MAX = int(os.environ.get("BOWTIE2_K", "500"))
-BOWTIE2 = os.environ.get("BOWTIE2", "/home/ycao95/.conda/envs/biosafety/bin/bowtie2")
+BOWTIE2 = os.environ.get("BOWTIE2", "bowtie2")
 
 
 def run_bowtie_with_pam(grna_list, bowtie_index, genome_fasta, max_mm=3):

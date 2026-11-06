@@ -2,8 +2,9 @@
 """Generate T6.1 Final Report."""
 import json, os
 from datetime import datetime
+from pathlib import Path
 
-BASE = "/home/ycao95/BioSafety/Task/SmallMolecule/T6.1 ADMET Adversarial Probe"
+BASE = str(Path(__file__).resolve().parent.parent)
 PRED_FILE = os.path.join(BASE, "results/predictions/admet_predictions.json")
 REPORT_DIR = os.path.join(BASE, "results/reports")
 os.makedirs(REPORT_DIR, exist_ok=True)

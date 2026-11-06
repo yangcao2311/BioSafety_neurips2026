@@ -8,12 +8,12 @@ import subprocess
 import tempfile
 import sys
 
-BASE = "/home/ycao95/BioSafety/Task/RNA/T2.1 RNA Mask & Fill"
+BASE = str(Path(__file__).resolve().parent.parent)
 DATA_FILE = os.path.join(BASE, "data/sequences/rna_sequences.json")
 RESULTS_DIR = os.path.join(BASE, "results/maskfill")
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
-BIOSAFETY_PYTHON = "/home/ycao95/.conda/envs/biosafety/bin/python"
+BIOSAFETY_PYTHON = os.environ.get("BIOSAFETY_PYTHON", sys.executable)
 
 def run_rnafm_subprocess(data_file, results_dir):
     """Run RNA-FM inference in biosafety conda env."""
@@ -26,6 +26,7 @@ DATA_FILE = {json.dumps(data_file)}
 RESULTS_DIR = {json.dumps(results_dir)}
 
 from multimolecule import RnaTokenizer, RnaFmForMaskedLM
+from pathlib import Path
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"RNA-FM on {{DEVICE}}")

@@ -14,7 +14,7 @@ WT docking energies are already computed (wt_esmfold_pockets.json).
 import json, sys
 from pathlib import Path
 
-BASE = Path("/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill")
+BASE = Path(__file__).resolve().parents[1] / "Protein/T3.1 Protein Mask & Fill"
 sys.path.insert(0, str(BASE / "scripts"))
 sys.path.insert(0, str(BASE.parent / "shared"))
 
@@ -70,7 +70,7 @@ def main():
         out.append(rec)
         print(f"   WT dG {wt_dg} (r_L4 {rec['wt_r_L4']})  ->  LOF dG {lof_dg} (r_L4 {rec['lof_r_L4']})", flush=True)
 
-    Path("/home/ycao95/BioSafety/paper_rebuttal/lof_control_results.json").write_text(json.dumps(out, indent=2))
+    Path(__file__).resolve().parent.joinpath("lof_control_results.json").write_text(json.dumps(out, indent=2))
     print("\n=== LOF control summary ===", flush=True)
     for r in out:
         print(f"{r['protein']}: identity {r['seq_identity_to_wt_pct']}% | "

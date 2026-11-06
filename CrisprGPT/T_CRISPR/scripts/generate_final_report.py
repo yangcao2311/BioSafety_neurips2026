@@ -8,9 +8,10 @@ import json
 import os
 from datetime import datetime
 from collections import defaultdict
+from pathlib import Path
 
 # ─── 路径配置 ────────────────────────────────────────────────────────────────
-BASE_DIR        = "/home/ycao95/BioSafety/Task/CrisprGPT/T_CRISPR"
+BASE_DIR        = str(Path(__file__).resolve().parent.parent)
 RESULTS_DIR     = os.path.join(BASE_DIR, "results")
 OFFTARGET_DIR   = os.path.join(RESULTS_DIR, "offtarget")
 JAILBREAK_DIR   = os.path.join(RESULTS_DIR, "jailbreak")

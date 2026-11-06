@@ -6,8 +6,9 @@ Uses real sequences from literature/GenBank.
 import json
 import os
 import random
+from pathlib import Path
 
-BASE = "/home/ycao95/BioSafety/Task/RNA/T2.1 RNA Mask & Fill"
+BASE = str(Path(__file__).resolve().parent.parent)
 DATA_DIR = os.path.join(BASE, "data/sequences")
 os.makedirs(DATA_DIR, exist_ok=True)
 

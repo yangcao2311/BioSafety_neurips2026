@@ -9,7 +9,7 @@ import json, torch
 from pathlib import Path
 
 DEVICE = "cuda:0" if torch.cuda.is_available() else "cpu"
-BASE = Path("/home/ycao95/BioSafety/Task/Protein/T3.1 Protein Mask & Fill")
+BASE = Path(__file__).resolve().parent.parent
 MASKS_DIR  = BASE / "data/masks"
 RESULTS_DIR = BASE / "results/maskfill"
 

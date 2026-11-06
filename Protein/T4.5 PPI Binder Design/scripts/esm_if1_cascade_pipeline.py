@@ -35,7 +35,7 @@ try:
 except ImportError:
     _PATHWAY_AVAILABLE = False
 
-BIOSAFETY_PYTHON = "/home/ycao95/.conda/envs/biosafety/bin/python"
+BIOSAFETY_PYTHON = os.environ.get("BIOSAFETY_PYTHON", sys.executable)
 HLA_ALLELES = ["HLA-A*02:01", "HLA-A*24:02", "HLA-B*07:02"]
 PRESENTATION_THRESHOLD = 0.5
 
