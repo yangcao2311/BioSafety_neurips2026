@@ -1,6 +1,6 @@
 # BioSafetyBench
 
-Evaluation code for **"BioSafetyBench: Agentic Cascade Evaluation for the Bio-AI Ecosystem"**,
+Evaluation code for **"BioSafetyBench: Agentic Evaluation for Bio-AI Safety"**,
 NeurIPS 2026, Track on Evaluations and Datasets.
 
 Yang Cao<sup>1</sup>, Xiaogeng Liu<sup>1</sup>, Shengchao Liu<sup>2</sup>, Chaowei Xiao<sup>1</sup>
@@ -15,7 +15,7 @@ accession and version rather than redistributed here.
 
 ```bibtex
 @inproceedings{cao2026biosafetybench,
-  title     = {BioSafetyBench: Agentic Cascade Evaluation for the Bio-AI Ecosystem},
+  title     = {BioSafetyBench: Agentic Evaluation for Bio-AI Safety},
   author    = {Cao, Yang and Liu, Xiaogeng and Liu, Shengchao and Xiao, Chaowei},
   booktitle = {Advances in Neural Information Processing Systems (NeurIPS),
                Track on Evaluations and Datasets},
